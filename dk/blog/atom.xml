@@ -12,21 +12,21 @@
         <id>https://OneManStudio-IL.github.io/dk/blog/release-2025-2-0</id>
         <link href="https://OneManStudio-IL.github.io/dk/blog/release-2025-2-0"/>
         <updated>2025-11-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[🚀 Introducing MOCPilot 2025.2.0 — Official Multi-Platform Release!]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vdyg" id="-introducing-mocpilot-202520--official-multi-platform-release">🚀 Introducing MOCPilot 2025.2.0 — Official Multi-Platform Release!<a href="https://onemanstudio-il.github.io/dk/blog/release-2025-2-0#-introducing-mocpilot-202520--official-multi-platform-release" class="hash-link" aria-label="Direkte link til 🚀 Introducing MOCPilot 2025.2.0 — Official Multi-Platform Release!" title="Direkte link til 🚀 Introducing MOCPilot 2025.2.0 — Official Multi-Platform Release!" translate="no">​</a></h2>
-<p>We’re excited to announce the official release of <strong>MOCPilot 2025.2.0</strong>, now available across <strong>Android</strong>, <strong>iOS</strong>, and <strong>macOS</strong>!</p>
-<p>This update marks a major step forward for the project. The application previously known as <strong>Controlz</strong> has been renamed to <strong>MOCPilot</strong>.<br>
-<!-- -->The new name better reflects the app’s purpose and future direction — serving as a unified “pilot” for your LEGO®-based creations, providing advanced control, programming capabilities, and a more intuitive experience for builders of all levels.</p>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2025.2.0 — Officiel multiplatformudgivelse!]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vdyg" id="-mocpilot-202520--officiel-multiplatformudgivelse">🚀 MOCPilot 2025.2.0 — Officiel multiplatformudgivelse!<a href="https://onemanstudio-il.github.io/dk/blog/release-2025-2-0#-mocpilot-202520--officiel-multiplatformudgivelse" class="hash-link" aria-label="Direkte link til 🚀 MOCPilot 2025.2.0 — Officiel multiplatformudgivelse!" title="Direkte link til 🚀 MOCPilot 2025.2.0 — Officiel multiplatformudgivelse!" translate="no">​</a></h2>
+<p>Vi er glade for at kunne annoncere den officielle udgivelse af <strong>MOCPilot 2025.2.0</strong>, som nu er tilgængelig på <strong>Android</strong>, <strong>iOS</strong> og <strong>macOS</strong>!</p>
+<p>Appen, tidligere kendt som <strong>Controlz</strong>, har fået et nyt navn: <strong>MOCPilot</strong>.<br>
+<!-- -->Det nye navn afspejler bedre appens formål og fremtidige udvikling som en samlet “pilot”-platform til styring og programmering af dine LEGO®-kreationer.</p>
 <hr>
-<h2 class="anchor anchorTargetStickyNavbar_Vdyg" id="-whats-new-in-202520">✨ What’s New in 2025.2.0?<a href="https://onemanstudio-il.github.io/dk/blog/release-2025-2-0#-whats-new-in-202520" class="hash-link" aria-label="Direkte link til ✨ What’s New in 2025.2.0?" title="Direkte link til ✨ What’s New in 2025.2.0?" translate="no">​</a></h2>
+<h2 class="anchor anchorTargetStickyNavbar_Vdyg" id="-nyt-i-202520">✨ Nyt i 2025.2.0<a href="https://onemanstudio-il.github.io/dk/blog/release-2025-2-0#-nyt-i-202520" class="hash-link" aria-label="Direkte link til ✨ Nyt i 2025.2.0" title="Direkte link til ✨ Nyt i 2025.2.0" translate="no">​</a></h2>
 <ul>
-<li class="">Unified multi-platform release for Android, iOS, and macOS</li>
-<li class="">Improved stability, performance, and UI responsiveness</li>
-<li class="">Updated branding and identity under the new name <em>MOCPilot</em></li>
-<li class="">Continued support for LEGO® Control+, BuWizz 2/3, and custom Bluetooth modules</li>
+<li class="">Samlet udgivelse til Android, iOS og macOS</li>
+<li class="">Forbedret stabilitet, ydeevne og UI-respons</li>
+<li class="">Opdateret branding og navn <em>MOCPilot</em></li>
+<li class="">Fortsat support til LEGO® Control+, BuWizz 2/3 og brugerdefinerede Bluetooth-moduler</li>
 </ul>
 <hr>
-<p>Download MOCPilot today on your preferred platform and take full control of your LEGO® creations with the next-generation building and programming experience!</p>]]></content>
+<p>Download MOCPilot i dag og få den næste generations kontrol over dine LEGO®-modeller!</p>]]></content>
         <author>
             <name>Maxim</name>
             <uri>https://github.com/llOzzeell</uri>
