@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>MOCPilot home Blog</title>
-        <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/se/blog</link>
+        <link>https://OneManStudio-IL.github.io/mocpilot-app/se/blog</link>
         <description>MOCPilot home Blog</description>
         <lastBuildDate>Tue, 03 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,29 +10,29 @@
         <language>se</language>
         <item>
             <title><![CDATA[Release MOCPilot 2025.1.9]]></title>
-            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/se/blog/release-2025-1-9</link>
-            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/se/blog/release-2025-1-9</guid>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/se/blog/release-2025-1-9</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/se/blog/release-2025-1-9</guid>
             <pubDate>Tue, 03 Jun 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[🚀 MOCPilot 2025.1.9 is now available on the Mac App Store!]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202519-is-now-available-on-the-mac-app-store">🚀 MOCPilot 2025.1.9 is now available on the Mac App Store!<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/se/blog/release-2025-1-9#-mocpilot-202519-is-now-available-on-the-mac-app-store" class="hash-link" aria-label="Direktlänk till 🚀 MOCPilot 2025.1.9 is now available on the Mac App Store!" title="Direktlänk till 🚀 MOCPilot 2025.1.9 is now available on the Mac App Store!" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vdyg" id="-mocpilot-202519-is-now-available-on-the-mac-app-store">🚀 MOCPilot 2025.1.9 is now available on the Mac App Store!<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/release-2025-1-9#-mocpilot-202519-is-now-available-on-the-mac-app-store" class="hash-link" aria-label="Direktlänk till 🚀 MOCPilot 2025.1.9 is now available on the Mac App Store!" title="Direktlänk till 🚀 MOCPilot 2025.1.9 is now available on the Mac App Store!" translate="no">​</a></h2>
 <p>We’re excited to announce the release of MOCPilot 2025.1.9 as a native macOS application!</p>
 <hr>
 <p>You can now enjoy full desktop performance and seamless integration with macOS.
 Download it today from the Mac App Store and take control of your LEGO® creations like never before!</p>
-<a href="https://apps.apple.com/il/app/controlz-moc-controller/id1585138043" target="_blank" rel="noopener noreferrer" class="margin--sm"><img src="https://onemanstudio-il.github.io/MOCPilot-Docs/se/img/store_badges/mac/mac_SE.svg" alt="Download on the Mac App Store" height="60"></a>]]></content:encoded>
+<a href="https://apps.apple.com/il/app/controlz-moc-controller/id1585138043" target="_blank" rel="noopener noreferrer" class="margin--sm"><img src="https://onemanstudio-il.github.io/mocpilot-app/se/img/store_badges/mac/mac_SE.svg" alt="Download on the Mac App Store" height="60"></a>]]></content:encoded>
             <category>Dev</category>
             <category>Test</category>
         </item>
         <item>
             <title><![CDATA[Release MOCPilot 2025.1.5]]></title>
-            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-5</link>
-            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-5</guid>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-5</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-5</guid>
             <pubDate>Sat, 17 May 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Beskrivning]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="beskrivning">Beskrivning<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-5#beskrivning" class="hash-link" aria-label="Direktlänk till Beskrivning" title="Direktlänk till Beskrivning" translate="no">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="beskrivning">Beskrivning<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-5#beskrivning" class="hash-link" aria-label="Direktlänk till Beskrivning" title="Direktlänk till Beskrivning" translate="no">​</a></h3>
 <p>Denna uppdatering förbättrar blockredigeringsupplevelsen, ökar prestandan och säkerställer korrekt funktionalitet på nyare Android-versioner.</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="förändringar">Förändringar<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-5#f%C3%B6r%C3%A4ndringar" class="hash-link" aria-label="Direktlänk till Förändringar" title="Direktlänk till Förändringar" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="förändringar">Förändringar<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-5#f%C3%B6r%C3%A4ndringar" class="hash-link" aria-label="Direktlänk till Förändringar" title="Direktlänk till Förändringar" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Fixade en bugg med hub-skanning på Android 12+</strong> genom att begära exakt platsbehörighet.</li>
 <li class=""><strong>La till ett alternativ för att dölja/visa blockpaletten</strong> genom att klicka på den för närvarande valda blocksamlingen.</li>
@@ -45,14 +45,14 @@ Download it today from the Mac App Store and take control of your LEGO® creatio
         </item>
         <item>
             <title><![CDATA[Release MOCPilot 2025.1.4]]></title>
-            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-4</link>
-            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-4</guid>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-4</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-4</guid>
             <pubDate>Sat, 10 May 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Beskrivning]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="beskrivning">Beskrivning<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-4#beskrivning" class="hash-link" aria-label="Direktlänk till Beskrivning" title="Direktlänk till Beskrivning" translate="no">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="beskrivning">Beskrivning<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-4#beskrivning" class="hash-link" aria-label="Direktlänk till Beskrivning" title="Direktlänk till Beskrivning" translate="no">​</a></h3>
 <p>Denna uppdatering förbättrar stödet för surfplattor, lägger till användbara testsidor och åtgärdar flera kompatibilitets- och prestandaproblem.</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="förändringar">Förändringar<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-4#f%C3%B6r%C3%A4ndringar" class="hash-link" aria-label="Direktlänk till Förändringar" title="Direktlänk till Förändringar" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="förändringar">Förändringar<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-4#f%C3%B6r%C3%A4ndringar" class="hash-link" aria-label="Direktlänk till Förändringar" title="Direktlänk till Förändringar" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>La till surfplattelayout</strong> för bättre utnyttjande av större skärmar.</li>
 <li class=""><strong>Fixade en bugg där blocket "hub button pressed"</strong> dök upp för hubbar som inte stödjer denna funktion. Fixade även olämpliga <strong>färg sensors-block</strong> för icke-stödda hubbar (t.ex. BuWizz).</li>
@@ -69,14 +69,14 @@ Download it today from the Mac App Store and take control of your LEGO® creatio
         </item>
         <item>
             <title><![CDATA[Release MOCPilot 2025.1.2 - 2025.1.3]]></title>
-            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-2-3</link>
-            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-2-3</guid>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-2-3</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-2-3</guid>
             <pubDate>Sat, 19 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Beskrivning]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="beskrivning">Beskrivning<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-2-3#beskrivning" class="hash-link" aria-label="Direktlänk till Beskrivning" title="Direktlänk till Beskrivning" translate="no">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="beskrivning">Beskrivning<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-2-3#beskrivning" class="hash-link" aria-label="Direktlänk till Beskrivning" title="Direktlänk till Beskrivning" translate="no">​</a></h3>
 <p>Denna uppdatering introducerar nya anpassningsalternativ för joystick, förbättringar av användargränssnittet och viktiga stabilitetsfixar.</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="förändringar">Förändringar<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-2-3#f%C3%B6r%C3%A4ndringar" class="hash-link" aria-label="Direktlänk till Förändringar" title="Direktlänk till Förändringar" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="förändringar">Förändringar<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-2-3#f%C3%B6r%C3%A4ndringar" class="hash-link" aria-label="Direktlänk till Förändringar" title="Direktlänk till Förändringar" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Fixade en bugg i blockpalettens samlingsväljare</strong>: att välja en samling, scrolla till en annan och sedan återgå hade ingen effekt.</li>
 <li class=""><strong>Fixade en krasch vid laddning av tunga profiler</strong> med många block.</li>
@@ -89,14 +89,14 @@ Download it today from the Mac App Store and take control of your LEGO® creatio
         </item>
         <item>
             <title><![CDATA[Release MOCPilot 2025.1.1]]></title>
-            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-1</link>
-            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-1</guid>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-1</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-1</guid>
             <pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Beskrivning]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="beskrivning">Beskrivning<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-1#beskrivning" class="hash-link" aria-label="Direktlänk till Beskrivning" title="Direktlänk till Beskrivning" translate="no">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="beskrivning">Beskrivning<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-1#beskrivning" class="hash-link" aria-label="Direktlänk till Beskrivning" title="Direktlänk till Beskrivning" translate="no">​</a></h3>
 <p>Denna uppdatering inkluderar flera viktiga buggfixar som förbättrar prestanda, minskar batteriförbrukningen och förbättrar blockbeteendet i programmeringsmiljön.</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="förändringar">Förändringar<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/se/blog/closed-test-release-2025-1-1#f%C3%B6r%C3%A4ndringar" class="hash-link" aria-label="Direktlänk till Förändringar" title="Direktlänk till Förändringar" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="förändringar">Förändringar<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/closed-test-release-2025-1-1#f%C3%B6r%C3%A4ndringar" class="hash-link" aria-label="Direktlänk till Förändringar" title="Direktlänk till Förändringar" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Fixade en bugg som orsakade hög CPU-användning, batteriförbrukning och låg prestanda.</strong></li>
 <li class=""><strong>Fixade en bugg där gamepad-block</strong> (t.ex. ”är knapp nedtryckt”, ”är D-PAD-knapp nedtryckt”) <strong>inte kunde kopplas till andra block.</strong></li>
@@ -108,11 +108,11 @@ Download it today from the Mac App Store and take control of your LEGO® creatio
         </item>
         <item>
             <title><![CDATA[MOCPilot 2025.1.0]]></title>
-            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/se/blog/closed-test-begin</link>
-            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/se/blog/closed-test-begin</guid>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/se/blog/closed-test-begin</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/se/blog/closed-test-begin</guid>
             <pubDate>Fri, 04 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[🚀 MOCPilot 2025.1.0 Stängd Beta Har Börjat!]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202510-stängd-beta-har-börjat">🚀 MOCPilot 2025.1.0 Stängd Beta Har Börjat!<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/se/blog/closed-test-begin#-mocpilot-202510-st%C3%A4ngd-beta-har-b%C3%B6rjat" class="hash-link" aria-label="Direktlänk till 🚀 MOCPilot 2025.1.0 Stängd Beta Har Börjat!" title="Direktlänk till 🚀 MOCPilot 2025.1.0 Stängd Beta Har Börjat!" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vdyg" id="-mocpilot-202510-stängd-beta-har-börjat">🚀 MOCPilot 2025.1.0 Stängd Beta Har Börjat!<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/closed-test-begin#-mocpilot-202510-st%C3%A4ngd-beta-har-b%C3%B6rjat" class="hash-link" aria-label="Direktlänk till 🚀 MOCPilot 2025.1.0 Stängd Beta Har Börjat!" title="Direktlänk till 🚀 MOCPilot 2025.1.0 Stängd Beta Har Börjat!" translate="no">​</a></h2>
 <p>Vi är glada att meddela att den stängda beta-testen för MOCPilot 2025 nu är igång! Utvalda användare kan nu utforska nya funktioner, ge feedback och hjälpa till att forma MOCPilot framtid.</p>
 <p>Om du har fått en inbjudan, kolla din e-post för åtkomstinformation.<br>
 <!-- -->Tack för att du är en del av denna viktiga fas!</p>]]></content:encoded>

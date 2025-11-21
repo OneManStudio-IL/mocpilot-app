@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog</id>
+    <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog</id>
     <title>MOCPilot home Blog</title>
     <updated>2025-06-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog"/>
+    <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/ro/blog"/>
     <subtitle>MOCPilot home Blog</subtitle>
-    <icon>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/img/favicon.ico</icon>
+    <icon>https://OneManStudio-IL.github.io/mocpilot-app/ro/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Lansering av MOCPilot 2025.1.9]]></title>
-        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/release-2025-1-9</id>
-        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/release-2025-1-9"/>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/release-2025-1-9</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/release-2025-1-9"/>
         <updated>2025-06-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[🚀 MOCPilot 2025.1.9 finns nu tillgänglig på Mac App Store!]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202519-finns-nu-tillgänglig-på-mac-app-store">🚀 MOCPilot 2025.1.9 finns nu tillgänglig på Mac App Store!<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/release-2025-1-9#-mocpilot-202519-finns-nu-tillg%C3%A4nglig-p%C3%A5-mac-app-store" class="hash-link" aria-label="Link direct către 🚀 MOCPilot 2025.1.9 finns nu tillgänglig på Mac App Store!" title="Link direct către 🚀 MOCPilot 2025.1.9 finns nu tillgänglig på Mac App Store!" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vdyg" id="-mocpilot-202519-finns-nu-tillgänglig-på-mac-app-store">🚀 MOCPilot 2025.1.9 finns nu tillgänglig på Mac App Store!<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/release-2025-1-9#-mocpilot-202519-finns-nu-tillg%C3%A4nglig-p%C3%A5-mac-app-store" class="hash-link" aria-label="Link direct către 🚀 MOCPilot 2025.1.9 finns nu tillgänglig på Mac App Store!" title="Link direct către 🚀 MOCPilot 2025.1.9 finns nu tillgänglig på Mac App Store!" translate="no">​</a></h2>
 <p>Vi är glada att kunna meddela lanseringen av MOCPilot 2025.1.9 som en native macOS-app!</p>
 <hr>
 <p>Nu kan du njuta av full prestanda på skrivbordet och sömlös integration med macOS.<br>
 <!-- -->Ladda ner den idag från Mac App Store och ta kontroll över dina LEGO®-skapelser som aldrig förr!</p>
-<a href="https://apps.apple.com/il/app/controlz-moc-controller/id1585138043" target="_blank" rel="noopener noreferrer" class="margin--sm"><img src="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/img/store_badges/mac/mac_RO.svg" alt="Download on the Mac App Store" height="60"></a>]]></content>
+<a href="https://apps.apple.com/il/app/controlz-moc-controller/id1585138043" target="_blank" rel="noopener noreferrer" class="margin--sm"><img src="https://onemanstudio-il.github.io/mocpilot-app/ro/img/store_badges/mac/mac_RO.svg" alt="Download on the Mac App Store" height="60"></a>]]></content>
         <author>
             <name>Maxim</name>
             <uri>https://github.com/llOzzeell</uri>
@@ -28,14 +28,14 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Lansare MOCPilot 2025.1.4]]></title>
-        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4</id>
-        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4"/>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-4</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-4"/>
         <updated>2025-05-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Descriere]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere" translate="no">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-4#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere" translate="no">​</a></h3>
 <p>Această actualizare îmbunătățește suportul pentru tablete, adaugă pagini utile de testare și remediază mai multe probleme de compatibilitate și performanță.</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-4#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Adăugat layout pentru tablete</strong> pentru o utilizare mai eficientă a ecranelor mari.</li>
 <li class=""><strong>Remediată o eroare în care blocul „buton hub apăsat”</strong> apărea pentru hub-uri care nu acceptă această acțiune. De asemenea, au fost corectate <strong>blocurile de senzor de culoare</strong> afișate incorect pentru hub-uri nesuportate (ex: BuWizz).</li>
@@ -56,14 +56,14 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Lansare MOCPilot 2025.1.4]]></title>
-        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4</id>
-        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4"/>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-4</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-4"/>
         <updated>2025-05-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Descriere]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere" translate="no">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-4#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere" translate="no">​</a></h3>
 <p>Această actualizare îmbunătățește suportul pentru tablete, adaugă pagini utile de testare și remediază mai multe probleme de compatibilitate și performanță.</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-4#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Adăugat layout pentru tablete</strong> pentru o utilizare mai eficientă a ecranelor mari.</li>
 <li class=""><strong>Remediată o eroare în care blocul „buton hub apăsat”</strong> apărea pentru hub-uri care nu acceptă această acțiune. De asemenea, au fost corectate <strong>blocurile de senzor de culoare</strong> afișate incorect pentru hub-uri nesuportate (ex: BuWizz).</li>
@@ -84,14 +84,14 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Lansare MOCPilot 2025.1.2 - 2025.1.3]]></title>
-        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-2-3</id>
-        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-2-3"/>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-2-3</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-2-3"/>
         <updated>2025-04-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Descriere]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-2-3#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere" translate="no">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-2-3#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere" translate="no">​</a></h3>
 <p>Această actualizare introduce noi opțiuni de personalizare pentru joystick, îmbunătățiri ale interfeței și corecturi importante pentru stabilitate.</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-2-3#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-2-3#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Corectată o eroare în selectorul de colecții din paleta de blocuri</strong>: selectarea unei colecții, derularea către alta și revenirea nu aveau niciun efect.</li>
 <li class=""><strong>Corectată o prăbușire la încărcarea profilelor complexe</strong>, care conțineau un număr mare de blocuri.</li>
@@ -108,14 +108,14 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Lansare MOCPilot 2025.1.1]]></title>
-        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-1</id>
-        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-1"/>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-1</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-1"/>
         <updated>2025-04-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Descriere]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-1#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere" translate="no">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-1#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere" translate="no">​</a></h3>
 <p>Această actualizare include mai multe corecturi importante de erori care îmbunătățesc performanța, reduc consumul bateriei și optimizează comportamentul blocurilor în mediul de programare.</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-1#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/closed-test-release-2025-1-1#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Corectată o eroare care cauza utilizare ridicată a CPU-ului, descărcare rapidă a bateriei și performanță scăzută.</strong></li>
 <li class=""><strong>Corectată o eroare în blocurile pentru gamepad</strong> (de ex., „este butonul apăsat”, „este apăsat butonul D-PAD”) <strong>care împiedica atașarea acestora la alte blocuri.</strong></li>
@@ -131,11 +131,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[MOCPilot 2025.1.0]]></title>
-        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-begin</id>
-        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-begin"/>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/closed-test-begin</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/closed-test-begin"/>
         <updated>2025-04-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[🚀 MOCPilot 2025.1.0 Test Beta Închis a Început!]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202510-test-beta-închis-a-început">🚀 MOCPilot 2025.1.0 Test Beta Închis a Început!<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-begin#-mocpilot-202510-test-beta-%C3%AEnchis-a-%C3%AEnceput" class="hash-link" aria-label="Link direct către 🚀 MOCPilot 2025.1.0 Test Beta Închis a Început!" title="Link direct către 🚀 MOCPilot 2025.1.0 Test Beta Închis a Început!" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vdyg" id="-mocpilot-202510-test-beta-închis-a-început">🚀 MOCPilot 2025.1.0 Test Beta Închis a Început!<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/closed-test-begin#-mocpilot-202510-test-beta-%C3%AEnchis-a-%C3%AEnceput" class="hash-link" aria-label="Link direct către 🚀 MOCPilot 2025.1.0 Test Beta Închis a Început!" title="Link direct către 🚀 MOCPilot 2025.1.0 Test Beta Închis a Început!" translate="no">​</a></h2>
 <p>Suntem încântați să anunțăm că testul beta închis pentru MOCPilot 2025 este acum activ! Utilizatorii selectați pot explora noile funcționalități, pot oferi feedback și pot contribui la modelarea viitorului aplicației MOCPilot.</p>
 <p>Dacă ai primit o invitație, verifică-ți emailul pentru detaliile de acces.<br>
 <!-- -->Îți mulțumim că faci parte din această etapă importantă!</p>]]></content>

@@ -4,8 +4,8 @@
   <ShortName>MOCPilot home</ShortName>
   <Description>Search MOCPilot home</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://OneManStudio-IL.github.io/MOCPilot-Docs/es/img/favicon.ico</Image>
-  <Url type="text/html" method="get" template="https://OneManStudio-IL.github.io/MOCPilot-Docs/es/search?q={searchTerms}"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://OneManStudio-IL.github.io/MOCPilot-Docs/es/opensearch.xml" />
-  <moz:SearchForm>https://OneManStudio-IL.github.io/MOCPilot-Docs/es/</moz:SearchForm>
+  <Image width="16" height="16" type="image/x-icon">https://OneManStudio-IL.github.io/mocpilot-app/es/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://OneManStudio-IL.github.io/mocpilot-app/es/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://OneManStudio-IL.github.io/mocpilot-app/es/opensearch.xml" />
+  <moz:SearchForm>https://OneManStudio-IL.github.io/mocpilot-app/es/</moz:SearchForm>
 </OpenSearchDescription>

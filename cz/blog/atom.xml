@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/cz/blog</id>
+    <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog</id>
     <title>MOCPilot home Blog</title>
     <updated>2025-06-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://OneManStudio-IL.github.io/MOCPilot-Docs/cz/blog"/>
+    <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog"/>
     <subtitle>MOCPilot home Blog</subtitle>
-    <icon>https://OneManStudio-IL.github.io/MOCPilot-Docs/cz/img/favicon.ico</icon>
+    <icon>https://OneManStudio-IL.github.io/mocpilot-app/cz/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Vydání MOCPilot 2025.1.9]]></title>
-        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/cz/blog/release-2025-1-9</id>
-        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/cz/blog/release-2025-1-9"/>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/release-2025-1-9</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/release-2025-1-9"/>
         <updated>2025-06-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[🚀 MOCPilot 2025.1.9 je nyní dostupný v Mac App Store!]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202519-je-nyní-dostupný-v-mac-app-store">🚀 MOCPilot 2025.1.9 je nyní dostupný v Mac App Store!<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cz/blog/release-2025-1-9#-mocpilot-202519-je-nyn%C3%AD-dostupn%C3%BD-v-mac-app-store" class="hash-link" aria-label="Přímý odkaz na 🚀 MOCPilot 2025.1.9 je nyní dostupný v Mac App Store!" title="Přímý odkaz na 🚀 MOCPilot 2025.1.9 je nyní dostupný v Mac App Store!" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vdyg" id="-mocpilot-202519-je-nyní-dostupný-v-mac-app-store">🚀 MOCPilot 2025.1.9 je nyní dostupný v Mac App Store!<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/release-2025-1-9#-mocpilot-202519-je-nyn%C3%AD-dostupn%C3%BD-v-mac-app-store" class="hash-link" aria-label="Přímý odkaz na 🚀 MOCPilot 2025.1.9 je nyní dostupný v Mac App Store!" title="Přímý odkaz na 🚀 MOCPilot 2025.1.9 je nyní dostupný v Mac App Store!" translate="no">​</a></h2>
 <p>S potěšením oznamujeme vydání MOCPilot 2025.1.9 jako nativní aplikace pro macOS!</p>
 <hr>
 <p>Nyní si můžete užívat plný výkon na ploše a bezproblémovou integraci s macOS.<br>
 <!-- -->Stáhněte si ji ještě dnes z Mac App Store a získejte kontrolu nad svými LEGO® výtvory jako nikdy předtím!</p>
-<a href="https://apps.apple.com/il/app/controlz-moc-controller/id1585138043" target="_blank" rel="noopener noreferrer" class="margin--sm"><img src="https://onemanstudio-il.github.io/MOCPilot-Docs/cz/img/store_badges/mac/mac_CZ.svg" alt="Download on the Mac App Store" height="60"></a>]]></content>
+<a href="https://apps.apple.com/il/app/controlz-moc-controller/id1585138043" target="_blank" rel="noopener noreferrer" class="margin--sm"><img src="https://onemanstudio-il.github.io/mocpilot-app/cz/img/store_badges/mac/mac_CZ.svg" alt="Download on the Mac App Store" height="60"></a>]]></content>
         <author>
             <name>Maxim</name>
             <uri>https://github.com/llOzzeell</uri>
@@ -28,14 +28,14 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Vydání MOCPilot 2025.1.5]]></title>
-        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-5</id>
-        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-5"/>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-5</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-5"/>
         <updated>2025-05-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Popis]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="popis">Popis<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-5#popis" class="hash-link" aria-label="Přímý odkaz na Popis" title="Přímý odkaz na Popis" translate="no">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="popis">Popis<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-5#popis" class="hash-link" aria-label="Přímý odkaz na Popis" title="Přímý odkaz na Popis" translate="no">​</a></h3>
 <p>Tato aktualizace zlepšuje práci s bloky, zvyšuje výkon a zajišťuje správnou funkčnost na novějších verzích Androidu.</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="změny">Změny<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-5#zm%C4%9Bny" class="hash-link" aria-label="Přímý odkaz na Změny" title="Přímý odkaz na Změny" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="změny">Změny<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-5#zm%C4%9Bny" class="hash-link" aria-label="Přímý odkaz na Změny" title="Přímý odkaz na Změny" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Opravená chyba při skenování hubů na Androidu 12+</strong> – nyní se vyžaduje oprávnění k přesné poloze.</li>
 <li class=""><strong>Přidána možnost skrýt/zobrazit paletu bloků</strong> kliknutím na právě vybranou kolekci bloků.</li>
@@ -52,14 +52,14 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Vydání MOCPilot 2025.1.4]]></title>
-        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-4</id>
-        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-4"/>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-4</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-4"/>
         <updated>2025-05-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Popis]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="popis">Popis<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-4#popis" class="hash-link" aria-label="Přímý odkaz na Popis" title="Přímý odkaz na Popis" translate="no">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="popis">Popis<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-4#popis" class="hash-link" aria-label="Přímý odkaz na Popis" title="Přímý odkaz na Popis" translate="no">​</a></h3>
 <p>Tato aktualizace zlepšuje podporu pro tablety, přidává užitečné testovací stránky a opravuje několik problémů s kompatibilitou a výkonem.</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="změny">Změny<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-4#zm%C4%9Bny" class="hash-link" aria-label="Přímý odkaz na Změny" title="Přímý odkaz na Změny" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="změny">Změny<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-4#zm%C4%9Bny" class="hash-link" aria-label="Přímý odkaz na Změny" title="Přímý odkaz na Změny" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Přidáno rozvržení pro tablety</strong> pro lepší využití větších obrazovek.</li>
 <li class=""><strong>Opravená chyba, kdy se blok „tlačítko na hubu stisknuto“</strong> zobrazoval i pro huby, které tuto akci nepodporují. Také opraveny <strong>bloky pro barevný senzor</strong> u nepodporovaných hubů (např. BuWizz).</li>
@@ -80,14 +80,14 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Vydání MOCPilot 2025.1.2 – 2025.1.3]]></title>
-        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-2-3</id>
-        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-2-3"/>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-2-3</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-2-3"/>
         <updated>2025-04-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Popis]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="popis">Popis<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-2-3#popis" class="hash-link" aria-label="Přímý odkaz na Popis" title="Přímý odkaz na Popis" translate="no">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="popis">Popis<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-2-3#popis" class="hash-link" aria-label="Přímý odkaz na Popis" title="Přímý odkaz na Popis" translate="no">​</a></h3>
 <p>Tato aktualizace přináší nové možnosti přizpůsobení joysticku, vylepšení uživatelského rozhraní a důležité opravy stability.</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="změny">Změny<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-2-3#zm%C4%9Bny" class="hash-link" aria-label="Přímý odkaz na Změny" title="Přímý odkaz na Změny" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="změny">Změny<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-2-3#zm%C4%9Bny" class="hash-link" aria-label="Přímý odkaz na Změny" title="Přímý odkaz na Změny" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Opravená chyba ve výběru kolekce bloků v paletě</strong>: výběr kolekce, posun na jinou a návrat zpět neměl žádný efekt.</li>
 <li class=""><strong>Opraven pád aplikace při načítání náročných profilů</strong> s velkým množstvím bloků.</li>
@@ -104,14 +104,14 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Vydání MOCPilot 2025.1.1]]></title>
-        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-1</id>
-        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-1"/>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-1</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-1"/>
         <updated>2025-04-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Popis]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="popis">Popis<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-1#popis" class="hash-link" aria-label="Přímý odkaz na Popis" title="Přímý odkaz na Popis" translate="no">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="popis">Popis<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-1#popis" class="hash-link" aria-label="Přímý odkaz na Popis" title="Přímý odkaz na Popis" translate="no">​</a></h3>
 <p>Tato aktualizace obsahuje několik důležitých oprav chyb, které zlepšují výkon, snižují spotřebu baterie a zlepšují chování bloků v programovacím prostředí.</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="změny">Změny<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cz/blog/closed-test-release-2025-1-1#zm%C4%9Bny" class="hash-link" aria-label="Přímý odkaz na Změny" title="Přímý odkaz na Změny" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="změny">Změny<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/closed-test-release-2025-1-1#zm%C4%9Bny" class="hash-link" aria-label="Přímý odkaz na Změny" title="Přímý odkaz na Změny" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>Opravená chyba způsobující vysoké využití CPU, vybíjení baterie a nízký výkon.</strong></li>
 <li class=""><strong>Opravená chyba, kdy bloky pro gamepad</strong> (např. „je tlačítko stisknuto“, „je stisknuto tlačítko D-PAD“) <strong>nebylo možné připojit k jiným blokům.</strong></li>
@@ -127,11 +127,11 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[MOCPilot 2025.1.0]]></title>
-        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/cz/blog/closed-test-begin</id>
-        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/cz/blog/closed-test-begin"/>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/closed-test-begin</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/closed-test-begin"/>
         <updated>2025-04-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[🚀 Uzavřená beta verze MOCPilot 2025.1.0 právě začala!]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-uzavřená-beta-verze-mocpilot-202510-právě-začala">🚀 Uzavřená beta verze MOCPilot 2025.1.0 právě začala!<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cz/blog/closed-test-begin#-uzav%C5%99en%C3%A1-beta-verze-mocpilot-202510-pr%C3%A1v%C4%9B-za%C4%8Dala" class="hash-link" aria-label="Přímý odkaz na 🚀 Uzavřená beta verze MOCPilot 2025.1.0 právě začala!" title="Přímý odkaz na 🚀 Uzavřená beta verze MOCPilot 2025.1.0 právě začala!" translate="no">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vdyg" id="-uzavřená-beta-verze-mocpilot-202510-právě-začala">🚀 Uzavřená beta verze MOCPilot 2025.1.0 právě začala!<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/closed-test-begin#-uzav%C5%99en%C3%A1-beta-verze-mocpilot-202510-pr%C3%A1v%C4%9B-za%C4%8Dala" class="hash-link" aria-label="Přímý odkaz na 🚀 Uzavřená beta verze MOCPilot 2025.1.0 právě začala!" title="Přímý odkaz na 🚀 Uzavřená beta verze MOCPilot 2025.1.0 právě začala!" translate="no">​</a></h2>
 <p>S radostí oznamujeme, že uzavřené beta testování MOCPilot 2025 je nyní spuštěno! Vybraní uživatelé mohou nyní prozkoumat nové funkce, poskytnout zpětnou vazbu a pomoci formovat budoucnost aplikace MOCPilot.</p>
 <p>Pokud jste obdrželi pozvánku, zkontrolujte si svůj e-mail pro přístupové údaje.<br>
 <!-- -->Děkujeme, že jste součástí této důležité fáze!</p>]]></content>
