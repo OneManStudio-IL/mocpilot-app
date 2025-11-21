@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://OneManStudio-IL.github.io/Controlz-Docs/cn/blog</id>
-    <title>Controlz home Blog</title>
+    <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/cn/blog</id>
+    <title>MOCPilot home Blog</title>
     <updated>2025-06-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://OneManStudio-IL.github.io/Controlz-Docs/cn/blog"/>
-    <subtitle>Controlz home Blog</subtitle>
-    <icon>https://OneManStudio-IL.github.io/Controlz-Docs/cn/img/favicon.ico</icon>
+    <link rel="alternate" href="https://OneManStudio-IL.github.io/MOCPilot-Docs/cn/blog"/>
+    <subtitle>MOCPilot home Blog</subtitle>
+    <icon>https://OneManStudio-IL.github.io/MOCPilot-Docs/cn/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[发布 Controlz 2025.1.9]]></title>
-        <id>https://OneManStudio-IL.github.io/Controlz-Docs/cn/blog/release-2025-1-9</id>
-        <link href="https://OneManStudio-IL.github.io/Controlz-Docs/cn/blog/release-2025-1-9"/>
+        <title type="html"><![CDATA[发布 MOCPilot 2025.1.9]]></title>
+        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/cn/blog/release-2025-1-9</id>
+        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/cn/blog/release-2025-1-9"/>
         <updated>2025-06-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[🚀 Controlz 2025.1.9 现已在 Mac App Store 上架！]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-controlz-202519-现已在-mac-app-store-上架">🚀 Controlz 2025.1.9 现已在 Mac App Store 上架！<a href="https://onemanstudio-il.github.io/Controlz-Docs/cn/blog/release-2025-1-9#-controlz-202519-%E7%8E%B0%E5%B7%B2%E5%9C%A8-mac-app-store-%E4%B8%8A%E6%9E%B6" class="hash-link" aria-label="直接链接到 🚀 Controlz 2025.1.9 现已在 Mac App Store 上架！" title="直接链接到 🚀 Controlz 2025.1.9 现已在 Mac App Store 上架！">​</a></h2>
-<p>我们很高兴地宣布，Controlz 2025.1.9 现已作为原生 macOS 应用发布！</p>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2025.1.9 现已在 Mac App Store 上架！]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202519-现已在-mac-app-store-上架">🚀 MOCPilot 2025.1.9 现已在 Mac App Store 上架！<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cn/blog/release-2025-1-9#-mocpilot-202519-%E7%8E%B0%E5%B7%B2%E5%9C%A8-mac-app-store-%E4%B8%8A%E6%9E%B6" class="hash-link" aria-label="直接链接到 🚀 MOCPilot 2025.1.9 现已在 Mac App Store 上架！" title="直接链接到 🚀 MOCPilot 2025.1.9 现已在 Mac App Store 上架！" translate="no">​</a></h2>
+<p>我们很高兴地宣布，MOCPilot 2025.1.9 现已作为原生 macOS 应用发布！</p>
 <hr>
 <p>您现在可以在桌面上享受更高的性能和与 macOS 的无缝集成。<br>
 <!-- -->立即从 Mac App Store 下载，像从未有过一样掌控您的 LEGO® 创作！</p>
-<a href="https://apps.apple.com/il/app/controlz-moc-controller/id1585138043" target="_blank" rel="noopener noreferrer" class="margin--sm"><img src="https://onemanstudio-il.github.io/Controlz-Docs/cn/img/store_badges/mac/mac_CN.svg" alt="Download on the Mac App Store" height="60"></a>]]></content>
+<a href="https://apps.apple.com/il/app/controlz-moc-controller/id1585138043" target="_blank" rel="noopener noreferrer" class="margin--sm"><img src="https://onemanstudio-il.github.io/MOCPilot-Docs/cn/img/store_badges/mac/mac_CN.svg" alt="Download on the Mac App Store" height="60"></a>]]></content>
         <author>
             <name>Maxim</name>
             <uri>https://github.com/llOzzeell</uri>
@@ -27,21 +27,21 @@
         <category label="Test" term="Test"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[发布 Controlz 2025.1.5]]></title>
-        <id>https://OneManStudio-IL.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-5</id>
-        <link href="https://OneManStudio-IL.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-5"/>
+        <title type="html"><![CDATA[发布 MOCPilot 2025.1.5]]></title>
+        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-5</id>
+        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-5"/>
         <updated>2025-05-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="描述">描述<a href="https://onemanstudio-il.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-5#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="描述">描述<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-5#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述" translate="no">​</a></h3>
 <p>此更新提升了积木编辑体验，改进了性能，并确保在新版 Android 系统上的正常运行。</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-5#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-5#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容" translate="no">​</a></h3>
 <ul>
-<li><strong>修复了在 Android 12 及以上系统中 Hub 扫描的问题，</strong> 通过请求精确定位权限解决。</li>
-<li><strong>新增点击当前选中的积木集合来隐藏/显示积木面板的功能。</strong></li>
-<li><strong>新增积木面板的调整大小控件，</strong> 支持<strong>手动调整面板大小</strong>。</li>
-<li><strong>修复了加载配置文件但程序未运行时 CPU 使用率过高的问题。</strong></li>
-<li><strong>改进了“字符串列表”积木的编辑器，</strong> 避免内容被截断。现在，列表项会按列排列，便于查看大量内容。</li>
+<li class=""><strong>修复了在 Android 12 及以上系统中 Hub 扫描的问题，</strong> 通过请求精确定位权限解决。</li>
+<li class=""><strong>新增点击当前选中的积木集合来隐藏/显示积木面板的功能。</strong></li>
+<li class=""><strong>新增积木面板的调整大小控件，</strong> 支持<strong>手动调整面板大小</strong>。</li>
+<li class=""><strong>修复了加载配置文件但程序未运行时 CPU 使用率过高的问题。</strong></li>
+<li class=""><strong>改进了“字符串列表”积木的编辑器，</strong> 避免内容被截断。现在，列表项会按列排列，便于查看大量内容。</li>
 </ul>]]></content>
         <author>
             <name>Maxim</name>
@@ -51,25 +51,25 @@
         <category label="Test" term="Test"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[发布 Controlz 2025.1.4]]></title>
-        <id>https://OneManStudio-IL.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-4</id>
-        <link href="https://OneManStudio-IL.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-4"/>
+        <title type="html"><![CDATA[发布 MOCPilot 2025.1.4]]></title>
+        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-4</id>
+        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-4"/>
         <updated>2025-05-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="描述">描述<a href="https://onemanstudio-il.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-4#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="描述">描述<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-4#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述" translate="no">​</a></h3>
 <p>此更新改进了对平板设备的支持，增加了实用的测试页面，并修复了多个兼容性与性能问题。</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-4#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-4#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容" translate="no">​</a></h3>
 <ul>
-<li><strong>新增了平板布局，</strong> 更好地利用大屏幕空间。</li>
-<li><strong>修复了“hub按钮被按下”积木块的错误，</strong> 该积木错误地出现在不支持此功能的 hub 上。还修复了在不支持的 hub（如 BuWizz）上错误显示的<strong>颜色传感器积木块</strong>。</li>
-<li><strong>修复了“马达运行”积木块的错误，</strong> 在没有编码器的马达上未能运行的问题，现在添加了备用运行指令。</li>
-<li><strong>新增了游戏手柄按钮测试页面。</strong></li>
-<li><strong>新增了 hub 测试页面，</strong> 包括信息仪表盘、已连接端口设备和端口抖动状态显示。</li>
-<li><strong>修复了 BuWizz 2 和 3 的加速度计数据解析错误，</strong> 之前会导致设备方向读取异常。</li>
-<li><strong>修复了 RAM 内存泄漏问题，</strong> 此问题可能导致某些设备在内存占用过高时终止应用。</li>
-<li><strong>修复了配置文件加载中的多个错误，</strong> 这些问题在特定场景下会导致程序崩溃。</li>
-<li><strong>修复了 Android 上的一个 bug，</strong> 该 bug 会导致释放手柄摇杆时坐标轴数值未重置为零。</li>
+<li class=""><strong>新增了平板布局，</strong> 更好地利用大屏幕空间。</li>
+<li class=""><strong>修复了“hub按钮被按下”积木块的错误，</strong> 该积木错误地出现在不支持此功能的 hub 上。还修复了在不支持的 hub（如 BuWizz）上错误显示的<strong>颜色传感器积木块</strong>。</li>
+<li class=""><strong>修复了“马达运行”积木块的错误，</strong> 在没有编码器的马达上未能运行的问题，现在添加了备用运行指令。</li>
+<li class=""><strong>新增了游戏手柄按钮测试页面。</strong></li>
+<li class=""><strong>新增了 hub 测试页面，</strong> 包括信息仪表盘、已连接端口设备和端口抖动状态显示。</li>
+<li class=""><strong>修复了 BuWizz 2 和 3 的加速度计数据解析错误，</strong> 之前会导致设备方向读取异常。</li>
+<li class=""><strong>修复了 RAM 内存泄漏问题，</strong> 此问题可能导致某些设备在内存占用过高时终止应用。</li>
+<li class=""><strong>修复了配置文件加载中的多个错误，</strong> 这些问题在特定场景下会导致程序崩溃。</li>
+<li class=""><strong>修复了 Android 上的一个 bug，</strong> 该 bug 会导致释放手柄摇杆时坐标轴数值未重置为零。</li>
 </ul>]]></content>
         <author>
             <name>Maxim</name>
@@ -79,21 +79,21 @@
         <category label="Test" term="Test"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[发布 Controlz 2025.1.2 - 2025.1.3]]></title>
-        <id>https://OneManStudio-IL.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-2-3</id>
-        <link href="https://OneManStudio-IL.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-2-3"/>
+        <title type="html"><![CDATA[发布 MOCPilot 2025.1.2 - 2025.1.3]]></title>
+        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-2-3</id>
+        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-2-3"/>
         <updated>2025-04-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="描述">描述<a href="https://onemanstudio-il.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-2-3#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="描述">描述<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-2-3#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述" translate="no">​</a></h3>
 <p>此更新引入了新的摇杆自定义选项、界面改进以及重要的稳定性修复。</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-2-3#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-2-3#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容" translate="no">​</a></h3>
 <ul>
-<li><strong>修复了积木调色板集合选择器中的错误</strong>：选择一个集合后滚动到另一个再返回时不生效的问题。</li>
-<li><strong>修复了加载大型配置文件时崩溃的问题，</strong> 尤其是当包含大量积木时。</li>
-<li><strong>在摇杆设置中新增“轴类型”属性，</strong> 支持<strong>单轴模式</strong>（X、Y、XY）。</li>
-<li><strong>为方向盘控制器（“GMZ”、“No Mercy”）新增了颜色标识。</strong></li>
-<li><strong>新增了用于方向盘和踏板的“是否按下”积木块。</strong></li>
+<li class=""><strong>修复了积木调色板集合选择器中的错误</strong>：选择一个集合后滚动到另一个再返回时不生效的问题。</li>
+<li class=""><strong>修复了加载大型配置文件时崩溃的问题，</strong> 尤其是当包含大量积木时。</li>
+<li class=""><strong>在摇杆设置中新增“轴类型”属性，</strong> 支持<strong>单轴模式</strong>（X、Y、XY）。</li>
+<li class=""><strong>为方向盘控制器（“GMZ”、“No Mercy”）新增了颜色标识。</strong></li>
+<li class=""><strong>新增了用于方向盘和踏板的“是否按下”积木块。</strong></li>
 </ul>]]></content>
         <author>
             <name>Maxim</name>
@@ -103,20 +103,20 @@
         <category label="Test" term="Test"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[发布 Controlz 2025.1.1]]></title>
-        <id>https://OneManStudio-IL.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-1</id>
-        <link href="https://OneManStudio-IL.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-1"/>
+        <title type="html"><![CDATA[发布 MOCPilot 2025.1.1]]></title>
+        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-1</id>
+        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-1"/>
         <updated>2025-04-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="描述">描述<a href="https://onemanstudio-il.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-1#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="描述">描述<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-1#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述" translate="no">​</a></h3>
 <p>此更新包含若干重要的错误修复，提升了性能，降低了电池消耗，并改善了编程环境中积木的行为。</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/Controlz-Docs/cn/blog/closed-test-release-2025-1-1#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cn/blog/closed-test-release-2025-1-1#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容" translate="no">​</a></h3>
 <ul>
-<li><strong>修复了导致高 CPU 使用率、电池消耗快和性能下降的错误。</strong></li>
-<li><strong>修复了游戏手柄相关积木</strong>（例如“按钮是否被按下”、“D-PAD 按钮是否被按下”）<strong>无法与其他积木连接的问题。</strong></li>
-<li><strong>修复了步骤开关事件积木中的问题，</strong> 该问题导致触摸事件处理错误和计步不准确。</li>
-<li><strong>修复了列表积木“项目”中的错误，</strong> 此前仅能连接一个积木作为参数索引。</li>
+<li class=""><strong>修复了导致高 CPU 使用率、电池消耗快和性能下降的错误。</strong></li>
+<li class=""><strong>修复了游戏手柄相关积木</strong>（例如“按钮是否被按下”、“D-PAD 按钮是否被按下”）<strong>无法与其他积木连接的问题。</strong></li>
+<li class=""><strong>修复了步骤开关事件积木中的问题，</strong> 该问题导致触摸事件处理错误和计步不准确。</li>
+<li class=""><strong>修复了列表积木“项目”中的错误，</strong> 此前仅能连接一个积木作为参数索引。</li>
 </ul>]]></content>
         <author>
             <name>Maxim</name>
@@ -126,14 +126,14 @@
         <category label="Test" term="Test"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Controlz 2025.1.0]]></title>
-        <id>https://OneManStudio-IL.github.io/Controlz-Docs/cn/blog/closed-test-begin</id>
-        <link href="https://OneManStudio-IL.github.io/Controlz-Docs/cn/blog/closed-test-begin"/>
+        <title type="html"><![CDATA[MOCPilot 2025.1.0]]></title>
+        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/cn/blog/closed-test-begin</id>
+        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/cn/blog/closed-test-begin"/>
         <updated>2025-04-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[🚀 Controlz 2025.1.0 封闭测试已开启！]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-controlz-202510-封闭测试已开启">🚀 Controlz 2025.1.0 封闭测试已开启！<a href="https://onemanstudio-il.github.io/Controlz-Docs/cn/blog/closed-test-begin#-controlz-202510-%E5%B0%81%E9%97%AD%E6%B5%8B%E8%AF%95%E5%B7%B2%E5%BC%80%E5%90%AF" class="hash-link" aria-label="直接链接到 🚀 Controlz 2025.1.0 封闭测试已开启！" title="直接链接到 🚀 Controlz 2025.1.0 封闭测试已开启！">​</a></h2>
-<p>我们很高兴地宣布，Controlz 2025 的封闭测试现已正式启动！<br>
-<!-- -->受邀用户现在可以抢先体验新功能、提供反馈，并共同塑造 Controlz 的未来。</p>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2025.1.0 封闭测试已开启！]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202510-封闭测试已开启">🚀 MOCPilot 2025.1.0 封闭测试已开启！<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/cn/blog/closed-test-begin#-mocpilot-202510-%E5%B0%81%E9%97%AD%E6%B5%8B%E8%AF%95%E5%B7%B2%E5%BC%80%E5%90%AF" class="hash-link" aria-label="直接链接到 🚀 MOCPilot 2025.1.0 封闭测试已开启！" title="直接链接到 🚀 MOCPilot 2025.1.0 封闭测试已开启！" translate="no">​</a></h2>
+<p>我们很高兴地宣布，MOCPilot 2025 的封闭测试现已正式启动！<br>
+<!-- -->受邀用户现在可以抢先体验新功能、提供反馈，并共同塑造 MOCPilot 的未来。</p>
 <p>如果您已收到邀请，请查收电子邮件以获取访问详情。<br>
 <!-- -->感谢您参与这一重要阶段！</p>]]></content>
         <author>

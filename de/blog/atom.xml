@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://OneManStudio-IL.github.io/Controlz-Docs/de/blog</id>
-    <title>Controlz home Blog</title>
+    <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/de/blog</id>
+    <title>MOCPilot home Blog</title>
     <updated>2025-06-03T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://OneManStudio-IL.github.io/Controlz-Docs/de/blog"/>
-    <subtitle>Controlz home Blog</subtitle>
-    <icon>https://OneManStudio-IL.github.io/Controlz-Docs/de/img/favicon.ico</icon>
+    <link rel="alternate" href="https://OneManStudio-IL.github.io/MOCPilot-Docs/de/blog"/>
+    <subtitle>MOCPilot home Blog</subtitle>
+    <icon>https://OneManStudio-IL.github.io/MOCPilot-Docs/de/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Veröffentlichung von Controlz 2025.1.9]]></title>
-        <id>https://OneManStudio-IL.github.io/Controlz-Docs/de/blog/release-2025-1-9</id>
-        <link href="https://OneManStudio-IL.github.io/Controlz-Docs/de/blog/release-2025-1-9"/>
+        <title type="html"><![CDATA[Veröffentlichung von MOCPilot 2025.1.9]]></title>
+        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/de/blog/release-2025-1-9</id>
+        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/de/blog/release-2025-1-9"/>
         <updated>2025-06-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[🚀 Controlz 2025.1.9 ist jetzt im Mac App Store verfügbar!]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-controlz-202519-ist-jetzt-im-mac-app-store-verfügbar">🚀 Controlz 2025.1.9 ist jetzt im Mac App Store verfügbar!<a href="https://onemanstudio-il.github.io/Controlz-Docs/de/blog/release-2025-1-9#-controlz-202519-ist-jetzt-im-mac-app-store-verf%C3%BCgbar" class="hash-link" aria-label="Direktlink zu 🚀 Controlz 2025.1.9 ist jetzt im Mac App Store verfügbar!" title="Direktlink zu 🚀 Controlz 2025.1.9 ist jetzt im Mac App Store verfügbar!">​</a></h2>
-<p>Wir freuen uns, die Veröffentlichung von Controlz 2025.1.9 als native macOS-App bekannt zu geben!</p>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2025.1.9 ist jetzt im Mac App Store verfügbar!]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202519-ist-jetzt-im-mac-app-store-verfügbar">🚀 MOCPilot 2025.1.9 ist jetzt im Mac App Store verfügbar!<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/de/blog/release-2025-1-9#-mocpilot-202519-ist-jetzt-im-mac-app-store-verf%C3%BCgbar" class="hash-link" aria-label="Direktlink zu 🚀 MOCPilot 2025.1.9 ist jetzt im Mac App Store verfügbar!" title="Direktlink zu 🚀 MOCPilot 2025.1.9 ist jetzt im Mac App Store verfügbar!" translate="no">​</a></h2>
+<p>Wir freuen uns, die Veröffentlichung von MOCPilot 2025.1.9 als native macOS-App bekannt zu geben!</p>
 <hr>
 <p>Genießen Sie jetzt die volle Desktop-Leistung und eine nahtlose Integration in macOS.<br>
 <!-- -->Laden Sie die App noch heute aus dem Mac App Store herunter und übernehmen Sie die Kontrolle über Ihre LEGO®-Kreationen wie nie zuvor!</p>
-<a href="https://apps.apple.com/il/app/controlz-moc-controller/id1585138043" target="_blank" rel="noopener noreferrer" class="margin--sm"><img src="https://onemanstudio-il.github.io/Controlz-Docs/de/img/store_badges/mac/mac_DE.svg" alt="Download on the Mac App Store" height="60"></a>]]></content>
+<a href="https://apps.apple.com/il/app/controlz-moc-controller/id1585138043" target="_blank" rel="noopener noreferrer" class="margin--sm"><img src="https://onemanstudio-il.github.io/MOCPilot-Docs/de/img/store_badges/mac/mac_DE.svg" alt="Download on the Mac App Store" height="60"></a>]]></content>
         <author>
             <name>Maxim</name>
             <uri>https://github.com/llOzzeell</uri>
@@ -27,21 +27,21 @@
         <category label="Test" term="Test"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Veröffentlichung Controlz 2025.1.5]]></title>
-        <id>https://OneManStudio-IL.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-5</id>
-        <link href="https://OneManStudio-IL.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-5"/>
+        <title type="html"><![CDATA[Veröffentlichung MOCPilot 2025.1.5]]></title>
+        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-5</id>
+        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-5"/>
         <updated>2025-05-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Beschreibung]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="beschreibung">Beschreibung<a href="https://onemanstudio-il.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-5#beschreibung" class="hash-link" aria-label="Direktlink zu Beschreibung" title="Direktlink zu Beschreibung">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="beschreibung">Beschreibung<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-5#beschreibung" class="hash-link" aria-label="Direktlink zu Beschreibung" title="Direktlink zu Beschreibung" translate="no">​</a></h3>
 <p>Dieses Update verbessert die Bearbeitung von Blöcken, steigert die Leistung und stellt die korrekte Funktionalität auf neueren Android-Versionen sicher.</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="änderungen">Änderungen<a href="https://onemanstudio-il.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-5#%C3%A4nderungen" class="hash-link" aria-label="Direktlink zu Änderungen" title="Direktlink zu Änderungen">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="änderungen">Änderungen<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-5#%C3%A4nderungen" class="hash-link" aria-label="Direktlink zu Änderungen" title="Direktlink zu Änderungen" translate="no">​</a></h3>
 <ul>
-<li><strong>Ein Fehler beim Scannen von Hubs unter Android 12+ wurde behoben</strong>, indem die genaue Standortberechtigung abgefragt wird.</li>
-<li><strong>Option hinzugefügt, die Block-Palette ein- und auszublenden</strong>, durch Klicken auf die aktuell ausgewählte Block-Sammlung.</li>
-<li><strong>Griff zum manuellen Ändern der Größe</strong> der Block-Palette hinzugefügt.</li>
-<li><strong>Hohe CPU-Auslastung behoben</strong>, wenn ein Profil geladen war, das Programm jedoch nicht lief.</li>
-<li><strong>Verbesserter Editor für den "String-Liste"-Block</strong>, damit Inhalte nicht abgeschnitten werden. Items werden nun in Spalten aufgeteilt für bessere Übersicht bei großen Listen.</li>
+<li class=""><strong>Ein Fehler beim Scannen von Hubs unter Android 12+ wurde behoben</strong>, indem die genaue Standortberechtigung abgefragt wird.</li>
+<li class=""><strong>Option hinzugefügt, die Block-Palette ein- und auszublenden</strong>, durch Klicken auf die aktuell ausgewählte Block-Sammlung.</li>
+<li class=""><strong>Griff zum manuellen Ändern der Größe</strong> der Block-Palette hinzugefügt.</li>
+<li class=""><strong>Hohe CPU-Auslastung behoben</strong>, wenn ein Profil geladen war, das Programm jedoch nicht lief.</li>
+<li class=""><strong>Verbesserter Editor für den "String-Liste"-Block</strong>, damit Inhalte nicht abgeschnitten werden. Items werden nun in Spalten aufgeteilt für bessere Übersicht bei großen Listen.</li>
 </ul>]]></content>
         <author>
             <name>Maxim</name>
@@ -51,25 +51,25 @@
         <category label="Test" term="Test"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Veröffentlichung Controlz 2025.1.4]]></title>
-        <id>https://OneManStudio-IL.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-4</id>
-        <link href="https://OneManStudio-IL.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-4"/>
+        <title type="html"><![CDATA[Veröffentlichung MOCPilot 2025.1.4]]></title>
+        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-4</id>
+        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-4"/>
         <updated>2025-05-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Beschreibung]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="beschreibung">Beschreibung<a href="https://onemanstudio-il.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-4#beschreibung" class="hash-link" aria-label="Direktlink zu Beschreibung" title="Direktlink zu Beschreibung">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="beschreibung">Beschreibung<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-4#beschreibung" class="hash-link" aria-label="Direktlink zu Beschreibung" title="Direktlink zu Beschreibung" translate="no">​</a></h3>
 <p>Dieses Update verbessert die Unterstützung für Tablets, fügt nützliche Testseiten hinzu und behebt mehrere Kompatibilitäts- und Leistungsprobleme.</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="änderungen">Änderungen<a href="https://onemanstudio-il.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-4#%C3%A4nderungen" class="hash-link" aria-label="Direktlink zu Änderungen" title="Direktlink zu Änderungen">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="änderungen">Änderungen<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-4#%C3%A4nderungen" class="hash-link" aria-label="Direktlink zu Änderungen" title="Direktlink zu Änderungen" translate="no">​</a></h3>
 <ul>
-<li><strong>Tablet-Layout hinzugefügt</strong> für eine bessere Nutzung größerer Bildschirme.</li>
-<li><strong>Ein Fehler wurde behoben, bei dem der Block „Hub-Taste gedrückt“</strong> für Hubs erschien, die diese Aktion nicht unterstützen. Ebenfalls wurden unangemessene <strong>Farbsensor-Blöcke</strong> für nicht unterstützte Hubs (z. B. BuWizz) korrigiert.</li>
-<li><strong>Ein Fehler wurde behoben, bei dem der Block „Motor starten“</strong> Motoren ohne Encoder nicht beeinflusste, da alternative Laufbefehle fehlten.</li>
-<li><strong>Eine Seite zum Testen von Gamepad-Tasten hinzugefügt.</strong></li>
-<li><strong>Eine Hub-Testseite hinzugefügt</strong> mit einem Dashboard, das Informationen, angeschlossene Portgeräte und den Status des Port-Schüttelns anzeigt.</li>
-<li><strong>Fehlerhafte Interpretation von Beschleunigungsdaten</strong> bei BuWizz 2 und 3 behoben, die fehlerhafte Orientierungsergebnisse verursachte.</li>
-<li><strong>RAM-Speicherlecks behoben</strong>, die auf einigen Geräten zum Absturz der App durch hohen Systemspeicherverbrauch führten.</li>
-<li><strong>Fehler beim Laden von Profilen behoben</strong>, die in bestimmten Szenarien Abstürze verursachten.</li>
-<li><strong>Ein Android-Fehler wurde behoben</strong>, bei dem das Loslassen von Gamepad-Sticks die Achsenwerte nicht auf Null zurücksetzte.</li>
+<li class=""><strong>Tablet-Layout hinzugefügt</strong> für eine bessere Nutzung größerer Bildschirme.</li>
+<li class=""><strong>Ein Fehler wurde behoben, bei dem der Block „Hub-Taste gedrückt“</strong> für Hubs erschien, die diese Aktion nicht unterstützen. Ebenfalls wurden unangemessene <strong>Farbsensor-Blöcke</strong> für nicht unterstützte Hubs (z. B. BuWizz) korrigiert.</li>
+<li class=""><strong>Ein Fehler wurde behoben, bei dem der Block „Motor starten“</strong> Motoren ohne Encoder nicht beeinflusste, da alternative Laufbefehle fehlten.</li>
+<li class=""><strong>Eine Seite zum Testen von Gamepad-Tasten hinzugefügt.</strong></li>
+<li class=""><strong>Eine Hub-Testseite hinzugefügt</strong> mit einem Dashboard, das Informationen, angeschlossene Portgeräte und den Status des Port-Schüttelns anzeigt.</li>
+<li class=""><strong>Fehlerhafte Interpretation von Beschleunigungsdaten</strong> bei BuWizz 2 und 3 behoben, die fehlerhafte Orientierungsergebnisse verursachte.</li>
+<li class=""><strong>RAM-Speicherlecks behoben</strong>, die auf einigen Geräten zum Absturz der App durch hohen Systemspeicherverbrauch führten.</li>
+<li class=""><strong>Fehler beim Laden von Profilen behoben</strong>, die in bestimmten Szenarien Abstürze verursachten.</li>
+<li class=""><strong>Ein Android-Fehler wurde behoben</strong>, bei dem das Loslassen von Gamepad-Sticks die Achsenwerte nicht auf Null zurücksetzte.</li>
 </ul>]]></content>
         <author>
             <name>Maxim</name>
@@ -79,21 +79,21 @@
         <category label="Test" term="Test"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Veröffentlichung Controlz 2025.1.2 - 2025.1.3]]></title>
-        <id>https://OneManStudio-IL.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-2-3</id>
-        <link href="https://OneManStudio-IL.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-2-3"/>
+        <title type="html"><![CDATA[Veröffentlichung MOCPilot 2025.1.2 - 2025.1.3]]></title>
+        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-2-3</id>
+        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-2-3"/>
         <updated>2025-04-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Beschreibung]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="beschreibung">Beschreibung<a href="https://onemanstudio-il.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-2-3#beschreibung" class="hash-link" aria-label="Direktlink zu Beschreibung" title="Direktlink zu Beschreibung">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="beschreibung">Beschreibung<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-2-3#beschreibung" class="hash-link" aria-label="Direktlink zu Beschreibung" title="Direktlink zu Beschreibung" translate="no">​</a></h3>
 <p>Dieses Update führt neue Anpassungsoptionen für Joysticks, Verbesserungen der Benutzeroberfläche und wichtige Stabilitätskorrekturen ein.</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="änderungen">Änderungen<a href="https://onemanstudio-il.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-2-3#%C3%A4nderungen" class="hash-link" aria-label="Direktlink zu Änderungen" title="Direktlink zu Änderungen">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="änderungen">Änderungen<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-2-3#%C3%A4nderungen" class="hash-link" aria-label="Direktlink zu Änderungen" title="Direktlink zu Änderungen" translate="no">​</a></h3>
 <ul>
-<li><strong>Ein Fehler im Auswahlmenü der Block-Palette wurde behoben</strong>: Das Auswählen einer Sammlung, das Scrollen zu einer anderen und die Rückkehr hatten keine Wirkung.</li>
-<li><strong>Ein Absturz beim Laden umfangreicher Profile mit vielen Blöcken wurde behoben.</strong></li>
-<li><strong>Die Eigenschaft „Achsentyp“ wurde den Joystick-Einstellungen hinzugefügt</strong>, um den <strong>Einachsen-Modus</strong> (X, Y, XY) zu unterstützen.</li>
-<li><strong>Farbgebung für Lenkrad-Controller</strong> („GMZ“, „No Mercy“) wurde hinzugefügt.</li>
-<li><strong>„Ist gedrückt“-Blöcke</strong> für Lenkräder und Pedale wurden hinzugefügt.</li>
+<li class=""><strong>Ein Fehler im Auswahlmenü der Block-Palette wurde behoben</strong>: Das Auswählen einer Sammlung, das Scrollen zu einer anderen und die Rückkehr hatten keine Wirkung.</li>
+<li class=""><strong>Ein Absturz beim Laden umfangreicher Profile mit vielen Blöcken wurde behoben.</strong></li>
+<li class=""><strong>Die Eigenschaft „Achsentyp“ wurde den Joystick-Einstellungen hinzugefügt</strong>, um den <strong>Einachsen-Modus</strong> (X, Y, XY) zu unterstützen.</li>
+<li class=""><strong>Farbgebung für Lenkrad-Controller</strong> („GMZ“, „No Mercy“) wurde hinzugefügt.</li>
+<li class=""><strong>„Ist gedrückt“-Blöcke</strong> für Lenkräder und Pedale wurden hinzugefügt.</li>
 </ul>]]></content>
         <author>
             <name>Maxim</name>
@@ -103,20 +103,20 @@
         <category label="Test" term="Test"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Veröffentlichung Controlz 2025.1.1]]></title>
-        <id>https://OneManStudio-IL.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-1</id>
-        <link href="https://OneManStudio-IL.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-1"/>
+        <title type="html"><![CDATA[Veröffentlichung MOCPilot 2025.1.1]]></title>
+        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-1</id>
+        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-1"/>
         <updated>2025-04-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Beschreibung]]></summary>
-        <content type="html"><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="beschreibung">Beschreibung<a href="https://onemanstudio-il.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-1#beschreibung" class="hash-link" aria-label="Direktlink zu Beschreibung" title="Direktlink zu Beschreibung">​</a></h3>
+        <content type="html"><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="beschreibung">Beschreibung<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-1#beschreibung" class="hash-link" aria-label="Direktlink zu Beschreibung" title="Direktlink zu Beschreibung" translate="no">​</a></h3>
 <p>Dieses Update enthält mehrere wichtige Fehlerbehebungen, die die Leistung verbessern, den Akkuverbrauch reduzieren und das Verhalten der Blöcke in der Programmierumgebung optimieren.</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="änderungen">Änderungen<a href="https://onemanstudio-il.github.io/Controlz-Docs/de/blog/closed-test-release-2025-1-1#%C3%A4nderungen" class="hash-link" aria-label="Direktlink zu Änderungen" title="Direktlink zu Änderungen">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="änderungen">Änderungen<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/de/blog/closed-test-release-2025-1-1#%C3%A4nderungen" class="hash-link" aria-label="Direktlink zu Änderungen" title="Direktlink zu Änderungen" translate="no">​</a></h3>
 <ul>
-<li><strong>Ein Fehler wurde behoben, der zu hoher CPU-Auslastung, Akkuentladung und schlechter Leistung führte.</strong></li>
-<li><strong>Ein Fehler wurde behoben, bei dem Gamepad-Blöcke</strong> (z. B. „Taste gedrückt?“, „D-PAD-Taste gedrückt?“) <strong>nicht mit anderen Blöcken verbunden werden konnten.</strong></li>
-<li><strong>Ein Problem im Ereignisblock „Stufenschalter“ wurde behoben</strong>, bei dem Berührungen und Schrittzählung falsch behandelt wurden.</li>
-<li><strong>Ein Fehler im Listenblock „Element von“ wurde behoben</strong>, bei dem nicht mehr als ein Block als Index-Argument verbunden werden konnte.</li>
+<li class=""><strong>Ein Fehler wurde behoben, der zu hoher CPU-Auslastung, Akkuentladung und schlechter Leistung führte.</strong></li>
+<li class=""><strong>Ein Fehler wurde behoben, bei dem Gamepad-Blöcke</strong> (z. B. „Taste gedrückt?“, „D-PAD-Taste gedrückt?“) <strong>nicht mit anderen Blöcken verbunden werden konnten.</strong></li>
+<li class=""><strong>Ein Problem im Ereignisblock „Stufenschalter“ wurde behoben</strong>, bei dem Berührungen und Schrittzählung falsch behandelt wurden.</li>
+<li class=""><strong>Ein Fehler im Listenblock „Element von“ wurde behoben</strong>, bei dem nicht mehr als ein Block als Index-Argument verbunden werden konnte.</li>
 </ul>]]></content>
         <author>
             <name>Maxim</name>
@@ -126,13 +126,13 @@
         <category label="Test" term="Test"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Controlz 2025.1.0]]></title>
-        <id>https://OneManStudio-IL.github.io/Controlz-Docs/de/blog/closed-test-begin</id>
-        <link href="https://OneManStudio-IL.github.io/Controlz-Docs/de/blog/closed-test-begin"/>
+        <title type="html"><![CDATA[MOCPilot 2025.1.0]]></title>
+        <id>https://OneManStudio-IL.github.io/MOCPilot-Docs/de/blog/closed-test-begin</id>
+        <link href="https://OneManStudio-IL.github.io/MOCPilot-Docs/de/blog/closed-test-begin"/>
         <updated>2025-04-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[🚀 Controlz 2025.1.0 Geschlossene Beta gestartet!]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-controlz-202510-geschlossene-beta-gestartet">🚀 Controlz 2025.1.0 Geschlossene Beta gestartet!<a href="https://onemanstudio-il.github.io/Controlz-Docs/de/blog/closed-test-begin#-controlz-202510-geschlossene-beta-gestartet" class="hash-link" aria-label="Direktlink zu 🚀 Controlz 2025.1.0 Geschlossene Beta gestartet!" title="Direktlink zu 🚀 Controlz 2025.1.0 Geschlossene Beta gestartet!">​</a></h2>
-<p>Wir freuen uns, bekannt zu geben, dass der geschlossene Betatest für Controlz 2025 jetzt live ist! Ausgewählte Nutzer können nun neue Funktionen erkunden, Feedback geben und die Zukunft von Controlz mitgestalten.</p>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2025.1.0 Geschlossene Beta gestartet!]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202510-geschlossene-beta-gestartet">🚀 MOCPilot 2025.1.0 Geschlossene Beta gestartet!<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/de/blog/closed-test-begin#-mocpilot-202510-geschlossene-beta-gestartet" class="hash-link" aria-label="Direktlink zu 🚀 MOCPilot 2025.1.0 Geschlossene Beta gestartet!" title="Direktlink zu 🚀 MOCPilot 2025.1.0 Geschlossene Beta gestartet!" translate="no">​</a></h2>
+<p>Wir freuen uns, bekannt zu geben, dass der geschlossene Betatest für MOCPilot 2025 jetzt live ist! Ausgewählte Nutzer können nun neue Funktionen erkunden, Feedback geben und die Zukunft von MOCPilot mitgestalten.</p>
 <p>Wenn du eine Einladung erhalten hast, überprüfe deine E-Mails auf Zugangsdaten.<br>
 <!-- -->Vielen Dank, dass du Teil dieser wichtigen Phase bist!</p>]]></content>
         <author>

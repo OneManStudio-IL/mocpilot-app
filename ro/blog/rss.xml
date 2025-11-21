@@ -1,123 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Controlz home Blog</title>
-        <link>https://OneManStudio-IL.github.io/Controlz-Docs/ro/blog</link>
-        <description>Controlz home Blog</description>
+        <title>MOCPilot home Blog</title>
+        <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog</link>
+        <description>MOCPilot home Blog</description>
         <lastBuildDate>Tue, 03 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ro</language>
         <item>
-            <title><![CDATA[Lansering av Controlz 2025.1.9]]></title>
-            <link>https://OneManStudio-IL.github.io/Controlz-Docs/ro/blog/release-2025-1-9</link>
-            <guid>https://OneManStudio-IL.github.io/Controlz-Docs/ro/blog/release-2025-1-9</guid>
+            <title><![CDATA[Lansering av MOCPilot 2025.1.9]]></title>
+            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/release-2025-1-9</link>
+            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/release-2025-1-9</guid>
             <pubDate>Tue, 03 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[🚀 Controlz 2025.1.9 finns nu tillgänglig på Mac App Store!]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-controlz-202519-finns-nu-tillgänglig-på-mac-app-store">🚀 Controlz 2025.1.9 finns nu tillgänglig på Mac App Store!<a href="https://onemanstudio-il.github.io/Controlz-Docs/ro/blog/release-2025-1-9#-controlz-202519-finns-nu-tillg%C3%A4nglig-p%C3%A5-mac-app-store" class="hash-link" aria-label="Link direct către 🚀 Controlz 2025.1.9 finns nu tillgänglig på Mac App Store!" title="Link direct către 🚀 Controlz 2025.1.9 finns nu tillgänglig på Mac App Store!">​</a></h2>
-<p>Vi är glada att kunna meddela lanseringen av Controlz 2025.1.9 som en native macOS-app!</p>
+            <description><![CDATA[🚀 MOCPilot 2025.1.9 finns nu tillgänglig på Mac App Store!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202519-finns-nu-tillgänglig-på-mac-app-store">🚀 MOCPilot 2025.1.9 finns nu tillgänglig på Mac App Store!<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/release-2025-1-9#-mocpilot-202519-finns-nu-tillg%C3%A4nglig-p%C3%A5-mac-app-store" class="hash-link" aria-label="Link direct către 🚀 MOCPilot 2025.1.9 finns nu tillgänglig på Mac App Store!" title="Link direct către 🚀 MOCPilot 2025.1.9 finns nu tillgänglig på Mac App Store!" translate="no">​</a></h2>
+<p>Vi är glada att kunna meddela lanseringen av MOCPilot 2025.1.9 som en native macOS-app!</p>
 <hr>
 <p>Nu kan du njuta av full prestanda på skrivbordet och sömlös integration med macOS.<br>
 <!-- -->Ladda ner den idag från Mac App Store och ta kontroll över dina LEGO®-skapelser som aldrig förr!</p>
-<a href="https://apps.apple.com/il/app/controlz-moc-controller/id1585138043" target="_blank" rel="noopener noreferrer" class="margin--sm"><img src="https://onemanstudio-il.github.io/Controlz-Docs/ro/img/store_badges/mac/mac_RO.svg" alt="Download on the Mac App Store" height="60"></a>]]></content:encoded>
+<a href="https://apps.apple.com/il/app/controlz-moc-controller/id1585138043" target="_blank" rel="noopener noreferrer" class="margin--sm"><img src="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/img/store_badges/mac/mac_RO.svg" alt="Download on the Mac App Store" height="60"></a>]]></content:encoded>
             <category>Dev</category>
             <category>Test</category>
         </item>
         <item>
-            <title><![CDATA[Lansare Controlz 2025.1.4]]></title>
-            <link>https://OneManStudio-IL.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-4</link>
-            <guid>https://OneManStudio-IL.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-4</guid>
+            <title><![CDATA[Lansare MOCPilot 2025.1.4]]></title>
+            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4</link>
+            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4</guid>
             <pubDate>Sat, 17 May 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Descriere]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-4#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere" translate="no">​</a></h3>
 <p>Această actualizare îmbunătățește suportul pentru tablete, adaugă pagini utile de testare și remediază mai multe probleme de compatibilitate și performanță.</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-4#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări" translate="no">​</a></h3>
 <ul>
-<li><strong>Adăugat layout pentru tablete</strong> pentru o utilizare mai eficientă a ecranelor mari.</li>
-<li><strong>Remediată o eroare în care blocul „buton hub apăsat”</strong> apărea pentru hub-uri care nu acceptă această acțiune. De asemenea, au fost corectate <strong>blocurile de senzor de culoare</strong> afișate incorect pentru hub-uri nesuportate (ex: BuWizz).</li>
-<li><strong>Remediată o eroare în care blocul „pornire motor”</strong> nu funcționa cu motoarele fără encodere, din cauza lipsei comenzilor alternative de rulare.</li>
-<li><strong>Adăugată o pagină pentru testarea butoanelor de gamepad.</strong></li>
-<li><strong>Adăugată o pagină de testare a hub-urilor</strong>, cu un panou care afișează informații, dispozitive conectate la porturi și starea de „shake” a porturilor.</li>
-<li><strong>Corectată interpretarea incorectă a datelor de accelerometru</strong> pentru BuWizz 2 și 3, care ducea la erori în citirea orientării.</li>
-<li><strong>Corectate scurgeri de memorie RAM</strong> care duceau la închiderea aplicației pe unele dispozitive, din cauza utilizării excesive a memoriei.</li>
-<li><strong>Remediate erori la încărcarea profilelor</strong>, care anterior puteau cauza prăbușirea aplicației în anumite scenarii.</li>
-<li><strong>Remediată o eroare pe Android</strong> în care eliberarea stick-urilor gamepad-ului nu reseta valorile axelor la zero.</li>
+<li class=""><strong>Adăugat layout pentru tablete</strong> pentru o utilizare mai eficientă a ecranelor mari.</li>
+<li class=""><strong>Remediată o eroare în care blocul „buton hub apăsat”</strong> apărea pentru hub-uri care nu acceptă această acțiune. De asemenea, au fost corectate <strong>blocurile de senzor de culoare</strong> afișate incorect pentru hub-uri nesuportate (ex: BuWizz).</li>
+<li class=""><strong>Remediată o eroare în care blocul „pornire motor”</strong> nu funcționa cu motoarele fără encodere, din cauza lipsei comenzilor alternative de rulare.</li>
+<li class=""><strong>Adăugată o pagină pentru testarea butoanelor de gamepad.</strong></li>
+<li class=""><strong>Adăugată o pagină de testare a hub-urilor</strong>, cu un panou care afișează informații, dispozitive conectate la porturi și starea de „shake” a porturilor.</li>
+<li class=""><strong>Corectată interpretarea incorectă a datelor de accelerometru</strong> pentru BuWizz 2 și 3, care ducea la erori în citirea orientării.</li>
+<li class=""><strong>Corectate scurgeri de memorie RAM</strong> care duceau la închiderea aplicației pe unele dispozitive, din cauza utilizării excesive a memoriei.</li>
+<li class=""><strong>Remediate erori la încărcarea profilelor</strong>, care anterior puteau cauza prăbușirea aplicației în anumite scenarii.</li>
+<li class=""><strong>Remediată o eroare pe Android</strong> în care eliberarea stick-urilor gamepad-ului nu reseta valorile axelor la zero.</li>
 </ul>]]></content:encoded>
             <category>Dev</category>
             <category>Test</category>
         </item>
         <item>
-            <title><![CDATA[Lansare Controlz 2025.1.4]]></title>
-            <link>https://OneManStudio-IL.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-4</link>
-            <guid>https://OneManStudio-IL.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-4</guid>
+            <title><![CDATA[Lansare MOCPilot 2025.1.4]]></title>
+            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4</link>
+            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4</guid>
             <pubDate>Sat, 10 May 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Descriere]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-4#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere" translate="no">​</a></h3>
 <p>Această actualizare îmbunătățește suportul pentru tablete, adaugă pagini utile de testare și remediază mai multe probleme de compatibilitate și performanță.</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-4#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-4#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări" translate="no">​</a></h3>
 <ul>
-<li><strong>Adăugat layout pentru tablete</strong> pentru o utilizare mai eficientă a ecranelor mari.</li>
-<li><strong>Remediată o eroare în care blocul „buton hub apăsat”</strong> apărea pentru hub-uri care nu acceptă această acțiune. De asemenea, au fost corectate <strong>blocurile de senzor de culoare</strong> afișate incorect pentru hub-uri nesuportate (ex: BuWizz).</li>
-<li><strong>Remediată o eroare în care blocul „pornire motor”</strong> nu funcționa cu motoarele fără encodere, din cauza lipsei comenzilor alternative de rulare.</li>
-<li><strong>Adăugată o pagină pentru testarea butoanelor de gamepad.</strong></li>
-<li><strong>Adăugată o pagină de testare a hub-urilor</strong>, cu un panou care afișează informații, dispozitive conectate la porturi și starea de „shake” a porturilor.</li>
-<li><strong>Corectată interpretarea incorectă a datelor de accelerometru</strong> pentru BuWizz 2 și 3, care ducea la erori în citirea orientării.</li>
-<li><strong>Corectate scurgeri de memorie RAM</strong> care duceau la închiderea aplicației pe unele dispozitive, din cauza utilizării excesive a memoriei.</li>
-<li><strong>Remediate erori la încărcarea profilelor</strong>, care anterior puteau cauza prăbușirea aplicației în anumite scenarii.</li>
-<li><strong>Remediată o eroare pe Android</strong> în care eliberarea stick-urilor gamepad-ului nu reseta valorile axelor la zero.</li>
+<li class=""><strong>Adăugat layout pentru tablete</strong> pentru o utilizare mai eficientă a ecranelor mari.</li>
+<li class=""><strong>Remediată o eroare în care blocul „buton hub apăsat”</strong> apărea pentru hub-uri care nu acceptă această acțiune. De asemenea, au fost corectate <strong>blocurile de senzor de culoare</strong> afișate incorect pentru hub-uri nesuportate (ex: BuWizz).</li>
+<li class=""><strong>Remediată o eroare în care blocul „pornire motor”</strong> nu funcționa cu motoarele fără encodere, din cauza lipsei comenzilor alternative de rulare.</li>
+<li class=""><strong>Adăugată o pagină pentru testarea butoanelor de gamepad.</strong></li>
+<li class=""><strong>Adăugată o pagină de testare a hub-urilor</strong>, cu un panou care afișează informații, dispozitive conectate la porturi și starea de „shake” a porturilor.</li>
+<li class=""><strong>Corectată interpretarea incorectă a datelor de accelerometru</strong> pentru BuWizz 2 și 3, care ducea la erori în citirea orientării.</li>
+<li class=""><strong>Corectate scurgeri de memorie RAM</strong> care duceau la închiderea aplicației pe unele dispozitive, din cauza utilizării excesive a memoriei.</li>
+<li class=""><strong>Remediate erori la încărcarea profilelor</strong>, care anterior puteau cauza prăbușirea aplicației în anumite scenarii.</li>
+<li class=""><strong>Remediată o eroare pe Android</strong> în care eliberarea stick-urilor gamepad-ului nu reseta valorile axelor la zero.</li>
 </ul>]]></content:encoded>
             <category>Dev</category>
             <category>Test</category>
         </item>
         <item>
-            <title><![CDATA[Lansare Controlz 2025.1.2 - 2025.1.3]]></title>
-            <link>https://OneManStudio-IL.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-2-3</link>
-            <guid>https://OneManStudio-IL.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-2-3</guid>
+            <title><![CDATA[Lansare MOCPilot 2025.1.2 - 2025.1.3]]></title>
+            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-2-3</link>
+            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-2-3</guid>
             <pubDate>Sat, 19 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Descriere]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-2-3#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-2-3#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere" translate="no">​</a></h3>
 <p>Această actualizare introduce noi opțiuni de personalizare pentru joystick, îmbunătățiri ale interfeței și corecturi importante pentru stabilitate.</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-2-3#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-2-3#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări" translate="no">​</a></h3>
 <ul>
-<li><strong>Corectată o eroare în selectorul de colecții din paleta de blocuri</strong>: selectarea unei colecții, derularea către alta și revenirea nu aveau niciun efect.</li>
-<li><strong>Corectată o prăbușire la încărcarea profilelor complexe</strong>, care conțineau un număr mare de blocuri.</li>
-<li><strong>Adăugată proprietatea „Tip axe”</strong> în setările joystick-ului pentru a suporta <strong>modul pe o singură axă</strong> (X, Y, XY).</li>
-<li><strong>Adăugată colorizare</strong> pentru controllerele tip volan („GMZ”, „No Mercy”).</li>
-<li><strong>Adăugați blocuri de tip „este apăsat”</strong> pentru volane și pedale.</li>
+<li class=""><strong>Corectată o eroare în selectorul de colecții din paleta de blocuri</strong>: selectarea unei colecții, derularea către alta și revenirea nu aveau niciun efect.</li>
+<li class=""><strong>Corectată o prăbușire la încărcarea profilelor complexe</strong>, care conțineau un număr mare de blocuri.</li>
+<li class=""><strong>Adăugată proprietatea „Tip axe”</strong> în setările joystick-ului pentru a suporta <strong>modul pe o singură axă</strong> (X, Y, XY).</li>
+<li class=""><strong>Adăugată colorizare</strong> pentru controllerele tip volan („GMZ”, „No Mercy”).</li>
+<li class=""><strong>Adăugați blocuri de tip „este apăsat”</strong> pentru volane și pedale.</li>
 </ul>]]></content:encoded>
             <category>Dev</category>
             <category>Test</category>
         </item>
         <item>
-            <title><![CDATA[Lansare Controlz 2025.1.1]]></title>
-            <link>https://OneManStudio-IL.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-1</link>
-            <guid>https://OneManStudio-IL.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-1</guid>
+            <title><![CDATA[Lansare MOCPilot 2025.1.1]]></title>
+            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-1</link>
+            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-1</guid>
             <pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Descriere]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-1#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="descriere">Descriere<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-1#descriere" class="hash-link" aria-label="Link direct către Descriere" title="Link direct către Descriere" translate="no">​</a></h3>
 <p>Această actualizare include mai multe corecturi importante de erori care îmbunătățesc performanța, reduc consumul bateriei și optimizează comportamentul blocurilor în mediul de programare.</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/Controlz-Docs/ro/blog/closed-test-release-2025-1-1#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="modificări">Modificări<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-release-2025-1-1#modific%C4%83ri" class="hash-link" aria-label="Link direct către Modificări" title="Link direct către Modificări" translate="no">​</a></h3>
 <ul>
-<li><strong>Corectată o eroare care cauza utilizare ridicată a CPU-ului, descărcare rapidă a bateriei și performanță scăzută.</strong></li>
-<li><strong>Corectată o eroare în blocurile pentru gamepad</strong> (de ex., „este butonul apăsat”, „este apăsat butonul D-PAD”) <strong>care împiedica atașarea acestora la alte blocuri.</strong></li>
-<li><strong>Corectată o problemă în blocul de eveniment „comutator cu pași”</strong> care gestiona incorect evenimentele tactile și numărarea pașilor.</li>
-<li><strong>Corectată o eroare în blocul de listă „element din”</strong> care permitea atașarea unui singur bloc ca index de argument.</li>
+<li class=""><strong>Corectată o eroare care cauza utilizare ridicată a CPU-ului, descărcare rapidă a bateriei și performanță scăzută.</strong></li>
+<li class=""><strong>Corectată o eroare în blocurile pentru gamepad</strong> (de ex., „este butonul apăsat”, „este apăsat butonul D-PAD”) <strong>care împiedica atașarea acestora la alte blocuri.</strong></li>
+<li class=""><strong>Corectată o problemă în blocul de eveniment „comutator cu pași”</strong> care gestiona incorect evenimentele tactile și numărarea pașilor.</li>
+<li class=""><strong>Corectată o eroare în blocul de listă „element din”</strong> care permitea atașarea unui singur bloc ca index de argument.</li>
 </ul>]]></content:encoded>
             <category>Dev</category>
             <category>Test</category>
         </item>
         <item>
-            <title><![CDATA[Controlz 2025.1.0]]></title>
-            <link>https://OneManStudio-IL.github.io/Controlz-Docs/ro/blog/closed-test-begin</link>
-            <guid>https://OneManStudio-IL.github.io/Controlz-Docs/ro/blog/closed-test-begin</guid>
+            <title><![CDATA[MOCPilot 2025.1.0]]></title>
+            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-begin</link>
+            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/ro/blog/closed-test-begin</guid>
             <pubDate>Fri, 04 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[🚀 Controlz 2025.1.0 Test Beta Închis a Început!]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-controlz-202510-test-beta-închis-a-început">🚀 Controlz 2025.1.0 Test Beta Închis a Început!<a href="https://onemanstudio-il.github.io/Controlz-Docs/ro/blog/closed-test-begin#-controlz-202510-test-beta-%C3%AEnchis-a-%C3%AEnceput" class="hash-link" aria-label="Link direct către 🚀 Controlz 2025.1.0 Test Beta Închis a Început!" title="Link direct către 🚀 Controlz 2025.1.0 Test Beta Închis a Început!">​</a></h2>
-<p>Suntem încântați să anunțăm că testul beta închis pentru Controlz 2025 este acum activ! Utilizatorii selectați pot explora noile funcționalități, pot oferi feedback și pot contribui la modelarea viitorului aplicației Controlz.</p>
+            <description><![CDATA[🚀 MOCPilot 2025.1.0 Test Beta Închis a Început!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202510-test-beta-închis-a-început">🚀 MOCPilot 2025.1.0 Test Beta Închis a Început!<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/ro/blog/closed-test-begin#-mocpilot-202510-test-beta-%C3%AEnchis-a-%C3%AEnceput" class="hash-link" aria-label="Link direct către 🚀 MOCPilot 2025.1.0 Test Beta Închis a Început!" title="Link direct către 🚀 MOCPilot 2025.1.0 Test Beta Închis a Început!" translate="no">​</a></h2>
+<p>Suntem încântați să anunțăm că testul beta închis pentru MOCPilot 2025 este acum activ! Utilizatorii selectați pot explora noile funcționalități, pot oferi feedback și pot contribui la modelarea viitorului aplicației MOCPilot.</p>
 <p>Dacă ai primit o invitație, verifică-ți emailul pentru detaliile de acces.<br>
 <!-- -->Îți mulțumim că faci parte din această etapă importantă!</p>]]></content:encoded>
             <category>Dev</category>

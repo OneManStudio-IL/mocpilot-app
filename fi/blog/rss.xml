@@ -1,119 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
-        <title>Controlz home Blog</title>
-        <link>https://OneManStudio-IL.github.io/Controlz-Docs/fi/blog</link>
-        <description>Controlz home Blog</description>
+        <title>MOCPilot home Blog</title>
+        <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/fi/blog</link>
+        <description>MOCPilot home Blog</description>
         <lastBuildDate>Tue, 03 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fi</language>
         <item>
-            <title><![CDATA[Julkaisu Controlz 2025.1.9]]></title>
-            <link>https://OneManStudio-IL.github.io/Controlz-Docs/fi/blog/release-2025-1-9</link>
-            <guid>https://OneManStudio-IL.github.io/Controlz-Docs/fi/blog/release-2025-1-9</guid>
+            <title><![CDATA[Julkaisu MOCPilot 2025.1.9]]></title>
+            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/fi/blog/release-2025-1-9</link>
+            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/fi/blog/release-2025-1-9</guid>
             <pubDate>Tue, 03 Jun 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[🚀 Controlz 2025.1.9 on nyt saatavilla Mac App Storessa!]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-controlz-202519-on-nyt-saatavilla-mac-app-storessa">🚀 Controlz 2025.1.9 on nyt saatavilla Mac App Storessa!<a href="https://onemanstudio-il.github.io/Controlz-Docs/fi/blog/release-2025-1-9#-controlz-202519-on-nyt-saatavilla-mac-app-storessa" class="hash-link" aria-label="Suora linkki kohtaan 🚀 Controlz 2025.1.9 on nyt saatavilla Mac App Storessa!" title="Suora linkki kohtaan 🚀 Controlz 2025.1.9 on nyt saatavilla Mac App Storessa!">​</a></h2>
-<p>Olemme innoissamme voidessamme ilmoittaa Controlz 2025.1.9 -version julkaisusta natiivina macOS-sovelluksena!</p>
+            <description><![CDATA[🚀 MOCPilot 2025.1.9 on nyt saatavilla Mac App Storessa!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202519-on-nyt-saatavilla-mac-app-storessa">🚀 MOCPilot 2025.1.9 on nyt saatavilla Mac App Storessa!<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/fi/blog/release-2025-1-9#-mocpilot-202519-on-nyt-saatavilla-mac-app-storessa" class="hash-link" aria-label="Suora linkki kohtaan 🚀 MOCPilot 2025.1.9 on nyt saatavilla Mac App Storessa!" title="Suora linkki kohtaan 🚀 MOCPilot 2025.1.9 on nyt saatavilla Mac App Storessa!" translate="no">​</a></h2>
+<p>Olemme innoissamme voidessamme ilmoittaa MOCPilot 2025.1.9 -version julkaisusta natiivina macOS-sovelluksena!</p>
 <hr>
 <p>Nyt voit nauttia täysistä työpöytäominaisuuksista ja saumattomasta macOS-integraatiosta.<br>
 <!-- -->Lataa se jo tänään Mac App Storesta ja ota LEGO®-luomuksesi hallintaan kuin koskaan ennen!</p>
-<a href="https://apps.apple.com/il/app/controlz-moc-controller/id1585138043" target="_blank" rel="noopener noreferrer" class="margin--sm"><img src="https://onemanstudio-il.github.io/Controlz-Docs/fi/img/store_badges/mac/mac_FI.svg" alt="Download on the Mac App Store" height="60"></a>]]></content:encoded>
+<a href="https://apps.apple.com/il/app/controlz-moc-controller/id1585138043" target="_blank" rel="noopener noreferrer" class="margin--sm"><img src="https://onemanstudio-il.github.io/MOCPilot-Docs/fi/img/store_badges/mac/mac_FI.svg" alt="Download on the Mac App Store" height="60"></a>]]></content:encoded>
             <category>Dev</category>
             <category>Test</category>
         </item>
         <item>
-            <title><![CDATA[Julkaisu Controlz 2025.1.5]]></title>
-            <link>https://OneManStudio-IL.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-5</link>
-            <guid>https://OneManStudio-IL.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-5</guid>
+            <title><![CDATA[Julkaisu MOCPilot 2025.1.5]]></title>
+            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-5</link>
+            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-5</guid>
             <pubDate>Sat, 17 May 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Kuvaus]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="kuvaus">Kuvaus<a href="https://onemanstudio-il.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-5#kuvaus" class="hash-link" aria-label="Suora linkki kohtaan Kuvaus" title="Suora linkki kohtaan Kuvaus">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="kuvaus">Kuvaus<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-5#kuvaus" class="hash-link" aria-label="Suora linkki kohtaan Kuvaus" title="Suora linkki kohtaan Kuvaus" translate="no">​</a></h3>
 <p>Tämä päivitys parantaa lohkojen muokkauskokemusta, lisää suorituskykyä ja varmistaa sovelluksen toimivuuden uusilla Android-versioilla.</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="muutokset">Muutokset<a href="https://onemanstudio-il.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-5#muutokset" class="hash-link" aria-label="Suora linkki kohtaan Muutokset" title="Suora linkki kohtaan Muutokset">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="muutokset">Muutokset<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-5#muutokset" class="hash-link" aria-label="Suora linkki kohtaan Muutokset" title="Suora linkki kohtaan Muutokset" translate="no">​</a></h3>
 <ul>
-<li><strong>Korjattiin bugi hubien skannauksessa Android 12+<!-- -->:lla</strong> pyytämällä tarkka sijaintilupa.</li>
-<li><strong>Lisättiin mahdollisuus piilottaa/näyttää lohkovalikko</strong> napsauttamalla valittua lohkokokoelmaa.</li>
-<li><strong>Lisättiin koonmuutoskahva</strong> lohkovalikkoon, mikä mahdollistaa <strong>manuaalisen koon säätämisen</strong>.</li>
-<li><strong>Korjattiin korkea suorittimen käyttöaste</strong>, joka ilmeni, kun profiili oli ladattu mutta ohjelma ei ollut käynnissä.</li>
-<li><strong>Parannettiin "Merkkijonolista"-lohkon editoria</strong>, jotta sisältö ei leikkaannu. Nyt kohteet jaetaan sarakkeisiin, mikä parantaa näkyvyyttä suurissa listoissa.</li>
+<li class=""><strong>Korjattiin bugi hubien skannauksessa Android 12+<!-- -->:lla</strong> pyytämällä tarkka sijaintilupa.</li>
+<li class=""><strong>Lisättiin mahdollisuus piilottaa/näyttää lohkovalikko</strong> napsauttamalla valittua lohkokokoelmaa.</li>
+<li class=""><strong>Lisättiin koonmuutoskahva</strong> lohkovalikkoon, mikä mahdollistaa <strong>manuaalisen koon säätämisen</strong>.</li>
+<li class=""><strong>Korjattiin korkea suorittimen käyttöaste</strong>, joka ilmeni, kun profiili oli ladattu mutta ohjelma ei ollut käynnissä.</li>
+<li class=""><strong>Parannettiin "Merkkijonolista"-lohkon editoria</strong>, jotta sisältö ei leikkaannu. Nyt kohteet jaetaan sarakkeisiin, mikä parantaa näkyvyyttä suurissa listoissa.</li>
 </ul>]]></content:encoded>
             <category>Dev</category>
             <category>Test</category>
         </item>
         <item>
-            <title><![CDATA[Julkaisu Controlz 2025.1.4]]></title>
-            <link>https://OneManStudio-IL.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-4</link>
-            <guid>https://OneManStudio-IL.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-4</guid>
+            <title><![CDATA[Julkaisu MOCPilot 2025.1.4]]></title>
+            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-4</link>
+            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-4</guid>
             <pubDate>Sat, 10 May 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Kuvaus]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="kuvaus">Kuvaus<a href="https://onemanstudio-il.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-4#kuvaus" class="hash-link" aria-label="Suora linkki kohtaan Kuvaus" title="Suora linkki kohtaan Kuvaus">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="kuvaus">Kuvaus<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-4#kuvaus" class="hash-link" aria-label="Suora linkki kohtaan Kuvaus" title="Suora linkki kohtaan Kuvaus" translate="no">​</a></h3>
 <p>Tämä päivitys parantaa tablettien tukea, lisää hyödyllisiä testisivuja ja korjaa useita yhteensopivuus- ja suorituskykyongelmia.</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="muutokset">Muutokset<a href="https://onemanstudio-il.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-4#muutokset" class="hash-link" aria-label="Suora linkki kohtaan Muutokset" title="Suora linkki kohtaan Muutokset">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="muutokset">Muutokset<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-4#muutokset" class="hash-link" aria-label="Suora linkki kohtaan Muutokset" title="Suora linkki kohtaan Muutokset" translate="no">​</a></h3>
 <ul>
-<li><strong>Lisättiin tablettituki</strong>, joka hyödyntää paremmin suurempia näyttöjä.</li>
-<li><strong>Korjattiin bugi, jossa "hub-painike painettu" -lohko</strong> näkyi myös hubeilla, jotka eivät tue tätä toimintoa. Korjattiin myös virheelliset <strong>värisensorilohkot</strong> ei-tuetuille hubeille (esim. BuWizz).</li>
-<li><strong>Korjattiin bugi, jossa "moottori käy" -lohko</strong> ei vaikuttanut moottoreihin ilman enkooderia vaihtoehtoisten komentojen puuttumisen vuoksi.</li>
-<li><strong>Lisättiin sivu peliohjainten painikkeiden testaamiseen.</strong></li>
-<li><strong>Lisättiin hubin testisivu</strong>, joka sisältää kojelaudan tiedoille, liitetyille porttilaitteille ja portin tärinän tilalle.</li>
-<li><strong>Korjattiin virheellinen kiihtyvyysanturin datan tulkinta</strong> BuWizz 2- ja 3-hubeilla, mikä aiheutti virheellisiä asentoarvoja.</li>
-<li><strong>Korjattiin RAM-muistivuodot</strong>, jotka johtivat sovelluksen sulkeutumiseen joillain laitteilla korkean muistinkäytön vuoksi.</li>
-<li><strong>Korjattiin virheitä profiilien lataamisessa</strong>, jotka aiemmin aiheuttivat kaatumisia tietyissä tilanteissa.</li>
-<li><strong>Korjattiin Android-bugi</strong>, jossa peliohjaimen sauvojen vapauttaminen ei nollannut akseliarvoja.</li>
+<li class=""><strong>Lisättiin tablettituki</strong>, joka hyödyntää paremmin suurempia näyttöjä.</li>
+<li class=""><strong>Korjattiin bugi, jossa "hub-painike painettu" -lohko</strong> näkyi myös hubeilla, jotka eivät tue tätä toimintoa. Korjattiin myös virheelliset <strong>värisensorilohkot</strong> ei-tuetuille hubeille (esim. BuWizz).</li>
+<li class=""><strong>Korjattiin bugi, jossa "moottori käy" -lohko</strong> ei vaikuttanut moottoreihin ilman enkooderia vaihtoehtoisten komentojen puuttumisen vuoksi.</li>
+<li class=""><strong>Lisättiin sivu peliohjainten painikkeiden testaamiseen.</strong></li>
+<li class=""><strong>Lisättiin hubin testisivu</strong>, joka sisältää kojelaudan tiedoille, liitetyille porttilaitteille ja portin tärinän tilalle.</li>
+<li class=""><strong>Korjattiin virheellinen kiihtyvyysanturin datan tulkinta</strong> BuWizz 2- ja 3-hubeilla, mikä aiheutti virheellisiä asentoarvoja.</li>
+<li class=""><strong>Korjattiin RAM-muistivuodot</strong>, jotka johtivat sovelluksen sulkeutumiseen joillain laitteilla korkean muistinkäytön vuoksi.</li>
+<li class=""><strong>Korjattiin virheitä profiilien lataamisessa</strong>, jotka aiemmin aiheuttivat kaatumisia tietyissä tilanteissa.</li>
+<li class=""><strong>Korjattiin Android-bugi</strong>, jossa peliohjaimen sauvojen vapauttaminen ei nollannut akseliarvoja.</li>
 </ul>]]></content:encoded>
             <category>Dev</category>
             <category>Test</category>
         </item>
         <item>
-            <title><![CDATA[Julkaisu Controlz 2025.1.2 – 2025.1.3]]></title>
-            <link>https://OneManStudio-IL.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-2-3</link>
-            <guid>https://OneManStudio-IL.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-2-3</guid>
+            <title><![CDATA[Julkaisu MOCPilot 2025.1.2 – 2025.1.3]]></title>
+            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-2-3</link>
+            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-2-3</guid>
             <pubDate>Sat, 19 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Kuvaus]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="kuvaus">Kuvaus<a href="https://onemanstudio-il.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-2-3#kuvaus" class="hash-link" aria-label="Suora linkki kohtaan Kuvaus" title="Suora linkki kohtaan Kuvaus">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="kuvaus">Kuvaus<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-2-3#kuvaus" class="hash-link" aria-label="Suora linkki kohtaan Kuvaus" title="Suora linkki kohtaan Kuvaus" translate="no">​</a></h3>
 <p>Tämä päivitys tuo mukanaan uusia joystickin mukautusvaihtoehtoja, käyttöliittymäparannuksia ja tärkeitä vakautuskorjauksia.</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="muutokset">Muutokset<a href="https://onemanstudio-il.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-2-3#muutokset" class="hash-link" aria-label="Suora linkki kohtaan Muutokset" title="Suora linkki kohtaan Muutokset">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="muutokset">Muutokset<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-2-3#muutokset" class="hash-link" aria-label="Suora linkki kohtaan Muutokset" title="Suora linkki kohtaan Muutokset" translate="no">​</a></h3>
 <ul>
-<li><strong>Korjattiin bugi lohkopaletin kokoelma-valitsimessa</strong>: kokoelman valitseminen, toiseen vierittäminen ja paluu ei vaikuttanut mihinkään.</li>
-<li><strong>Korjattiin kaatuminen raskaita profiileja ladattaessa</strong>, joissa oli suuri määrä lohkoja.</li>
-<li><strong>Lisättiin “Akseleiden tyyppi” -ominaisuus</strong> joystick-asetuksiin tukemaan <strong>yhden akselin tilaa</strong> (X, Y, XY).</li>
-<li><strong>Lisättiin värituki</strong> ohjauspyöräkontrollereille (“GMZ”, “No Mercy”).</li>
-<li><strong>Lisättiin “on painettu” -lohkoja</strong> ohjauspyörille ja polkimille.</li>
+<li class=""><strong>Korjattiin bugi lohkopaletin kokoelma-valitsimessa</strong>: kokoelman valitseminen, toiseen vierittäminen ja paluu ei vaikuttanut mihinkään.</li>
+<li class=""><strong>Korjattiin kaatuminen raskaita profiileja ladattaessa</strong>, joissa oli suuri määrä lohkoja.</li>
+<li class=""><strong>Lisättiin “Akseleiden tyyppi” -ominaisuus</strong> joystick-asetuksiin tukemaan <strong>yhden akselin tilaa</strong> (X, Y, XY).</li>
+<li class=""><strong>Lisättiin värituki</strong> ohjauspyöräkontrollereille (“GMZ”, “No Mercy”).</li>
+<li class=""><strong>Lisättiin “on painettu” -lohkoja</strong> ohjauspyörille ja polkimille.</li>
 </ul>]]></content:encoded>
             <category>Dev</category>
             <category>Test</category>
         </item>
         <item>
-            <title><![CDATA[Release Controlz 2025.1.1]]></title>
-            <link>https://OneManStudio-IL.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-1</link>
-            <guid>https://OneManStudio-IL.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-1</guid>
+            <title><![CDATA[Release MOCPilot 2025.1.1]]></title>
+            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-1</link>
+            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-1</guid>
             <pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[Kuvaus]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorWithStickyNavbar_LWe7" id="kuvaus">Kuvaus<a href="https://onemanstudio-il.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-1#kuvaus" class="hash-link" aria-label="Suora linkki kohtaan Kuvaus" title="Suora linkki kohtaan Kuvaus">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="kuvaus">Kuvaus<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-1#kuvaus" class="hash-link" aria-label="Suora linkki kohtaan Kuvaus" title="Suora linkki kohtaan Kuvaus" translate="no">​</a></h3>
 <p>Tässä päivityksessä on useita tärkeitä bugikorjauksia, jotka parantavat suorituskykyä, vähentävät akun kulutusta ja parantavat lohkojen toimintaa ohjelmointiympäristössä.</p>
 <hr>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="muutokset">Muutokset<a href="https://onemanstudio-il.github.io/Controlz-Docs/fi/blog/closed-test-release-2025-1-1#muutokset" class="hash-link" aria-label="Suora linkki kohtaan Muutokset" title="Suora linkki kohtaan Muutokset">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="muutokset">Muutokset<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/fi/blog/closed-test-release-2025-1-1#muutokset" class="hash-link" aria-label="Suora linkki kohtaan Muutokset" title="Suora linkki kohtaan Muutokset" translate="no">​</a></h3>
 <ul>
-<li><strong>Korjattiin bugi, joka aiheutti korkean suorittimen käytön, akun kulutuksen ja heikon suorituskyvyn.</strong></li>
-<li><strong>Korjattiin bugi, jossa peliohjaimen lohkoja</strong> (esim. "onko painiketta painettu", "onko D-PAD-painiketta painettu") <strong>ei voitu liittää muihin lohkoihin.</strong></li>
-<li><strong>Korjattiin ongelma askelvaihtotapahtumassa,</strong> jossa kosketustapahtumia ja askelten laskentaa käsiteltiin väärin.</li>
-<li><strong>Korjattiin bugi listalohkon "item of" -toiminnossa,</strong> jossa argumenttina sai olla vain yksi lohko.</li>
+<li class=""><strong>Korjattiin bugi, joka aiheutti korkean suorittimen käytön, akun kulutuksen ja heikon suorituskyvyn.</strong></li>
+<li class=""><strong>Korjattiin bugi, jossa peliohjaimen lohkoja</strong> (esim. "onko painiketta painettu", "onko D-PAD-painiketta painettu") <strong>ei voitu liittää muihin lohkoihin.</strong></li>
+<li class=""><strong>Korjattiin ongelma askelvaihtotapahtumassa,</strong> jossa kosketustapahtumia ja askelten laskentaa käsiteltiin väärin.</li>
+<li class=""><strong>Korjattiin bugi listalohkon "item of" -toiminnossa,</strong> jossa argumenttina sai olla vain yksi lohko.</li>
 </ul>]]></content:encoded>
             <category>Dev</category>
             <category>Test</category>
         </item>
         <item>
-            <title><![CDATA[Controlz 2025.1.0]]></title>
-            <link>https://OneManStudio-IL.github.io/Controlz-Docs/fi/blog/closed-test-begin</link>
-            <guid>https://OneManStudio-IL.github.io/Controlz-Docs/fi/blog/closed-test-begin</guid>
+            <title><![CDATA[MOCPilot 2025.1.0]]></title>
+            <link>https://OneManStudio-IL.github.io/MOCPilot-Docs/fi/blog/closed-test-begin</link>
+            <guid>https://OneManStudio-IL.github.io/MOCPilot-Docs/fi/blog/closed-test-begin</guid>
             <pubDate>Fri, 04 Apr 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[🚀 Controlz 2025.1.0 Suljettu Beta on Alkanut!]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-controlz-202510-suljettu-beta-on-alkanut">🚀 Controlz 2025.1.0 Suljettu Beta on Alkanut!<a href="https://onemanstudio-il.github.io/Controlz-Docs/fi/blog/closed-test-begin#-controlz-202510-suljettu-beta-on-alkanut" class="hash-link" aria-label="Suora linkki kohtaan 🚀 Controlz 2025.1.0 Suljettu Beta on Alkanut!" title="Suora linkki kohtaan 🚀 Controlz 2025.1.0 Suljettu Beta on Alkanut!">​</a></h2>
-<p>Olemme innoissamme ilmoittaessamme, että Controlz 2025<!-- -->:n<!-- --> suljettu beta-testaus on nyt käynnissä! Valitut käyttäjät voivat nyt tutustua uusiin ominaisuuksiin, antaa palautetta ja auttaa muovaamaan Controlzin tulevaisuutta.</p>
+            <description><![CDATA[🚀 MOCPilot 2025.1.0 Suljettu Beta on Alkanut!]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202510-suljettu-beta-on-alkanut">🚀 MOCPilot 2025.1.0 Suljettu Beta on Alkanut!<a href="https://onemanstudio-il.github.io/MOCPilot-Docs/fi/blog/closed-test-begin#-mocpilot-202510-suljettu-beta-on-alkanut" class="hash-link" aria-label="Suora linkki kohtaan 🚀 MOCPilot 2025.1.0 Suljettu Beta on Alkanut!" title="Suora linkki kohtaan 🚀 MOCPilot 2025.1.0 Suljettu Beta on Alkanut!" translate="no">​</a></h2>
+<p>Olemme innoissamme ilmoittaessamme, että MOCPilot 2025<!-- -->:n<!-- --> suljettu beta-testaus on nyt käynnissä! Valitut käyttäjät voivat nyt tutustua uusiin ominaisuuksiin, antaa palautetta ja auttaa muovaamaan MOCPilotin tulevaisuutta.</p>
 <p>Jos olet saanut kutsun, tarkista sähköpostistasi käyttöohjeet.<br>
 <!-- -->Kiitos, että olet mukana tässä tärkeässä vaiheessa!</p>]]></content:encoded>
             <category>Dev</category>
