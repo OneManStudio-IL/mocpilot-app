@@ -1,1 +1,0 @@
-"use strict";(globalThis.webpackChunkmocpilot_docs=globalThis.webpackChunkmocpilot_docs||[]).push([[627],{2129:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/jp/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":7,"blogDescription":"\u30d6\u30ed\u30b0","blogTitle":"\u30d6\u30ed\u30b0"}}')}}]);

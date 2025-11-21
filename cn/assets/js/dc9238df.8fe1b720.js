@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmocpilot_docs=self.webpackChunkmocpilot_docs||[]).push([[9674],{1506:e=>{e.exports=JSON.parse('{"tags":[{"label":"Dev","permalink":"/mocpilot-app/cn/blog/tags/dev","description":"Development news","count":7},{"label":"Test","permalink":"/mocpilot-app/cn/blog/tags/test","description":"Testing news","count":6}]}')}}]);
