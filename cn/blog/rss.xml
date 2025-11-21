@@ -14,7 +14,7 @@
             <guid>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/release-2025-1-9</guid>
             <pubDate>Tue, 03 Jun 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[🚀 MOCPilot 2025.1.9 现已在 Mac App Store 上架！]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202519-现已在-mac-app-store-上架">🚀 MOCPilot 2025.1.9 现已在 Mac App Store 上架！<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/release-2025-1-9#-mocpilot-202519-%E7%8E%B0%E5%B7%B2%E5%9C%A8-mac-app-store-%E4%B8%8A%E6%9E%B6" class="hash-link" aria-label="直接链接到 🚀 MOCPilot 2025.1.9 现已在 Mac App Store 上架！" title="直接链接到 🚀 MOCPilot 2025.1.9 现已在 Mac App Store 上架！" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vdyg" id="-mocpilot-202519-现已在-mac-app-store-上架">🚀 MOCPilot 2025.1.9 现已在 Mac App Store 上架！<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/release-2025-1-9#-mocpilot-202519-%E7%8E%B0%E5%B7%B2%E5%9C%A8-mac-app-store-%E4%B8%8A%E6%9E%B6" class="hash-link" aria-label="直接链接到 🚀 MOCPilot 2025.1.9 现已在 Mac App Store 上架！" title="直接链接到 🚀 MOCPilot 2025.1.9 现已在 Mac App Store 上架！" translate="no">​</a></h2>
 <p>我们很高兴地宣布，MOCPilot 2025.1.9 现已作为原生 macOS 应用发布！</p>
 <hr>
 <p>您现在可以在桌面上享受更高的性能和与 macOS 的无缝集成。<br>
@@ -29,10 +29,10 @@
             <guid>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-5</guid>
             <pubDate>Sat, 17 May 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[描述]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="描述">描述<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-5#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述" translate="no">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="描述">描述<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-5#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述" translate="no">​</a></h3>
 <p>此更新提升了积木编辑体验，改进了性能，并确保在新版 Android 系统上的正常运行。</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-5#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-5#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>修复了在 Android 12 及以上系统中 Hub 扫描的问题，</strong> 通过请求精确定位权限解决。</li>
 <li class=""><strong>新增点击当前选中的积木集合来隐藏/显示积木面板的功能。</strong></li>
@@ -49,10 +49,10 @@
             <guid>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-4</guid>
             <pubDate>Sat, 10 May 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[描述]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="描述">描述<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-4#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述" translate="no">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="描述">描述<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-4#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述" translate="no">​</a></h3>
 <p>此更新改进了对平板设备的支持，增加了实用的测试页面，并修复了多个兼容性与性能问题。</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-4#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-4#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>新增了平板布局，</strong> 更好地利用大屏幕空间。</li>
 <li class=""><strong>修复了“hub按钮被按下”积木块的错误，</strong> 该积木错误地出现在不支持此功能的 hub 上。还修复了在不支持的 hub（如 BuWizz）上错误显示的<strong>颜色传感器积木块</strong>。</li>
@@ -73,10 +73,10 @@
             <guid>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-2-3</guid>
             <pubDate>Sat, 19 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[描述]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="描述">描述<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-2-3#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述" translate="no">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="描述">描述<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-2-3#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述" translate="no">​</a></h3>
 <p>此更新引入了新的摇杆自定义选项、界面改进以及重要的稳定性修复。</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-2-3#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-2-3#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>修复了积木调色板集合选择器中的错误</strong>：选择一个集合后滚动到另一个再返回时不生效的问题。</li>
 <li class=""><strong>修复了加载大型配置文件时崩溃的问题，</strong> 尤其是当包含大量积木时。</li>
@@ -93,10 +93,10 @@
             <guid>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-1</guid>
             <pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[描述]]></description>
-            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="描述">描述<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-1#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述" translate="no">​</a></h3>
+            <content:encoded><![CDATA[<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="描述">描述<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-1#%E6%8F%8F%E8%BF%B0" class="hash-link" aria-label="直接链接到 描述" title="直接链接到 描述" translate="no">​</a></h3>
 <p>此更新包含若干重要的错误修复，提升了性能，降低了电池消耗，并改善了编程环境中积木的行为。</p>
 <hr>
-<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-1#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容" translate="no">​</a></h3>
+<h3 class="anchor anchorTargetStickyNavbar_Vdyg" id="更改内容">更改内容<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-release-2025-1-1#%E6%9B%B4%E6%94%B9%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 更改内容" title="直接链接到 更改内容" translate="no">​</a></h3>
 <ul>
 <li class=""><strong>修复了导致高 CPU 使用率、电池消耗快和性能下降的错误。</strong></li>
 <li class=""><strong>修复了游戏手柄相关积木</strong>（例如“按钮是否被按下”、“D-PAD 按钮是否被按下”）<strong>无法与其他积木连接的问题。</strong></li>
@@ -112,7 +112,7 @@
             <guid>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/closed-test-begin</guid>
             <pubDate>Fri, 04 Apr 2025 00:00:00 GMT</pubDate>
             <description><![CDATA[🚀 MOCPilot 2025.1.0 封闭测试已开启！]]></description>
-            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202510-封闭测试已开启">🚀 MOCPilot 2025.1.0 封闭测试已开启！<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-begin#-mocpilot-202510-%E5%B0%81%E9%97%AD%E6%B5%8B%E8%AF%95%E5%B7%B2%E5%BC%80%E5%90%AF" class="hash-link" aria-label="直接链接到 🚀 MOCPilot 2025.1.0 封闭测试已开启！" title="直接链接到 🚀 MOCPilot 2025.1.0 封闭测试已开启！" translate="no">​</a></h2>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vdyg" id="-mocpilot-202510-封闭测试已开启">🚀 MOCPilot 2025.1.0 封闭测试已开启！<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/closed-test-begin#-mocpilot-202510-%E5%B0%81%E9%97%AD%E6%B5%8B%E8%AF%95%E5%B7%B2%E5%BC%80%E5%90%AF" class="hash-link" aria-label="直接链接到 🚀 MOCPilot 2025.1.0 封闭测试已开启！" title="直接链接到 🚀 MOCPilot 2025.1.0 封闭测试已开启！" translate="no">​</a></h2>
 <p>我们很高兴地宣布，MOCPilot 2025 的封闭测试现已正式启动！<br>
 <!-- -->受邀用户现在可以抢先体验新功能、提供反馈，并共同塑造 MOCPilot 的未来。</p>
 <p>如果您已收到邀请，请查收电子邮件以获取访问详情。<br>
