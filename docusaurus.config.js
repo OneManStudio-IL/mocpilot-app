@@ -2,15 +2,15 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
-const isProd = process.env.NODE_ENV === 'production';
+const isDeploy = process.env.GITHUB_ACTIONS === 'true';
 const sProjectName = "mocpilot-app";
 
 // Automatically switch baseUrl depend on running environment
-const sBaseUrl = isProd ? `/${sProjectName}/` : '/';
+const sBaseUrl = isDeploy ? `/${sProjectName}/` : '/';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'MOCPilot home',
+  title: 'MOCPilot',
   tagline: 'The official page and documentation of MOCPilot app',
   favicon: 'img/favicon.ico',
 
