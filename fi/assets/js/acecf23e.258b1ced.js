@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmocpilot_docs=self.webpackChunkmocpilot_docs||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/mocpilot-app/fi/blog","blogTitle":"Blog","authorsListPath":"/mocpilot-app/fi/blog/authors"}')}}]);
