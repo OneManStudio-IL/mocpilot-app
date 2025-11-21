@@ -5,14 +5,14 @@ title: Datenschutzrichtlinie
 
 # Datenschutzrichtlinie
 
-Maksim Nemna hat die Controlz-Anwendung als kommerzielle Anwendung erstellt.  
+Maksim Nemna hat die MOCPilot-Anwendung als kommerzielle Anwendung erstellt.  
 Dieser DIENST wird von Maksim Nemna bereitgestellt und steht „wie besehen“ zur Nutzung zur Verfügung.
 
 Diese Seite dient dazu, Besucher über meine Richtlinien bezüglich der Erhebung, Nutzung und Offenlegung personenbezogener Daten zu informieren, falls jemand meinen Dienst nutzt.
 
 Wenn Sie sich entscheiden, meinen Dienst zu nutzen, stimmen Sie der Erhebung und Nutzung von Informationen gemäß dieser Richtlinie zu. Die personenbezogenen Daten, die ich sammle, werden verwendet, um den Dienst bereitzustellen und zu verbessern. Ich werde Ihre Informationen nicht an Dritte weitergeben oder mit ihnen teilen, außer wie in dieser Datenschutzrichtlinie beschrieben.
 
-Die in dieser Datenschutzrichtlinie verwendeten Begriffe haben dieselbe Bedeutung wie in unseren Allgemeinen Geschäftsbedingungen, die auf Controlz verfügbar sind, sofern hier nicht anders definiert.
+Die in dieser Datenschutzrichtlinie verwendeten Begriffe haben dieselbe Bedeutung wie in unseren Allgemeinen Geschäftsbedingungen, die auf MOCPilot verfügbar sind, sofern hier nicht anders definiert.
 
 ## Erhebung und Nutzung von Informationen
 

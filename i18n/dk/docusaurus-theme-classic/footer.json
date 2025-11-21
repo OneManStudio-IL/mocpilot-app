@@ -36,11 +36,11 @@
     "description": "Label for link i sidefod med betingelser, der linker til /docs/Legal/Terms"
   },
   "copyright": {
-    "message": "Ophavsret © 2025 Controlz, Inc.",
+    "message": "Ophavsret © 2025 MOCPilot, Inc.",
     "description": "Ophavsret i sidefoden"
   },
   "logo.alt": {
-    "message": "Controlz-logo",
+    "message": "MOCPilot-logo",
     "description": "Alternativ tekst for logo i sidefod"
   }
 }

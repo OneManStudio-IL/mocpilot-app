@@ -36,11 +36,11 @@
     "description": "Merkelappen for bunntekstlenken med label=Terms som linker til /docs/Legal/Terms"
   },
   "copyright": {
-    "message": "Opphavsrett © 2025 Controlz, Inc.",
+    "message": "Opphavsrett © 2025 MOCPilot, Inc.",
     "description": "Opphavsrett i bunnteksten"
   },
   "logo.alt": {
-    "message": "Controlz-logo",
+    "message": "MOCPilot-logo",
     "description": "Alternativ tekst for logoen i bunnteksten"
   }
 }

@@ -1,12 +1,4 @@
 {
-  "title": {
-    "message": "CONTROLZ",
-    "description": "The title in the navbar"
-  },
-  "logo.alt": {
-    "message": "Controlz-logo",
-    "description": "The alt text of navbar logo"
-  },
   "item.label.Documentation": {
     "message": "Dokumentaatio",
     "description": "Navbar item with label Documentation"

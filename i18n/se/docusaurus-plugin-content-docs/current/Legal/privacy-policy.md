@@ -5,14 +5,14 @@ title: Integritetspolicy
 
 # Integritetspolicy
 
-Maksim Nemna skapade Controlz-applikationen som en kommersiell applikation.  
+Maksim Nemna skapade MOCPilot-applikationen som en kommersiell applikation.  
 Denna TJÄNST tillhandahålls av Maksim Nemna och är avsedd att användas som den är.
 
 Denna sida används för att informera besökare om mina policyer gällande insamling, användning och utlämning av personlig information om någon väljer att använda min tjänst.
 
 Om du väljer att använda min tjänst, godkänner du insamling och användning av information i enlighet med denna policy. Den personliga informationen jag samlar in används för att tillhandahålla och förbättra tjänsten. Jag kommer inte att använda eller dela din information med någon annan än som beskrivs i denna integritetspolicy.
 
-Villkoren som används i denna integritetspolicy har samma betydelse som i våra villkor, som finns tillgängliga på Controlz, om inget annat definieras i denna policy.
+Villkoren som används i denna integritetspolicy har samma betydelse som i våra villkor, som finns tillgängliga på MOCPilot, om inget annat definieras i denna policy.
 
 ## Insamling och användning av information
 

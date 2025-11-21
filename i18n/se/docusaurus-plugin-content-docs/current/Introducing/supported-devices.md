@@ -7,7 +7,7 @@ import { SupportedHubsTable, SupportedMotorsTable, SupportedSensorsTable } from 
 
 # ⚙️ Stödda enheter
 
-Här är en snabb översikt över de hubbar, motorer och sensorer som stöds av **Controlz**.
+Här är en snabb översikt över de hubbar, motorer och sensorer som stöds av **MOCPilot**.
 
 <details>
 <summary>Hubbar</summary>

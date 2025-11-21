@@ -1,12 +1,4 @@
 {
-  "title": {
-    "message": "CONTROLZ",
-    "description": "Tytuł na pasku nawigacyjnym"
-  },
-  "logo.alt": {
-    "message": "Logo Controlz",
-    "description": "Tekst alternatywny logo na pasku nawigacyjnym"
-  },
   "item.label.Documentation": {
     "message": "Dokumentacja",
     "description": "Element na pasku nawigacyjnym z etykietą Dokumentacja"

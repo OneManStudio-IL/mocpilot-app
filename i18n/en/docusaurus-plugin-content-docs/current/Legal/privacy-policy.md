@@ -5,14 +5,14 @@ title: Privacy Policy
 
 # Privacy Policy
 
-Maksim Nemna created the Controlz application as a commercial application. 
+Maksim Nemna created the MOCPilot application as a commercial application. 
 This SERVICE is provided by Maksim Nemna and is intended for use as is.
 
 This page is used to inform visitors about my policies regarding the collection, use, and disclosure of Personal Information if someone decides to use my Service.
 
 If you choose to use my Service, you agree to the collection and use of information in accordance with this policy. The Personal Information that I collect is used to provide and improve the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are available on Controlz, unless otherwise defined in this Privacy Policy.
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are available on MOCPilot, unless otherwise defined in this Privacy Policy.
 
 ## Information Collection and Use
 

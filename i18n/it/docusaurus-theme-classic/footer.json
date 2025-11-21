@@ -36,11 +36,11 @@
     "description": "L'etichetta del link nel footer con label=Terms che punta a /docs/Legal/Terms"
   },
   "copyright": {
-    "message": "Copyright © 2025 Controlz, Inc.",
+    "message": "Copyright © 2025 MOCPilot, Inc.",
     "description": "Il copyright nel footer"
   },
   "logo.alt": {
-    "message": "Logo Controlz",
+    "message": "Logo MOCPilot",
     "description": "Il testo alternativo del logo nel footer"
   }
 }

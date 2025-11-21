@@ -36,11 +36,11 @@
     "description": "Het label van footerlink met label Voorwaarden die linkt naar /docs/Legal/Terms"
   },
   "copyright": {
-    "message": "Copyright © 2025 Controlz, Inc.",
+    "message": "Copyright © 2025 MOCPilot, Inc.",
     "description": "Het copyright in de footer"
   },
   "logo.alt": {
-    "message": "Controlz-logo",
+    "message": "MOCPilot-logo",
     "description": "De alt-tekst van het footerlogo"
   }
 }

@@ -1,13 +1,13 @@
 ---
 id: AboutApp
-title: Om Controlz
+title: Om MOCPilot
 ---
 
-# Controlz – Lyft dina LEGO®-skapelser
+# MOCPilot – Lyft dina LEGO®-skapelser
 
-**Controlz** är en kraftfull mobilapplikation designad för att förbättra din bygg- och kontrollupplevelse.  
+**MOCPilot** är en kraftfull mobilapplikation designad för att förbättra din bygg- och kontrollupplevelse.  
 Den tillåter entusiaster att fjärrstyra sina modeller, mekanismer och robotar med smartphones, surfplattor eller till och med gamepads.  
-Med ett brett utbud av stöd för hubbar och motorer erbjuder **Controlz** ett sömlöst och anpassningsbart gränssnitt för användare att interagera med sina skapelser.
+Med ett brett utbud av stöd för hubbar och motorer erbjuder **MOCPilot** ett sömlöst och anpassningsbart gränssnitt för användare att interagera med sina skapelser.
 
 ---
 
@@ -20,7 +20,7 @@ Med ett brett utbud av stöd för hubbar och motorer erbjuder **Controlz** ett s
 
 ## 🧱 Visuell Programmering med Scratch-baserat Gränssnitt
 
-Controlz använder ett visuellt programmeringsspråk baserat på Scratch, vilket gör det möjligt för användare att:
+MOCPilot använder ett visuellt programmeringsspråk baserat på Scratch, vilket gör det möjligt för användare att:
 
 - Designa både enkla och komplexa program för LEGO®-modeller, mekanismer och robotar.
 - Använda ett intuitivt dra-och-släpp-gränssnitt, vilket gör det tillgängligt för användare i alla åldrar och med olika kunskapsnivåer.
@@ -39,8 +39,8 @@ Controlz använder ett visuellt programmeringsspråk baserat på Scratch, vilket
 
 ## 📱 Tillgänglighet
 
-Controlz är gratis att ladda ner och finns tillgängligt för både Android- och Apple-enheter.
+MOCPilot är gratis att ladda ner och finns tillgängligt för både Android- och Apple-enheter.
 
 ---
 
-Ge dina LEGO®-skapelser kraft med **Controlz**, och levandegör dem genom avancerade kontrollfunktioner, intuitiv navigering och flexibla konfigurationsmöjligheter.
+Ge dina LEGO®-skapelser kraft med **MOCPilot**, och levandegör dem genom avancerade kontrollfunktioner, intuitiv navigering och flexibla konfigurationsmöjligheter.

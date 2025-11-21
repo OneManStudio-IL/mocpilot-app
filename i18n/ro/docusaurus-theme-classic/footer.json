@@ -36,11 +36,11 @@
     "description": "Eticheta linkului din footer cu label=Termeni care leagă către /docs/Legal/Terms"
   },
   "copyright": {
-    "message": "Drepturi de autor © 2025 Controlz, Inc.",
+    "message": "Drepturi de autor © 2025 MOCPilot, Inc.",
     "description": "Copyright în footer"
   },
   "logo.alt": {
-    "message": "Logo Controlz",
+    "message": "Logo MOCPilot",
     "description": "Text alternativ pentru logo-ul din footer"
   }
 }

@@ -7,7 +7,7 @@ import { SupportedHubsTable, SupportedMotorsTable, SupportedSensorsTable } from 
 
 # ⚙️ Tuetut laitteet
 
-Tässä on nopea yleiskatsaus **Controlz**-sovelluksen tukemista hubeista, moottoreista ja antureista.
+Tässä on nopea yleiskatsaus **MOCPilot**-sovelluksen tukemista hubeista, moottoreista ja antureista.
 
 <details>
 <summary>Hubit</summary>

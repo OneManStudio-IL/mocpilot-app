@@ -7,7 +7,7 @@ import { SupportedHubsTable, SupportedMotorsTable, SupportedSensorsTable } from 
 
 # ⚙️ Підтримувані хаби, мотори та датчики
 
-Короткий огляд хабів, моторів і датчиків, які підтримує **Controlz**.
+Короткий огляд хабів, моторів і датчиків, які підтримує **MOCPilot**.
 
 <details>
 <summary>Хаби</summary>

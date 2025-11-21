@@ -7,7 +7,7 @@ import { SupportedHubsTable, SupportedMotorsTable, SupportedSensorsTable } from 
 
 # ⚙️ Dispozitive Suportate
 
-Iată o prezentare rapidă a hub-urilor, motoarelor și senzorilor suportați de **Controlz**.
+Iată o prezentare rapidă a hub-urilor, motoarelor și senzorilor suportați de **MOCPilot**.
 
 <details>
 <summary>Hub-uri</summary>

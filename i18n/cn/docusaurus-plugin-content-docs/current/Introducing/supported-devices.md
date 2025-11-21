@@ -7,7 +7,7 @@ import { SupportedHubsTable, SupportedMotorsTable, SupportedSensorsTable } from 
 
 # ⚙️ 支持的设备
 
-以下是 **Controlz** 支持的集线器、电机和传感器的简要概览。
+以下是 **MOCPilot** 支持的集线器、电机和传感器的简要概览。
 
 <details>
 <summary>集线器</summary>

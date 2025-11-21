@@ -36,11 +36,11 @@
     "description": "フッターリンク「Terms」のラベル、/docs/Legal/Terms へリンク"
   },
   "copyright": {
-    "message": "Copyright © 2025 Controlz, Inc.",
+    "message": "Copyright © 2025 MOCPilot, Inc.",
     "description": "フッターの著作権表示"
   },
   "logo.alt": {
-    "message": "Controlz ロゴ",
+    "message": "MOCPilot ロゴ",
     "description": "フッターのロゴの代替テキスト"
   }
 }

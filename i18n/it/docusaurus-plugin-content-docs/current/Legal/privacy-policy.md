@@ -5,7 +5,7 @@ title: Informativa sulla privacy
 
 # Informativa sulla privacy
 
-Maksim Nemna ha creato l'applicazione Controlz come applicazione commerciale.  
+Maksim Nemna ha creato l'applicazione MOCPilot come applicazione commerciale.  
 Questo SERVIZIO è fornito da Maksim Nemna ed è destinato all'utilizzo così com'è.
 
 Questa pagina serve a informare i visitatori riguardo alle mie politiche sulla raccolta, l'uso e la divulgazione delle Informazioni Personali se qualcuno decide di utilizzare il mio Servizio.

@@ -1,13 +1,13 @@
 ---
 id: AboutApp
-title: Informazioni su Controlz
+title: Informazioni su MOCPilot
 ---
 
-# Controlz – Eleva le tue Creazioni LEGO®
+# MOCPilot – Eleva le tue Creazioni LEGO®
 
-**Controlz** è un'applicazione mobile potente progettata per migliorare la tua esperienza di costruzione e controllo.  
+**MOCPilot** è un'applicazione mobile potente progettata per migliorare la tua esperienza di costruzione e controllo.  
 Permette agli appassionati di controllare da remoto i loro modelli, meccanismi e robot utilizzando smartphone, tablet o anche gamepad.  
-Con un'ampia gamma di hub e motori supportati, **Controlz** offre un’interfaccia fluida e personalizzabile per interagire con le tue creazioni.
+Con un'ampia gamma di hub e motori supportati, **MOCPilot** offre un’interfaccia fluida e personalizzabile per interagire con le tue creazioni.
 
 ---
 
@@ -20,7 +20,7 @@ Con un'ampia gamma di hub e motori supportati, **Controlz** offre un’interfacc
 
 ## 🧱 Programmazione Visuale con Interfaccia Basata su Scratch
 
-Controlz incorpora un linguaggio di programmazione visuale basato su Scratch, che permette agli utenti di:
+MOCPilot incorpora un linguaggio di programmazione visuale basato su Scratch, che permette agli utenti di:
 
 - Progettare programmi semplici o complessi per modelli, meccanismi e robot LEGO®.
 - Utilizzare un’interfaccia intuitiva drag-and-drop, accessibile a utenti di tutte le età e livelli di abilità.
@@ -39,8 +39,8 @@ Controlz incorpora un linguaggio di programmazione visuale basato su Scratch, ch
 
 ## 📱 Disponibilità
 
-Controlz è gratuito e disponibile sia per dispositivi Android che Apple.
+MOCPilot è gratuito e disponibile sia per dispositivi Android che Apple.
 
 ---
 
-Dai vita alle tue creazioni LEGO® con **Controlz**, grazie a funzionalità di controllo avanzate, navigazione intuitiva e opzioni di configurazione flessibili.
+Dai vita alle tue creazioni LEGO® con **MOCPilot**, grazie a funzionalità di controllo avanzate, navigazione intuitiva e opzioni di configurazione flessibili.

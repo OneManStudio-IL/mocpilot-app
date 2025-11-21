@@ -36,11 +36,11 @@
     "description": "Мітка посилання у нижньому колонтитулі з label=Terms, що веде до /docs/Legal/Terms"
   },
   "copyright": {
-    "message": "© 2025 Controlz, Inc. Всі права захищено.",
+    "message": "© 2025 MOCPilot, Inc. Всі права захищено.",
     "description": "Авторське право у нижньому колонтитулі"
   },
   "logo.alt": {
-    "message": "Логотип Controlz",
+    "message": "Логотип MOCPilot",
     "description": "Альтернативний текст логотипу у нижньому колонтитулі"
   }
 }

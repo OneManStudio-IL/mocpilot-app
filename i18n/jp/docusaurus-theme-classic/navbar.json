@@ -1,12 +1,4 @@
 {
-  "title": {
-    "message": "CONTROLZ",
-    "description": "ナビゲーションバーのタイトル"
-  },
-  "logo.alt": {
-    "message": "Controlz ロゴ",
-    "description": "ナビゲーションバーのロゴの代替テキスト"
-  },
   "item.label.Documentation": {
     "message": "ドキュメンテーション",
     "description": "ナビゲーションバーの「Documentation」ラベルの項目"

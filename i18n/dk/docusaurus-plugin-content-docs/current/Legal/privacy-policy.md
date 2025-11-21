@@ -5,14 +5,14 @@ title: Privatlivspolitik
 
 # Privatlivspolitik
 
-Maksim Nemna har skabt Controlz-applikationen som en kommerciel applikation.  
+Maksim Nemna har skabt MOCPilot-applikationen som en kommerciel applikation.  
 Denne SERVICE leveres af Maksim Nemna og er beregnet til brug som den er.
 
 Denne side bruges til at informere besøgende om mine politikker vedrørende indsamling, brug og videregivelse af personlige oplysninger, hvis nogen vælger at bruge min Service.
 
 Hvis du vælger at bruge min Service, accepterer du indsamlingen og brugen af oplysninger i overensstemmelse med denne politik. De personlige oplysninger, jeg indsamler, bruges til at levere og forbedre Service. Jeg vil ikke bruge eller dele dine oplysninger med nogen undtagen som beskrevet i denne Privatlivspolitik.
 
-De udtryk, der bruges i denne Privatlivspolitik, har samme betydning som i vores Vilkår og betingelser, som er tilgængelige på Controlz, medmindre andet er defineret i denne Privatlivspolitik.
+De udtryk, der bruges i denne Privatlivspolitik, har samme betydning som i vores Vilkår og betingelser, som er tilgængelige på MOCPilot, medmindre andet er defineret i denne Privatlivspolitik.
 
 ## Indsamling og brug af oplysninger
 

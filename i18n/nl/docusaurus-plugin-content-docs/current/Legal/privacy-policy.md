@@ -5,14 +5,14 @@ title: Privacybeleid
 
 # Privacybeleid
 
-Maksim Nemna heeft de Controlz-applicatie gemaakt als een commerciële toepassing.  
+Maksim Nemna heeft de MOCPilot-applicatie gemaakt als een commerciële toepassing.  
 Deze SERVICE wordt geleverd door Maksim Nemna en is bedoeld voor gebruik zoals het is.
 
 Deze pagina informeert bezoekers over mijn beleid met betrekking tot het verzamelen, gebruiken en openbaar maken van Persoonlijke Informatie indien iemand besluit mijn Service te gebruiken.
 
 Als u ervoor kiest mijn Service te gebruiken, stemt u in met het verzamelen en gebruiken van informatie in overeenstemming met dit beleid. De Persoonlijke Informatie die ik verzamel, wordt gebruikt om de Service te leveren en te verbeteren. Ik zal uw informatie niet gebruiken of delen met derden behalve zoals beschreven in dit Privacybeleid.
 
-De termen die in dit Privacybeleid worden gebruikt, hebben dezelfde betekenis als in onze Algemene Voorwaarden, die beschikbaar zijn op Controlz, tenzij anders gedefinieerd in dit Privacybeleid.
+De termen die in dit Privacybeleid worden gebruikt, hebben dezelfde betekenis als in onze Algemene Voorwaarden, die beschikbaar zijn op MOCPilot, tenzij anders gedefinieerd in dit Privacybeleid.
 
 ## Informatie Verzameling en Gebruik
 

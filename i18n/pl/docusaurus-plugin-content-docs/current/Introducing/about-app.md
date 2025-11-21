@@ -1,13 +1,13 @@
 ---
 id: AboutApp
-title: O Controlz
+title: O MOCPilot
 ---
 
-# Controlz – Ulepsz swoje kreacje LEGO®
+# MOCPilot – Ulepsz swoje kreacje LEGO®
 
-**Controlz** to potężna aplikacja mobilna stworzona, by wzbogacić Twoje doświadczenia w budowaniu i sterowaniu.  
+**MOCPilot** to potężna aplikacja mobilna stworzona, by wzbogacić Twoje doświadczenia w budowaniu i sterowaniu.  
 Pozwala entuzjastom zdalnie kontrolować swoje modele, mechanizmy i roboty za pomocą smartfonów, tabletów, a nawet padów do gier.  
-Dzięki szerokiemu wsparciu różnych hubów i silników, **Controlz** oferuje płynny i konfigurowalny interfejs do interakcji z Twoimi konstrukcjami.
+Dzięki szerokiemu wsparciu różnych hubów i silników, **MOCPilot** oferuje płynny i konfigurowalny interfejs do interakcji z Twoimi konstrukcjami.
 
 ---
 
@@ -20,7 +20,7 @@ Dzięki szerokiemu wsparciu różnych hubów i silników, **Controlz** oferuje p
 
 ## 🧱 Programowanie wizualne w oparciu o Scratch
 
-Controlz wykorzystuje wizualny język programowania oparty na Scratch, umożliwiając użytkownikom:
+MOCPilot wykorzystuje wizualny język programowania oparty na Scratch, umożliwiając użytkownikom:
 
 - Projektowanie prostych i zaawansowanych programów dla modeli LEGO®, mechanizmów i robotów.
 - Korzystanie z intuicyjnego interfejsu „przeciągnij i upuść”, co czyni aplikację dostępną dla użytkowników w każdym wieku i na każdym poziomie zaawansowania.
@@ -39,8 +39,8 @@ Controlz wykorzystuje wizualny język programowania oparty na Scratch, umożliwi
 
 ## 📱 Dostępność
 
-Controlz jest darmowa do pobrania i dostępna na urządzenia z systemami Android oraz Apple.
+MOCPilot jest darmowa do pobrania i dostępna na urządzenia z systemami Android oraz Apple.
 
 ---
 
-Wznieś swoje kreacje LEGO® na wyższy poziom dzięki **Controlz**, która ożywia je dzięki zaawansowanym funkcjom sterowania, intuicyjnej nawigacji i elastycznym opcjom konfiguracji.
+Wznieś swoje kreacje LEGO® na wyższy poziom dzięki **MOCPilot**, która ożywia je dzięki zaawansowanym funkcjom sterowania, intuicyjnej nawigacji i elastycznym opcjom konfiguracji.

@@ -1,13 +1,13 @@
 ---
 id: AboutApp
-title: Sobre o Controlz
+title: Sobre o MOCPilot
 ---
 
-# Controlz – Eleve suas Criações LEGO®
+# MOCPilot – Eleve suas Criações LEGO®
 
-**Controlz** é um aplicativo móvel poderoso, projetado para aprimorar sua experiência de construção e controle.  
+**MOCPilot** é um aplicativo móvel poderoso, projetado para aprimorar sua experiência de construção e controle.  
 Ele permite que entusiastas controlem remotamente seus modelos, mecanismos e robôs usando smartphones, tablets ou até mesmo gamepads.  
-Com uma ampla variedade de hubs e motores suportados, o **Controlz** oferece uma interface fluida e personalizável para os usuários interagirem com suas criações.
+Com uma ampla variedade de hubs e motores suportados, o **MOCPilot** oferece uma interface fluida e personalizável para os usuários interagirem com suas criações.
 
 ---
 
@@ -20,7 +20,7 @@ Com uma ampla variedade de hubs e motores suportados, o **Controlz** oferece uma
 
 ## 🧱 Programação Visual com Interface Baseada no Scratch
 
-O Controlz incorpora uma linguagem de programação visual baseada no Scratch, permitindo que os usuários:
+O MOCPilot incorpora uma linguagem de programação visual baseada no Scratch, permitindo que os usuários:
 
 - Projetem programas simples e complexos para modelos LEGO®, mecanismos e robôs.
 - Utilizem uma interface intuitiva de arrastar e soltar, tornando-o acessível para usuários de todas as idades e níveis de habilidade.
@@ -39,8 +39,8 @@ O Controlz incorpora uma linguagem de programação visual baseada no Scratch, p
 
 ## 📱 Disponibilidade
 
-O Controlz é gratuito para baixar e está disponível para dispositivos Android e Apple.
+O MOCPilot é gratuito para baixar e está disponível para dispositivos Android e Apple.
 
 ---
 
-Dê vida às suas criações LEGO® com o **Controlz**, através de recursos avançados de controle, navegação intuitiva e opções flexíveis de configuração.
+Dê vida às suas criações LEGO® com o **MOCPilot**, através de recursos avançados de controle, navegação intuitiva e opções flexíveis de configuração.

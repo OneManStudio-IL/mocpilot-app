@@ -36,11 +36,11 @@
     "description": "O rótulo do link do rodapé com rótulo=Termos que liga para /docs/Legal/Terms"
   },
   "copyright": {
-    "message": "Direitos autorais © 2025 Controlz, Inc.",
+    "message": "Direitos autorais © 2025 MOCPilot, Inc.",
     "description": "Os direitos autorais do rodapé"
   },
   "logo.alt": {
-    "message": "Logótipo Controlz",
+    "message": "Logótipo MOCPilot",
     "description": "O texto alternativo do logótipo do rodapé"
   }
 }

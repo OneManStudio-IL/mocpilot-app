@@ -7,7 +7,7 @@ import { SupportedHubsTable, SupportedMotorsTable, SupportedSensorsTable } from 
 
 # ⚙️ Appareils pris en charge
 
-Voici un aperçu rapide des concentrateurs, moteurs et capteurs compatibles avec **Controlz**.
+Voici un aperçu rapide des concentrateurs, moteurs et capteurs compatibles avec **MOCPilot**.
 
 <details>
 <summary>Concentrateurs</summary>

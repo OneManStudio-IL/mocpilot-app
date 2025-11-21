@@ -7,7 +7,7 @@ import { SupportedHubsTable, SupportedMotorsTable, SupportedSensorsTable } from 
 
 # ⚙️ Podporované zariadenia
 
-Tu je rýchly prehľad hubov, motorov a senzorov podporovaných aplikáciou **Controlz**.
+Tu je rýchly prehľad hubov, motorov a senzorov podporovaných aplikáciou **MOCPilot**.
 
 <details>
 <summary>Huby</summary>

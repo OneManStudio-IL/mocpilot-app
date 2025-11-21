@@ -5,14 +5,14 @@ title: Zásady ochrany osobních údajů
 
 # Zásady ochrany osobních údajů
 
-Aplikaci Controlz vytvořil Maksim Nemna jako komerční aplikaci.  
+Aplikaci MOCPilot vytvořil Maksim Nemna jako komerční aplikaci.  
 TATO SLUŽBA je poskytována společností Maksim Nemna a je určena k použití tak, jak je.
 
 Tato stránka slouží k informování návštěvníků o mých zásadách týkajících se shromažďování, používání a zveřejňování osobních údajů, pokud se někdo rozhodne používat mou Službu.
 
 Pokud se rozhodnete používat mou Službu, souhlasíte se shromažďováním a používáním informací v souladu s těmito zásadami. Osobní údaje, které shromažďuji, slouží k poskytování a zlepšování Služby. Vaše údaje nebudu používat ani sdílet s nikým jiným, než jak je popsáno v těchto Zásadách ochrany osobních údajů.
 
-Pojmy použité v těchto Zásadách mají stejný význam jako v našich Podmínkách používání, které jsou dostupné na webu Controlz, pokud není v těchto Zásadách uvedeno jinak.
+Pojmy použité v těchto Zásadách mají stejný význam jako v našich Podmínkách používání, které jsou dostupné na webu MOCPilot, pokud není v těchto Zásadách uvedeno jinak.
 
 ## Shromažďování a používání informací
 

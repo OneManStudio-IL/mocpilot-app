@@ -1,12 +1,4 @@
 {
-  "title": {
-    "message": "CONTROLZ",
-    "description": "Titeln i navigeringsfältet"
-  },
-  "logo.alt": {
-    "message": "Controlz-logotyp",
-    "description": "Alternativ text för logotypen i navigeringsfältet"
-  },
   "item.label.Documentation": {
     "message": "Dokumentation",
     "description": "Navigeringsobjekt med etiketten Dokumentation"

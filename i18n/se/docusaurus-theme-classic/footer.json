@@ -36,11 +36,11 @@
     "description": "Etiketten för sidfotslänken Villkor som länkar till /docs/Legal/Terms"
   },
   "copyright": {
-    "message": "Copyright © 2025 Controlz, Inc.",
+    "message": "Copyright © 2025 MOCPilot, Inc.",
     "description": "Sidfotens upphovsrätt"
   },
   "logo.alt": {
-    "message": "Controlz-logotyp",
+    "message": "MOCPilot-logotyp",
     "description": "Alternativ text för sidfotens logotyp"
   }
 }

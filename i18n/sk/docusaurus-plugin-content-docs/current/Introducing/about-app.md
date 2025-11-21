@@ -1,13 +1,13 @@
 ---
 id: AboutApp
-title: About Controlz
+title: About MOCPilot
 ---
 
-# Controlz – Nosta LEGO®-luomuksesi uudelle tasolle
+# MOCPilot – Nosta LEGO®-luomuksesi uudelle tasolle
 
-**Controlz** on tehokas mobiilisovellus, joka parantaa rakentamisen ja ohjauksen kokemusta.  
+**MOCPilot** on tehokas mobiilisovellus, joka parantaa rakentamisen ja ohjauksen kokemusta.  
 Sen avulla harrastajat voivat ohjata mallejaan, mekanismejaan ja robottejaan etänä älypuhelimilla, tableteilla tai jopa peliohjaimilla.  
-Laajan tuettujen hubien ja moottorien valikoiman ansiosta **Controlz** tarjoaa saumattoman ja mukautettavan käyttöliittymän, jolla käyttäjät voivat hallita luomuksiaan.
+Laajan tuettujen hubien ja moottorien valikoiman ansiosta **MOCPilot** tarjoaa saumattoman ja mukautettavan käyttöliittymän, jolla käyttäjät voivat hallita luomuksiaan.
 
 ---
 
@@ -20,7 +20,7 @@ Laajan tuettujen hubien ja moottorien valikoiman ansiosta **Controlz** tarjoaa s
 
 ## 🧱 Visuaalinen ohjelmointi Scratch-pohjaisella käyttöliittymällä
 
-Controlz sisältää Scratch-pohjaisen visuaalisen ohjelmointikielen, jonka avulla käyttäjät voivat:
+MOCPilot sisältää Scratch-pohjaisen visuaalisen ohjelmointikielen, jonka avulla käyttäjät voivat:
 
 - Suunnitella yksinkertaisia ja monimutkaisia ohjelmia LEGO®-malleille, mekanismeille ja roboteille.
 - Käyttää intuitiivista drag-and-drop -käyttöliittymää, joka tekee ohjelmoinnista saavutettavaa kaikenikäisille ja -tasoisille käyttäjille.
@@ -39,8 +39,8 @@ Controlz sisältää Scratch-pohjaisen visuaalisen ohjelmointikielen, jonka avul
 
 ## 📱 Saatavuus
 
-Controlz on ladattavissa ilmaiseksi ja saatavilla sekä Android- että Apple-laitteille.
+MOCPilot on ladattavissa ilmaiseksi ja saatavilla sekä Android- että Apple-laitteille.
 
 ---
 
-Anna LEGO®-luomuksillesi voimaa **Controlz**-sovelluksella, joka herättää ne eloon kehittyneiden ohjausominaisuuksien, intuitiivisen navigoinnin ja joustavien asetusten avulla.
+Anna LEGO®-luomuksillesi voimaa **MOCPilot**-sovelluksella, joka herättää ne eloon kehittyneiden ohjausominaisuuksien, intuitiivisen navigoinnin ja joustavien asetusten avulla.

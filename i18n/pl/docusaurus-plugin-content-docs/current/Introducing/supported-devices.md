@@ -7,7 +7,7 @@ import { SupportedHubsTable, SupportedMotorsTable, SupportedSensorsTable } from 
 
 # ⚙️ Obsługiwane urządzenia
 
-Poniżej znajduje się szybki przegląd koncentratorów, silników i czujników obsługiwanych przez **Controlz**.
+Poniżej znajduje się szybki przegląd koncentratorów, silników i czujników obsługiwanych przez **MOCPilot**.
 
 <details>
 <summary>Koncentratory</summary>

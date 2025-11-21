@@ -36,11 +36,11 @@
     "description": "La etiqueta del enlace del pie de página con etiqueta=Términos que enlaza a /docs/Legal/Terms"
   },
   "copyright": {
-    "message": "Derechos de autor © 2025 Controlz, Inc.",
+    "message": "Derechos de autor © 2025 MOCPilot, Inc.",
     "description": "Los derechos de autor en el pie de página"
   },
   "logo.alt": {
-    "message": "Logotipo de Controlz",
+    "message": "Logotipo de MOCPilot",
     "description": "El texto alternativo del logotipo en el pie de página"
   }
 }

@@ -7,7 +7,7 @@ import { SupportedHubsTable, SupportedMotorsTable, SupportedSensorsTable } from 
 
 # ⚙️ 対応デバイス
 
-こちらは**Controlz**が対応しているハブ、モーター、センサーの概要です。
+こちらは**MOCPilot**が対応しているハブ、モーター、センサーの概要です。
 
 <details>
 <summary>ハブ</summary>

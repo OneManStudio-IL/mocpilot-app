@@ -1,13 +1,13 @@
 ---
 id: AboutApp
-title: À propos de Controlz
+title: À propos de MOCPilot
 ---
 
-# Controlz – Sublimez vos créations LEGO®
+# MOCPilot – Sublimez vos créations LEGO®
 
-**Controlz** est une application mobile puissante conçue pour enrichir votre expérience de construction et de contrôle.  
+**MOCPilot** est une application mobile puissante conçue pour enrichir votre expérience de construction et de contrôle.  
 Elle permet aux passionnés de contrôler à distance leurs modèles, mécanismes et robots à l’aide de smartphones, tablettes, ou même de manettes de jeu.  
-Avec une large gamme de hubs et de moteurs pris en charge, **Controlz** offre une interface fluide et personnalisable pour interagir avec vos créations.
+Avec une large gamme de hubs et de moteurs pris en charge, **MOCPilot** offre une interface fluide et personnalisable pour interagir avec vos créations.
 
 ---
 
@@ -20,7 +20,7 @@ Avec une large gamme de hubs et de moteurs pris en charge, **Controlz** offre un
 
 ## 🧱 Programmation visuelle avec une interface basée sur Scratch
 
-Controlz intègre un langage de programmation visuelle basé sur Scratch, permettant aux utilisateurs de :
+MOCPilot intègre un langage de programmation visuelle basé sur Scratch, permettant aux utilisateurs de :
 
 - Concevoir des programmes simples ou complexes pour modèles LEGO®, mécanismes et robots.
 - Utiliser une interface intuitive de type glisser-déposer, accessible à tous, quel que soit l’âge ou le niveau.
@@ -39,8 +39,8 @@ Controlz intègre un langage de programmation visuelle basé sur Scratch, permet
 
 ## 📱 Disponibilité
 
-Controlz est disponible en téléchargement gratuit sur Android et iOS.
+MOCPilot est disponible en téléchargement gratuit sur Android et iOS.
 
 ---
 
-Donnez vie à vos créations LEGO® avec **Controlz** grâce à des fonctionnalités de contrôle avancées, une navigation intuitive et des options de configuration flexibles.
+Donnez vie à vos créations LEGO® avec **MOCPilot** grâce à des fonctionnalités de contrôle avancées, une navigation intuitive et des options de configuration flexibles.

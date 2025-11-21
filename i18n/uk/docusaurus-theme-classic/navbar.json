@@ -1,12 +1,4 @@
 {
-  "title": {
-    "message": "CONTROLZ",
-    "description": "Заголовок у верхній навігаційній панелі"
-  },
-  "logo.alt": {
-    "message": "Логотип Controlz",
-    "description": "Альтернативний текст логотипу у верхній навігаційній панелі"
-  },
   "item.label.Documentation": {
     "message": "Документація",
     "description": "Пункт навігаційної панелі з міткою Документація"

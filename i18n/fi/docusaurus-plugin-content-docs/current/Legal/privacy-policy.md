@@ -5,14 +5,14 @@ title: Tietosuojaseloste
 
 # Tietosuojaseloste
 
-Maksim Nemna on luonut Controlz-sovelluksen kaupalliseksi sovellukseksi.  
+Maksim Nemna on luonut MOCPilot-sovelluksen kaupalliseksi sovellukseksi.  
 TÄMÄ PALVELU tarjotaan Maksim Nemnan toimesta sellaisenaan käytettäväksi.
 
 Tällä sivulla tiedotetaan kävijöitä käytännöistä, jotka koskevat henkilötietojen keräämistä, käyttöä ja luovutusta, mikäli joku päättää käyttää palveluani.
 
 Jos päätät käyttää palveluani, hyväksyt tietojen keräämisen ja käytön tämän käytännön mukaisesti. Keräämäni henkilötiedot käytetään palvelun tarjoamiseen ja parantamiseen. En käytä tai jaa tietojasi kenenkään kanssa muuten kuin tässä tietosuojaselosteessa on kuvattu.
 
-Tässä tietosuojaselosteessa käytetyillä termeillä on samat merkitykset kuin Käyttöehdoissamme, jotka ovat saatavilla Controlzissa, ellei tässä tietosuojaselosteessa toisin määritellä.
+Tässä tietosuojaselosteessa käytetyillä termeillä on samat merkitykset kuin Käyttöehdoissamme, jotka ovat saatavilla MOCPilotissa, ellei tässä tietosuojaselosteessa toisin määritellä.
 
 ## Tietojen kerääminen ja käyttö
 

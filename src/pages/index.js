@@ -33,8 +33,8 @@ function GetStarted() {
     <div className="hero shadow--lw">
       <div className="container text--center padding-vert--xl">
         <img 
-          src={siteConfig.baseUrl + "img/controlz_phone.png"}
-          alt="Controlz Hero" 
+          src={siteConfig.baseUrl + "img/app_phone.png"}
+          alt="mocpilot_hero" 
           width="640"
           className="margin-bottom--lg"
           style={{ maxWidth: '100%', height: 'auto' }} 
@@ -142,7 +142,7 @@ function DownloadSection() {
   return (
     <div className="container text--center margin-vert--xl">
       <h2 className="hero__subtitle">
-        <Translate>Download the Controlz</Translate>
+        <Translate>Download the MOCPilot</Translate>
       </h2>
       <p className="margin-bottom--sm">
         <Translate>You can download the app from the official stores:</Translate>

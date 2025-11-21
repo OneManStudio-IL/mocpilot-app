@@ -5,14 +5,14 @@ title: Personvernregler
 
 # Personvernregler
 
-Maksim Nemna har utviklet Controlz-applikasjonen som en kommersiell tjeneste.  
+Maksim Nemna har utviklet MOCPilot-applikasjonen som en kommersiell tjeneste.  
 Denne TJENESTEN tilbys av Maksim Nemna og er ment å brukes som den er.
 
 Denne siden brukes for å informere besøkende om mine retningslinjer vedrørende innsamling, bruk og deling av personopplysninger dersom noen velger å bruke min tjeneste.
 
 Hvis du velger å bruke min tjeneste, samtykker du i innsamling og bruk av informasjon i samsvar med denne policyen. Personopplysningene jeg samler inn brukes for å levere og forbedre tjenesten. Jeg vil ikke bruke eller dele informasjonen din med noen andre enn som beskrevet i denne personvernreglene.
 
-Begrepene brukt i denne personvernreglene har samme betydning som i våre Vilkår og betingelser, som er tilgjengelige på Controlz, med mindre annet er definert her.
+Begrepene brukt i denne personvernreglene har samme betydning som i våre Vilkår og betingelser, som er tilgjengelige på MOCPilot, med mindre annet er definert her.
 
 ## Informasjonsinnsamling og bruk
 

@@ -1,13 +1,13 @@
 ---
 id: AboutApp
-title: Despre Controlz
+title: Despre MOCPilot
 ---
 
-# Controlz – Îmbunătățește-ți creațiile LEGO®
+# MOCPilot – Îmbunătățește-ți creațiile LEGO®
 
-**Controlz** este o aplicație mobilă puternică, concepută pentru a îmbunătăți experiența ta de construcție și control.  
+**MOCPilot** este o aplicație mobilă puternică, concepută pentru a îmbunătăți experiența ta de construcție și control.  
 Permite pasionaților să controleze de la distanță modelele, mecanismele și roboții folosind smartphone-uri, tablete sau chiar gamepad-uri.  
-Cu o gamă largă de hub-uri și motoare suportate, **Controlz** oferă o interfață simplă și personalizabilă pentru utilizatori, pentru a interacționa cu creațiile lor.
+Cu o gamă largă de hub-uri și motoare suportate, **MOCPilot** oferă o interfață simplă și personalizabilă pentru utilizatori, pentru a interacționa cu creațiile lor.
 
 ---
 
@@ -20,7 +20,7 @@ Cu o gamă largă de hub-uri și motoare suportate, **Controlz** oferă o interf
 
 ## 🧱 Programare Vizuală cu Interfață Bazată pe Scratch
 
-Controlz încorporează un limbaj de programare vizuală bazat pe Scratch, permițând utilizatorilor să:
+MOCPilot încorporează un limbaj de programare vizuală bazat pe Scratch, permițând utilizatorilor să:
 
 - Proiecteze programe simple și complexe pentru modelele, mecanismele și roboții LEGO®.
 - Utilizeze o interfață intuitivă de tip drag-and-drop, accesibilă utilizatorilor de toate vârstele și nivelurile de experiență.
@@ -39,8 +39,8 @@ Controlz încorporează un limbaj de programare vizuală bazat pe Scratch, permi
 
 ## 📱 Disponibilitate
 
-Controlz este gratuit de descărcat și este disponibil pe dispozitive Android și Apple.
+MOCPilot este gratuit de descărcat și este disponibil pe dispozitive Android și Apple.
 
 ---
 
-Împuternicește-ți creațiile LEGO® cu **Controlz**, aducându-le la viață prin funcții avansate de control, navigare intuitivă și opțiuni flexibile de configurare.
+Împuternicește-ți creațiile LEGO® cu **MOCPilot**, aducându-le la viață prin funcții avansate de control, navigare intuitivă și opțiuni flexibile de configurare.

@@ -1,13 +1,13 @@
 ---
 id: AboutApp
-title: Tietoa Controlz-sovelluksesta
+title: Tietoa MOCPilot-sovelluksesta
 ---
 
-# Controlz – Vie LEGO®-luomuksesi uudelle tasolle
+# MOCPilot – Vie LEGO®-luomuksesi uudelle tasolle
 
-**Controlz** on tehokas mobiilisovellus, joka on suunniteltu parantamaan rakentamisen ja ohjauksen kokemusta.  
+**MOCPilot** on tehokas mobiilisovellus, joka on suunniteltu parantamaan rakentamisen ja ohjauksen kokemusta.  
 Se mahdollistaa harrastajille omien mallien, mekanismien ja robottien kauko-ohjauksen älypuhelimen, tabletin tai jopa peliohjaimen avulla.  
-Laajan hubien ja moottoreiden tuen ansiosta **Controlz** tarjoaa saumattoman ja muokattavissa olevan käyttöliittymän luomusten hallintaan.
+Laajan hubien ja moottoreiden tuen ansiosta **MOCPilot** tarjoaa saumattoman ja muokattavissa olevan käyttöliittymän luomusten hallintaan.
 
 ---
 
@@ -20,7 +20,7 @@ Laajan hubien ja moottoreiden tuen ansiosta **Controlz** tarjoaa saumattoman ja 
 
 ## 🧱 Visuaalinen ohjelmointi Scratch-pohjaisella käyttöliittymällä
 
-Controlz sisältää Scratch-pohjaisen visuaalisen ohjelmointikielen, jonka avulla voit:
+MOCPilot sisältää Scratch-pohjaisen visuaalisen ohjelmointikielen, jonka avulla voit:
 
 - Suunnitella yksinkertaisia ja monimutkaisia ohjelmia LEGO®-malleille, mekanismeille ja roboteille.
 - Käyttää intuitiivista raahaa-ja-pudota -käyttöliittymää, joka sopii kaikenikäisille ja -tasoisille käyttäjille.
@@ -39,8 +39,8 @@ Controlz sisältää Scratch-pohjaisen visuaalisen ohjelmointikielen, jonka avul
 
 ## 📱 Saatavuus
 
-Controlz on ladattavissa ilmaiseksi Android- ja Apple-laitteille.
+MOCPilot on ladattavissa ilmaiseksi Android- ja Apple-laitteille.
 
 ---
 
-Anna LEGO®-luomuksillesi uusi ulottuvuus **Controlz**-sovelluksella – edistyksellisillä ohjausominaisuuksilla, intuitiivisella käytettävyydellä ja joustavilla asetuksilla ne heräävät eloon.
+Anna LEGO®-luomuksillesi uusi ulottuvuus **MOCPilot**-sovelluksella – edistyksellisillä ohjausominaisuuksilla, intuitiivisella käytettävyydellä ja joustavilla asetuksilla ne heräävät eloon.

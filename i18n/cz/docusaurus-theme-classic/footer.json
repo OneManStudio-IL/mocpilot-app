@@ -36,11 +36,11 @@
     "description": "Popisek odkazu v patičce s názvem Podmínky, vedoucí na /docs/Legal/Terms"
   },
   "copyright": {
-    "message": "Copyright © 2025 Controlz, Inc.",
+    "message": "Copyright © 2025 MOCPilot, Inc.",
     "description": "Copyright v patičce"
   },
   "logo.alt": {
-    "message": "Logo Controlz",
+    "message": "Logo MOCPilot",
     "description": "Alternativní text loga v patičce"
   }
 }

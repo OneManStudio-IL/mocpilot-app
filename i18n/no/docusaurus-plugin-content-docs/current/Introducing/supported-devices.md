@@ -7,7 +7,7 @@ import { SupportedHubsTable, SupportedMotorsTable, SupportedSensorsTable } from 
 
 # ⚙️ Støttede enheter
 
-Her er en rask oversikt over huber, motorer og sensorer som støttes av **Controlz**.
+Her er en rask oversikt over huber, motorer og sensorer som støttes av **MOCPilot**.
 
 <details>
 <summary>Huber</summary>

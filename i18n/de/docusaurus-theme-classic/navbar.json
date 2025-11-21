@@ -1,12 +1,4 @@
 {
-  "title": {
-    "message": "CONTROLZ",
-    "description": "Der Titel in der Navigationsleiste"
-  },
-  "logo.alt": {
-    "message": "Controlz-Logo",
-    "description": "Der Alt-Text des Logos in der Navigationsleiste"
-  },
   "item.label.Documentation": {
     "message": "Dokumentation",
     "description": "Navigationsleisten-Element mit der Bezeichnung Dokumentation"

@@ -5,14 +5,14 @@ title: Polityka prywatności
 
 # Polityka prywatności
 
-Aplikację Controlz stworzył Maksim Nemna jako aplikację komercyjną.  
+Aplikację MOCPilot stworzył Maksim Nemna jako aplikację komercyjną.  
 USŁUGA jest świadczona przez Maksima Nemnę i jest przeznaczona do użytku „tak jak jest”.
 
 Ta strona służy do poinformowania odwiedzających o moich zasadach dotyczących zbierania, wykorzystywania i ujawniania danych osobowych, jeśli ktoś zdecyduje się korzystać z mojej Usługi.
 
 Korzystając z mojej Usługi, zgadzasz się na zbieranie i wykorzystywanie informacji zgodnie z niniejszą polityką. Dane osobowe, które zbieram, są używane do świadczenia i ulepszania Usługi. Nie będę wykorzystywać ani udostępniać Twoich danych nikomu poza opisanym w niniejszej Polityce Prywatności.
 
-Terminy użyte w niniejszej Polityce Prywatności mają takie samo znaczenie jak w naszych Warunkach korzystania, dostępnych w Controlz, chyba że w niniejszej Polityce Prywatności zdefiniowano inaczej.
+Terminy użyte w niniejszej Polityce Prywatności mają takie samo znaczenie jak w naszych Warunkach korzystania, dostępnych w MOCPilot, chyba że w niniejszej Polityce Prywatności zdefiniowano inaczej.
 
 ## Zbieranie i wykorzystywanie informacji
 

@@ -1,13 +1,13 @@
 ---
 id: AboutApp
-title: Over Controlz
+title: Over MOCPilot
 ---
 
-# Controlz – Til je LEGO® Creaties naar een Hoger Niveau
+# MOCPilot – Til je LEGO® Creaties naar een Hoger Niveau
 
-**Controlz** is een krachtige mobiele applicatie die jouw bouw- en besturingservaring verbetert.  
+**MOCPilot** is een krachtige mobiele applicatie die jouw bouw- en besturingservaring verbetert.  
 Het stelt liefhebbers in staat om hun modellen, mechanismen en robots op afstand te bedienen via smartphones, tablets of zelfs gamepads.  
-Met een breed scala aan ondersteunde hubs en motoren biedt **Controlz** een naadloze en aanpasbare interface om met je creaties te communiceren.
+Met een breed scala aan ondersteunde hubs en motoren biedt **MOCPilot** een naadloze en aanpasbare interface om met je creaties te communiceren.
 
 ---
 
@@ -20,7 +20,7 @@ Met een breed scala aan ondersteunde hubs en motoren biedt **Controlz** een naad
 
 ## 🧱 Visueel Programmeren met Scratch-gebaseerde Interface
 
-Controlz bevat een Scratch-gebaseerde visuele programmeertaal waarmee gebruikers kunnen:
+MOCPilot bevat een Scratch-gebaseerde visuele programmeertaal waarmee gebruikers kunnen:
 
 - Zowel eenvoudige als complexe programma’s ontwerpen voor LEGO® modellen, mechanismen en robots.
 - Gebruik maken van een intuïtieve drag-en-drop interface, toegankelijk voor gebruikers van alle leeftijden en vaardigheidsniveaus.
@@ -39,8 +39,8 @@ Controlz bevat een Scratch-gebaseerde visuele programmeertaal waarmee gebruikers
 
 ## 📱 Beschikbaarheid
 
-Controlz is gratis te downloaden en beschikbaar voor zowel Android- als Apple-apparaten.
+MOCPilot is gratis te downloaden en beschikbaar voor zowel Android- als Apple-apparaten.
 
 ---
 
-Geef je LEGO® creaties kracht met **Controlz**, waarmee je ze tot leven brengt door geavanceerde bedieningsfuncties, intuïtieve navigatie en flexibele configuratieopties.
+Geef je LEGO® creaties kracht met **MOCPilot**, waarmee je ze tot leven brengt door geavanceerde bedieningsfuncties, intuïtieve navigatie en flexibele configuratieopties.

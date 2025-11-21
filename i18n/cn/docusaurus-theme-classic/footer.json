@@ -36,11 +36,11 @@
     "description": "页脚链接标签为“Terms”，链接至 /docs/Legal/Terms"
   },
   "copyright": {
-    "message": "版权所有 © 2025 Controlz 公司",
+    "message": "版权所有 © 2025 MOCPilot 公司",
     "description": "页脚版权信息"
   },
   "logo.alt": {
-    "message": "Controlz 标志",
+    "message": "MOCPilot 标志",
     "description": "页脚标志的替代文本"
   }
 }

@@ -5,14 +5,14 @@ title: Politique de confidentialité
 
 # Politique de confidentialité
 
-Maksim Nemna a créé l'application Controlz en tant qu'application commerciale.  
+Maksim Nemna a créé l'application MOCPilot en tant qu'application commerciale.  
 Ce SERVICE est fourni par Maksim Nemna et est destiné à être utilisé tel quel.
 
 Cette page est utilisée pour informer les visiteurs de mes politiques concernant la collecte, l'utilisation et la divulgation des Informations personnelles si quelqu'un décide d'utiliser mon Service.
 
 Si vous choisissez d'utiliser mon Service, vous acceptez la collecte et l'utilisation d'informations conformément à cette politique. Les Informations personnelles que je collecte sont utilisées pour fournir et améliorer le Service. Je n'utiliserai ni ne partagerai vos informations avec quiconque, sauf comme décrit dans cette Politique de confidentialité.
 
-Les termes utilisés dans cette Politique de confidentialité ont la même signification que dans nos Conditions d'utilisation, disponibles sur Controlz, sauf indication contraire.
+Les termes utilisés dans cette Politique de confidentialité ont la même signification que dans nos Conditions d'utilisation, disponibles sur MOCPilot, sauf indication contraire.
 
 ## Collecte et utilisation des informations
 

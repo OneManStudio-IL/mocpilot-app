@@ -36,11 +36,11 @@
     "description": "Le libellé du lien de pied de page avec le label=Conditions pointant vers /docs/Legal/Terms"
   },
   "copyright": {
-    "message": "Droits d’auteur © 2025 Controlz, Inc.",
+    "message": "Droits d’auteur © 2025 MOCPilot, Inc.",
     "description": "Le copyright du pied de page"
   },
   "logo.alt": {
-    "message": "Logo Controlz",
+    "message": "Logo MOCPilot",
     "description": "Le texte alternatif du logo dans le pied de page"
   }
 }

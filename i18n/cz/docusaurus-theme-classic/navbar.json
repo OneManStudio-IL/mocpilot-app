@@ -1,12 +1,4 @@
 {
-  "title": {
-    "message": "CONTROLZ",
-    "description": "Název v navigační liště"
-  },
-  "logo.alt": {
-    "message": "Logo Controlz",
-    "description": "Alternativní text loga v navigační liště"
-  },
   "item.label.Documentation": {
     "message": "Dokumentace",
     "description": "Položka navigační lišty s názvem Dokumentace"

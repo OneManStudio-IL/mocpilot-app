@@ -36,11 +36,11 @@
     "description": "Etykieta linku w stopce z etykietą=Regulamin, prowadzącego do /docs/Legal/Terms"
   },
   "copyright": {
-    "message": "Copyright © 2025 Controlz, Inc.",
+    "message": "Copyright © 2025 MOCPilot, Inc.",
     "description": "Prawa autorskie w stopce"
   },
   "logo.alt": {
-    "message": "Logo Controlz",
+    "message": "Logo MOCPilot",
     "description": "Tekst alternatywny logo w stopce"
   }
 }

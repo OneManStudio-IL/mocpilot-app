@@ -36,11 +36,11 @@
     "description": "Das Label des Fußzeilenlinks mit der Bezeichnung Nutzungsbedingungen, das zu /docs/Legal/Terms führt"
   },
   "copyright": {
-    "message": "Urheberrecht © 2025 Controlz, Inc.",
+    "message": "Urheberrecht © 2025 MOCPilot, Inc.",
     "description": "Das Urheberrecht in der Fußzeile"
   },
   "logo.alt": {
-    "message": "Controlz-Logo",
+    "message": "MOCPilot-Logo",
     "description": "Der Alt-Text des Fußzeilenlogos"
   }
 }

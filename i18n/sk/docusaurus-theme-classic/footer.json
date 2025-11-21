@@ -36,11 +36,11 @@
     "description": "Odkaz v pätičke s názvom Podmienky vedúci na /docs/Legal/Terms"
   },
   "copyright": {
-    "message": "Copyright © 2025 Controlz, Inc.",
+    "message": "Copyright © 2025 MOCPilot, Inc.",
     "description": "Copyright v pätičke"
   },
   "logo.alt": {
-    "message": "Logo Controlz",
+    "message": "Logo MOCPilot",
     "description": "Alternatívny text loga v pätičke"
   }
 }

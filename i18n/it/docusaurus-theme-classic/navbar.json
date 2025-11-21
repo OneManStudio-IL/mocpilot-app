@@ -1,12 +1,4 @@
 {
-  "title": {
-    "message": "CONTROLZ",
-    "description": "Il titolo nella barra di navigazione"
-  },
-  "logo.alt": {
-    "message": "Logo Controlz",
-    "description": "Il testo alternativo del logo nella barra di navigazione"
-  },
   "item.label.Documentation": {
     "message": "Documentazione",
     "description": "Elemento della barra di navigazione con etichetta Documentazione"

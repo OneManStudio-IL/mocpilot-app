@@ -1,13 +1,13 @@
 ---
 id: AboutApp
-title: About Controlz
+title: About MOCPilot
 ---
 
-# Controlz – Elevate Your LEGO® Creations
+# MOCPilot – Elevate Your LEGO® Creations
 
-**Controlz** is a powerful mobile application designed to enhance your building and control experience.  
+**MOCPilot** is a powerful mobile application designed to enhance your building and control experience.  
 It allows enthusiasts to remotely control their models, mechanisms, and robots using smartphones, tablets, or even gamepads.  
-With a wide range of supported hubs and motors, **Controlz** provides a seamless and customizable interface for users to interact with their creations.
+With a wide range of supported hubs and motors, **MOCPilot** provides a seamless and customizable interface for users to interact with their creations.
 
 ---
 
@@ -20,7 +20,7 @@ With a wide range of supported hubs and motors, **Controlz** provides a seamless
 
 ## 🧱 Visual Programming with Scratch-Based Interface
 
-Controlz incorporates a Scratch-based visual programming language, enabling users to:
+MOCPilot incorporates a Scratch-based visual programming language, enabling users to:
 
 - Design both simple and complex programs for LEGO® models, mechanisms, and robots.
 - Utilize an intuitive drag-and-drop interface, making it accessible for users of all ages and skill levels.
@@ -39,8 +39,8 @@ Controlz incorporates a Scratch-based visual programming language, enabling user
 
 ## 📱 Availability
 
-Controlz is free to download and is available on both Android and Apple devices
+MOCPilot is free to download and is available on both Android and Apple devices
 
 ---
 
-Empower your LEGO® creations with **Controlz**, bringing them to life through advanced control features, intuitive navigation, and flexible configuration options.
+Empower your LEGO® creations with **MOCPilot**, bringing them to life through advanced control features, intuitive navigation, and flexible configuration options.

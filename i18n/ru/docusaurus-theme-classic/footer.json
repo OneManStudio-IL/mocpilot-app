@@ -36,7 +36,7 @@
     "description": "The label of footer link with label=Terms linking to /docs/Legal/Terms"
   },
   "copyright": {
-    "message": "Авторские права © 2025 Controlz, Inc.",
+    "message": "Авторские права © 2025 MOCPilot, Inc.",
     "description": "The footer copyright"
   }
 }

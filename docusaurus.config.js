@@ -3,15 +3,15 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 const isProd = process.env.NODE_ENV === 'production';
-const sProjectName = "Controlz-Docs";
+const sProjectName = "MOCPilot-Docs";
 
 // Automatically switch baseUrl depend on running environment
 const sBaseUrl = isProd ? `/${sProjectName}/` : '/';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Controlz home',
-  tagline: 'The official repo of Controlz app docs',
+  title: 'MOCPilot home',
+  tagline: 'The official repo of MOCPilot app docs',
   favicon: 'img/favicon.ico',
 
   // Public domain
@@ -30,7 +30,7 @@ const config = {
     locales: ['en', 'cn', 'cz', 'de', 'dk', 'es',
               'fi', 'fr', 'it', 'jp', 'nl', 'no',
               'pl', 'pt', 'ro', 'ru', 'se', 'sk', 
-              'ua'
+              'uk'
     ],
     localeConfigs: {
       en: { label: 'English', direction: 'ltr' },
@@ -51,7 +51,7 @@ const config = {
       ru: { label: 'Русский', direction: 'ltr' },
       se: { label: 'Svenska', direction: 'ltr' },
       sk: { label: 'Slovenčina', direction: 'ltr' },
-      ua: { label: 'Українська', direction: 'ltr' }
+      uk: { label: 'Українська', direction: 'ltr' }
     },
   },
 
@@ -83,9 +83,9 @@ const config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'CONTROLZ',
+      title: 'MOCPILOT',
       logo: {
-        alt: 'Controlz Logo',
+        alt: 'logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -111,7 +111,7 @@ const config = {
         {
           title: 'Community',
           items: [
-            { label: 'Telegram', href: 'https://t.me/procontrolzchat' },
+            { label: 'Telegram', href: 'https://t.me/mocpilotchat' },
           ],
         },
         {
@@ -128,9 +128,9 @@ const config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Controlz, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} MOCPilot, Inc.`,
       logo: {
-        alt: 'Controlz Logo',
+        alt: 'logo',
         src: 'img/logo-colored.svg',
         width: 160,
         height: 51,
