@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmocpilot_docs=self.webpackChunkmocpilot_docs||[]).push([[4921],{6747:e=>{e.exports=JSON.parse('{"tags":[{"label":"Dev","permalink":"/sk/blog/tags/dev","description":"Development news","count":8},{"label":"Test","permalink":"/sk/blog/tags/test","description":"Testing news","count":6}]}')}}]);
