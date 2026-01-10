@@ -4,10 +4,36 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 15 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>uk</language>
+        <item>
+            <title><![CDATA[Реліз MOCPilot 2025.2.0 - 2025.2.4]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog/release-2025-2-0-2025-2-4</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog/release-2025-2-0-2025-2-4</guid>
+            <pubDate>Sun, 28 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2025.2.0 - 2025.2.4 — Оновлення стабільності та користувацького досвіду]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202520---202524--оновлення-стабільності-та-користувацького-досвіду">🚀 MOCPilot 2025.2.0 - 2025.2.4 — Оновлення стабільності та користувацького досвіду<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/release-2025-2-0-2025-2-4#-mocpilot-202520---202524--%D0%BE%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D1%81%D1%82%D0%B0%D0%B1%D1%96%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%96-%D1%82%D0%B0-%D0%BA%D0%BE%D1%80%D0%B8%D1%81%D1%82%D1%83%D0%B2%D0%B0%D1%86%D1%8C%D0%BA%D0%BE%D0%B3%D0%BE-%D0%B4%D0%BE%D1%81%D0%B2%D1%96%D0%B4%D1%83" class="hash-link" aria-label="Пряме посилання на 🚀 MOCPilot 2025.2.0 - 2025.2.4 — Оновлення стабільності та користувацького досвіду" title="Пряме посилання на 🚀 MOCPilot 2025.2.0 - 2025.2.4 — Оновлення стабільності та користувацького досвіду" translate="no">​</a></h2>
+<p>Ми раді оголосити про реліз <strong>MOCPilot 2025.2.0 - 2025.2.4</strong>, який тепер доступний на <strong>Android</strong>, <strong>iOS</strong> та <strong>macOS</strong>.</p>
+<p>Цей реліз зосереджений на <strong>плавнішій роботі</strong>, <strong>покращеній надійності</strong> та <strong>вдосконаленні користувацького інтерфейсу</strong> на всіх платформах.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-що-покращено-у-версіях-202520---202524">✨ Що покращено у версіях 2025.2.0 - 2025.2.4?<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/release-2025-2-0-2025-2-4#-%D1%89%D0%BE-%D0%BF%D0%BE%D0%BA%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%BE-%D1%83-%D0%B2%D0%B5%D1%80%D1%81%D1%96%D1%8F%D1%85-202520---202524" class="hash-link" aria-label="Пряме посилання на ✨ Що покращено у версіях 2025.2.0 - 2025.2.4?" title="Пряме посилання на ✨ Що покращено у версіях 2025.2.0 - 2025.2.4?" translate="no">​</a></h2>
+<ul>
+<li class="">Плавніша та стабільніша робота завдяки покращеній часовій логіці</li>
+<li class="">Покращена синхронізація профілів та надійність оновлень</li>
+<li class="">Покращене компонування списку профілів з чіткішим відображенням інформації</li>
+<li class="">Покращені візуальні ефекти та взаємодія з повзунком аури</li>
+<li class="">Виправлено проблеми з інверсією pitch/roll в керуванні</li>
+<li class="">Покращені макети інтерфейсу на телефонах і планшетах</li>
+<li class="">Виправлено проблеми з кольорами, перемикачами та візуальною узгодженістю</li>
+<li class="">Покращені переклади та узгодженість текстів</li>
+<li class="">Загальні виправлення помилок, покращення продуктивності та стабільності</li>
+</ul>
+<hr>
+<p>Оновіть MOCPilot до найновішої версії та насолоджуйтеся більш стабільною та швидкою роботою на всіх ваших пристроях.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Official Release – MOCPilot 2025.2.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog/release-2025-2-0</link>

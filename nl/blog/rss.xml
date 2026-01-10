@@ -4,10 +4,36 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 15 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>nl</language>
+        <item>
+            <title><![CDATA[Release MOCPilot 2025.2.0 - 2025.2.4]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/release-2025-2-0-2025-2-4</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/release-2025-2-0-2025-2-4</guid>
+            <pubDate>Sun, 28 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2025.2.0 - 2025.2.4 — Stabiliteits- en ervaringsupdate]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202520---202524--stabiliteits--en-ervaringsupdate">🚀 MOCPilot 2025.2.0 - 2025.2.4 — Stabiliteits- en ervaringsupdate<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/release-2025-2-0-2025-2-4#-mocpilot-202520---202524--stabiliteits--en-ervaringsupdate" class="hash-link" aria-label="Directe link naar 🚀 MOCPilot 2025.2.0 - 2025.2.4 — Stabiliteits- en ervaringsupdate" title="Directe link naar 🚀 MOCPilot 2025.2.0 - 2025.2.4 — Stabiliteits- en ervaringsupdate" translate="no">​</a></h2>
+<p>We zijn blij de release van <strong>MOCPilot 2025.2.0 - 2025.2.4</strong> aan te kondigen, nu beschikbaar op <strong>Android</strong>, <strong>iOS</strong> en <strong>macOS</strong>.</p>
+<p>Deze release richt zich op <strong>soepeler gedrag</strong>, <strong>betere betrouwbaarheid</strong> en <strong>UI-verbeteringen</strong> op alle platforms.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-wat-is-verbeterd-in-202520---202524">✨ Wat is verbeterd in 2025.2.0 - 2025.2.4?<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/release-2025-2-0-2025-2-4#-wat-is-verbeterd-in-202520---202524" class="hash-link" aria-label="Directe link naar ✨ Wat is verbeterd in 2025.2.0 - 2025.2.4?" title="Directe link naar ✨ Wat is verbeterd in 2025.2.0 - 2025.2.4?" translate="no">​</a></h2>
+<ul>
+<li class="">Soepeler en stabieler gedrag dankzij verbeterde timinglogica</li>
+<li class="">Verbeterde profiel­synchronisatie en updatebetrouwbaarheid</li>
+<li class="">Verbeterde lay-out van de profiellijst met duidelijkere informatie</li>
+<li class="">Verbeterde visuals en interactie van de aura-schuifregelaar</li>
+<li class="">Oplossing voor pitch/roll-omkeringsproblemen in besturing</li>
+<li class="">Verbeterde UI-lay-outs op telefoons en tablets</li>
+<li class="">Oplossingen voor kleur-, schakelaar- en visuele consistentieproblemen</li>
+<li class="">Verbeterde vertalingen en tekstconsistentie</li>
+<li class="">Algemene bugfixes, prestatie- en stabiliteitsverbeteringen</li>
+</ul>
+<hr>
+<p>Werk MOCPilot bij naar de nieuwste versie en geniet van een stabielere en responsievere ervaring op al je apparaten.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Official Release – MOCPilot 2025.2.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/release-2025-2-0</link>

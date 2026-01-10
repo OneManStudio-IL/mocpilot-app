@@ -4,10 +4,36 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 15 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Releases MOCPilot 2025.2.0 - 2025.2.4]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/blog/release-2025-2-0-2025-2-4</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/blog/release-2025-2-0-2025-2-4</guid>
+            <pubDate>Sun, 28 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2025.2.0 - 2025.2.4 — Stability & Experience Update]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202520---202524--stability--experience-update">🚀 MOCPilot 2025.2.0 - 2025.2.4 — Stability &amp; Experience Update<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/release-2025-2-0-2025-2-4#-mocpilot-202520---202524--stability--experience-update" class="hash-link" aria-label="Direct link to 🚀 MOCPilot 2025.2.0 - 2025.2.4 — Stability &amp; Experience Update" title="Direct link to 🚀 MOCPilot 2025.2.0 - 2025.2.4 — Stability &amp; Experience Update" translate="no">​</a></h2>
+<p>We’re happy to announce the <strong>MOCPilot 2025.2.0 - 2025.2.4</strong> release, now available on <strong>Android</strong>, <strong>iOS</strong>, and <strong>macOS</strong>.</p>
+<p>This release focuses on <strong>smoother behavior</strong>, <strong>improved reliability</strong>, and <strong>UI refinements</strong> across all supported platforms, delivering a more stable and polished experience for everyday use.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-whats-improved-in-202520---202524">✨ What’s Improved in 2025.2.0 - 2025.2.4?<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/release-2025-2-0-2025-2-4#-whats-improved-in-202520---202524" class="hash-link" aria-label="Direct link to ✨ What’s Improved in 2025.2.0 - 2025.2.4?" title="Direct link to ✨ What’s Improved in 2025.2.0 - 2025.2.4?" translate="no">​</a></h2>
+<ul>
+<li class="">Smoother and more stable behavior thanks to improved timing logic</li>
+<li class="">Improved profile synchronization and update reliability</li>
+<li class="">Refined profile list layout with clearer information display</li>
+<li class="">Enhanced aura slider visuals and interaction feedback</li>
+<li class="">Fixed pitch and roll inversion issues in control blocks</li>
+<li class="">Improved UI layouts on phone and tablet devices</li>
+<li class="">Fixed color, switcher, and visual consistency issues</li>
+<li class="">Improved translations and text consistency</li>
+<li class="">General bug fixes, performance improvements, and increased stability</li>
+</ul>
+<hr>
+<p>Update MOCPilot to the latest version and enjoy a more refined, reliable, and responsive experience across all your devices.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Official Release – MOCPilot 2025.2.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/blog/release-2025-2-0</link>

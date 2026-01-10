@@ -4,10 +4,36 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 15 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fi</language>
+        <item>
+            <title><![CDATA[Julkaisu MOCPilot 2025.2.0 - 2025.2.4]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/release-2025-2-0-2025-2-4</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/release-2025-2-0-2025-2-4</guid>
+            <pubDate>Sun, 28 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2025.2.0 - 2025.2.4 — Vakautta ja käyttökokemusta parantava päivitys]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202520---202524--vakautta-ja-käyttökokemusta-parantava-päivitys">🚀 MOCPilot 2025.2.0 - 2025.2.4 — Vakautta ja käyttökokemusta parantava päivitys<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/release-2025-2-0-2025-2-4#-mocpilot-202520---202524--vakautta-ja-k%C3%A4ytt%C3%B6kokemusta-parantava-p%C3%A4ivitys" class="hash-link" aria-label="Suora linkki kohtaan 🚀 MOCPilot 2025.2.0 - 2025.2.4 — Vakautta ja käyttökokemusta parantava päivitys" title="Suora linkki kohtaan 🚀 MOCPilot 2025.2.0 - 2025.2.4 — Vakautta ja käyttökokemusta parantava päivitys" translate="no">​</a></h2>
+<p>Olemme iloisia voidessamme julkaista <strong>MOCPilot 2025.2.0 - 2025.2.4</strong> -version, joka on nyt saatavilla <strong>Androidille</strong>, <strong>iOS<!-- -->:lle</strong> ja <strong>macOS<!-- -->:lle</strong>.</p>
+<p>Tämä julkaisu keskittyy <strong>sujuvampaan toimintaan</strong>, <strong>parempaan luotettavuuteen</strong> ja <strong>käyttöliittymän parannuksiin</strong> kaikilla alustoilla.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mitä-parannuksia-versioissa-202520---202524-on-tehty">✨ Mitä parannuksia versioissa 2025.2.0 - 2025.2.4 on tehty?<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/release-2025-2-0-2025-2-4#-mit%C3%A4-parannuksia-versioissa-202520---202524-on-tehty" class="hash-link" aria-label="Suora linkki kohtaan ✨ Mitä parannuksia versioissa 2025.2.0 - 2025.2.4 on tehty?" title="Suora linkki kohtaan ✨ Mitä parannuksia versioissa 2025.2.0 - 2025.2.4 on tehty?" translate="no">​</a></h2>
+<ul>
+<li class="">Sujuvampi ja vakaampi toiminta parannetun ajastuslogiikan ansiosta</li>
+<li class="">Parannettu profiilien synkronointi ja päivitysten luotettavuus</li>
+<li class="">Selkeämpi profiililistan asettelu ja tiedon esitys</li>
+<li class="">Parannetut aura-liukusäätimen visuaalit ja vuorovaikutus</li>
+<li class="">Korjattu ohjainten pitch- ja roll-käännöksiin liittyvät ongelmat</li>
+<li class="">Parannetut käyttöliittymäasettelut puhelimilla ja tableteilla</li>
+<li class="">Korjattu väri-, kytkin- ja visuaalisen yhtenäisyyden ongelmia</li>
+<li class="">Parannetut käännökset ja tekstin johdonmukaisuus</li>
+<li class="">Yleisiä virheenkorjauksia sekä suorituskyky- ja vakausparannuksia</li>
+</ul>
+<hr>
+<p>Päivitä MOCPilot uusimpaan versioon ja nauti entistä sujuvammasta ja luotettavammasta käyttökokemuksesta kaikilla laitteillasi.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Official Release – MOCPilot 2025.2.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/release-2025-2-0</link>

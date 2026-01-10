@@ -2,11 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2025-11-15T00:00:00.000Z</updated>
+    <updated>2025-12-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/jp/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/jp/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[MOCPilot 2025.2.0 - 2025.2.4 リリース]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog/release-2025-2-0-2025-2-4</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/jp/blog/release-2025-2-0-2025-2-4"/>
+        <updated>2025-12-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2025.2.0 - 2025.2.4 — 安定性とユーザー体験の向上]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202520---202524--安定性とユーザー体験の向上">🚀 MOCPilot 2025.2.0 - 2025.2.4 — 安定性とユーザー体験の向上<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/release-2025-2-0-2025-2-4#-mocpilot-202520---202524--%E5%AE%89%E5%AE%9A%E6%80%A7%E3%81%A8%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E4%BD%93%E9%A8%93%E3%81%AE%E5%90%91%E4%B8%8A" class="hash-link" aria-label="🚀 MOCPilot 2025.2.0 - 2025.2.4 — 安定性とユーザー体験の向上 への直接リンク" title="🚀 MOCPilot 2025.2.0 - 2025.2.4 — 安定性とユーザー体験の向上 への直接リンク" translate="no">​</a></h2>
+<p><strong>MOCPilot 2025.2.0 - 2025.2.4</strong> のリリースをお知らせします。現在 <strong>Android</strong>、<strong>iOS</strong>、<strong>macOS</strong> で利用可能です。</p>
+<p>本リリースでは、<strong>よりスムーズな動作</strong>、<strong>信頼性の向上</strong>、および <strong>UI の改善</strong> に重点を置いています。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-202520---202524-の主な改善点">✨ 2025.2.0 - 2025.2.4 の主な改善点<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/release-2025-2-0-2025-2-4#-202520---202524-%E3%81%AE%E4%B8%BB%E3%81%AA%E6%94%B9%E5%96%84%E7%82%B9" class="hash-link" aria-label="✨ 2025.2.0 - 2025.2.4 の主な改善点 への直接リンク" title="✨ 2025.2.0 - 2025.2.4 の主な改善点 への直接リンク" translate="no">​</a></h2>
+<ul>
+<li class="">改良された時間制御ロジックによる、より滑らかで安定した動作</li>
+<li class="">プロファイル同期と更新の信頼性を向上</li>
+<li class="">プロファイル一覧のレイアウト改善と情報表示の明確化</li>
+<li class="">オーラスライダーの視覚効果と操作性を改善</li>
+<li class="">操作ブロックにおけるピッチ／ロール反転の問題を修正</li>
+<li class="">スマートフォンおよびタブレット向け UI レイアウトの改善</li>
+<li class="">カラー、スイッチ、視覚的一貫性の問題を修正</li>
+<li class="">翻訳品質とテキストの一貫性を向上</li>
+<li class="">一般的なバグ修正、パフォーマンスおよび安定性の向上</li>
+</ul>
+<hr>
+<p>最新バージョンの MOCPilot にアップデートして、すべてのデバイスでより快適な体験をお楽しみください。</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Official Release – MOCPilot 2025.2.0]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog/release-2025-2-0</id>

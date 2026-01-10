@@ -4,10 +4,36 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 15 Nov 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Dec 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>cn</language>
+        <item>
+            <title><![CDATA[MOCPilot 2025.2.0 - 2025.2.4 发布]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/release-2025-2-0-2025-2-4</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/release-2025-2-0-2025-2-4</guid>
+            <pubDate>Sun, 28 Dec 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2025.2.0 - 2025.2.4 —— 稳定性与体验更新]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202520---202524--稳定性与体验更新">🚀 MOCPilot 2025.2.0 - 2025.2.4 —— 稳定性与体验更新<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/release-2025-2-0-2025-2-4#-mocpilot-202520---202524--%E7%A8%B3%E5%AE%9A%E6%80%A7%E4%B8%8E%E4%BD%93%E9%AA%8C%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="直接链接到 🚀 MOCPilot 2025.2.0 - 2025.2.4 —— 稳定性与体验更新" title="直接链接到 🚀 MOCPilot 2025.2.0 - 2025.2.4 —— 稳定性与体验更新" translate="no">​</a></h2>
+<p>我们很高兴宣布 <strong>MOCPilot 2025.2.0 - 2025.2.4</strong> 正式发布，现已支持 <strong>Android</strong>、<strong>iOS</strong> 和 <strong>macOS</strong>。</p>
+<p>本次更新重点提升了 <strong>运行流畅度</strong>、<strong>可靠性</strong> 以及 <strong>用户界面体验</strong>，为所有平台带来更加稳定和精致的使用体验。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-202520---202524-有哪些改进">✨ 2025.2.0 - 2025.2.4 有哪些改进？<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/release-2025-2-0-2025-2-4#-202520---202524-%E6%9C%89%E5%93%AA%E4%BA%9B%E6%94%B9%E8%BF%9B" class="hash-link" aria-label="直接链接到 ✨ 2025.2.0 - 2025.2.4 有哪些改进？" title="直接链接到 ✨ 2025.2.0 - 2025.2.4 有哪些改进？" translate="no">​</a></h2>
+<ul>
+<li class="">通过改进时间逻辑，实现更流畅、更稳定的行为</li>
+<li class="">改进了配置文件同步和更新的可靠性</li>
+<li class="">优化了配置文件列表布局，信息显示更加清晰</li>
+<li class="">增强了光环滑块的视觉效果和交互体验</li>
+<li class="">修复了控制模块中俯仰 / 横滚反向的问题</li>
+<li class="">改进了手机和平板设备上的界面布局</li>
+<li class="">修复了颜色、切换器和视觉一致性问题</li>
+<li class="">改进了翻译质量和文本一致性</li>
+<li class="">常规错误修复、性能提升和稳定性改进</li>
+</ul>
+<hr>
+<p>更新至最新版本的 MOCPilot，在所有设备上享受更加流畅、可靠和响应迅速的体验。</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Official Release – MOCPilot 2025.2.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/release-2025-2-0</link>

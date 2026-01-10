@@ -2,11 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/fr/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2025-11-15T00:00:00.000Z</updated>
+    <updated>2025-12-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/fr/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/fr/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Version MOCPilot 2025.2.0 - 2025.2.4]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/fr/blog/release-2025-2-0-2025-2-4</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/fr/blog/release-2025-2-0-2025-2-4"/>
+        <updated>2025-12-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2025.2.0 - 2025.2.4 — Mise à jour stabilité et expérience utilisateur]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202520---202524--mise-à-jour-stabilité-et-expérience-utilisateur">🚀 MOCPilot 2025.2.0 - 2025.2.4 — Mise à jour stabilité et expérience utilisateur<a href="https://onemanstudio-il.github.io/mocpilot-app/fr/blog/release-2025-2-0-2025-2-4#-mocpilot-202520---202524--mise-%C3%A0-jour-stabilit%C3%A9-et-exp%C3%A9rience-utilisateur" class="hash-link" aria-label="Lien direct vers 🚀 MOCPilot 2025.2.0 - 2025.2.4 — Mise à jour stabilité et expérience utilisateur" title="Lien direct vers 🚀 MOCPilot 2025.2.0 - 2025.2.4 — Mise à jour stabilité et expérience utilisateur" translate="no">​</a></h2>
+<p>Nous sommes heureux d’annoncer la sortie de <strong>MOCPilot 2025.2.0 - 2025.2.4</strong>, désormais disponible sur <strong>Android</strong>, <strong>iOS</strong> et <strong>macOS</strong>.</p>
+<p>Cette version se concentre sur un <strong>fonctionnement plus fluide</strong>, une <strong>meilleure fiabilité</strong> et des <strong>améliorations de l’interface utilisateur</strong> sur toutes les plateformes.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-quelles-améliorations-dans-les-versions-202520---202524-">✨ Quelles améliorations dans les versions 2025.2.0 - 2025.2.4 ?<a href="https://onemanstudio-il.github.io/mocpilot-app/fr/blog/release-2025-2-0-2025-2-4#-quelles-am%C3%A9liorations-dans-les-versions-202520---202524-" class="hash-link" aria-label="Lien direct vers ✨ Quelles améliorations dans les versions 2025.2.0 - 2025.2.4 ?" title="Lien direct vers ✨ Quelles améliorations dans les versions 2025.2.0 - 2025.2.4 ?" translate="no">​</a></h2>
+<ul>
+<li class="">Comportement plus fluide et stable grâce à une logique temporelle améliorée</li>
+<li class="">Synchronisation des profils et fiabilité des mises à jour améliorées</li>
+<li class="">Mise en page de la liste des profils plus claire et informative</li>
+<li class="">Amélioration des visuels et de l’interaction du curseur d’aura</li>
+<li class="">Correction des problèmes d’inversion de pitch et de roll</li>
+<li class="">Amélioration des mises en page UI sur téléphone et tablette</li>
+<li class="">Correction des problèmes de couleurs, interrupteurs et cohérence visuelle</li>
+<li class="">Amélioration des traductions et de la cohérence des textes</li>
+<li class="">Corrections générales de bugs, améliorations des performances et de la stabilité</li>
+</ul>
+<hr>
+<p>Mettez à jour MOCPilot vers la dernière version et profitez d’une expérience plus fluide et fiable sur tous vos appareils.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Official Release – MOCPilot 2025.2.0]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/fr/blog/release-2025-2-0</id>

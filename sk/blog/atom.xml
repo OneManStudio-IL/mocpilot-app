@@ -2,11 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/sk/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2025-11-15T00:00:00.000Z</updated>
+    <updated>2025-12-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/sk/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/sk/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Vydanie MOCPilot 2025.2.0 - 2025.2.4]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/sk/blog/release-2025-2-0-2025-2-4</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/sk/blog/release-2025-2-0-2025-2-4"/>
+        <updated>2025-12-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2025.2.0 - 2025.2.4 — Aktualizácia stability a používateľského zážitku]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202520---202524--aktualizácia-stability-a-používateľského-zážitku">🚀 MOCPilot 2025.2.0 - 2025.2.4 — Aktualizácia stability a používateľského zážitku<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/release-2025-2-0-2025-2-4#-mocpilot-202520---202524--aktualiz%C3%A1cia-stability-a-pou%C5%BE%C3%ADvate%C4%BEsk%C3%A9ho-z%C3%A1%C5%BEitku" class="hash-link" aria-label="Priamy odkaz na 🚀 MOCPilot 2025.2.0 - 2025.2.4 — Aktualizácia stability a používateľského zážitku" title="Priamy odkaz na 🚀 MOCPilot 2025.2.0 - 2025.2.4 — Aktualizácia stability a používateľského zážitku" translate="no">​</a></h2>
+<p>S radosťou oznamujeme vydanie <strong>MOCPilot 2025.2.0 - 2025.2.4</strong>, teraz dostupné pre <strong>Android</strong>, <strong>iOS</strong> a <strong>macOS</strong>.</p>
+<p>Táto verzia sa zameriava na <strong>plynulejšie správanie</strong>, <strong>vyššiu spoľahlivosť</strong> a <strong>vylepšenia používateľského rozhrania</strong> na všetkých platformách.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-čo-je-vylepšené-vo-verziách-202520---202524">✨ Čo je vylepšené vo verziách 2025.2.0 - 2025.2.4?<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/release-2025-2-0-2025-2-4#-%C4%8Do-je-vylep%C5%A1en%C3%A9-vo-verzi%C3%A1ch-202520---202524" class="hash-link" aria-label="Priamy odkaz na ✨ Čo je vylepšené vo verziách 2025.2.0 - 2025.2.4?" title="Priamy odkaz na ✨ Čo je vylepšené vo verziách 2025.2.0 - 2025.2.4?" translate="no">​</a></h2>
+<ul>
+<li class="">Plynulejšie a stabilnejšie správanie vďaka vylepšenej časovej logike</li>
+<li class="">Zlepšená synchronizácia profilov a spoľahlivosť aktualizácií</li>
+<li class="">Vylepšené rozloženie zoznamu profilov s prehľadnejšími informáciami</li>
+<li class="">Vylepšené vizuálne efekty a interakcia aura posuvníka</li>
+<li class="">Opravené problémy s inverziou pitch/roll v ovládaní</li>
+<li class="">Vylepšené rozloženia UI na telefónoch a tabletoch</li>
+<li class="">Opravené problémy s farbami, prepínačmi a vizuálnou konzistenciou</li>
+<li class="">Vylepšené preklady a konzistentnosť textov</li>
+<li class="">Všeobecné opravy chýb a zlepšenia výkonu a stability</li>
+</ul>
+<hr>
+<p>Aktualizujte MOCPilot na najnovšiu verziu a vychutnajte si stabilnejší a plynulejší zážitok na všetkých zariadeniach.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Official Release – MOCPilot 2025.2.0]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/sk/blog/release-2025-2-0</id>
