@@ -2,11 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/de/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2025-12-28T00:00:00.000Z</updated>
+    <updated>2026-01-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/de/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Veröffentlichung MOCPilot 2026.1.0]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/de/blog/2026/01/10/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/de/blog/2026/01/10/post"/>
+        <updated>2026-01-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.1.0 — Feature- & Stabilitäts-Update]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202610--feature---stabilitäts-update">🚀 MOCPilot 2026.1.0 — Feature- &amp; Stabilitäts-Update<a href="https://onemanstudio-il.github.io/mocpilot-app/de/blog/2026/01/10/post#-mocpilot-202610--feature---stabilit%C3%A4ts-update" class="hash-link" aria-label="Direktlink zu 🚀 MOCPilot 2026.1.0 — Feature- &amp; Stabilitäts-Update" title="Direktlink zu 🚀 MOCPilot 2026.1.0 — Feature- &amp; Stabilitäts-Update" translate="no">​</a></h2>
+<p>Wir freuen uns, die Veröffentlichung von <strong>MOCPilot 2026.1.0</strong> bekannt zu geben — jetzt verfügbar für <strong>Android</strong>, <strong>iOS</strong> und <strong>macOS</strong>.</p>
+<p>Dieses Release führt den <strong>Gastmodus</strong> ein, verbessert die Bedienbarkeit auf mobilen Geräten und liefert wichtige Stabilitäts- und Performance-Fixes für alle Plattformen.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-was-ist-neu-in-202610">✨ Was ist neu in 2026.1.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/de/blog/2026/01/10/post#-was-ist-neu-in-202610" class="hash-link" aria-label="Direktlink zu ✨ Was ist neu in 2026.1.0?" title="Direktlink zu ✨ Was ist neu in 2026.1.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-neu">🆕 Neu<a href="https://onemanstudio-il.github.io/mocpilot-app/de/blog/2026/01/10/post#-neu" class="hash-link" aria-label="Direktlink zu 🆕 Neu" title="Direktlink zu 🆕 Neu" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Gastmodus</strong> — App ohne Konto nutzen, mit der Möglichkeit später ein Konto zu erstellen</li>
+<li class="">Sprachauswahl auf dem Anmelde-/Authentifizierungsbildschirm hinzugefügt</li>
+<li class="">Die App blockiert nun die Nutzung von Hubs mit nicht unterstützter Firmware und zeigt eine klare Warnung</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-verbesserungen">⚙️ Verbesserungen<a href="https://onemanstudio-il.github.io/mocpilot-app/de/blog/2026/01/10/post#%EF%B8%8F-verbesserungen" class="hash-link" aria-label="Direktlink zu ⚙️ Verbesserungen" title="Direktlink zu ⚙️ Verbesserungen" translate="no">​</a></h3>
+<ul>
+<li class="">Verbessertes Block-Ziehen auf mobilen Geräten (bessere Touch-Erkennung, weniger versehentliche Interaktionen)</li>
+<li class="">Die Block-Palette wird beim Ziehen auf Mobilgeräten jetzt automatisch ausgeblendet</li>
+<li class="">Hinweisdialoge wenden nun einen Hintergrund-Weichzeichner an</li>
+<li class="">Verbesserte Texteingabe auf allen Plattformen</li>
+<li class="">Flüssigere Hub-Steuerung mit geringerer Latenz</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-fixes">🛠 Fixes<a href="https://onemanstudio-il.github.io/mocpilot-app/de/blog/2026/01/10/post#-fixes" class="hash-link" aria-label="Direktlink zu 🛠 Fixes" title="Direktlink zu 🛠 Fixes" translate="no">​</a></h3>
+<ul>
+<li class="">Mehrere Drag-&amp;-Drop-Probleme behoben, u. a. festhängende Blöcke und verlorene Maus-/Touch-Eingaben</li>
+<li class="">Abstürze beim Stoppen von Programmen mit eigenen („My“) Blöcken behoben</li>
+<li class="">Problem behoben, bei dem die Lenkzahnstangen-Kalibrierung nicht zur Mittelposition zurückkehrte</li>
+<li class="">Hub-Steuerungs-Lag und verzögerte Motorreaktion behoben</li>
+<li class="">Probleme mit Editor-Ports, Slidern und Geschwindigkeitswert-Blöcken behoben</li>
+<li class="">Problem mit dem Hauptdialog sowie verschiedene UI-Layout-Fehler behoben</li>
+<li class="">Übersetzungen aktualisiert und kleinere visuelle Inkonsistenzen behoben</li>
+</ul>
+<hr>
+<p>Aktualisieren Sie MOCPilot auf die neueste Version und genießen Sie ein flüssigeres, stabileres und zugänglicheres Erlebnis auf all Ihren Geräten.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Veröffentlichung MOCPilot 2025.2.0 - 2025.2.4]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/de/blog/2025/12/28/post</id>
@@ -38,7 +81,7 @@
         <category label="Dev" term="Dev"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Official Release – MOCPilot 2025.2.0]]></title>
+        <title type="html"><![CDATA[Veröffentlichung MOCPilot 2025.2.0]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/de/blog/2025/11/15/post</id>
         <link href="https://OneManStudio-IL.github.io/mocpilot-app/de/blog/2025/11/15/post"/>
         <updated>2025-11-15T00:00:00.000Z</updated>
@@ -64,7 +107,7 @@
         <category label="Dev" term="Dev"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Veröffentlichung von MOCPilot 2025.1.9]]></title>
+        <title type="html"><![CDATA[Veröffentlichung MOCPilot 2025.1.9]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/de/blog/2025/06/3/post</id>
         <link href="https://OneManStudio-IL.github.io/mocpilot-app/de/blog/2025/06/3/post"/>
         <updated>2025-06-03T00:00:00.000Z</updated>

@@ -2,11 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2025-12-28T00:00:00.000Z</updated>
+    <updated>2026-01-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/cz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Vydání MOCPilot 2026.1.0]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2026/01/10/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2026/01/10/post"/>
+        <updated>2026-01-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.1.0 — Aktualizace funkcí a stability]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202610--aktualizace-funkcí-a-stability">🚀 MOCPilot 2026.1.0 — Aktualizace funkcí a stability<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/01/10/post#-mocpilot-202610--aktualizace-funkc%C3%AD-a-stability" class="hash-link" aria-label="Přímý odkaz na 🚀 MOCPilot 2026.1.0 — Aktualizace funkcí a stability" title="Přímý odkaz na 🚀 MOCPilot 2026.1.0 — Aktualizace funkcí a stability" translate="no">​</a></h2>
+<p>S radostí oznamujeme vydání <strong>MOCPilot 2026.1.0</strong>, nyní dostupné pro <strong>Android</strong>, <strong>iOS</strong> a <strong>macOS</strong>.</p>
+<p>Tato verze přináší <strong>režim hosta</strong>, zlepšuje použitelnost na mobilních zařízeních a obsahuje důležité opravy stability a výkonu napříč všemi platformami.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-co-je-nového-ve-verzi-202610">✨ Co je nového ve verzi 2026.1.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/01/10/post#-co-je-nov%C3%A9ho-ve-verzi-202610" class="hash-link" aria-label="Přímý odkaz na ✨ Co je nového ve verzi 2026.1.0?" title="Přímý odkaz na ✨ Co je nového ve verzi 2026.1.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-novinky">🆕 Novinky<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/01/10/post#-novinky" class="hash-link" aria-label="Přímý odkaz na 🆕 Novinky" title="Přímý odkaz na 🆕 Novinky" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Režim hosta</strong> — používejte aplikaci bez účtu, s možností si ho později vytvořit</li>
+<li class="">Výběr jazyka přidán na přihlašovací/autorizační obrazovku</li>
+<li class="">Aplikace nyní blokuje použití hubů s nepodporovaným firmwarem a zobrazí jasné varování</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-vylepšení">⚙️ Vylepšení<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/01/10/post#%EF%B8%8F-vylep%C5%A1en%C3%AD" class="hash-link" aria-label="Přímý odkaz na ⚙️ Vylepšení" title="Přímý odkaz na ⚙️ Vylepšení" translate="no">​</a></h3>
+<ul>
+<li class="">Vylepšené přetahování bloků na mobilních zařízeních (lepší dotykové ovládání, méně nechtěných interakcí)</li>
+<li class="">Paleta bloků se nyní při přetahování na mobilu automaticky skryje</li>
+<li class="">U dialogů s upozorněním se nyní aplikuje rozmazání pozadí</li>
+<li class="">Vylepšené zadávání textu napříč všemi platformami</li>
+<li class="">Plynulejší ovládání hubu se sníženou latencí</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-opravy">🛠 Opravy<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/01/10/post#-opravy" class="hash-link" aria-label="Přímý odkaz na 🛠 Opravy" title="Přímý odkaz na 🛠 Opravy" translate="no">​</a></h3>
+<ul>
+<li class="">Opraveno více problémů s drag &amp; drop bloků, včetně zaseknutých bloků a ztráty vstupu myši/dotyku</li>
+<li class="">Opraveny pády při zastavení programů používajících vlastní („Moje“) bloky</li>
+<li class="">Opraveno, že kalibrace řízení (steering rack) se nevracela do středu</li>
+<li class="">Opraveno zpoždění ovládání hubu a pomalá odezva motoru</li>
+<li class="">Opraveny problémy v editoru portů, posuvnících a blocích rychlosti</li>
+<li class="">Opraven problém s hlavním dialogem a různé chyby rozložení UI</li>
+<li class="">Aktualizované překlady a drobné vizuální opravy</li>
+</ul>
+<hr>
+<p>Aktualizujte MOCPilot na nejnovější verzi a užijte si plynulejší, stabilnější a přístupnější zážitek na všech svých zařízeních.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vydání MOCPilot 2025.2.0 - 2025.2.4]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2025/12/28/post</id>
@@ -38,7 +81,7 @@
         <category label="Dev" term="Dev"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Official Release – MOCPilot 2025.2.0]]></title>
+        <title type="html"><![CDATA[Vydání MOCPilot 2025.2.0]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2025/11/15/post</id>
         <link href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2025/11/15/post"/>
         <updated>2025-11-15T00:00:00.000Z</updated>

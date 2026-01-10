@@ -4,10 +4,49 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sun, 28 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>nl</language>
+        <item>
+            <title><![CDATA[Release MOCPilot 2026.1.0]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2026/01/10/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2026/01/10/post</guid>
+            <pubDate>Sat, 10 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.1.0 — Functie- & stabiliteitsupdate]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202610--functie---stabiliteitsupdate">🚀 MOCPilot 2026.1.0 — Functie- &amp; stabiliteitsupdate<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/01/10/post#-mocpilot-202610--functie---stabiliteitsupdate" class="hash-link" aria-label="Directe link naar 🚀 MOCPilot 2026.1.0 — Functie- &amp; stabiliteitsupdate" title="Directe link naar 🚀 MOCPilot 2026.1.0 — Functie- &amp; stabiliteitsupdate" translate="no">​</a></h2>
+<p>We zijn blij de release van <strong>MOCPilot 2026.1.0</strong> aan te kondigen, nu beschikbaar op <strong>Android</strong>, <strong>iOS</strong> en <strong>macOS</strong>.</p>
+<p>Deze release introduceert de <strong>gastmodus</strong>, verbetert de bruikbaarheid op mobiele apparaten en levert belangrijke stabiliteits- en prestatiefixes op alle ondersteunde platforms.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-wat-is-er-nieuw-in-202610">✨ Wat is er nieuw in 2026.1.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/01/10/post#-wat-is-er-nieuw-in-202610" class="hash-link" aria-label="Directe link naar ✨ Wat is er nieuw in 2026.1.0?" title="Directe link naar ✨ Wat is er nieuw in 2026.1.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-nieuw">🆕 Nieuw<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/01/10/post#-nieuw" class="hash-link" aria-label="Directe link naar 🆕 Nieuw" title="Directe link naar 🆕 Nieuw" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Gastmodus</strong> — gebruik de app zonder account, met de optie om later een account aan te maken</li>
+<li class="">Taalkeuze toegevoegd aan het authenticatiescherm</li>
+<li class="">De app blokkeert nu het gebruik van hubs met niet-ondersteunde firmware en toont een duidelijke waarschuwing</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-verbeteringen">⚙️ Verbeteringen<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/01/10/post#%EF%B8%8F-verbeteringen" class="hash-link" aria-label="Directe link naar ⚙️ Verbeteringen" title="Directe link naar ⚙️ Verbeteringen" translate="no">​</a></h3>
+<ul>
+<li class="">Verbeterd blokken slepen op mobiel (betere touch-afhandeling, minder per ongeluk aanraken)</li>
+<li class="">Het blokkenpalet wordt nu automatisch verborgen tijdens het slepen op mobiel</li>
+<li class="">Waarschuwingsdialogen passen nu een blur-effect toe op de achtergrond</li>
+<li class="">Verbeterde tekstinvoer op alle platforms</li>
+<li class="">Soepelere hub-bediening met lagere latency</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-oplossingen">🛠 Oplossingen<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/01/10/post#-oplossingen" class="hash-link" aria-label="Directe link naar 🛠 Oplossingen" title="Directe link naar 🛠 Oplossingen" translate="no">​</a></h3>
+<ul>
+<li class="">Meerdere drag &amp; drop-problemen opgelost, inclusief vastzittende blokken en verloren muis-/touch-invoer</li>
+<li class="">Crashes opgelost bij het stoppen van programma’s die aangepaste (“My”) blokken gebruiken</li>
+<li class="">Probleem opgelost waarbij de stuurheugelkalibratie niet terugkeerde naar het midden</li>
+<li class="">Hub-bedieningslag en vertraagde motorrespons opgelost</li>
+<li class="">Problemen opgelost met editorpoorten, sliders en snelheidswaarde-blokken</li>
+<li class="">Probleem met het hoofdvenster en diverse UI-layoutproblemen opgelost</li>
+<li class="">Vertalingen bijgewerkt en kleine visuele inconsistenties opgelost</li>
+</ul>
+<hr>
+<p>Werk MOCPilot bij naar de nieuwste versie en geniet van een soepelere, stabielere en toegankelijkere ervaring op al je apparaten.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Release MOCPilot 2025.2.0 - 2025.2.4]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2025/12/28/post</link>
@@ -35,7 +74,7 @@
             <category>Dev</category>
         </item>
         <item>
-            <title><![CDATA[Official Release – MOCPilot 2025.2.0]]></title>
+            <title><![CDATA[Release MOCPilot 2025.2.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2025/11/15/post</link>
             <guid>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2025/11/15/post</guid>
             <pubDate>Sat, 15 Nov 2025 00:00:00 GMT</pubDate>
@@ -56,7 +95,7 @@
             <category>Dev</category>
         </item>
         <item>
-            <title><![CDATA[Release van MOCPilot 2025.1.9]]></title>
+            <title><![CDATA[Release MOCPilot 2025.1.9]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2025/06/3/post</link>
             <guid>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2025/06/3/post</guid>
             <pubDate>Tue, 03 Jun 2025 00:00:00 GMT</pubDate>

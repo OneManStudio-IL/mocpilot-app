@@ -2,11 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/no/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2025-12-28T00:00:00.000Z</updated>
+    <updated>2026-01-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/no/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/no/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Utgivelse MOCPilot 2026.1.0]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/no/blog/2026/01/10/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/no/blog/2026/01/10/post"/>
+        <updated>2026-01-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.1.0 — Funksjons- og stabilitetsoppdatering]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202610--funksjons--og-stabilitetsoppdatering">🚀 MOCPilot 2026.1.0 — Funksjons- og stabilitetsoppdatering<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/01/10/post#-mocpilot-202610--funksjons--og-stabilitetsoppdatering" class="hash-link" aria-label="Direkte link til 🚀 MOCPilot 2026.1.0 — Funksjons- og stabilitetsoppdatering" title="Direkte link til 🚀 MOCPilot 2026.1.0 — Funksjons- og stabilitetsoppdatering" translate="no">​</a></h2>
+<p>Vi er glade for å kunngjøre lanseringen av <strong>MOCPilot 2026.1.0</strong>, nå tilgjengelig på <strong>Android</strong>, <strong>iOS</strong> og <strong>macOS</strong>.</p>
+<p>Denne utgivelsen introduserer <strong>gjestemodus</strong>, forbedrer brukervennligheten på mobile enheter og leverer viktige stabilitets- og ytelsesrettelser på tvers av alle støttede plattformer.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hva-er-nytt-i-202610">✨ Hva er nytt i 2026.1.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/01/10/post#-hva-er-nytt-i-202610" class="hash-link" aria-label="Direkte link til ✨ Hva er nytt i 2026.1.0?" title="Direkte link til ✨ Hva er nytt i 2026.1.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-nytt">🆕 Nytt<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/01/10/post#-nytt" class="hash-link" aria-label="Direkte link til 🆕 Nytt" title="Direkte link til 🆕 Nytt" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Gjestemodus</strong> — bruk appen uten konto, med mulighet til å opprette en senere</li>
+<li class="">Språkvalg lagt til på autentiseringsskjermen</li>
+<li class="">Appen blokkerer nå bruk av huber med ikke-støttet firmware og viser en tydelig advarsel</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-forbedringer">⚙️ Forbedringer<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/01/10/post#%EF%B8%8F-forbedringer" class="hash-link" aria-label="Direkte link til ⚙️ Forbedringer" title="Direkte link til ⚙️ Forbedringer" translate="no">​</a></h3>
+<ul>
+<li class="">Forbedret blokk-draing på mobil (bedre touch-håndtering, færre utilsiktede interaksjoner)</li>
+<li class="">Blokketøyet/paletten skjules nå automatisk under draing på mobil</li>
+<li class="">Varseldialoger bruker nå bakgrunnssløring</li>
+<li class="">Forbedret tekstinndata på tvers av alle plattformer</li>
+<li class="">Jevnere hub-kontroll med redusert forsinkelse</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-rettelser">🛠 Rettelser<a href="https://onemanstudio-il.github.io/mocpilot-app/no/blog/2026/01/10/post#-rettelser" class="hash-link" aria-label="Direkte link til 🛠 Rettelser" title="Direkte link til 🛠 Rettelser" translate="no">​</a></h3>
+<ul>
+<li class="">Rettet flere problemer med blokk drag &amp; drop, inkludert fastlåste blokker og tapt mus-/touch-inndata</li>
+<li class="">Rettet krasj ved stopping av programmer som bruker egendefinerte (“My”) blokker</li>
+<li class="">Rettet at kalibrering av tannstangstyring ikke returnerte til midtposisjon</li>
+<li class="">Rettet lag i hub-kontroll og forsinket motorrespons</li>
+<li class="">Rettet problemer med editorporter, glidere og hastighetsverdiblokker</li>
+<li class="">Rettet hoveddialogen og ulike UI-layoutproblemer</li>
+<li class="">Oppdaterte oversettelser og rettet mindre visuelle inkonsistenser</li>
+</ul>
+<hr>
+<p>Oppdater MOCPilot til nyeste versjon og nyt en jevnere, mer stabil og mer tilgjengelig opplevelse på alle enhetene dine.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Utgivelse MOCPilot 2025.2.0 - 2025.2.4]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/no/blog/2025/12/28/post</id>
@@ -38,7 +81,7 @@
         <category label="Dev" term="Dev"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Official Release – MOCPilot 2025.2.0]]></title>
+        <title type="html"><![CDATA[Utgivelse MOCPilot 2025.2.0]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/no/blog/2025/11/15/post</id>
         <link href="https://OneManStudio-IL.github.io/mocpilot-app/no/blog/2025/11/15/post"/>
         <updated>2025-11-15T00:00:00.000Z</updated>
@@ -64,7 +107,7 @@
         <category label="Dev" term="Dev"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Utgivelse av MOCPilot 2025.1.9]]></title>
+        <title type="html"><![CDATA[Utgivelse MOCPilot 2025.1.9]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/no/blog/2025/06/3/post</id>
         <link href="https://OneManStudio-IL.github.io/mocpilot-app/no/blog/2025/06/3/post"/>
         <updated>2025-06-03T00:00:00.000Z</updated>

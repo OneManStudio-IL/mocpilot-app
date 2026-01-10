@@ -4,10 +4,49 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sun, 28 Dec 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Jan 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>jp</language>
+        <item>
+            <title><![CDATA[MOCPilot 2026.1.0 リリース]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog/2026/01/10/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog/2026/01/10/post</guid>
+            <pubDate>Sat, 10 Jan 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.1.0 — 機能追加 & 安定性アップデート]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202610--機能追加--安定性アップデート">🚀 MOCPilot 2026.1.0 — 機能追加 &amp; 安定性アップデート<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/01/10/post#-mocpilot-202610--%E6%A9%9F%E8%83%BD%E8%BF%BD%E5%8A%A0--%E5%AE%89%E5%AE%9A%E6%80%A7%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88" class="hash-link" aria-label="🚀 MOCPilot 2026.1.0 — 機能追加 &amp; 安定性アップデート への直接リンク" title="🚀 MOCPilot 2026.1.0 — 機能追加 &amp; 安定性アップデート への直接リンク" translate="no">​</a></h2>
+<p><strong>MOCPilot 2026.1.0</strong> をリリースしました。現在 <strong>Android</strong>、<strong>iOS</strong>、<strong>macOS</strong> で利用可能です。</p>
+<p>本リリースでは <strong>ゲストモード</strong> を追加し、モバイルでの使いやすさを改善するとともに、全プラットフォームで重要な安定性・パフォーマンス修正を行いました。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-202610-の新機能">✨ 2026.1.0 の新機能<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/01/10/post#-202610-%E3%81%AE%E6%96%B0%E6%A9%9F%E8%83%BD" class="hash-link" aria-label="✨ 2026.1.0 の新機能 への直接リンク" title="✨ 2026.1.0 の新機能 への直接リンク" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-新機能">🆕 新機能<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/01/10/post#-%E6%96%B0%E6%A9%9F%E8%83%BD" class="hash-link" aria-label="🆕 新機能 への直接リンク" title="🆕 新機能 への直接リンク" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>ゲストモード</strong> — アカウントなしで利用でき、後から作成することも可能</li>
+<li class="">認証画面に言語選択を追加</li>
+<li class="">未対応ファームウェアの Hub は使用をブロックし、明確な警告を表示</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-改善">⚙️ 改善<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/01/10/post#%EF%B8%8F-%E6%94%B9%E5%96%84" class="hash-link" aria-label="⚙️ 改善 への直接リンク" title="⚙️ 改善 への直接リンク" translate="no">​</a></h3>
+<ul>
+<li class="">モバイルでのブロックのドラッグ操作を改善（タッチ処理の向上、誤操作の低減）</li>
+<li class="">モバイルでドラッグ中、ブロックパレットを自動的に非表示</li>
+<li class="">アラートダイアログで背景にブラー効果を適用</li>
+<li class="">全プラットフォームでテキスト入力処理を改善</li>
+<li class="">Hub 制御の遅延を低減し、よりスムーズに</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-修正">🛠 修正<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/01/10/post#-%E4%BF%AE%E6%AD%A3" class="hash-link" aria-label="🛠 修正 への直接リンク" title="🛠 修正 への直接リンク" translate="no">​</a></h3>
+<ul>
+<li class="">ブロックのドラッグ＆ドロップに関する複数の問題を修正（ブロックが固まる、マウス/タッチ入力の喪失など）</li>
+<li class="">カスタム（「My」）ブロックを使用するプログラム停止時のクラッシュを修正</li>
+<li class="">ステアリングラックのキャリブレーションが中央に戻らない問題を修正</li>
+<li class="">Hub 制御のラグおよびモーター反応遅延を修正</li>
+<li class="">エディタのポート、スライダー、速度値ブロックに関する問題を修正</li>
+<li class="">メインダイアログおよび各種 UI レイアウト問題を修正</li>
+<li class="">翻訳を更新し、軽微な表示の不整合を修正</li>
+</ul>
+<hr>
+<p>MOCPilot を最新バージョンに更新して、すべてのデバイスでより快適で安定した体験をお楽しみください。</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[MOCPilot 2025.2.0 - 2025.2.4 リリース]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog/2025/12/28/post</link>
@@ -35,7 +74,7 @@
             <category>Dev</category>
         </item>
         <item>
-            <title><![CDATA[Official Release – MOCPilot 2025.2.0]]></title>
+            <title><![CDATA[MOCPilot 2025.2.0 リリース]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog/2025/11/15/post</link>
             <guid>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog/2025/11/15/post</guid>
             <pubDate>Sat, 15 Nov 2025 00:00:00 GMT</pubDate>

@@ -2,11 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2025-12-28T00:00:00.000Z</updated>
+    <updated>2026-01-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/ro/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/ro/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Lansare MOCPilot 2026.1.0]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/01/10/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/01/10/post"/>
+        <updated>2026-01-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.1.0 — Actualizare de funcții și stabilitate]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202610--actualizare-de-funcții-și-stabilitate">🚀 MOCPilot 2026.1.0 — Actualizare de funcții și stabilitate<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/01/10/post#-mocpilot-202610--actualizare-de-func%C8%9Bii-%C8%99i-stabilitate" class="hash-link" aria-label="Link direct către 🚀 MOCPilot 2026.1.0 — Actualizare de funcții și stabilitate" title="Link direct către 🚀 MOCPilot 2026.1.0 — Actualizare de funcții și stabilitate" translate="no">​</a></h2>
+<p>Suntem bucuroși să anunțăm lansarea <strong>MOCPilot 2026.1.0</strong>, disponibilă acum pe <strong>Android</strong>, <strong>iOS</strong> și <strong>macOS</strong>.</p>
+<p>Această versiune introduce <strong>modul invitat</strong>, îmbunătățește utilizarea pe dispozitive mobile și aduce corecții importante de stabilitate și performanță pe toate platformele suportate.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ce-este-nou-în-202610">✨ Ce este nou în 2026.1.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/01/10/post#-ce-este-nou-%C3%AEn-202610" class="hash-link" aria-label="Link direct către ✨ Ce este nou în 2026.1.0?" title="Link direct către ✨ Ce este nou în 2026.1.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-nou">🆕 Nou<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/01/10/post#-nou" class="hash-link" aria-label="Link direct către 🆕 Nou" title="Link direct către 🆕 Nou" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Mod invitat</strong> — folosește aplicația fără cont, cu opțiunea de a crea unul mai târziu</li>
+<li class="">Selecția limbii a fost adăugată pe ecranul de autentificare</li>
+<li class="">Aplicația blochează acum utilizarea hub-urilor cu firmware nesuportat și afișează un avertisment clar</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-îmbunătățiri">⚙️ Îmbunătățiri<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/01/10/post#%EF%B8%8F-%C3%AEmbun%C4%83t%C4%83%C8%9Biri" class="hash-link" aria-label="Link direct către ⚙️ Îmbunătățiri" title="Link direct către ⚙️ Îmbunătățiri" translate="no">​</a></h3>
+<ul>
+<li class="">Îmbunătățit modul de tragere a blocurilor pe mobil (gestionare mai bună a atingerii, mai puține interacțiuni accidentale)</li>
+<li class="">Paleta de blocuri se ascunde acum automat în timpul tragerii pe mobil</li>
+<li class="">Dialogurile de alertă aplică acum un efect de blur pe fundal</li>
+<li class="">Îmbunătățită gestionarea introducerii textului pe toate platformele</li>
+<li class="">Control mai fluent al hub-ului cu latență redusă</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-remedieri">🛠 Remedieri<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/01/10/post#-remedieri" class="hash-link" aria-label="Link direct către 🛠 Remedieri" title="Link direct către 🛠 Remedieri" translate="no">​</a></h3>
+<ul>
+<li class="">Remediate mai multe probleme de drag &amp; drop, inclusiv blocuri blocate și pierderea inputului mouse/touch</li>
+<li class="">Remediate crash-uri la oprirea programelor care folosesc blocuri personalizate („My”)</li>
+<li class="">Remediat faptul că calibrarea rack-ului de direcție nu revenea la poziția centrală</li>
+<li class="">Remediat lag-ul la controlul hub-ului și răspunsul întârziat al motorului</li>
+<li class="">Remediate probleme cu porturile editorului, glisoare și blocurile de valori pentru viteză</li>
+<li class="">Remediată problema dialogului principal și diverse probleme de layout UI</li>
+<li class="">Traduceri actualizate și remedieri pentru mici inconsistențe vizuale</li>
+</ul>
+<hr>
+<p>Actualizați MOCPilot la cea mai recentă versiune și bucurați-vă de o experiență mai fluidă, stabilă și accesibilă pe toate dispozitivele.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Lansare MOCPilot 2025.2.0 - 2025.2.4]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2025/12/28/post</id>
@@ -38,7 +81,7 @@
         <category label="Dev" term="Dev"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Official Release – MOCPilot 2025.2.0]]></title>
+        <title type="html"><![CDATA[Lansare MOCPilot 2025.2.0]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2025/11/15/post</id>
         <link href="https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2025/11/15/post"/>
         <updated>2025-11-15T00:00:00.000Z</updated>
@@ -63,7 +106,7 @@
         <category label="Dev" term="Dev"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Lansering av MOCPilot 2025.1.9]]></title>
+        <title type="html"><![CDATA[Lansare MOCPilot 2025.1.9]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2025/06/3/post</id>
         <link href="https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2025/06/3/post"/>
         <updated>2025-06-03T00:00:00.000Z</updated>

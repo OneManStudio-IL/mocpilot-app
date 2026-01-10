@@ -2,11 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2025-12-28T00:00:00.000Z</updated>
+    <updated>2026-01-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/fi/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/fi/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Julkaisu MOCPilot 2026.1.0]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/01/10/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/01/10/post"/>
+        <updated>2026-01-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.1.0 — Ominaisuuksia ja vakautta parantava päivitys]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202610--ominaisuuksia-ja-vakautta-parantava-päivitys">🚀 MOCPilot 2026.1.0 — Ominaisuuksia ja vakautta parantava päivitys<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/01/10/post#-mocpilot-202610--ominaisuuksia-ja-vakautta-parantava-p%C3%A4ivitys" class="hash-link" aria-label="Suora linkki kohtaan 🚀 MOCPilot 2026.1.0 — Ominaisuuksia ja vakautta parantava päivitys" title="Suora linkki kohtaan 🚀 MOCPilot 2026.1.0 — Ominaisuuksia ja vakautta parantava päivitys" translate="no">​</a></h2>
+<p>Olemme iloisia voidessamme julkaista <strong>MOCPilot 2026.1.0</strong> -version, joka on nyt saatavilla <strong>Androidille</strong>, <strong>iOS<!-- -->:lle</strong> ja <strong>macOS<!-- -->:lle</strong>.</p>
+<p>Tämä julkaisu tuo <strong>vierastilan</strong>, parantaa käytettävyyttä mobiililaitteilla sekä sisältää tärkeitä vakaus- ja suorituskykykorjauksia kaikille alustoille.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mitä-uutta-versiossa-202610">✨ Mitä uutta versiossa 2026.1.0?<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/01/10/post#-mit%C3%A4-uutta-versiossa-202610" class="hash-link" aria-label="Suora linkki kohtaan ✨ Mitä uutta versiossa 2026.1.0?" title="Suora linkki kohtaan ✨ Mitä uutta versiossa 2026.1.0?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-uutta">🆕 Uutta<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/01/10/post#-uutta" class="hash-link" aria-label="Suora linkki kohtaan 🆕 Uutta" title="Suora linkki kohtaan 🆕 Uutta" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Vierastila</strong> — käytä sovellusta ilman tiliä, ja luo tili myöhemmin halutessasi</li>
+<li class="">Kielivalinta lisätty kirjautumis-/todennusnäyttöön</li>
+<li class="">Sovellus estää nyt sellaisten hubien käytön, joiden laiteohjelmisto ei ole tuettu, ja näyttää selkeän varoituksen</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-parannukset">⚙️ Parannukset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/01/10/post#%EF%B8%8F-parannukset" class="hash-link" aria-label="Suora linkki kohtaan ⚙️ Parannukset" title="Suora linkki kohtaan ⚙️ Parannukset" translate="no">​</a></h3>
+<ul>
+<li class="">Parannettu lohkojen raahausta mobiililaitteilla (parempi kosketuskäsittely, vähemmän vahinkokosketuksia)</li>
+<li class="">Lohkopaletti piilotetaan nyt automaattisesti raahauksen aikana mobiilissa</li>
+<li class="">Hälytys-/ilmoitusdialogit sumentavat nyt taustan</li>
+<li class="">Parannettu tekstinsyötön käsittely kaikilla alustoilla</li>
+<li class="">Sulavampi hubin ohjaus pienemmällä viiveellä</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-korjaukset">🛠 Korjaukset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/01/10/post#-korjaukset" class="hash-link" aria-label="Suora linkki kohtaan 🛠 Korjaukset" title="Suora linkki kohtaan 🛠 Korjaukset" translate="no">​</a></h3>
+<ul>
+<li class="">Korjattu useita raahaus- ja pudotusongelmia, mukaan lukien jumiutuneet lohkot ja kadonnut hiiri-/kosketussyöte</li>
+<li class="">Korjattu kaatumisia ohjelmia pysäytettäessä, kun käytössä on omia (“My”) lohkoja</li>
+<li class="">Korjattu ohjaustangon (steering rack) kalibrointi, joka ei palannut keskiasentoon</li>
+<li class="">Korjattu hubin ohjauksen viive ja moottorin myöhäinen reagointi</li>
+<li class="">Korjattu ongelmia editorin porteissa, liukusäätimissä ja nopeusarvoblokeissa</li>
+<li class="">Korjattu päädialogiin liittyvä ongelma ja useita UI-asetteluvirheitä</li>
+<li class="">Päivitetyt käännökset ja korjatut pienet visuaaliset epäjohdonmukaisuudet</li>
+</ul>
+<hr>
+<p>Päivitä MOCPilot uusimpaan versioon ja nauti sujuvammasta, vakaammasta ja helpommin käytettävästä kokemuksesta kaikilla laitteillasi.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Julkaisu MOCPilot 2025.2.0 - 2025.2.4]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2025/12/28/post</id>
@@ -38,7 +81,7 @@
         <category label="Dev" term="Dev"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Official Release – MOCPilot 2025.2.0]]></title>
+        <title type="html"><![CDATA[Julkaisu MOCPilot 2025.2.0]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2025/11/15/post</id>
         <link href="https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2025/11/15/post"/>
         <updated>2025-11-15T00:00:00.000Z</updated>
@@ -159,7 +202,7 @@
         <category label="Test" term="Test"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Release MOCPilot 2025.1.1]]></title>
+        <title type="html"><![CDATA[Julkaisu MOCPilot 2025.1.1]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2025/04/14/post</id>
         <link href="https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2025/04/14/post"/>
         <updated>2025-04-14T00:00:00.000Z</updated>
