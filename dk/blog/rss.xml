@@ -4,10 +4,62 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 10 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>dk</language>
+        <item>
+            <title><![CDATA[Udgivelse MOCPilot 2026.2.2]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog/2026/02/18/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog/2026/02/18/post</guid>
+            <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.2.2 — Udvidet hub- og kontrolopdatering]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202622--udvidet-hub--og-kontrolopdatering">🚀 MOCPilot 2026.2.2 — Udvidet hub- og kontrolopdatering<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/02/18/post#-mocpilot-202622--udvidet-hub--og-kontrolopdatering" class="hash-link" aria-label="Direkte link til 🚀 MOCPilot 2026.2.2 — Udvidet hub- og kontrolopdatering" title="Direkte link til 🚀 MOCPilot 2026.2.2 — Udvidet hub- og kontrolopdatering" translate="no">​</a></h2>
+<p>Vi er glade for at kunne annoncere udgivelsen af <strong>MOCPilot 2026.2.2</strong>, nu tilgængelig på <strong>Android</strong>, <strong>iOS</strong> og <strong>macOS</strong>.</p>
+<p>Denne version udvider hardwarekompatibiliteten markant og introducerer kraftfulde nye programmeringsblokke til avanceret hub-interaktion.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hvad-er-nyt-i-202622">✨ Hvad er nyt i 2026.2.2?<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/02/18/post#-hvad-er-nyt-i-202622" class="hash-link" aria-label="Direkte link til ✨ Hvad er nyt i 2026.2.2?" title="Direkte link til ✨ Hvad er nyt i 2026.2.2?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ny-hub-understøttelse">🆕 Ny hub-understøttelse<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/02/18/post#-ny-hub-underst%C3%B8ttelse" class="hash-link" aria-label="Direkte link til 🆕 Ny hub-understøttelse" title="Direkte link til 🆕 Ny hub-understøttelse" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Mould King 4.0 hubs</strong> er nu fuldt understøttet</li>
+<li class=""><strong>Mould King 6.0 hubs</strong> er nu fuldt understøttet</li>
+<li class=""><strong>LEGO WeDo 2.0 hub</strong> er nu fuldt understøttet</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-sensorunderstøttelse">🔌 Sensorunderstøttelse<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/02/18/post#-sensorunderst%C3%B8ttelse" class="hash-link" aria-label="Direkte link til 🔌 Sensorunderstøttelse" title="Direkte link til 🔌 Sensorunderstøttelse" translate="no">​</a></h3>
+<ul>
+<li class="">WeDo 2.0 hældningssensor</li>
+<li class="">WeDo 2.0 bevægelsessensor</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-nye-programmeringsblokke">🧱 Nye programmeringsblokke<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/02/18/post#-nye-programmeringsblokke" class="hash-link" aria-label="Direkte link til 🧱 Nye programmeringsblokke" title="Direkte link til 🧱 Nye programmeringsblokke" translate="no">​</a></h3>
+<p>Denne version introducerer nye hændelses- og kontrolblokke, der udvider mulighederne for realtidsinteraktion med hubs.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hub-sensor-hændelsesblokke">🔄 Hub-sensor hændelsesblokke<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/02/18/post#-hub-sensor-h%C3%A6ndelsesblokke" class="hash-link" aria-label="Direkte link til 🔄 Hub-sensor hændelsesblokke" title="Direkte link til 🔄 Hub-sensor hændelsesblokke" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Hub accelerometerdata ændret</strong></li>
+<li class=""><strong>Hub hældning ændret</strong></li>
+<li class=""><strong>Hub orientering ændret</strong></li>
+<li class=""><strong>Alle hubs batteriniveau ændret</strong></li>
+</ul>
+<p>Disse blokke gør det muligt for dit program straks at reagere på bevægelse, rotation og ændringer i strøm.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hub-forbindelseskontrolblokke">🔌 Hub-forbindelseskontrolblokke<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/02/18/post#-hub-forbindelseskontrolblokke" class="hash-link" aria-label="Direkte link til 🔌 Hub-forbindelseskontrolblokke" title="Direkte link til 🔌 Hub-forbindelseskontrolblokke" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Forbind hub</strong></li>
+<li class=""><strong>Afbryd hub</strong></li>
+</ul>
+<p>Du kan nu administrere hub-forbindelser direkte under programkørsel.<br>
+<!-- -->Dette gør det muligt at genoprette forbindelsen til en hub uden at genstarte programmet, hvis forbindelsen mistes, hvilket gør projekter mere robuste og fleksible.</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-forbedringer">⚙️ Forbedringer<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/02/18/post#%EF%B8%8F-forbedringer" class="hash-link" aria-label="Direkte link til ⚙️ Forbedringer" title="Direkte link til ⚙️ Forbedringer" translate="no">​</a></h3>
+<ul>
+<li class="">Forbedret samlet systemstabilitet</li>
+<li class="">Ydelsesoptimeringer for mere jævn hub-interaktion</li>
+<li class="">Mindre UI- og layoutforbedringer</li>
+</ul>
+<hr>
+<p>Opdater MOCPilot til den nyeste version og begynd at bygge med udvidet hub-kompatibilitet og kraftfulde realtidskontrolfunktioner på alle dine enheder.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Udgivelse MOCPilot 2026.1.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog/2026/01/10/post</link>

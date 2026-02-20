@@ -2,11 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-01-10T00:00:00.000Z</updated>
+    <updated>2026-02-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/cn/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/cn/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[发布 MOCPilot 2026.2.2]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/2026/02/18/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/2026/02/18/post"/>
+        <updated>2026-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.2.2 — 扩展集线器与控制更新]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202622--扩展集线器与控制更新">🚀 MOCPilot 2026.2.2 — 扩展集线器与控制更新<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/02/18/post#-mocpilot-202622--%E6%89%A9%E5%B1%95%E9%9B%86%E7%BA%BF%E5%99%A8%E4%B8%8E%E6%8E%A7%E5%88%B6%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="直接链接到 🚀 MOCPilot 2026.2.2 — 扩展集线器与控制更新" title="直接链接到 🚀 MOCPilot 2026.2.2 — 扩展集线器与控制更新" translate="no">​</a></h2>
+<p>我们很高兴宣布 <strong>MOCPilot 2026.2.2</strong> 正式发布，现已在 <strong>Android</strong>、<strong>iOS</strong> 和 <strong>macOS</strong> 平台上线。</p>
+<p>本次发布显著扩展了硬件兼容性，并引入了强大的新编程模块，用于高级集线器交互。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-202622-有哪些新内容">✨ 2026.2.2 有哪些新内容？<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/02/18/post#-202622-%E6%9C%89%E5%93%AA%E4%BA%9B%E6%96%B0%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 ✨ 2026.2.2 有哪些新内容？" title="直接链接到 ✨ 2026.2.2 有哪些新内容？" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-新增集线器支持">🆕 新增集线器支持<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/02/18/post#-%E6%96%B0%E5%A2%9E%E9%9B%86%E7%BA%BF%E5%99%A8%E6%94%AF%E6%8C%81" class="hash-link" aria-label="直接链接到 🆕 新增集线器支持" title="直接链接到 🆕 新增集线器支持" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Mould King 4.0 集线器</strong> 现已全面支持</li>
+<li class=""><strong>Mould King 6.0 集线器</strong> 现已全面支持</li>
+<li class=""><strong>LEGO WeDo 2.0 集线器</strong> 现已全面支持</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-传感器支持">🔌 传感器支持<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/02/18/post#-%E4%BC%A0%E6%84%9F%E5%99%A8%E6%94%AF%E6%8C%81" class="hash-link" aria-label="直接链接到 🔌 传感器支持" title="直接链接到 🔌 传感器支持" translate="no">​</a></h3>
+<ul>
+<li class="">WeDo 2.0 倾斜传感器</li>
+<li class="">WeDo 2.0 运动传感器</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-新编程模块">🧱 新编程模块<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/02/18/post#-%E6%96%B0%E7%BC%96%E7%A8%8B%E6%A8%A1%E5%9D%97" class="hash-link" aria-label="直接链接到 🧱 新编程模块" title="直接链接到 🧱 新编程模块" translate="no">​</a></h3>
+<p>本次发布引入了新的事件和控制模块，扩展了实时集线器交互能力。</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-集线器传感器事件模块">🔄 集线器传感器事件模块<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/02/18/post#-%E9%9B%86%E7%BA%BF%E5%99%A8%E4%BC%A0%E6%84%9F%E5%99%A8%E4%BA%8B%E4%BB%B6%E6%A8%A1%E5%9D%97" class="hash-link" aria-label="直接链接到 🔄 集线器传感器事件模块" title="直接链接到 🔄 集线器传感器事件模块" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>集线器加速度计数据变更</strong></li>
+<li class=""><strong>集线器倾斜变化</strong></li>
+<li class=""><strong>集线器方向变化</strong></li>
+<li class=""><strong>所有集线器电池电量变化</strong></li>
+</ul>
+<p>这些模块可让程序即时响应运动、旋转和电量变化。</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-集线器连接控制模块">🔌 集线器连接控制模块<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/02/18/post#-%E9%9B%86%E7%BA%BF%E5%99%A8%E8%BF%9E%E6%8E%A5%E6%8E%A7%E5%88%B6%E6%A8%A1%E5%9D%97" class="hash-link" aria-label="直接链接到 🔌 集线器连接控制模块" title="直接链接到 🔌 集线器连接控制模块" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>连接集线器</strong></li>
+<li class=""><strong>断开集线器</strong></li>
+</ul>
+<p>现在您可以在程序运行期间直接管理集线器连接。<br>
+<!-- -->这使得在连接丢失时无需重新启动程序即可重新连接集线器，使项目更加稳定和灵活。</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-改进">⚙️ 改进<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/02/18/post#%EF%B8%8F-%E6%94%B9%E8%BF%9B" class="hash-link" aria-label="直接链接到 ⚙️ 改进" title="直接链接到 ⚙️ 改进" translate="no">​</a></h3>
+<ul>
+<li class="">提升整体系统稳定性</li>
+<li class="">性能优化，实现更流畅的集线器交互</li>
+<li class="">细微的界面与布局优化</li>
+</ul>
+<hr>
+<p>更新至最新版本的 MOCPilot，在所有设备上构建更强大的实时控制项目。</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[发布 MOCPilot 2026.1.0]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/2026/01/10/post</id>

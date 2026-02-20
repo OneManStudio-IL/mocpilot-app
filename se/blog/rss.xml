@@ -4,10 +4,62 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/se/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 10 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>se</language>
+        <item>
+            <title><![CDATA[Lansering MOCPilot 2026.2.2]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/se/blog/2026/02/18/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/se/blog/2026/02/18/post</guid>
+            <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.2.2 — Utökad hubb- och kontrolluppdatering]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202622--utökad-hubb--och-kontrolluppdatering">🚀 MOCPilot 2026.2.2 — Utökad hubb- och kontrolluppdatering<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/2026/02/18/post#-mocpilot-202622--ut%C3%B6kad-hubb--och-kontrolluppdatering" class="hash-link" aria-label="Direktlänk till 🚀 MOCPilot 2026.2.2 — Utökad hubb- och kontrolluppdatering" title="Direktlänk till 🚀 MOCPilot 2026.2.2 — Utökad hubb- och kontrolluppdatering" translate="no">​</a></h2>
+<p>Vi är glada att kunna meddela lanseringen av <strong>MOCPilot 2026.2.2</strong>, nu tillgänglig på <strong>Android</strong>, <strong>iOS</strong> och <strong>macOS</strong>.</p>
+<p>Denna version utökar hårdvarukompatibiliteten avsevärt och introducerar kraftfulla nya programmeringsblock för avancerad hubbinteraktion.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-vad-är-nytt-i-202622">✨ Vad är nytt i 2026.2.2?<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/2026/02/18/post#-vad-%C3%A4r-nytt-i-202622" class="hash-link" aria-label="Direktlänk till ✨ Vad är nytt i 2026.2.2?" title="Direktlänk till ✨ Vad är nytt i 2026.2.2?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ny-hubb-support">🆕 Ny hubb-support<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/2026/02/18/post#-ny-hubb-support" class="hash-link" aria-label="Direktlänk till 🆕 Ny hubb-support" title="Direktlänk till 🆕 Ny hubb-support" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Mould King 4.0-hubbar</strong> stöds nu fullt ut</li>
+<li class=""><strong>Mould King 6.0-hubbar</strong> stöds nu fullt ut</li>
+<li class=""><strong>LEGO WeDo 2.0-hubb</strong> stöds nu fullt ut</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-sensorsupport">🔌 Sensorsupport<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/2026/02/18/post#-sensorsupport" class="hash-link" aria-label="Direktlänk till 🔌 Sensorsupport" title="Direktlänk till 🔌 Sensorsupport" translate="no">​</a></h3>
+<ul>
+<li class="">WeDo 2.0 lutningssensor</li>
+<li class="">WeDo 2.0 rörelsesensor</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-nya-programmeringsblock">🧱 Nya programmeringsblock<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/2026/02/18/post#-nya-programmeringsblock" class="hash-link" aria-label="Direktlänk till 🧱 Nya programmeringsblock" title="Direktlänk till 🧱 Nya programmeringsblock" translate="no">​</a></h3>
+<p>Denna version introducerar nya händelse- och kontrollblock som utökar möjligheterna för realtidsinteraktion med hubbar.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hubb-sensor-händelseblock">🔄 Hubb-sensor händelseblock<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/2026/02/18/post#-hubb-sensor-h%C3%A4ndelseblock" class="hash-link" aria-label="Direktlänk till 🔄 Hubb-sensor händelseblock" title="Direktlänk till 🔄 Hubb-sensor händelseblock" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Hubbens accelerometerdata ändrades</strong></li>
+<li class=""><strong>Hubbens lutning ändrades</strong></li>
+<li class=""><strong>Hubbens orientering ändrades</strong></li>
+<li class=""><strong>Alla hubbars batterinivå ändrades</strong></li>
+</ul>
+<p>Dessa block gör det möjligt för ditt program att omedelbart reagera på rörelse, rotation och förändringar i strömförsörjningen.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hubb-anslutningskontrollblock">🔌 Hubb-anslutningskontrollblock<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/2026/02/18/post#-hubb-anslutningskontrollblock" class="hash-link" aria-label="Direktlänk till 🔌 Hubb-anslutningskontrollblock" title="Direktlänk till 🔌 Hubb-anslutningskontrollblock" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Anslut hubb</strong></li>
+<li class=""><strong>Koppla från hubb</strong></li>
+</ul>
+<p>Du kan nu hantera hubbanslutningar direkt under programmets körning.<br>
+<!-- -->Detta gör det möjligt att återansluta en hubb utan att starta om programmet om anslutningen förloras, vilket gör projekten mer robusta och flexibla.</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-förbättringar">⚙️ Förbättringar<a href="https://onemanstudio-il.github.io/mocpilot-app/se/blog/2026/02/18/post#%EF%B8%8F-f%C3%B6rb%C3%A4ttringar" class="hash-link" aria-label="Direktlänk till ⚙️ Förbättringar" title="Direktlänk till ⚙️ Förbättringar" translate="no">​</a></h3>
+<ul>
+<li class="">Förbättrad övergripande systemstabilitet</li>
+<li class="">Prestandaoptimeringar för smidigare hubbinteraktion</li>
+<li class="">Mindre förbättringar av UI och layout</li>
+</ul>
+<hr>
+<p>Uppdatera MOCPilot till den senaste versionen och börja bygga med utökad hubbkompatibilitet och kraftfulla realtidskontrollfunktioner på alla dina enheter.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Lansering MOCPilot 2026.1.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/se/blog/2026/01/10/post</link>

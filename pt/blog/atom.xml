@@ -2,11 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/pt/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-01-10T00:00:00.000Z</updated>
+    <updated>2026-02-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/pt/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/pt/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Lançamento MOCPilot 2026.2.2]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/pt/blog/2026/02/18/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/pt/blog/2026/02/18/post"/>
+        <updated>2026-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.2.2 — Atualização expandida de hubs e controlo]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202622--atualização-expandida-de-hubs-e-controlo">🚀 MOCPilot 2026.2.2 — Atualização expandida de hubs e controlo<a href="https://onemanstudio-il.github.io/mocpilot-app/pt/blog/2026/02/18/post#-mocpilot-202622--atualiza%C3%A7%C3%A3o-expandida-de-hubs-e-controlo" class="hash-link" aria-label="Link direto para 🚀 MOCPilot 2026.2.2 — Atualização expandida de hubs e controlo" title="Link direto para 🚀 MOCPilot 2026.2.2 — Atualização expandida de hubs e controlo" translate="no">​</a></h2>
+<p>Temos o prazer de anunciar o lançamento do <strong>MOCPilot 2026.2.2</strong>, agora disponível em <strong>Android</strong>, <strong>iOS</strong> e <strong>macOS</strong>.</p>
+<p>Esta versão amplia significativamente a compatibilidade de hardware e introduz novos e poderosos blocos de programação para interação avançada com hubs.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-o-que-há-de-novo-na-versão-202622">✨ O que há de novo na versão 2026.2.2?<a href="https://onemanstudio-il.github.io/mocpilot-app/pt/blog/2026/02/18/post#-o-que-h%C3%A1-de-novo-na-vers%C3%A3o-202622" class="hash-link" aria-label="Link direto para ✨ O que há de novo na versão 2026.2.2?" title="Link direto para ✨ O que há de novo na versão 2026.2.2?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-novo-suporte-a-hubs">🆕 Novo suporte a hubs<a href="https://onemanstudio-il.github.io/mocpilot-app/pt/blog/2026/02/18/post#-novo-suporte-a-hubs" class="hash-link" aria-label="Link direto para 🆕 Novo suporte a hubs" title="Link direto para 🆕 Novo suporte a hubs" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Hubs Mould King 4.0</strong> agora totalmente suportados</li>
+<li class=""><strong>Hubs Mould King 6.0</strong> agora totalmente suportados</li>
+<li class=""><strong>Hub LEGO WeDo 2.0</strong> agora totalmente suportado</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-suporte-a-sensores">🔌 Suporte a sensores<a href="https://onemanstudio-il.github.io/mocpilot-app/pt/blog/2026/02/18/post#-suporte-a-sensores" class="hash-link" aria-label="Link direto para 🔌 Suporte a sensores" title="Link direto para 🔌 Suporte a sensores" translate="no">​</a></h3>
+<ul>
+<li class="">Sensor de inclinação WeDo 2.0</li>
+<li class="">Sensor de movimento WeDo 2.0</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-novos-blocos-de-programação">🧱 Novos blocos de programação<a href="https://onemanstudio-il.github.io/mocpilot-app/pt/blog/2026/02/18/post#-novos-blocos-de-programa%C3%A7%C3%A3o" class="hash-link" aria-label="Link direto para 🧱 Novos blocos de programação" title="Link direto para 🧱 Novos blocos de programação" translate="no">​</a></h3>
+<p>Esta versão introduz novos blocos de evento e controlo que expandem as capacidades de interação em tempo real com os hubs.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-blocos-de-evento-dos-sensores-do-hub">🔄 Blocos de evento dos sensores do hub<a href="https://onemanstudio-il.github.io/mocpilot-app/pt/blog/2026/02/18/post#-blocos-de-evento-dos-sensores-do-hub" class="hash-link" aria-label="Link direto para 🔄 Blocos de evento dos sensores do hub" title="Link direto para 🔄 Blocos de evento dos sensores do hub" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Dados do acelerómetro do hub alterados</strong></li>
+<li class=""><strong>Inclinação do hub alterada</strong></li>
+<li class=""><strong>Orientação do hub alterada</strong></li>
+<li class=""><strong>Nível de bateria de todos os hubs alterado</strong></li>
+</ul>
+<p>Estes blocos permitem que o seu programa reaja instantaneamente a movimentos, rotações e alterações de energia.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-blocos-de-controlo-de-ligação-do-hub">🔌 Blocos de controlo de ligação do hub<a href="https://onemanstudio-il.github.io/mocpilot-app/pt/blog/2026/02/18/post#-blocos-de-controlo-de-liga%C3%A7%C3%A3o-do-hub" class="hash-link" aria-label="Link direto para 🔌 Blocos de controlo de ligação do hub" title="Link direto para 🔌 Blocos de controlo de ligação do hub" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Ligar hub</strong></li>
+<li class=""><strong>Desligar hub</strong></li>
+</ul>
+<p>Agora pode gerir as ligações dos hubs diretamente durante a execução do programa.<br>
+<!-- -->Isto permite reconectar um hub sem reiniciar o programa caso a ligação seja perdida, tornando os projetos mais resilientes e flexíveis.</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-melhorias">⚙️ Melhorias<a href="https://onemanstudio-il.github.io/mocpilot-app/pt/blog/2026/02/18/post#%EF%B8%8F-melhorias" class="hash-link" aria-label="Link direto para ⚙️ Melhorias" title="Link direto para ⚙️ Melhorias" translate="no">​</a></h3>
+<ul>
+<li class="">Melhorada a estabilidade geral do sistema</li>
+<li class="">Otimizações de desempenho para uma interação mais fluida com os hubs</li>
+<li class="">Pequenas melhorias na interface e no layout</li>
+</ul>
+<hr>
+<p>Atualize o MOCPilot para a versão mais recente e comece a criar com compatibilidade expandida de hubs e poderosas capacidades de controlo em tempo real em todos os seus dispositivos.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Lançamento MOCPilot 2026.1.0]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/pt/blog/2026/01/10/post</id>

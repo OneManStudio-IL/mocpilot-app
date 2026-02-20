@@ -2,11 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-01-10T00:00:00.000Z</updated>
+    <updated>2026-02-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/ro/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/ro/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Lansare MOCPilot 2026.2.2]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/02/18/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/02/18/post"/>
+        <updated>2026-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.2.2 — Actualizare extinsă pentru huburi și control]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202622--actualizare-extinsă-pentru-huburi-și-control">🚀 MOCPilot 2026.2.2 — Actualizare extinsă pentru huburi și control<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/02/18/post#-mocpilot-202622--actualizare-extins%C4%83-pentru-huburi-%C8%99i-control" class="hash-link" aria-label="Link direct către 🚀 MOCPilot 2026.2.2 — Actualizare extinsă pentru huburi și control" title="Link direct către 🚀 MOCPilot 2026.2.2 — Actualizare extinsă pentru huburi și control" translate="no">​</a></h2>
+<p>Suntem bucuroși să anunțăm lansarea <strong>MOCPilot 2026.2.2</strong>, acum disponibil pe <strong>Android</strong>, <strong>iOS</strong> și <strong>macOS</strong>.</p>
+<p>Această versiune extinde semnificativ compatibilitatea hardware și introduce blocuri noi și puternice de programare pentru interacțiuni avansate cu huburile.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ce-este-nou-în-202622">✨ Ce este nou în 2026.2.2?<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/02/18/post#-ce-este-nou-%C3%AEn-202622" class="hash-link" aria-label="Link direct către ✨ Ce este nou în 2026.2.2?" title="Link direct către ✨ Ce este nou în 2026.2.2?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-suport-nou-pentru-huburi">🆕 Suport nou pentru huburi<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/02/18/post#-suport-nou-pentru-huburi" class="hash-link" aria-label="Link direct către 🆕 Suport nou pentru huburi" title="Link direct către 🆕 Suport nou pentru huburi" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Huburile Mould King 4.0</strong> sunt acum complet suportate</li>
+<li class=""><strong>Huburile Mould King 6.0</strong> sunt acum complet suportate</li>
+<li class=""><strong>Hubul LEGO WeDo 2.0</strong> este acum complet suportat</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-suport-pentru-senzori">🔌 Suport pentru senzori<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/02/18/post#-suport-pentru-senzori" class="hash-link" aria-label="Link direct către 🔌 Suport pentru senzori" title="Link direct către 🔌 Suport pentru senzori" translate="no">​</a></h3>
+<ul>
+<li class="">Senzor de înclinare WeDo 2.0</li>
+<li class="">Senzor de mișcare WeDo 2.0</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-blocuri-noi-de-programare">🧱 Blocuri noi de programare<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/02/18/post#-blocuri-noi-de-programare" class="hash-link" aria-label="Link direct către 🧱 Blocuri noi de programare" title="Link direct către 🧱 Blocuri noi de programare" translate="no">​</a></h3>
+<p>Această versiune introduce noi blocuri de evenimente și control care extind capacitățile de interacțiune în timp real cu huburile.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-blocuri-de-evenimente-pentru-senzori-ai-hubului">🔄 Blocuri de evenimente pentru senzori ai hubului<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/02/18/post#-blocuri-de-evenimente-pentru-senzori-ai-hubului" class="hash-link" aria-label="Link direct către 🔄 Blocuri de evenimente pentru senzori ai hubului" title="Link direct către 🔄 Blocuri de evenimente pentru senzori ai hubului" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Datele accelerometrului hubului au fost modificate</strong></li>
+<li class=""><strong>Înclinarea hubului a fost modificată</strong></li>
+<li class=""><strong>Orientarea hubului a fost modificată</strong></li>
+<li class=""><strong>Nivelul bateriei tuturor huburilor a fost modificat</strong></li>
+</ul>
+<p>Aceste blocuri permit programului să reacționeze instantaneu la mișcare, rotație și schimbări de alimentare.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-blocuri-de-control-al-conexiunii-hubului">🔌 Blocuri de control al conexiunii hubului<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/02/18/post#-blocuri-de-control-al-conexiunii-hubului" class="hash-link" aria-label="Link direct către 🔌 Blocuri de control al conexiunii hubului" title="Link direct către 🔌 Blocuri de control al conexiunii hubului" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Conectează hubul</strong></li>
+<li class=""><strong>Deconectează hubul</strong></li>
+</ul>
+<p>Acum puteți gestiona conexiunile huburilor direct în timpul execuției programului.<br>
+<!-- -->Acest lucru permite reconectarea unui hub fără a reporni programul în cazul pierderii conexiunii, făcând proiectele mai rezistente și mai flexibile.</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-îmbunătățiri">⚙️ Îmbunătățiri<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/02/18/post#%EF%B8%8F-%C3%AEmbun%C4%83t%C4%83%C8%9Biri" class="hash-link" aria-label="Link direct către ⚙️ Îmbunătățiri" title="Link direct către ⚙️ Îmbunătățiri" translate="no">​</a></h3>
+<ul>
+<li class="">Stabilitate generală a sistemului îmbunătățită</li>
+<li class="">Optimizări de performanță pentru o interacțiune mai fluidă cu huburile</li>
+<li class="">Ajustări minore ale interfeței și îmbunătățiri ale layoutului</li>
+</ul>
+<hr>
+<p>Actualizați MOCPilot la cea mai recentă versiune și începeți să construiți cu compatibilitate extinsă pentru huburi și capabilități puternice de control în timp real pe toate dispozitivele dvs.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Lansare MOCPilot 2026.1.0]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/01/10/post</id>

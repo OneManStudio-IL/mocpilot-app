@@ -4,10 +4,62 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 10 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fi</language>
+        <item>
+            <title><![CDATA[Julkaisu MOCPilot 2026.2.2]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/02/18/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/02/18/post</guid>
+            <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.2.2 — Laajennettu hubi- ja ohjauspäivitys]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202622--laajennettu-hubi--ja-ohjauspäivitys">🚀 MOCPilot 2026.2.2 — Laajennettu hubi- ja ohjauspäivitys<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/02/18/post#-mocpilot-202622--laajennettu-hubi--ja-ohjausp%C3%A4ivitys" class="hash-link" aria-label="Suora linkki kohtaan 🚀 MOCPilot 2026.2.2 — Laajennettu hubi- ja ohjauspäivitys" title="Suora linkki kohtaan 🚀 MOCPilot 2026.2.2 — Laajennettu hubi- ja ohjauspäivitys" translate="no">​</a></h2>
+<p>Meillä on ilo ilmoittaa <strong>MOCPilot 2026.2.2</strong> -julkaisusta, joka on nyt saatavilla <strong>Androidille</strong>, <strong>iOS<!-- -->:lle</strong> ja <strong>macOS<!-- -->:lle</strong>.</p>
+<p>Tämä versio laajentaa merkittävästi laitteistoyhteensopivuutta ja tuo mukanaan tehokkaita uusia ohjelmointilohkoja edistyneeseen hubien vuorovaikutukseen.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mitä-uutta-versiossa-202622">✨ Mitä uutta versiossa 2026.2.2?<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/02/18/post#-mit%C3%A4-uutta-versiossa-202622" class="hash-link" aria-label="Suora linkki kohtaan ✨ Mitä uutta versiossa 2026.2.2?" title="Suora linkki kohtaan ✨ Mitä uutta versiossa 2026.2.2?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-uusi-hubituki">🆕 Uusi hubituki<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/02/18/post#-uusi-hubituki" class="hash-link" aria-label="Suora linkki kohtaan 🆕 Uusi hubituki" title="Suora linkki kohtaan 🆕 Uusi hubituki" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Mould King 4.0 -hubit</strong> ovat nyt täysin tuettuja</li>
+<li class=""><strong>Mould King 6.0 -hubit</strong> ovat nyt täysin tuettuja</li>
+<li class=""><strong>LEGO WeDo 2.0 -hubi</strong> on nyt täysin tuettu</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-sensorituki">🔌 Sensorituki<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/02/18/post#-sensorituki" class="hash-link" aria-label="Suora linkki kohtaan 🔌 Sensorituki" title="Suora linkki kohtaan 🔌 Sensorituki" translate="no">​</a></h3>
+<ul>
+<li class="">WeDo 2.0 -kallistusanturi</li>
+<li class="">WeDo 2.0 -liikeanturi</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-uudet-ohjelmointilohkot">🧱 Uudet ohjelmointilohkot<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/02/18/post#-uudet-ohjelmointilohkot" class="hash-link" aria-label="Suora linkki kohtaan 🧱 Uudet ohjelmointilohkot" title="Suora linkki kohtaan 🧱 Uudet ohjelmointilohkot" translate="no">​</a></h3>
+<p>Tämä julkaisu tuo mukanaan uusia tapahtuma- ja ohjauslohkoja, jotka laajentavat reaaliaikaista hubien vuorovaikutusta.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hubin-sensoritapahtumalohkot">🔄 Hubin sensoritapahtumalohkot<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/02/18/post#-hubin-sensoritapahtumalohkot" class="hash-link" aria-label="Suora linkki kohtaan 🔄 Hubin sensoritapahtumalohkot" title="Suora linkki kohtaan 🔄 Hubin sensoritapahtumalohkot" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Hubin kiihtyvyysanturidata muuttui</strong></li>
+<li class=""><strong>Hubin kallistus muuttui</strong></li>
+<li class=""><strong>Hubin suunta muuttui</strong></li>
+<li class=""><strong>Kaikkien hubien akun varaustaso muuttui</strong></li>
+</ul>
+<p>Nämä lohkot mahdollistavat ohjelman välittömän reagoinnin liikkeeseen, pyörimiseen ja virran muutoksiin.</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hubin-yhteydenhallintalohkot">🔌 Hubin yhteydenhallintalohkot<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/02/18/post#-hubin-yhteydenhallintalohkot" class="hash-link" aria-label="Suora linkki kohtaan 🔌 Hubin yhteydenhallintalohkot" title="Suora linkki kohtaan 🔌 Hubin yhteydenhallintalohkot" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>Yhdistä hubi</strong></li>
+<li class=""><strong>Katkaise hubi</strong></li>
+</ul>
+<p>Voit nyt hallita hubien yhteyksiä suoraan ohjelman suorituksen aikana.<br>
+<!-- -->Tämä mahdollistaa hubin uudelleenyhdistämisen ilman ohjelman uudelleenkäynnistystä yhteyden katketessa, mikä tekee projekteista kestävämpiä ja joustavampia.</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-parannukset">⚙️ Parannukset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/02/18/post#%EF%B8%8F-parannukset" class="hash-link" aria-label="Suora linkki kohtaan ⚙️ Parannukset" title="Suora linkki kohtaan ⚙️ Parannukset" translate="no">​</a></h3>
+<ul>
+<li class="">Parannettu yleinen järjestelmän vakaus</li>
+<li class="">Suorituskykyoptimointeja sujuvampaan hubivuorovaikutukseen</li>
+<li class="">Pieniä käyttöliittymä- ja asettelupäivityksiä</li>
+</ul>
+<hr>
+<p>Päivitä MOCPilot uusimpaan versioon ja aloita rakentaminen laajennetulla hubiyhteensopivuudella ja tehokkailla reaaliaikaisilla ohjausominaisuuksilla kaikilla laitteillasi.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Julkaisu MOCPilot 2026.1.0]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/01/10/post</link>

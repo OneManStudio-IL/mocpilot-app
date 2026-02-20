@@ -4,10 +4,62 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 10 Jan 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 18 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>jp</language>
+        <item>
+            <title><![CDATA[MOCPilot 2026.2.2 リリース]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog/2026/02/18/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog/2026/02/18/post</guid>
+            <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.2.2 — ハブおよびコントロール機能の拡張アップデート]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202622--ハブおよびコントロール機能の拡張アップデート">🚀 MOCPilot 2026.2.2 — ハブおよびコントロール機能の拡張アップデート<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/02/18/post#-mocpilot-202622--%E3%83%8F%E3%83%96%E3%81%8A%E3%82%88%E3%81%B3%E3%82%B3%E3%83%B3%E3%83%88%E3%83%AD%E3%83%BC%E3%83%AB%E6%A9%9F%E8%83%BD%E3%81%AE%E6%8B%A1%E5%BC%B5%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88" class="hash-link" aria-label="🚀 MOCPilot 2026.2.2 — ハブおよびコントロール機能の拡張アップデート への直接リンク" title="🚀 MOCPilot 2026.2.2 — ハブおよびコントロール機能の拡張アップデート への直接リンク" translate="no">​</a></h2>
+<p><strong>MOCPilot 2026.2.2</strong> のリリースをお知らせします。現在、<strong>Android</strong>、<strong>iOS</strong>、および <strong>macOS</strong> でご利用いただけます。</p>
+<p>本バージョンではハードウェア互換性が大幅に拡張され、ハブとの高度な連携を可能にする強力な新しいプログラミングブロックが追加されました。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-202622-の新機能">✨ 2026.2.2 の新機能<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/02/18/post#-202622-%E3%81%AE%E6%96%B0%E6%A9%9F%E8%83%BD" class="hash-link" aria-label="✨ 2026.2.2 の新機能 への直接リンク" title="✨ 2026.2.2 の新機能 への直接リンク" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-新しいハブサポート">🆕 新しいハブサポート<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/02/18/post#-%E6%96%B0%E3%81%97%E3%81%84%E3%83%8F%E3%83%96%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88" class="hash-link" aria-label="🆕 新しいハブサポート への直接リンク" title="🆕 新しいハブサポート への直接リンク" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Mould King 4.0 ハブ</strong> を完全サポート</li>
+<li class=""><strong>Mould King 6.0 ハブ</strong> を完全サポート</li>
+<li class=""><strong>LEGO WeDo 2.0 ハブ</strong> を完全サポート</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-センサーサポート">🔌 センサーサポート<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/02/18/post#-%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E3%82%B5%E3%83%9D%E3%83%BC%E3%83%88" class="hash-link" aria-label="🔌 センサーサポート への直接リンク" title="🔌 センサーサポート への直接リンク" translate="no">​</a></h3>
+<ul>
+<li class="">WeDo 2.0 チルトセンサー</li>
+<li class="">WeDo 2.0 モーションセンサー</li>
+</ul>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-新しいプログラミングブロック">🧱 新しいプログラミングブロック<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/02/18/post#-%E6%96%B0%E3%81%97%E3%81%84%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF" class="hash-link" aria-label="🧱 新しいプログラミングブロック への直接リンク" title="🧱 新しいプログラミングブロック への直接リンク" translate="no">​</a></h3>
+<p>本リリースでは、リアルタイムのハブ操作を拡張する新しいイベントブロックおよび制御ブロックが追加されました。</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ハブセンサーイベントブロック">🔄 ハブセンサーイベントブロック<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/02/18/post#-%E3%83%8F%E3%83%96%E3%82%BB%E3%83%B3%E3%82%B5%E3%83%BC%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF" class="hash-link" aria-label="🔄 ハブセンサーイベントブロック への直接リンク" title="🔄 ハブセンサーイベントブロック への直接リンク" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>ハブ加速度データが変更された</strong></li>
+<li class=""><strong>ハブのチルトが変更された</strong></li>
+<li class=""><strong>ハブの向きが変更された</strong></li>
+<li class=""><strong>すべてのハブのバッテリーレベルが変更された</strong></li>
+</ul>
+<p>これらのブロックにより、動き、回転、電力の変化にプログラムが即座に反応できるようになります。</p>
+<h4 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ハブ接続制御ブロック">🔌 ハブ接続制御ブロック<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/02/18/post#-%E3%83%8F%E3%83%96%E6%8E%A5%E7%B6%9A%E5%88%B6%E5%BE%A1%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF" class="hash-link" aria-label="🔌 ハブ接続制御ブロック への直接リンク" title="🔌 ハブ接続制御ブロック への直接リンク" translate="no">​</a></h4>
+<ul>
+<li class=""><strong>ハブを接続</strong></li>
+<li class=""><strong>ハブを切断</strong></li>
+</ul>
+<p>プログラム実行中にハブ接続を直接管理できるようになりました。<br>
+<!-- -->接続が失われた場合でもプログラムを再起動せずにハブを再接続できるため、プロジェクトの信頼性と柔軟性が向上します。</p>
+<hr>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-改善点">⚙️ 改善点<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/02/18/post#%EF%B8%8F-%E6%94%B9%E5%96%84%E7%82%B9" class="hash-link" aria-label="⚙️ 改善点 への直接リンク" title="⚙️ 改善点 への直接リンク" translate="no">​</a></h3>
+<ul>
+<li class="">全体的なシステム安定性の向上</li>
+<li class="">よりスムーズなハブ操作のためのパフォーマンス最適化</li>
+<li class="">UI およびレイアウトの軽微な改善</li>
+</ul>
+<hr>
+<p>MOCPilot を最新バージョンにアップデートし、すべてのデバイスで拡張されたハブ互換性と強力なリアルタイム制御機能を活用して制作を始めましょう。</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[MOCPilot 2026.1.0 リリース]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog/2026/01/10/post</link>
