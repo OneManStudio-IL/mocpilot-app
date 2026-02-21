@@ -1,10 +1,10 @@
 {
   "version.label": {
     "message": "Další",
-    "description": "Popisek pro aktuální verzi"
+    "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Introducing": {
     "message": "Úvod",
-    "description": "Popisek kategorie Úvod v postranním panelu tutorialSidebar"
+    "description": "The label for category 'Introducing' in sidebar 'tutorialSidebar'"
   }
 }

@@ -1,46 +1,46 @@
 {
   "link.title.Docs": {
     "message": "ドキュメント",
-    "description": "フッターのリンクカラム「Docs」のタイトル"
+    "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.title.Community": {
     "message": "コミュニティ",
-    "description": "フッターのリンクカラム「Community」のタイトル"
+    "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.More": {
     "message": "その他",
-    "description": "フッターのリンクカラム「More」のタイトル"
+    "description": "The title of the footer links column with title=More in the footer"
   },
   "link.title.Legal": {
     "message": "法的情報",
-    "description": "フッターのリンクカラム「Legal」のタイトル"
+    "description": "The title of the footer links column with title=Legal in the footer"
   },
   "link.item.label.Documentation": {
     "message": "ドキュメンテーション",
-    "description": "フッターリンク「Documentation」のラベル、/docs/Introducing/AboutApp へリンク"
+    "description": "The label of footer link with label=Documentation linking to /docs/Introducing/AboutApp"
   },
   "link.item.label.Telegram": {
     "message": "テレグラム",
-    "description": "フッターリンク「Telegram」のラベル、https://t.me/procontrolzchat へリンク"
+    "description": "The label of footer link with label=Telegram linking to https://t.me/mocpilotchat"
   },
   "link.item.label.News": {
     "message": "ニュース",
-    "description": "フッターリンク「News」のラベル、/blog へリンク"
+    "description": "The label of footer link with label=News linking to /blog"
   },
   "link.item.label.Privacy policy": {
     "message": "プライバシーポリシー",
-    "description": "フッターリンク「Privacy policy」のラベル、/docs/Legal/PrivacyPolicy へリンク"
+    "description": "The label of footer link with label=Privacy policy linking to /docs/Legal/PrivacyPolicy"
   },
   "link.item.label.Terms": {
     "message": "利用規約",
-    "description": "フッターリンク「Terms」のラベル、/docs/Legal/Terms へリンク"
+    "description": "The label of footer link with label=Terms linking to /docs/Legal/Terms"
   },
   "copyright": {
     "message": "Copyright © 2025 MOCPilot, Inc.",
-    "description": "フッターの著作権表示"
+    "description": "The footer copyright"
   },
   "logo.alt": {
     "message": "MOCPilot ロゴ",
-    "description": "フッターのロゴの代替テキスト"
+    "description": "The alt text of footer logo"
   }
 }

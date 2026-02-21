@@ -1,10 +1,10 @@
 {
   "version.label": {
     "message": "下一个",
-    "description": "当前版本的标签"
+    "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Introducing": {
     "message": "介绍",
-    "description": "侧边栏 tutorialSidebar 中类别“介绍”的标签"
+    "description": "The label for category 'Introducing' in sidebar 'tutorialSidebar'"
   }
 }

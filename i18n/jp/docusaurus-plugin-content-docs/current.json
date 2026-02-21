@@ -1,8 +1,10 @@
 {
   "version.label": {
-    "message": "次へ"
+    "message": "次へ",
+    "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Introducing": {
-    "message": "はじめに"
+    "message": "はじめに",
+    "description": "The label for category 'Introducing' in sidebar 'tutorialSidebar'"
   }
 }

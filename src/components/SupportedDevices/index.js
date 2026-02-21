@@ -1,11 +1,13 @@
 import React from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Translate, { translate } from '@docusaurus/Translate';
 
 ////////////////////////////////////////////////////////////////
 /// CONSTANTS
 ////////////////////////////////////////////////////////////////
 
 const secondaryTextStyle = { fontSize: '0.85em', opacity: '0.3' };
+const commentTextStyle = { fontSize: '0.85em', opacity: '0.7' };
 const deviceImageWidth = "160";
 
 ////////////////////////////////////////////////////////////////
@@ -13,6 +15,12 @@ const deviceImageWidth = "160";
 ////////////////////////////////////////////////////////////////
 
 const devices = [
+  {
+    name: 'Lego® WeDo 2.0 Smart Hub',
+    partNumber: '45301-1',
+    imgSrc: 'img/devices/wedo2_p.webp',
+    alt: 'technic hub',
+  },
   {
     name: 'Lego® Technic™ Hub',
     partNumber: '880012',
@@ -48,18 +56,35 @@ const devices = [
     partNumber: '88016',
     imgSrc: 'img/devices/inventor_hub_p.webp',
     alt: 'large hub',
+    comment: translate({
+      id: 'supportedDevices.largeHub.notAvailableIOS',
+      message: 'Not available on iOS',
+      description: 'Shown in supported hubs table for Large Hub',
+    }),
   },
   {
     name: 'BuWizz® 2.0 Hub',
     partNumber: '',
     imgSrc: 'img/devices/buwizz2_hub_p.webp',
-    alt: 'remote control',
+    alt: 'buwizz_2',
   },
   {
     name: 'BuWizz® 3.0 Pro Hub',
     partNumber: '',
     imgSrc: 'img/devices/buwizz3_hub_p.webp',
-    alt: 'large hub',
+    alt: 'buwizz_3',
+  },
+  {
+    name: 'Mould King 4.0',
+    partNumber: 'M0006',
+    imgSrc: 'img/devices/mould_king_4_p.webp',
+    alt: 'mk_4',
+  },
+  {
+    name: 'Mould King 6.0',
+    partNumber: 'M0019',
+    imgSrc: 'img/devices/mould_king_6_p.webp',
+    alt: 'mk_6',
   },
 ];
 
@@ -124,12 +149,12 @@ const motors = [
     imgSrc: 'img/devices/small_angular_motor.webp',
     alt: 'technic hub',
   },
-  {
-    name: 'Move Hub Medium Linear Motor',
-    partNumber: '88006',
-    imgSrc: 'img/devices/move_hub_medium_linear_motor.webp',
-    alt: 'technic hub',
-  },
+  // {
+  //   name: 'Move Hub Medium Linear Motor',
+  //   partNumber: '88006',
+  //   imgSrc: 'img/devices/move_hub_medium_linear_motor.webp',
+  //   alt: 'technic hub',
+  // },
   {
     name: 'Light',
     partNumber: '88005',
@@ -158,18 +183,6 @@ const sensors = [
     alt: 'technic hub',
   },
   {
-    name: 'Force Sensor',
-    partNumber: '45606',
-    imgSrc: 'img/devices/force_sensor.webp',
-    alt: 'technic hub',
-  },
-  {
-    name: '3x3 Color Light Matrix',
-    partNumber: '45608',
-    imgSrc: 'img/devices/color_matrix_3x3.webp',
-    alt: 'technic hub',
-  },
-  {
     name: 'WeDo 2.0 Tilt Sensor',
     partNumber: '45305-1',
     imgSrc: 'img/devices/wedo_2_tilt_sensor.webp',
@@ -187,10 +200,9 @@ const sensors = [
 /// GENERIC FUNCTION
 ////////////////////////////////////////////////////////////////
 
-function GetImgUrl(imgPath)
-{
-    const {siteConfig} = useDocusaurusContext();
-    return siteConfig.baseUrl + imgPath
+function GetImgUrl(imgPath) {
+  const { siteConfig } = useDocusaurusContext();
+  return siteConfig.baseUrl + imgPath;
 }
 
 const CreateTableGeneric = (data) => (
@@ -202,12 +214,20 @@ const CreateTableGeneric = (data) => (
       </tr>
     </thead>
     <tbody>
-      {data.map(({ name, partNumber, imgSrc, alt }) => (
+      {data.map(({ name, partNumber, imgSrc, alt, comment }) => (
         <tr key={imgSrc}>
           <td>
             <div>{name}</div>
-            <div style={secondaryTextStyle}>{partNumber}</div>
+
+            {partNumber ? (
+              <div style={secondaryTextStyle}>{partNumber}</div>
+            ) : null}
+
+            {comment ? (
+              <div style={commentTextStyle}>{comment}</div>
+            ) : null}
           </td>
+
           <td>
             <img src={GetImgUrl(imgSrc)} alt={alt} width={deviceImageWidth} />
           </td>
@@ -221,16 +241,8 @@ const CreateTableGeneric = (data) => (
 /// SPECIAL FUNCTIONS
 ////////////////////////////////////////////////////////////////
 
-export const SupportedHubsTable = () => (
-  CreateTableGeneric(devices)
-);
-
-export const SupportedMotorsTable = () => (
-  CreateTableGeneric(motors)
-);
-
-export const SupportedSensorsTable = () => (
-  CreateTableGeneric(sensors)
-);
+export const SupportedHubsTable = () => CreateTableGeneric(devices);
+export const SupportedMotorsTable = () => CreateTableGeneric(motors);
+export const SupportedSensorsTable = () => CreateTableGeneric(sensors);
 
 export default SupportedHubsTable;

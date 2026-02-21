@@ -1,10 +1,18 @@
 {
   "item.label.Documentation": {
     "message": "ドキュメンテーション",
-    "description": "ナビゲーションバーの「Documentation」ラベルの項目"
+    "description": "Navbar item with label Documentation"
   },
   "item.label.News": {
     "message": "ニュース",
-    "description": "ナビゲーションバーの「News」ラベルの項目"
+    "description": "Navbar item with label News"
+  },
+  "title": {
+    "message": "MOCPILOT",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "logo",
+    "description": "The alt text of navbar logo"
   }
 }

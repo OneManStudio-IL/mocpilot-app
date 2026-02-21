@@ -1,10 +1,18 @@
 {
   "item.label.Documentation": {
     "message": "Документація",
-    "description": "Пункт навігаційної панелі з міткою Документація"
+    "description": "Navbar item with label Documentation"
   },
   "item.label.News": {
     "message": "Новини",
-    "description": "Пункт навігаційної панелі з міткою Новини"
+    "description": "Navbar item with label News"
+  },
+  "title": {
+    "message": "MOCPILOT",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "logo",
+    "description": "The alt text of navbar logo"
   }
 }

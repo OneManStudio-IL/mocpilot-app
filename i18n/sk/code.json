@@ -1,351 +1,465 @@
 {
   "theme.NotFound.title": {
-    "message": "Stránka nenájdená"
+    "message": "Stránka nenájdená",
+    "description": "The title of the 404 page"
   },
   "notfound.title": {
-    "message": "Ups! Stránka nenájdená."
+    "message": "Ups! Stránka nenájdená.",
+    "description": "Title of the 404 page"
   },
   "notfound.message1": {
-    "message": "Stránka, ktorú hľadáte, neexistuje."
+    "message": "Stránka, ktorú hľadáte, neexistuje.",
+    "description": "Message when the page is not found"
   },
   "notfound.message2": {
-    "message": "Pokúsili ste sa dostať na"
+    "message": "Pokúsili ste sa dostať na",
+    "description": "Message that informs the user of the attempted access"
   },
   "notfound.goBack": {
-    "message": "Vrátiť sa na"
+    "message": "Vrátiť sa na",
+    "description": "Text prompting the user to go back to homepage"
   },
   "notfound.homepageLink": {
-    "message": "hlavnú stránku"
+    "message": "hlavnú stránku",
+    "description": "Link text for the homepage"
   },
   "theme.ErrorPageContent.title": {
-    "message": "Táto stránka sa zrútila."
+    "message": "Táto stránka sa zrútila.",
+    "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Posuňte sa späť na začiatok"
+    "message": "Posuňte sa späť na začiatok",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
-    "message": "Archív"
+    "message": "Archív",
+    "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "Archív"
+    "message": "Archív",
+    "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Navigácia po stránkach blogu"
+    "message": "Navigácia po stránkach blogu",
+    "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Novšie príspevky"
+    "message": "Novšie príspevky",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Staršie príspevky"
+    "message": "Staršie príspevky",
+    "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Navigácia po stránkach blogového príspevku"
+    "message": "Navigácia po stránkach blogového príspevku",
+    "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Novší príspevok"
+    "message": "Novší príspevok",
+    "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Starší príspevok"
+    "message": "Starší príspevok",
+    "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.tags.tagsPageLink": {
-    "message": "Zobraziť všetky tagy"
+    "message": "Zobraziť všetky tagy",
+    "description": "The label of the link targeting the tag list page"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs"
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Prepnúť medzi tmavým a svetlým režimom (aktuálne {mode})"
+    "message": "Prepnúť medzi tmavým a svetlým režimom (aktuálne {mode})",
+    "description": "The ARIA label for the color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "tmavý režim"
+    "message": "tmavý režim",
+    "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "svetlý režim"
+    "message": "svetlý režim",
+    "description": "The name for the light color mode"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 položka|{count} položiek"
+    "message": "1 položka|{count} položiek",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "Jeden dokument označený|{count} dokumentov označených"
+    "message": "Jeden dokument označený|{count} dokumentov označených",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} s \"{tagName}\""
+    "message": "{nDocsTagged} s \"{tagName}\"",
+    "description": "The title of the page for a docs tag"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Stránky dokumentov"
+    "message": "Stránky dokumentov",
+    "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Predchádzajúce"
+    "message": "Predchádzajúce",
+    "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Ďalšie"
+    "message": "Ďalšie",
+    "description": "The label used to navigate to the next doc"
   },
   "theme.docs.versionBadge.label": {
     "message": "Verzia: {versionLabel}"
   },
   "theme.common.editThisPage": {
-    "message": "Upraviť túto stránku"
+    "message": "Upraviť túto stránku",
+    "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Priamy odkaz na {heading}"
+    "message": "Priamy odkaz na {heading}",
+    "description": "Title for link to heading"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "Toto je nepublikovaná dokumentácia pre verziu {siteTitle} {versionLabel}."
+    "message": "Toto je nepublikovaná dokumentácia pre verziu {siteTitle} {versionLabel}.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "Toto je dokumentácia pre verziu {siteTitle} {versionLabel}, ktorá už nie je aktívne udržiavaná."
+    "message": "Toto je dokumentácia pre verziu {siteTitle} {versionLabel}, ktorá už nie je aktívne udržiavaná.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "Pre aktuálnu dokumentáciu si pozrite {latestVersionLink} ({versionLabel})."
+    "message": "Pre aktuálnu dokumentáciu si pozrite {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "najnovšia verzia"
+    "message": "najnovšia verzia",
+    "description": "The label used for the latest version suggestion link label"
   },
   "theme.lastUpdated.atDate": {
-    "message": "dňa {date}"
+    "message": "dňa {date}",
+    "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": "od {user}"
+    "message": "od {user}",
+    "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "Naposledy aktualizované{atDate}{byUser}"
+    "message": "Naposledy aktualizované{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Verzie"
+    "message": "Verzie",
+    "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Tagy:"
+    "message": "Tagy:",
+    "description": "The label alongside a tag list"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Zatvoriť"
+    "message": "Zatvoriť",
+    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.admonition.caution": {
-    "message": "pozor"
+    "message": "pozor",
+    "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.admonition.danger": {
-    "message": "nebezpečenstvo"
+    "message": "nebezpečenstvo",
+    "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
-    "message": "informácie"
+    "message": "informácie",
+    "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.note": {
-    "message": "poznámka"
+    "message": "poznámka",
+    "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "tip"
+    "message": "tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "upozornenie"
+    "message": "upozornenie",
+    "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Navigácia po nedávnych príspevkoch blogu"
+    "message": "Navigácia po nedávnych príspevkoch blogu",
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.copied": {
-    "message": "Skopírované"
+    "message": "Skopírované",
+    "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Skopírovať kód do schránky"
+    "message": "Skopírovať kód do schránky",
+    "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.copy": {
-    "message": "Kopírovať"
+    "message": "Kopírovať",
+    "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Prepnúť zalamovanie riadkov"
+    "message": "Prepnúť zalamovanie riadkov",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Rozbaliť kategóriu postranného panela '{label}'"
+    "message": "Rozbaliť kategóriu postranného panela '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Zbaliť kategóriu postranného panela '{label}'"
+    "message": "Zbaliť kategóriu postranného panela '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Hlavná"
+    "message": "Hlavná",
+    "description": "The ARIA label for the main navigation"
   },
   "theme.NotFound.p1": {
-    "message": "Nenašli sme, čo ste hľadali."
+    "message": "Nenašli sme, čo ste hľadali.",
+    "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Kontaktujte vlastníka stránky, ktorá vás prepojila na pôvodnú URL a informujte ho, že jeho odkaz je nefunkčný."
+    "message": "Kontaktujte vlastníka stránky, ktorá vás prepojila na pôvodnú URL a informujte ho, že jeho odkaz je nefunkčný.",
+    "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "Na tejto stránke"
+    "message": "Na tejto stránke",
+    "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Jazyky"
+    "message": "Jazyky",
+    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "Jedna minúta čítania|{readingTime} minút čítania"
+    "message": "Jedna minúta čítania|{readingTime} minút čítania",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Postranný panel dokumentácie"
+    "message": "Postranný panel dokumentácie",
+    "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Zbaliť postranný panel"
+    "message": "Zbaliť postranný panel",
+    "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Zbaliť postranný panel"
+    "message": "Zbaliť postranný panel",
+    "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Hlavná stránka"
+    "message": "Hlavná stránka",
+    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.blog.post.readMore": {
-    "message": "Čítať viac"
+    "message": "Čítať viac",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Čítať viac o {title}"
+    "message": "Čítať viac o {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Zatvoriť navigačný panel"
+    "message": "Zatvoriť navigačný panel",
+    "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Späť do hlavného menu"
+    "message": "← Späť do hlavného menu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Rozbaliť postranný panel"
+    "message": "Rozbaliť postranný panel",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Rozbaliť postranný panel"
+    "message": "Rozbaliť postranný panel",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Prepnúť navigačný panel"
+    "message": "Prepnúť navigačný panel",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.SearchBar.seeAll": {
     "message": "Zobraziť všetky {count} výsledky"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "Nájdený jeden dokument|Nájdených {count} dokumentov"
+    "message": "Nájdený jeden dokument|Nájdených {count} dokumentov",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.existingResultsTitle": {
-    "message": "Výsledky vyhľadávania pre \"{query}\""
+    "message": "Výsledky vyhľadávania pre \"{query}\"",
+    "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "Vyhľadávanie dokumentácie"
+    "message": "Vyhľadávanie dokumentácie",
+    "description": "The search page title for empty query"
   },
   "theme.SearchPage.inputPlaceholder": {
-    "message": "Zadajte svoje hľadanie sem"
+    "message": "Zadajte svoje hľadanie sem",
+    "description": "The placeholder for search page input"
   },
   "theme.SearchPage.inputLabel": {
-    "message": "Vyhľadávanie"
+    "message": "Vyhľadávanie",
+    "description": "The ARIA label for search page input"
   },
   "theme.SearchPage.algoliaLabel": {
-    "message": "Vyhľadávanie cez Algolia"
+    "message": "Vyhľadávanie cez Algolia",
+    "description": "The description label for Algolia mention"
   },
   "theme.SearchPage.noResultsText": {
-    "message": "Žiadne výsledky neboli nájdené"
+    "message": "Žiadne výsledky neboli nájdené",
+    "description": "The paragraph for empty search result"
   },
   "theme.SearchPage.fetchingNewResults": {
-    "message": "Získavanie nových výsledkov..."
+    "message": "Získavanie nových výsledkov...",
+    "description": "The paragraph for fetching new search results"
   },
   "theme.SearchBar.label": {
-    "message": "Vyhľadávanie"
+    "message": "Vyhľadávanie",
+    "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchModal.searchBox.resetButtonTitle": {
-    "message": "Vymazať dotaz"
+    "message": "Vymazať dotaz",
+    "description": "The label and ARIA label for search box reset button"
   },
   "theme.SearchModal.searchBox.cancelButtonText": {
-    "message": "Zrušiť"
+    "message": "Zrušiť",
+    "description": "The label and ARIA label for search box cancel button"
   },
   "theme.SearchModal.startScreen.recentSearchesTitle": {
-    "message": "Nedávne"
+    "message": "Nedávne",
+    "description": "The title for recent searches"
   },
   "theme.SearchModal.startScreen.noRecentSearchesText": {
-    "message": "Žiadne nedávne vyhľadávania"
+    "message": "Žiadne nedávne vyhľadávania",
+    "description": "The text when there are no recent searches"
   },
   "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
-    "message": "Uložiť toto vyhľadávanie"
+    "message": "Uložiť toto vyhľadávanie",
+    "description": "The title for save recent search button"
   },
   "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
-    "message": "Odstrániť toto vyhľadávanie z histórie"
+    "message": "Odstrániť toto vyhľadávanie z histórie",
+    "description": "The title for remove recent search button"
   },
   "theme.SearchModal.startScreen.favoriteSearchesTitle": {
-    "message": "Obľúbené"
+    "message": "Obľúbené",
+    "description": "The title for favorite searches"
   },
   "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
-    "message": "Odstrániť toto vyhľadávanie z obľúbených"
+    "message": "Odstrániť toto vyhľadávanie z obľúbených",
+    "description": "The title for remove favorite search button"
   },
   "theme.SearchModal.errorScreen.titleText": {
-    "message": "Nie je možné získať výsledky"
+    "message": "Nie je možné získať výsledky",
+    "description": "The title for error screen"
   },
   "theme.SearchModal.errorScreen.helpText": {
-    "message": "Skontrolujte pripojenie k sieti."
+    "message": "Skontrolujte pripojenie k sieti.",
+    "description": "The help text for error screen"
   },
   "theme.SearchModal.footer.selectText": {
-    "message": "pre výber"
+    "message": "pre výber",
+    "description": "The select text for footer"
   },
   "theme.SearchModal.footer.selectKeyAriaLabel": {
-    "message": "Kláves Enter"
+    "message": "Kláves Enter",
+    "description": "The ARIA label for select key in footer"
   },
   "theme.SearchModal.footer.navigateText": {
-    "message": "na navigáciu"
+    "message": "na navigáciu",
+    "description": "The navigate text for footer"
   },
   "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
-    "message": "Šípka hore"
+    "message": "Šípka hore",
+    "description": "The ARIA label for navigate up key in footer"
   },
   "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
-    "message": "Šípka dole"
+    "message": "Šípka dole",
+    "description": "The ARIA label for navigate down key in footer"
   },
   "theme.SearchModal.footer.closeText": {
-    "message": "na zatvorenie"
+    "message": "na zatvorenie",
+    "description": "The close text for footer"
   },
   "theme.SearchModal.footer.closeKeyAriaLabel": {
-    "message": "Kláves Escape"
+    "message": "Kláves Escape",
+    "description": "The ARIA label for close key in footer"
   },
   "theme.SearchModal.footer.searchByText": {
-    "message": "Vyhľadávanie cez"
+    "message": "Vyhľadávanie cez",
+    "description": "The 'Powered by' text for footer"
   },
   "theme.SearchModal.noResultsScreen.noResultsText": {
-    "message": "Žiadne výsledky pre"
+    "message": "Žiadne výsledky pre",
+    "description": "The text when there are no results"
   },
   "theme.SearchModal.noResultsScreen.suggestedQueryText": {
-    "message": "Skúste hľadať"
+    "message": "Skúste hľadať",
+    "description": "The text for suggested query"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
-    "message": "Myslíte, že by tento dotaz mal vrátiť výsledky?"
+    "message": "Myslíte, že by tento dotaz mal vrátiť výsledky?",
+    "description": "The text for reporting missing results"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
-    "message": "Dajte nám vedieť."
+    "message": "Dajte nám vedieť.",
+    "description": "The link text for reporting missing results"
   },
   "theme.SearchModal.placeholder": {
-    "message": "Vyhľadávať dokumenty"
+    "message": "Vyhľadávať dokumenty",
+    "description": "The placeholder of the input of the DocSearch pop-up modal"
   },
   "theme.blog.post.plurals": {
-    "message": "Jeden príspevok|{count} príspevky"
+    "message": "Jeden príspevok|{count} príspevky",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} označených tagom \"{tagName}\""
+    "message": "{nPosts} označených tagom \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
-    "message": "{authorName} - {nPosts}"
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
-    "message": "Autori"
+    "message": "Autori",
+    "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "Zobraziť všetkých autorov"
+    "message": "Zobraziť všetkých autorov",
+    "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "Tento autor zatiaľ nenapísal žiadne príspevky."
+    "message": "Tento autor zatiaľ nenapísal žiadne príspevky.",
+    "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
-    "message": "Nezverejnená stránka"
+    "message": "Nezverejnená stránka",
+    "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "Táto stránka nie je zverejnená. Vyhľadávače ju nebudú indexovať a prístup k nej bude možný iba pomocou priameho odkazu."
+    "message": "Táto stránka nie je zverejnená. Vyhľadávače ju nebudú indexovať a prístup k nej bude možný iba pomocou priameho odkazu.",
+    "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Stránka v rozpracovaní"
+    "message": "Stránka v rozpracovaní",
+    "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "Táto stránka je v rozpracovaní. Bude viditeľná iba v dev a bude vylúčená z produkčnej verzie."
+    "message": "Táto stránka je v rozpracovaní. Bude viditeľná iba v dev a bude vylúčená z produkčnej verzie.",
+    "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Skúste znova"
+    "message": "Skúste znova",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "Preskočiť na hlavný obsah"
+    "message": "Preskočiť na hlavný obsah",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "Tagy"
+    "message": "Tagy",
+    "description": "The title of the tag list page"
   },
   "Get Started": {
     "message": "Začať"
@@ -363,12 +477,123 @@
     "message": "Aplikáciu si môžete stiahnuť z oficiálnych obchodov:"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "systémový režim"
+    "message": "systémový režim",
+    "description": "The name for the system color mode"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Rozbaliť roletu"
+    "message": "Rozbaliť roletu",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Zbaliť roletu"
+    "message": "Zbaliť roletu",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "supportedDevices.largeHub.notAvailableIOS": {
+    "message": "Nie je dostupné pre iOS",
+    "description": "Shown in supported hubs table for Large Hub"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.SearchModal.searchBox.placeholderText": {
+    "message": "Search docs",
+    "description": "The placeholder text for the main search input field"
+  },
+  "theme.SearchModal.searchBox.placeholderTextAskAi": {
+    "message": "Ask another question...",
+    "description": "The placeholder text when in AI question mode"
+  },
+  "theme.SearchModal.searchBox.placeholderTextAskAiStreaming": {
+    "message": "Answering...",
+    "description": "The placeholder text for search box when AI is streaming an answer"
+  },
+  "theme.SearchModal.searchBox.enterKeyHint": {
+    "message": "search",
+    "description": "The hint for the search box enter key text"
+  },
+  "theme.SearchModal.searchBox.enterKeyHintAskAi": {
+    "message": "enter",
+    "description": "The hint for the Ask AI search box enter key text"
+  },
+  "theme.SearchModal.searchBox.searchInputLabel": {
+    "message": "Search",
+    "description": "The ARIA label for search input"
+  },
+  "theme.SearchModal.searchBox.backToKeywordSearchButtonText": {
+    "message": "Back to keyword search",
+    "description": "The text for back to keyword search button"
+  },
+  "theme.SearchModal.searchBox.backToKeywordSearchButtonAriaLabel": {
+    "message": "Back to keyword search",
+    "description": "The ARIA label for back to keyword search button"
+  },
+  "theme.SearchModal.startScreen.recentConversationsTitle": {
+    "message": "Recent conversations",
+    "description": "The title for recent conversations"
+  },
+  "theme.SearchModal.startScreen.removeRecentConversationButtonTitle": {
+    "message": "Remove this conversation from history",
+    "description": "The title for remove recent conversation button"
+  },
+  "theme.SearchModal.resultsScreen.askAiPlaceholder": {
+    "message": "Ask AI: ",
+    "description": "The placeholder text for Ask AI input"
+  },
+  "theme.SearchModal.askAiScreen.disclaimerText": {
+    "message": "Answers are generated with AI which can make mistakes. Verify responses.",
+    "description": "The disclaimer text for AI answers"
+  },
+  "theme.SearchModal.askAiScreen.relatedSourcesText": {
+    "message": "Related sources",
+    "description": "The text for related sources"
+  },
+  "theme.SearchModal.askAiScreen.thinkingText": {
+    "message": "Thinking...",
+    "description": "The text when AI is thinking"
+  },
+  "theme.SearchModal.askAiScreen.copyButtonText": {
+    "message": "Copy",
+    "description": "The text for copy button"
+  },
+  "theme.SearchModal.askAiScreen.copyButtonCopiedText": {
+    "message": "Copied!",
+    "description": "The text for copy button when copied"
+  },
+  "theme.SearchModal.askAiScreen.copyButtonTitle": {
+    "message": "Copy",
+    "description": "The title for copy button"
+  },
+  "theme.SearchModal.askAiScreen.likeButtonTitle": {
+    "message": "Like",
+    "description": "The title for like button"
+  },
+  "theme.SearchModal.askAiScreen.dislikeButtonTitle": {
+    "message": "Dislike",
+    "description": "The title for dislike button"
+  },
+  "theme.SearchModal.askAiScreen.thanksForFeedbackText": {
+    "message": "Thanks for your feedback!",
+    "description": "The text for thanks for feedback"
+  },
+  "theme.SearchModal.askAiScreen.preToolCallText": {
+    "message": "Searching...",
+    "description": "The text before tool call"
+  },
+  "theme.SearchModal.askAiScreen.duringToolCallText": {
+    "message": "Searching for ",
+    "description": "The text during tool call"
+  },
+  "theme.SearchModal.askAiScreen.afterToolCallText": {
+    "message": "Searched for",
+    "description": "The text after tool call"
+  },
+  "theme.SearchModal.footer.submitQuestionText": {
+    "message": "Submit question",
+    "description": "The submit question text for footer"
+  },
+  "theme.SearchModal.footer.backToSearchText": {
+    "message": "Back to search",
+    "description": "The back to search text for footer"
   }
 }

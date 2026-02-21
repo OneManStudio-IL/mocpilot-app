@@ -1,46 +1,46 @@
 {
   "link.title.Docs": {
     "message": "Documentatie",
-    "description": "De titel van de kolom met footerlinks getiteld Docs in de footer"
+    "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.title.Community": {
     "message": "Community",
-    "description": "De titel van de kolom met footerlinks getiteld Community in de footer"
+    "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.More": {
     "message": "Meer",
-    "description": "De titel van de kolom met footerlinks getiteld Meer in de footer"
+    "description": "The title of the footer links column with title=More in the footer"
   },
   "link.title.Legal": {
     "message": "Juridisch",
-    "description": "De titel van de kolom met footerlinks getiteld Juridisch in de footer"
+    "description": "The title of the footer links column with title=Legal in the footer"
   },
   "link.item.label.Documentation": {
     "message": "Documentatie",
-    "description": "Het label van footerlink met label Documentatie die linkt naar /docs/Introducing/AboutApp"
+    "description": "The label of footer link with label=Documentation linking to /docs/Introducing/AboutApp"
   },
   "link.item.label.Telegram": {
     "message": "Telegram",
-    "description": "Het label van footerlink met label Telegram die linkt naar https://t.me/procontrolzchat"
+    "description": "The label of footer link with label=Telegram linking to https://t.me/mocpilotchat"
   },
   "link.item.label.News": {
     "message": "Nieuws",
-    "description": "Het label van footerlink met label Nieuws die linkt naar /blog"
+    "description": "The label of footer link with label=News linking to /blog"
   },
   "link.item.label.Privacy policy": {
     "message": "Privacybeleid",
-    "description": "Het label van footerlink met label Privacybeleid die linkt naar /docs/Legal/PrivacyPolicy"
+    "description": "The label of footer link with label=Privacy policy linking to /docs/Legal/PrivacyPolicy"
   },
   "link.item.label.Terms": {
     "message": "Voorwaarden",
-    "description": "Het label van footerlink met label Voorwaarden die linkt naar /docs/Legal/Terms"
+    "description": "The label of footer link with label=Terms linking to /docs/Legal/Terms"
   },
   "copyright": {
     "message": "Copyright © 2025 MOCPilot, Inc.",
-    "description": "Het copyright in de footer"
+    "description": "The footer copyright"
   },
   "logo.alt": {
     "message": "MOCPilot-logo",
-    "description": "De alt-tekst van het footerlogo"
+    "description": "The alt text of footer logo"
   }
 }

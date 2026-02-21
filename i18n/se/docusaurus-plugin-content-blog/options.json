@@ -1,15 +1,14 @@
 {
   "title": {
     "message": "Blogg",
-    "description": "Titeln för bloggen som används i SEO"
+    "description": "The title for the blog used in SEO"
   },
   "description": {
     "message": "Blogg",
-    "description": "Beskrivningen för bloggen som används i SEO"
+    "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
     "message": "Senaste inlägg",
-    "description": "Etiketten för vänster sidofält"
+    "description": "The label for the left sidebar"
   }
 }
-

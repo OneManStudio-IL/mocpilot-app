@@ -591,5 +591,9 @@
   "theme.SearchModal.footer.backToSearchText": {
     "message": "Back to search",
     "description": "The back to search text for footer"
+  },
+  "supportedDevices.largeHub.notAvailableIOS": {
+    "message": "Not available on iOS",
+    "description": "Shown in supported hubs table for Large Hub"
   }
 }

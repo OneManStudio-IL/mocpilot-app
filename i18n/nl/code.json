@@ -1,353 +1,465 @@
 {
   "theme.NotFound.title": {
-    "message": "Pagina niet gevonden"
+    "message": "Pagina niet gevonden",
+    "description": "The title of the 404 page"
   },
   "notfound.title": {
-    "message": "Oeps! Pagina niet gevonden."
+    "message": "Oeps! Pagina niet gevonden.",
+    "description": "Title of the 404 page"
   },
   "notfound.message1": {
-    "message": "De pagina die je zoekt bestaat niet."
+    "message": "De pagina die je zoekt bestaat niet.",
+    "description": "Message when the page is not found"
   },
   "notfound.message2": {
-    "message": "Je probeerde toegang te krijgen tot"
+    "message": "Je probeerde toegang te krijgen tot",
+    "description": "Message that informs the user of the attempted access"
   },
   "notfound.goBack": {
-    "message": "Terug"
+    "message": "Terug",
+    "description": "Text prompting the user to go back to homepage"
   },
   "notfound.homepageLink": {
-    "message": "Homepage"
+    "message": "Homepage",
+    "description": "Link text for the homepage"
   },
   "theme.ErrorPageContent.title": {
-    "message": "Deze pagina is gecrasht."
+    "message": "Deze pagina is gecrasht.",
+    "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Terug naar boven"
+    "message": "Terug naar boven",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
-    "message": "Archief"
+    "message": "Archief",
+    "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "Archief"
+    "message": "Archief",
+    "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Navigatie voor de bloglijstpagina"
+    "message": "Navigatie voor de bloglijstpagina",
+    "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Nieuwere berichten"
+    "message": "Nieuwere berichten",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Oudere berichten"
+    "message": "Oudere berichten",
+    "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Navigatie voor de blogpostpagina"
+    "message": "Navigatie voor de blogpostpagina",
+    "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Nieuwere post"
+    "message": "Nieuwere post",
+    "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Oudere post"
+    "message": "Oudere post",
+    "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.tags.tagsPageLink": {
-    "message": "Bekijk alle tags"
+    "message": "Bekijk alle tags",
+    "description": "The label of the link targeting the tag list page"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs"
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Schakel tussen donker- en lichtmodus (huidige modus: {mode})"
+    "message": "Schakel tussen donker- en lichtmodus (huidige modus: {mode})",
+    "description": "The ARIA label for the color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "Donkere modus"
+    "message": "Donkere modus",
+    "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "Lichte modus"
+    "message": "Lichte modus",
+    "description": "The name for the light color mode"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 item|{count} items"
+    "message": "1 item|{count} items",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "1 document|{count} documenten"
+    "message": "1 document|{count} documenten",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "Getagd met \"{nDocsTagged}\""
+    "message": "Getagd met \"{nDocsTagged}\"",
+    "description": "The title of the page for a docs tag"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Documentpagina"
+    "message": "Documentpagina",
+    "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Vorige"
+    "message": "Vorige",
+    "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Volgende"
+    "message": "Volgende",
+    "description": "The label used to navigate to the next doc"
   },
   "theme.docs.versionBadge.label": {
     "message": "Versie: {versionLabel}"
   },
   "theme.common.editThisPage": {
-    "message": "Bewerk deze pagina"
+    "message": "Bewerk deze pagina",
+    "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Directe link naar {heading}"
+    "message": "Directe link naar {heading}",
+    "description": "Title for link to heading"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "Dit is de ongereleasede documentatie voor {siteTitle} {versionLabel} versie."
+    "message": "Dit is de ongereleasede documentatie voor {siteTitle} {versionLabel} versie.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "De documentatie voor {siteTitle} {versionLabel} versie wordt niet meer onderhouden."
+    "message": "De documentatie voor {siteTitle} {versionLabel} versie wordt niet meer onderhouden.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "Voor de laatste documentatie, kijk bij {latestVersionLink} ({versionLabel})."
+    "message": "Voor de laatste documentatie, kijk bij {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "Laatste versie"
+    "message": "Laatste versie",
+    "description": "The label used for the latest version suggestion link label"
   },
   "theme.lastUpdated.atDate": {
-    "message": "op {date}"
+    "message": "op {date}",
+    "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": "door {user}"
+    "message": "door {user}",
+    "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "Laatste update {atDate}{byUser}"
+    "message": "Laatste update {atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versies"
+    "message": "Versies",
+    "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Tags:"
+    "message": "Tags:",
+    "description": "The label alongside a tag list"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Sluiten"
+    "message": "Sluiten",
+    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.admonition.caution": {
-    "message": "Let op"
+    "message": "Let op",
+    "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.admonition.danger": {
-    "message": "Gevaren"
+    "message": "Gevaren",
+    "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
-    "message": "Informatie"
+    "message": "Informatie",
+    "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.note": {
-    "message": "Opmerking"
+    "message": "Opmerking",
+    "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "Tip"
+    "message": "Tip",
+    "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "Waarschuwing"
+    "message": "Waarschuwing",
+    "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Navigatie voor de nieuwste blogberichten"
+    "message": "Navigatie voor de nieuwste blogberichten",
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.copied": {
-    "message": "Gekopieerd"
+    "message": "Gekopieerd",
+    "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Kopieer code naar klembord"
+    "message": "Kopieer code naar klembord",
+    "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.copy": {
-    "message": "Kopieer"
+    "message": "Kopieer",
+    "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Schakel woordomloop in"
+    "message": "Schakel woordomloop in",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Vouw de categorie '{label}' uit"
+    "message": "Vouw de categorie '{label}' uit",
+    "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Vouw de categorie '{label}' in"
+    "message": "Vouw de categorie '{label}' in",
+    "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Hoofd"
+    "message": "Hoofd",
+    "description": "The ARIA label for the main navigation"
   },
   "theme.NotFound.p1": {
-    "message": "We konden niet vinden wat je zocht."
+    "message": "We konden niet vinden wat je zocht.",
+    "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Laat de beheerder van de website waar je de link hebt gevonden weten dat de link is verbroken."
+    "message": "Laat de beheerder van de website waar je de link hebt gevonden weten dat de link is verbroken.",
+    "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "Deze pagina"
+    "message": "Deze pagina",
+    "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Taal"
+    "message": "Taal",
+    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "1 minuut|{readingTime} minuten"
+    "message": "1 minuut|{readingTime} minuten",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Navigatiebalk voor de documenten"
+    "message": "Navigatiebalk voor de documenten",
+    "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Vouw de zijbalk in"
+    "message": "Vouw de zijbalk in",
+    "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Vouw de zijbalk in"
+    "message": "Vouw de zijbalk in",
+    "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Home"
+    "message": "Home",
+    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.blog.post.readMore": {
-    "message": "Lees meer"
+    "message": "Lees meer",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Lees meer over {title}"
+    "message": "Lees meer over {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Sluit de navigatiebalk"
+    "message": "Sluit de navigatiebalk",
+    "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Terug naar het hoofdmenu"
+    "message": "← Terug naar het hoofdmenu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Vouw de zijbalk uit"
+    "message": "Vouw de zijbalk uit",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Vouw de zijbalk uit"
+    "message": "Vouw de zijbalk uit",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Schakel de navigatiebalk in of uit"
+    "message": "Schakel de navigatiebalk in of uit",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.SearchBar.seeAll": {
     "message": "Bekijk alle {count} resultaten"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "1 document|{count} documenten"
+    "message": "1 document|{count} documenten",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.existingResultsTitle": {
-    "message": "Zoekresultaten voor \"{query}\""
+    "message": "Zoekresultaten voor \"{query}\"",
+    "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "Zoek document"
+    "message": "Zoek document",
+    "description": "The search page title for empty query"
   },
   "theme.SearchPage.inputPlaceholder": {
-    "message": "Typ hier je zoekterm"
+    "message": "Typ hier je zoekterm",
+    "description": "The placeholder for search page input"
   },
   "theme.SearchPage.inputLabel": {
-    "message": "Zoeken"
+    "message": "Zoeken",
+    "description": "The ARIA label for search page input"
   },
   "theme.SearchPage.algoliaLabel": {
-    "message": "Zoeken met Algolia"
+    "message": "Zoeken met Algolia",
+    "description": "The description label for Algolia mention"
   },
   "theme.SearchPage.noResultsText": {
-    "message": "Geen resultaten gevonden"
+    "message": "Geen resultaten gevonden",
+    "description": "The paragraph for empty search result"
   },
   "theme.SearchPage.fetchingNewResults": {
-    "message": "Nieuwe resultaten ophalen..."
+    "message": "Nieuwe resultaten ophalen...",
+    "description": "The paragraph for fetching new search results"
   },
   "theme.SearchBar.label": {
-    "message": "Zoeken"
+    "message": "Zoeken",
+    "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchModal.searchBox.resetButtonTitle": {
-    "message": "Reset zoekopdracht"
+    "message": "Reset zoekopdracht",
+    "description": "The label and ARIA label for search box reset button"
   },
   "theme.SearchModal.searchBox.cancelButtonText": {
-    "message": "Annuleren"
+    "message": "Annuleren",
+    "description": "The label and ARIA label for search box cancel button"
   },
   "theme.SearchModal.startScreen.recentSearchesTitle": {
-    "message": "Recente zoekopdrachten"
+    "message": "Recente zoekopdrachten",
+    "description": "The title for recent searches"
   },
   "theme.SearchModal.startScreen.noRecentSearchesText": {
-    "message": "Geen recente zoekopdrachten"
+    "message": "Geen recente zoekopdrachten",
+    "description": "The text when there are no recent searches"
   },
   "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
-    "message": "Deze zoekopdracht opslaan"
+    "message": "Deze zoekopdracht opslaan",
+    "description": "The title for save recent search button"
   },
   "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
-    "message": "Verwijder uit recente zoekopdrachten"
+    "message": "Verwijder uit recente zoekopdrachten",
+    "description": "The title for remove recent search button"
   },
   "theme.SearchModal.startScreen.favoriteSearchesTitle": {
-    "message": "Favorieten"
+    "message": "Favorieten",
+    "description": "The title for favorite searches"
   },
   "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
-    "message": "Verwijder uit favorieten"
+    "message": "Verwijder uit favorieten",
+    "description": "The title for remove favorite search button"
   },
   "theme.SearchModal.errorScreen.titleText": {
-    "message": "Kon geen resultaten ophalen"
+    "message": "Kon geen resultaten ophalen",
+    "description": "The title for error screen"
   },
   "theme.SearchModal.errorScreen.helpText": {
-    "message": "Controleer je netwerkverbinding."
+    "message": "Controleer je netwerkverbinding.",
+    "description": "The help text for error screen"
   },
   "theme.SearchModal.footer.selectText": {
-    "message": "Selecteer om"
+    "message": "Selecteer om",
+    "description": "The select text for footer"
   },
   "theme.SearchModal.footer.selectKeyAriaLabel": {
-    "message": "Enter-toets"
+    "message": "Enter-toets",
+    "description": "The ARIA label for select key in footer"
   },
   "theme.SearchModal.footer.navigateText": {
-    "message": "Navigeer met"
+    "message": "Navigeer met",
+    "description": "The navigate text for footer"
   },
   "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
-    "message": "Pijl omhoog"
+    "message": "Pijl omhoog",
+    "description": "The ARIA label for navigate up key in footer"
   },
   "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
-    "message": "Pijl omlaag"
+    "message": "Pijl omlaag",
+    "description": "The ARIA label for navigate down key in footer"
   },
   "theme.SearchModal.footer.closeText": {
-    "message": "Sluiten met"
+    "message": "Sluiten met",
+    "description": "The close text for footer"
   },
   "theme.SearchModal.footer.closeKeyAriaLabel": {
-    "message": "Escape-toets"
+    "message": "Escape-toets",
+    "description": "The ARIA label for close key in footer"
   },
   "theme.SearchModal.footer.searchByText": {
     "message": "Zoeken met",
-    "description": "Geeft aan dat de zoekopdracht via Algolia wordt uitgevoerd"
+    "description": "The 'Powered by' text for footer"
   },
   "theme.SearchModal.noResultsScreen.noResultsText": {
-    "message": "Geen resultaten"
+    "message": "Geen resultaten",
+    "description": "The text when there are no results"
   },
   "theme.SearchModal.noResultsScreen.suggestedQueryText": {
-    "message": "Probeer deze zoekopdracht"
+    "message": "Probeer deze zoekopdracht",
+    "description": "The text for suggested query"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
-    "message": "Denk je dat er zoekresultaten zouden moeten zijn?"
+    "message": "Denk je dat er zoekresultaten zouden moeten zijn?",
+    "description": "The text for reporting missing results"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
-    "message": "Laat het ons weten"
+    "message": "Laat het ons weten",
+    "description": "The link text for reporting missing results"
   },
   "theme.SearchModal.placeholder": {
-    "message": "Zoek documenten"
+    "message": "Zoek documenten",
+    "description": "The placeholder of the input of the DocSearch pop-up modal"
   },
   "theme.blog.post.plurals": {
-    "message": "1 Bericht|{count} Berichten"
+    "message": "1 Bericht|{count} Berichten",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "Berichten getagd met \"{tagName}\" ({nPosts})"
+    "message": "Berichten getagd met \"{tagName}\" ({nPosts})",
+    "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
-    "message": "{authorName} - {nPosts}"
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
     "message": "Auteurs",
-    "description": "Titel van de auteurspagina"
+    "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "Bekijk alle auteurs"
+    "message": "Bekijk alle auteurs",
+    "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "Deze auteur heeft nog geen berichten gepost."
+    "message": "Deze auteur heeft nog geen berichten gepost.",
+    "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
-    "message": "Niet-gelokaliseerde pagina"
+    "message": "Niet-gelokaliseerde pagina",
+    "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "Deze pagina is niet gelokaliseerd. Deze zal niet geïndexeerd worden door zoekmachines en is alleen toegankelijk voor gebruikers die de directe link hebben."
+    "message": "Deze pagina is niet gelokaliseerd. Deze zal niet geïndexeerd worden door zoekmachines en is alleen toegankelijk voor gebruikers die de directe link hebben.",
+    "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Conceptpagina"
+    "message": "Conceptpagina",
+    "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "Deze pagina is een concept. Het is alleen zichtbaar in de ontwikkelomgeving en zal niet worden opgenomen in de publieke versie."
+    "message": "Deze pagina is een concept. Het is alleen zichtbaar in de ontwikkelomgeving en zal niet worden opgenomen in de publieke versie.",
+    "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Probeer het opnieuw"
+    "message": "Probeer het opnieuw",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "Ga naar de hoofdinhoud"
+    "message": "Ga naar de hoofdinhoud",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "Tags"
+    "message": "Tags",
+    "description": "The title of the tag list page"
   },
   "Get Started": {
     "message": "Beginnen"
@@ -365,12 +477,123 @@
     "message": "Je kunt de app downloaden via de officiële winkels:"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "Systeem modus"
+    "message": "Systeem modus",
+    "description": "The name for the system color mode"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Vouw het dropdownmenu uit"
+    "message": "Vouw het dropdownmenu uit",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Vouw het dropdownmenu in"
+    "message": "Vouw het dropdownmenu in",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "supportedDevices.largeHub.notAvailableIOS": {
+    "message": "Niet beschikbaar op iOS",
+    "description": "Shown in supported hubs table for Large Hub"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.SearchModal.searchBox.placeholderText": {
+    "message": "Search docs",
+    "description": "The placeholder text for the main search input field"
+  },
+  "theme.SearchModal.searchBox.placeholderTextAskAi": {
+    "message": "Ask another question...",
+    "description": "The placeholder text when in AI question mode"
+  },
+  "theme.SearchModal.searchBox.placeholderTextAskAiStreaming": {
+    "message": "Answering...",
+    "description": "The placeholder text for search box when AI is streaming an answer"
+  },
+  "theme.SearchModal.searchBox.enterKeyHint": {
+    "message": "search",
+    "description": "The hint for the search box enter key text"
+  },
+  "theme.SearchModal.searchBox.enterKeyHintAskAi": {
+    "message": "enter",
+    "description": "The hint for the Ask AI search box enter key text"
+  },
+  "theme.SearchModal.searchBox.searchInputLabel": {
+    "message": "Search",
+    "description": "The ARIA label for search input"
+  },
+  "theme.SearchModal.searchBox.backToKeywordSearchButtonText": {
+    "message": "Back to keyword search",
+    "description": "The text for back to keyword search button"
+  },
+  "theme.SearchModal.searchBox.backToKeywordSearchButtonAriaLabel": {
+    "message": "Back to keyword search",
+    "description": "The ARIA label for back to keyword search button"
+  },
+  "theme.SearchModal.startScreen.recentConversationsTitle": {
+    "message": "Recent conversations",
+    "description": "The title for recent conversations"
+  },
+  "theme.SearchModal.startScreen.removeRecentConversationButtonTitle": {
+    "message": "Remove this conversation from history",
+    "description": "The title for remove recent conversation button"
+  },
+  "theme.SearchModal.resultsScreen.askAiPlaceholder": {
+    "message": "Ask AI: ",
+    "description": "The placeholder text for Ask AI input"
+  },
+  "theme.SearchModal.askAiScreen.disclaimerText": {
+    "message": "Answers are generated with AI which can make mistakes. Verify responses.",
+    "description": "The disclaimer text for AI answers"
+  },
+  "theme.SearchModal.askAiScreen.relatedSourcesText": {
+    "message": "Related sources",
+    "description": "The text for related sources"
+  },
+  "theme.SearchModal.askAiScreen.thinkingText": {
+    "message": "Thinking...",
+    "description": "The text when AI is thinking"
+  },
+  "theme.SearchModal.askAiScreen.copyButtonText": {
+    "message": "Copy",
+    "description": "The text for copy button"
+  },
+  "theme.SearchModal.askAiScreen.copyButtonCopiedText": {
+    "message": "Copied!",
+    "description": "The text for copy button when copied"
+  },
+  "theme.SearchModal.askAiScreen.copyButtonTitle": {
+    "message": "Copy",
+    "description": "The title for copy button"
+  },
+  "theme.SearchModal.askAiScreen.likeButtonTitle": {
+    "message": "Like",
+    "description": "The title for like button"
+  },
+  "theme.SearchModal.askAiScreen.dislikeButtonTitle": {
+    "message": "Dislike",
+    "description": "The title for dislike button"
+  },
+  "theme.SearchModal.askAiScreen.thanksForFeedbackText": {
+    "message": "Thanks for your feedback!",
+    "description": "The text for thanks for feedback"
+  },
+  "theme.SearchModal.askAiScreen.preToolCallText": {
+    "message": "Searching...",
+    "description": "The text before tool call"
+  },
+  "theme.SearchModal.askAiScreen.duringToolCallText": {
+    "message": "Searching for ",
+    "description": "The text during tool call"
+  },
+  "theme.SearchModal.askAiScreen.afterToolCallText": {
+    "message": "Searched for",
+    "description": "The text after tool call"
+  },
+  "theme.SearchModal.footer.submitQuestionText": {
+    "message": "Submit question",
+    "description": "The submit question text for footer"
+  },
+  "theme.SearchModal.footer.backToSearchText": {
+    "message": "Back to search",
+    "description": "The back to search text for footer"
   }
 }

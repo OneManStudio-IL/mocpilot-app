@@ -1,14 +1,14 @@
 {
   "title": {
     "message": "Блог",
-    "description": "Заголовок блогу для SEO"
+    "description": "The title for the blog used in SEO"
   },
   "description": {
     "message": "Блог",
-    "description": "Опис блогу для SEO"
+    "description": "The description for the blog used in SEO"
   },
   "sidebar.title": {
     "message": "Останні пости",
-    "description": "Позначка для лівої бокової панелі"
+    "description": "The label for the left sidebar"
   }
 }

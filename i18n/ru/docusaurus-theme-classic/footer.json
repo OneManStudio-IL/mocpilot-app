@@ -21,7 +21,7 @@
   },
   "link.item.label.Telegram": {
     "message": "Telegram",
-    "description": "The label of footer link with label=Telegram linking to https://t.me/procontrolzchat"
+    "description": "The label of footer link with label=Telegram linking to https://t.me/mocpilotchat"
   },
   "link.item.label.News": {
     "message": "Новости",
@@ -38,5 +38,9 @@
   "copyright": {
     "message": "Авторские права © 2025 MOCPilot, Inc.",
     "description": "The footer copyright"
+  },
+  "logo.alt": {
+    "message": "logo",
+    "description": "The alt text of footer logo"
   }
 }

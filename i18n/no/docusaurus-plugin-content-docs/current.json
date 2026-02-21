@@ -1,10 +1,10 @@
 {
   "version.label": {
     "message": "Neste",
-    "description": "Merkelapp for gjeldende versjon"
+    "description": "The label for version current"
   },
   "sidebar.tutorialSidebar.category.Introducing": {
     "message": "Introduksjon",
-    "description": "Merkelapp for kategorien Introduksjon i sidebar tutorialSidebar"
+    "description": "The label for category 'Introducing' in sidebar 'tutorialSidebar'"
   }
 }

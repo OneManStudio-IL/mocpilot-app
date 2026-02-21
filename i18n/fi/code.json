@@ -1,353 +1,465 @@
 {
   "theme.NotFound.title": {
-    "message": "Sivua ei löydy"
+    "message": "Sivua ei löydy",
+    "description": "The title of the 404 page"
   },
   "notfound.title": {
-    "message": "Hups! Sivua ei löydy."
+    "message": "Hups! Sivua ei löydy.",
+    "description": "Title of the 404 page"
   },
   "notfound.message1": {
-    "message": "Etsimääsi sivua ei ole olemassa."
+    "message": "Etsimääsi sivua ei ole olemassa.",
+    "description": "Message when the page is not found"
   },
   "notfound.message2": {
-    "message": "Yritit päästä"
+    "message": "Yritit päästä",
+    "description": "Message that informs the user of the attempted access"
   },
   "notfound.goBack": {
-    "message": "Palaa takaisin"
+    "message": "Palaa takaisin",
+    "description": "Text prompting the user to go back to homepage"
   },
   "notfound.homepageLink": {
-    "message": "etusivulle"
+    "message": "etusivulle",
+    "description": "Link text for the homepage"
   },
   "theme.ErrorPageContent.title": {
-    "message": "Tämä sivu kaatui."
+    "message": "Tämä sivu kaatui.",
+    "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Vieritä takaisin ylös"
+    "message": "Vieritä takaisin ylös",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
-    "message": "Arkisto"
+    "message": "Arkisto",
+    "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "Arkisto"
+    "message": "Arkisto",
+    "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Blogilistan sivun navigointi"
+    "message": "Blogilistan sivun navigointi",
+    "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Uudemmat merkinnät"
+    "message": "Uudemmat merkinnät",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Vanhemmat merkinnät"
+    "message": "Vanhemmat merkinnät",
+    "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Blogikirjoituksen sivun navigointi"
+    "message": "Blogikirjoituksen sivun navigointi",
+    "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Uudempi kirjoitus"
+    "message": "Uudempi kirjoitus",
+    "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Vanhempi kirjoitus"
+    "message": "Vanhempi kirjoitus",
+    "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.tags.tagsPageLink": {
-    "message": "Näytä kaikki tagit"
+    "message": "Näytä kaikki tagit",
+    "description": "The label of the link targeting the tag list page"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Leipäteksti"
+    "message": "Leipäteksti",
+    "description": "The ARIA label for the breadcrumbs"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Vaihda tumman ja vaalean tilan välillä (nykyinen tila: {mode})"
+    "message": "Vaihda tumman ja vaalean tilan välillä (nykyinen tila: {mode})",
+    "description": "The ARIA label for the color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "tummatila"
+    "message": "tummatila",
+    "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "vaaleatila"
+    "message": "vaaleatila",
+    "description": "The name for the light color mode"
   },
   "theme.docs.DocCard.categoryDescription.plurals": {
-    "message": "1 kohde|{count} kohdetta"
+    "message": "1 kohde|{count} kohdetta",
+    "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "Yksi asiakirja merkitty|{count} asiakirjaa merkitty"
+    "message": "Yksi asiakirja merkitty|{count} asiakirjaa merkitty",
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} \"{tagName}\"-tägillä"
+    "message": "{nDocsTagged} \"{tagName}\"-tägillä",
+    "description": "The title of the page for a docs tag"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Dokumenttien sivut"
+    "message": "Dokumenttien sivut",
+    "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Edellinen"
+    "message": "Edellinen",
+    "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Seuraava"
+    "message": "Seuraava",
+    "description": "The label used to navigate to the next doc"
   },
   "theme.docs.versionBadge.label": {
     "message": "Versio: {versionLabel}"
   },
   "theme.common.editThisPage": {
-    "message": "Muokkaa tätä sivua"
+    "message": "Muokkaa tätä sivua",
+    "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Suora linkki kohtaan {heading}"
+    "message": "Suora linkki kohtaan {heading}",
+    "description": "Title for link to heading"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "Tämä on julkaisematon dokumentaatio {siteTitle} {versionLabel}-versiolle."
+    "message": "Tämä on julkaisematon dokumentaatio {siteTitle} {versionLabel}-versiolle.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "Tämä on dokumentaatio {siteTitle} {versionLabel}-versiolle, jota ei enää aktiivisesti ylläpidetä."
+    "message": "Tämä on dokumentaatio {siteTitle} {versionLabel}-versiolle, jota ei enää aktiivisesti ylläpidetä.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "Päivitetyn dokumentaation katsomiseksi katso {latestVersionLink} ({versionLabel})."
+    "message": "Päivitetyn dokumentaation katsomiseksi katso {latestVersionLink} ({versionLabel}).",
+    "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "viimeisin versio"
+    "message": "viimeisin versio",
+    "description": "The label used for the latest version suggestion link label"
   },
   "theme.lastUpdated.atDate": {
-    "message": " päivämäärällä {date}"
+    "message": " päivämäärällä {date}",
+    "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": " käyttäjältä {user}"
+    "message": " käyttäjältä {user}",
+    "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "Viimeksi päivitetty{atDate}{byUser}"
+    "message": "Viimeksi päivitetty{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versiot"
+    "message": "Versiot",
+    "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Tägitykset:"
+    "message": "Tägitykset:",
+    "description": "The label alongside a tag list"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Sulje"
+    "message": "Sulje",
+    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.admonition.caution": {
-    "message": "varoitus"
+    "message": "varoitus",
+    "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.admonition.danger": {
-    "message": "vaara"
+    "message": "vaara",
+    "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
-    "message": "tieto"
+    "message": "tieto",
+    "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.note": {
-    "message": "huomio"
+    "message": "huomio",
+    "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
-    "message": "vinkki"
+    "message": "vinkki",
+    "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "varoitus"
+    "message": "varoitus",
+    "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Blogin uusimmat kirjoitukset"
+    "message": "Blogin uusimmat kirjoitukset",
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.copied": {
-    "message": "Kopioitu"
+    "message": "Kopioitu",
+    "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Kopioi koodi leikepöydälle"
+    "message": "Kopioi koodi leikepöydälle",
+    "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.copy": {
-    "message": "Kopioi"
+    "message": "Kopioi",
+    "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Vaihda sanan kääntö"
+    "message": "Vaihda sanan kääntö",
+    "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Laajenna sivupalkin kategoria '{label}'"
+    "message": "Laajenna sivupalkin kategoria '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Kollapsaa sivupalkin kategoria '{label}'"
+    "message": "Kollapsaa sivupalkin kategoria '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Päävalikko"
+    "message": "Päävalikko",
+    "description": "The ARIA label for the main navigation"
   },
   "theme.NotFound.p1": {
-    "message": "Emme voineet löytää etsimääsi sisältöä."
+    "message": "Emme voineet löytää etsimääsi sisältöä.",
+    "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Ota yhteyttä sivuston omistajaan, joka linkitti sinut alkuperäiseen URL-osoitteeseen, ja ilmoita heille, että heidän linkkinsä on rikki."
+    "message": "Ota yhteyttä sivuston omistajaan, joka linkitti sinut alkuperäiseen URL-osoitteeseen, ja ilmoita heille, että heidän linkkinsä on rikki.",
+    "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "Tällä sivulla"
+    "message": "Tällä sivulla",
+    "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Kielet"
+    "message": "Kielet",
+    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "Yksi minuutti lukuaika|{readingTime} minuutin lukuaika"
+    "message": "Yksi minuutti lukuaika|{readingTime} minuutin lukuaika",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Dokumenttien sivupalkki"
+    "message": "Dokumenttien sivupalkki",
+    "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Kollapsaa sivupalkki"
+    "message": "Kollapsaa sivupalkki",
+    "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Kollapsaa sivupalkki"
+    "message": "Kollapsaa sivupalkki",
+    "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Etusivu"
+    "message": "Etusivu",
+    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.blog.post.readMore": {
-    "message": "Lue lisää"
+    "message": "Lue lisää",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "Lue lisää aiheesta {title}"
+    "message": "Lue lisää aiheesta {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Sulje navigointipalkki"
+    "message": "Sulje navigointipalkki",
+    "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Takaisin päävalikkoon"
+    "message": "← Takaisin päävalikkoon",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Laajenna sivupalkki"
+    "message": "Laajenna sivupalkki",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Laajenna sivupalkki"
+    "message": "Laajenna sivupalkki",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Vaihda navigointipalkki"
+    "message": "Vaihda navigointipalkki",
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.SearchBar.seeAll": {
     "message": "Näytä kaikki {count} tulosta"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "Yksi asiakirja löytyi|{count} asiakirjaa löytyi"
+    "message": "Yksi asiakirja löytyi|{count} asiakirjaa löytyi",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.existingResultsTitle": {
-    "message": "Hakutulokset hakusanalle \"{query}\""
+    "message": "Hakutulokset hakusanalle \"{query}\"",
+    "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "Etsi dokumentaatiota"
+    "message": "Etsi dokumentaatiota",
+    "description": "The search page title for empty query"
   },
   "theme.SearchPage.inputPlaceholder": {
-    "message": "Kirjoita haku tähän"
+    "message": "Kirjoita haku tähän",
+    "description": "The placeholder for search page input"
   },
   "theme.SearchPage.inputLabel": {
-    "message": "Haku"
+    "message": "Haku",
+    "description": "The ARIA label for search page input"
   },
   "theme.SearchPage.algoliaLabel": {
-    "message": "Haku Algolian avulla"
+    "message": "Haku Algolian avulla",
+    "description": "The description label for Algolia mention"
   },
   "theme.SearchPage.noResultsText": {
-    "message": "Ei tuloksia"
+    "message": "Ei tuloksia",
+    "description": "The paragraph for empty search result"
   },
   "theme.SearchPage.fetchingNewResults": {
-    "message": "Haetaan uusia tuloksia..."
+    "message": "Haetaan uusia tuloksia...",
+    "description": "The paragraph for fetching new search results"
   },
   "theme.SearchBar.label": {
-    "message": "Haku"
+    "message": "Haku",
+    "description": "The ARIA label and placeholder for search button"
   },
   "theme.SearchModal.searchBox.resetButtonTitle": {
-    "message": "Tyhjennä haku"
+    "message": "Tyhjennä haku",
+    "description": "The label and ARIA label for search box reset button"
   },
   "theme.SearchModal.searchBox.cancelButtonText": {
-    "message": "Peruuta"
+    "message": "Peruuta",
+    "description": "The label and ARIA label for search box cancel button"
   },
   "theme.SearchModal.startScreen.recentSearchesTitle": {
-    "message": "Viimeaikaiset"
+    "message": "Viimeaikaiset",
+    "description": "The title for recent searches"
   },
   "theme.SearchModal.startScreen.noRecentSearchesText": {
-    "message": "Ei viimeaikaisia hakuja"
+    "message": "Ei viimeaikaisia hakuja",
+    "description": "The text when there are no recent searches"
   },
   "theme.SearchModal.startScreen.saveRecentSearchButtonTitle": {
-    "message": "Tallenna tämä haku"
+    "message": "Tallenna tämä haku",
+    "description": "The title for save recent search button"
   },
   "theme.SearchModal.startScreen.removeRecentSearchButtonTitle": {
-    "message": "Poista tämä haku historiasta"
+    "message": "Poista tämä haku historiasta",
+    "description": "The title for remove recent search button"
   },
   "theme.SearchModal.startScreen.favoriteSearchesTitle": {
-    "message": "Suosikit"
+    "message": "Suosikit",
+    "description": "The title for favorite searches"
   },
   "theme.SearchModal.startScreen.removeFavoriteSearchButtonTitle": {
-    "message": "Poista tämä haku suosikeista"
+    "message": "Poista tämä haku suosikeista",
+    "description": "The title for remove favorite search button"
   },
   "theme.SearchModal.errorScreen.titleText": {
-    "message": "Ei voida hakea tuloksia"
+    "message": "Ei voida hakea tuloksia",
+    "description": "The title for error screen"
   },
   "theme.SearchModal.errorScreen.helpText": {
-    "message": "Varmista, että verkkoyhteytesi on kunnossa."
+    "message": "Varmista, että verkkoyhteytesi on kunnossa.",
+    "description": "The help text for error screen"
   },
   "theme.SearchModal.footer.selectText": {
-    "message": "valitse"
+    "message": "valitse",
+    "description": "The select text for footer"
   },
   "theme.SearchModal.footer.selectKeyAriaLabel": {
-    "message": "Enter-näppäin"
+    "message": "Enter-näppäin",
+    "description": "The ARIA label for select key in footer"
   },
   "theme.SearchModal.footer.navigateText": {
-    "message": "navigoi"
+    "message": "navigoi",
+    "description": "The navigate text for footer"
   },
   "theme.SearchModal.footer.navigateUpKeyAriaLabel": {
-    "message": "Nuoli ylös"
+    "message": "Nuoli ylös",
+    "description": "The ARIA label for navigate up key in footer"
   },
   "theme.SearchModal.footer.navigateDownKeyAriaLabel": {
-    "message": "Nuoli alas"
+    "message": "Nuoli alas",
+    "description": "The ARIA label for navigate down key in footer"
   },
   "theme.SearchModal.footer.closeText": {
-    "message": "sulje"
+    "message": "sulje",
+    "description": "The close text for footer"
   },
   "theme.SearchModal.footer.closeKeyAriaLabel": {
-    "message": "Esc-näppäin"
+    "message": "Esc-näppäin",
+    "description": "The ARIA label for close key in footer"
   },
   "theme.SearchModal.footer.searchByText": {
     "message": "Etsi",
-    "description": "Selitys siitä, että haku tehdään Algolian avulla"
+    "description": "The 'Powered by' text for footer"
   },
   "theme.SearchModal.noResultsScreen.noResultsText": {
-    "message": "Ei tuloksia hakusanalla"
+    "message": "Ei tuloksia hakusanalla",
+    "description": "The text when there are no results"
   },
   "theme.SearchModal.noResultsScreen.suggestedQueryText": {
-    "message": "Kokeile etsiä"
+    "message": "Kokeile etsiä",
+    "description": "The text for suggested query"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsText": {
-    "message": "Luuleeko, että tämän haun pitäisi tuottaa tuloksia?"
+    "message": "Luuleeko, että tämän haun pitäisi tuottaa tuloksia?",
+    "description": "The text for reporting missing results"
   },
   "theme.SearchModal.noResultsScreen.reportMissingResultsLinkText": {
-    "message": "Ilmoita meille."
+    "message": "Ilmoita meille.",
+    "description": "The link text for reporting missing results"
   },
   "theme.SearchModal.placeholder": {
-    "message": "Etsi dokumentaatiota"
+    "message": "Etsi dokumentaatiota",
+    "description": "The placeholder of the input of the DocSearch pop-up modal"
   },
   "theme.blog.post.plurals": {
-    "message": "Yksi kirjoitus|{count} kirjoitusta"
+    "message": "Yksi kirjoitus|{count} kirjoitusta",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} tägitetty \"{tagName}\""
+    "message": "{nPosts} tägitetty \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
   },
   "theme.blog.author.pageTitle": {
-    "message": "{authorName} - {nPosts}"
+    "message": "{authorName} - {nPosts}",
+    "description": "The title of the page for a blog author"
   },
   "theme.blog.authorsList.pageTitle": {
     "message": "Kirjoittajat",
-    "description": "Kirjoittajien sivun otsikko"
+    "description": "The title of the authors page"
   },
   "theme.blog.authorsList.viewAll": {
-    "message": "Näytä kaikki kirjoittajat"
+    "message": "Näytä kaikki kirjoittajat",
+    "description": "The label of the link targeting the blog authors page"
   },
   "theme.blog.author.noPosts": {
-    "message": "Tällä kirjoittajalla ei ole vielä kirjoituksia."
+    "message": "Tällä kirjoittajalla ei ole vielä kirjoituksia.",
+    "description": "The text for authors with 0 blog post"
   },
   "theme.contentVisibility.unlistedBanner.title": {
-    "message": "Listaamattomalla sivu"
+    "message": "Listaamattomalla sivu",
+    "description": "The unlisted content banner title"
   },
   "theme.contentVisibility.unlistedBanner.message": {
-    "message": "Tämä sivu ei ole listattu. Hakukoneet eivät indeksoi sitä, ja vain käyttäjät, joilla on suora linkki, voivat käyttää sitä."
+    "message": "Tämä sivu ei ole listattu. Hakukoneet eivät indeksoi sitä, ja vain käyttäjät, joilla on suora linkki, voivat käyttää sitä.",
+    "description": "The unlisted content banner message"
   },
   "theme.contentVisibility.draftBanner.title": {
-    "message": "Luonnossivu"
+    "message": "Luonnossivu",
+    "description": "The draft content banner title"
   },
   "theme.contentVisibility.draftBanner.message": {
-    "message": "Tämä sivu on luonnos. Se on näkyvissä vain kehityksessä eikä sisälly tuotantokokoonpanoon."
+    "message": "Tämä sivu on luonnos. Se on näkyvissä vain kehityksessä eikä sisälly tuotantokokoonpanoon.",
+    "description": "The draft content banner message"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Yritä uudelleen"
+    "message": "Yritä uudelleen",
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
-    "message": "Siirry pääsisältöön"
+    "message": "Siirry pääsisältöön",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "Tägitykset"
+    "message": "Tägitykset",
+    "description": "The title of the tag list page"
   },
   "Get Started": {
     "message": "Aloita"
@@ -365,12 +477,123 @@
     "message": "Voit ladata sovelluksen virallisista kaupoista:"
   },
   "theme.colorToggle.ariaLabel.mode.system": {
-    "message": "järjestelmän tila"
+    "message": "järjestelmän tila",
+    "description": "The name for the system color mode"
   },
   "theme.navbar.mobileDropdown.collapseButton.expandAriaLabel": {
-    "message": "Laajenna valikkoa"
+    "message": "Laajenna valikkoa",
+    "description": "The ARIA label of the button to expand the mobile dropdown navbar item"
   },
   "theme.navbar.mobileDropdown.collapseButton.collapseAriaLabel": {
-    "message": "Kollapsaa valikkoa"
+    "message": "Kollapsaa valikkoa",
+    "description": "The ARIA label of the button to collapse the mobile dropdown navbar item"
+  },
+  "supportedDevices.largeHub.notAvailableIOS": {
+    "message": "Ei saatavilla iOS:lle",
+    "description": "Shown in supported hubs table for Large Hub"
+  },
+  "theme.IconExternalLink.ariaLabel": {
+    "message": "(opens in new tab)",
+    "description": "The ARIA label for the external link icon"
+  },
+  "theme.SearchModal.searchBox.placeholderText": {
+    "message": "Search docs",
+    "description": "The placeholder text for the main search input field"
+  },
+  "theme.SearchModal.searchBox.placeholderTextAskAi": {
+    "message": "Ask another question...",
+    "description": "The placeholder text when in AI question mode"
+  },
+  "theme.SearchModal.searchBox.placeholderTextAskAiStreaming": {
+    "message": "Answering...",
+    "description": "The placeholder text for search box when AI is streaming an answer"
+  },
+  "theme.SearchModal.searchBox.enterKeyHint": {
+    "message": "search",
+    "description": "The hint for the search box enter key text"
+  },
+  "theme.SearchModal.searchBox.enterKeyHintAskAi": {
+    "message": "enter",
+    "description": "The hint for the Ask AI search box enter key text"
+  },
+  "theme.SearchModal.searchBox.searchInputLabel": {
+    "message": "Search",
+    "description": "The ARIA label for search input"
+  },
+  "theme.SearchModal.searchBox.backToKeywordSearchButtonText": {
+    "message": "Back to keyword search",
+    "description": "The text for back to keyword search button"
+  },
+  "theme.SearchModal.searchBox.backToKeywordSearchButtonAriaLabel": {
+    "message": "Back to keyword search",
+    "description": "The ARIA label for back to keyword search button"
+  },
+  "theme.SearchModal.startScreen.recentConversationsTitle": {
+    "message": "Recent conversations",
+    "description": "The title for recent conversations"
+  },
+  "theme.SearchModal.startScreen.removeRecentConversationButtonTitle": {
+    "message": "Remove this conversation from history",
+    "description": "The title for remove recent conversation button"
+  },
+  "theme.SearchModal.resultsScreen.askAiPlaceholder": {
+    "message": "Ask AI: ",
+    "description": "The placeholder text for Ask AI input"
+  },
+  "theme.SearchModal.askAiScreen.disclaimerText": {
+    "message": "Answers are generated with AI which can make mistakes. Verify responses.",
+    "description": "The disclaimer text for AI answers"
+  },
+  "theme.SearchModal.askAiScreen.relatedSourcesText": {
+    "message": "Related sources",
+    "description": "The text for related sources"
+  },
+  "theme.SearchModal.askAiScreen.thinkingText": {
+    "message": "Thinking...",
+    "description": "The text when AI is thinking"
+  },
+  "theme.SearchModal.askAiScreen.copyButtonText": {
+    "message": "Copy",
+    "description": "The text for copy button"
+  },
+  "theme.SearchModal.askAiScreen.copyButtonCopiedText": {
+    "message": "Copied!",
+    "description": "The text for copy button when copied"
+  },
+  "theme.SearchModal.askAiScreen.copyButtonTitle": {
+    "message": "Copy",
+    "description": "The title for copy button"
+  },
+  "theme.SearchModal.askAiScreen.likeButtonTitle": {
+    "message": "Like",
+    "description": "The title for like button"
+  },
+  "theme.SearchModal.askAiScreen.dislikeButtonTitle": {
+    "message": "Dislike",
+    "description": "The title for dislike button"
+  },
+  "theme.SearchModal.askAiScreen.thanksForFeedbackText": {
+    "message": "Thanks for your feedback!",
+    "description": "The text for thanks for feedback"
+  },
+  "theme.SearchModal.askAiScreen.preToolCallText": {
+    "message": "Searching...",
+    "description": "The text before tool call"
+  },
+  "theme.SearchModal.askAiScreen.duringToolCallText": {
+    "message": "Searching for ",
+    "description": "The text during tool call"
+  },
+  "theme.SearchModal.askAiScreen.afterToolCallText": {
+    "message": "Searched for",
+    "description": "The text after tool call"
+  },
+  "theme.SearchModal.footer.submitQuestionText": {
+    "message": "Submit question",
+    "description": "The submit question text for footer"
+  },
+  "theme.SearchModal.footer.backToSearchText": {
+    "message": "Back to search",
+    "description": "The back to search text for footer"
   }
 }

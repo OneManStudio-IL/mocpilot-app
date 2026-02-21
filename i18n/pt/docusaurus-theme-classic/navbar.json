@@ -1,10 +1,18 @@
 {
   "item.label.Documentation": {
     "message": "Documentação",
-    "description": "Item da barra de navegação com rótulo Documentação"
+    "description": "Navbar item with label Documentation"
   },
   "item.label.News": {
     "message": "Notícias",
-    "description": "Item da barra de navegação com rótulo Notícias"
+    "description": "Navbar item with label News"
+  },
+  "title": {
+    "message": "MOCPILOT",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "logo",
+    "description": "The alt text of navbar logo"
   }
 }

@@ -1,46 +1,46 @@
 {
   "link.title.Docs": {
     "message": "Docs",
-    "description": "Le titre de la colonne des liens de pied de page avec le titre=Docs dans le pied de page"
+    "description": "The title of the footer links column with title=Docs in the footer"
   },
   "link.title.Community": {
     "message": "Communauté",
-    "description": "Le titre de la colonne des liens de pied de page avec le titre=Communauté dans le pied de page"
+    "description": "The title of the footer links column with title=Community in the footer"
   },
   "link.title.More": {
     "message": "Plus",
-    "description": "Le titre de la colonne des liens de pied de page avec le titre=Plus dans le pied de page"
+    "description": "The title of the footer links column with title=More in the footer"
   },
   "link.title.Legal": {
     "message": "Mentions légales",
-    "description": "Le titre de la colonne des liens de pied de page avec le titre=Mentions légales dans le pied de page"
+    "description": "The title of the footer links column with title=Legal in the footer"
   },
   "link.item.label.Documentation": {
     "message": "Documentation",
-    "description": "Le libellé du lien de pied de page avec le label=Documentation pointant vers /docs/Introducing/AboutApp"
+    "description": "The label of footer link with label=Documentation linking to /docs/Introducing/AboutApp"
   },
   "link.item.label.Telegram": {
     "message": "Telegram",
-    "description": "Le libellé du lien de pied de page avec le label=Telegram pointant vers https://t.me/procontrolzchat"
+    "description": "The label of footer link with label=Telegram linking to https://t.me/mocpilotchat"
   },
   "link.item.label.News": {
     "message": "Actualités",
-    "description": "Le libellé du lien de pied de page avec le label=Actualités pointant vers /blog"
+    "description": "The label of footer link with label=News linking to /blog"
   },
   "link.item.label.Privacy policy": {
     "message": "Politique de confidentialité",
-    "description": "Le libellé du lien de pied de page avec le label=Politique de confidentialité pointant vers /docs/Legal/PrivacyPolicy"
+    "description": "The label of footer link with label=Privacy policy linking to /docs/Legal/PrivacyPolicy"
   },
   "link.item.label.Terms": {
     "message": "Conditions",
-    "description": "Le libellé du lien de pied de page avec le label=Conditions pointant vers /docs/Legal/Terms"
+    "description": "The label of footer link with label=Terms linking to /docs/Legal/Terms"
   },
   "copyright": {
     "message": "Droits d’auteur © 2025 MOCPilot, Inc.",
-    "description": "Le copyright du pied de page"
+    "description": "The footer copyright"
   },
   "logo.alt": {
     "message": "Logo MOCPilot",
-    "description": "Le texte alternatif du logo dans le pied de page"
+    "description": "The alt text of footer logo"
   }
 }
