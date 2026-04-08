@@ -3,129 +3,129 @@ id: QuickStart
 title: Snabbstartsguide
 ---
 
-# Quick Start
+# Snabbstart
 
-This guide helps you start using MOCPilot for the first time.
+Den här guiden hjälper dig att börja använda MOCPilot för första gången.
 
-## 1. Sign in or create an account
+## 1. Logga in eller skapa konto
 
-<img src="/img/quick-start/sign-in.png" alt="Sign in screen" width="420" />
+<img src={require('@site/static/img/quick-start/sign-in.png').default} alt="Sign in screen" width="420" />
 
-We strongly recommend using an account.
+Vi rekommenderar starkt att använda ett konto.
 
-- With an account, your profiles and settings are synced across your devices.
-- Without an account, data stays only on the current device.
-- If you reinstall the app while using no account mode, your profiles and settings are lost.
+- Med konto synkas profiler och inställningar mellan dina enheter.
+- Utan konto lagras data bara på den aktuella enheten.
+- Om du installerar om appen utan konto förloras profiler och inställningar.
 
-You can still use **Continue without an account**, but this is not recommended for regular use.
+Du kan fortfarande använda **Continue without an account**, men det rekommenderas inte för normal användning.
 
-## 2. Understand the main menu
+## 2. Förstå huvudmenyn
 
-<img src="/img/quick-start/bottom-navigation.jpeg" alt="Bottom navigation menu with Profiles, Settings, and Help" width="420" />
+<img src={require('@site/static/img/quick-start/bottom-navigation.jpeg').default} alt="Bottom navigation menu with Profiles, Settings, and Help" width="420" />
 
-The bottom navigation has 3 main sections:
+Den nedre navigeringen har 3 huvudsektioner:
 
-- **Profiles**: prebuilt and personal profiles.
-- **Settings**: app options and account settings.
-- **Help**: support, feedback, and links to official resources.
+- **Profiles**: förbyggda och egna profiler.
+- **Settings**: appinställningar och kontoinställningar.
+- **Help**: support, feedback och officiella länkar.
 
-## 3. Review important settings
+## 3. Gå igenom viktiga inställningar
 
-<img src="/img/quick-start/settings-main.png" alt="Settings page" width="420" />
+<img src={require('@site/static/img/quick-start/settings-main.png').default} alt="Settings page" width="420" />
 
-In **Settings**, you can manage:
+I **Settings** kan du hantera:
 
-- Sound and vibration
-- Keep screen on
-- Language
-- Dark mode
-- Account access and sync options
+- ljud och vibration
+- håll skärmen på
+- språk
+- mörkt läge
+- konto- och synkalternativ
 
-## 4. Prebuilt profiles
+## 4. Förbyggda profiler
 
-<img src="/img/quick-start/prebuilt-profiles.png" alt="Prebuilt profiles" width="420" />
+<img src={require('@site/static/img/quick-start/prebuilt-profiles.png').default} alt="Prebuilt profiles" width="420" />
 
-Use **Prebuilt** profiles to:
+Använd **Prebuilt**-profiler för att:
 
-- Quickly control LEGO and other official sets.
-- Learn techniques from ready-made block code examples.
+- snabbt styra LEGO och andra officiella set.
+- lära tekniker från färdiga blockkodsexempel.
 
 :::warning Important
-Prebuilt profiles can be modified for experiments, but your changes are not saved. Each prebuilt profile is reset to its original state the next time you open it.
+Förbyggda profiler kan ändras för experiment, men ändringarna sparas inte. Profilen återställs nästa gång den öppnas.
 :::
 
-Follow this sequence for a prebuilt profile:
+Följ denna ordning för en förbyggd profil:
 
-1. Open the desired prebuilt profile.
+1. Öppna önskad förbyggd profil.
 
-<img src="/img/quick-start/prebuilt-blocks.png" alt="Prebuilt profile with advanced block program" width="1100" />
+<img src={require('@site/static/img/quick-start/prebuilt-blocks.png').default} alt="Prebuilt profile with advanced block program" width="1100" />
 
-2. Connect the hub.
+2. Anslut hubben.
 
-<img src="/img/quick-start/connect-hub-flow.png" alt="Connect to LEGO Technic Move Hub instructions" width="1100" />
+<img src={require('@site/static/img/quick-start/connect-hub-flow.png').default} alt="Connect to LEGO Technic Move Hub instructions" width="1100" />
 
-<img src="/img/quick-start/hubs-connected.png" alt="Bluetooth hub connected and ready" width="1100" />
+<img src={require('@site/static/img/quick-start/hubs-connected.png').default} alt="Bluetooth hub connected and ready" width="1100" />
 
-3. Select the dashboard and press **Play**.
+3. Välj dashboard och tryck **Play**.
 
-<img src="/img/quick-start/control-screen.png" alt="Prebuilt profile control dashboard with steering wheel and pedals" width="1100" />
+<img src={require('@site/static/img/quick-start/control-screen.png').default} alt="Prebuilt profile control dashboard with steering wheel and pedals" width="1100" />
 
-## 5. User-owned profiles
+## 5. Egna profiler
 
-<img src="/img/quick-start/my-profiles.png" alt="My profiles" width="420" />
+<img src={require('@site/static/img/quick-start/my-profiles.png').default} alt="My profiles" width="420" />
 
-Use **My** profiles for your own creations.
+Använd **My** för dina egna profiler.
 
-- You can create and keep as many personal profiles as you need.
-- Launch any profile directly from this page.
+- Du kan skapa obegränsat antal profiler.
+- Du kan starta valfri profil direkt från denna sida.
 
-Follow this sequence for a user-owned profile:
+Följ denna ordning för en egen profil:
 
-1. Create or import a profile.
+1. Skapa eller importera en profil.
 
-<img src="/img/quick-start/user-create-or-import.jpg" alt="Create new or import profile menu" width="420" />
+<img src={require('@site/static/img/quick-start/user-create-or-import.jpg').default} alt="Create new or import profile menu" width="420" />
 
 :::info Important
-You can create a new profile or import one from your device by selecting an already created profile file (`.dat`).
+Du kan skapa en ny profil eller importera en redan skapad profilfil (`.dat`) från din enhet.
 :::
 
-2. Create a new profile.
+2. Skapa en ny profil.
 
-<img src="/img/quick-start/user-create-page.png" alt="Create my own profile page" width="420" />
+<img src={require('@site/static/img/quick-start/user-create-page.png').default} alt="Create my own profile page" width="420" />
 
-Enter the desired profile name. Optionally, you can select a picture from your gallery for this profile.
+Ange önskat profilnamn. Du kan också välja en bild från galleriet.
 
-3. Add hubs to the profile.
+3. Lägg till hubbar i profilen.
 
-<img src="/img/quick-start/user-hubs-page.png" alt="My Bluetooth hubs page for user profile" width="1100" />
+<img src={require('@site/static/img/quick-start/user-hubs-page.png').default} alt="My Bluetooth hubs page for user profile" width="1100" />
 
 :::info Important
-By default, up to **2 hubs** can be added to a profile. To extend the number of allowed hubs to **5**, additional hub slots should be purchased.
+Som standard kan upp till **2 hubbar** läggas till i en profil. För att utöka till **5** behöver extra hubbplatser köpas.
 :::
 
-<img src="/img/quick-start/user-hub-selection.png" alt="Hub selection page" width="1100" />
+<img src={require('@site/static/img/quick-start/user-hub-selection.png').default} alt="Hub selection page" width="1100" />
 
-<img src="/img/quick-start/user-hub-connecting.png" alt="Hub connecting screen" width="1100" />
+<img src={require('@site/static/img/quick-start/user-hub-connecting.png').default} alt="Hub connecting screen" width="1100" />
 
-4. Open the program page and make the desired program for your model by connecting blocks.
+4. Öppna programsidan och bygg önskad logik genom att koppla block.
 
-<img src="/img/quick-start/user-program-blocks.png" alt="User profile program page with connected blocks" width="1100" />
+<img src={require('@site/static/img/quick-start/user-program-blocks.png').default} alt="User profile program page with connected blocks" width="1100" />
 
-5. Open dashboard to add on-screen controllers that can be connected to hub motors.
+5. Öppna dashboarden för att lägga till skärmreglage som kan kopplas till hubbens motorer.
 
-<img src="/img/quick-start/user-dashboard-controllers.png" alt="User profile dashboard with controllers" width="1100" />
+<img src={require('@site/static/img/quick-start/user-dashboard-controllers.png').default} alt="User profile dashboard with controllers" width="1100" />
 
-6. Press **Play** to run the profile.
+6. Tryck **Play** för att köra profilen.
 
-You are ready to drive and iterate on your profile.
+Nu är du redo att köra och förbättra din profil.
 
-## 6. Use Help when needed
+## 6. Använd Help vid behov
 
-<img src="/img/quick-start/help-page.png" alt="Help page" width="420" />
+<img src={require('@site/static/img/quick-start/help-page.png').default} alt="Help page" width="420" />
 
-The **Help** page is the central place to:
+På sidan **Help** kan du:
 
-- Open the quick start tutorial
-- Ask a question
-- Report a bug
-- Open official MOCPilot links and community channels
+- öppna snabbstartsguiden
+- ställa en fråga
+- rapportera en bugg
+- öppna officiella MOCPilot-länkar och communitykanaler

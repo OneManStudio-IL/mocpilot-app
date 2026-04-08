@@ -3,129 +3,129 @@ id: QuickStart
 title: Rýchly štart
 ---
 
-# Quick Start
+# Rýchly štart
 
-This guide helps you start using MOCPilot for the first time.
+Táto príručka vám pomôže začať používať MOCPilot po prvýkrát.
 
-## 1. Sign in or create an account
+## 1. Prihlásenie alebo vytvorenie účtu
 
-<img src="/img/quick-start/sign-in.png" alt="Sign in screen" width="420" />
+<img src={require('@site/static/img/quick-start/sign-in.png').default} alt="Sign in screen" width="420" />
 
-We strongly recommend using an account.
+Dôrazne odporúčame používať účet.
 
-- With an account, your profiles and settings are synced across your devices.
-- Without an account, data stays only on the current device.
-- If you reinstall the app while using no account mode, your profiles and settings are lost.
+- S účtom sa profily a nastavenia synchronizujú medzi zariadeniami.
+- Bez účtu zostávajú údaje len v aktuálnom zariadení.
+- Ak aplikáciu preinštalujete bez účtu, prídete o profily aj nastavenia.
 
-You can still use **Continue without an account**, but this is not recommended for regular use.
+Stále môžete použiť **Continue without an account**, ale na bežné používanie to neodporúčame.
 
-## 2. Understand the main menu
+## 2. Pochopte hlavné menu
 
-<img src="/img/quick-start/bottom-navigation.jpeg" alt="Bottom navigation menu with Profiles, Settings, and Help" width="420" />
+<img src={require('@site/static/img/quick-start/bottom-navigation.jpeg').default} alt="Bottom navigation menu with Profiles, Settings, and Help" width="420" />
 
-The bottom navigation has 3 main sections:
+Spodná navigácia má 3 hlavné sekcie:
 
-- **Profiles**: prebuilt and personal profiles.
-- **Settings**: app options and account settings.
-- **Help**: support, feedback, and links to official resources.
+- **Profiles**: predpripravené a vlastné profily.
+- **Settings**: nastavenia aplikácie a účtu.
+- **Help**: podpora, spätná väzba a oficiálne odkazy.
 
-## 3. Review important settings
+## 3. Skontrolujte dôležité nastavenia
 
-<img src="/img/quick-start/settings-main.png" alt="Settings page" width="420" />
+<img src={require('@site/static/img/quick-start/settings-main.png').default} alt="Settings page" width="420" />
 
-In **Settings**, you can manage:
+V **Settings** môžete spravovať:
 
-- Sound and vibration
-- Keep screen on
-- Language
-- Dark mode
-- Account access and sync options
+- zvuk a vibrácie
+- ponechanie obrazovky zapnutej
+- jazyk
+- tmavý režim
+- účet a synchronizáciu
 
-## 4. Prebuilt profiles
+## 4. Predpripravené profily
 
-<img src="/img/quick-start/prebuilt-profiles.png" alt="Prebuilt profiles" width="420" />
+<img src={require('@site/static/img/quick-start/prebuilt-profiles.png').default} alt="Prebuilt profiles" width="420" />
 
-Use **Prebuilt** profiles to:
+Použite profily **Prebuilt** na:
 
-- Quickly control LEGO and other official sets.
-- Learn techniques from ready-made block code examples.
+- rýchle ovládanie LEGO a ďalších oficiálnych setov.
+- učenie techník z hotových príkladov blokového kódu.
 
 :::warning Important
-Prebuilt profiles can be modified for experiments, but your changes are not saved. Each prebuilt profile is reset to its original state the next time you open it.
+Predpripravené profily môžete meniť na experimenty, ale zmeny sa neukladajú. Pri ďalšom otvorení sa profil obnoví do pôvodného stavu.
 :::
 
-Follow this sequence for a prebuilt profile:
+Pri predpripravenom profile postupujte takto:
 
-1. Open the desired prebuilt profile.
+1. Otvorte požadovaný predpripravený profil.
 
-<img src="/img/quick-start/prebuilt-blocks.png" alt="Prebuilt profile with advanced block program" width="1100" />
+<img src={require('@site/static/img/quick-start/prebuilt-blocks.png').default} alt="Prebuilt profile with advanced block program" width="1100" />
 
-2. Connect the hub.
+2. Pripojte hub.
 
-<img src="/img/quick-start/connect-hub-flow.png" alt="Connect to LEGO Technic Move Hub instructions" width="1100" />
+<img src={require('@site/static/img/quick-start/connect-hub-flow.png').default} alt="Connect to LEGO Technic Move Hub instructions" width="1100" />
 
-<img src="/img/quick-start/hubs-connected.png" alt="Bluetooth hub connected and ready" width="1100" />
+<img src={require('@site/static/img/quick-start/hubs-connected.png').default} alt="Bluetooth hub connected and ready" width="1100" />
 
-3. Select the dashboard and press **Play**.
+3. Vyberte dashboard a stlačte **Play**.
 
-<img src="/img/quick-start/control-screen.png" alt="Prebuilt profile control dashboard with steering wheel and pedals" width="1100" />
+<img src={require('@site/static/img/quick-start/control-screen.png').default} alt="Prebuilt profile control dashboard with steering wheel and pedals" width="1100" />
 
-## 5. User-owned profiles
+## 5. Vlastné profily
 
-<img src="/img/quick-start/my-profiles.png" alt="My profiles" width="420" />
+<img src={require('@site/static/img/quick-start/my-profiles.png').default} alt="My profiles" width="420" />
 
-Use **My** profiles for your own creations.
+V **My** pracujete s vlastnými profilmi.
 
-- You can create and keep as many personal profiles as you need.
-- Launch any profile directly from this page.
+- Môžete vytvoriť ľubovoľný počet profilov.
+- Profil spustíte priamo z tejto stránky.
 
-Follow this sequence for a user-owned profile:
+Pri vlastnom profile postupujte takto:
 
-1. Create or import a profile.
+1. Vytvorte alebo importujte profil.
 
-<img src="/img/quick-start/user-create-or-import.jpg" alt="Create new or import profile menu" width="420" />
+<img src={require('@site/static/img/quick-start/user-create-or-import.jpg').default} alt="Create new or import profile menu" width="420" />
 
 :::info Important
-You can create a new profile or import one from your device by selecting an already created profile file (`.dat`).
+Môžete vytvoriť nový profil alebo importovať už vytvorený súbor profilu (`.dat`) zo zariadenia.
 :::
 
-2. Create a new profile.
+2. Vytvorte nový profil.
 
-<img src="/img/quick-start/user-create-page.png" alt="Create my own profile page" width="420" />
+<img src={require('@site/static/img/quick-start/user-create-page.png').default} alt="Create my own profile page" width="420" />
 
-Enter the desired profile name. Optionally, you can select a picture from your gallery for this profile.
+Zadajte požadovaný názov profilu. Voliteľne môžete vybrať obrázok z galérie.
 
-3. Add hubs to the profile.
+3. Pridajte do profilu huby.
 
-<img src="/img/quick-start/user-hubs-page.png" alt="My Bluetooth hubs page for user profile" width="1100" />
+<img src={require('@site/static/img/quick-start/user-hubs-page.png').default} alt="My Bluetooth hubs page for user profile" width="1100" />
 
 :::info Important
-By default, up to **2 hubs** can be added to a profile. To extend the number of allowed hubs to **5**, additional hub slots should be purchased.
+Predvolene je možné do profilu pridať až **2 huby**. Rozšírenie na **5** vyžaduje dokúpenie ďalších slotov.
 :::
 
-<img src="/img/quick-start/user-hub-selection.png" alt="Hub selection page" width="1100" />
+<img src={require('@site/static/img/quick-start/user-hub-selection.png').default} alt="Hub selection page" width="1100" />
 
-<img src="/img/quick-start/user-hub-connecting.png" alt="Hub connecting screen" width="1100" />
+<img src={require('@site/static/img/quick-start/user-hub-connecting.png').default} alt="Hub connecting screen" width="1100" />
 
-4. Open the program page and make the desired program for your model by connecting blocks.
+4. Otvorte stránku programu a vytvorte požadovanú logiku spájaním blokov.
 
-<img src="/img/quick-start/user-program-blocks.png" alt="User profile program page with connected blocks" width="1100" />
+<img src={require('@site/static/img/quick-start/user-program-blocks.png').default} alt="User profile program page with connected blocks" width="1100" />
 
-5. Open dashboard to add on-screen controllers that can be connected to hub motors.
+5. Otvorte dashboard a pridajte ovládače na obrazovke, ktoré je možné prepojiť s motormi hubu.
 
-<img src="/img/quick-start/user-dashboard-controllers.png" alt="User profile dashboard with controllers" width="1100" />
+<img src={require('@site/static/img/quick-start/user-dashboard-controllers.png').default} alt="User profile dashboard with controllers" width="1100" />
 
-6. Press **Play** to run the profile.
+6. Stlačte **Play** na spustenie profilu.
 
-You are ready to drive and iterate on your profile.
+Teraz ste pripravení jazdiť a profil ďalej vylepšovať.
 
-## 6. Use Help when needed
+## 6. Použite Help, keď treba
 
-<img src="/img/quick-start/help-page.png" alt="Help page" width="420" />
+<img src={require('@site/static/img/quick-start/help-page.png').default} alt="Help page" width="420" />
 
-The **Help** page is the central place to:
+Na stránke **Help** môžete:
 
-- Open the quick start tutorial
-- Ask a question
-- Report a bug
-- Open official MOCPilot links and community channels
+- otvoriť návod rýchleho štartu
+- položiť otázku
+- nahlásiť chybu
+- otvoriť oficiálne odkazy MOCPilot a komunitné kanály

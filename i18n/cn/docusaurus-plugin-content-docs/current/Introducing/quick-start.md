@@ -9,7 +9,7 @@ title: 快速入门教程
 
 ## 1. 登录或创建账户
 
-<img src="/img/quick-start/sign-in.png" alt="Sign in screen" width="420" />
+<img src={require('@site/static/img/quick-start/sign-in.png').default} alt="Sign in screen" width="420" />
 
 我们强烈建议使用账户。
 
@@ -21,7 +21,7 @@ title: 快速入门教程
 
 ## 2. 了解主菜单
 
-<img src="/img/quick-start/bottom-navigation.jpeg" alt="Bottom navigation menu with Profiles, Settings, and Help" width="420" />
+<img src={require('@site/static/img/quick-start/bottom-navigation.jpeg').default} alt="Bottom navigation menu with Profiles, Settings, and Help" width="420" />
 
 底部导航包含 3 个主要部分：
 
@@ -31,7 +31,7 @@ title: 快速入门教程
 
 ## 3. 检查重要设置
 
-<img src="/img/quick-start/settings-main.png" alt="Settings page" width="420" />
+<img src={require('@site/static/img/quick-start/settings-main.png').default} alt="Settings page" width="420" />
 
 在 **Settings** 中，你可以管理：
 
@@ -43,7 +43,7 @@ title: 快速入门教程
 
 ## 4. 预置配置（Prebuilt profiles）
 
-<img src="/img/quick-start/prebuilt-profiles.png" alt="Prebuilt profiles" width="420" />
+<img src={require('@site/static/img/quick-start/prebuilt-profiles.png').default} alt="Prebuilt profiles" width="420" />
 
 你可以使用 **Prebuilt** 配置来：
 
@@ -58,21 +58,21 @@ title: 快速入门教程
 
 1. 打开目标预置配置。
 
-<img src="/img/quick-start/prebuilt-blocks.png" alt="Prebuilt profile with advanced block program" width="1100" />
+<img src={require('@site/static/img/quick-start/prebuilt-blocks.png').default} alt="Prebuilt profile with advanced block program" width="1100" />
 
 2. 连接 Hub。
 
-<img src="/img/quick-start/connect-hub-flow.png" alt="Connect to LEGO Technic Move Hub instructions" width="1100" />
+<img src={require('@site/static/img/quick-start/connect-hub-flow.png').default} alt="Connect to LEGO Technic Move Hub instructions" width="1100" />
 
-<img src="/img/quick-start/hubs-connected.png" alt="Bluetooth hub connected and ready" width="1100" />
+<img src={require('@site/static/img/quick-start/hubs-connected.png').default} alt="Bluetooth hub connected and ready" width="1100" />
 
 3. 选择仪表盘并按 **Play**。
 
-<img src="/img/quick-start/control-screen.png" alt="Prebuilt profile control dashboard with steering wheel and pedals" width="1100" />
+<img src={require('@site/static/img/quick-start/control-screen.png').default} alt="Prebuilt profile control dashboard with steering wheel and pedals" width="1100" />
 
 ## 5. 用户配置（User-owned profiles）
 
-<img src="/img/quick-start/my-profiles.png" alt="My profiles" width="420" />
+<img src={require('@site/static/img/quick-start/my-profiles.png').default} alt="My profiles" width="420" />
 
 使用 **My** 页面创建你自己的配置。
 
@@ -83,7 +83,7 @@ title: 快速入门教程
 
 1. 创建或导入配置。
 
-<img src="/img/quick-start/user-create-or-import.jpg" alt="Create new or import profile menu" width="420" />
+<img src={require('@site/static/img/quick-start/user-create-or-import.jpg').default} alt="Create new or import profile menu" width="420" />
 
 :::info Important
 你可以新建配置，也可以从设备中导入已创建的配置文件（`.dat`）。
@@ -91,29 +91,29 @@ title: 快速入门教程
 
 2. 新建配置。
 
-<img src="/img/quick-start/user-create-page.png" alt="Create my own profile page" width="420" />
+<img src={require('@site/static/img/quick-start/user-create-page.png').default} alt="Create my own profile page" width="420" />
 
 输入所需配置名称。你也可以从相册为该配置选择图片。
 
 3. 向配置添加 Hub。
 
-<img src="/img/quick-start/user-hubs-page.png" alt="My Bluetooth hubs page for user profile" width="1100" />
+<img src={require('@site/static/img/quick-start/user-hubs-page.png').default} alt="My Bluetooth hubs page for user profile" width="1100" />
 
 :::info Important
 默认每个配置最多可添加 **2** 个 Hub。若要扩展到 **5** 个，需要购买额外 Hub 插槽。
 :::
 
-<img src="/img/quick-start/user-hub-selection.png" alt="Hub selection page" width="1100" />
+<img src={require('@site/static/img/quick-start/user-hub-selection.png').default} alt="Hub selection page" width="1100" />
 
-<img src="/img/quick-start/user-hub-connecting.png" alt="Hub connecting screen" width="1100" />
+<img src={require('@site/static/img/quick-start/user-hub-connecting.png').default} alt="Hub connecting screen" width="1100" />
 
 4. 打开程序页面，通过连接积木创建模型所需逻辑。
 
-<img src="/img/quick-start/user-program-blocks.png" alt="User profile program page with connected blocks" width="1100" />
+<img src={require('@site/static/img/quick-start/user-program-blocks.png').default} alt="User profile program page with connected blocks" width="1100" />
 
 5. 打开仪表盘并添加可连接 Hub 电机的屏幕控制器。
 
-<img src="/img/quick-start/user-dashboard-controllers.png" alt="User profile dashboard with controllers" width="1100" />
+<img src={require('@site/static/img/quick-start/user-dashboard-controllers.png').default} alt="User profile dashboard with controllers" width="1100" />
 
 6. 按 **Play** 运行配置。
 
@@ -121,7 +121,7 @@ title: 快速入门教程
 
 ## 6. 需要帮助时
 
-<img src="/img/quick-start/help-page.png" alt="Help page" width="420" />
+<img src={require('@site/static/img/quick-start/help-page.png').default} alt="Help page" width="420" />
 
 **Help** 页面可用于：
 

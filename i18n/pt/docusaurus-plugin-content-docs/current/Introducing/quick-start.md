@@ -3,129 +3,129 @@ id: QuickStart
 title: Tutorial de início rápido
 ---
 
-# Quick Start
+# Início rápido
 
-This guide helps you start using MOCPilot for the first time.
+Este guia ajuda você a começar a usar o MOCPilot pela primeira vez.
 
-## 1. Sign in or create an account
+## 1. Entrar ou criar conta
 
-<img src="/img/quick-start/sign-in.png" alt="Sign in screen" width="420" />
+<img src={require('@site/static/img/quick-start/sign-in.png').default} alt="Sign in screen" width="420" />
 
-We strongly recommend using an account.
+Recomendamos fortemente usar uma conta.
 
-- With an account, your profiles and settings are synced across your devices.
-- Without an account, data stays only on the current device.
-- If you reinstall the app while using no account mode, your profiles and settings are lost.
+- Com conta, seus perfis e configurações são sincronizados entre dispositivos.
+- Sem conta, os dados ficam apenas no dispositivo atual.
+- Se você reinstalar o app sem conta, perderá perfis e configurações.
 
-You can still use **Continue without an account**, but this is not recommended for regular use.
+Você ainda pode usar **Continue without an account**, mas isso não é recomendado para uso regular.
 
-## 2. Understand the main menu
+## 2. Entender o menu principal
 
-<img src="/img/quick-start/bottom-navigation.jpeg" alt="Bottom navigation menu with Profiles, Settings, and Help" width="420" />
+<img src={require('@site/static/img/quick-start/bottom-navigation.jpeg').default} alt="Bottom navigation menu with Profiles, Settings, and Help" width="420" />
 
-The bottom navigation has 3 main sections:
+A navegação inferior tem 3 seções principais:
 
-- **Profiles**: prebuilt and personal profiles.
-- **Settings**: app options and account settings.
-- **Help**: support, feedback, and links to official resources.
+- **Profiles**: perfis prebuilt e perfis pessoais.
+- **Settings**: opções do app e configurações da conta.
+- **Help**: suporte, feedback e links oficiais.
 
-## 3. Review important settings
+## 3. Revisar configurações importantes
 
-<img src="/img/quick-start/settings-main.png" alt="Settings page" width="420" />
+<img src={require('@site/static/img/quick-start/settings-main.png').default} alt="Settings page" width="420" />
 
-In **Settings**, you can manage:
+Em **Settings**, você pode gerenciar:
 
-- Sound and vibration
-- Keep screen on
-- Language
-- Dark mode
-- Account access and sync options
+- som e vibração
+- manter a tela ligada
+- idioma
+- modo escuro
+- conta e sincronização
 
-## 4. Prebuilt profiles
+## 4. Perfis prebuilt
 
-<img src="/img/quick-start/prebuilt-profiles.png" alt="Prebuilt profiles" width="420" />
+<img src={require('@site/static/img/quick-start/prebuilt-profiles.png').default} alt="Prebuilt profiles" width="420" />
 
-Use **Prebuilt** profiles to:
+Use perfis **Prebuilt** para:
 
-- Quickly control LEGO and other official sets.
-- Learn techniques from ready-made block code examples.
+- controlar rapidamente conjuntos oficiais LEGO e de outros fabricantes.
+- aprender técnicas com exemplos prontos de código em blocos.
 
 :::warning Important
-Prebuilt profiles can be modified for experiments, but your changes are not saved. Each prebuilt profile is reset to its original state the next time you open it.
+Perfis prebuilt podem ser alterados para testes, mas as mudanças não são salvas. O perfil é restaurado ao abrir novamente.
 :::
 
-Follow this sequence for a prebuilt profile:
+Siga esta sequência para um perfil prebuilt:
 
-1. Open the desired prebuilt profile.
+1. Abra o perfil prebuilt desejado.
 
-<img src="/img/quick-start/prebuilt-blocks.png" alt="Prebuilt profile with advanced block program" width="1100" />
+<img src={require('@site/static/img/quick-start/prebuilt-blocks.png').default} alt="Prebuilt profile with advanced block program" width="1100" />
 
-2. Connect the hub.
+2. Conecte o hub.
 
-<img src="/img/quick-start/connect-hub-flow.png" alt="Connect to LEGO Technic Move Hub instructions" width="1100" />
+<img src={require('@site/static/img/quick-start/connect-hub-flow.png').default} alt="Connect to LEGO Technic Move Hub instructions" width="1100" />
 
-<img src="/img/quick-start/hubs-connected.png" alt="Bluetooth hub connected and ready" width="1100" />
+<img src={require('@site/static/img/quick-start/hubs-connected.png').default} alt="Bluetooth hub connected and ready" width="1100" />
 
-3. Select the dashboard and press **Play**.
+3. Selecione o dashboard e pressione **Play**.
 
-<img src="/img/quick-start/control-screen.png" alt="Prebuilt profile control dashboard with steering wheel and pedals" width="1100" />
+<img src={require('@site/static/img/quick-start/control-screen.png').default} alt="Prebuilt profile control dashboard with steering wheel and pedals" width="1100" />
 
-## 5. User-owned profiles
+## 5. Perfis do usuário
 
-<img src="/img/quick-start/my-profiles.png" alt="My profiles" width="420" />
+<img src={require('@site/static/img/quick-start/my-profiles.png').default} alt="My profiles" width="420" />
 
-Use **My** profiles for your own creations.
+Use **My** para seus próprios perfis.
 
-- You can create and keep as many personal profiles as you need.
-- Launch any profile directly from this page.
+- Você pode criar quantos perfis quiser.
+- Você pode iniciar qualquer perfil diretamente desta página.
 
-Follow this sequence for a user-owned profile:
+Siga esta sequência para um perfil do usuário:
 
-1. Create or import a profile.
+1. Crie ou importe um perfil.
 
-<img src="/img/quick-start/user-create-or-import.jpg" alt="Create new or import profile menu" width="420" />
+<img src={require('@site/static/img/quick-start/user-create-or-import.jpg').default} alt="Create new or import profile menu" width="420" />
 
 :::info Important
-You can create a new profile or import one from your device by selecting an already created profile file (`.dat`).
+Você pode criar um novo perfil ou importar do dispositivo um arquivo de perfil já criado (`.dat`).
 :::
 
-2. Create a new profile.
+2. Crie um novo perfil.
 
-<img src="/img/quick-start/user-create-page.png" alt="Create my own profile page" width="420" />
+<img src={require('@site/static/img/quick-start/user-create-page.png').default} alt="Create my own profile page" width="420" />
 
-Enter the desired profile name. Optionally, you can select a picture from your gallery for this profile.
+Digite o nome desejado. Opcionalmente, escolha uma imagem da sua galeria.
 
-3. Add hubs to the profile.
+3. Adicione hubs ao perfil.
 
-<img src="/img/quick-start/user-hubs-page.png" alt="My Bluetooth hubs page for user profile" width="1100" />
+<img src={require('@site/static/img/quick-start/user-hubs-page.png').default} alt="My Bluetooth hubs page for user profile" width="1100" />
 
 :::info Important
-By default, up to **2 hubs** can be added to a profile. To extend the number of allowed hubs to **5**, additional hub slots should be purchased.
+Por padrão, até **2 hubs** podem ser adicionados a um perfil. Para ampliar para **5**, é necessário comprar slots adicionais de hub.
 :::
 
-<img src="/img/quick-start/user-hub-selection.png" alt="Hub selection page" width="1100" />
+<img src={require('@site/static/img/quick-start/user-hub-selection.png').default} alt="Hub selection page" width="1100" />
 
-<img src="/img/quick-start/user-hub-connecting.png" alt="Hub connecting screen" width="1100" />
+<img src={require('@site/static/img/quick-start/user-hub-connecting.png').default} alt="Hub connecting screen" width="1100" />
 
-4. Open the program page and make the desired program for your model by connecting blocks.
+4. Abra a página de programa e monte a lógica do modelo conectando blocos.
 
-<img src="/img/quick-start/user-program-blocks.png" alt="User profile program page with connected blocks" width="1100" />
+<img src={require('@site/static/img/quick-start/user-program-blocks.png').default} alt="User profile program page with connected blocks" width="1100" />
 
-5. Open dashboard to add on-screen controllers that can be connected to hub motors.
+5. Abra o dashboard para adicionar controladores na tela que podem ser conectados aos motores do hub.
 
-<img src="/img/quick-start/user-dashboard-controllers.png" alt="User profile dashboard with controllers" width="1100" />
+<img src={require('@site/static/img/quick-start/user-dashboard-controllers.png').default} alt="User profile dashboard with controllers" width="1100" />
 
-6. Press **Play** to run the profile.
+6. Pressione **Play** para executar o perfil.
 
-You are ready to drive and iterate on your profile.
+Você está pronto para dirigir e evoluir seu perfil.
 
-## 6. Use Help when needed
+## 6. Use Help quando necessário
 
-<img src="/img/quick-start/help-page.png" alt="Help page" width="420" />
+<img src={require('@site/static/img/quick-start/help-page.png').default} alt="Help page" width="420" />
 
-The **Help** page is the central place to:
+A página **Help** permite:
 
-- Open the quick start tutorial
-- Ask a question
-- Report a bug
-- Open official MOCPilot links and community channels
+- abrir o tutorial de início rápido
+- fazer uma pergunta
+- reportar um bug
+- abrir links oficiais do MOCPilot e canais da comunidade
