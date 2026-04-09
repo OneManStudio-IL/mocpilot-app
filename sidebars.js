@@ -29,6 +29,39 @@ const sidebars = {
         'Introducing/SupportedDevices',
       ],
     },
+    {
+      type: 'category',
+      label: 'Application',
+      collapsed: false,
+      items: [
+        {
+          type: 'category',
+          label: 'BlockBuilder',
+          collapsed: false,
+          items: [
+            {
+              type: 'category',
+              label: 'Blocks',
+              collapsed: false,
+              items: [
+                'Application/BlockBuilder/Blocks/BlocksIntroducing',
+                'Application/BlockBuilder/Blocks/Light',
+                'Application/BlockBuilder/Blocks/Motors',
+                'Application/BlockBuilder/Blocks/Sensors',
+                'Application/BlockBuilder/Blocks/Events',
+                'Application/BlockBuilder/Blocks/Control',
+                'Application/BlockBuilder/Blocks/Operators',
+                'Application/BlockBuilder/Blocks/Variables',
+                'Application/BlockBuilder/Blocks/Lists',
+                'Application/BlockBuilder/Blocks/MyBlocks',
+                'Application/BlockBuilder/Blocks/DashboardControllers',
+                'Application/BlockBuilder/Blocks/Gamepad',
+              ],
+            },
+          ],
+        },
+      ],
+    },
   ],
   
   // But you can create a sidebar manually
