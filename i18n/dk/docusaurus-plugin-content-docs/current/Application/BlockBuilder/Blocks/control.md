@@ -103,7 +103,7 @@ Returnerer om hubben aktuelt er forbundet.
 
 Sætter strømtilstand for BuWizz 2-hub.
 
-- Tilstandsmuligheder: `slow`, `normal`, `fast`, `ludicrous`
+- Tilstandsmuligheder: `Slow`, `Normal`, `Fast`, `Ludicrous`
 
 ### `BuWizz 2 hent strømtilstand` {#block_hubs_buwizz_sensors_get_power_mode}
 

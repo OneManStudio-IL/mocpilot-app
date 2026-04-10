@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Tapahtumat
 
-**Tapahtumat**-kategoria sisältää lohkoja, jotka käynnistävät skriptejä, kun ehto toteutuu. :contentReference[oaicite:0]{index=0}
+**Tapahtumat**-kategoria sisältää lohkoja, jotka käynnistävät skriptejä, kun ehto toteutuu.
 
 ## Perustapahtumat
 

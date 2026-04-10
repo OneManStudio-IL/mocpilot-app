@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Moottorit
 
-Moottorilohkoja käytetään käynnistämään, pysäyttämään, asemointiin ja säätämään hubin portteihin liitettyjä moottoreita. :contentReference[oaicite:0]{index=0}
+Moottorilohkoja käytetään käynnistämään, pysäyttämään, asemointiin ja säätämään hubin portteihin liitettyjä moottoreita.
 
 ## Perusmoottorikomennot
 

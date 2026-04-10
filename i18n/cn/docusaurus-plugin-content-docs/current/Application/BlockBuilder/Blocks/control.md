@@ -103,7 +103,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 设置 BuWizz 2 主控功率模式。
 
-- 模式选项：`慢速`、`普通`、`快速`、`狂暴`
+- 模式选项：`Slow`, `Normal`, `Fast`, `Ludicrous`
 
 ### `BuWizz 2 获取功率模式` {#block_hubs_buwizz_sensors_get_power_mode}
 

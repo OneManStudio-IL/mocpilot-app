@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Sensorit
 
-Sensorilohkot lukevat hubin/laitteen tilaa ja tuottavat dataa ehdoille, tapahtumille ja ohjauslogiikalle. :contentReference[oaicite:0]{index=0}
+Sensorilohkot lukevat hubin/laitteen tilaa ja tuottavat dataa ehdoille, tapahtumille ja ohjauslogiikalle.
 
 ## Laitteen ja hubin sensorit
 
@@ -59,14 +59,14 @@ Palauttaa kiihtyvyysdatan.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
 Palauttaa kallistuskulman.
 
-- Akselit: `pitch`, `roll`, `yaw`
+- Akselit: `kallistus`, `kallistus`, `kallistus`
 
 ### `Hae suunta` {#block_hubs_sensors_get_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_get_orientation.svg')} alt="block_hubs_sensors_get_orientation.svg" />
 Palauttaa hubin suunnan.
 
 - Muoto: `teksti`, `indeksi`
-- Arvot: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Arvot: `Etuosa`, `Yläosa`, `Oikea`, `Takana`, `Pohja`, `Vasen`
 
 ### `Onko suunta ylös` {#block_hubs_all_sensors_is_orientation_up}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_orientation_up.svg')} alt="block_hubs_all_sensors_is_orientation_up.svg" />
@@ -92,13 +92,13 @@ Nollaa ajastimen.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
 Palauttaa etäisyyden.
 
-- Yksiköt: `mm`, `cm`, `inch`, `%`
+- Yksiköt: `mm`, `cm`, `tuuma`, `%`
 
 ### `Technic kun etäisyys on` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
 Tarkistaa etäisyyden ehdon.
 
-- Vaihtoehdot: `closer than`, `farther than`, `exactly at`
+- Vaihtoehdot: `lähempänä kuin`, `kauempana kuin`, `täsmälleen kohdalla`
 
 ### `Technic-värianturi arvo` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />

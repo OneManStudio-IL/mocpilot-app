@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Ohjauspaneelin ohjaimet
 
-Näitä lohkoja käytetään lukemaan käyttäjän syötteitä näytön ohjaimista, reagoimaan käyttäjän toimintoihin ja päivittämään käyttöliittymän tilaa. :contentReference[oaicite:0]{index=0}
+Näitä lohkoja käytetään lukemaan käyttäjän syötteitä näytön ohjaimista, reagoimaan käyttäjän toimintoihin ja päivittämään käyttöliittymän tilaa.
 
 ## Yleiset ohjainlohkot
 
@@ -28,7 +28,7 @@ Määrittää, voiko ohjainta käyttää.
 Jos pois päältä, ohjain ei reagoi kosketukseen.
 
 - Tyyppi: komentolohko
-- Vaihtoehdot: `käytössä`, `pois käytöstä`
+- Vaihtoehdot: `ota käyttöön`, `poista käytöstä`
 
 ## Painikelohkot
 
@@ -88,7 +88,7 @@ Käynnistyy, kun joystick liikkuu.
 Palauttaa joystickin arvon.
 
 - Tyyppi: arvopalauttava lohko
-- Akselit: `x`, `y`
+- Akselit: `X-akseli`, `Y-akseli`
 
 ## Poljinlohkot
 

@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Lohkojen esittely
 
-MOCPilot käyttää visuaalista lohkopohjaista ohjelmointijärjestelmää, joka muistuttaa Scratchia. :contentReference[oaicite:0]{index=0}  
+MOCPilot käyttää visuaalista lohkopohjaista ohjelmointijärjestelmää, joka muistuttaa Scratchia.  
 Jokaisella lohkolla on oma tehtävänsä, ja niiden yhdistelmät määrittävät ohjaus- ja tietovirran skriptissä.  
 Järjestelmä perustuu vedä-ja-pudota -logiikkaan ja Scratch-tyyliseen käyttöön, mikä tekee ohjelmien rakentamisesta helppoa ja tuttua.
 
