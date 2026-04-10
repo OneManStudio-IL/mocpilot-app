@@ -1,45 +1,45 @@
 ---
 id: Variables
-title: Variables
+title: Variablen
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Variables
+# Variablen
 
-Variables store values that can be read and updated across block stacks and scripts.
+Variablen speichern Werte, die über Blockstapel und Skripte hinweg gelesen und aktualisiert werden können.
 
-## Variable command blocks
+## Variablen-Befehlsblöcke
 
-### `Set variable to` {#block_variables_set_to}
+### `Setze Variable auf` {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
-Sets selected variable to the specified value.
+Setzt die ausgewählte Variable auf den angegebenen Wert.
 
-- Type: command block
-- Typical use: initialize state, overwrite previous value
+- Typ: Befehlsblock
+- Typische Verwendung: Zustand initialisieren, vorherigen Wert überschreiben
 
-### `Change variable by` {#block_variables_change_by}
+### `Ändere Variable um` {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
-Adds the specified amount to selected variable.
+Addiert den angegebenen Betrag zur ausgewählten Variable.
 
-- Type: command block
-- Typical use: counters, score, accumulated distance/time
+- Typ: Befehlsblock
+- Typische Verwendung: Zähler, Punktestand, kumulierte Strecke/Zeit
 
-## Variable value reporter
+## Variablenwert-Reporter
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 
-Returns the current value of the selected variable.
+Gibt den aktuellen Wert der ausgewählten Variable zurück.
 
-- Type: reporter block
-- Typical use: use variable value inside operators, conditions, and command inputs
+- Typ: Reporterblock
+- Typische Verwendung: Variablenwert in Operatoren, Bedingungen und Befehls-Eingaben nutzen
 
-## Usage notes
+## Hinweise zur Verwendung
 
-- Initialize important variables at program start.
-- Use `change by` for incremental updates to avoid repetitive get/set logic.
-- Keep variable names descriptive (`speed_target`, `is_armed`, `lap_count`).
+- Wichtige Variablen beim Programmstart initialisieren.
+- `Ändere um` für inkrementelle Updates verwenden, um wiederholte Get/Set-Logik zu vermeiden.
+- Variablennamen aussagekräftig halten (`speed_target`, `is_armed`, `lap_count`).

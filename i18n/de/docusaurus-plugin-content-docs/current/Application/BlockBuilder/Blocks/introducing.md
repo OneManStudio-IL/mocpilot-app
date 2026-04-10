@@ -1,152 +1,152 @@
 ---
 id: BlocksIntroducing
-title: Blocks Introducing
+title: Einführung In Blöcke
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Blocks Introducing
+# Einführung In Blöcke
 
-MOCPilot uses a visual block programming system that looks and feels similar to Scratch.
-Each block has a specific role, and valid combinations define control flow and data flow through a script.
-It uses drag-and-drop logic and Scratch-like interaction patterns to provide a convenient and familiar way to build programs.
+MOCPilot verwendet ein visuelles Block-Programmiersystem, das Scratch ähnlich ist.
+Jeder Block hat eine bestimmte Rolle, und gültige Kombinationen definieren den Kontroll- und Datenfluss im Skript.
+Per Drag-and-Drop und Scratch-ähnlichen Interaktionsmustern lassen sich Programme bequem und vertraut erstellen.
 
-:::warning Compatibility Notice
-This is a different block system with its own block set and behavior.
-MOCPilot programs are not compatible with Scratch projects: MOCPilot programs cannot be imported into Scratch, and Scratch programs cannot be imported into MOCPilot.
+:::warning Kompatibilitätshinweis
+Dies ist ein anderes Blocksystem mit eigenem Blocksatz und eigenem Verhalten.
+MOCPilot-Programme sind nicht mit Scratch-Projekten kompatibel: MOCPilot-Programme können nicht in Scratch importiert werden, und Scratch-Programme können nicht in MOCPilot importiert werden.
 :::
 
-## Block shapes and meaning
+## Blockformen und Bedeutung
 
-### Hat Blocks
+### Hutblöcke
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
   <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 </div>
 
-Start a script when a specific event occurs. Blocks can only be attached below.
+Starten ein Skript, wenn ein bestimmtes Ereignis eintritt. Blöcke können nur darunter angehängt werden.
 
 ---
 
-### Stack Blocks
+### Stapelblöcke
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_reset.svg')} alt="block_sensors_timer_reset.svg" />
 </div>
 
-Main command blocks that perform actions.
+Haupt-Befehlsblöcke, die Aktionen ausführen.
 
 ---
 
-### C Blocks
+### C-Blöcke
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 </div>
 
-C-shaped control blocks that contain nested block stacks (loops/conditions).
+C-förmige Steuerblöcke mit verschachtelten Blockstapeln (Schleifen/Bedingungen).
 
 ---
 
-### Reporter Blocks
+### Reporterblöcke
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 </div>
 
-Return values such as numbers or strings.
+Geben Werte wie Zahlen oder Text zurück.
 
 ---
 
-### Boolean Blocks
+### Boolesche Blöcke
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 </div>
 
-Return only `true` or `false`, typically used in conditions.
+Geben nur `true` oder `false` zurück und werden typischerweise in Bedingungen verwendet.
 
 ---
 
-### Cap Blocks
+### Endblöcke
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 </div>
 
-End scripts and do not allow blocks below.
+Beenden Skripte und erlauben keine Blöcke darunter.
 
 ---
 
-### Blocks Stack
+### Blockstapel
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks_stack.svg')} alt="blocks_stack.svg" />
 </div>
 
-A block stack is a sequence of connected blocks that runs as one script flow from top to bottom.
-Stacks usually start with an event block and then execute attached blocks in order.
+Ein Blockstapel ist eine Folge verbundener Blöcke, die als ein Skriptfluss von oben nach unten ausgeführt wird.
+Stapel beginnen meist mit einem Ereignisblock und führen dann die angehängten Blöcke der Reihe nach aus.
 
 ---
 
-## Script execution model
+## Ausführungsmodell von Skripten
 
-- A script usually starts from an event block.
-- Connected stack blocks run top to bottom.
-- Multiple scripts can run in parallel.
-- Message/broadcast blocks are used to synchronize scripts.
-- A block stack is a sequence of blocks connected together.
+- Ein Skript startet normalerweise mit einem Ereignisblock.
+- Verbundene Stapelblöcke laufen von oben nach unten.
+- Mehrere Skripte können parallel laufen.
+- Nachrichten-/Broadcast-Blöcke werden zur Synchronisierung verwendet.
+- Ein Blockstapel ist eine Folge miteinander verbundener Blöcke.
 
-## Data and values
+## Daten und Werte
 
-- Reporter blocks can be nested inside command/condition inputs.
-- Variables store reusable values across blocks and scripts.
-- Lists store ordered collections for history, queues, and lookup data.
+- Reporterblöcke können in Befehls-/Bedingungseingaben verschachtelt werden.
+- Variablen speichern wiederverwendbare Werte über Blöcke und Skripte hinweg.
+- Listen speichern geordnete Sammlungen für Verlauf, Warteschlangen und Nachschlagewerte.
 
-## Events and timing
+## Ereignisse und Timing
 
-- Event blocks react to user input, hub state, sensors, or messages.
-- Timer- and sensor-based events may trigger frequently.
-- Use thresholds, filtering, or short waits to reduce noisy repeated triggers.
+- Ereignisblöcke reagieren auf Benutzereingaben, Hub-Status, Sensoren oder Nachrichten.
+- Zeitgeber- und sensorbasierte Ereignisse können häufig auslösen.
+- Verwenden Sie Schwellenwerte, Filterung oder kurze Wartezeiten, um wiederholte Auslöser zu reduzieren.
 
-## Hub, ports, and controllers
+## Hub, Ports und Controller
 
-- Hub blocks target hub and port context.
-- Some blocks are available only for specific hub families/devices.
-- Dashboard and gamepad blocks provide runtime input and UI control.
+- Hub-Blöcke arbeiten im Hub- und Port-Kontext.
+- Einige Blöcke sind nur für bestimmte Hub-Familien/Geräte verfügbar.
+- Dashboard- und Gamepad-Blöcke liefern Laufzeiteingaben und UI-Steuerung.
 
-## Recommended workflow
+## Empfohlener Ablauf
 
-1. Start with one event block and a minimal script.
-2. Validate motor/sensor direction and ranges early.
-3. Extract repeated logic with messages and helper scripts.
-4. Add safeguards (limits, stops, fallback values) before final tuning.
+1. Beginnen Sie mit einem Ereignisblock und einem minimalen Skript.
+2. Prüfen Sie frühzeitig Richtung und Bereiche von Motoren/Sensoren.
+3. Lagern Sie wiederholte Logik mit Nachrichten und Hilfsskripten aus.
+4. Fügen Sie vor dem finalen Tuning Schutzmechanismen hinzu (Grenzen, Stopps, Fallback-Werte).
 
-## Common pitfalls
+## Häufige Fehler
 
-- Missing event entry block means script never starts.
-- Wrong hub/port selection causes no visible effect.
-- Mixing value types (text/number/boolean) can produce invalid logic.
-- High-frequency events without filtering can overload behavior.
+- Fehlt der Ereignis-Einstiegsblock, startet das Skript nie.
+- Eine falsche Hub-/Port-Auswahl führt zu keinem sichtbaren Effekt.
+- Das Mischen von Werttypen (Text/Zahl/Boolean) kann zu ungültiger Logik führen.
+- Hochfrequente Ereignisse ohne Filterung können das Verhalten überlasten.
 
-## Documentation structure in this section
+## Dokumentationsstruktur in diesem Abschnitt
 
-Use category pages in this order:
+Verwenden Sie die Kategorieseiten in dieser Reihenfolge:
 
-- Light
-- Motors
-- Sensors
-- Events
-- Control
-- Operators
-- Variables
-- Lists
-- My Blocks
-- Dashboard controllers
+- Licht
+- Motoren
+- Sensoren
+- Ereignisse
+- Steuerung
+- Operatoren
+- Variablen
+- Listen
+- Meine Blöcke
+- Dashboard-Controller
 - Gamepad

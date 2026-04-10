@@ -1,136 +1,104 @@
 ---
 id: Control
-title: Control
+title: Steuerung
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Control
+# Steuerung
 
-Control blocks manage execution flow: waiting, loops, branching, and stopping scripts.
+Steuerungsblöcke verwalten den Ausführungsfluss: Warten, Schleifen, Verzweigung und Stoppen von Skripten.
 
-## Wait blocks
+## Warteblöcke
 
-### `Wait` {#block_control_wait_for}
-
+### `Warte` {#block_control_wait_for}
 <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
+Pausiert das aktuelle Skript für eine angegebene Zeit.
 
-Pauses the current script for a specified time.
-
-### `Wait until` {#block_control_wait_until}
-
+### `Warte bis` {#block_control_wait_until}
 <img src={useBaseUrl('/img/blocks/block_control_wait_until.svg')} alt="block_control_wait_until.svg" />
+Pausiert das aktuelle Skript, bis eine Bedingung wahr wird.
 
-Pauses the current script until a condition becomes true.
+## Schleifenblöcke
 
-## Loop blocks
-
-### `Repeat` {#block_control_repeat_for}
-
+### `Wiederhole` {#block_control_repeat_for}
 <img src={useBaseUrl('/img/blocks/block_control_repeat_for.svg')} alt="block_control_repeat_for.svg" />
+Führt verschachtelte Blöcke eine feste Anzahl von Malen aus.
 
-Runs nested blocks a fixed number of times.
-
-### `Repeat until` {#block_control_repeat_until}
-
+### `Wiederhole bis` {#block_control_repeat_until}
 <img src={useBaseUrl('/img/blocks/block_control_repeat_until.svg')} alt="block_control_repeat_until.svg" />
+Wiederholt verschachtelte Blöcke, bis eine Bedingung wahr ist.
 
-Runs nested blocks repeatedly until a condition becomes true.
-
-### `Forever` {#block_control_repeat_forever}
-
+### `Fortlaufend` {#block_control_repeat_forever}
 <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
+Führt verschachtelte Blöcke dauerhaft aus, bis Programm oder Skript gestoppt wird.
 
-Runs nested blocks continuously until the program or script is stopped.
+## Verzweigungsblöcke
 
-## Branch blocks
-
-### `If` {#block_control_if}
-
+### `Wenn` {#block_control_if}
 <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
+Führt verschachtelte Blöcke nur bei wahrer Bedingung aus.
 
-Runs nested blocks only when the condition is true.
-
-### `If / Else` {#block_control_if_else}
-
+### `Wenn / Sonst` {#block_control_if_else}
 <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
+Führt einen Zweig aus, wenn die Bedingung wahr ist, sonst den alternativen Zweig.
 
-Runs one branch when the condition is true, otherwise runs the alternative branch.
-
-### `Do this and this` {#block_control_do_this_and_this}
-
+### `Tu dies und dies` {#block_control_do_this_and_this}
 <img src={useBaseUrl('/img/blocks/block_control_do_this_and_this.svg')} alt="block_control_do_this_and_this.svg" />
+Führt zwei Blockstapel nacheinander in einer Steuerungsoperation aus.
 
-Runs two block stacks in sequence as part of one control flow operation.
-
-## Stop blocks
+## Stoppblöcke
 
 ### `Stop` {#block_control_stop}
-
 <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
+Stoppt die Skriptausführung (Bereich abhängig von der gewählten Stopp-Option).
 
-Stops script execution (scope depends on selected stop option).
+- Stopp-Optionen: `alles`, `dieser Stapel`, `und Programm beenden`
 
-- Stop options: `all`, `this stack`, `and exit program`
-
-### `Stop other stacks` {#block_control_stop_other_stacks}
-
+### `Andere Stapel stoppen` {#block_control_stop_other_stacks}
 <img src={useBaseUrl('/img/blocks/block_control_stop_other_stacks.svg')} alt="block_control_stop_other_stacks.svg" />
+Stoppt alle anderen laufenden Stapel, während der aktuelle Stapel weiterläuft.
 
-Stops all other running stacks while allowing the current stack to continue.
+## Hub-/Steuerungs-Utility-Blöcke
 
-## Hub/control utility blocks
-
-### `Set connect` {#block_hubs_control_set_connect}
-
+### `Verbindung setzen` {#block_hubs_control_set_connect}
 <img src={useBaseUrl('/img/blocks/block_hubs_control_set_connect.svg')} alt="block_hubs_control_set_connect.svg" />
+Steuert den Verbindungsstatus des Hubs aus der Skriptlogik.
 
-Controls hub connection state from control flow logic.
+- Aktionsoptionen: `verbinden`, `trennen`
 
-- Action options: `connect`, `disconnect`
-
-### `Is connected` {#block_hubs_all_sensors_is_connected}
-
+### `Ist verbunden` {#block_hubs_all_sensors_is_connected}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_connected.svg')} alt="block_hubs_all_sensors_is_connected.svg" />
+Gibt zurück, ob der Hub aktuell verbunden ist.
 
-Returns whether the hub is currently connected.
+- Typ: boolescher Reporterblock
 
-- Type: boolean reporter block
-
-### `BuWizz 2 set power mode` {#block_hubs_buwizz_sensors_set_power_mode}
-
+### `BuWizz 2 Leistungsmodus setzen` {#block_hubs_buwizz_sensors_set_power_mode}
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_set_power_mode.svg')} alt="block_hubs_buwizz_sensors_set_power_mode.svg" />
+Setzt den Leistungsmodus des BuWizz-2-Hubs.
 
-Sets BuWizz 2 hub power mode.
+- Modusoptionen: `Slow`, `Normal`, `Fast`, `Ludicrous`
 
-- Mode options: `Slow`, `Normal`, `Fast`, `Ludicrous`
-
-### `BuWizz 2 get power mode` {#block_hubs_buwizz_sensors_get_power_mode}
-
+### `BuWizz 2 Leistungsmodus abfragen` {#block_hubs_buwizz_sensors_get_power_mode}
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_get_power_mode.svg')} alt="block_hubs_buwizz_sensors_get_power_mode.svg" />
+Gibt den aktuell aktiven Leistungsmodus von BuWizz 2 zurück.
 
-Returns the currently active BuWizz 2 power mode.
+- Ausgabeoptionen: `text`, `index`
 
-- Output format options: `text`, `index`
-
-### `MouldKing set control channel` {#block_hubs_mouldking_control_set_control_channel}
-
+### `MouldKing Steuerkanal setzen` {#block_hubs_mouldking_control_set_control_channel}
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_set_control_channel.svg')} alt="block_hubs_mouldking_control_set_control_channel.svg" />
+Setzt den aktiven Steuerkanal für unterstützte MouldKing-Hubs/Controller.
 
-Sets active control channel for supported MouldKing hub/controller.
+- Kanaloptionen: `A`, `B`, `C`
 
-- Channel options: `A`, `B`, `C`
-
-### `MouldKing get control channel` {#block_hubs_mouldking_control_get_control_channel}
-
+### `MouldKing Steuerkanal abfragen` {#block_hubs_mouldking_control_get_control_channel}
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_get_control_channel.svg')} alt="block_hubs_mouldking_control_get_control_channel.svg" />
+Gibt den aktuell aktiven Steuerkanal für unterstützte MouldKing-Hubs/Controller zurück.
 
-Returns current active control channel for supported MouldKing hub/controller.
+- Ausgabeoptionen: `text`, `index`
 
-- Output format options: `text`, `index`
+## Hinweise zur Verwendung
 
-## Usage notes
-
-- Use `wait until` with boolean reporter blocks from Sensors/Operators.
-- Put safety conditions in loops to avoid endless unintended behavior.
-- Prefer `if / else` when both true/false paths need explicit handling.
+- `Warte bis` mit booleschen Reportern aus Sensoren/Operatoren verwenden.
+- In Schleifen Sicherheitsbedingungen ergänzen, um unerwünschtes Endlosverhalten zu vermeiden.
+- `Wenn / Sonst` bevorzugen, wenn beide Zweige explizit behandelt werden müssen.
