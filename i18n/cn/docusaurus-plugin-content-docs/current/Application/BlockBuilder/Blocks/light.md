@@ -1,82 +1,82 @@
 ---
 id: Light
-title: Light
+title: 灯光
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Light
+# 灯光
 
-This page documents Light category blocks used to control LEDs and light outputs on supported hubs.
+本页介绍“灯光”分类中的积木，用于控制受支持主控上的 LED 与灯光输出。
 
-## Common light blocks
+## 常用灯光积木
 
-### `Set LED color` {#block_hubs_all_light_set_led_color}
+### `设置 LED 颜色` {#block_hubs_all_light_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_set_led_color.svg')} alt="block_hubs_all_light_set_led_color.svg" />
 
-Sets hub LED color using predefined color options.
+使用预设颜色选项设置主控 LED 颜色。
 
-- Type: command block
-- Typical use: show state (ready, running, warning, error)
+- 类型：命令积木
+- 常见用途：显示状态（就绪、运行中、警告、错误）
 
-### `Light turn to` {#block_hubs_all_light_light_turn_to}
+### `灯光调到` {#block_hubs_all_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_to.svg')} alt="block_hubs_all_light_light_turn_to.svg" />
 
-Sets selected light output to a target brightness/value.
+将所选灯光输出设置为目标亮度/数值。
 
-- Type: command block
-- Typical use: headlight brightness, status intensity
+- 类型：命令积木
+- 常见用途：前灯亮度、状态灯强度
 
-### `Light turn off` {#block_hubs_all_light_light_turn_off}
+### `关闭灯光` {#block_hubs_all_light_light_turn_off}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_off.svg')} alt="block_hubs_all_light_light_turn_off.svg" />
 
-Turns selected light output off.
+关闭所选灯光输出。
 
-- Type: command block
-- Typical use: shutdown sequence, battery-saving behavior
+- 类型：命令积木
+- 常见用途：关机流程、省电行为
 
-### `Technic Move light turn to` {#block_hubs_technicmove_light_light_turn_to}
+### `Technic Move 灯光调到` {#block_hubs_technicmove_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_light_light_turn_to.svg')} alt="block_hubs_technicmove_light_light_turn_to.svg" />
 
-Variant of `Light turn to` for Technic Move hub/light target.
+`Light turn to` 的 Technic Move 主控/灯光目标版本。
 
-- Type: command block
-- Typical use: set Move hub light output level
+- 类型：命令积木
+- 常见用途：设置 Move 主控的灯光输出级别
 
-## BuWizz 3 light blocks
+## BuWizz 3 灯光积木
 
-### `BuWizz 3 set LED color` {#block_hubs_buwizz3_light_port_set_led_color}
+### `BuWizz 3 设置 LED 颜色` {#block_hubs_buwizz3_light_port_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color.svg')} alt="block_hubs_buwizz3_light_port_set_led_color.svg" />
 
-Sets LED color on selected BuWizz 3 port with built-in color options.
+使用内置颜色选项设置所选 BuWizz 3 端口上的 LED 颜色。
 
-- Type: command block
+- 类型：命令积木
 
-### `BuWizz 3 set LED color (string)` {#block_hubs_buwizz3_light_port_set_led_color_string}
+### `BuWizz 3 设置 LED 颜色（字符串）` {#block_hubs_buwizz3_light_port_set_led_color_string}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_string.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_string.svg" />
 
-Sets BuWizz 3 LED color using text color value.
+使用文本颜色值设置 BuWizz 3 的 LED 颜色。
 
-- Type: command block
-- Typical use: dynamic color names from variables
+- 类型：命令积木
+- 常见用途：从变量动态读取颜色名称
 
-### `BuWizz 3 set LED color (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
+### `BuWizz 3 设置 LED 颜色（RGB）` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_rgb.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_rgb.svg" />
 
-Sets BuWizz 3 LED color using explicit RGB channels.
+使用明确的 RGB 通道值设置 BuWizz 3 的 LED 颜色。
 
-- Type: command block
-- Typical use: full custom color control and gradients
+- 类型：命令积木
+- 常见用途：完全自定义颜色控制与渐变效果
 
-## Notes
+## 说明
 
-- Light output capabilities depend on hub and connected device.
-- If a light command has no visible effect, verify device type and target port.
-- Sensor blocks that read reflected/ambient light are documented in the **Sensors** page.
+- 灯光输出能力取决于主控和已连接设备。
+- 如果灯光命令没有可见效果，请检查设备类型和目标端口是否正确。
+- 用于读取反射光/环境光的传感器积木请参考 **Sensors** 页面。

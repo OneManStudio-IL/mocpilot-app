@@ -1,84 +1,84 @@
 ---
 id: Lists
-title: Lists
+title: 列表
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Lists
+# 列表
 
-Lists store ordered collections of values and are manipulated by dedicated list Reporter and Stack blocks.
+列表用于存储有序的数据集合，并通过专用的列表 Reporter 与堆叠积木进行操作。
 
-## List mutation blocks
+## 列表修改积木
 
-### `Add value to list` {#block_lists_add}
+### `将值添加到列表` {#block_lists_add}
 
 <img src={useBaseUrl('/img/blocks/block_lists_add.svg')} alt="block_lists_add.svg" />
 
-Appends a value to the end of selected list.
+将一个值追加到所选列表末尾。
 
-### `Insert at` {#block_lists_insert_at}
+### `在位置插入` {#block_lists_insert_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_insert_at.svg')} alt="block_lists_insert_at.svg" />
 
-Inserts a value at selected index in the list.
+在列表的所选索引位置插入一个值。
 
-### `Replace at` {#block_lists_replace_at}
+### `替换位置` {#block_lists_replace_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_replace_at.svg')} alt="block_lists_replace_at.svg" />
 
-Replaces item at selected index with new value.
+将所选索引位置的项替换为新值。
 
-### `Delete` {#block_lists_delete}
+### `删除` {#block_lists_delete}
 
 <img src={useBaseUrl('/img/blocks/block_lists_delete.svg')} alt="block_lists_delete.svg" />
 
-Deletes item at selected index (or selected delete mode).
+删除所选索引位置的项（或按所选删除模式删除）。
 
-### `Clear all` {#block_lists_clear_all}
+### `清空全部` {#block_lists_clear_all}
 
 <img src={useBaseUrl('/img/blocks/block_lists_clear_all.svg')} alt="block_lists_clear_all.svg" />
 
-Removes all items from selected list.
+移除所选列表中的所有项。
 
-## List value/check blocks
+## 列表取值/检查积木
 
-### `Item at` {#block_lists_item_at}
+### `位置的项` {#block_lists_item_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_item_at.svg')} alt="block_lists_item_at.svg" />
 
-Returns value at selected index.
+返回所选索引位置的值。
 
-### `Index of value` {#block_lists_index_of_value}
+### `值的索引` {#block_lists_index_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_index_of_value.svg')} alt="block_lists_index_of_value.svg" />
 
-Returns index of the first matching value in list.
+返回列表中第一个匹配值的索引。
 
-### `Contains value` {#block_lists_contains_value}
+### `包含值` {#block_lists_contains_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_contains_value.svg')} alt="block_lists_contains_value.svg" />
 
-Returns whether list contains a specified value.
+返回列表是否包含指定值。
 
-### `Size of list` {#block_lists_size_of_value}
+### `列表长度` {#block_lists_size_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_size_of_value.svg')} alt="block_lists_size_of_value.svg" />
 
-Returns number of items in selected list.
+返回所选列表中的项数量。
 
-## List value reporter
+## 列表值积木
 
 <img src={useBaseUrl('/img/blocks/list.svg')} alt="list.svg" />
 
-Returns the current value of the selected list.
+返回所选列表的当前值。
 
-- Type: reporter block
-- Output format example: `[item1,item2,item3]`
-- Typical use: inspect current list content or pass the list value into compatible blocks
+- 类型：数值积木（Reporter）
+- 输出格式示例：`[item1,item2,item3]`
+- 常见用途：查看当前列表内容，或将列表值传入兼容积木
 
-## Usage notes
+## 使用说明
 
-- Use lists for history buffers, waypoints, recorded sensor samples, and presets.
-- Check list size before reading by index to avoid invalid access.
-- Combine `contains` and `index of` for lookup logic.
+- 列表适用于历史缓冲、路径点、记录的传感器样本和预设数据。
+- 按索引读取前先检查列表长度，避免无效访问。
+- 可结合 `包含值` 与 `值的索引` 构建查找逻辑。

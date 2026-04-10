@@ -1,162 +1,162 @@
 ---
 id: Motors
-title: Motors
+title: 电机
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Motors
+# 电机
 
-Motor blocks are used to start, stop, position, and tune motors connected to hub ports.
+电机积木用于启动、停止、定位和调节连接到主控端口的电机。
 
-## Core motor command blocks
+## 核心电机命令积木
 
-### `Start motor` {#block_hubs_all_motors_port_start_motor}
+### `启动电机` {#block_hubs_all_motors_port_start_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor.svg')} alt="block_hubs_all_motors_port_start_motor.svg" />
-Starts selected motor.
+启动所选电机。
 
-- Direction options: clockwise / counterclockwise
+- 方向选项：顺时针 / 逆时针
 
-### `Stop motor` {#block_hubs_all_motors_port_stop_motor}
+### `停止电机` {#block_hubs_all_motors_port_stop_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_stop_motor.svg')} alt="block_hubs_all_motors_port_stop_motor.svg" />
-Stops selected motor.
+停止所选电机。
 
-### `Run for` {#block_hubs_all_motors_port_run_for}
+### `运行指定量` {#block_hubs_all_motors_port_run_for}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for.svg')} alt="block_hubs_all_motors_port_run_for.svg" />
-Runs selected motor for specified time/angle/rotation based on block settings.
+根据积木设置，让所选电机按指定时间/角度/圈数运行。
 
-- Direction options: clockwise / counterclockwise
-- Unit options: `rotations`, `degrees`, `seconds`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- 方向选项：顺时针 / 逆时针
+- 单位选项：`圈数`、`角度`、`秒`
+- 说明：此功能要求所选端口上的电机支持基于编码器的控制。
 
-### `Start motor at speed` {#block_hubs_all_motors_port_start_motor_at_speed}
+### `以速度启动电机` {#block_hubs_all_motors_port_start_motor_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor_at_speed.svg')} alt="block_hubs_all_motors_port_start_motor_at_speed.svg" />
-Starts motor with explicit speed value.
+使用明确的速度值启动电机。
 
-### `Run for at speed` {#block_hubs_all_motors_port_run_for_at_speed}
+### `以速度运行指定量` {#block_hubs_all_motors_port_run_for_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for_at_speed.svg')} alt="block_hubs_all_motors_port_run_for_at_speed.svg" />
-Runs motor for a target duration/amount with explicit speed.
+以明确的速度值，让电机运行指定时长/数量。
 
-- Unit options: `rotations`, `degrees`, `seconds`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- 单位选项：`圈数`、`角度`、`秒`
+- 说明：此功能要求所选端口上的电机支持基于编码器的控制。
 
-### `Set motor speed` {#block_hubs_all_motors_port_set_motor_speed}
+### `设置电机速度` {#block_hubs_all_motors_port_set_motor_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motor_speed.svg')} alt="block_hubs_all_motors_port_set_motor_speed.svg" />
-Sets speed used by related motor run blocks.
+设置相关电机运行积木所使用的速度。
 
-## Position and movement blocks
+## 位置与运动积木
 
-### `Go to position` {#block_hubs_all_motors_port_go_to_position}
+### `前往位置` {#block_hubs_all_motors_port_go_to_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_go_to_position.svg')} alt="block_hubs_all_motors_port_go_to_position.svg" />
-Moves motor to target absolute position.
+将电机移动到目标绝对位置。
 
-- Path options: `shortest path`, `clockwise`, `counterclockwise`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- 路径选项：`最短路径`、`顺时针`、`逆时针`
+- 说明：此功能要求所选端口上的电机支持基于编码器的控制。
 
-### `Go to relative position` {#block_hubs_all_motors_port_go_to_relative_position}
+### `前往相对位置` {#block_hubs_all_motors_port_go_to_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_go_to_relative_position.svg')} alt="block_hubs_all_motors_port_go_to_relative_position.svg" />
-Moves motor by a relative offset.
+按相对偏移量移动电机。
 
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- 说明：此功能要求所选端口上的电机支持基于编码器的控制。
 
-### `BuWizz 3 go to relative position` {#block_hubs_buwizz3_motors_port_go_to_relative_position}
+### `BuWizz 3 前往相对位置` {#block_hubs_buwizz3_motors_port_go_to_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_motors_port_go_to_relative_position.svg')} alt="block_hubs_buwizz3_motors_port_go_to_relative_position.svg" />
-BuWizz 3 variant of relative positioning block.
+BuWizz 3 的相对定位积木版本。
 
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- 说明：此功能要求所选端口上的电机支持基于编码器的控制。
 
-### `Set relative position` {#block_hubs_all_motors_port_set_relative_position}
+### `设置相对位置` {#block_hubs_all_motors_port_set_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_relative_position.svg')} alt="block_hubs_all_motors_port_set_relative_position.svg" />
-Sets motor relative-position reference.
+设置电机相对位置参考点。
 
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- 说明：此功能要求所选端口上的电机支持基于编码器的控制。
 
-### `Calibrate steering rack` {#block_hubs_all_motors_port_calibrate_steering_rack}
+### `校准转向齿条` {#block_hubs_all_motors_port_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_calibrate_steering_rack.svg')} alt="block_hubs_all_motors_port_calibrate_steering_rack.svg" />
-Calibrates steering rack neutral/reference position.
+校准转向齿条的中位/参考位置。
 
-- Requirement: the motor connected to the selected port must support absolute/relative angle tracking (internal encoder).
-- Mechanical requirement: steering axis movement must be physically limited to a valid range (for example with steering rack/gearing end limits).
-- How it works: the block sweeps and measures the available steering rotation range, then computes calibration data used for steering configuration.
-- Output behavior: block arguments write results into variables passed to the block (function-like pass-by-reference behavior). Those variables are mutated by the block and should be used to read calibration results.
+- 要求：连接在所选端口上的电机必须支持绝对/相对角度跟踪（内置编码器）。
+- 机械要求：转向轴运动必须在有效范围内有物理限位（例如通过齿条/齿轮端点限位）。
+- 工作方式：该积木会扫描并测量可用转向旋转范围，然后计算用于转向配置的校准数据。
+- 输出行为：积木参数会把结果写入传入的变量（类似函数按引用传参）。这些变量会被积木修改，可用于读取校准结果。
 
-## Motor tuning and safety blocks
+## 电机调节与安全积木
 
-### `Set motor behavior at stop` {#block_hubs_all_motors_port_set_motor_to_at_stop}
+### `设置停止时电机行为` {#block_hubs_all_motors_port_set_motor_to_at_stop}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motor_to_at_stop.svg')} alt="block_hubs_all_motors_port_set_motor_to_at_stop.svg" />
-Sets motor stop mode (for example brake/hold/float based on available options).
+设置电机停止模式（例如根据可用选项选择刹车/保持/滑行）。
 
-- Stop mode options: `brake`, `hold position`, `coast`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- 停止模式选项：`刹车`、`保持位置`、`滑行`
+- 说明：此功能要求所选端口上的电机支持基于编码器的控制。
 
-### `Set stall detection` {#block_hubs_all_motors_port_set_motors_stall_detection}
+### `设置堵转检测` {#block_hubs_all_motors_port_set_motors_stall_detection}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motors_stall_detection.svg')} alt="block_hubs_all_motors_port_set_motors_stall_detection.svg" />
-Enables or disables stall detection.
+启用或禁用堵转检测。
 
-- Note: available only for the MINDSTORMS Robot Inventor hub.
+- 说明：仅适用于 MINDSTORMS Robot Inventor 主控。
 
-### `Set acceleration` {#block_hubs_all_motors_port_set_acceleration}
+### `设置加速度` {#block_hubs_all_motors_port_set_acceleration}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_acceleration.svg')} alt="block_hubs_all_motors_port_set_acceleration.svg" />
-Sets motor acceleration profile/rate.
+设置电机加速度曲线/速率。
 
-- Profile options: `default`, `fast`, `balanced`, `smooth`, `slow`, `very slow`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- 曲线选项：`默认`、`快速`、`平衡`、`平滑`、`慢速`、`很慢`
+- 说明：此功能要求所选端口上的电机支持基于编码器的控制。
 
-### `Set deceleration` {#block_hubs_all_motors_port_set_deceleration}
+### `设置减速度` {#block_hubs_all_motors_port_set_deceleration}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_deceleration.svg')} alt="block_hubs_all_motors_port_set_deceleration.svg" />
-Sets motor deceleration profile/rate.
+设置电机减速度曲线/速率。
 
-- Profile options: `default`, `fast`, `balanced`, `smooth`, `slow`, `very slow`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- 曲线选项：`默认`、`快速`、`平衡`、`平滑`、`慢速`、`很慢`
+- 说明：此功能要求所选端口上的电机支持基于编码器的控制。
 
-## Motor reporter blocks
+## 电机数值积木
 
-### `Position` {#block_hubs_all_motors_port_position}
+### `位置` {#block_hubs_all_motors_port_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_position.svg')} alt="block_hubs_all_motors_port_position.svg" />
-Returns current motor position.
+返回当前电机位置。
 
-### `Relative position` {#block_hubs_all_motors_port_relative_position}
+### `相对位置` {#block_hubs_all_motors_port_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_relative_position.svg')} alt="block_hubs_all_motors_port_relative_position.svg" />
-Returns current relative position value.
+返回当前相对位置值。
 
-### `Speed` {#block_hubs_all_motors_port_speed}
+### `速度` {#block_hubs_all_motors_port_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_speed.svg')} alt="block_hubs_all_motors_port_speed.svg" />
-Returns current motor speed.
+返回当前电机速度。
 
-### `Power` {#block_hubs_all_motors_port_power}
+### `功率` {#block_hubs_all_motors_port_power}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_power.svg')} alt="block_hubs_all_motors_port_power.svg" />
-Returns current motor power value.
+返回当前电机功率值。
 
-- Note: available only for the MINDSTORMS Robot Inventor hub.
+- 说明：仅适用于 MINDSTORMS Robot Inventor 主控。
 
-## Technic Move motor blocks
+## Technic Move 电机积木
 
-### `Start motors at speed` {#block_hubs_technicmove_motors_start_motors_at_speed}
+### `以速度启动电机组` {#block_hubs_technicmove_motors_start_motors_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_start_motors_at_speed.svg')} alt="block_hubs_technicmove_motors_start_motors_at_speed.svg" />
-Starts Technic Move drive motors at selected speed.
+以所选速度启动 Technic Move 驱动电机。
 
-### `Stop motors` {#block_hubs_technicmove_motors_stop_motors}
+### `停止电机组` {#block_hubs_technicmove_motors_stop_motors}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_stop_motors.svg')} alt="block_hubs_technicmove_motors_stop_motors.svg" />
-Stops Technic Move drive motors.
+停止 Technic Move 驱动电机。
 
-### `Brake` {#block_hubs_technicmove_motors_brake}
+### `刹车` {#block_hubs_technicmove_motors_brake}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_brake.svg')} alt="block_hubs_technicmove_motors_brake.svg" />
-Applies brake behavior to Technic Move motors.
+对 Technic Move 电机应用刹车行为。
 
-- Brake options: `off`, `on`
+- 刹车选项：`关`、`开`
 
-### `Set steering rack to` {#block_hubs_technicmove_motors_set_steering_rack_to}
+### `将转向齿条设为` {#block_hubs_technicmove_motors_set_steering_rack_to}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_set_steering_rack_to.svg')} alt="block_hubs_technicmove_motors_set_steering_rack_to.svg" />
-Sets steering rack target position/value.
+设置转向齿条目标位置/数值。
 
-### `Calibrate steering rack` {#block_hubs_technicmove_motors_calibrate_steering_rack}
+### `校准转向齿条` {#block_hubs_technicmove_motors_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_calibrate_steering_rack.svg')} alt="block_hubs_technicmove_motors_calibrate_steering_rack.svg" />
-Calibrates the Technic Move steering rack using the hub's internal calibration algorithm and automatic steering range detection.
+使用主控内部校准算法和自动转向范围检测来校准 Technic Move 转向齿条。
 
-- Note: the motor axis must be mechanically limited (for example, by a steering rack mechanism).
+- 说明：电机轴必须具备机械限位（例如通过转向齿条机构实现）。
 
-## Usage notes
+## 使用说明
 
-- Choose `go to position` for absolute targets and `go to relative position` for incremental motion.
-- Use acceleration/deceleration tuning for smoother starts and stops.
-- Enable stall detection when mechanisms can jam under load.
+- 绝对目标请使用 `前往位置`，增量运动请使用 `前往相对位置`。
+- 使用加速度/减速度调节可获得更平滑的启动与停止效果。
+- 当机构在负载下可能卡住时，请启用堵转检测。

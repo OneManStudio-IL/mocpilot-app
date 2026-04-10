@@ -1,266 +1,266 @@
 ---
 id: DashboardControllers
-title: Dashboard controllers
+title: 仪表盘控制器
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Dashboard controllers
+# 仪表盘控制器
 
-These blocks are used to read user input from on-screen controls, react to user actions, and update dashboard UI state.
+这些积木用于读取屏幕控制器的用户输入、响应用户操作，并更新仪表盘 UI 状态。
 
-## Global dashboard controller blocks
+## 全局仪表盘控制器积木
 
-### `Set controller color` {#block_dashboard_controller_all_set_color}
+### `设置控制器颜色` {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
-Changes the visual accent color of the selected dashboard controller.
+更改所选仪表盘控制器的视觉强调色。
 
-- Type: command block
-- Typical use: indicate runtime states or dynamically change controller style based on conditions
+- 类型：命令积木
+- 常见用途：指示运行状态，或根据条件动态改变控制器样式
 
-### `Set controller interactivity` {#block_dashboard_controller_all_set_interactivity}
+### `设置控制器交互性` {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
-Controls selected dashboard controller interactivity.
-If interactivity is disabled, the controller does not react to touch input.
+控制所选仪表盘控制器是否可交互。
+若禁用交互，控制器将不响应触摸输入。
 
-- Type: command block
-- Typical use: temporarily lock controls during specific logic or safety states
-- State options: `enable`, `disable`
+- 类型：命令积木
+- 常见用途：在特定逻辑阶段或安全状态下临时锁定控制
+- 状态选项：`启用`、`禁用`
 
-## Button blocks
+## 按钮积木
 
-### `Button event` {#block_dashboard_controller_button_event}
+### `按钮事件` {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
-Triggers when the dashboard button changes state (pressed/released).
+当仪表盘按钮状态变化（按下/释放）时触发。
 
-- Type: event block
-- Output: starts connected script
-- State options: `pressed`, `released`
+- 类型：事件积木
+- 输出：启动已连接脚本
+- 状态选项：`按下`、`释放`
 
-### `Button value (boolean)` {#block_dashboard_controller_button_value_boolean}
+### `按钮值（布尔）` {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
-Reports current dashboard button state.
+返回当前仪表盘按钮状态。
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `pressed`, `released`
+- 类型：值积木
+- 输出：`true`/`false`
+- 状态选项：`按下`、`释放`
 
-## D-pad blocks
+## 方向键积木
 
-### `D-pad event` {#block_dashboard_controller_dpad_event}
+### `方向键事件` {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
-Triggers when D-pad direction changes or matches configured direction.
+当方向键方向变化或匹配配置方向时触发。
 
-- Type: event block
-- Output: starts connected script
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- 类型：事件积木
+- 输出：启动已连接脚本
+- 方向选项：`上`、`下`、`左`、`右`
+- 按键状态选项：`按下`、`释放`
 
-### `D-pad value (boolean)` {#block_dashboard_controller_dpad_value_boolean}
+### `方向键值（布尔）` {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
-Reports whether a selected D-pad direction is active.
+返回所选方向键方向当前是否激活。
 
-- Type: value block
-- Output: `true`/`false`
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- 类型：值积木
+- 输出：`true`/`false`
+- 方向选项：`上`、`下`、`左`、`右`
+- 按键状态选项：`按下`、`释放`
 
-## Joystick blocks
+## 摇杆积木
 
-### `Joystick event` {#block_dashboard_controller_joystick_event}
+### `摇杆事件` {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
-Triggers when joystick position changes.
+当摇杆位置变化时触发。
 
-- Type: event block
-- Output: starts connected script
-- State options: `up`, `down`, `left`, `right`, `moved`, `released`
+- 类型：事件积木
+- 输出：启动已连接脚本
+- 状态选项：`上`、`下`、`左`、`右`、`移动`、`释放`
 
-### `Joystick value (float)` {#block_dashboard_controller_joystick_value_float}
+### `摇杆值（浮点）` {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
-Reports joystick axis value.
+返回摇杆轴数值。
 
-- Type: value block
-- Output: numeric (float), typically in a normalized range
-- Axis options: `x-axis`, `y-axis`
+- 类型：值积木
+- 输出：数值（浮点），通常为归一化范围
+- 轴选项：`X 轴`、`Y 轴`
 
-## Pedals blocks
+## 踏板积木
 
-### `Pedals event` {#block_dashboard_controller_pedals_event}
+### `踏板事件` {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
-Triggers when pedal input changes.
+当踏板输入变化时触发。
 
-- Type: event block
-- Output: starts connected script
-- Pedal options: `any`, `brake`, `acceleration`
-- State options: `moved`, `pressed`, `released`
+- 类型：事件积木
+- 输出：启动已连接脚本
+- 踏板选项：`任意`、`刹车`、`油门`
+- 状态选项：`移动`、`按下`、`释放`
 
-### `Pedals value (float)` {#block_dashboard_controller_pedals_value_float}
+### `踏板值（浮点）` {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
-Reports pedal analog value.
+返回踏板模拟量数值。
 
-- Type: value block
-- Output: numeric (float)
+- 类型：值积木
+- 输出：数值（浮点）
 
-### `Pedals value (boolean)` {#block_dashboard_controller_pedals_value_boolean}
+### `踏板值（布尔）` {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
-Returns selected state based on whether a specific pedal is pressed or released.
+根据特定踏板是否按下或释放，返回所选状态。
 
-- Type: value block
-- Output: `true`/`false`
-- Pedal options: `brake`, `acceleration`
-- State options: `pressed`, `released`
+- 类型：值积木
+- 输出：`true`/`false`
+- 踏板选项：`刹车`、`油门`
+- 状态选项：`按下`、`释放`
 
-## Slider blocks
+## 滑杆积木
 
-### `Slider event` {#block_dashboard_controller_slider_event}
+### `滑杆事件` {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
-Triggers when slider value changes.
+当滑杆值变化时触发。
 
-- Type: event block
-- Output: starts connected script
-- State options: `low`, `high`, `moved`, `released`
+- 类型：事件积木
+- 输出：启动已连接脚本
+- 状态选项：`低位`、`高位`、`移动`、`释放`
 
-### `Slider value (float)` {#block_dashboard_controller_slider_value_float}
+### `滑杆值（浮点）` {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
-Reports current slider value.
+返回当前滑杆值。
 
-- Type: value block
-- Output: numeric (float)
+- 类型：值积木
+- 输出：数值（浮点）
 
-## Stepper blocks
+## 步进器积木
 
-### `Stepper event` {#block_dashboard_controller_stepper_event}
+### `步进器事件` {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
-Triggers when stepper value changes by a step.
+当步进器值按步长变化时触发。
 
-- Type: event block
-- Output: starts connected script
-- Step options: `any`, `reset`, `minus`, `plus`
-- Button state options: `pressed`, `released`
+- 类型：事件积木
+- 输出：启动已连接脚本
+- 步进选项：`任意`、`重置`、`减`、`加`
+- 按键状态选项：`按下`、`释放`
 
-### `Stepper value (float)` {#block_dashboard_controller_stepper_value_float}
+### `步进器值（浮点）` {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
-Reports current stepper value.
+返回当前步进器值。
 
-- Type: value block
-- Output: numeric (float)
+- 类型：值积木
+- 输出：数值（浮点）
 
-## Steering wheel blocks
+## 方向盘积木
 
-### `Steering wheel event` {#block_dashboard_controller_steering_wheel_event}
+### `方向盘事件` {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
-Triggers when steering wheel position changes.
+当方向盘位置变化时触发。
 
-- Type: event block
-- Output: starts connected script
-- State options: `moved`, `pressed`, `released`
+- 类型：事件积木
+- 输出：启动已连接脚本
+- 状态选项：`移动`、`按下`、`释放`
 
-### `Steering wheel value (float)` {#block_dashboard_controller_steering_wheel_value_float}
+### `方向盘值（浮点）` {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
-Reports current steering wheel value.
+返回当前方向盘值。
 
-- Type: value block
-- Output: numeric (float)
+- 类型：值积木
+- 输出：数值（浮点）
 
-### `Steering wheel value (boolean)` {#block_dashboard_controller_steeringwheel_value_boolean}
+### `方向盘值（布尔）` {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
-Returns selected state based on whether the steering wheel is pressed or released.
+根据方向盘是否按下或释放，返回所选状态。
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `moved`, `pressed`, `released`
+- 类型：值积木
+- 输出：`true`/`false`
+- 状态选项：`移动`、`按下`、`释放`
 
-## Switch blocks
+## 开关积木
 
-### `Switch event` {#block_dashboard_controller_switch_event}
+### `开关事件` {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
-Triggers when switch state changes.
+当开关状态变化时触发。
 
-- Type: event block
-- Output: starts connected script
-- Toggle options: `on`, `off`
+- 类型：事件积木
+- 输出：启动已连接脚本
+- 切换选项：`开`、`关`
 
-### `Switch value (boolean)` {#block_dashboard_controller_switch_value_boolean}
+### `开关值（布尔）` {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
-Reports current switch state.
+返回当前开关状态。
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `on`, `off`
+- 类型：值积木
+- 输出：`true`/`false`
+- 状态选项：`开`、`关`
 
-## Monitor blocks
+## 监视器积木
 
-### `Monitor show` {#block_dashboard_controller_monitor_show}
+### `监视器显示` {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
-Displays information (text or value) on the dashboard monitor.
+在仪表盘监视器上显示信息（文本或数值）。
 
-- Type: command block
-- Typical use: show battery level, motor angle, current connected device on a hub port, and similar runtime info
+- 类型：命令积木
+- 常见用途：显示电量、电机角度、主控端口当前连接设备等运行时信息
 
-### `Monitor set value` {#block_dashboard_controller_monitor_set_value}
+### `监视器设置数值` {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
-Sets integer value for a dashboard speedometer monitor.
+为仪表盘速度表监视器设置整数值。
 
-- Type: command block
-- Typical use: update speedometer-like monitor value in runtime
+- 类型：命令积木
+- 常见用途：运行时更新类似速度表的监视器数值
 
-### `Monitor tilt set value` {#block_dashboard_controller_monitor_tilt_set_value}
+### `倾斜监视器设置数值` {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
-Sets tilt monitor value (pitch/roll) for dashboard tilt monitor.
+为仪表盘倾斜监视器设置倾斜值（俯仰/横滚）。
 
-- Type: command block
-- Typical use: display runtime tilt values in dedicated tilt monitor
-- Axis options: `pitch`, `roll`
+- 类型：命令积木
+- 常见用途：在专用倾斜监视器中显示运行时倾斜数值
+- 轴选项：`俯仰`、`横滚`
 
-## Usage notes
+## 使用说明
 
-- Event blocks are best for reacting immediately to user input changes.
-- Value blocks are best when you need current state inside loops/conditions.
-- For smooth control, combine value blocks with scaling and dead-zone logic.
-- Use interactivity/color blocks to reflect app states (armed, paused, error).
+- 事件积木最适合在用户输入变化时立即响应。
+- 值积木最适合在循环/条件中读取当前状态。
+- 为获得平滑控制，可将值积木与缩放和死区逻辑结合使用。
+- 使用交互性/颜色积木来反映应用状态（已启用、暂停、错误）。

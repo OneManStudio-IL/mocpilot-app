@@ -1,200 +1,200 @@
 ---
 id: Sensors
-title: Sensors
+title: 传感器
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Sensors
+# 传感器
 
-Sensor blocks read hub/device state and provide data for conditions, events, and control logic.
+传感器积木用于读取主控/设备状态，并为条件、事件和控制逻辑提供数据。
 
-## Device and hub sensors
+## 设备与主控传感器
 
-### `Hub battery level` {#block_hubs_all_sensors_battery_level}
+### `主控电量` {#block_hubs_all_sensors_battery_level}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_battery_level.svg')} alt="block_hubs_all_sensors_battery_level.svg" />
-Returns current hub battery level.
+返回当前主控电量。
 
-### `Device % battery` {#block_sensors_device_battery_level}
+### `设备电量 %` {#block_sensors_device_battery_level}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_battery_level.svg')} alt="block_sensors_device_battery_level.svg" />
-Returns the current battery level of the phone/tablet device running MOCPilot (in percent).
+返回运行 MOCPilot 的手机/平板设备当前电量（百分比）。
 
-### `Board temperature` {#block_hubs_all_sensors_board_temp}
+### `主板温度` {#block_hubs_all_sensors_board_temp}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_board_temp.svg')} alt="block_hubs_all_sensors_board_temp.svg" />
-Returns hub board temperature.
+返回主控主板温度。
 
-- Available only for `BuWizz 2` and `BuWizz 3`.
+- 仅适用于 `BuWizz 2` 和 `BuWizz 3`。
 
-### `Button pressed` {#block_hubs_all_sensors_button_pressed}
+### `按钮按下状态` {#block_hubs_all_sensors_button_pressed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_button_pressed.svg?v=20260409-2258')} alt="block_hubs_all_sensors_button_pressed.svg" />
-Checks whether a selected hub button matches the selected state.
+检查所选主控按钮是否匹配所选状态。
 
-- State options: `pressed`, `released`
-- Typical button option: `center` (hub-dependent)
+- 状态选项：`按下`、`释放`
+- 常见按钮选项：`中键`（取决于主控）
 
-- Note: available button options may differ by hub model (different hubs can expose different button sets).
+- 说明：可用按钮选项可能因主控型号而不同（不同主控可能暴露不同按钮集合）。
 
-### `Device type` {#block_hubs_all_motors_port_device_type}
+### `设备类型` {#block_hubs_all_motors_port_device_type}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_device_type.svg')} alt="block_hubs_all_motors_port_device_type.svg" />
-Returns connected device type for the selected port.
+返回所选端口连接的设备类型。
 
-- Type: reporter block
-- Typical use: detect what device is connected before running device-specific logic
+- 类型：数值积木（Reporter）
+- 常见用途：在运行依赖特定设备的逻辑前先检测已连接设备
 
-### `Device accelerometer` {#block_sensors_device_accelerometer_sensor_data}
+### `设备加速度计` {#block_sensors_device_accelerometer_sensor_data}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_accelerometer_sensor_data.svg')} alt="block_sensors_device_accelerometer_sensor_data.svg" />
-Returns raw accelerometer values from device sensors.
+返回设备传感器的原始加速度计数值。
 
-- Axis options: `x`, `y`, `z`
+- 轴选项：`x`、`y`、`z`
 
-### `Device acceleration` {#block_sensors_device_acceleration_sensor_data}
+### `设备加速度` {#block_sensors_device_acceleration_sensor_data}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_acceleration_sensor_data.svg')} alt="block_sensors_device_acceleration_sensor_data.svg" />
-Returns acceleration data from device sensors.
+返回设备传感器的加速度数据。
 
-- Axis options: `x`, `y`, `z`
+- 轴选项：`x`、`y`、`z`
 
-## Orientation and tilt sensors
+## 朝向与倾斜传感器
 
-### `Tilt` {#block_hubs_all_sensors_tilt}
+### `倾斜` {#block_hubs_all_sensors_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
-Returns tilt angle for the selected axis.
+返回所选轴的倾斜角度。
 
-- Axis options: `pitch`, `roll`, `yaw`
-- Note: `yaw` is available only on hubs that provide yaw data.
+- 轴选项：`俯仰`、`横滚`、`偏航`
+- 说明：`偏航` 仅在支持偏航数据的主控上可用。
 
-### `Get orientation` {#block_hubs_sensors_get_orientation}
+### `获取朝向` {#block_hubs_sensors_get_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_get_orientation.svg')} alt="block_hubs_sensors_get_orientation.svg" />
-Returns current orientation state of the hub.
+返回主控当前朝向状态。
 
-- Output format options: `text`, `index`
-- Orientation values: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- 输出格式选项：`文本`、`索引`
+- 朝向取值：`前`、`上`、`右`、`后`、`下`、`左`
 
-### `Is orientation up` {#block_hubs_all_sensors_is_orientation_up}
+### `朝上方向是否为` {#block_hubs_all_sensors_is_orientation_up}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_orientation_up.svg')} alt="block_hubs_all_sensors_is_orientation_up.svg" />
-Checks whether the hub orientation matches selected "up" orientation.
+检查主控朝向是否与所选“朝上”方向一致。
 
-- Orientation options: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- 朝向选项：`前`、`上`、`右`、`后`、`下`、`左`
 
-### `Set tilt orientation` {#block_hubs_sensors_set_tilt_orientation}
+### `设置倾斜朝向` {#block_hubs_sensors_set_tilt_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_set_tilt_orientation.svg')} alt="block_hubs_sensors_set_tilt_orientation.svg" />
-Configures orientation reference used by tilt/orientation-related blocks.
+配置倾斜/朝向相关积木使用的朝向参考。
 
-- Orientation options: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- 朝向选项：`前`、`上`、`右`、`后`、`下`、`左`
 
-## Timer and device motion sensors
+## 计时器与设备运动传感器
 
-### `Timer` {#block_sensors_timer_value_float}
+### `计时器` {#block_sensors_timer_value_float}
 <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
-Returns timer value in seconds.
+返回计时器值（秒）。
 
-### `Reset timer` {#block_sensors_timer_reset}
+### `重置计时器` {#block_sensors_timer_reset}
 <img src={useBaseUrl('/img/blocks/block_sensors_timer_reset.svg')} alt="block_sensors_timer_reset.svg" />
-Resets the timer to zero.
+将计时器重置为零。
 
-## Port sensor blocks
+## 端口传感器积木
 
-### `Technic distance sensor` {#block_hubs_all_sensors_port_technic_sensor_distance}
+### `Technic 距离传感器` {#block_hubs_all_sensors_port_technic_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
-Returns distance values from a Technic distance sensor.
+返回 Technic 距离传感器的距离值。
 
-- Unit options: `mm`, `cm`, `inch`, `%`
+- 单位选项：`毫米`、`厘米`、`英寸`、`百分比`
 
-### `Technic when distance is` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
+### `Technic 当距离为` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
-Triggers/checks distance condition for a Technic distance sensor.
+触发/检查 Technic 距离传感器的距离条件。
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `mm`, `cm`, `inch`, `%`
+- 比较选项：`小于`、`大于`、`等于`
+- 单位选项：`毫米`、`厘米`、`英寸`、`百分比`
 
-### `Technic color sensor value` {#block_hubs_all_sensors_port_technic_sensor_color}
+### `Technic 颜色传感器值` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
-Returns detected color value from a Technic distance sensor.
+返回 Technic 距离传感器检测到的颜色值。
 
-- Output options: `value`, `string`
+- 输出选项：`数值`、`字符串`
 
-### `Technic when color is` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
+### `Technic 当颜色为` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_color_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_color_is.svg" />
-Triggers/checks when detected color matches selected color.
+当检测到的颜色与所选颜色匹配时触发/检查。
 
-### `Technic reflected light` {#block_hubs_all_sensors_port_technic_sensor_reflected_light}
+### `Technic 反射光` {#block_hubs_all_sensors_port_technic_sensor_reflected_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_reflected_light.svg')} alt="block_hubs_all_sensors_port_technic_sensor_reflected_light.svg" />
-Returns reflected light intensity.
+返回反射光强度。
 
-### `Technic when reflected light is` {#block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is}
+### `Technic 当反射光为` {#block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is.svg" />
-Triggers/checks reflected light threshold condition.
+触发/检查反射光阈值条件。
 
-- Compare options: `<`, `=`, `>`
+- 比较选项：`<`、`=`、`>`
 
-### `Technic ambient light` {#block_hubs_all_sensors_port_technic_sensor_ambient_light}
+### `Technic 环境光` {#block_hubs_all_sensors_port_technic_sensor_ambient_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_ambient_light.svg')} alt="block_hubs_all_sensors_port_technic_sensor_ambient_light.svg" />
-Returns ambient light intensity.
+返回环境光强度。
 
-### `Technic when ambient light is` {#block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is}
+### `Technic 当环境光为` {#block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is.svg" />
-Triggers/checks ambient light threshold condition.
+触发/检查环境光阈值条件。
 
-- Compare options: `<`, `=`, `>`
+- 比较选项：`<`、`=`、`>`
 
-### `Technic raw color` {#block_hubs_all_sensors_port_technic_sensor_raw_color}
+### `Technic 原始颜色` {#block_hubs_all_sensors_port_technic_sensor_raw_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_raw_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_raw_color.svg" />
-Returns raw color channel value from Technic sensor.
+返回 Technic 传感器的原始颜色通道值。
 
-- Channel options: `red`, `green`, `blue`
+- 通道选项：`红`、`绿`、`蓝`
 
-### `BOOST sensor distance` {#block_hubs_all_sensors_port_boost_sensor_distance}
+### `BOOST 传感器距离` {#block_hubs_all_sensors_port_boost_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_distance.svg" />
-Returns distance from a BOOST distance sensor.
+返回 BOOST 距离传感器的距离值。
 
-- Unit options: `%`, `cm`, `inch`
+- 单位选项：`百分比`、`厘米`、`英寸`
 
-### `BOOST when distance is` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
+### `BOOST 当距离为` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_distance.svg" />
-Triggers/checks distance condition for BOOST distance sensor.
+触发/检查 BOOST 距离传感器的距离条件。
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `%`, `cm`, `inch`
+- 比较选项：`小于`、`大于`、`等于`
+- 单位选项：`百分比`、`厘米`、`英寸`
 
-### `BOOST sensor color` {#block_hubs_all_sensors_port_boost_sensor_color}
+### `BOOST 传感器颜色` {#block_hubs_all_sensors_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_color.svg" />
-Returns color detected by a BOOST sensor.
+返回 BOOST 传感器检测到的颜色。
 
-- Output options: `value`, `string`
+- 输出选项：`数值`、`字符串`
 
-### `BOOST is color` {#block_hubs_all_sensors_port_boost_sensor_is_color}
+### `BOOST 是否为颜色` {#block_hubs_all_sensors_port_boost_sensor_is_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_is_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_is_color.svg" />
-Checks whether BOOST sensor currently detects selected color.
+检查 BOOST 传感器当前是否检测到所选颜色。
 
-### `BOOST reflected light` {#block_hubs_all_sensors_port_boost_sensor_reflected_light}
+### `BOOST 反射光` {#block_hubs_all_sensors_port_boost_sensor_reflected_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_reflected_light.svg')} alt="block_hubs_all_sensors_port_boost_sensor_reflected_light.svg" />
-Returns reflected light value from BOOST sensor.
+返回 BOOST 传感器的反射光数值。
 
-### `BOOST when reflected light is` {#block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is}
+### `BOOST 当反射光为` {#block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is.svg" />
-Triggers/checks reflected light threshold condition for BOOST sensor.
+触发/检查 BOOST 传感器的反射光阈值条件。
 
-- Compare options: `<`, `=`, `>`
+- 比较选项：`<`、`=`、`>`
 
-### `Technic Move set power mode` {#block_hubs_technicmove_sensors_set_power_mode}
+### `Technic Move 设置功率模式` {#block_hubs_technicmove_sensors_set_power_mode}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_sensors_set_power_mode.svg')} alt="block_hubs_technicmove_sensors_set_power_mode.svg" />
-Sets Technic Move power mode.
+设置 Technic Move 功率模式。
 
-- Mode options: `normal`, `boost`
+- 模式选项：`normal`、`boost`
 
-### `WeDo 2 distance` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
+### `WeDo 2 距离` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_distance.svg" />
-Returns distance from WeDo 2 distance sensor.
+返回 WeDo 2 距离传感器的距离值。
 
-- Unit options: `%`, `cm`, `inch`
+- 单位选项：`百分比`、`厘米`、`英寸`
 
-### `WeDo 2 tilt` {#block_hubs_all_sensors_port_wedo2_tilt}
+### `WeDo 2 倾斜` {#block_hubs_all_sensors_port_wedo2_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
-Returns tilt value from WeDo 2 tilt sensor.
+返回 WeDo 2 倾斜传感器的倾斜值。
 
-- Axis options: `pitch`, `roll`
+- 轴选项：`俯仰`、`横滚`
 
-## Usage notes
+## 使用说明
 
-- Use sensor reporter blocks with `if`, `if/else`, and `wait until` for reactive logic.
-- Combine sensor values with Operators blocks to build thresholds and conditions.
-- Check `Device type` before sending commands that depend on specific connected hardware.
+- 在响应式逻辑中，可将传感器数值积木与条件判断和等待条件类积木配合使用。
+- 将传感器值与 Operators 积木组合，以构建阈值和条件判断。
+- 在发送依赖特定连接硬件的命令前，请先检查 `设备类型`。

@@ -1,136 +1,136 @@
 ---
 id: Control
-title: Control
+title: 控制
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Control
+# 控制
 
-Control blocks manage execution flow: waiting, loops, branching, and stopping scripts.
+控制类积木用于管理执行流程：等待、循环、分支以及停止脚本。
 
-## Wait blocks
+## 等待积木
 
-### `Wait` {#block_control_wait_for}
+### `等待` {#block_control_wait_for}
 
 <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
 
-Pauses the current script for a specified time.
+将当前脚本暂停指定时间。
 
-### `Wait until` {#block_control_wait_until}
+### `等待直到` {#block_control_wait_until}
 
 <img src={useBaseUrl('/img/blocks/block_control_wait_until.svg')} alt="block_control_wait_until.svg" />
 
-Pauses the current script until a condition becomes true.
+将当前脚本暂停，直到条件变为真。
 
-## Loop blocks
+## 循环积木
 
-### `Repeat` {#block_control_repeat_for}
+### `重复` {#block_control_repeat_for}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_for.svg')} alt="block_control_repeat_for.svg" />
 
-Runs nested blocks a fixed number of times.
+按固定次数重复执行嵌套积木。
 
-### `Repeat until` {#block_control_repeat_until}
+### `重复直到` {#block_control_repeat_until}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_until.svg')} alt="block_control_repeat_until.svg" />
 
-Runs nested blocks repeatedly until a condition becomes true.
+重复执行嵌套积木，直到条件变为真。
 
-### `Forever` {#block_control_repeat_forever}
+### `永远重复` {#block_control_repeat_forever}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 
-Runs nested blocks continuously until the program or script is stopped.
+持续执行嵌套积木，直到程序或脚本被停止。
 
-## Branch blocks
+## 分支积木
 
-### `If` {#block_control_if}
+### `如果` {#block_control_if}
 
 <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
 
-Runs nested blocks only when the condition is true.
+仅在条件为真时执行嵌套积木。
 
-### `If / Else` {#block_control_if_else}
+### `如果 / 否则` {#block_control_if_else}
 
 <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 
-Runs one branch when the condition is true, otherwise runs the alternative branch.
+当条件为真时执行一个分支，否则执行另一个分支。
 
-### `Do this and this` {#block_control_do_this_and_this}
+### `执行这个和这个` {#block_control_do_this_and_this}
 
 <img src={useBaseUrl('/img/blocks/block_control_do_this_and_this.svg')} alt="block_control_do_this_and_this.svg" />
 
-Runs two block stacks in sequence as part of one control flow operation.
+在一次控制流程操作中，按顺序执行两个积木堆。
 
-## Stop blocks
+## 停止积木
 
-### `Stop` {#block_control_stop}
+### `停止` {#block_control_stop}
 
 <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
 
-Stops script execution (scope depends on selected stop option).
+停止脚本执行（作用范围取决于所选停止选项）。
 
-- Stop options: `all`, `this stack`, `and exit program`
+- 停止选项：`全部`、`当前积木堆`、`并退出程序`
 
-### `Stop other stacks` {#block_control_stop_other_stacks}
+### `停止其他积木堆` {#block_control_stop_other_stacks}
 
 <img src={useBaseUrl('/img/blocks/block_control_stop_other_stacks.svg')} alt="block_control_stop_other_stacks.svg" />
 
-Stops all other running stacks while allowing the current stack to continue.
+停止所有其他正在运行的积木堆，同时允许当前积木堆继续执行。
 
-## Hub/control utility blocks
+## 主控/控制工具积木
 
-### `Set connect` {#block_hubs_control_set_connect}
+### `设置连接` {#block_hubs_control_set_connect}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_control_set_connect.svg')} alt="block_hubs_control_set_connect.svg" />
 
-Controls hub connection state from control flow logic.
+在控制流程逻辑中控制主控连接状态。
 
-- Action options: `connect`, `disconnect`
+- 动作选项：`连接`、`断开连接`
 
-### `Is connected` {#block_hubs_all_sensors_is_connected}
+### `是否已连接` {#block_hubs_all_sensors_is_connected}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_connected.svg')} alt="block_hubs_all_sensors_is_connected.svg" />
 
-Returns whether the hub is currently connected.
+返回主控当前是否已连接。
 
-- Type: boolean reporter block
+- 类型：布尔数值积木
 
-### `BuWizz 2 set power mode` {#block_hubs_buwizz_sensors_set_power_mode}
+### `BuWizz 2 设置功率模式` {#block_hubs_buwizz_sensors_set_power_mode}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_set_power_mode.svg')} alt="block_hubs_buwizz_sensors_set_power_mode.svg" />
 
-Sets BuWizz 2 hub power mode.
+设置 BuWizz 2 主控功率模式。
 
-- Mode options: `Slow`, `Normal`, `Fast`, `Ludicrous`
+- 模式选项：`慢速`、`普通`、`快速`、`狂暴`
 
-### `BuWizz 2 get power mode` {#block_hubs_buwizz_sensors_get_power_mode}
+### `BuWizz 2 获取功率模式` {#block_hubs_buwizz_sensors_get_power_mode}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_get_power_mode.svg')} alt="block_hubs_buwizz_sensors_get_power_mode.svg" />
 
-Returns the currently active BuWizz 2 power mode.
+返回当前激活的 BuWizz 2 功率模式。
 
-- Output format options: `text`, `index`
+- 输出格式选项：`文本`、`索引`
 
-### `MouldKing set control channel` {#block_hubs_mouldking_control_set_control_channel}
+### `MouldKing 设置控制通道` {#block_hubs_mouldking_control_set_control_channel}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_set_control_channel.svg')} alt="block_hubs_mouldking_control_set_control_channel.svg" />
 
-Sets active control channel for supported MouldKing hub/controller.
+为受支持的 MouldKing 主控/控制器设置当前控制通道。
 
-- Channel options: `A`, `B`, `C`
+- 通道选项：`A`、`B`、`C`
 
-### `MouldKing get control channel` {#block_hubs_mouldking_control_get_control_channel}
+### `MouldKing 获取控制通道` {#block_hubs_mouldking_control_get_control_channel}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_get_control_channel.svg')} alt="block_hubs_mouldking_control_get_control_channel.svg" />
 
-Returns current active control channel for supported MouldKing hub/controller.
+返回受支持的 MouldKing 主控/控制器当前控制通道。
 
-- Output format options: `text`, `index`
+- 输出格式选项：`文本`、`索引`
 
-## Usage notes
+## 使用说明
 
-- Use `wait until` with boolean reporter blocks from Sensors/Operators.
-- Put safety conditions in loops to avoid endless unintended behavior.
-- Prefer `if / else` when both true/false paths need explicit handling.
+- 将 `等待直到` 与来自 Sensors/Operators 的布尔数值积木配合使用。
+- 在循环中加入安全条件，避免出现无尽且非预期的行为。
+- 当真/假两条路径都需要明确处理时，优先使用 `如果 / 否则`。

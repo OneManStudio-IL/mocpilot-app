@@ -1,34 +1,34 @@
 ---
 id: MyBlocks
-title: My Blocks
+title: 我的模块
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# My Blocks
+# 我的模块
 
-My Blocks let you define your own custom reusable block.
-This category is conceptually similar to creating a function in traditional programming: define behavior once, then call it many times.
+“我的模块”允许你定义自己的可复用自定义积木。
+这个分类在概念上类似传统编程中的函数：定义一次行为，多次调用。
 
-## Core My Blocks
+## 核心模块
 
-### `Make a Block`
+### `创建一个块`
 
-Creates a new custom block definition.
+创建一个新的自定义积木定义。
 
-- Type: definition/setup block
-- Typical use: group repeated logic into one named block
+- 类型：定义/设置积木
+- 常见用途：将重复逻辑归纳到一个命名积木中
 
 ### `MyBlock` (call block)
 
-Calls a previously created custom block.
+调用之前创建的自定义积木。
 
-- Type: stack block (custom command call)
-- Typical use: reuse the same logic in multiple places without duplicating block stacks
+- 类型：堆叠积木（自定义命令调用）
+- 常见用途：在多个位置复用同一逻辑，而无需复制整段积木堆
 
-## Variadic examples
+## 可变参数示例
 
-These examples show custom My Blocks with different argument signatures.
+这些示例展示了不同参数签名的自定义模块。
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758091855.svg')} alt="block_myblock_1775758091855.svg" />
@@ -40,30 +40,30 @@ These examples show custom My Blocks with different argument signatures.
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758145135.svg')} alt="block_myblock_1775758145135.svg" />
 </div>
 
-## Example usage in program stack
+## 程序积木堆中的使用示例
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-usage-example.png')} alt="my-blocks-usage-example.png" />
 
-This example shows a custom block call attached under `when program starts`, while the `define my block` stack contains the reusable motor logic.
+该示例展示了在 `当程序启动时` 下方调用自定义积木，同时 `定义我的积木` 积木堆中包含可复用的电机逻辑。
 
-- Typical flow: call custom block from event stacks
-- Benefit: one definition, many call sites
+- 典型流程：从事件积木堆中调用自定义积木
+- 优势：一次定义，多处调用
 
-## My Block editor view
+## My Block 编辑器视图
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-editor-cropped.png')} alt="my-blocks-editor-cropped.png" />
 
-The Make a Block editor is used to design your custom block signature.
-You can add labels and inputs (for example number/text and boolean inputs), then define implementation logic in the block definition stack.
+Make a Block 编辑器用于设计自定义积木签名。
+你可以添加标签和输入（例如数字/文本输入与布尔输入），然后在积木定义堆中编写实现逻辑。
 
-## Why use My Blocks
+## 为什么使用 My Blocks
 
-- Reusability: write once, call many times.
-- Readability: replace long repeated stacks with one meaningful name.
-- Maintainability: update logic in one place instead of many copies.
-- Structure: split large programs into smaller logical units.
+- 可复用性：写一次，多次调用。
+- 可读性：用一个语义明确的名称替代冗长重复的积木堆。
+- 可维护性：在一个位置更新逻辑，而不是修改多份副本。
+- 结构化：将大型程序拆分为更小的逻辑单元。
 
-## Notes
+## 说明
 
-- Custom blocks are project-level and intended for reuse inside the same profile/project context.
-- Prefer descriptive names that explain intent, not implementation details.
+- 自定义积木是项目级别，主要用于在同一配置/项目上下文中复用。
+- 建议使用能表达意图的命名，而不是实现细节命名。
