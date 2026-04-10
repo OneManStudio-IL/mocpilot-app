@@ -29,7 +29,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: командний блок
 - Типове використання: тимчасово заблокувати керування під час певної логіки або в режимах безпеки
-- Варіанти стану: `enable`, `disable`
+- Варіанти стану: `увімкнути`, `вимкнути`
 
 ## Блоки кнопок
 
@@ -37,11 +37,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
-Спрацьовує, коли стан кнопки на екрані змінюється (`pressed`/`released`).
+Спрацьовує, коли стан кнопки на екрані змінюється (`натиснуто`/`відпущено`).
 
 - Тип: блок події
 - Результат: запускає підключений скрипт
-- Варіанти стану: `pressed`, `released`
+- Варіанти стану: `натиснуто`, `відпущено`
 
 ### `Стан кнопки (boolean)` {#block_dashboard_controller_button_value_boolean}
 
@@ -50,8 +50,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Повертає поточний стан кнопки на екрані.
 
 - Тип: блок-репортер
-- Результат: `true`/`false`
-- Варіанти стану: `pressed`, `released`
+- Результат: `істина`/`хиба`
+- Варіанти стану: `натиснуто`, `відпущено`
 
 ## Блоки D-pad
 
@@ -63,8 +63,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: блок події
 - Результат: запускає підключений скрипт
-- Варіанти напрямку: `up`, `down`, `left`, `right`
-- Варіанти стану кнопки: `pressed`, `released`
+- Варіанти напрямку: `вгору`, `вниз`, `ліворуч`, `праворуч`
+- Варіанти стану кнопки: `натиснуто`, `відпущено`
 
 ### `Стан D-pad (boolean)` {#block_dashboard_controller_dpad_value_boolean}
 
@@ -73,9 +73,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Повертає, чи активний вибраний напрямок D-pad.
 
 - Тип: блок-репортер
-- Результат: `true`/`false`
-- Варіанти напрямку: `up`, `down`, `left`, `right`
-- Варіанти стану кнопки: `pressed`, `released`
+- Результат: `істина`/`хиба`
+- Варіанти напрямку: `вгору`, `вниз`, `ліворуч`, `праворуч`
+- Варіанти стану кнопки: `натиснуто`, `відпущено`
 
 ## Блоки джойстика
 
@@ -87,7 +87,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: блок події
 - Результат: запускає підключений скрипт
-- Варіанти стану: `up`, `down`, `left`, `right`, `moved`, `released`
+- Варіанти стану: `вгору`, `вниз`, `ліворуч`, `праворуч`, `переміщено`, `відпущено`
 
 ### `Значення джойстика (float)` {#block_dashboard_controller_joystick_value_float}
 
@@ -97,7 +97,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: блок-репортер
 - Результат: числове значення (float), зазвичай у нормалізованому діапазоні
-- Варіанти осі: `x-axis`, `y-axis`
+- Варіанти осі: `вісь X`, `вісь Y`
 
 ## Блоки педалей
 
@@ -109,8 +109,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: блок події
 - Результат: запускає підключений скрипт
-- Варіанти педалі: `any`, `brake`, `acceleration`
-- Варіанти стану: `moved`, `pressed`, `released`
+- Варіанти педалі: `будь-яка`, `гальмо`, `прискорення`
+- Варіанти стану: `переміщено`, `натиснуто`, `відпущено`
 
 ### `Значення педалей (float)` {#block_dashboard_controller_pedals_value_float}
 
@@ -128,9 +128,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Повертає вибраний стан залежно від того, натиснута чи відпущена конкретна педаль.
 
 - Тип: блок-репортер
-- Результат: `true`/`false`
-- Варіанти педалі: `brake`, `acceleration`
-- Варіанти стану: `pressed`, `released`
+- Результат: `істина`/`хиба`
+- Варіанти педалі: `гальмо`, `прискорення`
+- Варіанти стану: `натиснуто`, `відпущено`
 
 ## Блоки слайдера
 
@@ -142,7 +142,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: блок події
 - Результат: запускає підключений скрипт
-- Варіанти стану: `low`, `high`, `moved`, `released`
+- Варіанти стану: `низький`, `високий`, `переміщено`, `відпущено`
 
 ### `Значення слайдера (float)` {#block_dashboard_controller_slider_value_float}
 
@@ -163,8 +163,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: блок події
 - Результат: запускає підключений скрипт
-- Варіанти кроку: `any`, `reset`, `minus`, `plus`
-- Варіанти стану кнопки: `pressed`, `released`
+- Варіанти кроку: `будь-яка`, `скидання`, `мінус`, `плюс`
+- Варіанти стану кнопки: `натиснуто`, `відпущено`
 
 ### `Значення степера (float)` {#block_dashboard_controller_stepper_value_float}
 
@@ -185,7 +185,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: блок події
 - Результат: запускає підключений скрипт
-- Варіанти стану: `moved`, `pressed`, `released`
+- Варіанти стану: `переміщено`, `натиснуто`, `відпущено`
 
 ### `Значення керма (float)` {#block_dashboard_controller_steering_wheel_value_float}
 
@@ -203,8 +203,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Повертає вибраний стан залежно від того, натиснуте, відпущене або зміщене кермо.
 
 - Тип: блок-репортер
-- Результат: `true`/`false`
-- Варіанти стану: `moved`, `pressed`, `released`
+- Результат: `істина`/`хиба`
+- Варіанти стану: `переміщено`, `натиснуто`, `відпущено`
 
 ## Блоки перемикача
 
@@ -216,7 +216,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: блок події
 - Результат: запускає підключений скрипт
-- Варіанти перемикача: `on`, `off`
+- Варіанти перемикача: `увімкнено`, `вимкнено`
 
 ### `Стан перемикача (boolean)` {#block_dashboard_controller_switch_value_boolean}
 
@@ -225,8 +225,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Повертає поточний стан перемикача.
 
 - Тип: блок-репортер
-- Результат: `true`/`false`
-- Варіанти стану: `on`, `off`
+- Результат: `істина`/`хиба`
+- Варіанти стану: `увімкнено`, `вимкнено`
 
 ## Блоки монітора
 
@@ -252,8 +252,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
-Встановлює значення для монітора нахилу (pitch/roll) на екрані.
+Встановлює значення для монітора нахилу (тангаж/крен) на екрані.
 
 - Тип: командний блок
 - Типове використання: показ значень нахилу в реальному часі на окремому моніторі нахилу
-- Варіанти осі: `pitch`, `roll`
+- Варіанти осі: `тангаж`, `крен`

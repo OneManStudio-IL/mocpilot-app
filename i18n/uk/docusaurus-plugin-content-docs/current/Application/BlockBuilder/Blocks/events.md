@@ -73,7 +73,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Спрацьовує, коли натискається головна кнопка хаба.
 
-- Варіанти стану: `pressed`, `released`, `changed`
+- Варіанти стану: `натиснуто`, `відпущено`, `змінено`
 - Примітка: доступні варіанти кнопок можуть відрізнятися залежно від моделі хаба.
 
 ### `Зміна підключення хаба` {#block_hubs_all_event_connection_changed}
@@ -106,14 +106,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Спрацьовує, коли змінюється значення нахилу.
 
-- Варіанти кута: `any`, `pitch`, `roll`, `yaw`
-- Примітка: `yaw` доступний лише на хабах, які надають дані yaw.
+- Варіанти кута: `будь-яка`, `тангаж`, `крен`, `рискання`
+- Примітка: `рискання` доступне лише на хабах, які надають дані рискання.
 
 ### `Зміна орієнтації хаба` {#block_hubs_all_event_tilt_orientation_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_orientation_changed.svg')} alt="block_hubs_all_event_tilt_orientation_changed.svg" />
 
-Спрацьовує, коли змінюється стан орієнтації (наприклад, front/up/down/left/right).
+Спрацьовує, коли змінюється стан орієнтації (наприклад, перед/вгору/вниз/ліворуч/праворуч).
 
 ## Події портових датчиків
 
@@ -123,7 +123,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Спрацьовує, коли датчик кольору Technic повертає вибраний колір/значення.
 
-- Варіанти одиниць (залежно від режиму): `%`, `cm`, `inch`
+- Варіанти одиниць (залежно від режиму): `відсоток`, `см`, `дюйм`
 
 ### `Подія датчика відстані Technic` {#block_hubs_all_event_port_technic_sensor_distance}
 
@@ -131,8 +131,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Спрацьовує, коли значення відстані датчика Technic відповідають вибраній умові.
 
-- Варіанти порівняння: `closer than`, `farther than`, `exactly at`
-- Варіанти одиниць: `mm`, `cm`, `inch`, `%`
+- Варіанти порівняння: `ближче ніж`, `далі ніж`, `точно на`
+- Варіанти одиниць: `мм`, `см`, `дюйм`, `відсоток`
 - Примітка: доступні одиниці можуть залежати від режиму датчика та підключеного пристрою.
 
 ### `Подія датчика відстані BOOST` {#block_hubs_all_event_port_boost_sensor_when_distance}
@@ -141,8 +141,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Спрацьовує, коли датчик відстані BOOST досягає вибраного порога/умови.
 
-- Варіанти порівняння: `closer than`, `farther than`, `exactly at`
-- Варіанти одиниць: `%`, `cm`, `inch`
+- Варіанти порівняння: `ближче ніж`, `далі ніж`, `точно на`
+- Варіанти одиниць: `відсоток`, `см`, `дюйм`
 
 ### `Подія датчика кольору BOOST` {#block_hubs_all_event_port_boost_sensor_color}
 

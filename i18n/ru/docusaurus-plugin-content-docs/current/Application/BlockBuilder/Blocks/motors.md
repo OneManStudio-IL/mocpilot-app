@@ -15,7 +15,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor.svg')} alt="block_hubs_all_motors_port_start_motor.svg" />
 Запускает выбранный мотор.
 
-- Варианты направления: clockwise / counterclockwise
+- Варианты направления: по часовой стрелке / против часовой стрелки
 
 ### `Остановить мотор` {#block_hubs_all_motors_port_stop_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_stop_motor.svg')} alt="block_hubs_all_motors_port_stop_motor.svg" />
@@ -25,8 +25,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for.svg')} alt="block_hubs_all_motors_port_run_for.svg" />
 Запускает выбранный мотор на заданное время/угол/обороты в зависимости от настроек блока.
 
-- Варианты направления: clockwise / counterclockwise
-- Варианты единиц: `rotations`, `degrees`, `seconds`
+- Варианты направления: по часовой стрелке / против часовой стрелки
+- Варианты единиц: `обороты`, `градусы`, `секунды`
 - Примечание: эта функция требует мотор на выбранном порту с поддержкой энкодерного управления.
 
 ### `Запустить мотор со скоростью` {#block_hubs_all_motors_port_start_motor_at_speed}
@@ -37,7 +37,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for_at_speed.svg')} alt="block_hubs_all_motors_port_run_for_at_speed.svg" />
 Запускает мотор на заданную длительность/величину с явно заданной скоростью.
 
-- Варианты единиц: `rotations`, `degrees`, `seconds`
+- Варианты единиц: `обороты`, `градусы`, `секунды`
 - Примечание: эта функция требует мотор на выбранном порту с поддержкой энкодерного управления.
 
 ### `Установить скорость мотора` {#block_hubs_all_motors_port_set_motor_speed}
@@ -50,7 +50,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_go_to_position.svg')} alt="block_hubs_all_motors_port_go_to_position.svg" />
 Перемещает мотор в целевую абсолютную позицию.
 
-- Варианты пути: `shortest path`, `clockwise`, `counterclockwise`
+- Варианты пути: `кратчайший путь`, `по часовой стрелке`, `против часовой стрелки`
 - Примечание: эта функция требует мотор на выбранном порту с поддержкой энкодерного управления.
 
 ### `Перейти к относительной позиции` {#block_hubs_all_motors_port_go_to_relative_position}
@@ -85,7 +85,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motor_to_at_stop.svg')} alt="block_hubs_all_motors_port_set_motor_to_at_stop.svg" />
 Задает поведение мотора при остановке.
 
-- Варианты режима остановки: `brake`, `hold position`, `coast`
+- Варианты режима остановки: `тормоз`, `hold position`, `coast`
 - Примечание: эта функция требует мотор на выбранном порту с поддержкой энкодерного управления.
 
 ### `Установить обнаружение заклинивания` {#block_hubs_all_motors_port_set_motors_stall_detection}
@@ -142,7 +142,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_brake.svg')} alt="block_hubs_technicmove_motors_brake.svg" />
 Применяет режим торможения к моторам Technic Move.
 
-- Варианты торможения: `off`, `on`
+- Варианты торможения: `выкл`, `вкл`
 
 ### `Установить рулевую рейку в` {#block_hubs_technicmove_motors_set_steering_rack_to}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_set_steering_rack_to.svg')} alt="block_hubs_technicmove_motors_set_steering_rack_to.svg" />
@@ -156,6 +156,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Примечания по использованию
 
-- Используйте `go to position` для абсолютных целей, а `go to relative position` для инкрементальных перемещений.
-- Настройки acceleration/deceleration помогают сделать старт и остановку плавнее.
-- Включайте stall detection, когда механизм может заклинивать под нагрузкой.
+- Используйте `перейти к позиции` для абсолютных целей, а `перейти к относительной позиции` для инкрементальных перемещений.
+- Настройки ускорения/замедления помогают сделать старт и остановку плавнее.
+- Включайте обнаружение заклинивания, когда механизм может заклинивать под нагрузкой.

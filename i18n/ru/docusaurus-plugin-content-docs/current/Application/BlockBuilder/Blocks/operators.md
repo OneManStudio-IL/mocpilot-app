@@ -77,33 +77,33 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### `Равно` {#block_operator_equal}
 <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
-Возвращает `true`, когда два значения равны.
+Возвращает `истина`, когда два значения равны.
 
 ### `Не равно` {#block_operator_not_equal}
 <img src={useBaseUrl('/img/blocks/block_operator_not_equal.svg')} alt="block_operator_not_equal.svg" />
-Возвращает `true`, когда два значения не равны.
+Возвращает `истина`, когда два значения не равны.
 
 ### `Больше чем` {#block_operator_greater_than}
 <img src={useBaseUrl('/img/blocks/block_operator_greater_than.svg')} alt="block_operator_greater_than.svg" />
-Возвращает `true`, когда левое значение больше правого.
+Возвращает `истина`, когда левое значение больше правого.
 
 ### `Меньше чем` {#block_operator_less_than}
 <img src={useBaseUrl('/img/blocks/block_operator_less_than.svg')} alt="block_operator_less_than.svg" />
-Возвращает `true`, когда левое значение меньше правого.
+Возвращает `истина`, когда левое значение меньше правого.
 
 ### `Между` {#block_operator_is_in_between}
 <img src={useBaseUrl('/img/blocks/block_operator_is_in_between.svg')} alt="block_operator_is_in_between.svg" />
-Возвращает `true`, когда значение находится в заданных границах.
+Возвращает `истина`, когда значение находится в заданных границах.
 
 ## Логические операторы
 
 ### `И` {#block_operator_and}
 <img src={useBaseUrl('/img/blocks/block_operator_and.svg')} alt="block_operator_and.svg" />
-Возвращает `true` только если оба условия равны `true`.
+Возвращает `истина` только если оба условия равны `истина`.
 
 ### `Или` {#block_operator_or}
 <img src={useBaseUrl('/img/blocks/block_operator_or.svg')} alt="block_operator_or.svg" />
-Возвращает `true`, если хотя бы одно условие равно `true`.
+Возвращает `истина`, если хотя бы одно условие равно `истина`.
 
 ### `Не` {#block_operator_not}
 <img src={useBaseUrl('/img/blocks/block_operator_not.svg')} alt="block_operator_not.svg" />
@@ -125,7 +125,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### `Строка содержит` {#block_operator_string_contains}
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
-Возвращает `true`, если текст содержит указанную подстроку.
+Возвращает `истина`, если текст содержит указанную подстроку.
 
 ## Примечания по использованию
 

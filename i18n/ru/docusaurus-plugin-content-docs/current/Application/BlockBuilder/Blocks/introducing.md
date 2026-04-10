@@ -69,7 +69,7 @@ MOCPilot использует визуальную систему блочног
   <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 </div>
 
-Возвращают только `true` или `false`, обычно используются в условиях.
+Возвращают только `истина` или `ложь`, обычно используются в условиях.
 
 ---
 

@@ -87,7 +87,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Керує станом підключення хаба з логіки керування.
 
-- Варіанти дії: `connect`, `disconnect`
+- Варіанти дії: `підключити`, `відключити`
 
 ### `Підключено?` {#block_hubs_all_sensors_is_connected}
 
@@ -111,7 +111,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Повертає поточний активний режим потужності BuWizz 2.
 
-- Варіанти формату виводу: `text`, `index`
+- Варіанти формату виводу: `текст`, `індекс`
 
 ### `MouldKing: встановити канал керування` {#block_hubs_mouldking_control_set_control_channel}
 
@@ -127,7 +127,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Повертає поточний активний канал керування для підтримуваного хаба/контролера MouldKing.
 
-- Варіанти формату виводу: `text`, `index`
+- Варіанти формату виводу: `текст`, `індекс`
 
 ## Примітки щодо використання
 

@@ -97,31 +97,31 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
 
-Повертає `true`, коли два значення рівні.
+Повертає `істина`, коли два значення рівні.
 
 ### `Не дорівнює` {#block_operator_not_equal}
 
 <img src={useBaseUrl('/img/blocks/block_operator_not_equal.svg')} alt="block_operator_not_equal.svg" />
 
-Повертає `true`, коли два значення не рівні.
+Повертає `істина`, коли два значення не рівні.
 
 ### `Більше ніж` {#block_operator_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_greater_than.svg')} alt="block_operator_greater_than.svg" />
 
-Повертає `true`, коли ліве значення більше за праве.
+Повертає `істина`, коли ліве значення більше за праве.
 
 ### `Менше ніж` {#block_operator_less_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_less_than.svg')} alt="block_operator_less_than.svg" />
 
-Повертає `true`, коли ліве значення менше за праве.
+Повертає `істина`, коли ліве значення менше за праве.
 
 ### `У межах` {#block_operator_is_in_between}
 
 <img src={useBaseUrl('/img/blocks/block_operator_is_in_between.svg')} alt="block_operator_is_in_between.svg" />
 
-Повертає `true`, коли значення лежить у заданих межах.
+Повертає `істина`, коли значення лежить у заданих межах.
 
 ## Логічні оператори
 
@@ -129,13 +129,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/blocks/block_operator_and.svg')} alt="block_operator_and.svg" />
 
-Повертає `true` лише тоді, коли обидві умови мають значення `true`.
+Повертає `істина` лише тоді, коли обидві умови мають значення `істина`.
 
 ### `Або` {#block_operator_or}
 
 <img src={useBaseUrl('/img/blocks/block_operator_or.svg')} alt="block_operator_or.svg" />
 
-Повертає `true`, якщо хоча б одна умова має значення `true`.
+Повертає `істина`, якщо хоча б одна умова має значення `істина`.
 
 ### `Не` {#block_operator_not}
 
@@ -167,7 +167,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 
-Повертає `true`, якщо текст містить вказаний підрядок.
+Повертає `істина`, якщо текст містить вказаний підрядок.
 
 ## Примітки щодо використання
 

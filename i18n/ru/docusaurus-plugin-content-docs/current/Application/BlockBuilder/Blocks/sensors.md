@@ -29,7 +29,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_button_pressed.svg?v=20260409-2258')} alt="block_hubs_all_sensors_button_pressed.svg" />
 Проверяет, соответствует ли выбранная кнопка хаба выбранному состоянию.
 
-- Варианты состояния: `pressed`, `released`
+- Варианты состояния: `нажата`, `отпущена`
 - Типичный вариант кнопки: `center` (зависит от хаба)
 
 - Примечание: доступные варианты кнопок могут отличаться в зависимости от модели хаба (разные хабы могут предоставлять разные наборы кнопок).
@@ -59,27 +59,27 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
 Возвращает угол наклона по выбранной оси.
 
-- Варианты осей: `pitch`, `roll`, `yaw`
-- Примечание: `yaw` доступен только на хабах, которые предоставляют данные yaw.
+- Варианты осей: `тангаж`, `крен`, `рыскание`
+- Примечание: `рыскание` доступно только на хабах, которые предоставляют данные рыскания.
 
 ### `Получить ориентацию` {#block_hubs_sensors_get_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_get_orientation.svg')} alt="block_hubs_sensors_get_orientation.svg" />
 Возвращает текущее состояние ориентации хаба.
 
-- Варианты формата вывода: `text`, `index`
-- Значения ориентации: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Варианты формата вывода: `текст`, `индекс`
+- Значения ориентации: `Перед`, `Верх`, `Право`, `Зад`, `Низ`, `Лево`
 
 ### `Ориентация сверху` {#block_hubs_all_sensors_is_orientation_up}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_orientation_up.svg')} alt="block_hubs_all_sensors_is_orientation_up.svg" />
 Проверяет, соответствует ли ориентация хаба выбранной ориентации «вверх».
 
-- Варианты ориентации: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Варианты ориентации: `Перед`, `Верх`, `Право`, `Зад`, `Низ`, `Лево`
 
 ### `Задать ориентацию наклона` {#block_hubs_sensors_set_tilt_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_set_tilt_orientation.svg')} alt="block_hubs_sensors_set_tilt_orientation.svg" />
 Настраивает опорную ориентацию, используемую блоками наклона/ориентации.
 
-- Варианты ориентации: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Варианты ориентации: `Перед`, `Верх`, `Право`, `Зад`, `Низ`, `Лево`
 
 ## Таймер И Датчики Движения
 
@@ -97,20 +97,20 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
 Возвращает значения расстояния с датчика расстояния Technic.
 
-- Варианты единиц: `mm`, `cm`, `inch`, `%`
+- Варианты единиц: `мм`, `см`, `дюйм`, `процент`
 
 ### `Technic когда расстояние` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
 Срабатывает/проверяет условие расстояния для датчика расстояния Technic.
 
-- Варианты сравнения: `closer than`, `farther than`, `exactly at`
-- Варианты единиц: `mm`, `cm`, `inch`, `%`
+- Варианты сравнения: `ближе чем`, `дальше чем`, `ровно`
+- Варианты единиц: `мм`, `см`, `дюйм`, `процент`
 
 ### `Technic значение цвета` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Возвращает определенное значение цвета с датчика расстояния Technic.
 
-- Варианты вывода: `value`, `string`
+- Варианты вывода: `значение`, `строка`
 
 ### `Technic когда цвет` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_color_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_color_is.svg" />
@@ -146,20 +146,20 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_distance.svg" />
 Возвращает расстояние с датчика расстояния BOOST.
 
-- Варианты единиц: `%`, `cm`, `inch`
+- Варианты единиц: `процент`, `см`, `дюйм`
 
 ### `BOOST когда расстояние` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_distance.svg" />
 Срабатывает/проверяет условие расстояния для датчика расстояния BOOST.
 
-- Варианты сравнения: `closer than`, `farther than`, `exactly at`
-- Варианты единиц: `%`, `cm`, `inch`
+- Варианты сравнения: `ближе чем`, `дальше чем`, `ровно`
+- Варианты единиц: `процент`, `см`, `дюйм`
 
 ### `BOOST датчик цвета` {#block_hubs_all_sensors_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_color.svg" />
 Возвращает цвет, определенный датчиком BOOST.
 
-- Варианты вывода: `value`, `string`
+- Варианты вывода: `значение`, `строка`
 
 ### `BOOST это цвет` {#block_hubs_all_sensors_port_boost_sensor_is_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_is_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_is_color.svg" />
@@ -179,19 +179,19 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_sensors_set_power_mode.svg')} alt="block_hubs_technicmove_sensors_set_power_mode.svg" />
 Устанавливает режим мощности Technic Move.
 
-- Варианты режима: `normal`, `boost`
+- Варианты режима: `обычный`, `буст`
 
 ### `WeDo 2 расстояние` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_distance.svg" />
 Возвращает расстояние с датчика расстояния WeDo 2.
 
-- Варианты единиц: `%`, `cm`, `inch`
+- Варианты единиц: `процент`, `см`, `дюйм`
 
 ### `WeDo 2 наклон` {#block_hubs_all_sensors_port_wedo2_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
 Возвращает значение наклона с датчика наклона WeDo 2.
 
-- Варианты осей: `pitch`, `roll`
+- Варианты осей: `тангаж`, `крен`
 
 ## Примечания По Использованию
 

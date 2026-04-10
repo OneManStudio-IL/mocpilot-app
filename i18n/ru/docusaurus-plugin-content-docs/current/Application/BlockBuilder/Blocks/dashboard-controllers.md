@@ -29,7 +29,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: командный блок
 - Типичное применение: временно блокировать управление в определенной логике/безопасном режиме
-- Варианты состояния: `enable`, `disable`
+- Варианты состояния: `включить`, `отключить`
 
 ## Блоки кнопок
 
@@ -37,11 +37,11 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
-Срабатывает, когда экранная кнопка меняет состояние (pressed/released).
+Срабатывает, когда экранная кнопка меняет состояние (нажата/отпущена).
 
 - Тип: событийный блок
 - Выход: запуск подключенного скрипта
-- Варианты состояния: `pressed`, `released`
+- Варианты состояния: `нажата`, `отпущена`
 
 ### `Значение кнопки (boolean)` {#block_dashboard_controller_button_value_boolean}
 
@@ -50,8 +50,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Возвращает текущее состояние экранной кнопки.
 
 - Тип: блок значения
-- Выход: `true`/`false`
-- Варианты состояния: `pressed`, `released`
+- Выход: `истина`/`ложь`
+- Варианты состояния: `нажата`, `отпущена`
 
 ## Блоки D-pad
 
@@ -63,8 +63,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: событийный блок
 - Выход: запуск подключенного скрипта
-- Варианты направления: `up`, `down`, `left`, `right`
-- Варианты состояния кнопки: `pressed`, `released`
+- Варианты направления: `вверх`, `вниз`, `влево`, `вправо`
+- Варианты состояния кнопки: `нажата`, `отпущена`
 
 ### `Значение D-pad (boolean)` {#block_dashboard_controller_dpad_value_boolean}
 
@@ -73,9 +73,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Возвращает, активно ли выбранное направление D-pad.
 
 - Тип: блок значения
-- Выход: `true`/`false`
-- Варианты направления: `up`, `down`, `left`, `right`
-- Варианты состояния кнопки: `pressed`, `released`
+- Выход: `истина`/`ложь`
+- Варианты направления: `вверх`, `вниз`, `влево`, `вправо`
+- Варианты состояния кнопки: `нажата`, `отпущена`
 
 ## Блоки джойстика
 
@@ -87,7 +87,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: событийный блок
 - Выход: запуск подключенного скрипта
-- Варианты состояния: `up`, `down`, `left`, `right`, `moved`, `released`
+- Варианты состояния: `вверх`, `вниз`, `влево`, `вправо`, `движение`, `отпущена`
 
 ### `Значение джойстика (float)` {#block_dashboard_controller_joystick_value_float}
 
@@ -97,7 +97,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: блок значения
 - Выход: число (float)
-- Варианты оси: `x-axis`, `y-axis`
+- Варианты оси: `ось X`, `ось Y`
 
 ## Блоки педалей
 
@@ -109,8 +109,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: событийный блок
 - Выход: запуск подключенного скрипта
-- Варианты педали: `any`, `brake`, `acceleration`
-- Варианты состояния: `moved`, `pressed`, `released`
+- Варианты педали: `любой`, `тормоз`, `газ`
+- Варианты состояния: `движение`, `нажата`, `отпущена`
 
 ### `Значение педалей (float)` {#block_dashboard_controller_pedals_value_float}
 
@@ -128,9 +128,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Возвращает выбранное состояние, в зависимости от того, нажата или отпущена выбранная педаль.
 
 - Тип: блок значения
-- Выход: `true`/`false`
-- Варианты педали: `brake`, `acceleration`
-- Варианты состояния: `pressed`, `released`
+- Выход: `истина`/`ложь`
+- Варианты педали: `тормоз`, `газ`
+- Варианты состояния: `нажата`, `отпущена`
 
 ## Блоки слайдера
 
@@ -142,7 +142,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: событийный блок
 - Выход: запуск подключенного скрипта
-- Варианты состояния: `low`, `high`, `moved`, `released`
+- Варианты состояния: `низкий`, `высокий`, `движение`, `отпущена`
 
 ### `Значение слайдера (float)` {#block_dashboard_controller_slider_value_float}
 
@@ -163,8 +163,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: событийный блок
 - Выход: запуск подключенного скрипта
-- Варианты шага: `any`, `reset`, `minus`, `plus`
-- Варианты состояния кнопки: `pressed`, `released`
+- Варианты шага: `любой`, `сброс`, `минус`, `плюс`
+- Варианты состояния кнопки: `нажата`, `отпущена`
 
 ### `Значение шагового переключателя (float)` {#block_dashboard_controller_stepper_value_float}
 
@@ -185,7 +185,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: событийный блок
 - Выход: запуск подключенного скрипта
-- Варианты состояния: `moved`, `pressed`, `released`
+- Варианты состояния: `движение`, `нажата`, `отпущена`
 
 ### `Значение руля (float)` {#block_dashboard_controller_steering_wheel_value_float}
 
@@ -203,8 +203,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Возвращает выбранное состояние, в зависимости от того, нажат руль или отпущен.
 
 - Тип: блок значения
-- Выход: `true`/`false`
-- Варианты состояния: `moved`, `pressed`, `released`
+- Выход: `истина`/`ложь`
+- Варианты состояния: `движение`, `нажата`, `отпущена`
 
 ## Блоки переключателя
 
@@ -216,7 +216,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: событийный блок
 - Выход: запуск подключенного скрипта
-- Варианты переключателя: `on`, `off`
+- Варианты переключателя: `вкл`, `выкл`
 
 ### `Значение переключателя (boolean)` {#block_dashboard_controller_switch_value_boolean}
 
@@ -225,8 +225,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 Возвращает текущее состояние переключателя.
 
 - Тип: блок значения
-- Выход: `true`/`false`
-- Варианты состояния: `on`, `off`
+- Выход: `истина`/`ложь`
+- Варианты состояния: `вкл`, `выкл`
 
 ## Блоки monitor
 
@@ -248,18 +248,18 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тип: командный блок
 - Типичное применение: обновление значения индикатора скорости в рантайме
 
-### `Установить значение tilt-монитора` {#block_dashboard_controller_monitor_tilt_set_value}
+### `Установить значение монитора наклона` {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
-Устанавливает значение tilt-монитора (pitch/roll).
+Устанавливает значение монитора наклона (тангаж/крен).
 
 - Тип: командный блок
 - Типичное применение: отображение значений наклона в рантайме
-- Варианты оси: `pitch`, `roll`
+- Варианты оси: `тангаж`, `крен`
 
 ## Примечания по использованию
 
 - Для динамического управления интерфейсом полезно комбинировать контроллер-блоки с `Events` и `Control`.
 - Для чувствительных сценариев используйте `set interactivity` для временной блокировки ввода.
-- Для избежания шумных повторов добавляйте пороги и фильтрацию в реакциях на `moved`.
+- Для избежания шумных повторов добавляйте пороги и фильтрацию в реакциях на `движение`.

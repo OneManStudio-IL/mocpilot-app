@@ -73,7 +73,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Срабатывает при изменении состояния кнопки хаба.
 
-- Варианты состояния: `pressed`, `released`, `changed`
+- Варианты состояния: `нажата`, `отпущена`, `изменилось`
 - Примечание: набор доступных кнопок может отличаться в зависимости от модели хаба.
 
 ### `Подключение хаба изменилось` {#block_hubs_all_event_connection_changed}
@@ -106,14 +106,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Срабатывает при изменении значения наклона.
 
-- Варианты угла: `any`, `pitch`, `roll`, `yaw`
-- Примечание: `yaw` доступен только на хабах, которые предоставляют данные yaw.
+- Варианты угла: `любой`, `тангаж`, `крен`, `рыскание`
+- Примечание: `рыскание` доступно только на хабах, которые предоставляют данные рыскания.
 
 ### `Ориентация хаба изменилась` {#block_hubs_all_event_tilt_orientation_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_orientation_changed.svg')} alt="block_hubs_all_event_tilt_orientation_changed.svg" />
 
-Срабатывает при изменении ориентации (например, front/up/down/left/right).
+Срабатывает при изменении ориентации (например, перед/вверх/вниз/влево/вправо).
 
 ## События датчиков на портах
 
@@ -123,7 +123,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Срабатывает, когда датчик цвета Technic сообщает выбранный цвет/значение.
 
-- Варианты единиц (зависят от режима): `%`, `cm`, `inch`
+- Варианты единиц (зависят от режима): `процент`, `см`, `дюйм`
 
 ### `Событие датчика расстояния Technic` {#block_hubs_all_event_port_technic_sensor_distance}
 
@@ -131,8 +131,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Срабатывает, когда значения расстояния датчика Technic соответствуют выбранному условию.
 
-- Варианты сравнения: `closer than`, `farther than`, `exactly at`
-- Варианты единиц: `mm`, `cm`, `inch`, `%`
+- Варианты сравнения: `ближе чем`, `дальше чем`, `ровно`
+- Варианты единиц: `мм`, `см`, `дюйм`, `процент`
 - Примечание: доступные единицы могут зависеть от режима датчика и подключенного устройства.
 
 ### `Событие датчика расстояния BOOST` {#block_hubs_all_event_port_boost_sensor_when_distance}
@@ -141,8 +141,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Срабатывает, когда датчик расстояния BOOST достигает выбранного порога/условия.
 
-- Варианты сравнения: `closer than`, `farther than`, `exactly at`
-- Варианты единиц: `%`, `cm`, `inch`
+- Варианты сравнения: `ближе чем`, `дальше чем`, `ровно`
+- Варианты единиц: `процент`, `см`, `дюйм`
 
 ### `Событие датчика цвета BOOST` {#block_hubs_all_event_port_boost_sensor_color}
 

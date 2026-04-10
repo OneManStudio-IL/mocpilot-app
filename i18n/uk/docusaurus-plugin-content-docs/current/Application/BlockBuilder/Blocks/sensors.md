@@ -29,7 +29,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_button_pressed.svg?v=20260409-2258')} alt="block_hubs_all_sensors_button_pressed.svg" />
 Перевіряє, чи вибрана кнопка хаба відповідає вибраному стану.
 
-- Варіанти стану: `pressed`, `released`
+- Варіанти стану: `натиснуто`, `відпущено`
 - Типовий варіант кнопки: `center` (залежить від хаба)
 - Примітка: доступні варіанти кнопок можуть відрізнятися залежно від моделі хаба.
 
@@ -58,27 +58,27 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
 Повертає кут нахилу для вибраної осі.
 
-- Варіанти осей: `pitch`, `roll`, `yaw`
-- Примітка: `yaw` доступний лише на хабах, які надають дані yaw.
+- Варіанти осей: `тангаж`, `крен`, `рискання`
+- Примітка: `рискання` доступне лише на хабах, які надають дані рискання.
 
 ### `Отримати орієнтацію` {#block_hubs_sensors_get_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_get_orientation.svg')} alt="block_hubs_sensors_get_orientation.svg" />
 Повертає поточний стан орієнтації хаба.
 
-- Варіанти формату виводу: `text`, `index`
-- Значення орієнтації: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Варіанти формату виводу: `текст`, `індекс`
+- Значення орієнтації: `Перед`, `Верх`, `Праворуч`, `Зад`, `Низ`, `Ліворуч`
 
 ### `Орієнтація вгору?` {#block_hubs_all_sensors_is_orientation_up}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_orientation_up.svg')} alt="block_hubs_all_sensors_is_orientation_up.svg" />
-Перевіряє, чи орієнтація хаба відповідає вибраному напрямку «up».
+Перевіряє, чи орієнтація хаба відповідає вибраному напрямку «вгору».
 
-- Варіанти орієнтації: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Варіанти орієнтації: `Перед`, `Верх`, `Праворуч`, `Зад`, `Низ`, `Ліворуч`
 
 ### `Встановити орієнтацію нахилу` {#block_hubs_sensors_set_tilt_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_set_tilt_orientation.svg')} alt="block_hubs_sensors_set_tilt_orientation.svg" />
 Налаштовує опорну орієнтацію для блоків, пов’язаних із нахилом/орієнтацією.
 
-- Варіанти орієнтації: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Варіанти орієнтації: `Перед`, `Верх`, `Праворуч`, `Зад`, `Низ`, `Ліворуч`
 
 ## Таймер і датчики руху пристрою
 
@@ -96,20 +96,20 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
 Повертає значення відстані з датчика відстані Technic.
 
-- Варіанти одиниць: `mm`, `cm`, `inch`, `%`
+- Варіанти одиниць: `мм`, `см`, `дюйм`, `відсоток`
 
 ### `Technic: коли відстань` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
 Спрацьовує/перевіряє умову відстані для датчика відстані Technic.
 
-- Варіанти порівняння: `closer than`, `farther than`, `exactly at`
-- Варіанти одиниць: `mm`, `cm`, `inch`, `%`
+- Варіанти порівняння: `ближче ніж`, `далі ніж`, `точно на`
+- Варіанти одиниць: `мм`, `см`, `дюйм`, `відсоток`
 
 ### `Значення кольору Technic` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Повертає визначене значення кольору з датчика відстані Technic.
 
-- Варіанти виводу: `value`, `string`
+- Варіанти виводу: `значення`, `рядок`
 
 ### `Technic: коли колір` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_color_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_color_is.svg" />
@@ -139,26 +139,26 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_raw_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_raw_color.svg" />
 Повертає сире значення каналу кольору з датчика Technic.
 
-- Варіанти каналу: `red`, `green`, `blue`
+- Варіанти каналу: `червоний`, `зелений`, `синій`
 
 ### `Відстань датчика BOOST` {#block_hubs_all_sensors_port_boost_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_distance.svg" />
 Повертає відстань з датчика відстані BOOST.
 
-- Варіанти одиниць: `%`, `cm`, `inch`
+- Варіанти одиниць: `відсоток`, `см`, `дюйм`
 
 ### `BOOST: коли відстань` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_distance.svg" />
 Спрацьовує/перевіряє умову відстані для датчика відстані BOOST.
 
-- Варіанти порівняння: `closer than`, `farther than`, `exactly at`
-- Варіанти одиниць: `%`, `cm`, `inch`
+- Варіанти порівняння: `ближче ніж`, `далі ніж`, `точно на`
+- Варіанти одиниць: `відсоток`, `см`, `дюйм`
 
 ### `Колір датчика BOOST` {#block_hubs_all_sensors_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_color.svg" />
 Повертає колір, визначений датчиком BOOST.
 
-- Варіанти виводу: `value`, `string`
+- Варіанти виводу: `значення`, `рядок`
 
 ### `BOOST: це колір` {#block_hubs_all_sensors_port_boost_sensor_is_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_is_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_is_color.svg" />
@@ -178,22 +178,22 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_sensors_set_power_mode.svg')} alt="block_hubs_technicmove_sensors_set_power_mode.svg" />
 Встановлює режим потужності Technic Move.
 
-- Варіанти режиму: `normal`, `boost`
+- Варіанти режиму: `звичайний`, `буст`
 
 ### `Відстань WeDo 2` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_distance.svg" />
 Повертає відстань із датчика відстані WeDo 2.
 
-- Варіанти одиниць: `%`, `cm`, `inch`
+- Варіанти одиниць: `відсоток`, `см`, `дюйм`
 
 ### `Нахил WeDo 2` {#block_hubs_all_sensors_port_wedo2_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
 Повертає значення нахилу з датчика нахилу WeDo 2.
 
-- Варіанти осі: `pitch`, `roll`
+- Варіанти осі: `тангаж`, `крен`
 
 ## Примітки щодо використання
 
-- Використовуйте репортер-блоки датчиків з `if`, `if/else` та `wait until` для реактивної логіки.
+- Використовуйте репортер-блоки датчиків з `якщо`, `якщо / інакше` та `чекати до` для реактивної логіки.
 - Комбінуйте значення датчиків з блоками Operators для побудови порогів і умов.
 - Перевіряйте `Device type` перед надсиланням команд, що залежать від конкретного підключеного обладнання.

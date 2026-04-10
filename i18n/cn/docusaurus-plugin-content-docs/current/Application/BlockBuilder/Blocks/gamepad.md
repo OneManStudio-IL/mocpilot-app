@@ -21,7 +21,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - 类型：事件积木
 - 按钮选项（Xbox 布局）：`A`、`B`、`X`、`Y`、`LB`、`RB`、`LT`、`RT`、`LSB`、`RSB`
-- 按钮选项（Sony 布局）：`cross`、`circle`、`square`、`triangle`、`L1`、`R1`、`L2`、`R2`、`L3`、`R3`
+- 按钮选项（Sony 布局）：`叉`、`圆`、`方形`、`三角形`、`L1`、`R1`、`L2`、`R2`、`L3`、`R3`
 - 状态选项：`按下`、`释放`
 
 ### `当手柄方向键为` {#block_gamepad_event_when_dpad_is}
@@ -62,7 +62,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 类型：值积木
 - 输出：`true`/`false`
 - 按钮选项（Xbox 布局）：`A`、`B`、`X`、`Y`、`LB`、`RB`、`LT`、`RT`、`LSB`、`RSB`
-- 按钮选项（Sony 布局）：`cross`、`circle`、`square`、`triangle`、`L1`、`R1`、`L2`、`R2`、`L3`、`R3`
+- 按钮选项（Sony 布局）：`叉`、`圆`、`方形`、`三角形`、`L1`、`R1`、`L2`、`R2`、`L3`、`R3`
 - 状态选项：`按下`、`释放`
 
 ### `手柄方向键值（布尔）` {#block_gamepad_dpad_button_value_boolean}

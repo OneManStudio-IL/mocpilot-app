@@ -15,7 +15,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor.svg')} alt="block_hubs_all_motors_port_start_motor.svg" />
 Запускає вибраний мотор.
 
-- Варіанти напряму: clockwise / counterclockwise
+- Варіанти напряму: за годинниковою стрілкою / проти годинникової стрілки
 
 ### `Зупинити мотор` {#block_hubs_all_motors_port_stop_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_stop_motor.svg')} alt="block_hubs_all_motors_port_stop_motor.svg" />
@@ -25,8 +25,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for.svg')} alt="block_hubs_all_motors_port_run_for.svg" />
 Запускає вибраний мотор на вказаний час/кут/оберти залежно від налаштувань блоку.
 
-- Варіанти напряму: clockwise / counterclockwise
-- Варіанти одиниць: `rotations`, `degrees`, `seconds`
+- Варіанти напряму: за годинниковою стрілкою / проти годинникової стрілки
+- Варіанти одиниць: `оберти`, `градуси`, `секунди`
 - Примітка: ця функція потребує мотор на вибраному порту з підтримкою енкодерного керування.
 
 ### `Запустити мотор зі швидкістю` {#block_hubs_all_motors_port_start_motor_at_speed}
@@ -37,7 +37,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for_at_speed.svg')} alt="block_hubs_all_motors_port_run_for_at_speed.svg" />
 Запускає мотор на задану тривалість/величину з явно заданою швидкістю.
 
-- Варіанти одиниць: `rotations`, `degrees`, `seconds`
+- Варіанти одиниць: `оберти`, `градуси`, `секунди`
 - Примітка: ця функція потребує мотор на вибраному порту з підтримкою енкодерного керування.
 
 ### `Встановити швидкість мотора` {#block_hubs_all_motors_port_set_motor_speed}
@@ -50,7 +50,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_go_to_position.svg')} alt="block_hubs_all_motors_port_go_to_position.svg" />
 Переміщує мотор у цільову абсолютну позицію.
 
-- Варіанти шляху: `shortest path`, `clockwise`, `counterclockwise`
+- Варіанти шляху: `найкоротший шлях`, `за годинниковою стрілкою`, `проти годинникової стрілки`
 - Примітка: ця функція потребує мотор на вибраному порту з підтримкою енкодерного керування.
 
 ### `Перейти до відносної позиції` {#block_hubs_all_motors_port_go_to_relative_position}
@@ -84,9 +84,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ### `Встановити поведінку мотора при зупинці` {#block_hubs_all_motors_port_set_motor_to_at_stop}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motor_to_at_stop.svg')} alt="block_hubs_all_motors_port_set_motor_to_at_stop.svg" />
-Встановлює режим зупинки мотора (наприклад brake/hold/float залежно від доступних варіантів).
+Встановлює режим зупинки мотора (наприклад гальмо/утримання/накат залежно від доступних варіантів).
 
-- Варіанти режиму зупинки: `brake`, `hold position`, `coast`
+- Варіанти режиму зупинки: `гальмо`, `утримувати позицію`, `накат`
 - Примітка: ця функція потребує мотор на вибраному порту з підтримкою енкодерного керування.
 
 ### `Встановити виявлення заклинювання` {#block_hubs_all_motors_port_set_motors_stall_detection}
@@ -143,7 +143,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_brake.svg')} alt="block_hubs_technicmove_motors_brake.svg" />
 Застосовує гальмівну поведінку до моторів Technic Move.
 
-- Варіанти гальма: `off`, `on`
+- Варіанти гальма: `вимкнено`, `увімкнено`
 
 ### `Встановити рульову рейку в` {#block_hubs_technicmove_motors_set_steering_rack_to}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_set_steering_rack_to.svg')} alt="block_hubs_technicmove_motors_set_steering_rack_to.svg" />
