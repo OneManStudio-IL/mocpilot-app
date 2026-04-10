@@ -6,5 +6,17 @@
   "sidebar.tutorialSidebar.category.Introducing": {
     "message": "はじめに",
     "description": "The label for category 'Introducing' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Application": {
+    "message": "アプリケーション",
+    "description": "The label for category 'Application' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.BlockBuilder": {
+    "message": "ブロックビルダー",
+    "description": "The label for category 'BlockBuilder' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Blocks": {
+    "message": "ブロック",
+    "description": "The label for category 'Blocks' in sidebar 'tutorialSidebar'"
   }
 }

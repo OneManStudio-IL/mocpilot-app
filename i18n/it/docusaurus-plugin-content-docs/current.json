@@ -6,5 +6,17 @@
   "sidebar.tutorialSidebar.category.Introducing": {
     "message": "Introduzione",
     "description": "The label for category 'Introducing' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Application": {
+    "message": "Applicazione",
+    "description": "The label for category 'Application' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.BlockBuilder": {
+    "message": "Generatore di Blocchi",
+    "description": "The label for category 'BlockBuilder' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Blocks": {
+    "message": "Blocchi",
+    "description": "The label for category 'Blocks' in sidebar 'tutorialSidebar'"
   }
 }

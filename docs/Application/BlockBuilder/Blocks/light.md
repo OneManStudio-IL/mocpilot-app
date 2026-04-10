@@ -15,7 +15,7 @@ This page documents Light category blocks used to control LEDs and light outputs
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_set_led_color.svg')} alt="block_hubs_all_light_set_led_color.svg" />
 
-Sets hub LED color using predefined color options.
+Sets the hub LED color using predefined color options.
 
 - Type: command block
 - Typical use: show state (ready, running, warning, error)
