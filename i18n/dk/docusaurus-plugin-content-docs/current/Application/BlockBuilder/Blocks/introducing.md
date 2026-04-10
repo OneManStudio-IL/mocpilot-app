@@ -1,152 +1,152 @@
 ---
 id: BlocksIntroducing
-title: Blocks Introducing
+title: Introduktion Til Blokke
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Blocks Introducing
+# Introduktion Til Blokke
 
-MOCPilot uses a visual block programming system that looks and feels similar to Scratch.
-Each block has a specific role, and valid combinations define control flow and data flow through a script.
-It uses drag-and-drop logic and Scratch-like interaction patterns to provide a convenient and familiar way to build programs.
+MOCPilot bruger et visuelt blokprogrammeringssystem, der ligner Scratch i både udseende og brug.
+Hver blok har en specifik rolle, og gyldige kombinationer definerer kontrolflow og dataflow i et script.
+Det bruger træk-og-slip-logik og Scratch-lignende interaktionsmønstre for at give en praktisk og velkendt måde at bygge programmer på.
 
-:::warning Compatibility Notice
-This is a different block system with its own block set and behavior.
-MOCPilot programs are not compatible with Scratch projects: MOCPilot programs cannot be imported into Scratch, and Scratch programs cannot be imported into MOCPilot.
+:::warning Kompatibilitetsmeddelelse
+Dette er et andet bloksystem med sit eget bloksæt og sin egen adfærd.
+MOCPilot-programmer er ikke kompatible med Scratch-projekter: MOCPilot-programmer kan ikke importeres til Scratch, og Scratch-programmer kan ikke importeres til MOCPilot.
 :::
 
-## Block shapes and meaning
+## Blokformer og betydning
 
-### Hat Blocks
+### Hat-blokke
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
   <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 </div>
 
-Start a script when a specific event occurs. Blocks can only be attached below.
+Starter et script, når en bestemt hændelse opstår. Blokke kan kun sættes under.
 
 ---
 
-### Stack Blocks
+### Stak-blokke
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_reset.svg')} alt="block_sensors_timer_reset.svg" />
 </div>
 
-Main command blocks that perform actions.
+Primære kommandoblokke, der udfører handlinger.
 
 ---
 
-### C Blocks
+### C-blokke
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 </div>
 
-C-shaped control blocks that contain nested block stacks (loops/conditions).
+C-formede kontrolblokke, der indeholder indlejrede blokstakke (løkker/betingelser).
 
 ---
 
-### Reporter Blocks
+### Reporter-blokke
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 </div>
 
-Return values such as numbers or strings.
+Returnerer værdier som tal eller tekst.
 
 ---
 
-### Boolean Blocks
+### Booleske blokke
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 </div>
 
-Return only `true` or `false`, typically used in conditions.
+Returnerer kun `true` eller `false`, typisk brugt i betingelser.
 
 ---
 
-### Cap Blocks
+### Afslutningsblokke
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 </div>
 
-End scripts and do not allow blocks below.
+Afslutter scripts og tillader ikke blokke under.
 
 ---
 
-### Blocks Stack
+### Blokstak
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks_stack.svg')} alt="blocks_stack.svg" />
 </div>
 
-A block stack is a sequence of connected blocks that runs as one script flow from top to bottom.
-Stacks usually start with an event block and then execute attached blocks in order.
+En blokstak er en sekvens af forbundne blokke, der kører som ét samlet scriptflow fra top til bund.
+Stakke starter normalt med en hændelsesblok og udfører derefter de tilknyttede blokke i rækkefølge.
 
 ---
 
-## Script execution model
+## Script-udførelsesmodel
 
-- A script usually starts from an event block.
-- Connected stack blocks run top to bottom.
-- Multiple scripts can run in parallel.
-- Message/broadcast blocks are used to synchronize scripts.
-- A block stack is a sequence of blocks connected together.
+- Et script starter normalt fra en hændelsesblok.
+- Forbundne stak-blokke kører fra top til bund.
+- Flere scripts kan køre parallelt.
+- Besked-/broadcast-blokke bruges til at synkronisere scripts.
+- En blokstak er en sekvens af blokke, der er forbundet med hinanden.
 
-## Data and values
+## Data og værdier
 
-- Reporter blocks can be nested inside command/condition inputs.
-- Variables store reusable values across blocks and scripts.
-- Lists store ordered collections for history, queues, and lookup data.
+- Reporter-blokke kan indlejres i input til kommandoer/betingelser.
+- Variabler gemmer genbrugelige værdier på tværs af blokke og scripts.
+- Lister gemmer ordnede samlinger til historik, køer og opslag.
 
-## Events and timing
+## Hændelser og timing
 
-- Event blocks react to user input, hub state, sensors, or messages.
-- Timer- and sensor-based events may trigger frequently.
-- Use thresholds, filtering, or short waits to reduce noisy repeated triggers.
+- Hændelsesblokke reagerer på brugerinput, hub-tilstand, sensorer eller beskeder.
+- Timer- og sensorbaserede hændelser kan udløses ofte.
+- Brug tærskler, filtrering eller korte ventetider for at reducere støjende gentagne triggere.
 
-## Hub, ports, and controllers
+## Hub, porte og controllere
 
-- Hub blocks target hub and port context.
-- Some blocks are available only for specific hub families/devices.
-- Dashboard and gamepad blocks provide runtime input and UI control.
+- Hub-blokke målretter hub- og portkontekst.
+- Nogle blokke er kun tilgængelige for specifikke hub-familier/enheder.
+- Dashboard- og gamepad-blokke giver input under kørsel og UI-kontrol.
 
-## Recommended workflow
+## Anbefalet arbejdsgang
 
-1. Start with one event block and a minimal script.
-2. Validate motor/sensor direction and ranges early.
-3. Extract repeated logic with messages and helper scripts.
-4. Add safeguards (limits, stops, fallback values) before final tuning.
+1. Start med én hændelsesblok og et minimalt script.
+2. Bekræft tidligt motor-/sensorretning og intervaller.
+3. Udtræk gentaget logik med beskeder og hjælpescripts.
+4. Tilføj sikkerhedsforanstaltninger (grænser, stop, fallback-værdier) før endelig finjustering.
 
-## Common pitfalls
+## Almindelige faldgruber
 
-- Missing event entry block means script never starts.
-- Wrong hub/port selection causes no visible effect.
-- Mixing value types (text/number/boolean) can produce invalid logic.
-- High-frequency events without filtering can overload behavior.
+- Manglende hændelses-startblok betyder, at scriptet aldrig starter.
+- Forkert valg af hub/port giver ingen synlig effekt.
+- Blandede værdi-typer (tekst/tal/boolean) kan give ugyldig logik.
+- Højfrekvente hændelser uden filtrering kan overbelaste adfærden.
 
-## Documentation structure in this section
+## Dokumentationsstruktur i denne sektion
 
-Use category pages in this order:
+Brug kategorisider i denne rækkefølge:
 
-- Light
-- Motors
-- Sensors
-- Events
-- Control
-- Operators
-- Variables
-- Lists
-- My Blocks
-- Dashboard controllers
+- Lys
+- Motorer
+- Sensorer
+- Hændelser
+- Kontrol
+- Operatorer
+- Variabler
+- Lister
+- Mine Blokke
+- Dashboard-controllere
 - Gamepad

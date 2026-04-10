@@ -1,45 +1,45 @@
 ---
 id: Variables
-title: Variables
+title: Variabler
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Variables
+# Variabler
 
-Variables store values that can be read and updated across block stacks and scripts.
+Variabler gemmer værdier, som kan læses og opdateres på tværs af blokke og scripts.
 
-## Variable command blocks
+## Variabel kommando-blokke
 
-### `Set variable to` {#block_variables_set_to}
+### `Sæt variabel til` {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
-Sets selected variable to the specified value.
+Sætter den valgte variabel til den angivne værdi.
 
-- Type: command block
-- Typical use: initialize state, overwrite previous value
+- Type: kommando-blok
+- Typisk brug: initialisere tilstand, overskrive tidligere værdi
 
-### `Change variable by` {#block_variables_change_by}
+### `Ændr variabel med` {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
-Adds the specified amount to selected variable.
+Tilføjer den angivne værdi til den valgte variabel.
 
-- Type: command block
-- Typical use: counters, score, accumulated distance/time
+- Type: kommando-blok
+- Typisk brug: tællere, score, akkumuleret afstand/tid
 
-## Variable value reporter
+## Variabel værdi-rapportør
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 
-Returns the current value of the selected variable.
+Returnerer den aktuelle værdi af den valgte variabel.
 
-- Type: reporter block
-- Typical use: use variable value inside operators, conditions, and command inputs
+- Type: rapportør-blok
+- Typisk brug: brug variabelværdi i operatorer, betingelser og kommando-input
 
-## Usage notes
+## Brugsnoter
 
-- Initialize important variables at program start.
-- Use `change by` for incremental updates to avoid repetitive get/set logic.
-- Keep variable names descriptive (`speed_target`, `is_armed`, `lap_count`).
+- Initialisér vigtige variabler ved programmets start.
+- Brug `ændr med` til trinvise opdateringer for at undgå gentagen hent/sæt-logik.
+- Hold variabelnavne beskrivende (`speed_target`, `is_armed`, `lap_count`).

@@ -1,84 +1,84 @@
 ---
 id: Lists
-title: Lists
+title: Lister
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Lists
+# Lister
 
-Lists store ordered collections of values and are manipulated by dedicated list Reporter and Stack blocks.
+Lister gemmer ordnede samlinger af værdier og håndteres via dedikerede liste-Reporter- og Stack-blokke.
 
-## List mutation blocks
+## Liste ændrings-blokke
 
-### `Add value to list` {#block_lists_add}
+### `Tilføj værdi til liste` {#block_lists_add}
 
 <img src={useBaseUrl('/img/blocks/block_lists_add.svg')} alt="block_lists_add.svg" />
 
-Appends a value to the end of selected list.
+Tilføjer en værdi til slutningen af den valgte liste.
 
-### `Insert at` {#block_lists_insert_at}
+### `Indsæt ved` {#block_lists_insert_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_insert_at.svg')} alt="block_lists_insert_at.svg" />
 
-Inserts a value at selected index in the list.
+Indsætter en værdi ved det valgte indeks i listen.
 
-### `Replace at` {#block_lists_replace_at}
+### `Erstat ved` {#block_lists_replace_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_replace_at.svg')} alt="block_lists_replace_at.svg" />
 
-Replaces item at selected index with new value.
+Erstatter elementet ved det valgte indeks med en ny værdi.
 
-### `Delete` {#block_lists_delete}
+### `Slet` {#block_lists_delete}
 
 <img src={useBaseUrl('/img/blocks/block_lists_delete.svg')} alt="block_lists_delete.svg" />
 
-Deletes item at selected index (or selected delete mode).
+Sletter elementet ved det valgte indeks (eller valgt sletningstilstand).
 
-### `Clear all` {#block_lists_clear_all}
+### `Ryd alle` {#block_lists_clear_all}
 
 <img src={useBaseUrl('/img/blocks/block_lists_clear_all.svg')} alt="block_lists_clear_all.svg" />
 
-Removes all items from selected list.
+Fjerner alle elementer fra den valgte liste.
 
-## List value/check blocks
+## Liste værdi-/tjek-blokke
 
-### `Item at` {#block_lists_item_at}
+### `Element ved` {#block_lists_item_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_item_at.svg')} alt="block_lists_item_at.svg" />
 
-Returns value at selected index.
+Returnerer værdien ved det valgte indeks.
 
-### `Index of value` {#block_lists_index_of_value}
+### `Indeks for værdi` {#block_lists_index_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_index_of_value.svg')} alt="block_lists_index_of_value.svg" />
 
-Returns index of the first matching value in list.
+Returnerer indekset for den første matchende værdi i listen.
 
-### `Contains value` {#block_lists_contains_value}
+### `Indeholder værdi` {#block_lists_contains_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_contains_value.svg')} alt="block_lists_contains_value.svg" />
 
-Returns whether list contains a specified value.
+Returnerer om listen indeholder en angiven værdi.
 
-### `Size of list` {#block_lists_size_of_value}
+### `Liste størrelse` {#block_lists_size_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_size_of_value.svg')} alt="block_lists_size_of_value.svg" />
 
-Returns number of items in selected list.
+Returnerer antallet af elementer i den valgte liste.
 
-## List value reporter
+## Liste værdi-reporter
 
 <img src={useBaseUrl('/img/blocks/list.svg')} alt="list.svg" />
 
-Returns the current value of the selected list.
+Returnerer den aktuelle værdi af den valgte liste.
 
-- Type: reporter block
-- Output format example: `[item1,item2,item3]`
-- Typical use: inspect current list content or pass the list value into compatible blocks
+- Type: reporter-blok
+- Outputformat eksempel: `[item1,item2,item3]`
+- Typisk brug: inspicere listeindhold eller sende listen til kompatible blokke
 
-## Usage notes
+## Brugsnoter
 
-- Use lists for history buffers, waypoints, recorded sensor samples, and presets.
-- Check list size before reading by index to avoid invalid access.
-- Combine `contains` and `index of` for lookup logic.
+- Brug lister til historik, waypoints, registrerede sensordata og forudindstillinger.
+- Tjek listens størrelse før opslag med indeks for at undgå ugyldig adgang.
+- Kombinér `indeholder` og `indeks for` til søgelogik.

@@ -1,162 +1,162 @@
 ---
 id: Motors
-title: Motors
+title: Motorer
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Motors
+# Motorer
 
-Motor blocks are used to start, stop, position, and tune motors connected to hub ports.
+Motorblokke bruges til at starte, stoppe, positionere og finjustere motorer, der er forbundet til hub-porte.
 
-## Core motor command blocks
+## Grundlæggende motorkommando-blokke
 
 ### `Start motor` {#block_hubs_all_motors_port_start_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor.svg')} alt="block_hubs_all_motors_port_start_motor.svg" />
-Starts selected motor.
+Starter den valgte motor.
 
-- Direction options: clockwise / counterclockwise
+- Retningsmuligheder: med uret / mod uret
 
 ### `Stop motor` {#block_hubs_all_motors_port_stop_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_stop_motor.svg')} alt="block_hubs_all_motors_port_stop_motor.svg" />
-Stops selected motor.
+Stopper den valgte motor.
 
-### `Run for` {#block_hubs_all_motors_port_run_for}
+### `Kør i` {#block_hubs_all_motors_port_run_for}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for.svg')} alt="block_hubs_all_motors_port_run_for.svg" />
-Runs selected motor for specified time/angle/rotation based on block settings.
+Kører den valgte motor i en angivet tid/vinkel/rotation afhængigt af blokindstillingerne.
 
-- Direction options: clockwise / counterclockwise
-- Unit options: `rotations`, `degrees`, `seconds`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Retningsmuligheder: med uret / mod uret
+- Enhedsmuligheder: `rotationer`, `grader`, `sekunder`
+- Bemærk: denne funktion kræver en motor på den valgte port, som understøtter encoder-baseret styring.
 
-### `Start motor at speed` {#block_hubs_all_motors_port_start_motor_at_speed}
+### `Start motor med hastighed` {#block_hubs_all_motors_port_start_motor_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor_at_speed.svg')} alt="block_hubs_all_motors_port_start_motor_at_speed.svg" />
-Starts motor with explicit speed value.
+Starter motoren med en eksplicit hastighedsværdi.
 
-### `Run for at speed` {#block_hubs_all_motors_port_run_for_at_speed}
+### `Kør i med hastighed` {#block_hubs_all_motors_port_run_for_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for_at_speed.svg')} alt="block_hubs_all_motors_port_run_for_at_speed.svg" />
-Runs motor for a target duration/amount with explicit speed.
+Kører motoren i en målvarighed/-mængde med eksplicit hastighed.
 
-- Unit options: `rotations`, `degrees`, `seconds`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Enhedsmuligheder: `rotationer`, `grader`, `sekunder`
+- Bemærk: denne funktion kræver en motor på den valgte port, som understøtter encoder-baseret styring.
 
-### `Set motor speed` {#block_hubs_all_motors_port_set_motor_speed}
+### `Sæt motorhastighed` {#block_hubs_all_motors_port_set_motor_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motor_speed.svg')} alt="block_hubs_all_motors_port_set_motor_speed.svg" />
-Sets speed used by related motor run blocks.
+Sætter hastigheden, der bruges af relaterede motor-køreblokke.
 
-## Position and movement blocks
+## Positions- og bevægelsesblokke
 
 ### `Go to position` {#block_hubs_all_motors_port_go_to_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_go_to_position.svg')} alt="block_hubs_all_motors_port_go_to_position.svg" />
-Moves motor to target absolute position.
+Flytter motoren til en absolut målposition.
 
-- Path options: `shortest path`, `clockwise`, `counterclockwise`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Banemuligheder: `korteste vej`, `med uret`, `mod uret`
+- Bemærk: denne funktion kræver en motor på den valgte port, som understøtter encoder-baseret styring.
 
 ### `Go to relative position` {#block_hubs_all_motors_port_go_to_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_go_to_relative_position.svg')} alt="block_hubs_all_motors_port_go_to_relative_position.svg" />
-Moves motor by a relative offset.
+Flytter motoren med en relativ forskydning.
 
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Bemærk: denne funktion kræver en motor på den valgte port, som understøtter encoder-baseret styring.
 
 ### `BuWizz 3 go to relative position` {#block_hubs_buwizz3_motors_port_go_to_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_motors_port_go_to_relative_position.svg')} alt="block_hubs_buwizz3_motors_port_go_to_relative_position.svg" />
-BuWizz 3 variant of relative positioning block.
+BuWizz 3-variant af den relative positioneringsblok.
 
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Bemærk: denne funktion kræver en motor på den valgte port, som understøtter encoder-baseret styring.
 
-### `Set relative position` {#block_hubs_all_motors_port_set_relative_position}
+### `Sæt relativ position` {#block_hubs_all_motors_port_set_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_relative_position.svg')} alt="block_hubs_all_motors_port_set_relative_position.svg" />
-Sets motor relative-position reference.
+Sætter reference for motorens relative position.
 
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Bemærk: denne funktion kræver en motor på den valgte port, som understøtter encoder-baseret styring.
 
-### `Calibrate steering rack` {#block_hubs_all_motors_port_calibrate_steering_rack}
+### `Kalibrér styretøjsstang` {#block_hubs_all_motors_port_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_calibrate_steering_rack.svg')} alt="block_hubs_all_motors_port_calibrate_steering_rack.svg" />
-Calibrates steering rack neutral/reference position.
+Kalibrerer neutral-/referenceposition for styretøjsstangen.
 
-- Requirement: the motor connected to the selected port must support absolute/relative angle tracking (internal encoder).
-- Mechanical requirement: steering axis movement must be physically limited to a valid range (for example with steering rack/gearing end limits).
-- How it works: the block sweeps and measures the available steering rotation range, then computes calibration data used for steering configuration.
-- Output behavior: block arguments write results into variables passed to the block (function-like pass-by-reference behavior). Those variables are mutated by the block and should be used to read calibration results.
+- Krav: motoren, der er tilsluttet den valgte port, skal understøtte absolut/relativ vinkelsporing (intern encoder).
+- Mekanisk krav: bevægelsen af styreaksen skal være fysisk begrænset til et gyldigt område (f.eks. med endestop i styretøjsstang/gearing).
+- Sådan virker det: blokken sweep'er og måler det tilgængelige styreområde og beregner derefter kalibreringsdata til styrekonfigurationen.
+- Outputadfærd: blokargumenter skriver resultater i variabler, der sendes ind i blokken (funktionslignende pass-by-reference-adfærd). Disse variabler ændres af blokken og bør bruges til at læse kalibreringsresultater.
 
-## Motor tuning and safety blocks
+## Motor-finjustering og sikkerhedsblokke
 
-### `Set motor behavior at stop` {#block_hubs_all_motors_port_set_motor_to_at_stop}
+### `Sæt motoradfærd ved stop` {#block_hubs_all_motors_port_set_motor_to_at_stop}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motor_to_at_stop.svg')} alt="block_hubs_all_motors_port_set_motor_to_at_stop.svg" />
-Sets motor stop mode (for example brake/hold/float based on available options).
+Sætter motorens stoptilstand (f.eks. bremse/hold/frihjul afhængigt af tilgængelige valg).
 
-- Stop mode options: `brake`, `hold position`, `coast`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Stoptilstandsmuligheder: `bremse`, `hold position`, `frihjul`
+- Bemærk: denne funktion kræver en motor på den valgte port, som understøtter encoder-baseret styring.
 
-### `Set stall detection` {#block_hubs_all_motors_port_set_motors_stall_detection}
+### `Sæt stall-detektering` {#block_hubs_all_motors_port_set_motors_stall_detection}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motors_stall_detection.svg')} alt="block_hubs_all_motors_port_set_motors_stall_detection.svg" />
-Enables or disables stall detection.
+Aktiverer eller deaktiverer stall-detektering.
 
-- Note: available only for the MINDSTORMS Robot Inventor hub.
+- Bemærk: kun tilgængelig for MINDSTORMS Robot Inventor-hubben.
 
-### `Set acceleration` {#block_hubs_all_motors_port_set_acceleration}
+### `Sæt acceleration` {#block_hubs_all_motors_port_set_acceleration}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_acceleration.svg')} alt="block_hubs_all_motors_port_set_acceleration.svg" />
-Sets motor acceleration profile/rate.
+Sætter motorens accelerationsprofil/-hastighed.
 
-- Profile options: `default`, `fast`, `balanced`, `smooth`, `slow`, `very slow`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Profilmuligheder: `standard`, `hurtig`, `balanceret`, `jævn`, `langsom`, `meget langsom`
+- Bemærk: denne funktion kræver en motor på den valgte port, som understøtter encoder-baseret styring.
 
-### `Set deceleration` {#block_hubs_all_motors_port_set_deceleration}
+### `Sæt deceleration` {#block_hubs_all_motors_port_set_deceleration}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_deceleration.svg')} alt="block_hubs_all_motors_port_set_deceleration.svg" />
-Sets motor deceleration profile/rate.
+Sætter motorens decelerationsprofil/-hastighed.
 
-- Profile options: `default`, `fast`, `balanced`, `smooth`, `slow`, `very slow`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Profilmuligheder: `standard`, `hurtig`, `balanceret`, `jævn`, `langsom`, `meget langsom`
+- Bemærk: denne funktion kræver en motor på den valgte port, som understøtter encoder-baseret styring.
 
-## Motor reporter blocks
+## Motor-reporterblokke
 
 ### `Position` {#block_hubs_all_motors_port_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_position.svg')} alt="block_hubs_all_motors_port_position.svg" />
-Returns current motor position.
+Returnerer den aktuelle motorposition.
 
-### `Relative position` {#block_hubs_all_motors_port_relative_position}
+### `Relativ position` {#block_hubs_all_motors_port_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_relative_position.svg')} alt="block_hubs_all_motors_port_relative_position.svg" />
-Returns current relative position value.
+Returnerer den aktuelle relative positionsværdi.
 
-### `Speed` {#block_hubs_all_motors_port_speed}
+### `Hastighed` {#block_hubs_all_motors_port_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_speed.svg')} alt="block_hubs_all_motors_port_speed.svg" />
-Returns current motor speed.
+Returnerer den aktuelle motorhastighed.
 
-### `Power` {#block_hubs_all_motors_port_power}
+### `Effekt` {#block_hubs_all_motors_port_power}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_power.svg')} alt="block_hubs_all_motors_port_power.svg" />
-Returns current motor power value.
+Returnerer den aktuelle motor-effektværdi.
 
-- Note: available only for the MINDSTORMS Robot Inventor hub.
+- Bemærk: kun tilgængelig for MINDSTORMS Robot Inventor-hubben.
 
-## Technic Move motor blocks
+## Technic Move-motorblokke
 
-### `Start motors at speed` {#block_hubs_technicmove_motors_start_motors_at_speed}
+### `Start motorer med hastighed` {#block_hubs_technicmove_motors_start_motors_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_start_motors_at_speed.svg')} alt="block_hubs_technicmove_motors_start_motors_at_speed.svg" />
-Starts Technic Move drive motors at selected speed.
+Starter Technic Move-drivmotorer med den valgte hastighed.
 
-### `Stop motors` {#block_hubs_technicmove_motors_stop_motors}
+### `Stop motorer` {#block_hubs_technicmove_motors_stop_motors}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_stop_motors.svg')} alt="block_hubs_technicmove_motors_stop_motors.svg" />
-Stops Technic Move drive motors.
+Stopper Technic Move-drivmotorer.
 
-### `Brake` {#block_hubs_technicmove_motors_brake}
+### `Bremse` {#block_hubs_technicmove_motors_brake}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_brake.svg')} alt="block_hubs_technicmove_motors_brake.svg" />
-Applies brake behavior to Technic Move motors.
+Anvender bremseadfærd på Technic Move-motorer.
 
-- Brake options: `off`, `on`
+- Bremsemuligheder: `off`, `aktiveret`
 
-### `Set steering rack to` {#block_hubs_technicmove_motors_set_steering_rack_to}
+### `Sæt styretøjsstang til` {#block_hubs_technicmove_motors_set_steering_rack_to}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_set_steering_rack_to.svg')} alt="block_hubs_technicmove_motors_set_steering_rack_to.svg" />
-Sets steering rack target position/value.
+Sætter målposition/-værdi for styretøjsstangen.
 
-### `Calibrate steering rack` {#block_hubs_technicmove_motors_calibrate_steering_rack}
+### `Kalibrér styretøjsstang` {#block_hubs_technicmove_motors_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_calibrate_steering_rack.svg')} alt="block_hubs_technicmove_motors_calibrate_steering_rack.svg" />
-Calibrates the Technic Move steering rack using the hub's internal calibration algorithm and automatic steering range detection.
+Kalibrerer Technic Move-styretøjsstangen ved hjælp af hubbens interne kalibreringsalgoritme og automatisk registrering af styreområde.
 
-- Note: the motor axis must be mechanically limited (for example, by a steering rack mechanism).
+- Bemærk: motoraksen skal være mekanisk begrænset (f.eks. af en styretøjsstangsmekanisme).
 
-## Usage notes
+## Brugsnoter
 
-- Choose `go to position` for absolute targets and `go to relative position` for incremental motion.
-- Use acceleration/deceleration tuning for smoother starts and stops.
-- Enable stall detection when mechanisms can jam under load.
+- Vælg go to position for absolutte mål og go to relative position for inkrementel bevægelse.
+- Brug acceleration/deceleration-justering for blødere start og stop.
+- Aktivér stall-detektering når mekanismer kan sætte sig fast under belastning.

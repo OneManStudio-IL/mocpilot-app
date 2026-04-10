@@ -1,176 +1,176 @@
 ---
 id: Operators
-title: Operators
+title: Operatorer
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Operators
+# Operatorer
 
-Operators are Reporter and Boolean blocks used for calculations, comparisons, logic, and string processing.
+Operatorer er Reporter- og booleske blokke, der bruges til beregninger, sammenligninger, logik og tekstbehandling.
 
-## Arithmetic operators
+## Aritmetiske operatorer
 
 ### `Plus` {#block_operator_plus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_plus.svg')} alt="block_operator_plus.svg" />
 
-Returns the sum of two values.
+Returnerer summen af to værdier.
 
 ### `Minus` {#block_operator_minus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_minus.svg')} alt="block_operator_minus.svg" />
 
-Returns the subtraction result of two values.
+Returnerer resultatet af subtraktion af to værdier.
 
-### `Multiply` {#block_operator_multiply}
+### `Gange` {#block_operator_multiply}
 
 <img src={useBaseUrl('/img/blocks/block_operator_multiply.svg')} alt="block_operator_multiply.svg" />
 
-Returns the product of two values.
+Returnerer produktet af to værdier.
 
-### `Divide` {#block_operator_divide}
+### `Divider` {#block_operator_divide}
 
 <img src={useBaseUrl('/img/blocks/block_operator_divide.svg')} alt="block_operator_divide.svg" />
 
-Returns the division result of two values.
+Returnerer resultatet af division af to værdier.
 
-### `Modulus` {#block_operator_modulus}
+### `Modulo` {#block_operator_modulus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_modulus.svg')} alt="block_operator_modulus.svg" />
 
-Returns the remainder after division.
+Returnerer resten efter division.
 
-### `Round` {#block_operator_round}
+### `Afrund` {#block_operator_round}
 
 <img src={useBaseUrl('/img/blocks/block_operator_round.svg')} alt="block_operator_round.svg" />
 
-Rounds to nearest integer (for example `2.6 -> 3`).
+Afrunder til nærmeste heltal (for eksempel `2.6 -> 3`).
 
 ### `Math single` {#block_operator_math_single}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 
-Applies a single-argument math function.
+Anvender en matematisk funktion med ét argument.
 
-Available functions:
+Tilgængelige funktioner:
 
-- `abs`: absolute value of a number
-- `floor`: round down to nearest integer
-- `ceiling`: round up to nearest integer
-- `sqrt`: square root
-- `sin`: sine (angle-based)
-- `cos`: cosine (angle-based)
-- `tan`: tangent (angle-based)
-- `asin`: inverse sine
-- `acos`: inverse cosine
-- `atan`: inverse tangent
-- `ln`: natural logarithm (base `e`)
-- `log`: logarithm base `10`
-- `e^`: raise `e` to power of input
-- `10^`: raise `10` to power of input
+- `absolutværdi`: absolut værdi af et tal
+- `heltal mindre`: rund ned til nærmeste heltal
+- `heltal større`: rund op til nærmeste heltal
+- `kvadratrod`: kvadratrod
+- `sin`: sinus (vinkelbaseret)
+- `cos`: cosinus (vinkelbaseret)
+- `tan`: tangens (vinkelbaseret)
+- `asin`: invers sinus
+- `acos`: invers cosinus
+- `atan`: invers tangens
+- `ln`: naturlig logaritme (base `e`)
+- `log`: logaritme med base `10`
+- `e^`: opløft `e` i input-værdien
+- `10^`: opløft `10` i input-værdien
 
 ### `Math pair` {#block_operator_math_pair}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_pair.svg')} alt="block_operator_math_pair.svg" />
 
-Applies a two-argument math function.
+Anvender en matematisk funktion med to argumenter.
 
-Available functions:
+Tilgængelige funktioner:
 
-- `min`: smaller of two values
-- `max`: larger of two values
-- `pow`: first value raised to second value power
-- `atan2`: angle from X/Y pair
-- `hypot`: hypotenuse length from two components
-- `copysign`: first value with sign of second value
+- `min`: den mindste af to værdier
+- `max`: den største af to værdier
+- `potens`: første værdi opløftet i anden værdi
+- `atan2`: vinkel fra X/Y-par
+- `hypot`: hypotenuselængde fra to komponenter
+- `copysign`: første værdi med fortegnet fra anden værdi
 
-### `Pick random` {#block_operator_pick_random}
+### `Vælg tilfældigt` {#block_operator_pick_random}
 
 <img src={useBaseUrl('/img/blocks/block_operator_pick_random.svg')} alt="block_operator_pick_random.svg" />
 
-Returns a random number in the selected range.
+Returnerer et tilfældigt tal i det valgte interval.
 
-## Comparison operators
+## Sammenligningsoperatorer
 
-### `Equal` {#block_operator_equal}
+### `Lig med` {#block_operator_equal}
 
 <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
 
-Returns `true` when two values are equal.
+Returnerer `true`, når to værdier er ens.
 
-### `Not equal` {#block_operator_not_equal}
+### `Ikke lig med` {#block_operator_not_equal}
 
 <img src={useBaseUrl('/img/blocks/block_operator_not_equal.svg')} alt="block_operator_not_equal.svg" />
 
-Returns `true` when two values are not equal.
+Returnerer `true`, når to værdier ikke er ens.
 
-### `Greater than` {#block_operator_greater_than}
+### `Større end` {#block_operator_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_greater_than.svg')} alt="block_operator_greater_than.svg" />
 
-Returns `true` when left value is greater than right value.
+Returnerer `true`, når venstre værdi er større end højre værdi.
 
-### `Less than` {#block_operator_less_than}
+### `Mindre end` {#block_operator_less_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_less_than.svg')} alt="block_operator_less_than.svg" />
 
-Returns `true` when left value is less than right value.
+Returnerer `true`, når venstre værdi er mindre end højre værdi.
 
-### `Is in between` {#block_operator_is_in_between}
+### `Er mellem` {#block_operator_is_in_between}
 
 <img src={useBaseUrl('/img/blocks/block_operator_is_in_between.svg')} alt="block_operator_is_in_between.svg" />
 
-Returns `true` when a value is inside specified bounds.
+Returnerer `true`, når en værdi ligger inden for de angivne grænser.
 
-## Boolean logic operators
+## Booleske logikoperatorer
 
-### `And` {#block_operator_and}
+### `Og` {#block_operator_and}
 
 <img src={useBaseUrl('/img/blocks/block_operator_and.svg')} alt="block_operator_and.svg" />
 
-Returns `true` only when both conditions are `true`.
+Returnerer kun `true`, når begge betingelser er `true`.
 
-### `Or` {#block_operator_or}
+### `Eller` {#block_operator_or}
 
 <img src={useBaseUrl('/img/blocks/block_operator_or.svg')} alt="block_operator_or.svg" />
 
-Returns `true` when at least one condition is `true`.
+Returnerer `true`, når mindst én betingelse er `true`.
 
-### `Not` {#block_operator_not}
+### `Ikke` {#block_operator_not}
 
 <img src={useBaseUrl('/img/blocks/block_operator_not.svg')} alt="block_operator_not.svg" />
 
-Inverts a boolean value.
+Inverterer en boolesk værdi.
 
-## Text operators
+## Tekstoperatorer
 
-### `Join` {#block_operator_join}
+### `Slutte` {#block_operator_join}
 
 <img src={useBaseUrl('/img/blocks/block_operator_join.svg')} alt="block_operator_join.svg" />
 
-Concatenates two text values.
+Sammenkæder to tekstværdier.
 
-### `Letter at` {#block_operator_letter_at}
+### `Bogstav ved` {#block_operator_letter_at}
 
 <img src={useBaseUrl('/img/blocks/block_operator_letter_at.svg')} alt="block_operator_letter_at.svg" />
 
-Returns character at a selected position in text.
+Returnerer tegn ved en valgt position i tekst.
 
-### `Size of string` {#block_operator_size_of_string}
+### `Længde af tekst` {#block_operator_size_of_string}
 
 <img src={useBaseUrl('/img/blocks/block_operator_size_of_string.svg')} alt="block_operator_size_of_string.svg" />
 
-Returns string length.
+Returnerer tekstens længde.
 
-### `String contains` {#block_operator_string_contains}
+### `Tekst indeholder` {#block_operator_string_contains}
 
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 
-Returns `true` if text contains specified substring.
+Returnerer `true`, hvis tekst indeholder den angivne delstreng.
 
-## Usage notes
+## Brugsnoter
 
-- Use operator blocks to build conditions for `if`, `wait until`, and event filters.
-- For motor control, normalize and clamp values before passing to speed/power blocks.
-- Avoid dividing by zero in `Divide` and `Modulus`.
+- Brug operatorblokke til at bygge betingelser for `hvis`, `vent indtil` og hændelsesfiltre.
+- Til motorstyring: normalisér og begræns værdier, før de sendes til hastigheds-/effektblokke.
+- Undgå at dividere med nul i `Divider` og `Modulo`.

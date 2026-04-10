@@ -1,157 +1,157 @@
 ---
 id: Events
-title: Events
+title: Hændelser
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Events
+# Hændelser
 
-The **Events** category contains blocks that start scripts when a condition happens.
+Kategorien **Hændelser** indeholder blokke, der starter scripts, når en betingelse opstår.
 
-## Core events
+## Grundlæggende hændelser
 
-### `When program started` {#block_event_when_program_started}
+### `Når program starter` {#block_event_when_program_started}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
 
-Starts this script once when the profile program begins.
+Starter dette script én gang, når profilens program starter.
 
-- Trigger: program launch
-- Typical use: initialize variables, default motor states, startup sounds
+- Trigger: programstart
+- Typisk brug: initialisere variabler, standard-motortilstande, opstartslyde
 
-### `When` {#block_event_when}
+### `Når` {#block_event_when}
 
 <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 
-Runs when a selected condition becomes true.
+Kører når en valgt betingelse bliver sand.
 
-- Trigger: condition-based
-- Typical use: branch logic based on runtime state
+- Trigger: betingelsesbaseret
+- Typisk brug: forgrene logik ud fra runtime-tilstand
 
-### `When timer greater than` {#block_event_when_timer_greater_than}
+### `Når timer er større end` {#block_event_when_timer_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_timer_greater_than.svg')} alt="block_event_when_timer_greater_than.svg" />
 
-Runs when timer value passes a threshold.
+Kører når timerværdien passerer en tærskel.
 
-- Trigger: elapsed time
-- Typical use: delayed actions, timed phases
+- Trigger: forløbet tid
+- Typisk brug: forsinkede handlinger, tidsstyrede faser
 
-### `When message received` {#block_event_when_message_recieved}
+### `Når besked modtages` {#block_event_when_message_recieved}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_message_recieved.svg')} alt="block_event_when_message_recieved.svg" />
 
-Starts a script when a matching broadcast message is received.
+Starter et script, når en matchende broadcast-besked modtages.
 
-- Trigger: message channel
-- Typical use: synchronize multiple scripts
+- Trigger: beskedkanal
+- Typisk brug: synkronisere flere scripts
 
 ### `Broadcast` {#block_event_broadcast}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast.svg')} alt="block_event_broadcast.svg" />
 
-Sends a message to all scripts listening for that message.
+Sender en besked til alle scripts, der lytter efter den besked.
 
-- Trigger: immediate send
-- Typical use: notify other scripts without waiting
+- Trigger: øjeblikkelig afsendelse
+- Typisk brug: give besked til andre scripts uden at vente
 
-### `Broadcast and wait` {#block_event_broadcast_and_wait}
+### `Broadcast og vent` {#block_event_broadcast_and_wait}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast_and_wait.svg')} alt="block_event_broadcast_and_wait.svg" />
 
-Sends a message and pauses this script until listeners complete.
+Sender en besked og pauser dette script, indtil modtagere er færdige.
 
-- Trigger: immediate send + wait
-- Typical use: staged flows where order matters
+- Trigger: øjeblikkelig afsendelse + vent
+- Typisk brug: trinvis flow hvor rækkefølge betyder noget
 
-## Hub events
+## Hub-hændelser
 
-### `Hub button pressed` {#block_hubs_all_event_button_pressed}
+### `Hub-knap trykket` {#block_hubs_all_event_button_pressed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_button_pressed.svg')} alt="block_hubs_all_event_button_pressed.svg" />
 
-Runs when the main button on the hub is pressed.
+Kører når hovedknappen på hubben ændrer tilstand.
 
-- State options: `pressed`, `released`, `changed`
-- Note: available button options may differ by hub model (different hubs can expose different button sets).
+- Tilstandsmuligheder: `trykket`, `frigivet`, `ændret`
+- Bemærk: tilgængelige knapmuligheder kan variere efter hub-model (forskellige hubs kan have forskellige knapsæt).
 
-### `Hub connection changed` {#block_hubs_all_event_connection_changed}
+### `Hub-forbindelse ændret` {#block_hubs_all_event_connection_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_connection_changed.svg')} alt="block_hubs_all_event_connection_changed.svg" />
 
-Runs when the hub connection state changes (connected or disconnected).
+Kører når hubbens forbindelsestilstand ændres (forbundet eller frakoblet).
 
-- Trigger: hub connection status change
-- Typical use: reconnection handling and safe fallback behavior after link loss
+- Trigger: ændring af hub-forbindelsesstatus
+- Typisk brug: håndtering af genforbindelse og sikker fallback-adfærd efter forbindelsestab
 
-### `Hub battery changed` {#block_hubs_all_event_battery_changed}
+### `Hub-batteri ændret` {#block_hubs_all_event_battery_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_battery_changed.svg')} alt="block_hubs_all_event_battery_changed.svg" />
 
-Runs when reported hub battery level changes.
+Kører når det rapporterede batteriniveau for hubben ændres.
 
-- Trigger: battery level update (for hubs that report battery state)
-- Typical use: low-battery warning logic and power-saving mode switching
+- Trigger: opdatering af batteriniveau (for hubs der rapporterer batteritilstand)
+- Typisk brug: lav-batteri-advarsler og skift til strømbesparende tilstand
 
-### `Hub accelerometer changed` {#block_hubs_all_event_accelerometer_changed}
+### `Hub-accelerometer ændret` {#block_hubs_all_event_accelerometer_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_accelerometer_changed.svg')} alt="block_hubs_all_event_accelerometer_changed.svg" />
 
-Runs when acceleration values change.
+Kører når accelerationsværdier ændres.
 
-### `Hub tilt changed` {#block_hubs_all_event_tilt_changed}
+### `Hub-tilt ændret` {#block_hubs_all_event_tilt_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_changed.svg')} alt="block_hubs_all_event_tilt_changed.svg" />
 
-Runs when tilt value changes.
+Kører når tilt-værdi ændres.
 
-- Angle options: `any`, `pitch`, `roll`, `yaw`
-- Note: `yaw` is available only on hubs that provide yaw data.
+- Vinkelmuligheder: `enhver`, `hældning`, `rulning`, `gyring`
+- Bemærk: `gyring` er kun tilgængelig på hubs, der leverer yaw-data.
 
-### `Hub orientation changed` {#block_hubs_all_event_tilt_orientation_changed}
+### `Hub-orientering ændret` {#block_hubs_all_event_tilt_orientation_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_orientation_changed.svg')} alt="block_hubs_all_event_tilt_orientation_changed.svg" />
 
-Runs when orientation state changes (for example, front/up/down/left/right).
+Kører når orienteringstilstand ændres (f.eks. foran/op/ned/venstre/højre).
 
-## Sensor port events
+## Sensorport-hændelser
 
-### `Technic color sensor event` {#block_hubs_all_event_port_technic_sensor_color}
+### `Technic farvesensor-hændelse` {#block_hubs_all_event_port_technic_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
 
-Runs when the Technic color sensor reports a selected color/value.
+Kører når Technic-farvesensoren rapporterer en valgt farve/værdi.
 
-- Unit options (mode-dependent): `%`, `cm`, `inch`
+- Enhedsmuligheder (tilstandsafhængig): `%`, `cm`, `tommer`
 
-### `Technic distance sensor event` {#block_hubs_all_event_port_technic_sensor_distance}
+### `Technic afstandssensor-hændelse` {#block_hubs_all_event_port_technic_sensor_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_distance.svg')} alt="block_hubs_all_event_port_technic_sensor_distance.svg" />
 
-Runs when Technic distance sensor values match the selected condition.
+Kører når Technic-afstandssensorens værdier matcher den valgte betingelse.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `mm`, `cm`, `inch`, `%`
-- Note: available units can depend on sensor mode and connected device.
+- Sammenligningsmuligheder: `nærmere end`, `længere end`, `præcis ved`
+- Enhedsmuligheder: `mm`, `cm`, `tommer`, `%`
+- Bemærk: tilgængelige enheder kan afhænge af sensortilstand og tilsluttet enhed.
 
-### `BOOST sensor distance event` {#block_hubs_all_event_port_boost_sensor_when_distance}
+### `BOOST sensorafstand-hændelse` {#block_hubs_all_event_port_boost_sensor_when_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_event_port_boost_sensor_when_distance.svg" />
 
-Runs when the BOOST distance sensor reaches the chosen threshold/condition.
+Kører når BOOST-afstandssensoren når den valgte tærskel/betingelse.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `%`, `cm`, `inch`
+- Sammenligningsmuligheder: `nærmere end`, `længere end`, `præcis ved`
+- Enhedsmuligheder: `%`, `cm`, `tommer`
 
-### `BOOST sensor color event` {#block_hubs_all_event_port_boost_sensor_color}
+### `BOOST sensorfarve-hændelse` {#block_hubs_all_event_port_boost_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 
-Runs when the BOOST sensor detects a selected color/value.
+Kører når BOOST-sensoren registrerer en valgt farve/værdi.
 
-## Notes
+## Noter
 
-- Event blocks can trigger very frequently (especially sensor/controller change events).
-- For stable behavior, add threshold checks or small delays when values are noisy.
-- Prefer broadcasting messages to coordinate scripts instead of duplicating logic.
+- Hændelsesblokke kan trigges meget ofte (især sensor-/controller-ændringshændelser).
+- For stabil adfærd: tilføj tærskelchecks eller små forsinkelser ved støjende værdier.
+- Foretræk broadcast-beskeder til at koordinere scripts i stedet for at duplikere logik.

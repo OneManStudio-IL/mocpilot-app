@@ -1,82 +1,82 @@
 ---
 id: Light
-title: Light
+title: Lys
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Light
+# Lys
 
-This page documents Light category blocks used to control LEDs and light outputs on supported hubs.
+Denne side dokumenterer blokke i kategorien Lys, som bruges til at styre LED'er og lysudgange på understøttede hubs.
 
-## Common light blocks
+## Almindelige lysblokke
 
-### `Set LED color` {#block_hubs_all_light_set_led_color}
+### `Sæt LED-farve` {#block_hubs_all_light_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_set_led_color.svg')} alt="block_hubs_all_light_set_led_color.svg" />
 
-Sets hub LED color using predefined color options.
+Sætter hubbens LED-farve ved hjælp af foruddefinerede farvevalg.
 
-- Type: command block
-- Typical use: show state (ready, running, warning, error)
+- Type: kommandoblok
+- Typisk brug: vis status (klar, kører, advarsel, fejl)
 
-### `Light turn to` {#block_hubs_all_light_light_turn_to}
+### `Tænd lys til` {#block_hubs_all_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_to.svg')} alt="block_hubs_all_light_light_turn_to.svg" />
 
-Sets selected light output to a target brightness/value.
+Sætter den valgte lysudgang til en mållysstyrke/-værdi.
 
-- Type: command block
-- Typical use: headlight brightness, status intensity
+- Type: kommandoblok
+- Typisk brug: forlysstyrke, statusintensitet
 
-### `Light turn off` {#block_hubs_all_light_light_turn_off}
+### `Sluk lys` {#block_hubs_all_light_light_turn_off}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_off.svg')} alt="block_hubs_all_light_light_turn_off.svg" />
 
-Turns selected light output off.
+Slukker den valgte lysudgang.
 
-- Type: command block
-- Typical use: shutdown sequence, battery-saving behavior
+- Type: kommandoblok
+- Typisk brug: nedlukningssekvens, batteribesparende adfærd
 
-### `Technic Move light turn to` {#block_hubs_technicmove_light_light_turn_to}
+### `Technic Move tænd lys til` {#block_hubs_technicmove_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_light_light_turn_to.svg')} alt="block_hubs_technicmove_light_light_turn_to.svg" />
 
-Variant of `Light turn to` for Technic Move hub/light target.
+Variant af `Tænd lys til` for Technic Move hub/lysmål.
 
-- Type: command block
-- Typical use: set Move hub light output level
+- Type: kommandoblok
+- Typisk brug: indstil lysudgangsniveau for Move-hub
 
-## BuWizz 3 light blocks
+## BuWizz 3-lysblokke
 
-### `BuWizz 3 set LED color` {#block_hubs_buwizz3_light_port_set_led_color}
+### `BuWizz 3 sæt LED-farve` {#block_hubs_buwizz3_light_port_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color.svg')} alt="block_hubs_buwizz3_light_port_set_led_color.svg" />
 
-Sets LED color on selected BuWizz 3 port with built-in color options.
+Sætter LED-farven på den valgte BuWizz 3-port med indbyggede farvevalg.
 
-- Type: command block
+- Type: kommandoblok
 
-### `BuWizz 3 set LED color (string)` {#block_hubs_buwizz3_light_port_set_led_color_string}
+### `BuWizz 3 sæt LED-farve (tekst)` {#block_hubs_buwizz3_light_port_set_led_color_string}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_string.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_string.svg" />
 
-Sets BuWizz 3 LED color using text color value.
+Sætter BuWizz 3 LED-farven ved hjælp af en tekstbaseret farveværdi.
 
-- Type: command block
-- Typical use: dynamic color names from variables
+- Type: kommandoblok
+- Typisk brug: dynamiske farvenavne fra variabler
 
-### `BuWizz 3 set LED color (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
+### `BuWizz 3 sæt LED-farve (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_rgb.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_rgb.svg" />
 
-Sets BuWizz 3 LED color using explicit RGB channels.
+Sætter BuWizz 3 LED-farven ved hjælp af eksplicitte RGB-kanaler.
 
-- Type: command block
-- Typical use: full custom color control and gradients
+- Type: kommandoblok
+- Typisk brug: fuld brugerdefineret farvestyring og gradienter
 
-## Notes
+## Noter
 
-- Light output capabilities depend on hub and connected device.
-- If a light command has no visible effect, verify device type and target port.
-- Sensor blocks that read reflected/ambient light are documented in the **Sensors** page.
+- Lysudgangsmuligheder afhænger af hub og tilsluttet enhed.
+- Hvis en lyskommando ikke har synlig effekt, skal du kontrollere enhedstype og målport.
+- Sensorblokke, der læser reflekteret/omgivelseslys, er dokumenteret på siden **Sensorer**.

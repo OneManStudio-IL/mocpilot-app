@@ -6,109 +6,109 @@ title: Gamepad
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Gamepad
-Gamepad blocks are used to react to controller input and read current gamepad state values.
+Gamepad-blokke bruges til at reagere på controller-input og læse aktuelle gamepad-tilstandsværdier.
 
-## Event blocks
+## Event-blokke
 
-### `When gamepad button is` {#block_gamepad_event_when_button_is}
+### `Når gamepad-knap er` {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is_sony.svg')} alt="block_gamepad_event_when_button_is_sony.svg" />
 </div>
 
-Triggers when the selected gamepad button matches the configured state.
+Udløses når den valgte gamepad-knap matcher den konfigurerede tilstand.
 
-- Type: event block
-- Button options (Xbox layout): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
-- Button options (Sony layout): `cross`, `circle`, `square`, `triangle`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
-- State options: `pressed`, `released`
+- Type: event-blok
+- Knapindstillinger (Xbox-layout): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
+- Knapindstillinger (Sony-layout): `kryds`, `cirkel`, `kvadrat`, `trekant`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
+- Tilstande: `trykket`, `sluppet`
 
-### `When gamepad D-pad is` {#block_gamepad_event_when_dpad_is}
+### `Når gamepad D-pad er` {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
-Triggers when D-pad direction/state matches the selected condition.
+Udløses når D-pad retning/tilstand matcher den valgte betingelse.
 
-- Type: event block
-- Direction options: `up`, `down`, `left`, `right`
-- State options: `pressed`, `released`
+- Type: event-blok
+- Retninger: `op`, `ned`, `venstre`, `højre`
+- Tilstande: `trykket`, `sluppet`
 
-### `When gamepad thumbstick is` {#block_gamepad_event_when_thumbstick_is}
+### `Når gamepad joystick er` {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
-Triggers when thumbstick condition matches selected options.
+Udløses når joystick-betingelsen matcher de valgte indstillinger.
 
-Based on current options, this block supports:
+Baseret på de aktuelle indstillinger understøtter denne blok:
 
-- Stick selection: `left` / `right`
-- Direction/state selection: `up`, `down`, `left`, `right`, `moved`, `released`
+- Valg af joystick: `venstre` / `højre`
+- Retning/tilstand: `op`, `ned`, `venstre`, `højre`, `flyttet`, `sluppet`
 
-- Type: event block
-- Typical use: react to directional movement or stick release
+- Type: event-blok
+- Typisk brug: reagere på bevægelse eller slip af joystick
 
-## Value blocks
+## Værdi-blokke
 
-### `Gamepad button value (boolean)` {#block_gamepad_button_value_boolean}
+### `Gamepad knapværdi (boolean)` {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean_sony.svg')} alt="block_gamepad_button_value_boolean_sony.svg" />
 </div>
 
-Returns current state of selected gamepad button.
+Returnerer den aktuelle tilstand for den valgte gamepad-knap.
 
-- Type: value block
+- Type: værdi-blok
 - Output: `true`/`false`
-- Button options (Xbox layout): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
-- Button options (Sony layout): `cross`, `circle`, `square`, `triangle`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
-- State options: `pressed`, `released`
+- Knapindstillinger (Xbox-layout): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
+- Knapindstillinger (Sony-layout): `kryds`, `cirkel`, `kvadrat`, `trekant`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
+- Tilstande: `trykket`, `sluppet`
 
-### `Gamepad D-pad button value (boolean)` {#block_gamepad_dpad_button_value_boolean}
+### `Gamepad D-pad værdi (boolean)` {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
-Returns whether selected D-pad direction is currently active.
+Returnerer om den valgte D-pad retning er aktiv.
 
-- Type: value block
+- Type: værdi-blok
 - Output: `true`/`false`
-- Direction options: `up`, `down`, `left`, `right`
-- State options: `pressed`, `released`
+- Retninger: `op`, `ned`, `venstre`, `højre`
+- Tilstande: `trykket`, `sluppet`
 
-### `Gamepad thumbstick value (float)` {#block_gamepad_thumbstick_value_float}
+### `Gamepad joystick værdi (float)` {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
-Returns numeric thumbstick axis value.
+Returnerer numerisk joystick-akseværdi.
 
-- Type: value block
-- Output: numeric (float)
-- Default range: `-1` to `1`
-- Optional range in gamepad settings: `-100` to `100`
-- Stick options: `left`, `right`
-- Axis options: `x-axis` / `y-axis`
+- Type: værdi-blok
+- Output: numerisk (float)
+- Standardområde: `-1` til `1`
+- Valgfrit område i indstillinger: `-100` til `100`
+- Joystick: `venstre`, `højre`
+- Akser: `x-akse` / `y-akse`
 
-### `Gamepad trigger pressure value (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Gamepad trigger tryk værdi (float)` {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float_sony.svg')} alt="block_gamepad_trigger_pressure_value_float_sony.svg" />
 </div>
 
-Returns trigger pressure value for selected trigger.
+Returnerer tryk-værdien for den valgte trigger.
 
-- Type: value block
-- Output: numeric (float)
-- Default range: `-1` to `1`
-- Optional range in gamepad settings: `-100` to `100`
-- Trigger options (Xbox layout): `LT`, `RT`
-- Trigger options (Sony layout): `L2`, `R2`
+- Type: værdi-blok
+- Output: numerisk (float)
+- Standardområde: `-1` til `1`
+- Valgfrit område i indstillinger: `-100` til `100`
+- Trigger (Xbox-layout): `LT`, `RT`
+- Trigger (Sony-layout): `L2`, `R2`
 
-## Usage notes
+## Brugsnoter
 
-- Use event blocks for immediate reaction to input state changes.
-- Use value blocks for continuous polling in loops and control math.
-- For smooth motor control, apply dead-zone and scaling to thumbstick/trigger values.
-- Combine with broadcast blocks to separate input handling from action logic.
-- In gamepad settings, button labels/layout can be switched between Xbox-style and Sony PlayStation-style mapping.
+- Brug event-blokke til øjeblikkelig reaktion på inputændringer.
+- Brug værdi-blokke til kontinuerlig aflæsning i loops og beregninger.
+- For jævn motorstyring: brug dead-zone og skalering på joystick/trigger værdier.
+- Kombinér med broadcast-blokke for at adskille inputhåndtering fra handlingslogik.
+- I gamepad-indstillinger kan layout skiftes mellem Xbox- og Sony PlayStation-stil.

@@ -1,34 +1,34 @@
 ---
 id: MyBlocks
-title: My Blocks
+title: Mine Blokke
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# My Blocks
+# Mine blokke
 
-My Blocks let you define your own custom reusable block.
-This category is conceptually similar to creating a function in traditional programming: define behavior once, then call it many times.
+Mine blokke giver dig mulighed for at definere dine egne genanvendelige blokke.
+Denne kategori svarer konceptuelt til at oprette en funktion i traditionel programmering: definér adfærd én gang, og kald den mange gange.
 
-## Core My Blocks
+## Grundlæggende Mine blokke
 
-### `Make a Block`
+### `Lav en blok`
 
-Creates a new custom block definition.
+Opretter en ny brugerdefineret blokdefinition.
 
-- Type: definition/setup block
-- Typical use: group repeated logic into one named block
+- Type: definitions-/opsætningsblok
+- Typisk brug: samle gentaget logik i én navngiven blok
 
-### `MyBlock` (call block)
+### `Min blok` (kald-blok)
 
-Calls a previously created custom block.
+Kalder en tidligere oprettet brugerdefineret blok.
 
-- Type: stack block (custom command call)
-- Typical use: reuse the same logic in multiple places without duplicating block stacks
+- Type: stack-blok (brugerdefineret kommando-kald)
+- Typisk brug: genbruge den samme logik flere steder uden at duplikere blokke
 
-## Variadic examples
+## Variadiske eksempler
 
-These examples show custom My Blocks with different argument signatures.
+Disse eksempler viser brugerdefinerede Mine blokke med forskellige argument-signaturer.
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758091855.svg')} alt="block_myblock_1775758091855.svg" />
@@ -40,30 +40,30 @@ These examples show custom My Blocks with different argument signatures.
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758145135.svg')} alt="block_myblock_1775758145135.svg" />
 </div>
 
-## Example usage in program stack
+## Eksempel på brug i programstak
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-usage-example.png')} alt="my-blocks-usage-example.png" />
 
-This example shows a custom block call attached under `when program starts`, while the `define my block` stack contains the reusable motor logic.
+Dette eksempel viser et kald til en brugerdefineret blok under `når programmet starter`, mens stakken `definér min blok` indeholder den genanvendelige motorlogik.
 
-- Typical flow: call custom block from event stacks
-- Benefit: one definition, many call sites
+- Typisk flow: kald brugerdefineret blok fra event-stakke
+- Fordel: én definition, mange kaldesteder
 
-## My Block editor view
+## Mine blokke editor-visning
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-editor-cropped.png')} alt="my-blocks-editor-cropped.png" />
 
-The Make a Block editor is used to design your custom block signature.
-You can add labels and inputs (for example number/text and boolean inputs), then define implementation logic in the block definition stack.
+Editoren **Lav en blok** bruges til at designe signaturen for din brugerdefinerede blok.
+Du kan tilføje labels og inputs (for eksempel tal/tekst og boolske inputs) og derefter definere implementeringslogik i blokdefinitions-stakken.
 
-## Why use My Blocks
+## Hvorfor bruge Mine blokke
 
-- Reusability: write once, call many times.
-- Readability: replace long repeated stacks with one meaningful name.
-- Maintainability: update logic in one place instead of many copies.
-- Structure: split large programs into smaller logical units.
+- Genanvendelighed: skriv én gang, brug mange gange.
+- Læsbarhed: erstat lange gentagne blokke med ét meningsfuldt navn.
+- Vedligeholdelse: opdatér logik ét sted i stedet for mange kopier.
+- Struktur: opdel store programmer i mindre logiske enheder.
 
-## Notes
+## Brugsnoter
 
-- Custom blocks are project-level and intended for reuse inside the same profile/project context.
-- Prefer descriptive names that explain intent, not implementation details.
+- Brugerdefinerede blokke er på projektniveau og beregnet til genbrug inden for samme profil-/projektkontekst.
+- Brug beskrivende navne, der forklarer formålet, ikke implementeringsdetaljer.
