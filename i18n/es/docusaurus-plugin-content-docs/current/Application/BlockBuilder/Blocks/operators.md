@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Operadores
 
-Los operadores son bloques de tipo Reporter y Booleano utilizados para cálculos, comparaciones, lógica y procesamiento de texto. :contentReference[oaicite:0]{index=0}
+Los operadores son bloques de tipo Reporter y Booleano utilizados para cálculos, comparaciones, lógica y procesamiento de texto.
 
 ## Operadores aritméticos
 

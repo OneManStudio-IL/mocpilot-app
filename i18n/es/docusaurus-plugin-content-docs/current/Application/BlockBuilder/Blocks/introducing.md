@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Introducción a los bloques
 
-MOCPilot utiliza un sistema de programación visual basado en bloques, similar a Scratch. :contentReference[oaicite:0]{index=0}  
+MOCPilot utiliza un sistema de programación visual basado en bloques, similar a Scratch.  
 Cada bloque tiene un propósito específico, y las combinaciones válidas definen el flujo de control y de datos dentro de un script.  
 Se basa en lógica de arrastrar y soltar y patrones de interacción tipo Scratch para ofrecer una forma cómoda y familiar de crear programas.
 

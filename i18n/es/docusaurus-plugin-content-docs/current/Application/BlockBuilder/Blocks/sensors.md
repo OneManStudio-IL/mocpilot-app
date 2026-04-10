@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Sensores
 
-Los bloques de sensores leen el estado del hub/dispositivo y proporcionan datos para condiciones, eventos y lógica de control. :contentReference[oaicite:0]{index=0}
+Los bloques de sensores leen el estado del hub/dispositivo y proporcionan datos para condiciones, eventos y lógica de control.
 
 ## Sensores del dispositivo y del hub
 
@@ -58,15 +58,15 @@ Devuelve datos de aceleración.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
 Devuelve el ángulo de inclinación.
 
-- Ejes: `pitch`, `roll`, `yaw`
-- Nota: `yaw` depende del hub.
+- Ejes: `inclinación`, `balanceo`, `guiñada`
+- Nota: `guiñada` depende del hub.
 
 ### `Obtener orientación` {#block_hubs_sensors_get_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_get_orientation.svg')} alt="block_hubs_sensors_get_orientation.svg" />
 Devuelve la orientación actual del hub.
 
 - Formato: `texto`, `índice`
-- Valores: `Frente`, `Arriba`, `Derecha`, `Atrás`, `Abajo`, `Izquierda`
+- Valores: `Delante`, `Superior`, `Derecha`, `Trasero`, `Fondo`, `Izquierda`
 
 ### `Orientación es arriba` {#block_hubs_all_sensors_is_orientation_up}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_orientation_up.svg')} alt="block_hubs_all_sensors_is_orientation_up.svg" />
@@ -92,13 +92,13 @@ Reinicia el temporizador.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
 Devuelve distancia.
 
-- Unidades: `mm`, `cm`, `inch`, `%`
+- Unidades: `mm`, `cm`, `pulgadas`, `%`
 
 ### `Technic cuando distancia es` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
 Evalúa condición de distancia.
 
-- Opciones: `más cerca que`, `más lejos que`, `igual a`
+- Opciones: `más cerca que`, `más lejos que`, `exactamente en`
 
 ### `Sensor de color Technic` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />

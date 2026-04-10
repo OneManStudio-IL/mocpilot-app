@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Motores
 
-Los bloques de motores se utilizan para iniciar, detener, posicionar y ajustar motores conectados a los puertos del hub. :contentReference[oaicite:0]{index=0}
+Los bloques de motores se utilizan para iniciar, detener, posicionar y ajustar motores conectados a los puertos del hub.
 
 ## Bloques principales de control de motores
 

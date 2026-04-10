@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Eventos
 
-La categoría **Eventos** contiene bloques que inician scripts cuando ocurre una condición. :contentReference[oaicite:0]{index=0}
+La categoría **Eventos** contiene bloques que inician scripts cuando ocurre una condición.
 
 ## Eventos principales
 
@@ -106,8 +106,8 @@ Se ejecuta cuando cambian los valores de aceleración.
 
 Se ejecuta cuando cambia la inclinación.
 
-- Ángulos: `cualquiera`, `pitch`, `roll`, `yaw`
-- Nota: `yaw` solo está disponible en algunos hubs.
+- Ángulos: `cualquiera`, `inclinación`, `balanceo`, `guiñada`
+- Nota: `guiñada` solo está disponible en algunos hubs.
 
 ### `Orientación del hub cambiada` {#block_hubs_all_event_tilt_orientation_changed}
 
@@ -123,7 +123,7 @@ Se ejecuta cuando cambia la orientación (por ejemplo: frente, arriba, abajo, iz
 
 Se ejecuta cuando el sensor de color Technic detecta un valor o color.
 
-- Unidades: `%`, `cm`, `inch`
+- Unidades: `%`, `cm`, `pulgadas`
 
 ### `Evento sensor de distancia Technic` {#block_hubs_all_event_port_technic_sensor_distance}
 
@@ -131,8 +131,8 @@ Se ejecuta cuando el sensor de color Technic detecta un valor o color.
 
 Se ejecuta cuando el sensor de distancia Technic cumple una condición.
 
-- Comparación: `más cerca que`, `más lejos que`, `igual a`
-- Unidades: `mm`, `cm`, `inch`, `%`
+- Comparación: `más cerca que`, `más lejos que`, `exactamente en`
+- Unidades: `mm`, `cm`, `pulgadas`, `%`
 - Nota: las unidades dependen del modo del sensor.
 
 ### `Evento sensor de distancia BOOST` {#block_hubs_all_event_port_boost_sensor_when_distance}
@@ -141,8 +141,8 @@ Se ejecuta cuando el sensor de distancia Technic cumple una condición.
 
 Se ejecuta cuando el sensor BOOST alcanza un umbral.
 
-- Comparación: `más cerca que`, `más lejos que`, `igual a`
-- Unidades: `%`, `cm`, `inch`
+- Comparación: `más cerca que`, `más lejos que`, `exactamente en`
+- Unidades: `%`, `cm`, `pulgadas`
 
 ### `Evento sensor de color BOOST` {#block_hubs_all_event_port_boost_sensor_color}
 

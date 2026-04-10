@@ -252,11 +252,11 @@ Establece un valor entero para un monitor tipo velocímetro.
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
-Establece el valor de inclinación (pitch/roll).
+Establece el valor de inclinación (inclinación/balanceo).
 
 - Tipo: bloque de comando
 - Uso típico: mostrar valores de inclinación
-- Ejes: `pitch`, `roll`
+- Ejes: `inclinación`, `balanceo`
 
 ## Notas de uso
 
