@@ -121,9 +121,8 @@ Runs when orientation state changes (for example, front/up/down/left/right).
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
 
-Runs when the Technic color sensor reports a selected color/value.
+Runs when the Technic color sensor reports a selected color.
 
-- Unit options (mode-dependent): `%`, `cm`, `inch`
 
 ### `Technic distance sensor event` {#block_hubs_all_event_port_technic_sensor_distance}
 

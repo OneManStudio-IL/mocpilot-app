@@ -121,9 +121,8 @@ Se ejecuta cuando cambia la orientación (por ejemplo: frente, arriba, abajo, iz
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
 
-Se ejecuta cuando el sensor de color Technic detecta un valor o color.
+Se ejecuta cuando el sensor de color Technic detecta un color seleccionado.
 
-- Unidades: `%`, `cm`, `pulgadas`
 
 ### `Evento sensor de distancia Technic` {#block_hubs_all_event_port_technic_sensor_distance}
 

@@ -121,9 +121,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
 
-当 Technic 颜色传感器上报所选颜色/数值时运行。
+当 Technic 颜色传感器上报所选颜色时运行。
 
-- 单位选项（取决于模式）：`百分比`、`厘米`、`英寸`
 
 ### `Technic 距离传感器事件` {#block_hubs_all_event_port_technic_sensor_distance}
 

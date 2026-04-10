@@ -121,9 +121,8 @@ Kører når orienteringstilstand ændres (f.eks. foran/op/ned/venstre/højre).
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
 
-Kører når Technic-farvesensoren rapporterer en valgt farve/værdi.
+Kører når Technic-farvesensoren rapporterer en valgt farve.
 
-- Enhedsmuligheder (tilstandsafhængig): `%`, `cm`, `tommer`
 
 ### `Technic afstandssensor-hændelse` {#block_hubs_all_event_port_technic_sensor_distance}
 
@@ -148,7 +147,7 @@ Kører når BOOST-afstandssensoren når den valgte tærskel/betingelse.
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 
-Kører når BOOST-sensoren registrerer en valgt farve/værdi.
+Kører når BOOST-sensoren registrerer en valgt farve.
 
 ## Noter
 

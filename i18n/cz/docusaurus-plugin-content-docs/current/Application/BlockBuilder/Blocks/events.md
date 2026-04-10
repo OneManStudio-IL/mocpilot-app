@@ -69,9 +69,8 @@ Spustí se při změně orientace.
 
 ### `Událost barvy senzoru Technic` {#block_hubs_all_event_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
-Spustí se, když senzor barvy Technic vrátí vybranou barvu/hodnotu.
+Spustí se, když senzor barvy Technic vrátí vybranou barvu.
 
-- Možnosti jednotek: `procent`, `cm`, `palce`
 
 ### `Událost vzdálenosti senzoru Technic` {#block_hubs_all_event_port_technic_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_distance.svg')} alt="block_hubs_all_event_port_technic_sensor_distance.svg" />

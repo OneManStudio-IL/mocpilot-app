@@ -121,9 +121,8 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
 
-Срабатывает, когда датчик цвета Technic сообщает выбранный цвет/значение.
+Срабатывает, когда датчик цвета Technic сообщает выбранный цвет.
 
-- Варианты единиц (зависят от режима): `процент`, `см`, `дюйм`
 
 ### `Событие датчика расстояния Technic` {#block_hubs_all_event_port_technic_sensor_distance}
 

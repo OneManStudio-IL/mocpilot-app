@@ -69,9 +69,8 @@ Wird bei Orientierungsänderung ausgelöst.
 
 ### `Technic Farbsensor-Ereignis` {#block_hubs_all_event_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
-Wird ausgelöst, wenn der Technic-Farbsensor die gewählte Farbe/Wert liefert.
+Wird ausgelöst, wenn der Technic-Farbsensor die gewählte Farbe liefert.
 
-- Einheitenoptionen: `prozent`, `cm`, `zoll`
 
 ### `Technic Distanzsensor-Ereignis` {#block_hubs_all_event_port_technic_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_distance.svg')} alt="block_hubs_all_event_port_technic_sensor_distance.svg" />
@@ -89,7 +88,7 @@ Wird ausgelöst, wenn der BOOST-Distanzsensor den gewählten Schwellwert erreich
 
 ### `BOOST Farbsensor-Ereignis` {#block_hubs_all_event_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
-Wird ausgelöst, wenn der BOOST-Sensor die gewählte Farbe/Wert erkennt.
+Wird ausgelöst, wenn der BOOST-Sensor die gewählte Farbe erkennt.
 
 ## Hinweise
 
