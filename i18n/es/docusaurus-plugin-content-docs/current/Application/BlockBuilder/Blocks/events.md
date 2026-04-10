@@ -1,157 +1,157 @@
 ---
 id: Events
-title: Events
+title: Eventos
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Events
+# Eventos
 
-The **Events** category contains blocks that start scripts when a condition happens.
+La categoría **Eventos** contiene bloques que inician scripts cuando ocurre una condición. :contentReference[oaicite:0]{index=0}
 
-## Core events
+## Eventos principales
 
-### `When program started` {#block_event_when_program_started}
+### `Cuando el programa inicia` {#block_event_when_program_started}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
 
-Starts this script once when the profile program begins.
+Inicia este script una vez cuando comienza el programa del perfil.
 
-- Trigger: program launch
-- Typical use: initialize variables, default motor states, startup sounds
+- Disparador: inicio del programa
+- Uso típico: inicializar variables, estados por defecto de motores, sonidos de arranque
 
-### `When` {#block_event_when}
+### `Cuando` {#block_event_when}
 
 <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 
-Runs when a selected condition becomes true.
+Se ejecuta cuando una condición seleccionada se vuelve verdadera.
 
-- Trigger: condition-based
-- Typical use: branch logic based on runtime state
+- Disparador: basado en condición
+- Uso típico: lógica condicional según el estado en ejecución
 
-### `When timer greater than` {#block_event_when_timer_greater_than}
+### `Cuando el temporizador sea mayor que` {#block_event_when_timer_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_timer_greater_than.svg')} alt="block_event_when_timer_greater_than.svg" />
 
-Runs when timer value passes a threshold.
+Se ejecuta cuando el valor del temporizador supera un umbral.
 
-- Trigger: elapsed time
-- Typical use: delayed actions, timed phases
+- Disparador: tiempo transcurrido
+- Uso típico: acciones con retraso, fases temporizadas
 
-### `When message received` {#block_event_when_message_recieved}
+### `Cuando se recibe mensaje` {#block_event_when_message_recieved}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_message_recieved.svg')} alt="block_event_when_message_recieved.svg" />
 
-Starts a script when a matching broadcast message is received.
+Inicia un script cuando se recibe un mensaje coincidente.
 
-- Trigger: message channel
-- Typical use: synchronize multiple scripts
+- Disparador: canal de mensajes
+- Uso típico: sincronizar múltiples scripts
 
-### `Broadcast` {#block_event_broadcast}
+### `Enviar mensaje` {#block_event_broadcast}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast.svg')} alt="block_event_broadcast.svg" />
 
-Sends a message to all scripts listening for that message.
+Envía un mensaje a todos los scripts que escuchan ese mensaje.
 
-- Trigger: immediate send
-- Typical use: notify other scripts without waiting
+- Disparador: envío inmediato
+- Uso típico: notificar a otros scripts sin esperar
 
-### `Broadcast and wait` {#block_event_broadcast_and_wait}
+### `Enviar mensaje y esperar` {#block_event_broadcast_and_wait}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast_and_wait.svg')} alt="block_event_broadcast_and_wait.svg" />
 
-Sends a message and pauses this script until listeners complete.
+Envía un mensaje y pausa este script hasta que los receptores finalicen.
 
-- Trigger: immediate send + wait
-- Typical use: staged flows where order matters
+- Disparador: envío inmediato + espera
+- Uso típico: flujos por etapas donde el orden es importante
 
-## Hub events
+## Eventos del hub
 
-### `Hub button pressed` {#block_hubs_all_event_button_pressed}
+### `Botón del hub presionado` {#block_hubs_all_event_button_pressed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_button_pressed.svg')} alt="block_hubs_all_event_button_pressed.svg" />
 
-Runs when the main button on the hub is pressed.
+Se ejecuta cuando se presiona el botón principal del hub.
 
-- State options: `pressed`, `released`, `changed`
-- Note: available button options may differ by hub model (different hubs can expose different button sets).
+- Estados: `presionado`, `soltado`, `cambiado`
+- Nota: las opciones pueden variar según el modelo de hub.
 
-### `Hub connection changed` {#block_hubs_all_event_connection_changed}
+### `Conexión del hub cambiada` {#block_hubs_all_event_connection_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_connection_changed.svg')} alt="block_hubs_all_event_connection_changed.svg" />
 
-Runs when the hub connection state changes (connected or disconnected).
+Se ejecuta cuando cambia el estado de conexión del hub.
 
-- Trigger: hub connection status change
-- Typical use: reconnection handling and safe fallback behavior after link loss
+- Disparador: cambio de conexión
+- Uso típico: reconexión y comportamiento seguro tras pérdida de conexión
 
-### `Hub battery changed` {#block_hubs_all_event_battery_changed}
+### `Batería del hub cambiada` {#block_hubs_all_event_battery_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_battery_changed.svg')} alt="block_hubs_all_event_battery_changed.svg" />
 
-Runs when reported hub battery level changes.
+Se ejecuta cuando cambia el nivel de batería del hub.
 
-- Trigger: battery level update (for hubs that report battery state)
-- Typical use: low-battery warning logic and power-saving mode switching
+- Disparador: actualización de batería
+- Uso típico: advertencias de batería baja y ahorro de energía
 
-### `Hub accelerometer changed` {#block_hubs_all_event_accelerometer_changed}
+### `Acelerómetro del hub cambiado` {#block_hubs_all_event_accelerometer_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_accelerometer_changed.svg')} alt="block_hubs_all_event_accelerometer_changed.svg" />
 
-Runs when acceleration values change.
+Se ejecuta cuando cambian los valores de aceleración.
 
-### `Hub tilt changed` {#block_hubs_all_event_tilt_changed}
+### `Inclinación del hub cambiada` {#block_hubs_all_event_tilt_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_changed.svg')} alt="block_hubs_all_event_tilt_changed.svg" />
 
-Runs when tilt value changes.
+Se ejecuta cuando cambia la inclinación.
 
-- Angle options: `any`, `pitch`, `roll`, `yaw`
-- Note: `yaw` is available only on hubs that provide yaw data.
+- Ángulos: `cualquiera`, `pitch`, `roll`, `yaw`
+- Nota: `yaw` solo está disponible en algunos hubs.
 
-### `Hub orientation changed` {#block_hubs_all_event_tilt_orientation_changed}
+### `Orientación del hub cambiada` {#block_hubs_all_event_tilt_orientation_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_orientation_changed.svg')} alt="block_hubs_all_event_tilt_orientation_changed.svg" />
 
-Runs when orientation state changes (for example, front/up/down/left/right).
+Se ejecuta cuando cambia la orientación (por ejemplo: frente, arriba, abajo, izquierda, derecha).
 
-## Sensor port events
+## Eventos de puertos de sensores
 
-### `Technic color sensor event` {#block_hubs_all_event_port_technic_sensor_color}
+### `Evento sensor de color Technic` {#block_hubs_all_event_port_technic_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
 
-Runs when the Technic color sensor reports a selected color/value.
+Se ejecuta cuando el sensor de color Technic detecta un valor o color.
 
-- Unit options (mode-dependent): `%`, `cm`, `inch`
+- Unidades: `%`, `cm`, `inch`
 
-### `Technic distance sensor event` {#block_hubs_all_event_port_technic_sensor_distance}
+### `Evento sensor de distancia Technic` {#block_hubs_all_event_port_technic_sensor_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_distance.svg')} alt="block_hubs_all_event_port_technic_sensor_distance.svg" />
 
-Runs when Technic distance sensor values match the selected condition.
+Se ejecuta cuando el sensor de distancia Technic cumple una condición.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `mm`, `cm`, `inch`, `%`
-- Note: available units can depend on sensor mode and connected device.
+- Comparación: `más cerca que`, `más lejos que`, `igual a`
+- Unidades: `mm`, `cm`, `inch`, `%`
+- Nota: las unidades dependen del modo del sensor.
 
-### `BOOST sensor distance event` {#block_hubs_all_event_port_boost_sensor_when_distance}
+### `Evento sensor de distancia BOOST` {#block_hubs_all_event_port_boost_sensor_when_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_event_port_boost_sensor_when_distance.svg" />
 
-Runs when the BOOST distance sensor reaches the chosen threshold/condition.
+Se ejecuta cuando el sensor BOOST alcanza un umbral.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `%`, `cm`, `inch`
+- Comparación: `más cerca que`, `más lejos que`, `igual a`
+- Unidades: `%`, `cm`, `inch`
 
-### `BOOST sensor color event` {#block_hubs_all_event_port_boost_sensor_color}
+### `Evento sensor de color BOOST` {#block_hubs_all_event_port_boost_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 
-Runs when the BOOST sensor detects a selected color/value.
+Se ejecuta cuando el sensor BOOST detecta un color o valor.
 
-## Notes
+## Notas de uso
 
-- Event blocks can trigger very frequently (especially sensor/controller change events).
-- For stable behavior, add threshold checks or small delays when values are noisy.
-- Prefer broadcasting messages to coordinate scripts instead of duplicating logic.
+- Los eventos pueden activarse con mucha frecuencia (especialmente sensores).
+- Para estabilidad, usa umbrales o pequeños retrasos.
+- Usa mensajes (broadcast) para coordinar scripts en lugar de duplicar lógica.

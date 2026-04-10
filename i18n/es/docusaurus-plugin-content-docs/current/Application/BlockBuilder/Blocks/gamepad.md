@@ -6,109 +6,109 @@ title: Gamepad
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Gamepad
-Gamepad blocks are used to react to controller input and read current gamepad state values.
+Los bloques de Gamepad se utilizan para reaccionar a la entrada del controlador y leer los valores actuales del estado del gamepad.
 
-## Event blocks
+## Bloques de evento
 
-### `When gamepad button is` {#block_gamepad_event_when_button_is}
+### `Cuando el botón del gamepad esté` {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is_sony.svg')} alt="block_gamepad_event_when_button_is_sony.svg" />
 </div>
 
-Triggers when the selected gamepad button matches the configured state.
+Se activa cuando el botón seleccionado coincide con el estado configurado.
 
-- Type: event block
-- Button options (Xbox layout): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
-- Button options (Sony layout): `cross`, `circle`, `square`, `triangle`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
-- State options: `pressed`, `released`
+- Tipo: bloque de evento
+- Opciones de botón (Xbox): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
+- Opciones de botón (Sony): `cruz`, `circulo`, `cuadrado`, `triángulo`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
+- Estados: `presionado`, `soltado`
 
-### `When gamepad D-pad is` {#block_gamepad_event_when_dpad_is}
+### `Cuando el D-pad del gamepad esté` {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
-Triggers when D-pad direction/state matches the selected condition.
+Se activa cuando la dirección o estado del D-pad coincide con la condición seleccionada.
 
-- Type: event block
-- Direction options: `up`, `down`, `left`, `right`
-- State options: `pressed`, `released`
+- Tipo: bloque de evento
+- Direcciones: `arriba`, `abajo`, `izquierda`, `derecha`
+- Estados: `presionado`, `soltado`
 
-### `When gamepad thumbstick is` {#block_gamepad_event_when_thumbstick_is}
+### `Cuando el joystick del gamepad esté` {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
-Triggers when thumbstick condition matches selected options.
+Se activa cuando la condición del joystick coincide con las opciones seleccionadas.
 
-Based on current options, this block supports:
+Este bloque soporta:
 
-- Stick selection: `left` / `right`
-- Direction/state selection: `up`, `down`, `left`, `right`, `moved`, `released`
+- Selección de joystick: `izquierdo` / `derecho`
+- Dirección/estado: `arriba`, `abajo`, `izquierda`, `derecha`, `movido`, `soltado`
 
-- Type: event block
-- Typical use: react to directional movement or stick release
+- Tipo: bloque de evento
+- Uso típico: reaccionar al movimiento o liberación del joystick
 
-## Value blocks
+## Bloques de valor
 
-### `Gamepad button value (boolean)` {#block_gamepad_button_value_boolean}
+### `Valor de botón del gamepad (booleano)` {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean_sony.svg')} alt="block_gamepad_button_value_boolean_sony.svg" />
 </div>
 
-Returns current state of selected gamepad button.
+Devuelve el estado actual del botón seleccionado.
 
-- Type: value block
-- Output: `true`/`false`
-- Button options (Xbox layout): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
-- Button options (Sony layout): `cross`, `circle`, `square`, `triangle`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
-- State options: `pressed`, `released`
+- Tipo: bloque de valor
+- Salida: `true`/`false`
+- Opciones de botón (Xbox): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
+- Opciones de botón (Sony): `cruz`, `circulo`, `cuadrado`, `triángulo`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
+- Estados: `presionado`, `soltado`
 
-### `Gamepad D-pad button value (boolean)` {#block_gamepad_dpad_button_value_boolean}
+### `Valor del D-pad del gamepad (booleano)` {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
-Returns whether selected D-pad direction is currently active.
+Devuelve si la dirección seleccionada del D-pad está activa.
 
-- Type: value block
-- Output: `true`/`false`
-- Direction options: `up`, `down`, `left`, `right`
-- State options: `pressed`, `released`
+- Tipo: bloque de valor
+- Salida: `true`/`false`
+- Direcciones: `arriba`, `abajo`, `izquierda`, `derecha`
+- Estados: `presionado`, `soltado`
 
-### `Gamepad thumbstick value (float)` {#block_gamepad_thumbstick_value_float}
+### `Valor del joystick del gamepad (float)` {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
-Returns numeric thumbstick axis value.
+Devuelve el valor numérico del eje del joystick.
 
-- Type: value block
-- Output: numeric (float)
-- Default range: `-1` to `1`
-- Optional range in gamepad settings: `-100` to `100`
-- Stick options: `left`, `right`
-- Axis options: `x-axis` / `y-axis`
+- Tipo: bloque de valor
+- Salida: numérico (float)
+- Rango por defecto: `-1` a `1`
+- Rango opcional en configuración: `-100` a `100`
+- Joystick: `izquierdo`, `derecho`
+- Ejes: `eje x` / `eje y`
 
-### `Gamepad trigger pressure value (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Valor de presión del gatillo (float)` {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float_sony.svg')} alt="block_gamepad_trigger_pressure_value_float_sony.svg" />
 </div>
 
-Returns trigger pressure value for selected trigger.
+Devuelve el valor de presión del gatillo seleccionado.
 
-- Type: value block
-- Output: numeric (float)
-- Default range: `-1` to `1`
-- Optional range in gamepad settings: `-100` to `100`
-- Trigger options (Xbox layout): `LT`, `RT`
-- Trigger options (Sony layout): `L2`, `R2`
+- Tipo: bloque de valor
+- Salida: numérico (float)
+- Rango por defecto: `-1` a `1`
+- Rango opcional en configuración: `-100` a `100`
+- Gatillos (Xbox): `LT`, `RT`
+- Gatillos (Sony): `L2`, `R2`
 
-## Usage notes
+## Notas de uso
 
-- Use event blocks for immediate reaction to input state changes.
-- Use value blocks for continuous polling in loops and control math.
-- For smooth motor control, apply dead-zone and scaling to thumbstick/trigger values.
-- Combine with broadcast blocks to separate input handling from action logic.
-- In gamepad settings, button labels/layout can be switched between Xbox-style and Sony PlayStation-style mapping.
+- Usa bloques de evento para reaccionar inmediatamente a cambios de entrada.
+- Usa bloques de valor para lectura continua en bucles y cálculos.
+- Para control suave, aplica zona muerta y escalado a joystick y gatillos.
+- Combina con bloques de mensaje (broadcast) para separar entrada y lógica.
+- En configuración, el layout puede cambiar entre estilo Xbox y Sony PlayStation.
