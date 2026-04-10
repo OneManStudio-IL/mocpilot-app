@@ -1,45 +1,45 @@
 ---
 id: Variables
-title: Variables
+title: Proměnné
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Variables
+# Proměnné
 
-Variables store values that can be read and updated across block stacks and scripts.
+Proměnné ukládají hodnoty, které lze číst a měnit napříč blokovými sekvencemi a skripty.
 
-## Variable command blocks
+## Příkazové bloky proměnných
 
-### `Set variable to` {#block_variables_set_to}
+### `Nastavit proměnnou na` {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
-Sets selected variable to the specified value.
+Nastaví vybranou proměnnou na zadanou hodnotu.
 
-- Type: command block
-- Typical use: initialize state, overwrite previous value
+- Typ: příkazový blok
+- Typické použití: inicializace stavu, přepsání předchozí hodnoty
 
-### `Change variable by` {#block_variables_change_by}
+### `Změnit proměnnou o` {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
-Adds the specified amount to selected variable.
+Přičte zadanou hodnotu k vybrané proměnné.
 
-- Type: command block
-- Typical use: counters, score, accumulated distance/time
+- Typ: příkazový blok
+- Typické použití: počítadla, skóre, kumulovaná vzdálenost/čas
 
-## Variable value reporter
+## Reportér hodnoty proměnné
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 
-Returns the current value of the selected variable.
+Vrací aktuální hodnotu vybrané proměnné.
 
-- Type: reporter block
-- Typical use: use variable value inside operators, conditions, and command inputs
+- Typ: reportovací blok
+- Typické použití: použití hodnoty proměnné v operátorech, podmínkách a vstupech příkazů
 
-## Usage notes
+## Poznámky k použití
 
-- Initialize important variables at program start.
-- Use `change by` for incremental updates to avoid repetitive get/set logic.
-- Keep variable names descriptive (`speed_target`, `is_armed`, `lap_count`).
+- Důležité proměnné inicializujte při spuštění programu.
+- Pro postupné navyšování používejte `Změnit proměnnou o`, abyste se vyhnuli opakovanému čtení/nastavení.
+- Používejte popisná jména proměnných (`speed_target`, `is_armed`, `lap_count`).

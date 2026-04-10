@@ -6,109 +6,109 @@ title: Gamepad
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Gamepad
-Gamepad blocks are used to react to controller input and read current gamepad state values.
+Bloky gamepadu slouží k reakci na vstup z ovladače a ke čtení aktuálních stavových hodnot gamepadu.
 
-## Event blocks
+## Bloky událostí
 
-### `When gamepad button is` {#block_gamepad_event_when_button_is}
+### `Když je tlačítko gamepadu` {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is_sony.svg')} alt="block_gamepad_event_when_button_is_sony.svg" />
 </div>
 
-Triggers when the selected gamepad button matches the configured state.
+Spustí se, když vybrané tlačítko gamepadu odpovídá nastavenému stavu.
 
-- Type: event block
-- Button options (Xbox layout): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
-- Button options (Sony layout): `cross`, `circle`, `square`, `triangle`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
-- State options: `pressed`, `released`
+- Typ: blok události
+- Možnosti tlačítek (rozložení Xbox): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
+- Možnosti tlačítek (rozložení Sony): `kříž`, `kruh`, `čtverec`, `trojúhelník`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
+- Možnosti stavu: `stisknuto`, `uvolněno`
 
-### `When gamepad D-pad is` {#block_gamepad_event_when_dpad_is}
+### `Když je D-pad gamepadu` {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
-Triggers when D-pad direction/state matches the selected condition.
+Spustí se, když směr/stav D-padu odpovídá vybrané podmínce.
 
-- Type: event block
-- Direction options: `up`, `down`, `left`, `right`
-- State options: `pressed`, `released`
+- Typ: blok události
+- Možnosti směru: `nahoru`, `dolů`, `vlevo`, `vpravo`
+- Možnosti stavu: `stisknuto`, `uvolněno`
 
-### `When gamepad thumbstick is` {#block_gamepad_event_when_thumbstick_is}
+### `Když je páčka gamepadu` {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
-Triggers when thumbstick condition matches selected options.
+Spustí se, když podmínka páčky odpovídá vybraným možnostem.
 
-Based on current options, this block supports:
+Podle aktuálních možností tento blok podporuje:
 
-- Stick selection: `left` / `right`
-- Direction/state selection: `up`, `down`, `left`, `right`, `moved`, `released`
+- Výběr páčky: `levý` / `pravý`
+- Výběr směru/stavu: `nahoru`, `dolů`, `vlevo`, `vpravo`, `pohnut`, `uvolněno`
 
-- Type: event block
-- Typical use: react to directional movement or stick release
+- Typ: blok události
+- Typické použití: reakce na směrový pohyb nebo uvolnění páčky
 
-## Value blocks
+## Bloky hodnot
 
-### `Gamepad button value (boolean)` {#block_gamepad_button_value_boolean}
+### `Hodnota tlačítka gamepadu (boolean)` {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean_sony.svg')} alt="block_gamepad_button_value_boolean_sony.svg" />
 </div>
 
-Returns current state of selected gamepad button.
+Vrací aktuální stav vybraného tlačítka gamepadu.
 
-- Type: value block
-- Output: `true`/`false`
-- Button options (Xbox layout): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
-- Button options (Sony layout): `cross`, `circle`, `square`, `triangle`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
-- State options: `pressed`, `released`
+- Typ: blok hodnoty
+- Výstup: `true`/`false`
+- Možnosti tlačítek (rozložení Xbox): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
+- Možnosti tlačítek (rozložení Sony): `kříž`, `kruh`, `čtverec`, `trojúhelník`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
+- Možnosti stavu: `stisknuto`, `uvolněno`
 
-### `Gamepad D-pad button value (boolean)` {#block_gamepad_dpad_button_value_boolean}
+### `Hodnota tlačítka D-pad gamepadu (boolean)` {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
-Returns whether selected D-pad direction is currently active.
+Vrací, zda je vybraný směr D-padu aktuálně aktivní.
 
-- Type: value block
-- Output: `true`/`false`
-- Direction options: `up`, `down`, `left`, `right`
-- State options: `pressed`, `released`
+- Typ: blok hodnoty
+- Výstup: `true`/`false`
+- Možnosti směru: `nahoru`, `dolů`, `vlevo`, `vpravo`
+- Možnosti stavu: `stisknuto`, `uvolněno`
 
-### `Gamepad thumbstick value (float)` {#block_gamepad_thumbstick_value_float}
+### `Hodnota páčky gamepadu (float)` {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
-Returns numeric thumbstick axis value.
+Vrací číselnou hodnotu osy páčky.
 
-- Type: value block
-- Output: numeric (float)
-- Default range: `-1` to `1`
-- Optional range in gamepad settings: `-100` to `100`
-- Stick options: `left`, `right`
-- Axis options: `x-axis` / `y-axis`
+- Typ: blok hodnoty
+- Výstup: číselný (float)
+- Výchozí rozsah: `-1` až `1`
+- Volitelný rozsah v nastavení gamepadu: `-100` až `100`
+- Možnosti páčky: `levý`, `pravý`
+- Možnosti osy: `osa X` / `osa Y`
 
-### `Gamepad trigger pressure value (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Hodnota stisku triggeru gamepadu (float)` {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float_sony.svg')} alt="block_gamepad_trigger_pressure_value_float_sony.svg" />
 </div>
 
-Returns trigger pressure value for selected trigger.
+Vrací hodnotu stisku pro vybraný trigger.
 
-- Type: value block
-- Output: numeric (float)
-- Default range: `-1` to `1`
-- Optional range in gamepad settings: `-100` to `100`
-- Trigger options (Xbox layout): `LT`, `RT`
-- Trigger options (Sony layout): `L2`, `R2`
+- Typ: blok hodnoty
+- Výstup: číselný (float)
+- Výchozí rozsah: `-1` až `1`
+- Volitelný rozsah v nastavení gamepadu: `-100` až `100`
+- Možnosti triggerů (rozložení Xbox): `LT`, `RT`
+- Možnosti triggerů (rozložení Sony): `L2`, `R2`
 
-## Usage notes
+## Poznámky k použití
 
-- Use event blocks for immediate reaction to input state changes.
-- Use value blocks for continuous polling in loops and control math.
-- For smooth motor control, apply dead-zone and scaling to thumbstick/trigger values.
-- Combine with broadcast blocks to separate input handling from action logic.
-- In gamepad settings, button labels/layout can be switched between Xbox-style and Sony PlayStation-style mapping.
+- Bloky událostí používejte pro okamžitou reakci na změny stavu vstupu.
+- Bloky hodnot používejte pro průběžné čtení ve smyčkách a při řízení.
+- Pro plynulé řízení motorů použijte mrtvou zónu a škálování hodnot páček/triggerů.
+- Kombinujte s bloky vysílání zpráv pro oddělení zpracování vstupu od akční logiky.
+- V nastavení gamepadu lze přepínat popisky/rozložení mezi stylem Xbox a Sony PlayStation.

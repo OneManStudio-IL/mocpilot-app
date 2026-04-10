@@ -1,176 +1,134 @@
 ---
 id: Operators
-title: Operators
+title: Operátory
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Operators
+# Operátory
 
-Operators are Reporter and Boolean blocks used for calculations, comparisons, logic, and string processing.
+Operátory jsou reportovací a booleovské bloky používané pro výpočty, porovnání, logiku a práci s textem.
 
-## Arithmetic operators
+## Aritmetické operátory
 
-### `Plus` {#block_operator_plus}
-
+### `Sčítání` {#block_operator_plus}
 <img src={useBaseUrl('/img/blocks/block_operator_plus.svg')} alt="block_operator_plus.svg" />
+Vrací součet dvou hodnot.
 
-Returns the sum of two values.
-
-### `Minus` {#block_operator_minus}
-
+### `Odčítání` {#block_operator_minus}
 <img src={useBaseUrl('/img/blocks/block_operator_minus.svg')} alt="block_operator_minus.svg" />
+Vrací výsledek odčítání dvou hodnot.
 
-Returns the subtraction result of two values.
-
-### `Multiply` {#block_operator_multiply}
-
+### `Násobení` {#block_operator_multiply}
 <img src={useBaseUrl('/img/blocks/block_operator_multiply.svg')} alt="block_operator_multiply.svg" />
+Vrací součin dvou hodnot.
 
-Returns the product of two values.
-
-### `Divide` {#block_operator_divide}
-
+### `Dělení` {#block_operator_divide}
 <img src={useBaseUrl('/img/blocks/block_operator_divide.svg')} alt="block_operator_divide.svg" />
+Vrací výsledek dělení dvou hodnot.
 
-Returns the division result of two values.
-
-### `Modulus` {#block_operator_modulus}
-
+### `Modulo` {#block_operator_modulus}
 <img src={useBaseUrl('/img/blocks/block_operator_modulus.svg')} alt="block_operator_modulus.svg" />
+Vrací zbytek po dělení.
 
-Returns the remainder after division.
-
-### `Round` {#block_operator_round}
-
+### `Zaokrouhlit` {#block_operator_round}
 <img src={useBaseUrl('/img/blocks/block_operator_round.svg')} alt="block_operator_round.svg" />
-
-Rounds to nearest integer (for example `2.6 -> 3`).
+Zaokrouhlí na nejbližší celé číslo (např. `2.6 -> 3`).
 
 ### `Math single` {#block_operator_math_single}
-
 <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
+Použije matematickou funkci s jedním argumentem.
 
-Applies a single-argument math function.
+Dostupné funkce:
 
-Available functions:
-
-- `abs`: absolute value of a number
-- `floor`: round down to nearest integer
-- `ceiling`: round up to nearest integer
-- `sqrt`: square root
-- `sin`: sine (angle-based)
-- `cos`: cosine (angle-based)
-- `tan`: tangent (angle-based)
-- `asin`: inverse sine
-- `acos`: inverse cosine
-- `atan`: inverse tangent
-- `ln`: natural logarithm (base `e`)
-- `log`: logarithm base `10`
-- `e^`: raise `e` to power of input
-- `10^`: raise `10` to power of input
+- `absolutní hodnota`: absolutní hodnota čísla
+- `celé menší`: zaokrouhlení dolů na nejbližší celé číslo
+- `celé větší`: zaokrouhlení nahoru na nejbližší celé číslo
+- `odmocnina`: druhá odmocnina
+- `sin`: sinus (podle úhlu)
+- `cos`: kosinus (podle úhlu)
+- `tan`: tangens (podle úhlu)
+- `asin`: arkus sinus
+- `acos`: arkus kosinus
+- `atan`: arkus tangens
+- `ln`: přirozený logaritmus (základ `e`)
+- `log`: logaritmus o základu `10`
+- `e^`: umocní `e` na hodnotu vstupu
+- `10^`: umocní `10` na hodnotu vstupu
 
 ### `Math pair` {#block_operator_math_pair}
-
 <img src={useBaseUrl('/img/blocks/block_operator_math_pair.svg')} alt="block_operator_math_pair.svg" />
+Použije matematickou funkci se dvěma argumenty.
 
-Applies a two-argument math function.
+Dostupné funkce:
 
-Available functions:
+- `min`: menší ze dvou hodnot
+- `max`: větší ze dvou hodnot
+- `mocnina`: první hodnota umocněná na druhou
+- `atan2`: úhel z dvojice X/Y
+- `hypot`: délka přepony ze dvou složek
+- `copysign`: první hodnota se znaménkem druhé hodnoty
 
-- `min`: smaller of two values
-- `max`: larger of two values
-- `pow`: first value raised to second value power
-- `atan2`: angle from X/Y pair
-- `hypot`: hypotenuse length from two components
-- `copysign`: first value with sign of second value
-
-### `Pick random` {#block_operator_pick_random}
-
+### `Náhodné číslo` {#block_operator_pick_random}
 <img src={useBaseUrl('/img/blocks/block_operator_pick_random.svg')} alt="block_operator_pick_random.svg" />
+Vrací náhodné číslo ve zvoleném rozsahu.
 
-Returns a random number in the selected range.
+## Porovnávací operátory
 
-## Comparison operators
-
-### `Equal` {#block_operator_equal}
-
+### `Rovná se` {#block_operator_equal}
 <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
+Vrací `true`, když jsou dvě hodnoty stejné.
 
-Returns `true` when two values are equal.
-
-### `Not equal` {#block_operator_not_equal}
-
+### `Nerovná se` {#block_operator_not_equal}
 <img src={useBaseUrl('/img/blocks/block_operator_not_equal.svg')} alt="block_operator_not_equal.svg" />
+Vrací `true`, když dvě hodnoty nejsou stejné.
 
-Returns `true` when two values are not equal.
-
-### `Greater than` {#block_operator_greater_than}
-
+### `Větší než` {#block_operator_greater_than}
 <img src={useBaseUrl('/img/blocks/block_operator_greater_than.svg')} alt="block_operator_greater_than.svg" />
+Vrací `true`, když je levá hodnota větší než pravá.
 
-Returns `true` when left value is greater than right value.
-
-### `Less than` {#block_operator_less_than}
-
+### `Menší než` {#block_operator_less_than}
 <img src={useBaseUrl('/img/blocks/block_operator_less_than.svg')} alt="block_operator_less_than.svg" />
+Vrací `true`, když je levá hodnota menší než pravá.
 
-Returns `true` when left value is less than right value.
-
-### `Is in between` {#block_operator_is_in_between}
-
+### `Je mezi` {#block_operator_is_in_between}
 <img src={useBaseUrl('/img/blocks/block_operator_is_in_between.svg')} alt="block_operator_is_in_between.svg" />
+Vrací `true`, když je hodnota uvnitř zadaných mezí.
 
-Returns `true` when a value is inside specified bounds.
+## Booleovská logika
 
-## Boolean logic operators
-
-### `And` {#block_operator_and}
-
+### `A` {#block_operator_and}
 <img src={useBaseUrl('/img/blocks/block_operator_and.svg')} alt="block_operator_and.svg" />
+Vrací `true` pouze tehdy, když jsou obě podmínky `true`.
 
-Returns `true` only when both conditions are `true`.
-
-### `Or` {#block_operator_or}
-
+### `Nebo` {#block_operator_or}
 <img src={useBaseUrl('/img/blocks/block_operator_or.svg')} alt="block_operator_or.svg" />
+Vrací `true`, když je alespoň jedna podmínka `true`.
 
-Returns `true` when at least one condition is `true`.
-
-### `Not` {#block_operator_not}
-
+### `Ne` {#block_operator_not}
 <img src={useBaseUrl('/img/blocks/block_operator_not.svg')} alt="block_operator_not.svg" />
+Neguje booleovskou hodnotu.
 
-Inverts a boolean value.
+## Textové operátory
 
-## Text operators
-
-### `Join` {#block_operator_join}
-
+### `Spojit` {#block_operator_join}
 <img src={useBaseUrl('/img/blocks/block_operator_join.svg')} alt="block_operator_join.svg" />
+Spojí dvě textové hodnoty.
 
-Concatenates two text values.
-
-### `Letter at` {#block_operator_letter_at}
-
+### `Písmeno na pozici` {#block_operator_letter_at}
 <img src={useBaseUrl('/img/blocks/block_operator_letter_at.svg')} alt="block_operator_letter_at.svg" />
+Vrátí znak na vybrané pozici v textu.
 
-Returns character at a selected position in text.
-
-### `Size of string` {#block_operator_size_of_string}
-
+### `Délka řetězce` {#block_operator_size_of_string}
 <img src={useBaseUrl('/img/blocks/block_operator_size_of_string.svg')} alt="block_operator_size_of_string.svg" />
+Vrací délku řetězce.
 
-Returns string length.
-
-### `String contains` {#block_operator_string_contains}
-
+### `Řetězec obsahuje` {#block_operator_string_contains}
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
+Vrací `true`, pokud text obsahuje zadaný podřetězec.
 
-Returns `true` if text contains specified substring.
+## Poznámky k použití
 
-## Usage notes
-
-- Use operator blocks to build conditions for `if`, `wait until`, and event filters.
-- For motor control, normalize and clamp values before passing to speed/power blocks.
-- Avoid dividing by zero in `Divide` and `Modulus`.
+- Operátory používejte pro tvorbu podmínek v `if`, `wait until` a filtrování událostí.
+- Pro řízení motorů hodnoty normalizujte a omezujte před předáním do bloků rychlosti/výkonu.
+- Vyhněte se dělení nulou v `Dělení` a `Modulo`.

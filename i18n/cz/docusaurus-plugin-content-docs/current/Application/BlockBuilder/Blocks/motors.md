@@ -1,162 +1,135 @@
 ---
 id: Motors
-title: Motors
+title: Motory
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Motors
+# Motory
 
-Motor blocks are used to start, stop, position, and tune motors connected to hub ports.
+Bloky motorů slouží ke spuštění, zastavení, polohování a ladění motorů připojených k portům hubu.
 
-## Core motor command blocks
+## Základní příkazové bloky motorů
 
-### `Start motor` {#block_hubs_all_motors_port_start_motor}
+### `Spustit motor` {#block_hubs_all_motors_port_start_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor.svg')} alt="block_hubs_all_motors_port_start_motor.svg" />
-Starts selected motor.
+Spustí vybraný motor.
 
-- Direction options: clockwise / counterclockwise
+- Možnosti směru: `ve směru hodinových ručiček` / `proti směru hodinových ručiček`
 
-### `Stop motor` {#block_hubs_all_motors_port_stop_motor}
+### `Zastavit motor` {#block_hubs_all_motors_port_stop_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_stop_motor.svg')} alt="block_hubs_all_motors_port_stop_motor.svg" />
-Stops selected motor.
+Zastaví vybraný motor.
 
-### `Run for` {#block_hubs_all_motors_port_run_for}
+### `Spustit na` {#block_hubs_all_motors_port_run_for}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for.svg')} alt="block_hubs_all_motors_port_run_for.svg" />
-Runs selected motor for specified time/angle/rotation based on block settings.
+Spustí vybraný motor na zadaný čas/úhel/otáčky podle nastavení bloku.
 
-- Direction options: clockwise / counterclockwise
-- Unit options: `rotations`, `degrees`, `seconds`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Možnosti směru: `ve směru hodinových ručiček` / `proti směru hodinových ručiček`
+- Možnosti jednotek: `otáčky`, `stupně`, `sekundy`
 
-### `Start motor at speed` {#block_hubs_all_motors_port_start_motor_at_speed}
+### `Spustit motor rychlostí` {#block_hubs_all_motors_port_start_motor_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor_at_speed.svg')} alt="block_hubs_all_motors_port_start_motor_at_speed.svg" />
-Starts motor with explicit speed value.
+Spustí motor s explicitně zadanou rychlostí.
 
-### `Run for at speed` {#block_hubs_all_motors_port_run_for_at_speed}
+### `Spustit na rychlostí` {#block_hubs_all_motors_port_run_for_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for_at_speed.svg')} alt="block_hubs_all_motors_port_run_for_at_speed.svg" />
-Runs motor for a target duration/amount with explicit speed.
+Spustí motor na cílové trvání/množství s explicitní rychlostí.
 
-- Unit options: `rotations`, `degrees`, `seconds`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Možnosti jednotek: `otáčky`, `stupně`, `sekundy`
 
-### `Set motor speed` {#block_hubs_all_motors_port_set_motor_speed}
+### `Nastavit rychlost motoru` {#block_hubs_all_motors_port_set_motor_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motor_speed.svg')} alt="block_hubs_all_motors_port_set_motor_speed.svg" />
-Sets speed used by related motor run blocks.
+Nastaví rychlost používanou souvisejícími bloky běhu motoru.
 
-## Position and movement blocks
+## Bloky polohy a pohybu
 
-### `Go to position` {#block_hubs_all_motors_port_go_to_position}
+### `Přejít na pozici` {#block_hubs_all_motors_port_go_to_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_go_to_position.svg')} alt="block_hubs_all_motors_port_go_to_position.svg" />
-Moves motor to target absolute position.
+Přesune motor na cílovou absolutní pozici.
 
-- Path options: `shortest path`, `clockwise`, `counterclockwise`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Možnosti cesty: `nejkratší cesta`, `ve směru hodinových ručiček`, `proti směru hodinových ručiček`
 
-### `Go to relative position` {#block_hubs_all_motors_port_go_to_relative_position}
+### `Přejít na relativní pozici` {#block_hubs_all_motors_port_go_to_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_go_to_relative_position.svg')} alt="block_hubs_all_motors_port_go_to_relative_position.svg" />
-Moves motor by a relative offset.
+Přesune motor o relativní posun.
 
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
-
-### `BuWizz 3 go to relative position` {#block_hubs_buwizz3_motors_port_go_to_relative_position}
+### `BuWizz 3 přejít na relativní pozici` {#block_hubs_buwizz3_motors_port_go_to_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_motors_port_go_to_relative_position.svg')} alt="block_hubs_buwizz3_motors_port_go_to_relative_position.svg" />
-BuWizz 3 variant of relative positioning block.
+Varianta relativního polohování pro BuWizz 3.
 
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
-
-### `Set relative position` {#block_hubs_all_motors_port_set_relative_position}
+### `Nastavit relativní pozici` {#block_hubs_all_motors_port_set_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_relative_position.svg')} alt="block_hubs_all_motors_port_set_relative_position.svg" />
-Sets motor relative-position reference.
+Nastaví referenci relativní pozice motoru.
 
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
-
-### `Calibrate steering rack` {#block_hubs_all_motors_port_calibrate_steering_rack}
+### `Kalibrovat řízení` {#block_hubs_all_motors_port_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_calibrate_steering_rack.svg')} alt="block_hubs_all_motors_port_calibrate_steering_rack.svg" />
-Calibrates steering rack neutral/reference position.
+Kalibruje neutrální/referenční pozici hřebene řízení.
 
-- Requirement: the motor connected to the selected port must support absolute/relative angle tracking (internal encoder).
-- Mechanical requirement: steering axis movement must be physically limited to a valid range (for example with steering rack/gearing end limits).
-- How it works: the block sweeps and measures the available steering rotation range, then computes calibration data used for steering configuration.
-- Output behavior: block arguments write results into variables passed to the block (function-like pass-by-reference behavior). Those variables are mutated by the block and should be used to read calibration results.
+## Bloky ladění a bezpečnosti motorů
 
-## Motor tuning and safety blocks
-
-### `Set motor behavior at stop` {#block_hubs_all_motors_port_set_motor_to_at_stop}
+### `Nastavit chování motoru při zastavení` {#block_hubs_all_motors_port_set_motor_to_at_stop}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motor_to_at_stop.svg')} alt="block_hubs_all_motors_port_set_motor_to_at_stop.svg" />
-Sets motor stop mode (for example brake/hold/float based on available options).
+Nastaví režim zastavení motoru.
 
-- Stop mode options: `brake`, `hold position`, `coast`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Možnosti režimu: `brzda`, `držet pozici`, `doběh`
 
-### `Set stall detection` {#block_hubs_all_motors_port_set_motors_stall_detection}
+### `Nastavit detekci zablokování` {#block_hubs_all_motors_port_set_motors_stall_detection}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motors_stall_detection.svg')} alt="block_hubs_all_motors_port_set_motors_stall_detection.svg" />
-Enables or disables stall detection.
+Zapíná nebo vypíná detekci zablokování.
 
-- Note: available only for the MINDSTORMS Robot Inventor hub.
-
-### `Set acceleration` {#block_hubs_all_motors_port_set_acceleration}
+### `Nastavit zrychlení` {#block_hubs_all_motors_port_set_acceleration}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_acceleration.svg')} alt="block_hubs_all_motors_port_set_acceleration.svg" />
-Sets motor acceleration profile/rate.
+Nastaví profil/rychlost zrychlení motoru.
 
-- Profile options: `default`, `fast`, `balanced`, `smooth`, `slow`, `very slow`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
-
-### `Set deceleration` {#block_hubs_all_motors_port_set_deceleration}
+### `Nastavit zpomalení` {#block_hubs_all_motors_port_set_deceleration}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_deceleration.svg')} alt="block_hubs_all_motors_port_set_deceleration.svg" />
-Sets motor deceleration profile/rate.
+Nastaví profil/rychlost zpomalení motoru.
 
-- Profile options: `default`, `fast`, `balanced`, `smooth`, `slow`, `very slow`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+## Reportovací bloky motorů
 
-## Motor reporter blocks
-
-### `Position` {#block_hubs_all_motors_port_position}
+### `Pozice` {#block_hubs_all_motors_port_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_position.svg')} alt="block_hubs_all_motors_port_position.svg" />
-Returns current motor position.
+Vrací aktuální pozici motoru.
 
-### `Relative position` {#block_hubs_all_motors_port_relative_position}
+### `Relativní pozice` {#block_hubs_all_motors_port_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_relative_position.svg')} alt="block_hubs_all_motors_port_relative_position.svg" />
-Returns current relative position value.
+Vrací aktuální relativní pozici.
 
-### `Speed` {#block_hubs_all_motors_port_speed}
+### `Rychlost` {#block_hubs_all_motors_port_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_speed.svg')} alt="block_hubs_all_motors_port_speed.svg" />
-Returns current motor speed.
+Vrací aktuální rychlost motoru.
 
-### `Power` {#block_hubs_all_motors_port_power}
+### `Výkon` {#block_hubs_all_motors_port_power}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_power.svg')} alt="block_hubs_all_motors_port_power.svg" />
-Returns current motor power value.
+Vrací aktuální hodnotu výkonu motoru.
 
-- Note: available only for the MINDSTORMS Robot Inventor hub.
+## Bloky motorů Technic Move
 
-## Technic Move motor blocks
-
-### `Start motors at speed` {#block_hubs_technicmove_motors_start_motors_at_speed}
+### `Spustit motory rychlostí` {#block_hubs_technicmove_motors_start_motors_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_start_motors_at_speed.svg')} alt="block_hubs_technicmove_motors_start_motors_at_speed.svg" />
-Starts Technic Move drive motors at selected speed.
+Spustí pohonné motory Technic Move zvolenou rychlostí.
 
-### `Stop motors` {#block_hubs_technicmove_motors_stop_motors}
+### `Zastavit motory` {#block_hubs_technicmove_motors_stop_motors}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_stop_motors.svg')} alt="block_hubs_technicmove_motors_stop_motors.svg" />
-Stops Technic Move drive motors.
+Zastaví pohonné motory Technic Move.
 
-### `Brake` {#block_hubs_technicmove_motors_brake}
+### `Brzda` {#block_hubs_technicmove_motors_brake}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_brake.svg')} alt="block_hubs_technicmove_motors_brake.svg" />
-Applies brake behavior to Technic Move motors.
+Nastaví brzdné chování motorů Technic Move.
 
-- Brake options: `off`, `on`
+- Možnosti brzdy: `vypnuto`, `povoleno`
 
-### `Set steering rack to` {#block_hubs_technicmove_motors_set_steering_rack_to}
+### `Nastavit hřeben řízení na` {#block_hubs_technicmove_motors_set_steering_rack_to}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_set_steering_rack_to.svg')} alt="block_hubs_technicmove_motors_set_steering_rack_to.svg" />
-Sets steering rack target position/value.
+Nastaví cílovou pozici/hodnotu hřebene řízení.
 
-### `Calibrate steering rack` {#block_hubs_technicmove_motors_calibrate_steering_rack}
+### `Kalibrovat hřeben řízení` {#block_hubs_technicmove_motors_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_calibrate_steering_rack.svg')} alt="block_hubs_technicmove_motors_calibrate_steering_rack.svg" />
-Calibrates the Technic Move steering rack using the hub's internal calibration algorithm and automatic steering range detection.
+Kalibruje hřeben řízení Technic Move pomocí interního algoritmu hubu.
 
-- Note: the motor axis must be mechanically limited (for example, by a steering rack mechanism).
+## Poznámky k použití
 
-## Usage notes
-
-- Choose `go to position` for absolute targets and `go to relative position` for incremental motion.
-- Use acceleration/deceleration tuning for smoother starts and stops.
-- Enable stall detection when mechanisms can jam under load.
+- Pro absolutní cíl použijte `Přejít na pozici`, pro přírůstkový pohyb `Přejít na relativní pozici`.
+- Nastavení zrychlení/zpomalení zjemní rozjezdy a zastavení.
+- Detekci zablokování zapínejte tam, kde může dojít k zaseknutí mechaniky.

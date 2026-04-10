@@ -1,82 +1,82 @@
 ---
 id: Light
-title: Light
+title: Světla
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Light
+# Světla
 
-This page documents Light category blocks used to control LEDs and light outputs on supported hubs.
+Tato stránka popisuje bloky kategorie Světla, které slouží k ovládání LED a světelných výstupů na podporovaných hubech.
 
-## Common light blocks
+## Běžné bloky světel
 
-### `Set LED color` {#block_hubs_all_light_set_led_color}
+### `Nastavit barvu LED na` {#block_hubs_all_light_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_set_led_color.svg')} alt="block_hubs_all_light_set_led_color.svg" />
 
-Sets hub LED color using predefined color options.
+Nastaví barvu LED na hubu pomocí předdefinovaných barev.
 
-- Type: command block
-- Typical use: show state (ready, running, warning, error)
+- Typ: příkazový blok
+- Typické použití: zobrazení stavu (připraveno, běží, varování, chyba)
 
-### `Light turn to` {#block_hubs_all_light_light_turn_to}
+### `Nastavit světlo na` {#block_hubs_all_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_to.svg')} alt="block_hubs_all_light_light_turn_to.svg" />
 
-Sets selected light output to a target brightness/value.
+Nastaví vybraný světelný výstup na cílový jas/hodnotu.
 
-- Type: command block
-- Typical use: headlight brightness, status intensity
+- Typ: příkazový blok
+- Typické použití: jas předního světla, intenzita stavové signalizace
 
-### `Light turn off` {#block_hubs_all_light_light_turn_off}
+### `Vypnout světlo` {#block_hubs_all_light_light_turn_off}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_off.svg')} alt="block_hubs_all_light_light_turn_off.svg" />
 
-Turns selected light output off.
+Vypne vybraný světelný výstup.
 
-- Type: command block
-- Typical use: shutdown sequence, battery-saving behavior
+- Typ: příkazový blok
+- Typické použití: vypínací sekvence, úspora baterie
 
-### `Technic Move light turn to` {#block_hubs_technicmove_light_light_turn_to}
+### `Technic Move nastavit světlo na` {#block_hubs_technicmove_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_light_light_turn_to.svg')} alt="block_hubs_technicmove_light_light_turn_to.svg" />
 
-Variant of `Light turn to` for Technic Move hub/light target.
+Varianta bloku `Nastavit světlo na` pro cíle hubu/světla Technic Move.
 
-- Type: command block
-- Typical use: set Move hub light output level
+- Typ: příkazový blok
+- Typické použití: nastavení úrovně světelného výstupu hubu Move
 
-## BuWizz 3 light blocks
+## Bloky světel BuWizz 3
 
-### `BuWizz 3 set LED color` {#block_hubs_buwizz3_light_port_set_led_color}
+### `BuWizz 3 nastavit barvu LED na` {#block_hubs_buwizz3_light_port_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color.svg')} alt="block_hubs_buwizz3_light_port_set_led_color.svg" />
 
-Sets LED color on selected BuWizz 3 port with built-in color options.
+Nastaví barvu LED na vybraném portu BuWizz 3 pomocí vestavěných barevných možností.
 
-- Type: command block
+- Typ: příkazový blok
 
-### `BuWizz 3 set LED color (string)` {#block_hubs_buwizz3_light_port_set_led_color_string}
+### `BuWizz 3 nastavit barvu LED na (text)` {#block_hubs_buwizz3_light_port_set_led_color_string}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_string.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_string.svg" />
 
-Sets BuWizz 3 LED color using text color value.
+Nastaví barvu LED BuWizz 3 pomocí textové hodnoty barvy.
 
-- Type: command block
-- Typical use: dynamic color names from variables
+- Typ: příkazový blok
+- Typické použití: dynamické názvy barev z proměnných
 
-### `BuWizz 3 set LED color (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
+### `BuWizz 3 nastavit barvu LED na (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_rgb.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_rgb.svg" />
 
-Sets BuWizz 3 LED color using explicit RGB channels.
+Nastaví barvu LED BuWizz 3 pomocí explicitních kanálů RGB.
 
-- Type: command block
-- Typical use: full custom color control and gradients
+- Typ: příkazový blok
+- Typické použití: plně vlastní řízení barev a přechody
 
-## Notes
+## Poznámky
 
-- Light output capabilities depend on hub and connected device.
-- If a light command has no visible effect, verify device type and target port.
-- Sensor blocks that read reflected/ambient light are documented in the **Sensors** page.
+- Možnosti světelného výstupu závisí na hubu a připojeném zařízení.
+- Pokud světelný příkaz nemá viditelný efekt, ověřte typ zařízení a cílový port.
+- Bloky senzorů pro čtení odraženého/okolního světla jsou popsány na stránce **Sensors**.

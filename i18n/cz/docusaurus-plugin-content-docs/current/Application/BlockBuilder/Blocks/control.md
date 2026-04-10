@@ -1,136 +1,104 @@
 ---
 id: Control
-title: Control
+title: Ovládání
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Control
+# Ovládání
 
-Control blocks manage execution flow: waiting, loops, branching, and stopping scripts.
+Bloky ovládání řídí tok vykonávání: čekání, cykly, větvení a zastavení skriptů.
 
-## Wait blocks
+## Bloky čekání
 
-### `Wait` {#block_control_wait_for}
-
+### `Čekat` {#block_control_wait_for}
 <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
+Pozastaví aktuální skript na zadaný čas.
 
-Pauses the current script for a specified time.
-
-### `Wait until` {#block_control_wait_until}
-
+### `Čekat dokud` {#block_control_wait_until}
 <img src={useBaseUrl('/img/blocks/block_control_wait_until.svg')} alt="block_control_wait_until.svg" />
+Pozastaví aktuální skript, dokud podmínka nebude pravdivá.
 
-Pauses the current script until a condition becomes true.
+## Bloky cyklu
 
-## Loop blocks
-
-### `Repeat` {#block_control_repeat_for}
-
+### `Opakovat` {#block_control_repeat_for}
 <img src={useBaseUrl('/img/blocks/block_control_repeat_for.svg')} alt="block_control_repeat_for.svg" />
+Spustí vnořené bloky pevně daný počet opakování.
 
-Runs nested blocks a fixed number of times.
-
-### `Repeat until` {#block_control_repeat_until}
-
+### `Opakovat dokud` {#block_control_repeat_until}
 <img src={useBaseUrl('/img/blocks/block_control_repeat_until.svg')} alt="block_control_repeat_until.svg" />
+Opakuje vnořené bloky, dokud podmínka nebude pravdivá.
 
-Runs nested blocks repeatedly until a condition becomes true.
-
-### `Forever` {#block_control_repeat_forever}
-
+### `Stále` {#block_control_repeat_forever}
 <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
+Spouští vnořené bloky nepřetržitě, dokud není program nebo skript zastaven.
 
-Runs nested blocks continuously until the program or script is stopped.
+## Bloky větvení
 
-## Branch blocks
-
-### `If` {#block_control_if}
-
+### `Pokud` {#block_control_if}
 <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
+Spustí vnořené bloky jen tehdy, když je podmínka pravdivá.
 
-Runs nested blocks only when the condition is true.
-
-### `If / Else` {#block_control_if_else}
-
+### `Pokud / Jinak` {#block_control_if_else}
 <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
+Spustí jednu větev při pravdivé podmínce, jinak alternativní větev.
 
-Runs one branch when the condition is true, otherwise runs the alternative branch.
-
-### `Do this and this` {#block_control_do_this_and_this}
-
+### `Udělej toto a toto` {#block_control_do_this_and_this}
 <img src={useBaseUrl('/img/blocks/block_control_do_this_and_this.svg')} alt="block_control_do_this_and_this.svg" />
+Spustí dvě blokové sekvence po sobě v rámci jedné řídicí operace.
 
-Runs two block stacks in sequence as part of one control flow operation.
+## Bloky zastavení
 
-## Stop blocks
-
-### `Stop` {#block_control_stop}
-
+### `Zastavit` {#block_control_stop}
 <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
+Zastaví vykonávání skriptu (rozsah závisí na zvolené možnosti zastavení).
 
-Stops script execution (scope depends on selected stop option).
+- Možnosti zastavení: `vše`, `tento stack`, `a ukončit program`
 
-- Stop options: `all`, `this stack`, `and exit program`
-
-### `Stop other stacks` {#block_control_stop_other_stacks}
-
+### `Zastavit ostatní stacky` {#block_control_stop_other_stacks}
 <img src={useBaseUrl('/img/blocks/block_control_stop_other_stacks.svg')} alt="block_control_stop_other_stacks.svg" />
+Zastaví všechny ostatní běžící stacky, ale aktuální stack pokračuje.
 
-Stops all other running stacks while allowing the current stack to continue.
+## Utility bloky hubu/ovládání
 
-## Hub/control utility blocks
-
-### `Set connect` {#block_hubs_control_set_connect}
-
+### `Nastavit připojení` {#block_hubs_control_set_connect}
 <img src={useBaseUrl('/img/blocks/block_hubs_control_set_connect.svg')} alt="block_hubs_control_set_connect.svg" />
+Řídí stav připojení hubu z logiky skriptu.
 
-Controls hub connection state from control flow logic.
+- Možnosti akce: `připojit`, `odpojit`
 
-- Action options: `connect`, `disconnect`
-
-### `Is connected` {#block_hubs_all_sensors_is_connected}
-
+### `Je připojeno` {#block_hubs_all_sensors_is_connected}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_connected.svg')} alt="block_hubs_all_sensors_is_connected.svg" />
+Vrací, zda je hub aktuálně připojen.
 
-Returns whether the hub is currently connected.
+- Typ: booleovský reportovací blok
 
-- Type: boolean reporter block
-
-### `BuWizz 2 set power mode` {#block_hubs_buwizz_sensors_set_power_mode}
-
+### `BuWizz 2 nastavit režim výkonu` {#block_hubs_buwizz_sensors_set_power_mode}
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_set_power_mode.svg')} alt="block_hubs_buwizz_sensors_set_power_mode.svg" />
+Nastaví režim výkonu hubu BuWizz 2.
 
-Sets BuWizz 2 hub power mode.
+- Možnosti režimu: `Slow`, `Normal`, `Fast`, `Ludicrous`
 
-- Mode options: `Slow`, `Normal`, `Fast`, `Ludicrous`
-
-### `BuWizz 2 get power mode` {#block_hubs_buwizz_sensors_get_power_mode}
-
+### `BuWizz 2 získat režim výkonu` {#block_hubs_buwizz_sensors_get_power_mode}
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_get_power_mode.svg')} alt="block_hubs_buwizz_sensors_get_power_mode.svg" />
+Vrací aktuálně aktivní režim výkonu BuWizz 2.
 
-Returns the currently active BuWizz 2 power mode.
+- Možnosti výstupu: `text`, `index`
 
-- Output format options: `text`, `index`
-
-### `MouldKing set control channel` {#block_hubs_mouldking_control_set_control_channel}
-
+### `MouldKing nastavit řídicí kanál` {#block_hubs_mouldking_control_set_control_channel}
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_set_control_channel.svg')} alt="block_hubs_mouldking_control_set_control_channel.svg" />
+Nastaví aktivní řídicí kanál pro podporovaný hub/ovladač MouldKing.
 
-Sets active control channel for supported MouldKing hub/controller.
+- Možnosti kanálu: `A`, `B`, `C`
 
-- Channel options: `A`, `B`, `C`
-
-### `MouldKing get control channel` {#block_hubs_mouldking_control_get_control_channel}
-
+### `MouldKing získat řídicí kanál` {#block_hubs_mouldking_control_get_control_channel}
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_get_control_channel.svg')} alt="block_hubs_mouldking_control_get_control_channel.svg" />
+Vrací aktuálně aktivní řídicí kanál pro podporovaný hub/ovladač MouldKing.
 
-Returns current active control channel for supported MouldKing hub/controller.
+- Možnosti výstupu: `text`, `index`
 
-- Output format options: `text`, `index`
+## Poznámky k použití
 
-## Usage notes
-
-- Use `wait until` with boolean reporter blocks from Sensors/Operators.
-- Put safety conditions in loops to avoid endless unintended behavior.
-- Prefer `if / else` when both true/false paths need explicit handling.
+- Používejte `Čekat dokud` s booleovskými reportéry ze Sensors/Operators.
+- Do cyklů přidávejte bezpečnostní podmínky, aby nedocházelo k nechtěnému nekonečnému chování.
+- Preferujte `Pokud / Jinak`, pokud potřebujete explicitně zpracovat obě větve.

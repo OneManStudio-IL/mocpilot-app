@@ -1,34 +1,34 @@
 ---
 id: MyBlocks
-title: My Blocks
+title: Moje bloky
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# My Blocks
+# Moje bloky
 
-My Blocks let you define your own custom reusable block.
-This category is conceptually similar to creating a function in traditional programming: define behavior once, then call it many times.
+Moje bloky umožňují definovat vlastní znovupoužitelné bloky.
+Tato kategorie je podobná funkcím v klasickém programování: chování nadefinujete jednou a voláte opakovaně.
 
-## Core My Blocks
+## Základní bloky My Blocks
 
-### `Make a Block`
+### `Vytvořit blok`
 
-Creates a new custom block definition.
+Vytvoří novou definici vlastního bloku.
 
-- Type: definition/setup block
-- Typical use: group repeated logic into one named block
+- Typ: definiční/nastavovací blok
+- Typické použití: seskupení opakované logiky do jednoho pojmenovaného bloku
 
-### `MyBlock` (call block)
+### `MyBlock` (volací blok)
 
-Calls a previously created custom block.
+Volá dříve vytvořený vlastní blok.
 
-- Type: stack block (custom command call)
-- Typical use: reuse the same logic in multiple places without duplicating block stacks
+- Typ: stack blok (volání vlastní příkazové logiky)
+- Typické použití: znovupoužití stejné logiky na více místech bez duplikace sekvencí
 
-## Variadic examples
+## Příklady s různými argumenty
 
-These examples show custom My Blocks with different argument signatures.
+Tyto příklady ukazují vlastní My Blocks s různými signaturami argumentů.
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758091855.svg')} alt="block_myblock_1775758091855.svg" />
@@ -40,30 +40,30 @@ These examples show custom My Blocks with different argument signatures.
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758145135.svg')} alt="block_myblock_1775758145135.svg" />
 </div>
 
-## Example usage in program stack
+## Příklad použití v programu
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-usage-example.png')} alt="my-blocks-usage-example.png" />
 
-This example shows a custom block call attached under `when program starts`, while the `define my block` stack contains the reusable motor logic.
+Ukázka zobrazuje volání vlastního bloku pod `when program starts`, zatímco sekvence `define my block` obsahuje znovupoužitelnou logiku motoru.
 
-- Typical flow: call custom block from event stacks
-- Benefit: one definition, many call sites
+- Typický tok: volání vlastního bloku z událostních sekvencí
+- Přínos: jedna definice, více míst použití
 
-## My Block editor view
+## Pohled editoru My Block
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-editor-cropped.png')} alt="my-blocks-editor-cropped.png" />
 
-The Make a Block editor is used to design your custom block signature.
-You can add labels and inputs (for example number/text and boolean inputs), then define implementation logic in the block definition stack.
+Editor Create a Block slouží k návrhu signatury vlastního bloku.
+Můžete přidat popisky a vstupy (například číslo/text a boolean) a potom definovat implementační logiku v definiční sekvenci.
 
-## Why use My Blocks
+## Proč používat My Blocks
 
-- Reusability: write once, call many times.
-- Readability: replace long repeated stacks with one meaningful name.
-- Maintainability: update logic in one place instead of many copies.
-- Structure: split large programs into smaller logical units.
+- Znovupoužitelnost: napište jednou, volejte mnohokrát.
+- Čitelnost: dlouhé opakované sekvence nahradíte jedním smysluplným názvem.
+- Údržba: logiku měníte na jednom místě místo mnoha kopií.
+- Struktura: velké programy rozdělíte do menších logických částí.
 
-## Notes
+## Poznámky
 
-- Custom blocks are project-level and intended for reuse inside the same profile/project context.
-- Prefer descriptive names that explain intent, not implementation details.
+- Vlastní bloky jsou na úrovni projektu a jsou určeny k použití v rámci stejného profilu/projektu.
+- Používejte popisné názvy vyjadřující záměr, ne implementační detaily.

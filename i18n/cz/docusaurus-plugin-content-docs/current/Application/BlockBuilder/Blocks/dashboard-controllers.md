@@ -1,266 +1,266 @@
 ---
 id: DashboardControllers
-title: Dashboard controllers
+title: Ovladače dashboardu
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Dashboard controllers
+# Ovladače dashboardu
 
-These blocks are used to read user input from on-screen controls, react to user actions, and update dashboard UI state.
+Tyto bloky se používají ke čtení uživatelského vstupu z ovládacích prvků na obrazovce, reakci na akce uživatele a aktualizaci stavu UI dashboardu.
 
-## Global dashboard controller blocks
+## Globální bloky ovladačů dashboardu
 
-### `Set controller color` {#block_dashboard_controller_all_set_color}
+### `Nastavit barvu ovladače` {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
-Changes the visual accent color of the selected dashboard controller.
+Změní zvýrazňovací barvu vybraného ovladače dashboardu.
 
-- Type: command block
-- Typical use: indicate runtime states or dynamically change controller style based on conditions
+- Typ: příkazový blok
+- Typické použití: indikace běhových stavů nebo dynamická změna stylu ovladače podle podmínek
 
-### `Set controller interactivity` {#block_dashboard_controller_all_set_interactivity}
+### `Nastavit interaktivitu ovladače` {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
-Controls selected dashboard controller interactivity.
-If interactivity is disabled, the controller does not react to touch input.
+Řídí interaktivitu vybraného ovladače dashboardu.
+Pokud je interaktivita zakázána, ovladač nereaguje na dotykový vstup.
 
-- Type: command block
-- Typical use: temporarily lock controls during specific logic or safety states
-- State options: `enable`, `disable`
+- Typ: příkazový blok
+- Typické použití: dočasné uzamčení ovládání při specifické logice nebo v bezpečnostních stavech
+- Možnosti stavu: `povolit`, `zakázat`
 
-## Button blocks
+## Bloky tlačítek
 
-### `Button event` {#block_dashboard_controller_button_event}
+### `Událost tlačítka` {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
-Triggers when the dashboard button changes state (pressed/released).
+Spustí se, když tlačítko dashboardu změní stav (stisknuto/uvolněno).
 
-- Type: event block
-- Output: starts connected script
-- State options: `pressed`, `released`
+- Typ: blok události
+- Výstup: spustí připojený skript
+- Možnosti stavu: `stisknuto`, `uvolněno`
 
-### `Button value (boolean)` {#block_dashboard_controller_button_value_boolean}
+### `Hodnota tlačítka (boolean)` {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
-Reports current dashboard button state.
+Vrací aktuální stav tlačítka dashboardu.
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `pressed`, `released`
+- Typ: blok hodnoty
+- Výstup: `true`/`false`
+- Možnosti stavu: `stisknuto`, `uvolněno`
 
-## D-pad blocks
+## Bloky D-padu
 
-### `D-pad event` {#block_dashboard_controller_dpad_event}
+### `Událost D-padu` {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
-Triggers when D-pad direction changes or matches configured direction.
+Spustí se, když se směr D-padu změní nebo odpovídá nastavenému směru.
 
-- Type: event block
-- Output: starts connected script
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- Typ: blok události
+- Výstup: spustí připojený skript
+- Možnosti směru: `nahoru`, `dolů`, `vlevo`, `vpravo`
+- Možnosti stavu tlačítka: `stisknuto`, `uvolněno`
 
-### `D-pad value (boolean)` {#block_dashboard_controller_dpad_value_boolean}
+### `Hodnota D-padu (boolean)` {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
-Reports whether a selected D-pad direction is active.
+Vrací, zda je vybraný směr D-padu aktivní.
 
-- Type: value block
-- Output: `true`/`false`
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- Typ: blok hodnoty
+- Výstup: `true`/`false`
+- Možnosti směru: `nahoru`, `dolů`, `vlevo`, `vpravo`
+- Možnosti stavu tlačítka: `stisknuto`, `uvolněno`
 
-## Joystick blocks
+## Bloky joysticku
 
-### `Joystick event` {#block_dashboard_controller_joystick_event}
+### `Událost joysticku` {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
-Triggers when joystick position changes.
+Spustí se, když se změní poloha joysticku.
 
-- Type: event block
-- Output: starts connected script
-- State options: `up`, `down`, `left`, `right`, `moved`, `released`
+- Typ: blok události
+- Výstup: spustí připojený skript
+- Možnosti stavu: `nahoru`, `dolů`, `vlevo`, `vpravo`, `pohnut`, `uvolněno`
 
-### `Joystick value (float)` {#block_dashboard_controller_joystick_value_float}
+### `Hodnota joysticku (float)` {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
-Reports joystick axis value.
+Vrací hodnotu osy joysticku.
 
-- Type: value block
-- Output: numeric (float), typically in a normalized range
-- Axis options: `x-axis`, `y-axis`
+- Typ: blok hodnoty
+- Výstup: číselný (float), obvykle v normalizovaném rozsahu
+- Možnosti osy: `osa X`, `osa Y`
 
-## Pedals blocks
+## Bloky pedálů
 
-### `Pedals event` {#block_dashboard_controller_pedals_event}
+### `Událost pedálů` {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
-Triggers when pedal input changes.
+Spustí se, když se změní vstup pedálů.
 
-- Type: event block
-- Output: starts connected script
-- Pedal options: `any`, `brake`, `acceleration`
-- State options: `moved`, `pressed`, `released`
+- Typ: blok události
+- Výstup: spustí připojený skript
+- Možnosti pedálu: `jakýkoli`, `brzda`, `zrychlení`
+- Možnosti stavu: `pohnut`, `stisknuto`, `uvolněno`
 
-### `Pedals value (float)` {#block_dashboard_controller_pedals_value_float}
+### `Hodnota pedálů (float)` {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
-Reports pedal analog value.
+Vrací analogovou hodnotu pedálů.
 
-- Type: value block
-- Output: numeric (float)
+- Typ: blok hodnoty
+- Výstup: číselný (float)
 
-### `Pedals value (boolean)` {#block_dashboard_controller_pedals_value_boolean}
+### `Hodnota pedálů (boolean)` {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
-Returns selected state based on whether a specific pedal is pressed or released.
+Vrací vybraný stav podle toho, zda je konkrétní pedál stisknutý nebo uvolněný.
 
-- Type: value block
-- Output: `true`/`false`
-- Pedal options: `brake`, `acceleration`
-- State options: `pressed`, `released`
+- Typ: blok hodnoty
+- Výstup: `true`/`false`
+- Možnosti pedálu: `brzda`, `zrychlení`
+- Možnosti stavu: `stisknuto`, `uvolněno`
 
-## Slider blocks
+## Bloky posuvníku
 
-### `Slider event` {#block_dashboard_controller_slider_event}
+### `Událost posuvníku` {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
-Triggers when slider value changes.
+Spustí se, když se změní hodnota posuvníku.
 
-- Type: event block
-- Output: starts connected script
-- State options: `low`, `high`, `moved`, `released`
+- Typ: blok události
+- Výstup: spustí připojený skript
+- Možnosti stavu: `nízký`, `vysoký`, `pohnut`, `uvolněno`
 
-### `Slider value (float)` {#block_dashboard_controller_slider_value_float}
+### `Hodnota posuvníku (float)` {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
-Reports current slider value.
+Vrací aktuální hodnotu posuvníku.
 
-- Type: value block
-- Output: numeric (float)
+- Typ: blok hodnoty
+- Výstup: číselný (float)
 
-## Stepper blocks
+## Bloky krokovače
 
-### `Stepper event` {#block_dashboard_controller_stepper_event}
+### `Událost krokovače` {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
-Triggers when stepper value changes by a step.
+Spustí se, když se hodnota krokovače změní o krok.
 
-- Type: event block
-- Output: starts connected script
-- Step options: `any`, `reset`, `minus`, `plus`
-- Button state options: `pressed`, `released`
+- Typ: blok události
+- Výstup: spustí připojený skript
+- Možnosti kroku: `jakýkoli`, `resetovat`, `minus`, `plus`
+- Možnosti stavu tlačítka: `stisknuto`, `uvolněno`
 
-### `Stepper value (float)` {#block_dashboard_controller_stepper_value_float}
+### `Hodnota krokovače (float)` {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
-Reports current stepper value.
+Vrací aktuální hodnotu krokovače.
 
-- Type: value block
-- Output: numeric (float)
+- Typ: blok hodnoty
+- Výstup: číselný (float)
 
-## Steering wheel blocks
+## Bloky volantu
 
-### `Steering wheel event` {#block_dashboard_controller_steering_wheel_event}
+### `Událost volantu` {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
-Triggers when steering wheel position changes.
+Spustí se, když se změní poloha volantu.
 
-- Type: event block
-- Output: starts connected script
-- State options: `moved`, `pressed`, `released`
+- Typ: blok události
+- Výstup: spustí připojený skript
+- Možnosti stavu: `pohnut`, `stisknuto`, `uvolněno`
 
-### `Steering wheel value (float)` {#block_dashboard_controller_steering_wheel_value_float}
+### `Hodnota volantu (float)` {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
-Reports current steering wheel value.
+Vrací aktuální hodnotu volantu.
 
-- Type: value block
-- Output: numeric (float)
+- Typ: blok hodnoty
+- Výstup: číselný (float)
 
-### `Steering wheel value (boolean)` {#block_dashboard_controller_steeringwheel_value_boolean}
+### `Hodnota volantu (boolean)` {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
-Returns selected state based on whether the steering wheel is pressed or released.
+Vrací vybraný stav podle toho, zda je volant stisknutý nebo uvolněný.
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `moved`, `pressed`, `released`
+- Typ: blok hodnoty
+- Výstup: `true`/`false`
+- Možnosti stavu: `pohnut`, `stisknuto`, `uvolněno`
 
-## Switch blocks
+## Bloky přepínače
 
-### `Switch event` {#block_dashboard_controller_switch_event}
+### `Událost přepínače` {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
-Triggers when switch state changes.
+Spustí se, když se změní stav přepínače.
 
-- Type: event block
-- Output: starts connected script
-- Toggle options: `on`, `off`
+- Typ: blok události
+- Výstup: spustí připojený skript
+- Možnosti přepnutí: `povoleno`, `vypnuto`
 
-### `Switch value (boolean)` {#block_dashboard_controller_switch_value_boolean}
+### `Hodnota přepínače (boolean)` {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
-Reports current switch state.
+Vrací aktuální stav přepínače.
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `on`, `off`
+- Typ: blok hodnoty
+- Výstup: `true`/`false`
+- Možnosti stavu: `povoleno`, `vypnuto`
 
-## Monitor blocks
+## Bloky monitoru
 
-### `Monitor show` {#block_dashboard_controller_monitor_show}
+### `Monitor zobrazit` {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
-Displays information (text or value) on the dashboard monitor.
+Zobrazí informace (text nebo hodnotu) na monitoru dashboardu.
 
-- Type: command block
-- Typical use: show battery level, motor angle, current connected device on a hub port, and similar runtime info
+- Typ: příkazový blok
+- Typické použití: zobrazení úrovně baterie, úhlu motoru, aktuálně připojeného zařízení na portu hubu a podobných běhových informací
 
-### `Monitor set value` {#block_dashboard_controller_monitor_set_value}
+### `Monitor nastavit hodnotu` {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
-Sets integer value for a dashboard speedometer monitor.
+Nastaví celočíselnou hodnotu pro monitor rychloměru dashboardu.
 
-- Type: command block
-- Typical use: update speedometer-like monitor value in runtime
+- Typ: příkazový blok
+- Typické použití: aktualizace hodnoty monitoru typu rychloměr za běhu
 
-### `Monitor tilt set value` {#block_dashboard_controller_monitor_tilt_set_value}
+### `Monitor náklonu nastavit hodnotu` {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
-Sets tilt monitor value (pitch/roll) for dashboard tilt monitor.
+Nastaví hodnotu monitoru náklonu (náklon/rotace) pro monitor náklonu dashboardu.
 
-- Type: command block
-- Typical use: display runtime tilt values in dedicated tilt monitor
-- Axis options: `pitch`, `roll`
+- Typ: příkazový blok
+- Typické použití: zobrazení běhových hodnot náklonu ve vyhrazeném monitoru náklonu
+- Možnosti osy: `náklon`, `rotace`
 
-## Usage notes
+## Poznámky k použití
 
-- Event blocks are best for reacting immediately to user input changes.
-- Value blocks are best when you need current state inside loops/conditions.
-- For smooth control, combine value blocks with scaling and dead-zone logic.
-- Use interactivity/color blocks to reflect app states (armed, paused, error).
+- Bloky událostí jsou nejlepší pro okamžitou reakci na změny uživatelského vstupu.
+- Bloky hodnot jsou nejlepší, když potřebujete aktuální stav uvnitř smyček/podmínek.
+- Pro plynulé ovládání kombinujte bloky hodnot se škálováním a logikou mrtvé zóny.
+- Bloky interaktivity/barvy použijte k odražení stavů aplikace (aktivní, pozastaveno, chyba).
