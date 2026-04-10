@@ -1,45 +1,45 @@
 ---
 id: Variables
-title: Variables
+title: Muuttujat
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Variables
+# Muuttujat
 
-Variables store values that can be read and updated across block stacks and scripts.
+Muuttujat tallentavat arvoja, joita voidaan lukea ja päivittää lohkopinojen ja skriptien välillä.
 
-## Variable command blocks
+## Muuttujien komentolohkot
 
-### `Set variable to` {#block_variables_set_to}
+### `Aseta muuttuja arvoon` {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
-Sets selected variable to the specified value.
+Asettaa valitun muuttujan annettuun arvoon.
 
-- Type: command block
-- Typical use: initialize state, overwrite previous value
+- Tyyppi: komentolohko
+- Tyypillinen käyttö: alustaa tila, korvaa aiempi arvo
 
-### `Change variable by` {#block_variables_change_by}
+### `Muuta muuttujaa määrällä` {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
-Adds the specified amount to selected variable.
+Lisää annetun määrän valittuun muuttujaan.
 
-- Type: command block
-- Typical use: counters, score, accumulated distance/time
+- Tyyppi: komentolohko
+- Tyypillinen käyttö: laskurit, pisteet, kertyvä aika/etäisyys
 
-## Variable value reporter
+## Muuttujan arvolohko
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 
-Returns the current value of the selected variable.
+Palauttaa valitun muuttujan nykyisen arvon.
 
-- Type: reporter block
-- Typical use: use variable value inside operators, conditions, and command inputs
+- Tyyppi: reporter-lohko
+- Tyypillinen käyttö: käyttää muuttujan arvoa operaattoreissa, ehdoissa ja komentojen syötteinä
 
-## Usage notes
+## Käyttöhuomiot
 
-- Initialize important variables at program start.
-- Use `change by` for incremental updates to avoid repetitive get/set logic.
-- Keep variable names descriptive (`speed_target`, `is_armed`, `lap_count`).
+- Alusta tärkeät muuttujat ohjelman alussa.
+- Käytä `muuta muuttujaa määrällä` -lohkoa inkrementaalisiin päivityksiin välttääksesi turhan get/set-logiikan.
+- Käytä kuvaavia nimiä (`speed_target`, `is_armed`, `lap_count`).

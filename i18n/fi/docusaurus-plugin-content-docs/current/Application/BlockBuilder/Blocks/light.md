@@ -1,82 +1,82 @@
 ---
 id: Light
-title: Light
+title: Valo
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Light
+# Valo
 
-This page documents Light category blocks used to control LEDs and light outputs on supported hubs.
+Tällä sivulla kuvataan Valo-kategorian lohkot, joita käytetään LEDien ja valojen ohjaamiseen tuetuissa hubeissa.
 
-## Common light blocks
+## Yleiset valolohkot
 
-### `Set LED color` {#block_hubs_all_light_set_led_color}
+### `Aseta LED-väri` {#block_hubs_all_light_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_set_led_color.svg')} alt="block_hubs_all_light_set_led_color.svg" />
 
-Sets hub LED color using predefined color options.
+Asettaa hubin LEDin värin valmiista vaihtoehdoista.
 
-- Type: command block
-- Typical use: show state (ready, running, warning, error)
+- Tyyppi: komentolohko
+- Tyypillinen käyttö: tilan näyttäminen (valmis, käynnissä, varoitus, virhe)
 
-### `Light turn to` {#block_hubs_all_light_light_turn_to}
+### `Aseta valo` {#block_hubs_all_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_to.svg')} alt="block_hubs_all_light_light_turn_to.svg" />
 
-Sets selected light output to a target brightness/value.
+Asettaa valitun valon kirkkauden tai arvon.
 
-- Type: command block
-- Typical use: headlight brightness, status intensity
+- Tyyppi: komentolohko
+- Tyypillinen käyttö: ajovalot, tilan kirkkaus
 
-### `Light turn off` {#block_hubs_all_light_light_turn_off}
+### `Sammuta valo` {#block_hubs_all_light_light_turn_off}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_off.svg')} alt="block_hubs_all_light_light_turn_off.svg" />
 
-Turns selected light output off.
+Sammuttaa valitun valon.
 
-- Type: command block
-- Typical use: shutdown sequence, battery-saving behavior
+- Tyyppi: komentolohko
+- Tyypillinen käyttö: sammutus, virransäästö
 
-### `Technic Move light turn to` {#block_hubs_technicmove_light_light_turn_to}
+### `Technic Move aseta valo` {#block_hubs_technicmove_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_light_light_turn_to.svg')} alt="block_hubs_technicmove_light_light_turn_to.svg" />
 
-Variant of `Light turn to` for Technic Move hub/light target.
+`Aseta valo` -lohkon versio Technic Move -hubille.
 
-- Type: command block
-- Typical use: set Move hub light output level
+- Tyyppi: komentolohko
+- Tyypillinen käyttö: Move-hubin valon säätö
 
-## BuWizz 3 light blocks
+## BuWizz 3 -valolohkot
 
-### `BuWizz 3 set LED color` {#block_hubs_buwizz3_light_port_set_led_color}
+### `BuWizz 3 aseta LED-väri` {#block_hubs_buwizz3_light_port_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color.svg')} alt="block_hubs_buwizz3_light_port_set_led_color.svg" />
 
-Sets LED color on selected BuWizz 3 port with built-in color options.
+Asettaa LED-värin valitussa BuWizz 3 -portissa.
 
-- Type: command block
+- Tyyppi: komentolohko
 
-### `BuWizz 3 set LED color (string)` {#block_hubs_buwizz3_light_port_set_led_color_string}
+### `BuWizz 3 aseta LED-väri (teksti)` {#block_hubs_buwizz3_light_port_set_led_color_string}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_string.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_string.svg" />
 
-Sets BuWizz 3 LED color using text color value.
+Asettaa LED-värin tekstiarvon avulla.
 
-- Type: command block
-- Typical use: dynamic color names from variables
+- Tyyppi: komentolohko
+- Tyypillinen käyttö: dynaamiset värit muuttujista
 
-### `BuWizz 3 set LED color (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
+### `BuWizz 3 aseta LED-väri (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_rgb.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_rgb.svg" />
 
-Sets BuWizz 3 LED color using explicit RGB channels.
+Asettaa LED-värin RGB-arvoilla.
 
-- Type: command block
-- Typical use: full custom color control and gradients
+- Tyyppi: komentolohko
+- Tyypillinen käyttö: tarkka väriohjaus ja gradientit
 
-## Notes
+## Huomiot
 
-- Light output capabilities depend on hub and connected device.
-- If a light command has no visible effect, verify device type and target port.
-- Sensor blocks that read reflected/ambient light are documented in the **Sensors** page.
+- Valotoiminnot riippuvat hubista ja liitetystä laitteesta.
+- Jos komento ei vaikuta, tarkista laite ja portti.
+- Valoanturit löytyvät **Sensors**-sivulta.

@@ -1,162 +1,158 @@
 ---
 id: Motors
-title: Motors
+title: Moottorit
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Motors
+# Moottorit
 
-Motor blocks are used to start, stop, position, and tune motors connected to hub ports.
+Moottorilohkoja käytetään käynnistämään, pysäyttämään, asemointiin ja säätämään hubin portteihin liitettyjä moottoreita. :contentReference[oaicite:0]{index=0}
 
-## Core motor command blocks
+## Perusmoottorikomennot
 
-### `Start motor` {#block_hubs_all_motors_port_start_motor}
+### `Käynnistä moottori` {#block_hubs_all_motors_port_start_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor.svg')} alt="block_hubs_all_motors_port_start_motor.svg" />
-Starts selected motor.
+Käynnistää valitun moottorin.
 
-- Direction options: clockwise / counterclockwise
+- Suuntavaihtoehdot: myötäpäivään / vastapäivään
 
-### `Stop motor` {#block_hubs_all_motors_port_stop_motor}
+### `Pysäytä moottori` {#block_hubs_all_motors_port_stop_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_stop_motor.svg')} alt="block_hubs_all_motors_port_stop_motor.svg" />
-Stops selected motor.
+Pysäyttää valitun moottorin.
 
-### `Run for` {#block_hubs_all_motors_port_run_for}
+### `Suorita ajan verran` {#block_hubs_all_motors_port_run_for}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for.svg')} alt="block_hubs_all_motors_port_run_for.svg" />
-Runs selected motor for specified time/angle/rotation based on block settings.
+Suorittaa moottoria määritetyn ajan/kulman/pyörähdyksen ajan.
 
-- Direction options: clockwise / counterclockwise
-- Unit options: `rotations`, `degrees`, `seconds`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Suuntavaihtoehdot: myötäpäivään / vastapäivään
+- Yksiköt: `kierrokset`, `asteet`, `sekunnit`
+- Huom: vaatii encoder-tuetun moottorin.
 
-### `Start motor at speed` {#block_hubs_all_motors_port_start_motor_at_speed}
+### `Käynnistä moottori nopeudella` {#block_hubs_all_motors_port_start_motor_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor_at_speed.svg')} alt="block_hubs_all_motors_port_start_motor_at_speed.svg" />
-Starts motor with explicit speed value.
+Käynnistää moottorin annetulla nopeudella.
 
-### `Run for at speed` {#block_hubs_all_motors_port_run_for_at_speed}
+### `Suorita ajan verran nopeudella` {#block_hubs_all_motors_port_run_for_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for_at_speed.svg')} alt="block_hubs_all_motors_port_run_for_at_speed.svg" />
-Runs motor for a target duration/amount with explicit speed.
+Suorittaa moottoria annetun ajan määrän tietyllä nopeudella.
 
-- Unit options: `rotations`, `degrees`, `seconds`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Yksiköt: `kierrokset`, `asteet`, `sekunnit`
+- Huom: vaatii encoder-tuetun moottorin.
 
-### `Set motor speed` {#block_hubs_all_motors_port_set_motor_speed}
+### `Aseta moottorin nopeus` {#block_hubs_all_motors_port_set_motor_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motor_speed.svg')} alt="block_hubs_all_motors_port_set_motor_speed.svg" />
-Sets speed used by related motor run blocks.
+Asettaa nopeuden, jota muut moottorilohkot käyttävät.
 
-## Position and movement blocks
+## Asema ja liike
 
-### `Go to position` {#block_hubs_all_motors_port_go_to_position}
+### `Siirry sijaintiin` {#block_hubs_all_motors_port_go_to_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_go_to_position.svg')} alt="block_hubs_all_motors_port_go_to_position.svg" />
-Moves motor to target absolute position.
+Siirtää moottorin absoluuttiseen sijaintiin.
 
-- Path options: `shortest path`, `clockwise`, `counterclockwise`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Polkuvaihtoehdot: `lyhin reitti`, `myötäpäivään`, `vastapäivään`
+- Huom: vaatii encoder-tuetun moottorin.
 
-### `Go to relative position` {#block_hubs_all_motors_port_go_to_relative_position}
+### `Siirry suhteelliseen sijaintiin` {#block_hubs_all_motors_port_go_to_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_go_to_relative_position.svg')} alt="block_hubs_all_motors_port_go_to_relative_position.svg" />
-Moves motor by a relative offset.
+Siirtää moottoria suhteellisella siirtymällä.
 
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Huom: vaatii encoder-tuetun moottorin.
 
-### `BuWizz 3 go to relative position` {#block_hubs_buwizz3_motors_port_go_to_relative_position}
+### `BuWizz 3 siirry suhteelliseen sijaintiin` {#block_hubs_buwizz3_motors_port_go_to_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_motors_port_go_to_relative_position.svg')} alt="block_hubs_buwizz3_motors_port_go_to_relative_position.svg" />
-BuWizz 3 variant of relative positioning block.
+BuWizz 3 -versio suhteellisesta liikkeestä.
 
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Huom: vaatii encoder-tuetun moottorin.
 
-### `Set relative position` {#block_hubs_all_motors_port_set_relative_position}
+### `Aseta suhteellinen sijainti` {#block_hubs_all_motors_port_set_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_relative_position.svg')} alt="block_hubs_all_motors_port_set_relative_position.svg" />
-Sets motor relative-position reference.
+Asettaa suhteellisen sijainnin nollapisteen.
 
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Huom: vaatii encoder-tuetun moottorin.
 
-### `Calibrate steering rack` {#block_hubs_all_motors_port_calibrate_steering_rack}
+### `Kalibroi ohjaustanko` {#block_hubs_all_motors_port_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_calibrate_steering_rack.svg')} alt="block_hubs_all_motors_port_calibrate_steering_rack.svg" />
-Calibrates steering rack neutral/reference position.
+Kalibroi ohjauksen nollapisteen.
 
-- Requirement: the motor connected to the selected port must support absolute/relative angle tracking (internal encoder).
-- Mechanical requirement: steering axis movement must be physically limited to a valid range (for example with steering rack/gearing end limits).
-- How it works: the block sweeps and measures the available steering rotation range, then computes calibration data used for steering configuration.
-- Output behavior: block arguments write results into variables passed to the block (function-like pass-by-reference behavior). Those variables are mutated by the block and should be used to read calibration results.
+- Vaatimus: moottorin tulee tukea kulman mittausta (encoder).
+- Mekaaninen vaatimus: liikealueen tulee olla rajoitettu.
+- Toiminta: mittaa liikealueen ja laskee kalibroinnin.
+- Tuloste: tallentaa tulokset muuttujille.
 
-## Motor tuning and safety blocks
+## Säätö ja turvallisuus
 
-### `Set motor behavior at stop` {#block_hubs_all_motors_port_set_motor_to_at_stop}
+### `Aseta moottorin pysäytyskäyttäytyminen` {#block_hubs_all_motors_port_set_motor_to_at_stop}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motor_to_at_stop.svg')} alt="block_hubs_all_motors_port_set_motor_to_at_stop.svg" />
-Sets motor stop mode (for example brake/hold/float based on available options).
+Asettaa pysäytystilan.
 
-- Stop mode options: `brake`, `hold position`, `coast`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Vaihtoehdot: `jarru`, `pidä`, `vapaa`
+- Huom: vaatii encoder-tuetun moottorin.
 
-### `Set stall detection` {#block_hubs_all_motors_port_set_motors_stall_detection}
+### `Aseta jumituksen tunnistus` {#block_hubs_all_motors_port_set_motors_stall_detection}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motors_stall_detection.svg')} alt="block_hubs_all_motors_port_set_motors_stall_detection.svg" />
-Enables or disables stall detection.
+Ottaa käyttöön tai poistaa jumituksen tunnistuksen.
 
-- Note: available only for the MINDSTORMS Robot Inventor hub.
+- Huom: vain MINDSTORMS Robot Inventor.
 
-### `Set acceleration` {#block_hubs_all_motors_port_set_acceleration}
+### `Aseta kiihtyvyys` {#block_hubs_all_motors_port_set_acceleration}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_acceleration.svg')} alt="block_hubs_all_motors_port_set_acceleration.svg" />
-Sets motor acceleration profile/rate.
+Asettaa kiihtyvyysprofiilin.
 
-- Profile options: `default`, `fast`, `balanced`, `smooth`, `slow`, `very slow`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Vaihtoehdot: `oletus`, `nopea`, `tasapainoinen`, `pehmeä`, `hidas`, `erittäin hidas`
 
-### `Set deceleration` {#block_hubs_all_motors_port_set_deceleration}
+### `Aseta hidastuvuus` {#block_hubs_all_motors_port_set_deceleration}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_deceleration.svg')} alt="block_hubs_all_motors_port_set_deceleration.svg" />
-Sets motor deceleration profile/rate.
+Asettaa hidastuvuusprofiilin.
 
-- Profile options: `default`, `fast`, `balanced`, `smooth`, `slow`, `very slow`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Vaihtoehdot: `oletus`, `nopea`, `tasapainoinen`, `pehmeä`, `hidas`, `erittäin hidas`
 
-## Motor reporter blocks
+## Moottorin arvolohkot
 
-### `Position` {#block_hubs_all_motors_port_position}
+### `Sijainti` {#block_hubs_all_motors_port_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_position.svg')} alt="block_hubs_all_motors_port_position.svg" />
-Returns current motor position.
+Palauttaa moottorin sijainnin.
 
-### `Relative position` {#block_hubs_all_motors_port_relative_position}
+### `Suhteellinen sijainti` {#block_hubs_all_motors_port_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_relative_position.svg')} alt="block_hubs_all_motors_port_relative_position.svg" />
-Returns current relative position value.
+Palauttaa suhteellisen sijainnin.
 
-### `Speed` {#block_hubs_all_motors_port_speed}
+### `Nopeus` {#block_hubs_all_motors_port_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_speed.svg')} alt="block_hubs_all_motors_port_speed.svg" />
-Returns current motor speed.
+Palauttaa nopeuden.
 
-### `Power` {#block_hubs_all_motors_port_power}
+### `Teho` {#block_hubs_all_motors_port_power}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_power.svg')} alt="block_hubs_all_motors_port_power.svg" />
-Returns current motor power value.
+Palauttaa tehon.
 
-- Note: available only for the MINDSTORMS Robot Inventor hub.
+- Huom: vain MINDSTORMS Robot Inventor.
 
-## Technic Move motor blocks
+## Technic Move -moottorilohkot
 
-### `Start motors at speed` {#block_hubs_technicmove_motors_start_motors_at_speed}
+### `Käynnistä moottorit nopeudella` {#block_hubs_technicmove_motors_start_motors_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_start_motors_at_speed.svg')} alt="block_hubs_technicmove_motors_start_motors_at_speed.svg" />
-Starts Technic Move drive motors at selected speed.
+Käynnistää ajomoottorit.
 
-### `Stop motors` {#block_hubs_technicmove_motors_stop_motors}
+### `Pysäytä moottorit` {#block_hubs_technicmove_motors_stop_motors}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_stop_motors.svg')} alt="block_hubs_technicmove_motors_stop_motors.svg" />
-Stops Technic Move drive motors.
+Pysäyttää moottorit.
 
-### `Brake` {#block_hubs_technicmove_motors_brake}
+### `Jarru` {#block_hubs_technicmove_motors_brake}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_brake.svg')} alt="block_hubs_technicmove_motors_brake.svg" />
-Applies brake behavior to Technic Move motors.
+Asettaa jarrun.
 
-- Brake options: `off`, `on`
+- Vaihtoehdot: `pois`, `päällä`
 
-### `Set steering rack to` {#block_hubs_technicmove_motors_set_steering_rack_to}
+### `Aseta ohjaus` {#block_hubs_technicmove_motors_set_steering_rack_to}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_set_steering_rack_to.svg')} alt="block_hubs_technicmove_motors_set_steering_rack_to.svg" />
-Sets steering rack target position/value.
+Asettaa ohjauksen arvon.
 
-### `Calibrate steering rack` {#block_hubs_technicmove_motors_calibrate_steering_rack}
+### `Kalibroi ohjaus` {#block_hubs_technicmove_motors_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_calibrate_steering_rack.svg')} alt="block_hubs_technicmove_motors_calibrate_steering_rack.svg" />
-Calibrates the Technic Move steering rack using the hub's internal calibration algorithm and automatic steering range detection.
+Kalibroi ohjauksen.
 
-- Note: the motor axis must be mechanically limited (for example, by a steering rack mechanism).
+## Käyttöhuomiot
 
-## Usage notes
-
-- Choose `go to position` for absolute targets and `go to relative position` for incremental motion.
-- Use acceleration/deceleration tuning for smoother starts and stops.
-- Enable stall detection when mechanisms can jam under load.
+- Käytä absoluuttista tai suhteellista sijaintia tarpeen mukaan.
+- Säädä kiihtyvyyttä ja hidastuvuutta sujuvuuden parantamiseksi.
+- Ota käyttöön jumituksen tunnistus tarvittaessa.

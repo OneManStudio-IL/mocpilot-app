@@ -1,114 +1,113 @@
 ---
 id: Gamepad
-title: Gamepad
+title: Peliohjain
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Gamepad
-Gamepad blocks are used to react to controller input and read current gamepad state values.
+# Peliohjain
+Peliohjainlohkot reagoivat ohjaimen syötteisiin ja lukevat peliohjaimen nykyisen tilan.
 
-## Event blocks
+## Tapahtumalohkot
 
-### `When gamepad button is` {#block_gamepad_event_when_button_is}
+### `Kun peliohjaimen painike on` {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is_sony.svg')} alt="block_gamepad_event_when_button_is_sony.svg" />
 </div>
 
-Triggers when the selected gamepad button matches the configured state.
+Käynnistyy, kun valittu peliohjaimen painike vastaa asetettua tilaa.
 
-- Type: event block
-- Button options (Xbox layout): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
-- Button options (Sony layout): `cross`, `circle`, `square`, `triangle`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
-- State options: `pressed`, `released`
+- Tyyppi: tapahtumalohko
+- Painikkeet (Xbox-asettelu): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
+- Painikkeet (Sony-asettelu): `risti`, `ympyrä`, `neliö`, `kolmio`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
+- Tilavaihtoehdot: `painettu`, `vapautettu`
 
-### `When gamepad D-pad is` {#block_gamepad_event_when_dpad_is}
+### `Kun peliohjaimen D-pad on` {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
-Triggers when D-pad direction/state matches the selected condition.
+Käynnistyy, kun D-padin suunta tai tila vastaa valittua ehtoa.
 
-- Type: event block
-- Direction options: `up`, `down`, `left`, `right`
-- State options: `pressed`, `released`
+- Tyyppi: tapahtumalohko
+- Suuntavaihtoehdot: `ylös`, `alas`, `vasen`, `oikea`
+- Tilavaihtoehdot: `painettu`, `vapautettu`
 
-### `When gamepad thumbstick is` {#block_gamepad_event_when_thumbstick_is}
+### `Kun peliohjaimen ohjain­tikku on` {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
-Triggers when thumbstick condition matches selected options.
+Käynnistyy, kun ohjain­tikun tila vastaa valittuja asetuksia.
 
-Based on current options, this block supports:
+Tämä lohko tukee:
 
-- Stick selection: `left` / `right`
-- Direction/state selection: `up`, `down`, `left`, `right`, `moved`, `released`
+- Tikun valinta: `vasen` / `oikea`
+- Suunta/tila: `ylös`, `alas`, `vasen`, `oikea`, `liikkunut`, `vapautettu`
+- Tyyppi: tapahtumalohko
+- Tyypillinen käyttö: reagoida liikkeeseen tai vapautukseen
 
-- Type: event block
-- Typical use: react to directional movement or stick release
+## Arvolohkot
 
-## Value blocks
-
-### `Gamepad button value (boolean)` {#block_gamepad_button_value_boolean}
+### `Peliohjaimen painikkeen arvo (boolean)` {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean_sony.svg')} alt="block_gamepad_button_value_boolean_sony.svg" />
 </div>
 
-Returns current state of selected gamepad button.
+Palauttaa valitun peliohjaimen painikkeen nykyisen tilan.
 
-- Type: value block
-- Output: `true`/`false`
-- Button options (Xbox layout): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
-- Button options (Sony layout): `cross`, `circle`, `square`, `triangle`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
-- State options: `pressed`, `released`
+- Tyyppi: arvolohko
+- Tuloste: `true`/`false`
+- Painikkeet (Xbox-asettelu): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
+- Painikkeet (Sony-asettelu): `risti`, `ympyrä`, `neliö`, `kolmio`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
+- Tilavaihtoehdot: `painettu`, `vapautettu`
 
-### `Gamepad D-pad button value (boolean)` {#block_gamepad_dpad_button_value_boolean}
+### `Peliohjaimen D-pad -painikkeen arvo (boolean)` {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
-Returns whether selected D-pad direction is currently active.
+Palauttaa, onko valittu D-padin suunta aktiivinen.
 
-- Type: value block
-- Output: `true`/`false`
-- Direction options: `up`, `down`, `left`, `right`
-- State options: `pressed`, `released`
+- Tyyppi: arvolohko
+- Tuloste: `true`/`false`
+- Suuntavaihtoehdot: `ylös`, `alas`, `vasen`, `oikea`
+- Tilavaihtoehdot: `painettu`, `vapautettu`
 
-### `Gamepad thumbstick value (float)` {#block_gamepad_thumbstick_value_float}
+### `Peliohjaimen ohjain­tikun arvo (float)` {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
-Returns numeric thumbstick axis value.
+Palauttaa ohjain­tikun akselin numeerisen arvon.
 
-- Type: value block
-- Output: numeric (float)
-- Default range: `-1` to `1`
-- Optional range in gamepad settings: `-100` to `100`
-- Stick options: `left`, `right`
-- Axis options: `x-axis` / `y-axis`
+- Tyyppi: arvolohko
+- Tuloste: numeerinen (float)
+- Oletusalue: `-1` ... `1`
+- Valinnainen alue asetuksissa: `-100` ... `100`
+- Tikkuvaihtoehdot: `vasen`, `oikea`
+- Akselit: `x-akseli` / `y-akseli`
 
-### `Gamepad trigger pressure value (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Peliohjaimen liipaisimen arvo (float)` {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float_sony.svg')} alt="block_gamepad_trigger_pressure_value_float_sony.svg" />
 </div>
 
-Returns trigger pressure value for selected trigger.
+Palauttaa valitun liipaisimen painearvon.
 
-- Type: value block
-- Output: numeric (float)
-- Default range: `-1` to `1`
-- Optional range in gamepad settings: `-100` to `100`
-- Trigger options (Xbox layout): `LT`, `RT`
-- Trigger options (Sony layout): `L2`, `R2`
+- Tyyppi: arvolohko
+- Tuloste: numeerinen (float)
+- Oletusalue: `-1` ... `1`
+- Valinnainen alue asetuksissa: `-100` ... `100`
+- Liipaisimet (Xbox-asettelu): `LT`, `RT`
+- Liipaisimet (Sony-asettelu): `L2`, `R2`
 
-## Usage notes
+## Käyttöhuomiot
 
-- Use event blocks for immediate reaction to input state changes.
-- Use value blocks for continuous polling in loops and control math.
-- For smooth motor control, apply dead-zone and scaling to thumbstick/trigger values.
-- Combine with broadcast blocks to separate input handling from action logic.
-- In gamepad settings, button labels/layout can be switched between Xbox-style and Sony PlayStation-style mapping.
+- Käytä tapahtumalohkoja välittömään reagointiin.
+- Käytä arvolohkoja jatkuvaan lukemiseen silmukoissa.
+- Sujuvaan ohjaukseen käytä dead zone -aluetta ja skaalausta.
+- Yhdistä broadcast-lohkoihin erottaaksesi syötteen käsittelyn ja toiminnan logiikan.
+- Peliohjainasetuksissa painikkeiden nimet/asettelu voidaan vaihtaa Xbox- ja Sony-tyylin välillä.

@@ -1,34 +1,34 @@
 ---
 id: MyBlocks
-title: My Blocks
+title: Omat lohkot
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# My Blocks
+# Omat lohkot
 
-My Blocks let you define your own custom reusable block.
-This category is conceptually similar to creating a function in traditional programming: define behavior once, then call it many times.
+Omat lohkot mahdollistavat omien uudelleenkäytettävien lohkojen määrittelyn.  
+Tämä kategoria vastaa perinteisen ohjelmoinnin funktioita: määrittele toiminta kerran ja käytä sitä useita kertoja.
 
-## Core My Blocks
+## Omat lohkot -perustoiminnot
 
-### `Make a Block`
+### `Luo lohko`
 
-Creates a new custom block definition.
+Luo uuden mukautetun lohkon määritelmän.
 
-- Type: definition/setup block
-- Typical use: group repeated logic into one named block
+- Tyyppi: määrittely/asetuslohko
+- Tyypillinen käyttö: ryhmitellä toistuva logiikka yhdeksi nimetyksi lohkoksi
 
-### `MyBlock` (call block)
+### `Oma lohko` (kutsulohko)
 
-Calls a previously created custom block.
+Kutsuu aiemmin luodun mukautetun lohkon.
 
-- Type: stack block (custom command call)
-- Typical use: reuse the same logic in multiple places without duplicating block stacks
+- Tyyppi: pinolohko (mukautetun komennon kutsu)
+- Tyypillinen käyttö: käyttää samaa logiikkaa useissa paikoissa ilman lohkojen kopiointia
 
-## Variadic examples
+## Muuttuvaparametriset esimerkit
 
-These examples show custom My Blocks with different argument signatures.
+Nämä esimerkit näyttävät mukautettuja lohkoja erilaisilla argumenteilla.
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758091855.svg')} alt="block_myblock_1775758091855.svg" />
@@ -40,30 +40,30 @@ These examples show custom My Blocks with different argument signatures.
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758145135.svg')} alt="block_myblock_1775758145135.svg" />
 </div>
 
-## Example usage in program stack
+## Esimerkki käytöstä ohjelmapinossa
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-usage-example.png')} alt="my-blocks-usage-example.png" />
 
-This example shows a custom block call attached under `when program starts`, while the `define my block` stack contains the reusable motor logic.
+Tässä esimerkissä mukautetun lohkon kutsu on liitetty lohkon `kun ohjelma käynnistyy` alle, kun taas `määrittele oma lohko` -pino sisältää uudelleenkäytettävän moottorilogiikan.
 
-- Typical flow: call custom block from event stacks
-- Benefit: one definition, many call sites
+- Tyypillinen kulku: kutsu mukautettua lohkoa tapahtumapinoista
+- Hyöty: yksi määrittely, monta käyttökertaa
 
-## My Block editor view
+## Omat lohkot -editori
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-editor-cropped.png')} alt="my-blocks-editor-cropped.png" />
 
-The Make a Block editor is used to design your custom block signature.
-You can add labels and inputs (for example number/text and boolean inputs), then define implementation logic in the block definition stack.
+**Luo lohko** -editoria käytetään lohkon rakenteen suunnitteluun.  
+Voit lisätä otsikoita ja syötteitä (esim. numero/teksti ja boolean-arvot), ja määrittää toteutuslogiikan lohkon määrittelypinossa.
 
-## Why use My Blocks
+## Miksi käyttää omia lohkoja
 
-- Reusability: write once, call many times.
-- Readability: replace long repeated stacks with one meaningful name.
-- Maintainability: update logic in one place instead of many copies.
-- Structure: split large programs into smaller logical units.
+- Uudelleenkäytettävyys: kirjoita kerran, käytä monta kertaa.
+- Luettavuus: korvaa pitkät lohkot yhdellä selkeällä nimellä.
+- Ylläpidettävyys: päivitä logiikka yhdessä paikassa.
+- Rakenne: jaa suuret ohjelmat pienempiin osiin.
 
-## Notes
+## Käyttöhuomiot
 
-- Custom blocks are project-level and intended for reuse inside the same profile/project context.
-- Prefer descriptive names that explain intent, not implementation details.
+- Mukautetut lohkot ovat projektikohtaisia ja tarkoitettu käytettäväksi samassa projektissa.
+- Käytä kuvaavia nimiä, jotka selittävät tarkoituksen, eivät toteutusta.

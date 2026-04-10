@@ -1,152 +1,151 @@
 ---
 id: BlocksIntroducing
-title: Blocks Introducing
+title: Lohkojen esittely
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Blocks Introducing
+# Lohkojen esittely
 
-MOCPilot uses a visual block programming system that looks and feels similar to Scratch.
-Each block has a specific role, and valid combinations define control flow and data flow through a script.
-It uses drag-and-drop logic and Scratch-like interaction patterns to provide a convenient and familiar way to build programs.
+MOCPilot käyttää visuaalista lohkopohjaista ohjelmointijärjestelmää, joka muistuttaa Scratchia. :contentReference[oaicite:0]{index=0}  
+Jokaisella lohkolla on oma tehtävänsä, ja niiden yhdistelmät määrittävät ohjaus- ja tietovirran skriptissä.  
+Järjestelmä perustuu vedä-ja-pudota -logiikkaan ja Scratch-tyyliseen käyttöön, mikä tekee ohjelmien rakentamisesta helppoa ja tuttua.
 
-:::warning Compatibility Notice
-This is a different block system with its own block set and behavior.
-MOCPilot programs are not compatible with Scratch projects: MOCPilot programs cannot be imported into Scratch, and Scratch programs cannot be imported into MOCPilot.
+:::warning Yhteensopivuushuomio
+Tämä on eri lohkojärjestelmä omilla lohkoillaan ja toiminnallisuudellaan.  
+MOCPilot-ohjelmat eivät ole yhteensopivia Scratch-projektien kanssa.
 :::
 
-## Block shapes and meaning
+## Lohkojen muodot ja merkitys
 
-### Hat Blocks
+### Hat-lohkot
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
   <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 </div>
 
-Start a script when a specific event occurs. Blocks can only be attached below.
+Käynnistävät skriptin, kun tapahtuma tapahtuu. Lohkoja voi liittää vain alapuolelle.
 
 ---
 
-### Stack Blocks
+### Stack-lohkot
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_reset.svg')} alt="block_sensors_timer_reset.svg" />
 </div>
 
-Main command blocks that perform actions.
+Päälohkoja, jotka suorittavat toimintoja.
 
 ---
 
-### C Blocks
+### C-lohkot
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 </div>
 
-C-shaped control blocks that contain nested block stacks (loops/conditions).
+C-muotoisia lohkoja, jotka sisältävät muita lohkoja (silmukat ja ehdot).
 
 ---
 
-### Reporter Blocks
+### Reporter-lohkot
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 </div>
 
-Return values such as numbers or strings.
+Palauttavat arvoja, kuten numeroita tai tekstiä.
 
 ---
 
-### Boolean Blocks
+### Boolean-lohkot
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 </div>
 
-Return only `true` or `false`, typically used in conditions.
+Palauttavat arvon `true` tai `false`, käytetään ehdoissa.
 
 ---
 
-### Cap Blocks
+### Cap-lohkot
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 </div>
 
-End scripts and do not allow blocks below.
+Päättävät skriptin eikä niiden alle voi liittää lohkoja.
 
 ---
 
-### Blocks Stack
+### Lohkopino
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks_stack.svg')} alt="blocks_stack.svg" />
 </div>
 
-A block stack is a sequence of connected blocks that runs as one script flow from top to bottom.
-Stacks usually start with an event block and then execute attached blocks in order.
+Lohkopino on yhdistettyjen lohkojen ketju, joka suoritetaan ylhäältä alas yhtenä kokonaisuutena.
 
 ---
 
-## Script execution model
+## Skriptin suoritusmalli
 
-- A script usually starts from an event block.
-- Connected stack blocks run top to bottom.
-- Multiple scripts can run in parallel.
-- Message/broadcast blocks are used to synchronize scripts.
-- A block stack is a sequence of blocks connected together.
+- Skripti alkaa yleensä tapahtumalohkosta.
+- Lohkot suoritetaan ylhäältä alas.
+- Useita skriptejä voi toimia samanaikaisesti.
+- Viestilohkoja käytetään synkronointiin.
+- Lohkopino on yhdistetty lohkojen ketju.
 
-## Data and values
+## Data ja arvot
 
-- Reporter blocks can be nested inside command/condition inputs.
-- Variables store reusable values across blocks and scripts.
-- Lists store ordered collections for history, queues, and lookup data.
+- Reporter-lohkoja voidaan käyttää muiden lohkojen sisällä.
+- Muuttujat tallentavat arvoja.
+- Listat tallentavat järjestettyjä kokoelmia.
 
-## Events and timing
+## Tapahtumat ja ajoitus
 
-- Event blocks react to user input, hub state, sensors, or messages.
-- Timer- and sensor-based events may trigger frequently.
-- Use thresholds, filtering, or short waits to reduce noisy repeated triggers.
+- Tapahtumat reagoivat syötteisiin ja tilamuutoksiin.
+- Anturi- ja ajastintapahtumat voivat tapahtua usein.
+- Käytä suodattimia tai viiveitä hälyn vähentämiseksi.
 
-## Hub, ports, and controllers
+## Hub, portit ja ohjaimet
 
-- Hub blocks target hub and port context.
-- Some blocks are available only for specific hub families/devices.
-- Dashboard and gamepad blocks provide runtime input and UI control.
+- Hub-lohkot ohjaavat laitetta ja portteja.
+- Osa lohkoista toimii vain tietyillä laitteilla.
+- Dashboard- ja peliohjainlohkot tarjoavat käyttöliittymän syötteet.
 
-## Recommended workflow
+## Suositeltu työnkulku
 
-1. Start with one event block and a minimal script.
-2. Validate motor/sensor direction and ranges early.
-3. Extract repeated logic with messages and helper scripts.
-4. Add safeguards (limits, stops, fallback values) before final tuning.
+1. Aloita yhdellä tapahtumalohkolla.
+2. Testaa moottorit ja anturit.
+3. Erota toistuva logiikka.
+4. Lisää suojaukset ennen viimeistelyä.
 
-## Common pitfalls
+## Yleiset virheet
 
-- Missing event entry block means script never starts.
-- Wrong hub/port selection causes no visible effect.
-- Mixing value types (text/number/boolean) can produce invalid logic.
-- High-frequency events without filtering can overload behavior.
+- Ei aloituslohkoa → skripti ei käynnisty.
+- Väärä portti → ei vaikutusta.
+- Väärät tietotyypit → virheellinen logiikka.
+- Liian usein laukeavat tapahtumat → epävakaus.
 
-## Documentation structure in this section
+## Dokumentaation rakenne
 
-Use category pages in this order:
+Käytä sivuja tässä järjestyksessä:
 
-- Light
-- Motors
-- Sensors
-- Events
-- Control
-- Operators
-- Variables
-- Lists
-- My Blocks
-- Dashboard controllers
-- Gamepad
+- Valo
+- Moottorit
+- Sensorit
+- Tapahtumat
+- Ohjaus
+- Operaattorit
+- Muuttujat
+- Listat
+- Omat lohkot
+- Ohjauspaneelin ohjaimet
+- Peliohjain

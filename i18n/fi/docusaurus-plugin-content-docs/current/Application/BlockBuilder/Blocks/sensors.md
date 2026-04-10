@@ -1,200 +1,167 @@
 ---
 id: Sensors
-title: Sensors
+title: Sensorit
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Sensors
+# Sensorit
 
-Sensor blocks read hub/device state and provide data for conditions, events, and control logic.
+Sensorilohkot lukevat hubin/laitteen tilaa ja tuottavat dataa ehdoille, tapahtumille ja ohjauslogiikalle. :contentReference[oaicite:0]{index=0}
 
-## Device and hub sensors
+## Laitteen ja hubin sensorit
 
-### `Hub battery level` {#block_hubs_all_sensors_battery_level}
+### `Hubin akun taso` {#block_hubs_all_sensors_battery_level}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_battery_level.svg')} alt="block_hubs_all_sensors_battery_level.svg" />
-Returns current hub battery level.
+Palauttaa hubin nykyisen akun tason.
 
-### `Device % battery` {#block_sensors_device_battery_level}
+### `Laitteen akun %` {#block_sensors_device_battery_level}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_battery_level.svg')} alt="block_sensors_device_battery_level.svg" />
-Returns the current battery level of the phone/tablet device running MOCPilot (in percent).
+Palauttaa laitteen (puhelin/tabletti) akun tason prosentteina.
 
-### `Board temperature` {#block_hubs_all_sensors_board_temp}
+### `Piirilevyn lämpötila` {#block_hubs_all_sensors_board_temp}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_board_temp.svg')} alt="block_hubs_all_sensors_board_temp.svg" />
-Returns hub board temperature.
+Palauttaa hubin lämpötilan.
 
-- Available only for `BuWizz 2` and `BuWizz 3`.
+- Saatavilla vain: `BuWizz 2` ja `BuWizz 3`.
 
-### `Button pressed` {#block_hubs_all_sensors_button_pressed}
+### `Painike painettu` {#block_hubs_all_sensors_button_pressed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_button_pressed.svg?v=20260409-2258')} alt="block_hubs_all_sensors_button_pressed.svg" />
-Checks whether a selected hub button matches the selected state.
+Tarkistaa, vastaako valittu painike tilaa.
 
-- State options: `pressed`, `released`
-- Typical button option: `center` (hub-dependent)
+- Tilat: `painettu`, `vapautettu`
+- Tyypillinen painike: `center`
 
-- Note: available button options may differ by hub model (different hubs can expose different button sets).
+- Huom: painikkeet voivat vaihdella hubin mukaan.
 
-### `Device type` {#block_hubs_all_motors_port_device_type}
+### `Laitetyyppi` {#block_hubs_all_motors_port_device_type}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_device_type.svg')} alt="block_hubs_all_motors_port_device_type.svg" />
-Returns connected device type for the selected port.
+Palauttaa porttiin liitetyn laitteen tyypin.
 
-- Type: reporter block
-- Typical use: detect what device is connected before running device-specific logic
+- Tyyppi: reporter-lohko
+- Tyypillinen käyttö: tunnistaa laite ennen ohjausta
 
-### `Device accelerometer` {#block_sensors_device_accelerometer_sensor_data}
+### `Laitteen kiihtyvyysanturi` {#block_sensors_device_accelerometer_sensor_data}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_accelerometer_sensor_data.svg')} alt="block_sensors_device_accelerometer_sensor_data.svg" />
-Returns raw accelerometer values from device sensors.
+Palauttaa kiihtyvyysanturin arvot.
 
-- Axis options: `x`, `y`, `z`
+- Akselit: `x`, `y`, `z`
 
-### `Device acceleration` {#block_sensors_device_acceleration_sensor_data}
+### `Laitteen kiihtyvyys` {#block_sensors_device_acceleration_sensor_data}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_acceleration_sensor_data.svg')} alt="block_sensors_device_acceleration_sensor_data.svg" />
-Returns acceleration data from device sensors.
+Palauttaa kiihtyvyysdatan.
 
-- Axis options: `x`, `y`, `z`
+- Akselit: `x`, `y`, `z`
 
-## Orientation and tilt sensors
+## Suunta ja kallistus
 
-### `Tilt` {#block_hubs_all_sensors_tilt}
+### `Kallistus` {#block_hubs_all_sensors_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
-Returns tilt angle for the selected axis.
+Palauttaa kallistuskulman.
 
-- Axis options: `pitch`, `roll`, `yaw`
-- Note: `yaw` is available only on hubs that provide yaw data.
+- Akselit: `pitch`, `roll`, `yaw`
 
-### `Get orientation` {#block_hubs_sensors_get_orientation}
+### `Hae suunta` {#block_hubs_sensors_get_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_get_orientation.svg')} alt="block_hubs_sensors_get_orientation.svg" />
-Returns current orientation state of the hub.
+Palauttaa hubin suunnan.
 
-- Output format options: `text`, `index`
-- Orientation values: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Muoto: `teksti`, `indeksi`
+- Arvot: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
 
-### `Is orientation up` {#block_hubs_all_sensors_is_orientation_up}
+### `Onko suunta ylös` {#block_hubs_all_sensors_is_orientation_up}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_orientation_up.svg')} alt="block_hubs_all_sensors_is_orientation_up.svg" />
-Checks whether the hub orientation matches selected "up" orientation.
+Tarkistaa suunnan.
 
-- Orientation options: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
-
-### `Set tilt orientation` {#block_hubs_sensors_set_tilt_orientation}
+### `Aseta kallistuksen suunta` {#block_hubs_sensors_set_tilt_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_set_tilt_orientation.svg')} alt="block_hubs_sensors_set_tilt_orientation.svg" />
-Configures orientation reference used by tilt/orientation-related blocks.
+Asettaa viitesuunnan.
 
-- Orientation options: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+## Ajastin
 
-## Timer and device motion sensors
-
-### `Timer` {#block_sensors_timer_value_float}
+### `Ajastin` {#block_sensors_timer_value_float}
 <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
-Returns timer value in seconds.
+Palauttaa ajan sekunteina.
 
-### `Reset timer` {#block_sensors_timer_reset}
+### `Nollaa ajastin` {#block_sensors_timer_reset}
 <img src={useBaseUrl('/img/blocks/block_sensors_timer_reset.svg')} alt="block_sensors_timer_reset.svg" />
-Resets the timer to zero.
+Nollaa ajastimen.
 
-## Port sensor blocks
+## Porttisensorit
 
-### `Technic distance sensor` {#block_hubs_all_sensors_port_technic_sensor_distance}
+### `Technic-etäisyysanturi` {#block_hubs_all_sensors_port_technic_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
-Returns distance values from a Technic distance sensor.
+Palauttaa etäisyyden.
 
-- Unit options: `mm`, `cm`, `inch`, `%`
+- Yksiköt: `mm`, `cm`, `inch`, `%`
 
-### `Technic when distance is` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
+### `Technic kun etäisyys on` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
-Triggers/checks distance condition for a Technic distance sensor.
+Tarkistaa etäisyyden ehdon.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `mm`, `cm`, `inch`, `%`
+- Vaihtoehdot: `closer than`, `farther than`, `exactly at`
 
-### `Technic color sensor value` {#block_hubs_all_sensors_port_technic_sensor_color}
+### `Technic-värianturi arvo` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
-Returns detected color value from a Technic distance sensor.
+Palauttaa värin.
 
-- Output options: `value`, `string`
-
-### `Technic when color is` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
+### `Technic kun väri on` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_color_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_color_is.svg" />
-Triggers/checks when detected color matches selected color.
+Tarkistaa värin.
 
-### `Technic reflected light` {#block_hubs_all_sensors_port_technic_sensor_reflected_light}
+### `Technic heijastettu valo` {#block_hubs_all_sensors_port_technic_sensor_reflected_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_reflected_light.svg')} alt="block_hubs_all_sensors_port_technic_sensor_reflected_light.svg" />
-Returns reflected light intensity.
+Palauttaa heijastetun valon.
 
-### `Technic when reflected light is` {#block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is}
+### `Technic kun heijastettu valo on` {#block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is.svg" />
-Triggers/checks reflected light threshold condition.
+Tarkistaa valon ehdon.
 
-- Compare options: `<`, `=`, `>`
-
-### `Technic ambient light` {#block_hubs_all_sensors_port_technic_sensor_ambient_light}
+### `Technic ympäristövalo` {#block_hubs_all_sensors_port_technic_sensor_ambient_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_ambient_light.svg')} alt="block_hubs_all_sensors_port_technic_sensor_ambient_light.svg" />
-Returns ambient light intensity.
+Palauttaa ympäristön valon.
 
-### `Technic when ambient light is` {#block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is}
-<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is.svg" />
-Triggers/checks ambient light threshold condition.
-
-- Compare options: `<`, `=`, `>`
-
-### `Technic raw color` {#block_hubs_all_sensors_port_technic_sensor_raw_color}
+### `Technic raakaväri` {#block_hubs_all_sensors_port_technic_sensor_raw_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_raw_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_raw_color.svg" />
-Returns raw color channel value from Technic sensor.
+Palauttaa värikanavat.
 
-- Channel options: `red`, `green`, `blue`
-
-### `BOOST sensor distance` {#block_hubs_all_sensors_port_boost_sensor_distance}
+### `BOOST-etäisyysanturi` {#block_hubs_all_sensors_port_boost_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_distance.svg" />
-Returns distance from a BOOST distance sensor.
+Palauttaa etäisyyden.
 
-- Unit options: `%`, `cm`, `inch`
-
-### `BOOST when distance is` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
+### `BOOST kun etäisyys on` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_distance.svg" />
-Triggers/checks distance condition for BOOST distance sensor.
+Tarkistaa etäisyyden.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `%`, `cm`, `inch`
-
-### `BOOST sensor color` {#block_hubs_all_sensors_port_boost_sensor_color}
+### `BOOST-värianturi` {#block_hubs_all_sensors_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_color.svg" />
-Returns color detected by a BOOST sensor.
+Palauttaa värin.
 
-- Output options: `value`, `string`
-
-### `BOOST is color` {#block_hubs_all_sensors_port_boost_sensor_is_color}
+### `BOOST on väri` {#block_hubs_all_sensors_port_boost_sensor_is_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_is_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_is_color.svg" />
-Checks whether BOOST sensor currently detects selected color.
+Tarkistaa värin.
 
-### `BOOST reflected light` {#block_hubs_all_sensors_port_boost_sensor_reflected_light}
+### `BOOST heijastettu valo` {#block_hubs_all_sensors_port_boost_sensor_reflected_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_reflected_light.svg')} alt="block_hubs_all_sensors_port_boost_sensor_reflected_light.svg" />
-Returns reflected light value from BOOST sensor.
+Palauttaa valon.
 
-### `BOOST when reflected light is` {#block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is}
+### `BOOST kun heijastettu valo on` {#block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is.svg" />
-Triggers/checks reflected light threshold condition for BOOST sensor.
+Tarkistaa valon.
 
-- Compare options: `<`, `=`, `>`
-
-### `Technic Move set power mode` {#block_hubs_technicmove_sensors_set_power_mode}
+### `Technic Move aseta tehotila` {#block_hubs_technicmove_sensors_set_power_mode}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_sensors_set_power_mode.svg')} alt="block_hubs_technicmove_sensors_set_power_mode.svg" />
-Sets Technic Move power mode.
+Asettaa tehotilan.
 
-- Mode options: `normal`, `boost`
-
-### `WeDo 2 distance` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
+### `WeDo 2 etäisyys` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_distance.svg" />
-Returns distance from WeDo 2 distance sensor.
+Palauttaa etäisyyden.
 
-- Unit options: `%`, `cm`, `inch`
-
-### `WeDo 2 tilt` {#block_hubs_all_sensors_port_wedo2_tilt}
+### `WeDo 2 kallistus` {#block_hubs_all_sensors_port_wedo2_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
-Returns tilt value from WeDo 2 tilt sensor.
+Palauttaa kallistuksen.
 
-- Axis options: `pitch`, `roll`
+## Käyttöhuomiot
 
-## Usage notes
-
-- Use sensor reporter blocks with `if`, `if/else`, and `wait until` for reactive logic.
-- Combine sensor values with Operators blocks to build thresholds and conditions.
-- Check `Device type` before sending commands that depend on specific connected hardware.
+- Käytä sensoreita ehdoissa (`if`, `wait until`).
+- Yhdistä operaattoreihin.
+- Tarkista laitetyyppi ennen käyttöä.

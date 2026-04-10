@@ -1,266 +1,198 @@
 ---
 id: DashboardControllers
-title: Dashboard controllers
+title: Ohjauspaneelin ohjaimet
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Dashboard controllers
+# Ohjauspaneelin ohjaimet
 
-These blocks are used to read user input from on-screen controls, react to user actions, and update dashboard UI state.
+Näitä lohkoja käytetään lukemaan käyttäjän syötteitä näytön ohjaimista, reagoimaan käyttäjän toimintoihin ja päivittämään käyttöliittymän tilaa. :contentReference[oaicite:0]{index=0}
 
-## Global dashboard controller blocks
+## Yleiset ohjainlohkot
 
-### `Set controller color` {#block_dashboard_controller_all_set_color}
+### `Aseta ohjaimen väri` {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
-Changes the visual accent color of the selected dashboard controller.
+Muuttaa valitun ohjaimen korostusväriä.
 
-- Type: command block
-- Typical use: indicate runtime states or dynamically change controller style based on conditions
+- Tyyppi: komentolohko
+- Tyypillinen käyttö: näyttää tilat (valmis, käynnissä, virhe)
 
-### `Set controller interactivity` {#block_dashboard_controller_all_set_interactivity}
+### `Aseta ohjaimen interaktiivisuus` {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
-Controls selected dashboard controller interactivity.
-If interactivity is disabled, the controller does not react to touch input.
+Määrittää, voiko ohjainta käyttää.  
+Jos pois päältä, ohjain ei reagoi kosketukseen.
 
-- Type: command block
-- Typical use: temporarily lock controls during specific logic or safety states
-- State options: `enable`, `disable`
+- Tyyppi: komentolohko
+- Vaihtoehdot: `käytössä`, `pois käytöstä`
 
-## Button blocks
+## Painikelohkot
 
-### `Button event` {#block_dashboard_controller_button_event}
+### `Painiketapahtuma` {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
-Triggers when the dashboard button changes state (pressed/released).
+Käynnistyy, kun painike muuttuu (painettu/vapautettu).
 
-- Type: event block
-- Output: starts connected script
-- State options: `pressed`, `released`
+- Tyyppi: tapahtumalohko
+- Tilat: `painettu`, `vapautettu`
 
-### `Button value (boolean)` {#block_dashboard_controller_button_value_boolean}
+### `Painikkeen arvo (boolean)` {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
-Reports current dashboard button state.
+Palauttaa painikkeen tilan.
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `pressed`, `released`
+- Tyyppi: arvopalauttava lohko
+- Tuloste: `true`/`false`
 
-## D-pad blocks
+## D-pad-lohkot
 
-### `D-pad event` {#block_dashboard_controller_dpad_event}
+### `D-pad-tapahtuma` {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
-Triggers when D-pad direction changes or matches configured direction.
+Käynnistyy, kun suunta muuttuu.
 
-- Type: event block
-- Output: starts connected script
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- Tyyppi: tapahtumalohko
+- Suunnat: `ylös`, `alas`, `vasen`, `oikea`
 
-### `D-pad value (boolean)` {#block_dashboard_controller_dpad_value_boolean}
+### `D-pad-arvo (boolean)` {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
-Reports whether a selected D-pad direction is active.
+Palauttaa, onko suunta aktiivinen.
 
-- Type: value block
-- Output: `true`/`false`
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- Tyyppi: arvopalauttava lohko
+- Tuloste: `true`/`false`
 
-## Joystick blocks
+## Joystick-lohkot
 
-### `Joystick event` {#block_dashboard_controller_joystick_event}
+### `Joystick-tapahtuma` {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
-Triggers when joystick position changes.
+Käynnistyy, kun joystick liikkuu.
 
-- Type: event block
-- Output: starts connected script
-- State options: `up`, `down`, `left`, `right`, `moved`, `released`
+- Tyyppi: tapahtumalohko
+- Tilat: `ylös`, `alas`, `vasen`, `oikea`, `liikkui`, `vapautettu`
 
-### `Joystick value (float)` {#block_dashboard_controller_joystick_value_float}
+### `Joystick-arvo (float)` {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
-Reports joystick axis value.
+Palauttaa joystickin arvon.
 
-- Type: value block
-- Output: numeric (float), typically in a normalized range
-- Axis options: `x-axis`, `y-axis`
+- Tyyppi: arvopalauttava lohko
+- Akselit: `x`, `y`
 
-## Pedals blocks
+## Poljinlohkot
 
-### `Pedals event` {#block_dashboard_controller_pedals_event}
+### `Poljin-tapahtuma` {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
-Triggers when pedal input changes.
+Käynnistyy, kun poljin muuttuu.
 
-- Type: event block
-- Output: starts connected script
-- Pedal options: `any`, `brake`, `acceleration`
-- State options: `moved`, `pressed`, `released`
+- Tyyppi: tapahtumalohko
+- Vaihtoehdot: `mikä tahansa`, `jarru`, `kaasu`
 
-### `Pedals value (float)` {#block_dashboard_controller_pedals_value_float}
+### `Polkimen arvo (float)` {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
-Reports pedal analog value.
+Palauttaa polkimen arvon.
 
-- Type: value block
-- Output: numeric (float)
-
-### `Pedals value (boolean)` {#block_dashboard_controller_pedals_value_boolean}
+### `Polkimen arvo (boolean)` {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
-Returns selected state based on whether a specific pedal is pressed or released.
+Palauttaa tilan.
 
-- Type: value block
-- Output: `true`/`false`
-- Pedal options: `brake`, `acceleration`
-- State options: `pressed`, `released`
+## Liukusäädinlohkot
 
-## Slider blocks
-
-### `Slider event` {#block_dashboard_controller_slider_event}
+### `Liukusäädin-tapahtuma` {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
-Triggers when slider value changes.
+Käynnistyy, kun arvo muuttuu.
 
-- Type: event block
-- Output: starts connected script
-- State options: `low`, `high`, `moved`, `released`
-
-### `Slider value (float)` {#block_dashboard_controller_slider_value_float}
+### `Liukusäätimen arvo (float)` {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
-Reports current slider value.
+Palauttaa arvon.
 
-- Type: value block
-- Output: numeric (float)
+## Stepper-lohkot
 
-## Stepper blocks
-
-### `Stepper event` {#block_dashboard_controller_stepper_event}
+### `Stepper-tapahtuma` {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
-Triggers when stepper value changes by a step.
+Käynnistyy askelmuutoksessa.
 
-- Type: event block
-- Output: starts connected script
-- Step options: `any`, `reset`, `minus`, `plus`
-- Button state options: `pressed`, `released`
-
-### `Stepper value (float)` {#block_dashboard_controller_stepper_value_float}
+### `Stepper-arvo (float)` {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
-Reports current stepper value.
+Palauttaa arvon.
 
-- Type: value block
-- Output: numeric (float)
+## Ohjauspyörälohkot
 
-## Steering wheel blocks
-
-### `Steering wheel event` {#block_dashboard_controller_steering_wheel_event}
+### `Ohjauspyörä-tapahtuma` {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
-Triggers when steering wheel position changes.
+Käynnistyy, kun ohjauspyörä liikkuu.
 
-- Type: event block
-- Output: starts connected script
-- State options: `moved`, `pressed`, `released`
-
-### `Steering wheel value (float)` {#block_dashboard_controller_steering_wheel_value_float}
+### `Ohjauspyörän arvo (float)` {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
-Reports current steering wheel value.
+Palauttaa arvon.
 
-- Type: value block
-- Output: numeric (float)
+## Kytkinlohkot
 
-### `Steering wheel value (boolean)` {#block_dashboard_controller_steeringwheel_value_boolean}
-
-<img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
-
-Returns selected state based on whether the steering wheel is pressed or released.
-
-- Type: value block
-- Output: `true`/`false`
-- State options: `moved`, `pressed`, `released`
-
-## Switch blocks
-
-### `Switch event` {#block_dashboard_controller_switch_event}
+### `Kytkin-tapahtuma` {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
-Triggers when switch state changes.
+Käynnistyy tilan muuttuessa.
 
-- Type: event block
-- Output: starts connected script
-- Toggle options: `on`, `off`
+- Tilat: `päälle`, `pois`
 
-### `Switch value (boolean)` {#block_dashboard_controller_switch_value_boolean}
+### `Kytkimen arvo (boolean)` {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
-Reports current switch state.
+Palauttaa tilan.
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `on`, `off`
+## Monitorilohkot
 
-## Monitor blocks
-
-### `Monitor show` {#block_dashboard_controller_monitor_show}
+### `Näytä monitorissa` {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
-Displays information (text or value) on the dashboard monitor.
+Näyttää tiedon.
 
-- Type: command block
-- Typical use: show battery level, motor angle, current connected device on a hub port, and similar runtime info
-
-### `Monitor set value` {#block_dashboard_controller_monitor_set_value}
+### `Aseta monitorin arvo` {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
-Sets integer value for a dashboard speedometer monitor.
+Asettaa arvon.
 
-- Type: command block
-- Typical use: update speedometer-like monitor value in runtime
-
-### `Monitor tilt set value` {#block_dashboard_controller_monitor_tilt_set_value}
+### `Aseta kallistus` {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
-Sets tilt monitor value (pitch/roll) for dashboard tilt monitor.
+Asettaa kallistuksen.
 
-- Type: command block
-- Typical use: display runtime tilt values in dedicated tilt monitor
-- Axis options: `pitch`, `roll`
+## Käyttöhuomiot
 
-## Usage notes
-
-- Event blocks are best for reacting immediately to user input changes.
-- Value blocks are best when you need current state inside loops/conditions.
-- For smooth control, combine value blocks with scaling and dead-zone logic.
-- Use interactivity/color blocks to reflect app states (armed, paused, error).
+- Tapahtumalohkot reagoivat nopeasti.
+- Arvolohkot käytetään ehdoissa.
+- Yhdistä skaalaus ja dead-zone sujuvaan ohjaukseen.

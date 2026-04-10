@@ -1,156 +1,125 @@
 ---
 id: Events
-title: Events
+title: Tapahtumat
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Events
+# Tapahtumat
 
-The **Events** category contains blocks that start scripts when a condition happens.
+**Tapahtumat**-kategoria sisältää lohkoja, jotka käynnistävät skriptejä, kun ehto toteutuu. :contentReference[oaicite:0]{index=0}
 
-## Core events
+## Perustapahtumat
 
-### `When program started` {#block_event_when_program_started}
+### `Kun ohjelma käynnistyy` {#block_event_when_program_started}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
 
-Starts this script once when the profile program begins.
+Käynnistää skriptin kerran ohjelman alussa.
 
-- Trigger: program launch
-- Typical use: initialize variables, default motor states, startup sounds
+- Laukaisin: ohjelman käynnistys
+- Tyypillinen käyttö: alustukset, oletusarvot
 
-### `When` {#block_event_when}
+### `Kun` {#block_event_when}
 
 <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 
-Runs when a selected condition becomes true.
+Suorittaa, kun ehto on tosi.
 
-- Trigger: condition-based
-- Typical use: branch logic based on runtime state
+- Laukaisin: ehto
 
-### `When timer greater than` {#block_event_when_timer_greater_than}
+### `Kun ajastin suurempi kuin` {#block_event_when_timer_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_timer_greater_than.svg')} alt="block_event_when_timer_greater_than.svg" />
 
-Runs when timer value passes a threshold.
+Suorittaa, kun ajastin ylittää arvon.
 
-- Trigger: elapsed time
-- Typical use: delayed actions, timed phases
-
-### `When message received` {#block_event_when_message_recieved}
+### `Kun viesti vastaanotettu` {#block_event_when_message_recieved}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_message_recieved.svg')} alt="block_event_when_message_recieved.svg" />
 
-Starts a script when a matching broadcast message is received.
+Käynnistää skriptin viestin saapuessa.
 
-- Trigger: message channel
-- Typical use: synchronize multiple scripts
-
-### `Broadcast` {#block_event_broadcast}
+### `Lähetä viesti` {#block_event_broadcast}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast.svg')} alt="block_event_broadcast.svg" />
 
-Sends a message to all scripts listening for that message.
+Lähettää viestin muille skripteille.
 
-- Trigger: immediate send
-- Typical use: notify other scripts without waiting
-
-### `Broadcast and wait` {#block_event_broadcast_and_wait}
+### `Lähetä viesti ja odota` {#block_event_broadcast_and_wait}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast_and_wait.svg')} alt="block_event_broadcast_and_wait.svg" />
 
-Sends a message and pauses this script until listeners complete.
+Lähettää viestin ja odottaa.
 
-- Trigger: immediate send + wait
-- Typical use: staged flows where order matters
+## Hub-tapahtumat
 
-## Hub events
-
-### `Hub button pressed` {#block_hubs_all_event_button_pressed}
+### `Hubin painike painettu` {#block_hubs_all_event_button_pressed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_button_pressed.svg')} alt="block_hubs_all_event_button_pressed.svg" />
 
-Runs when the main button on the hub is pressed.
+Suorittaa, kun painike painetaan.
 
-- State options: `pressed`, `released`, `changed`
-- Note: available button options may differ by hub model (different hubs can expose different button sets).
+- Tilat: `painettu`, `vapautettu`, `muuttunut`
 
-### `Hub connection changed` {#block_hubs_all_event_connection_changed}
+### `Hubin yhteys muuttui` {#block_hubs_all_event_connection_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_connection_changed.svg')} alt="block_hubs_all_event_connection_changed.svg" />
 
-Runs when the hub connection state changes (connected or disconnected).
+Suorittaa, kun yhteys muuttuu.
 
-- Trigger: hub connection status change
-- Typical use: reconnection handling and safe fallback behavior after link loss
-
-### `Hub battery changed` {#block_hubs_all_event_battery_changed}
+### `Hubin akku muuttui` {#block_hubs_all_event_battery_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_battery_changed.svg')} alt="block_hubs_all_event_battery_changed.svg" />
 
-Runs when reported hub battery level changes.
+Suorittaa, kun akun tila muuttuu.
 
-- Trigger: battery level update (for hubs that report battery state)
-- Typical use: low-battery warning logic and power-saving mode switching
-
-### `Hub accelerometer changed` {#block_hubs_all_event_accelerometer_changed}
+### `Hubin kiihtyvyys muuttui` {#block_hubs_all_event_accelerometer_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_accelerometer_changed.svg')} alt="block_hubs_all_event_accelerometer_changed.svg" />
 
-Runs when acceleration values change.
+Suorittaa, kun kiihtyvyys muuttuu.
 
-### `Hub tilt changed` {#block_hubs_all_event_tilt_changed}
+### `Hubin kallistus muuttui` {#block_hubs_all_event_tilt_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_changed.svg')} alt="block_hubs_all_event_tilt_changed.svg" />
 
-Runs when tilt value changes.
+Suorittaa, kun kallistus muuttuu.
 
-- Angle options: `any`, `pitch`, `roll`, `yaw`
-- Note: `yaw` is available only on hubs that provide yaw data.
-
-### `Hub orientation changed` {#block_hubs_all_event_tilt_orientation_changed}
+### `Hubin suunta muuttui` {#block_hubs_all_event_tilt_orientation_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_orientation_changed.svg')} alt="block_hubs_all_event_tilt_orientation_changed.svg" />
 
-Runs when orientation state changes (for example, front/up/down/left/right).
+Suorittaa, kun suunta muuttuu.
 
-## Sensor port events
+## Anturitapahtumat
 
-### `Technic color sensor event` {#block_hubs_all_event_port_technic_sensor_color}
+### `Technic-värianturi tapahtuma` {#block_hubs_all_event_port_technic_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
 
-Runs when the Technic color sensor reports a selected color.
+Suorittaa, kun väri havaitaan.
 
-
-### `Technic distance sensor event` {#block_hubs_all_event_port_technic_sensor_distance}
+### `Technic-etäisyysanturi tapahtuma` {#block_hubs_all_event_port_technic_sensor_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_distance.svg')} alt="block_hubs_all_event_port_technic_sensor_distance.svg" />
 
-Runs when Technic distance sensor values match the selected condition.
+Suorittaa, kun etäisyys täyttää ehdon.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `mm`, `cm`, `inch`, `%`
-- Note: available units can depend on sensor mode and connected device.
-
-### `BOOST sensor distance event` {#block_hubs_all_event_port_boost_sensor_when_distance}
+### `BOOST-etäisyysanturi tapahtuma` {#block_hubs_all_event_port_boost_sensor_when_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_event_port_boost_sensor_when_distance.svg" />
 
-Runs when the BOOST distance sensor reaches the chosen threshold/condition.
+Suorittaa, kun etäisyys saavutetaan.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `%`, `cm`, `inch`
-
-### `BOOST sensor color event` {#block_hubs_all_event_port_boost_sensor_color}
+### `BOOST-värianturi tapahtuma` {#block_hubs_all_event_port_boost_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 
-Runs when the BOOST sensor detects a selected color/value.
+Suorittaa, kun väri havaitaan.
 
-## Notes
+## Käyttöhuomiot
 
-- Event blocks can trigger very frequently (especially sensor/controller change events).
-- For stable behavior, add threshold checks or small delays when values are noisy.
-- Prefer broadcasting messages to coordinate scripts instead of duplicating logic.
+- Tapahtumat voivat laukaista usein.
+- Käytä viiveitä tai rajoja vakauden parantamiseksi.
+- Käytä viestejä skriptien synkronointiin.

@@ -1,176 +1,176 @@
 ---
 id: Operators
-title: Operators
+title: Operaattorit
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Operators
+# Operaattorit
 
-Operators are Reporter and Boolean blocks used for calculations, comparisons, logic, and string processing.
+Operaattorit ovat Reporter- ja Boolean-lohkoja, joita käytetään laskentaan, vertailuihin, logiikkaan ja tekstin käsittelyyn.
 
-## Arithmetic operators
+## Aritmeettiset operaattorit
 
-### `Plus` {#block_operator_plus}
+### `Yhteenlasku` {#block_operator_plus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_plus.svg')} alt="block_operator_plus.svg" />
 
-Returns the sum of two values.
+Palauttaa kahden arvon summan.
 
-### `Minus` {#block_operator_minus}
+### `Vähennys` {#block_operator_minus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_minus.svg')} alt="block_operator_minus.svg" />
 
-Returns the subtraction result of two values.
+Palauttaa kahden arvon erotuksen.
 
-### `Multiply` {#block_operator_multiply}
+### `Kertolasku` {#block_operator_multiply}
 
 <img src={useBaseUrl('/img/blocks/block_operator_multiply.svg')} alt="block_operator_multiply.svg" />
 
-Returns the product of two values.
+Palauttaa kahden arvon tulon.
 
-### `Divide` {#block_operator_divide}
+### `Jakolasku` {#block_operator_divide}
 
 <img src={useBaseUrl('/img/blocks/block_operator_divide.svg')} alt="block_operator_divide.svg" />
 
-Returns the division result of two values.
+Palauttaa kahden arvon jakolaskun tuloksen.
 
-### `Modulus` {#block_operator_modulus}
+### `Jakojäännös` {#block_operator_modulus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_modulus.svg')} alt="block_operator_modulus.svg" />
 
-Returns the remainder after division.
+Palauttaa jakolaskun jakojäännöksen.
 
-### `Round` {#block_operator_round}
+### `Pyöristä` {#block_operator_round}
 
 <img src={useBaseUrl('/img/blocks/block_operator_round.svg')} alt="block_operator_round.svg" />
 
-Rounds to nearest integer (for example `2.6 -> 3`).
+Pyöristää lähimpään kokonaislukuun (esimerkiksi `2.6 -> 3`).
 
-### `Math single` {#block_operator_math_single}
+### `Matematiikka (yksi arvo)` {#block_operator_math_single}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 
-Applies a single-argument math function.
+Suorittaa yhden argumentin matemaattisen funktion.
 
-Available functions:
+Saatavilla olevat funktiot:
 
-- `abs`: absolute value of a number
-- `floor`: round down to nearest integer
-- `ceiling`: round up to nearest integer
-- `sqrt`: square root
-- `sin`: sine (angle-based)
-- `cos`: cosine (angle-based)
-- `tan`: tangent (angle-based)
-- `asin`: inverse sine
-- `acos`: inverse cosine
-- `atan`: inverse tangent
-- `ln`: natural logarithm (base `e`)
-- `log`: logarithm base `10`
-- `e^`: raise `e` to power of input
-- `10^`: raise `10` to power of input
+- `abs`: luvun itseisarvo
+- `floor`: pyöristää alaspäin
+- `ceiling`: pyöristää ylöspäin
+- `sqrt`: neliöjuuri
+- `sin`: sini
+- `cos`: kosini
+- `tan`: tangentti
+- `asin`: arkussini
+- `acos`: arkuskosini
+- `atan`: arkustangentti
+- `ln`: luonnollinen logaritmi
+- `log`: kymmenkantainen logaritmi
+- `e^`: e potenssiin
+- `10^`: 10 potenssiin
 
-### `Math pair` {#block_operator_math_pair}
+### `Matematiikka (kaksi arvoa)` {#block_operator_math_pair}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_pair.svg')} alt="block_operator_math_pair.svg" />
 
-Applies a two-argument math function.
+Suorittaa kahden argumentin matemaattisen funktion.
 
-Available functions:
+Saatavilla olevat funktiot:
 
-- `min`: smaller of two values
-- `max`: larger of two values
-- `pow`: first value raised to second value power
-- `atan2`: angle from X/Y pair
-- `hypot`: hypotenuse length from two components
-- `copysign`: first value with sign of second value
+- `min`: pienempi arvo
+- `max`: suurempi arvo
+- `pow`: potenssi
+- `atan2`: kulma X/Y-arvoista
+- `hypot`: hypotenuusa
+- `copysign`: arvo toisen etumerkillä
 
-### `Pick random` {#block_operator_pick_random}
+### `Satunnaisluku` {#block_operator_pick_random}
 
 <img src={useBaseUrl('/img/blocks/block_operator_pick_random.svg')} alt="block_operator_pick_random.svg" />
 
-Returns a random number in the selected range.
+Palauttaa satunnaisluvun valitulta alueelta.
 
-## Comparison operators
+## Vertailuoperaattorit
 
-### `Equal` {#block_operator_equal}
+### `Yhtäsuuri` {#block_operator_equal}
 
 <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
 
-Returns `true` when two values are equal.
+Palauttaa `true`, jos arvot ovat yhtä suuret.
 
-### `Not equal` {#block_operator_not_equal}
+### `Erisuuri` {#block_operator_not_equal}
 
 <img src={useBaseUrl('/img/blocks/block_operator_not_equal.svg')} alt="block_operator_not_equal.svg" />
 
-Returns `true` when two values are not equal.
+Palauttaa `true`, jos arvot eivät ole yhtä suuret.
 
-### `Greater than` {#block_operator_greater_than}
+### `Suurempi kuin` {#block_operator_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_greater_than.svg')} alt="block_operator_greater_than.svg" />
 
-Returns `true` when left value is greater than right value.
+Palauttaa `true`, jos vasen arvo on suurempi.
 
-### `Less than` {#block_operator_less_than}
+### `Pienempi kuin` {#block_operator_less_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_less_than.svg')} alt="block_operator_less_than.svg" />
 
-Returns `true` when left value is less than right value.
+Palauttaa `true`, jos vasen arvo on pienempi.
 
-### `Is in between` {#block_operator_is_in_between}
+### `On välillä` {#block_operator_is_in_between}
 
 <img src={useBaseUrl('/img/blocks/block_operator_is_in_between.svg')} alt="block_operator_is_in_between.svg" />
 
-Returns `true` when a value is inside specified bounds.
+Palauttaa `true`, jos arvo on annetulla välillä.
 
-## Boolean logic operators
+## Boolean-logiikkaoperaattorit
 
-### `And` {#block_operator_and}
+### `Ja` {#block_operator_and}
 
 <img src={useBaseUrl('/img/blocks/block_operator_and.svg')} alt="block_operator_and.svg" />
 
-Returns `true` only when both conditions are `true`.
+Palauttaa `true`, jos molemmat ehdot ovat `true`.
 
-### `Or` {#block_operator_or}
+### `Tai` {#block_operator_or}
 
 <img src={useBaseUrl('/img/blocks/block_operator_or.svg')} alt="block_operator_or.svg" />
 
-Returns `true` when at least one condition is `true`.
+Palauttaa `true`, jos vähintään yksi ehto on `true`.
 
-### `Not` {#block_operator_not}
+### `Ei` {#block_operator_not}
 
 <img src={useBaseUrl('/img/blocks/block_operator_not.svg')} alt="block_operator_not.svg" />
 
-Inverts a boolean value.
+Kääntää boolean-arvon.
 
-## Text operators
+## Tekstioperaattorit
 
-### `Join` {#block_operator_join}
+### `Yhdistä` {#block_operator_join}
 
 <img src={useBaseUrl('/img/blocks/block_operator_join.svg')} alt="block_operator_join.svg" />
 
-Concatenates two text values.
+Yhdistää kaksi tekstiä.
 
-### `Letter at` {#block_operator_letter_at}
+### `Kirjain kohdassa` {#block_operator_letter_at}
 
 <img src={useBaseUrl('/img/blocks/block_operator_letter_at.svg')} alt="block_operator_letter_at.svg" />
 
-Returns character at a selected position in text.
+Palauttaa merkin valitusta kohdasta.
 
-### `Size of string` {#block_operator_size_of_string}
+### `Tekstin pituus` {#block_operator_size_of_string}
 
 <img src={useBaseUrl('/img/blocks/block_operator_size_of_string.svg')} alt="block_operator_size_of_string.svg" />
 
-Returns string length.
+Palauttaa merkkijonon pituuden.
 
-### `String contains` {#block_operator_string_contains}
+### `Teksti sisältää` {#block_operator_string_contains}
 
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 
-Returns `true` if text contains specified substring.
+Palauttaa `true`, jos teksti sisältää annetun osan.
 
-## Usage notes
+## Käyttöhuomiot
 
-- Use operator blocks to build conditions for `if`, `wait until`, and event filters.
-- For motor control, normalize and clamp values before passing to speed/power blocks.
-- Avoid dividing by zero in `Divide` and `Modulus`.
+- Käytä operaattoreita ehtojen rakentamiseen (`if`, `wait until`, tapahtumat).
+- Normalisoi arvot ennen moottoriohjausta.
+- Vältä jakamista nollalla (`Jakolasku`, `Jakojäännös`).
