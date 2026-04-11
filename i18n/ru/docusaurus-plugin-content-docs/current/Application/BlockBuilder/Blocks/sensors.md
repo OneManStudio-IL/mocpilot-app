@@ -140,7 +140,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_raw_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_raw_color.svg" />
 Возвращает значение сырого цветового канала датчика Technic.
 
-- Варианты канала: `red`, `green`, `blue`
+- Варианты канала: `красный`, `зелёный`, `синий`
 
 ### `BOOST датчик расстояния` {#block_hubs_all_sensors_port_boost_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_distance.svg" />
