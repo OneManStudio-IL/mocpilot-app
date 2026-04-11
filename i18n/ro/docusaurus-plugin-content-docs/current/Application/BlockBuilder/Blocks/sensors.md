@@ -1,194 +1,190 @@
 ---
 id: Sensors
-title: Sensors
+title: Senzori
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Sensors
+# Senzori
 
-Sensor blocks read hub/device state and provide data for conditions, events, and control logic.
+Blocurile de senzori citesc starea hub-ului/dispozitivului și furnizează date pentru condiții, evenimente și logică de control. :contentReference[oaicite:0]{index=0}
 
-## Device and hub sensors
+## Senzori dispozitiv și hub
 
-### `Hub battery level` {#block_hubs_all_sensors_battery_level}
+### `Nivel baterie hub` {#block_hubs_all_sensors_battery_level}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_battery_level.svg')} alt="block_hubs_all_sensors_battery_level.svg" />
-Returns current hub battery level.
+Returnează nivelul curent al bateriei hub-ului.
 
-### `Device % battery` {#block_sensors_device_battery_level}
+### `Baterie dispozitiv %` {#block_sensors_device_battery_level}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_battery_level.svg')} alt="block_sensors_device_battery_level.svg" />
-Returns the current battery level of the phone/tablet device running MOCPilot (in percent).
+Returnează nivelul bateriei dispozitivului (telefon/tabletă) în procente.
 
-### `Board temperature` {#block_hubs_all_sensors_board_temp}
+### `Temperatura plăcii` {#block_hubs_all_sensors_board_temp}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_board_temp.svg')} alt="block_hubs_all_sensors_board_temp.svg" />
-Returns hub board temperature.
+Returnează temperatura plăcii hub-ului.
 
-- Available only for `BuWizz 2` and `BuWizz 3`.
+- Disponibil doar pentru `BuWizz 2` și `BuWizz 3`.
 
-### `Button pressed` {#block_hubs_all_sensors_button_pressed}
+### `Buton apăsat` {#block_hubs_all_sensors_button_pressed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_button_pressed.svg?v=20260409-2258')} alt="block_hubs_all_sensors_button_pressed.svg" />
-Checks whether a selected hub button matches the selected state.
+Verifică dacă un buton selectat al hub-ului corespunde stării selectate.
 
-- State options: `pressed`, `released`
-- Typical button option: `center` (hub-dependent)
+- Opțiuni stare: `apăsat`, `eliberat`
+- Opțiune tipică: `centru`
+- Notă: opțiunile pot diferi în funcție de modelul hub-ului
 
-- Note: available button options may differ by hub model (different hubs can expose different button sets).
-
-### `Device type` {#block_hubs_all_motors_port_device_type}
+### `Tip dispozitiv` {#block_hubs_all_motors_port_device_type}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_device_type.svg')} alt="block_hubs_all_motors_port_device_type.svg" />
-Returns connected device type for the selected port.
+Returnează tipul dispozitivului conectat la portul selectat.
 
-- Type: reporter block
-- Typical use: detect what device is connected before running device-specific logic
+- Tip: bloc reporter
+- Utilizare tipică: detectarea dispozitivului înainte de logică specifică
 
-### `Device accelerometer` {#block_sensors_device_accelerometer_sensor_data}
+### `Accelerometru dispozitiv` {#block_sensors_device_accelerometer_sensor_data}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_accelerometer_sensor_data.svg')} alt="block_sensors_device_accelerometer_sensor_data.svg" />
-Returns raw accelerometer values from device sensors.
+Returnează valorile brute ale accelerometrului.
 
-- Axis options: `x`, `y`, `z`
+- Opțiuni axă: `x`, `y`, `z`
 
-### `Device acceleration` {#block_sensors_device_acceleration_sensor_data}
+### `Accelerație dispozitiv` {#block_sensors_device_acceleration_sensor_data}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_acceleration_sensor_data.svg')} alt="block_sensors_device_acceleration_sensor_data.svg" />
-Returns acceleration data from device sensors.
+Returnează datele de accelerație.
 
-- Axis options: `x`, `y`, `z`
+- Opțiuni axă: `x`, `y`, `z`
 
-## Orientation and tilt sensors
+## Senzori de orientare și înclinare
 
-### `Tilt` {#block_hubs_all_sensors_tilt}
+### `Înclinare` {#block_hubs_all_sensors_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
-Returns tilt angle for the selected axis.
+Returnează unghiul de înclinare.
 
-- Axis options: `pitch`, `roll`, `yaw`
-- Note: `yaw` is available only on hubs that provide yaw data.
+- Opțiuni axă: `pitch`, `roll`, `yaw`
+- Notă: `yaw` este disponibil doar pe anumite hub-uri
 
-### `Get orientation` {#block_hubs_sensors_get_orientation}
+### `Obține orientarea` {#block_hubs_sensors_get_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_get_orientation.svg')} alt="block_hubs_sensors_get_orientation.svg" />
-Returns current orientation state of the hub.
+Returnează orientarea curentă a hub-ului.
 
-- Output format options: `text`, `index`
-- Orientation values: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Opțiuni output: `text`, `index`
+- Valori: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
 
-### `Is orientation up` {#block_hubs_all_sensors_is_orientation_up}
+### `Este orientarea sus` {#block_hubs_all_sensors_is_orientation_up}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_orientation_up.svg')} alt="block_hubs_all_sensors_is_orientation_up.svg" />
-Checks whether the hub orientation matches selected "up" orientation.
+Verifică dacă orientarea corespunde direcției „sus”.
 
-- Orientation options: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Opțiuni: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
 
-### `Set tilt orientation` {#block_hubs_sensors_set_tilt_orientation}
+### `Setează orientarea înclinării` {#block_hubs_sensors_set_tilt_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_set_tilt_orientation.svg')} alt="block_hubs_sensors_set_tilt_orientation.svg" />
-Configures orientation reference used by tilt/orientation-related blocks.
+Configurează referința de orientare.
 
-- Orientation options: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Opțiuni: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
 
-## Timer and device motion sensors
+## Timer și senzori de mișcare
 
 ### `Timer` {#block_sensors_timer_value_float}
 <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
-Returns timer value in seconds.
+Returnează valoarea timerului în secunde.
 
-### `Reset timer` {#block_sensors_timer_reset}
+### `Resetează timerul` {#block_sensors_timer_reset}
 <img src={useBaseUrl('/img/blocks/block_sensors_timer_reset.svg')} alt="block_sensors_timer_reset.svg" />
-Resets the timer to zero.
+Resetează timerul la zero.
 
-## Port sensor blocks
+## Blocuri senzori port
 
-### `Technic distance sensor` {#block_hubs_all_sensors_port_technic_sensor_distance}
+### `Senzor distanță Technic` {#block_hubs_all_sensors_port_technic_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
-Returns distance values from a Technic distance sensor.
+Returnează distanța măsurată.
 
-- Unit options: `mm`, `cm`, `inch`, `%`
+- Unități: `mm`, `cm`, `inch`, `%`
 
-### `Technic when distance is` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
+### `Technic când distanța este` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
-Triggers/checks distance condition for a Technic distance sensor.
+Verifică/declanșează condiția de distanță.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `mm`, `cm`, `inch`, `%`
+- Opțiuni: `mai aproape`, `mai departe`, `egal`
+- Unități: `mm`, `cm`, `inch`, `%`
 
-### `Technic color sensor value` {#block_hubs_all_sensors_port_technic_sensor_color}
+### `Valoare culoare Technic` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
-Returns detected color value from a Technic distance sensor.
+Returnează culoarea detectată.
 
-- Output options: `value`, `string`
+- Output: `valoare`, `text`
 
-### `Technic when color is` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
+### `Technic când culoarea este` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_color_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_color_is.svg" />
-Triggers/checks when detected color matches selected color.
+Declanșează când culoarea corespunde.
 
-### `Technic reflected light` {#block_hubs_all_sensors_port_technic_sensor_reflected_light}
+### `Lumină reflectată Technic` {#block_hubs_all_sensors_port_technic_sensor_reflected_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_reflected_light.svg')} alt="block_hubs_all_sensors_port_technic_sensor_reflected_light.svg" />
-Returns reflected light intensity.
+Returnează intensitatea luminii reflectate.
 
-### `Technic when reflected light is` {#block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is}
+### `Technic când lumina reflectată este` {#block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is.svg" />
-Triggers/checks reflected light threshold condition.
+Verifică pragul luminii reflectate.
 
-- Compare options: `<`, `=`, `>`
+- Opțiuni: `<`, `=`, `>`
 
-### `Technic ambient light` {#block_hubs_all_sensors_port_technic_sensor_ambient_light}
+### `Lumină ambientală Technic` {#block_hubs_all_sensors_port_technic_sensor_ambient_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_ambient_light.svg')} alt="block_hubs_all_sensors_port_technic_sensor_ambient_light.svg" />
-Returns ambient light intensity.
+Returnează lumina ambientală.
 
-### `Technic when ambient light is` {#block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is}
+### `Technic când lumina ambientală este` {#block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is.svg" />
-Triggers/checks ambient light threshold condition.
+Verifică pragul luminii ambientale.
 
-- Compare options: `<`, `=`, `>`
+- Opțiuni: `<`, `=`, `>`
 
-### `Technic raw color` {#block_hubs_all_sensors_port_technic_sensor_raw_color}
+### `Culoare brută Technic` {#block_hubs_all_sensors_port_technic_sensor_raw_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_raw_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_raw_color.svg" />
-Returns raw color channel value from Technic sensor.
+Returnează valorile RGB brute.
 
-- Channel options: `red`, `green`, `blue`
+- Canale: `roșu`, `verde`, `albastru`
 
-### `BOOST sensor distance` {#block_hubs_all_sensors_port_boost_sensor_distance}
+### `Senzor distanță BOOST` {#block_hubs_all_sensors_port_boost_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_distance.svg" />
-Returns distance from a BOOST distance sensor.
+Returnează distanța.
 
-- Unit options: `%`, `cm`, `inch`
+- Unități: `%`, `cm`, `inch`
 
-### `BOOST when distance is` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
+### `BOOST când distanța este` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_distance.svg" />
-Triggers/checks distance condition for BOOST distance sensor.
+Verifică condiția de distanță.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `%`, `cm`, `inch`
+- Opțiuni: `mai aproape`, `mai departe`, `egal`
 
-### `BOOST sensor color` {#block_hubs_all_sensors_port_boost_sensor_color}
+### `Culoare BOOST` {#block_hubs_all_sensors_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_color.svg" />
-Returns color detected by a BOOST sensor.
+Returnează culoarea detectată.
 
-- Output options: `value`, `string`
+- Output: `valoare`, `text`
 
-### `BOOST is color` {#block_hubs_all_sensors_port_boost_sensor_is_color}
+### `BOOST este culoare` {#block_hubs_all_sensors_port_boost_sensor_is_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_is_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_is_color.svg" />
-Checks whether BOOST sensor currently detects selected color.
+Verifică dacă senzorul detectează culoarea.
 
-### `BOOST reflected light` {#block_hubs_all_sensors_port_boost_sensor_reflected_light}
+### `Lumină reflectată BOOST` {#block_hubs_all_sensors_port_boost_sensor_reflected_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_reflected_light.svg')} alt="block_hubs_all_sensors_port_boost_sensor_reflected_light.svg" />
-Returns reflected light value from BOOST sensor.
+Returnează lumina reflectată.
 
-### `BOOST when reflected light is` {#block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is}
+### `BOOST când lumina reflectată este` {#block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is.svg" />
-Triggers/checks reflected light threshold condition for BOOST sensor.
+Verifică pragul luminii reflectate.
 
-- Compare options: `<`, `=`, `>`
+- Opțiuni: `<`, `=`, `>`
 
-### `Technic Move set power mode` {#block_hubs_technicmove_sensors_set_power_mode}
+### `Technic Move setează modul de putere` {#block_hubs_technicmove_sensors_set_power_mode}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_sensors_set_power_mode.svg')} alt="block_hubs_technicmove_sensors_set_power_mode.svg" />
-Sets Technic Move power mode.
+Setează modul de putere.
 
-- Mode options: `normal`, `boost`
+- Opțiuni: `normal`, `boost`
 
-### `WeDo 2 distance` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
+### `Distanță WeDo 2` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_distance.svg" />
-Returns distance from WeDo 2 distance sensor.
+Returnează distanța.
 
-- Unit options: `%`, `cm`, `inch`
-
-### `WeDo 2 tilt` {#block_hubs_all_sensors_port_wedo2_tilt}
+### `Înclinare WeDo 2` {#block_hubs_all_sensors_port_wedo2_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
-Returns tilt value from WeDo 2 tilt sensor.
+Returnează înclinarea.
 
-- Axis options: `pitch`, `roll`
+- Axe: `pitch`, `roll`

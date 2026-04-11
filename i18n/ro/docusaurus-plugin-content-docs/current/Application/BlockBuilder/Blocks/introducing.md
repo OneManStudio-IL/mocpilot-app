@@ -1,152 +1,152 @@
 ---
 id: BlocksIntroducing
-title: Blocks Introducing
+title: Introducere în blocuri
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Blocks Introducing
+# Introducere în blocuri
 
-MOCPilot uses a visual block programming system that looks and feels similar to Scratch.
-Each block has a specific role, and valid combinations define control flow and data flow through a script.
-It uses drag-and-drop logic and Scratch-like interaction patterns to provide a convenient and familiar way to build programs.
+MOCPilot utilizează un sistem de programare vizuală bazat pe blocuri, similar ca aspect și comportament cu Scratch.
+Fiecare bloc are un rol specific, iar combinațiile valide definesc fluxul de control și fluxul de date într-un script.  
+Sistemul folosește logică drag-and-drop și modele de interacțiune similare cu Scratch pentru a oferi un mod convenabil și familiar de a construi programe.
 
-:::warning Compatibility Notice
-This is a different block system with its own block set and behavior.
-MOCPilot programs are not compatible with Scratch projects: MOCPilot programs cannot be imported into Scratch, and Scratch programs cannot be imported into MOCPilot.
+:::warning Notă de compatibilitate
+Acesta este un sistem diferit de blocuri, cu propriul set de blocuri și comportament.  
+Programele MOCPilot nu sunt compatibile cu proiectele Scratch: programele MOCPilot nu pot fi importate în Scratch, iar programele Scratch nu pot fi importate în MOCPilot.
 :::
 
-## Block shapes and meaning
+## Forme de blocuri și semnificația lor
 
-### Hat Blocks
+### Blocuri Hat
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
   <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 </div>
 
-Start a script when a specific event occurs. Blocks can only be attached below.
+Pornește un script atunci când apare un anumit eveniment. Blocurile pot fi atașate doar dedesubt.
 
 ---
 
-### Stack Blocks
+### Blocuri Stack
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_reset.svg')} alt="block_sensors_timer_reset.svg" />
 </div>
 
-Main command blocks that perform actions.
+Blocuri principale de comandă care execută acțiuni.
 
 ---
 
-### C Blocks
+### Blocuri C
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 </div>
 
-C-shaped control blocks that contain nested block stacks (loops/conditions).
+Blocuri de control în formă de C care conțin stive de blocuri imbricate (bucle/condiții).
 
 ---
 
-### Reporter Blocks
+### Blocuri Reporter
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 </div>
 
-Return values such as numbers or strings.
+Returnează valori precum numere sau șiruri de caractere.
 
 ---
 
-### Boolean Blocks
+### Blocuri Booleene
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 </div>
 
-Return only `true` or `false`, typically used in conditions.
+Returnează doar `true` sau `false`, utilizate de obicei în condiții.
 
 ---
 
-### Cap Blocks
+### Blocuri Cap
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 </div>
 
-End scripts and do not allow blocks below.
+Încheie scripturile și nu permit atașarea altor blocuri dedesubt.
 
 ---
 
-### Blocks Stack
+### Stivă de blocuri
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks_stack.svg')} alt="blocks_stack.svg" />
 </div>
 
-A block stack is a sequence of connected blocks that runs as one script flow from top to bottom.
-Stacks usually start with an event block and then execute attached blocks in order.
+O stivă de blocuri este o secvență de blocuri conectate care rulează ca un singur flux de script de sus în jos.  
+Stivele încep de obicei cu un bloc de eveniment și apoi execută blocurile atașate în ordine.
 
 ---
 
-## Script execution model
+## Modelul de execuție al scriptului
 
-- A script usually starts from an event block.
-- Connected stack blocks run top to bottom.
-- Multiple scripts can run in parallel.
-- Message/broadcast blocks are used to synchronize scripts.
-- A block stack is a sequence of blocks connected together.
+- Un script începe de obicei de la un bloc de eveniment.
+- Blocurile conectate se execută de sus în jos.
+- Mai multe scripturi pot rula în paralel.
+- Blocurile de mesaj/broadcast sunt utilizate pentru sincronizarea scripturilor.
+- O stivă de blocuri este o secvență de blocuri conectate între ele.
 
-## Data and values
+## Date și valori
 
-- Reporter blocks can be nested inside command/condition inputs.
-- Variables store reusable values across blocks and scripts.
-- Lists store ordered collections for history, queues, and lookup data.
+- Blocurile reporter pot fi imbricate în intrările blocurilor de comandă sau condiții.
+- Variabilele stochează valori reutilizabile între blocuri și scripturi.
+- Listele stochează colecții ordonate pentru istoric, cozi și date de tip lookup.
 
-## Events and timing
+## Evenimente și temporizare
 
-- Event blocks react to user input, hub state, sensors, or messages.
-- Timer- and sensor-based events may trigger frequently.
-- Use thresholds, filtering, or short waits to reduce noisy repeated triggers.
+- Blocurile de eveniment reacționează la inputul utilizatorului, starea hub-ului, senzori sau mesaje.
+- Evenimentele bazate pe timer și senzori pot fi declanșate frecvent.
+- Folosește praguri, filtrare sau mici întârzieri pentru a reduce declanșările repetitive.
 
-## Hub, ports, and controllers
+## Hub, porturi și controlere
 
-- Hub blocks target hub and port context.
-- Some blocks are available only for specific hub families/devices.
-- Dashboard and gamepad blocks provide runtime input and UI control.
+- Blocurile de hub țintesc contextul hub-ului și al porturilor.
+- Unele blocuri sunt disponibile doar pentru anumite familii de hub-uri/dispozitive.
+- Blocurile de dashboard și gamepad oferă input în runtime și control UI.
 
-## Recommended workflow
+## Flux de lucru recomandat
 
-1. Start with one event block and a minimal script.
-2. Validate motor/sensor direction and ranges early.
-3. Extract repeated logic with messages and helper scripts.
-4. Add safeguards (limits, stops, fallback values) before final tuning.
+1. Începe cu un bloc de eveniment și un script minim.
+2. Verifică direcția și intervalele motoarelor/senzorilor din timp.
+3. Extrage logica repetitivă folosind mesaje și scripturi auxiliare.
+4. Adaugă măsuri de siguranță (limite, opriri, valori fallback) înainte de reglajul final.
 
-## Common pitfalls
+## Capcane frecvente
 
-- Missing event entry block means script never starts.
-- Wrong hub/port selection causes no visible effect.
-- Mixing value types (text/number/boolean) can produce invalid logic.
-- High-frequency events without filtering can overload behavior.
+- Lipsa unui bloc de eveniment înseamnă că scriptul nu pornește.
+- Selectarea greșită a hub-ului/portului duce la lipsa efectului vizibil.
+- Amestecarea tipurilor de valori (text/număr/boolean) poate produce logică invalidă.
+- Evenimentele cu frecvență mare fără filtrare pot supraîncărca comportamentul.
 
-## Documentation structure in this section
+## Structura documentației în această secțiune
 
-Use category pages in this order:
+Folosește paginile de categorie în această ordine:
 
-- Light
-- Motors
-- Sensors
-- Events
+- Lumină
+- Motoare
+- Senzori
+- Evenimente
 - Control
-- Operators
-- Variables
-- Lists
-- My Blocks
-- Dashboard controllers
+- Operatori
+- Variabile
+- Liste
+- Blocurile mele
+- Controale Dashboard
 - Gamepad

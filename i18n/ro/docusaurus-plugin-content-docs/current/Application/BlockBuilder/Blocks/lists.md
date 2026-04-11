@@ -1,78 +1,78 @@
 ---
 id: Lists
-title: Lists
+title: Liste
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Lists
+# Liste
 
-Lists store ordered collections of values and are manipulated by dedicated list Reporter and Stack blocks.
+Listele stochează colecții ordonate de valori și sunt manipulate prin blocuri dedicate de tip Reporter și Stack.
 
-## List mutation blocks
+## Blocuri de modificare a listelor
 
-### `Add value to list` {#block_lists_add}
+### `Adaugă valoare în listă` {#block_lists_add}
 
 <img src={useBaseUrl('/img/blocks/block_lists_add.svg')} alt="block_lists_add.svg" />
 
-Appends a value to the end of selected list.
+Adaugă o valoare la sfârșitul listei selectate.
 
-### `Insert at` {#block_lists_insert_at}
+### `Inserează la` {#block_lists_insert_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_insert_at.svg')} alt="block_lists_insert_at.svg" />
 
-Inserts a value at selected index in the list.
+Inserează o valoare la indexul selectat din listă.
 
-### `Replace at` {#block_lists_replace_at}
+### `Înlocuiește la` {#block_lists_replace_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_replace_at.svg')} alt="block_lists_replace_at.svg" />
 
-Replaces item at selected index with new value.
+Înlocuiește elementul de la indexul selectat cu o valoare nouă.
 
-### `Delete` {#block_lists_delete}
+### `Șterge` {#block_lists_delete}
 
 <img src={useBaseUrl('/img/blocks/block_lists_delete.svg')} alt="block_lists_delete.svg" />
 
-Deletes item at selected index (or selected delete mode).
+Șterge elementul de la indexul selectat (sau conform modului de ștergere selectat).
 
-### `Clear all` {#block_lists_clear_all}
+### `Șterge tot` {#block_lists_clear_all}
 
 <img src={useBaseUrl('/img/blocks/block_lists_clear_all.svg')} alt="block_lists_clear_all.svg" />
 
-Removes all items from selected list.
+Elimină toate elementele din lista selectată.
 
-## List value/check blocks
+## Blocuri de valoare/verificare listă
 
-### `Item at` {#block_lists_item_at}
+### `Element la` {#block_lists_item_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_item_at.svg')} alt="block_lists_item_at.svg" />
 
-Returns value at selected index.
+Returnează valoarea de la indexul selectat.
 
-### `Index of value` {#block_lists_index_of_value}
+### `Indexul valorii` {#block_lists_index_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_index_of_value.svg')} alt="block_lists_index_of_value.svg" />
 
-Returns index of the first matching value in list.
+Returnează indexul primei valori care corespunde în listă.
 
-### `Contains value` {#block_lists_contains_value}
+### `Conține valoare` {#block_lists_contains_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_contains_value.svg')} alt="block_lists_contains_value.svg" />
 
-Returns whether list contains a specified value.
+Returnează dacă lista conține o valoare specificată.
 
-### `Size of list` {#block_lists_size_of_value}
+### `Dimensiunea listei` {#block_lists_size_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_size_of_value.svg')} alt="block_lists_size_of_value.svg" />
 
-Returns number of items in selected list.
+Returnează numărul de elemente din lista selectată.
 
-## List value reporter
+## Bloc reporter pentru listă
 
 <img src={useBaseUrl('/img/blocks/list.svg')} alt="list.svg" />
 
-Returns the current value of the selected list.
+Returnează valoarea curentă a listei selectate.
 
-- Type: reporter block
-- Output format example: `[item1,item2,item3]`
-- Typical use: inspect current list content or pass the list value into compatible blocks
+- Tip: bloc reporter
+- Exemplu format output: `[item1,item2,item3]`
+- Utilizare tipică: inspectarea conținutului listei sau transmiterea valorii listei către blocuri compatibile

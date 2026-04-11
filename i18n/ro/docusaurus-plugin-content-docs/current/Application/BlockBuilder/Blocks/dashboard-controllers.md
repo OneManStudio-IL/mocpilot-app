@@ -1,259 +1,259 @@
 ---
 id: DashboardControllers
-title: Dashboard controllers
+title: Controale Dashboard
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Dashboard controllers
+# Controale Dashboard
 
-These blocks are used to read user input from on-screen controls, react to user actions, and update dashboard UI state.
+Aceste blocuri sunt utilizate pentru a citi inputul utilizatorului din controalele de pe ecran, pentru a reacționa la acțiunile utilizatorului și pentru a actualiza starea UI-ului dashboard-ului. :contentReference[oaicite:0]{index=0}
 
-## Global dashboard controller blocks
+## Blocuri globale pentru controlerele dashboard
 
-### `Set controller color` {#block_dashboard_controller_all_set_color}
+### `Setează culoarea controlerului` {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
-Changes the visual accent color of the selected dashboard controller.
+Schimbă culoarea de accent vizuală a controlerului dashboard selectat.
 
-- Type: command block
-- Typical use: indicate runtime states or dynamically change controller style based on conditions
+- Tip: bloc de comandă
+- Utilizare tipică: indicarea stărilor în runtime sau schimbarea dinamică a stilului controlerului în funcție de condiții
 
-### `Set controller interactivity` {#block_dashboard_controller_all_set_interactivity}
+### `Setează interactivitatea controlerului` {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
-Controls selected dashboard controller interactivity.
-If interactivity is disabled, the controller does not react to touch input.
+Controlează interactivitatea controlerului dashboard selectat.  
+Dacă interactivitatea este dezactivată, controlerul nu reacționează la input tactil.
 
-- Type: command block
-- Typical use: temporarily lock controls during specific logic or safety states
-- State options: `enable`, `disable`
+- Tip: bloc de comandă
+- Utilizare tipică: blocarea temporară a controalelor în timpul unor logici specifice sau stări de siguranță
+- Opțiuni stare: `activează`, `dezactivează`
 
-## Button blocks
+## Blocuri pentru butoane
 
-### `Button event` {#block_dashboard_controller_button_event}
+### `Eveniment buton` {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
-Triggers when the dashboard button changes state (pressed/released).
+Se declanșează când butonul dashboard își schimbă starea (apăsat/eliberat).
 
-- Type: event block
-- Output: starts connected script
-- State options: `pressed`, `released`
+- Tip: bloc de eveniment
+- Output: pornește scriptul conectat
+- Opțiuni stare: `apăsat`, `eliberat`
 
-### `Button value (boolean)` {#block_dashboard_controller_button_value_boolean}
+### `Valoare buton (boolean)` {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
-Reports current dashboard button state.
+Raportează starea curentă a butonului dashboard.
 
-- Type: value block
+- Tip: bloc de valoare
 - Output: `true`/`false`
-- State options: `pressed`, `released`
+- Opțiuni stare: `apăsat`, `eliberat`
 
-## D-pad blocks
+## Blocuri D-pad
 
-### `D-pad event` {#block_dashboard_controller_dpad_event}
+### `Eveniment D-pad` {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
-Triggers when D-pad direction changes or matches configured direction.
+Se declanșează când direcția D-pad se schimbă sau corespunde direcției configurate.
 
-- Type: event block
-- Output: starts connected script
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- Tip: bloc de eveniment
+- Output: pornește scriptul conectat
+- Opțiuni direcție: `sus`, `jos`, `stânga`, `dreapta`
+- Opțiuni stare: `apăsat`, `eliberat`
 
-### `D-pad value (boolean)` {#block_dashboard_controller_dpad_value_boolean}
+### `Valoare D-pad (boolean)` {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
-Reports whether a selected D-pad direction is active.
+Raportează dacă o direcție D-pad selectată este activă.
 
-- Type: value block
+- Tip: bloc de valoare
 - Output: `true`/`false`
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- Opțiuni direcție: `sus`, `jos`, `stânga`, `dreapta`
+- Opțiuni stare: `apăsat`, `eliberat`
 
-## Joystick blocks
+## Blocuri joystick
 
-### `Joystick event` {#block_dashboard_controller_joystick_event}
+### `Eveniment joystick` {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
-Triggers when joystick position changes.
+Se declanșează când poziția joystick-ului se schimbă.
 
-- Type: event block
-- Output: starts connected script
-- State options: `up`, `down`, `left`, `right`, `moved`, `released`
+- Tip: bloc de eveniment
+- Output: pornește scriptul conectat
+- Opțiuni stare: `sus`, `jos`, `stânga`, `dreapta`, `mișcat`, `eliberat`
 
-### `Joystick value (float)` {#block_dashboard_controller_joystick_value_float}
+### `Valoare joystick (float)` {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
-Reports joystick axis value.
+Raportează valoarea axei joystick-ului.
 
-- Type: value block
-- Output: numeric (float), typically in a normalized range
-- Axis options: `x-axis`, `y-axis`
+- Tip: bloc de valoare
+- Output: numeric (float), de obicei într-un interval normalizat
+- Opțiuni axă: `axa X`, `axa Y`
 
-## Pedals blocks
+## Blocuri pedale
 
-### `Pedals event` {#block_dashboard_controller_pedals_event}
+### `Eveniment pedale` {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
-Triggers when pedal input changes.
+Se declanșează când inputul pedalelor se schimbă.
 
-- Type: event block
-- Output: starts connected script
-- Pedal options: `any`, `brake`, `acceleration`
-- State options: `moved`, `pressed`, `released`
+- Tip: bloc de eveniment
+- Output: pornește scriptul conectat
+- Opțiuni pedală: `oricare`, `frână`, `accelerație`
+- Opțiuni stare: `mișcat`, `apăsat`, `eliberat`
 
-### `Pedals value (float)` {#block_dashboard_controller_pedals_value_float}
+### `Valoare pedale (float)` {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
-Reports pedal analog value.
+Raportează valoarea analogică a pedalelor.
 
-- Type: value block
+- Tip: bloc de valoare
 - Output: numeric (float)
 
-### `Pedals value (boolean)` {#block_dashboard_controller_pedals_value_boolean}
+### `Valoare pedale (boolean)` {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
-Returns selected state based on whether a specific pedal is pressed or released.
+Returnează starea selectată în funcție de dacă o pedală specifică este apăsată sau eliberată.
 
-- Type: value block
+- Tip: bloc de valoare
 - Output: `true`/`false`
-- Pedal options: `brake`, `acceleration`
-- State options: `pressed`, `released`
+- Opțiuni pedală: `frână`, `accelerație`
+- Opțiuni stare: `apăsat`, `eliberat`
 
-## Slider blocks
+## Blocuri slider
 
-### `Slider event` {#block_dashboard_controller_slider_event}
+### `Eveniment slider` {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
-Triggers when slider value changes.
+Se declanșează când valoarea sliderului se schimbă.
 
-- Type: event block
-- Output: starts connected script
-- State options: `low`, `high`, `moved`, `released`
+- Tip: bloc de eveniment
+- Output: pornește scriptul conectat
+- Opțiuni stare: `minim`, `maxim`, `mișcat`, `eliberat`
 
-### `Slider value (float)` {#block_dashboard_controller_slider_value_float}
+### `Valoare slider (float)` {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
-Reports current slider value.
+Raportează valoarea curentă a sliderului.
 
-- Type: value block
+- Tip: bloc de valoare
 - Output: numeric (float)
 
-## Stepper blocks
+## Blocuri stepper
 
-### `Stepper event` {#block_dashboard_controller_stepper_event}
+### `Eveniment stepper` {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
-Triggers when stepper value changes by a step.
+Se declanșează când valoarea stepperului se modifică cu un pas.
 
-- Type: event block
-- Output: starts connected script
-- Step options: `any`, `reset`, `minus`, `plus`
-- Button state options: `pressed`, `released`
+- Tip: bloc de eveniment
+- Output: pornește scriptul conectat
+- Opțiuni pas: `oricare`, `reset`, `minus`, `plus`
+- Opțiuni stare: `apăsat`, `eliberat`
 
-### `Stepper value (float)` {#block_dashboard_controller_stepper_value_float}
+### `Valoare stepper (float)` {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
-Reports current stepper value.
+Raportează valoarea curentă a stepperului.
 
-- Type: value block
+- Tip: bloc de valoare
 - Output: numeric (float)
 
-## Steering wheel blocks
+## Blocuri volan
 
-### `Steering wheel event` {#block_dashboard_controller_steering_wheel_event}
+### `Eveniment volan` {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
-Triggers when steering wheel position changes.
+Se declanșează când poziția volanului se schimbă.
 
-- Type: event block
-- Output: starts connected script
-- State options: `moved`, `pressed`, `released`
+- Tip: bloc de eveniment
+- Output: pornește scriptul conectat
+- Opțiuni stare: `mișcat`, `apăsat`, `eliberat`
 
-### `Steering wheel value (float)` {#block_dashboard_controller_steering_wheel_value_float}
+### `Valoare volan (float)` {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
-Reports current steering wheel value.
+Raportează valoarea curentă a volanului.
 
-- Type: value block
+- Tip: bloc de valoare
 - Output: numeric (float)
 
-### `Steering wheel value (boolean)` {#block_dashboard_controller_steeringwheel_value_boolean}
+### `Valoare volan (boolean)` {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
-Returns selected state based on whether the steering wheel is pressed or released.
+Returnează starea selectată în funcție de dacă volanul este apăsat sau eliberat.
 
-- Type: value block
+- Tip: bloc de valoare
 - Output: `true`/`false`
-- State options: `moved`, `pressed`, `released`
+- Opțiuni stare: `mișcat`, `apăsat`, `eliberat`
 
-## Switch blocks
+## Blocuri switch
 
-### `Switch event` {#block_dashboard_controller_switch_event}
+### `Eveniment switch` {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
-Triggers when switch state changes.
+Se declanșează când starea switch-ului se schimbă.
 
-- Type: event block
-- Output: starts connected script
-- Toggle options: `on`, `off`
+- Tip: bloc de eveniment
+- Output: pornește scriptul conectat
+- Opțiuni toggle: `pornit`, `oprit`
 
-### `Switch value (boolean)` {#block_dashboard_controller_switch_value_boolean}
+### `Valoare switch (boolean)` {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
-Reports current switch state.
+Raportează starea curentă a switch-ului.
 
-- Type: value block
+- Tip: bloc de valoare
 - Output: `true`/`false`
-- State options: `on`, `off`
+- Opțiuni stare: `pornit`, `oprit`
 
-## Monitor blocks
+## Blocuri monitor
 
-### `Monitor show` {#block_dashboard_controller_monitor_show}
+### `Afișează pe monitor` {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
-Displays information (text or value) on the dashboard monitor.
+Afișează informații (text sau valoare) pe monitorul dashboard.
 
-- Type: command block
-- Typical use: show battery level, motor angle, current connected device on a hub port, and similar runtime info
+- Tip: bloc de comandă
+- Utilizare tipică: afișarea nivelului bateriei, unghiului motorului, dispozitivului conectat pe port etc.
 
-### `Monitor set value` {#block_dashboard_controller_monitor_set_value}
+### `Setează valoare monitor` {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
-Sets integer value for a dashboard speedometer monitor.
+Setează o valoare întreagă pentru un monitor de tip vitezometru.
 
-- Type: command block
-- Typical use: update speedometer-like monitor value in runtime
+- Tip: bloc de comandă
+- Utilizare tipică: actualizarea valorii monitorului în runtime
 
-### `Monitor tilt set value` {#block_dashboard_controller_monitor_tilt_set_value}
+### `Setează valoare monitor înclinare` {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
-Sets tilt monitor value (pitch/roll) for dashboard tilt monitor.
+Setează valoarea de înclinare (pitch/roll) pentru monitorul de înclinare.
 
-- Type: command block
-- Typical use: display runtime tilt values in dedicated tilt monitor
-- Axis options: `pitch`, `roll`
+- Tip: bloc de comandă
+- Utilizare tipică: afișarea valorilor de înclinare în runtime
+- Opțiuni axă: `pitch`, `roll`

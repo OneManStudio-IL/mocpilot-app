@@ -1,170 +1,170 @@
 ---
 id: Operators
-title: Operators
+title: Operatori
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Operators
+# Operatori
 
-Operators are Reporter and Boolean blocks used for calculations, comparisons, logic, and string processing.
+Operatorii sunt blocuri de tip Reporter și Boolean utilizate pentru calcule, comparații, logică și procesarea textului. :contentReference[oaicite:0]{index=0}
 
-## Arithmetic operators
+## Operatori aritmetici
 
 ### `Plus` {#block_operator_plus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_plus.svg')} alt="block_operator_plus.svg" />
 
-Returns the sum of two values.
+Returnează suma a două valori.
 
 ### `Minus` {#block_operator_minus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_minus.svg')} alt="block_operator_minus.svg" />
 
-Returns the subtraction result of two values.
+Returnează rezultatul scăderii a două valori.
 
-### `Multiply` {#block_operator_multiply}
+### `Înmulțește` {#block_operator_multiply}
 
 <img src={useBaseUrl('/img/blocks/block_operator_multiply.svg')} alt="block_operator_multiply.svg" />
 
-Returns the product of two values.
+Returnează produsul a două valori.
 
-### `Divide` {#block_operator_divide}
+### `Împarte` {#block_operator_divide}
 
 <img src={useBaseUrl('/img/blocks/block_operator_divide.svg')} alt="block_operator_divide.svg" />
 
-Returns the division result of two values.
+Returnează rezultatul împărțirii a două valori.
 
-### `Modulus` {#block_operator_modulus}
+### `Modulo` {#block_operator_modulus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_modulus.svg')} alt="block_operator_modulus.svg" />
 
-Returns the remainder after division.
+Returnează restul după împărțire.
 
-### `Round` {#block_operator_round}
+### `Rotunjește` {#block_operator_round}
 
 <img src={useBaseUrl('/img/blocks/block_operator_round.svg')} alt="block_operator_round.svg" />
 
-Rounds to nearest integer (for example `2.6 -> 3`).
+Rotunjește la cel mai apropiat număr întreg (de exemplu `2.6 -> 3`).
 
-### `Math single` {#block_operator_math_single}
+### `Matematică simplă` {#block_operator_math_single}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 
-Applies a single-argument math function.
+Aplică o funcție matematică cu un singur argument.
 
-Available functions:
+Funcții disponibile:
 
-- `abs`: absolute value of a number
-- `floor`: round down to nearest integer
-- `ceiling`: round up to nearest integer
-- `sqrt`: square root
-- `sin`: sine (angle-based)
-- `cos`: cosine (angle-based)
-- `tan`: tangent (angle-based)
-- `asin`: inverse sine
-- `acos`: inverse cosine
-- `atan`: inverse tangent
-- `ln`: natural logarithm (base `e`)
-- `log`: logarithm base `10`
-- `e^`: raise `e` to power of input
-- `10^`: raise `10` to power of input
+- `abs`: valoare absolută
+- `floor`: rotunjire în jos
+- `ceiling`: rotunjire în sus
+- `sqrt`: rădăcină pătrată
+- `sin`: sinus
+- `cos`: cosinus
+- `tan`: tangentă
+- `asin`: arcsinus
+- `acos`: arccosinus
+- `atan`: arctangentă
+- `ln`: logaritm natural (baza `e`)
+- `log`: logaritm în baza `10`
+- `e^`: ridică `e` la puterea valorii
+- `10^`: ridică `10` la puterea valorii
 
-### `Math pair` {#block_operator_math_pair}
+### `Matematică pereche` {#block_operator_math_pair}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_pair.svg')} alt="block_operator_math_pair.svg" />
 
-Applies a two-argument math function.
+Aplică o funcție matematică cu doi argumenti.
 
-Available functions:
+Funcții disponibile:
 
-- `min`: smaller of two values
-- `max`: larger of two values
-- `pow`: first value raised to second value power
-- `atan2`: angle from X/Y pair
-- `hypot`: hypotenuse length from two components
-- `copysign`: first value with sign of second value
+- `min`: valoarea mai mică
+- `max`: valoarea mai mare
+- `pow`: prima valoare la puterea celei de-a doua
+- `atan2`: unghi din pereche X/Y
+- `hypot`: lungimea ipotenuzei
+- `copysign`: valoare cu semnul celei de-a doua
 
-### `Pick random` {#block_operator_pick_random}
+### `Alege aleator` {#block_operator_pick_random}
 
 <img src={useBaseUrl('/img/blocks/block_operator_pick_random.svg')} alt="block_operator_pick_random.svg" />
 
-Returns a random number in the selected range.
+Returnează un număr aleator în intervalul selectat.
 
-## Comparison operators
+## Operatori de comparație
 
-### `Equal` {#block_operator_equal}
+### `Egal` {#block_operator_equal}
 
 <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
 
-Returns `true` when two values are equal.
+Returnează `true` când două valori sunt egale.
 
-### `Not equal` {#block_operator_not_equal}
+### `Diferit` {#block_operator_not_equal}
 
 <img src={useBaseUrl('/img/blocks/block_operator_not_equal.svg')} alt="block_operator_not_equal.svg" />
 
-Returns `true` when two values are not equal.
+Returnează `true` când două valori sunt diferite.
 
-### `Greater than` {#block_operator_greater_than}
+### `Mai mare decât` {#block_operator_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_greater_than.svg')} alt="block_operator_greater_than.svg" />
 
-Returns `true` when left value is greater than right value.
+Returnează `true` când valoarea din stânga este mai mare decât cea din dreapta.
 
-### `Less than` {#block_operator_less_than}
+### `Mai mic decât` {#block_operator_less_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_less_than.svg')} alt="block_operator_less_than.svg" />
 
-Returns `true` when left value is less than right value.
+Returnează `true` când valoarea din stânga este mai mică decât cea din dreapta.
 
-### `Is in between` {#block_operator_is_in_between}
+### `Este între` {#block_operator_is_in_between}
 
 <img src={useBaseUrl('/img/blocks/block_operator_is_in_between.svg')} alt="block_operator_is_in_between.svg" />
 
-Returns `true` when a value is inside specified bounds.
+Returnează `true` când o valoare este în intervalul specificat.
 
-## Boolean logic operators
+## Operatori logici
 
-### `And` {#block_operator_and}
+### `Și` {#block_operator_and}
 
 <img src={useBaseUrl('/img/blocks/block_operator_and.svg')} alt="block_operator_and.svg" />
 
-Returns `true` only when both conditions are `true`.
+Returnează `true` doar dacă ambele condiții sunt `true`.
 
-### `Or` {#block_operator_or}
+### `Sau` {#block_operator_or}
 
 <img src={useBaseUrl('/img/blocks/block_operator_or.svg')} alt="block_operator_or.svg" />
 
-Returns `true` when at least one condition is `true`.
+Returnează `true` dacă cel puțin o condiție este `true`.
 
-### `Not` {#block_operator_not}
+### `Nu` {#block_operator_not}
 
 <img src={useBaseUrl('/img/blocks/block_operator_not.svg')} alt="block_operator_not.svg" />
 
-Inverts a boolean value.
+Inversează o valoare booleană.
 
-## Text operators
+## Operatori text
 
-### `Join` {#block_operator_join}
+### `Concatenează` {#block_operator_join}
 
 <img src={useBaseUrl('/img/blocks/block_operator_join.svg')} alt="block_operator_join.svg" />
 
-Concatenates two text values.
+Concatenează două valori de tip text.
 
-### `Letter at` {#block_operator_letter_at}
+### `Caracter la` {#block_operator_letter_at}
 
 <img src={useBaseUrl('/img/blocks/block_operator_letter_at.svg')} alt="block_operator_letter_at.svg" />
 
-Returns character at a selected position in text.
+Returnează caracterul de la poziția selectată.
 
-### `Size of string` {#block_operator_size_of_string}
+### `Dimensiunea textului` {#block_operator_size_of_string}
 
 <img src={useBaseUrl('/img/blocks/block_operator_size_of_string.svg')} alt="block_operator_size_of_string.svg" />
 
-Returns string length.
+Returnează lungimea textului.
 
-### `String contains` {#block_operator_string_contains}
+### `Textul conține` {#block_operator_string_contains}
 
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 
-Returns `true` if text contains specified substring.
+Returnează `true` dacă textul conține subșirul specificat.

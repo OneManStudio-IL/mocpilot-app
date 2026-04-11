@@ -1,34 +1,34 @@
 ---
 id: MyBlocks
-title: My Blocks
+title: Blocurile mele
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# My Blocks
+# Blocurile mele
 
-My Blocks let you define your own custom reusable block.
-This category is conceptually similar to creating a function in traditional programming: define behavior once, then call it many times.
+Blocurile mele îți permit să definești propriul bloc personalizat reutilizabil.  
+Această categorie este similară conceptual cu crearea unei funcții în programarea tradițională: definești comportamentul o dată, apoi îl apelezi de mai multe ori.
 
-## Core My Blocks
+## Blocuri principale My Blocks
 
-### `Make a Block`
+### `Creează un bloc`
 
-Creates a new custom block definition.
+Creează o nouă definiție de bloc personalizat.
 
-- Type: definition/setup block
-- Typical use: group repeated logic into one named block
+- Tip: bloc de definire/configurare
+- Utilizare tipică: gruparea logicii repetitive într-un singur bloc cu nume
 
-### `MyBlock` (call block)
+### `MyBlock` (bloc de apel)
 
-Calls a previously created custom block.
+Apelează un bloc personalizat creat anterior.
 
-- Type: stack block (custom command call)
-- Typical use: reuse the same logic in multiple places without duplicating block stacks
+- Tip: bloc de tip stack (apel comandă personalizată)
+- Utilizare tipică: reutilizarea aceleiași logici în mai multe locuri fără duplicarea blocurilor
 
-## Variadic examples
+## Exemple variadice
 
-These examples show custom My Blocks with different argument signatures.
+Aceste exemple arată blocuri My Blocks personalizate cu diferite semnături de argumente.
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758091855.svg')} alt="block_myblock_1775758091855.svg" />
@@ -40,30 +40,30 @@ These examples show custom My Blocks with different argument signatures.
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758145135.svg')} alt="block_myblock_1775758145135.svg" />
 </div>
 
-## Example usage in program stack
+## Exemplu de utilizare în stivă de program
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-usage-example.png')} alt="my-blocks-usage-example.png" />
 
-This example shows a custom block call attached under `when program starts`, while the `define my block` stack contains the reusable motor logic.
+Acest exemplu arată un apel de bloc personalizat atașat sub `când programul pornește`, în timp ce stiva `definește blocul meu` conține logica reutilizabilă pentru motor.
 
-- Typical flow: call custom block from event stacks
-- Benefit: one definition, many call sites
+- Flux tipic: apelarea blocului personalizat din stivele de evenimente
+- Beneficiu: o definiție, multiple locuri de apel
 
-## My Block editor view
+## Vizualizare editor My Block
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-editor-cropped.png')} alt="my-blocks-editor-cropped.png" />
 
-The Make a Block editor is used to design your custom block signature.
-You can add labels and inputs (for example number/text and boolean inputs), then define implementation logic in the block definition stack.
+Editorul „Creează un bloc” este utilizat pentru a proiecta semnătura blocului personalizat.  
+Poți adăuga etichete și intrări (de exemplu, număr/text și boolean), apoi defini logica în stiva de definire a blocului.
 
-## Why use My Blocks
+## De ce să folosești My Blocks
 
-- Reusability: write once, call many times.
-- Readability: replace long repeated stacks with one meaningful name.
-- Maintainability: update logic in one place instead of many copies.
-- Structure: split large programs into smaller logical units.
+- Reutilizare: scrii o dată, folosești de multe ori.
+- Lizibilitate: înlocuiește stive lungi cu un nume clar.
+- Mentenanță: modifici logica într-un singur loc.
+- Structură: împarți programele mari în unități logice mai mici.
 
-## Notes
+## Note
 
-- Custom blocks are project-level and intended for reuse inside the same profile/project context.
-- Prefer descriptive names that explain intent, not implementation details.
+- Blocurile personalizate sunt la nivel de proiect și sunt destinate reutilizării în același context.
+- Folosește nume descriptive care exprimă intenția, nu detalii de implementare.

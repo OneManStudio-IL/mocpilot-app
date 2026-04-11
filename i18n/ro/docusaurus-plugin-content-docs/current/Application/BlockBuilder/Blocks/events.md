@@ -1,150 +1,149 @@
 ---
 id: Events
-title: Events
+title: Evenimente
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Events
+# Evenimente
 
-The **Events** category contains blocks that start scripts when a condition happens.
+Categoria **Evenimente** conține blocuri care pornesc scripturi atunci când apare o condiție. :contentReference[oaicite:0]{index=0}
 
-## Core events
+## Evenimente de bază
 
-### `When program started` {#block_event_when_program_started}
+### `Când programul a pornit` {#block_event_when_program_started}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
 
-Starts this script once when the profile program begins.
+Pornește acest script o singură dată atunci când programul profilului începe.
 
-- Trigger: program launch
-- Typical use: initialize variables, default motor states, startup sounds
+- Declanșator: pornirea programului
+- Utilizare tipică: inițializarea variabilelor, stări implicite pentru motoare, sunete de pornire
 
-### `When` {#block_event_when}
+### `Când` {#block_event_when}
 
 <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 
-Runs when a selected condition becomes true.
+Rulează când o condiție selectată devine adevărată.
 
-- Trigger: condition-based
-- Typical use: branch logic based on runtime state
+- Declanșator: bazat pe condiție
+- Utilizare tipică: ramificare logică în funcție de starea din runtime
 
-### `When timer greater than` {#block_event_when_timer_greater_than}
+### `Când timerul este mai mare decât` {#block_event_when_timer_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_timer_greater_than.svg')} alt="block_event_when_timer_greater_than.svg" />
 
-Runs when timer value passes a threshold.
+Rulează când valoarea timerului depășește un prag.
 
-- Trigger: elapsed time
-- Typical use: delayed actions, timed phases
+- Declanșator: timp scurs
+- Utilizare tipică: acțiuni întârziate, faze temporizate
 
-### `When message received` {#block_event_when_message_recieved}
+### `Când mesajul este primit` {#block_event_when_message_recieved}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_message_recieved.svg')} alt="block_event_when_message_recieved.svg" />
 
-Starts a script when a matching broadcast message is received.
+Pornește un script când este primit un mesaj broadcast corespunzător.
 
-- Trigger: message channel
-- Typical use: synchronize multiple scripts
+- Declanșator: canal de mesaje
+- Utilizare tipică: sincronizarea mai multor scripturi
 
-### `Broadcast` {#block_event_broadcast}
+### `Trimite mesaj` {#block_event_broadcast}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast.svg')} alt="block_event_broadcast.svg" />
 
-Sends a message to all scripts listening for that message.
+Trimite un mesaj tuturor scripturilor care ascultă acel mesaj.
 
-- Trigger: immediate send
-- Typical use: notify other scripts without waiting
+- Declanșator: trimitere imediată
+- Utilizare tipică: notificarea altor scripturi fără a aștepta
 
-### `Broadcast and wait` {#block_event_broadcast_and_wait}
+### `Trimite mesaj și așteaptă` {#block_event_broadcast_and_wait}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast_and_wait.svg')} alt="block_event_broadcast_and_wait.svg" />
 
-Sends a message and pauses this script until listeners complete.
+Trimite un mesaj și pune în pauză acest script până când ascultătorii termină.
 
-- Trigger: immediate send + wait
-- Typical use: staged flows where order matters
+- Declanșator: trimitere imediată + așteptare
+- Utilizare tipică: fluxuri etapizate unde ordinea este importantă
 
-## Hub events
+## Evenimente hub
 
-### `Hub button pressed` {#block_hubs_all_event_button_pressed}
+### `Buton hub apăsat` {#block_hubs_all_event_button_pressed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_button_pressed.svg')} alt="block_hubs_all_event_button_pressed.svg" />
 
-Runs when the main button on the hub is pressed.
+Rulează când butonul principal de pe hub este apăsat.
 
-- State options: `pressed`, `released`, `changed`
-- Note: available button options may differ by hub model (different hubs can expose different button sets).
+- Opțiuni stare: `apăsat`, `eliberat`, `schimbat`
+- Notă: opțiunile disponibile pot diferi în funcție de modelul hub-ului
 
-### `Hub connection changed` {#block_hubs_all_event_connection_changed}
+### `Conexiunea hub schimbată` {#block_hubs_all_event_connection_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_connection_changed.svg')} alt="block_hubs_all_event_connection_changed.svg" />
 
-Runs when the hub connection state changes (connected or disconnected).
+Rulează când starea conexiunii hub-ului se schimbă (conectat sau deconectat).
 
-- Trigger: hub connection status change
-- Typical use: reconnection handling and safe fallback behavior after link loss
+- Declanșator: schimbare stare conexiune
+- Utilizare tipică: gestionarea reconectării și comportament sigur după pierderea conexiunii
 
-### `Hub battery changed` {#block_hubs_all_event_battery_changed}
+### `Bateria hub schimbată` {#block_hubs_all_event_battery_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_battery_changed.svg')} alt="block_hubs_all_event_battery_changed.svg" />
 
-Runs when reported hub battery level changes.
+Rulează când nivelul bateriei raportat de hub se schimbă.
 
-- Trigger: battery level update (for hubs that report battery state)
-- Typical use: low-battery warning logic and power-saving mode switching
+- Declanșator: actualizare nivel baterie
+- Utilizare tipică: avertizări baterie scăzută și schimbare mod economisire energie
 
-### `Hub accelerometer changed` {#block_hubs_all_event_accelerometer_changed}
+### `Accelerometrul hub schimbat` {#block_hubs_all_event_accelerometer_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_accelerometer_changed.svg')} alt="block_hubs_all_event_accelerometer_changed.svg" />
 
-Runs when acceleration values change.
+Rulează când valorile accelerației se schimbă.
 
-### `Hub tilt changed` {#block_hubs_all_event_tilt_changed}
+### `Înclinarea hub schimbată` {#block_hubs_all_event_tilt_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_changed.svg')} alt="block_hubs_all_event_tilt_changed.svg" />
 
-Runs when tilt value changes.
+Rulează când valoarea înclinării se schimbă.
 
-- Angle options: `any`, `pitch`, `roll`, `yaw`
-- Note: `yaw` is available only on hubs that provide yaw data.
+- Opțiuni unghi: `oricare`, `pitch`, `roll`, `yaw`
+- Notă: `yaw` este disponibil doar pe hub-uri care oferă acest tip de date
 
-### `Hub orientation changed` {#block_hubs_all_event_tilt_orientation_changed}
+### `Orientarea hub schimbată` {#block_hubs_all_event_tilt_orientation_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_orientation_changed.svg')} alt="block_hubs_all_event_tilt_orientation_changed.svg" />
 
-Runs when orientation state changes (for example, front/up/down/left/right).
+Rulează când starea de orientare se schimbă (de exemplu: față/sus/jos/stânga/dreapta).
 
-## Sensor port events
+## Evenimente port senzori
 
-### `Technic color sensor event` {#block_hubs_all_event_port_technic_sensor_color}
+### `Eveniment senzor culoare Technic` {#block_hubs_all_event_port_technic_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
 
-Runs when the Technic color sensor reports a selected color.
+Rulează când senzorul de culoare Technic detectează o culoare selectată.
 
-
-### `Technic distance sensor event` {#block_hubs_all_event_port_technic_sensor_distance}
+### `Eveniment senzor distanță Technic` {#block_hubs_all_event_port_technic_sensor_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_distance.svg')} alt="block_hubs_all_event_port_technic_sensor_distance.svg" />
 
-Runs when Technic distance sensor values match the selected condition.
+Rulează când valorile senzorului de distanță Technic corespund condiției selectate.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `mm`, `cm`, `inch`, `%`
-- Note: available units can depend on sensor mode and connected device.
+- Opțiuni comparație: `mai aproape decât`, `mai departe decât`, `exact la`
+- Opțiuni unitate: `mm`, `cm`, `inch`, `%`
+- Notă: unitățile disponibile depind de modul senzorului și dispozitivul conectat
 
-### `BOOST sensor distance event` {#block_hubs_all_event_port_boost_sensor_when_distance}
+### `Eveniment senzor distanță BOOST` {#block_hubs_all_event_port_boost_sensor_when_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_event_port_boost_sensor_when_distance.svg" />
 
-Runs when the BOOST distance sensor reaches the chosen threshold/condition.
+Rulează când senzorul de distanță BOOST atinge pragul/condiția aleasă.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `%`, `cm`, `inch`
+- Opțiuni comparație: `mai aproape decât`, `mai departe decât`, `exact la`
+- Opțiuni unitate: `%`, `cm`, `inch`
 
-### `BOOST sensor color event` {#block_hubs_all_event_port_boost_sensor_color}
+### `Eveniment senzor culoare BOOST` {#block_hubs_all_event_port_boost_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 
-Runs when the BOOST sensor detects a selected color/value.
+Rulează când senzorul BOOST detectează o culoare sau valoare selectată.

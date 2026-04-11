@@ -1,76 +1,76 @@
 ---
 id: Light
-title: Light
+title: Lumină
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Light
+# Lumină
 
-This page documents Light category blocks used to control LEDs and light outputs on supported hubs.
+Această pagină documentează blocurile din categoria Lumină utilizate pentru a controla LED-urile și ieșirile de lumină pe hub-urile compatibile.
 
-## Common light blocks
+## Blocuri comune de lumină
 
-### `Set LED color` {#block_hubs_all_light_set_led_color}
+### `Setează culoarea LED-ului` {#block_hubs_all_light_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_set_led_color.svg')} alt="block_hubs_all_light_set_led_color.svg" />
 
-Sets hub LED color using predefined color options.
+Setează culoarea LED-ului hub-ului folosind opțiuni de culori predefinite.
 
-- Type: command block
-- Typical use: show state (ready, running, warning, error)
+- Tip: bloc de comandă
+- Utilizare tipică: afișarea stării (gata, în execuție, avertizare, eroare)
 
-### `Light turn to` {#block_hubs_all_light_light_turn_to}
+### `Setează lumina la` {#block_hubs_all_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_to.svg')} alt="block_hubs_all_light_light_turn_to.svg" />
 
-Sets selected light output to a target brightness/value.
+Setează ieșirea de lumină selectată la o valoare/inten­sitate țintă.
 
-- Type: command block
-- Typical use: headlight brightness, status intensity
+- Tip: bloc de comandă
+- Utilizare tipică: luminozitatea farurilor, intensitatea stării
 
-### `Light turn off` {#block_hubs_all_light_light_turn_off}
+### `Oprește lumina` {#block_hubs_all_light_light_turn_off}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_off.svg')} alt="block_hubs_all_light_light_turn_off.svg" />
 
-Turns selected light output off.
+Oprește ieșirea de lumină selectată.
 
-- Type: command block
-- Typical use: shutdown sequence, battery-saving behavior
+- Tip: bloc de comandă
+- Utilizare tipică: secvență de oprire, economisire baterie
 
-### `Technic Move light turn to` {#block_hubs_technicmove_light_light_turn_to}
+### `Technic Move setează lumina la` {#block_hubs_technicmove_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_light_light_turn_to.svg')} alt="block_hubs_technicmove_light_light_turn_to.svg" />
 
-Variant of `Light turn to` for Technic Move hub/light target.
+Variantă a blocului `Setează lumina la` pentru hub-ul/lumina Technic Move.
 
-- Type: command block
-- Typical use: set Move hub light output level
+- Tip: bloc de comandă
+- Utilizare tipică: setarea nivelului de lumină pentru hub-ul Move
 
-## BuWizz 3 light blocks
+## Blocuri de lumină BuWizz 3
 
-### `BuWizz 3 set LED color` {#block_hubs_buwizz3_light_port_set_led_color}
+### `BuWizz 3 setează culoarea LED-ului` {#block_hubs_buwizz3_light_port_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color.svg')} alt="block_hubs_buwizz3_light_port_set_led_color.svg" />
 
-Sets LED color on selected BuWizz 3 port with built-in color options.
+Setează culoarea LED-ului pe portul BuWizz 3 selectat folosind opțiuni de culori integrate.
 
-- Type: command block
+- Tip: bloc de comandă
 
-### `BuWizz 3 set LED color (string)` {#block_hubs_buwizz3_light_port_set_led_color_string}
+### `BuWizz 3 setează culoarea LED-ului (text)` {#block_hubs_buwizz3_light_port_set_led_color_string}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_string.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_string.svg" />
 
-Sets BuWizz 3 LED color using text color value.
+Setează culoarea LED-ului BuWizz 3 folosind o valoare de culoare sub formă de text.
 
-- Type: command block
-- Typical use: dynamic color names from variables
+- Tip: bloc de comandă
+- Utilizare tipică: utilizarea dinamică a numelor de culori din variabile
 
-### `BuWizz 3 set LED color (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
+### `BuWizz 3 setează culoarea LED-ului (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_rgb.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_rgb.svg" />
 
-Sets BuWizz 3 LED color using explicit RGB channels.
+Setează culoarea LED-ului BuWizz 3 folosind canale RGB explicite.
 
-- Type: command block
-- Typical use: full custom color control and gradients
+- Tip: bloc de comandă
+- Utilizare tipică: control complet al culorii și gradienți

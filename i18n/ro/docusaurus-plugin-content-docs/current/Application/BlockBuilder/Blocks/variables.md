@@ -1,39 +1,39 @@
 ---
 id: Variables
-title: Variables
+title: Variabile
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Variables
+# Variabile
 
-Variables store values that can be read and updated across block stacks and scripts.
+Variabilele stochează valori care pot fi citite și actualizate în diferite stive de blocuri și scripturi.
 
-## Variable command blocks
+## Blocuri de comandă pentru variabile
 
-### `Set variable to` {#block_variables_set_to}
+### `Setează variabila la` {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
-Sets selected variable to the specified value.
+Setează variabila selectată la valoarea specificată.
 
-- Type: command block
-- Typical use: initialize state, overwrite previous value
+- Tip: bloc de comandă
+- Utilizare tipică: inițializarea stării, suprascrierea valorii anterioare
 
-### `Change variable by` {#block_variables_change_by}
+### `Modifică variabila cu` {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
-Adds the specified amount to selected variable.
+Adaugă valoarea specificată la variabila selectată.
 
-- Type: command block
-- Typical use: counters, score, accumulated distance/time
+- Tip: bloc de comandă
+- Utilizare tipică: contoare, scor, distanță/timp acumulat
 
-## Variable value reporter
+## Bloc reporter pentru variabilă
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 
-Returns the current value of the selected variable.
+Returnează valoarea curentă a variabilei selectate.
 
-- Type: reporter block
-- Typical use: use variable value inside operators, conditions, and command inputs
+- Tip: bloc reporter
+- Utilizare tipică: folosirea valorii variabilei în operatori, condiții și intrări de comandă

@@ -7,124 +7,124 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Control
 
-Control blocks manage execution flow: waiting, loops, branching, and stopping scripts.
+Blocurile de control gestionează fluxul de execuție: așteptare, bucle, ramificare și oprirea scripturilor.
 
-## Wait blocks
+## Blocuri de așteptare
 
-### `Wait` {#block_control_wait_for}
+### `Așteaptă` {#block_control_wait_for}
 
 <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
 
-Pauses the current script for a specified time.
+Pune în pauză scriptul curent pentru un timp specificat.
 
-### `Wait until` {#block_control_wait_until}
+### `Așteaptă până când` {#block_control_wait_until}
 
 <img src={useBaseUrl('/img/blocks/block_control_wait_until.svg')} alt="block_control_wait_until.svg" />
 
-Pauses the current script until a condition becomes true.
+Pune în pauză scriptul curent până când o condiție devine adevărată.
 
-## Loop blocks
+## Blocuri de buclă
 
-### `Repeat` {#block_control_repeat_for}
+### `Repetă` {#block_control_repeat_for}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_for.svg')} alt="block_control_repeat_for.svg" />
 
-Runs nested blocks a fixed number of times.
+Execută blocurile incluse de un număr fix de ori.
 
-### `Repeat until` {#block_control_repeat_until}
+### `Repetă până când` {#block_control_repeat_until}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_until.svg')} alt="block_control_repeat_until.svg" />
 
-Runs nested blocks repeatedly until a condition becomes true.
+Execută blocurile incluse în mod repetat până când o condiție devine adevărată.
 
-### `Forever` {#block_control_repeat_forever}
+### `La nesfârșit` {#block_control_repeat_forever}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 
-Runs nested blocks continuously until the program or script is stopped.
+Execută blocurile incluse continuu până când programul sau scriptul este oprit.
 
-## Branch blocks
+## Blocuri de ramificare
 
-### `If` {#block_control_if}
+### `Dacă` {#block_control_if}
 
 <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
 
-Runs nested blocks only when the condition is true.
+Execută blocurile incluse doar atunci când condiția este adevărată.
 
-### `If / Else` {#block_control_if_else}
+### `Dacă / Altfel` {#block_control_if_else}
 
 <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 
-Runs one branch when the condition is true, otherwise runs the alternative branch.
+Execută o ramură atunci când condiția este adevărată, altfel execută ramura alternativă.
 
-### `Do this and this` {#block_control_do_this_and_this}
+### `Fă asta și asta` {#block_control_do_this_and_this}
 
 <img src={useBaseUrl('/img/blocks/block_control_do_this_and_this.svg')} alt="block_control_do_this_and_this.svg" />
 
-Runs two block stacks in sequence as part of one control flow operation.
+Execută două stive de blocuri în secvență ca parte a unei singure operații de control.
 
-## Stop blocks
+## Blocuri de oprire
 
-### `Stop` {#block_control_stop}
+### `Oprește` {#block_control_stop}
 
 <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
 
-Stops script execution (scope depends on selected stop option).
+Oprește execuția scriptului (domeniul depinde de opțiunea selectată).
 
-- Stop options: `all`, `this stack`, `and exit program`
+- Opțiuni de oprire: `toate`, `acest stack`, `și ieși din program`
 
-### `Stop other stacks` {#block_control_stop_other_stacks}
+### `Oprește celelalte stack-uri` {#block_control_stop_other_stacks}
 
 <img src={useBaseUrl('/img/blocks/block_control_stop_other_stacks.svg')} alt="block_control_stop_other_stacks.svg" />
 
-Stops all other running stacks while allowing the current stack to continue.
+Oprește toate celelalte stack-uri care rulează, permițând în același timp stack-ului curent să continue.
 
-## Hub/control utility blocks
+## Blocuri utilitare hub/control
 
-### `Set connect` {#block_hubs_control_set_connect}
+### `Setează conectarea` {#block_hubs_control_set_connect}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_control_set_connect.svg')} alt="block_hubs_control_set_connect.svg" />
 
-Controls hub connection state from control flow logic.
+Controlează starea conexiunii hub-ului din logica fluxului de control.
 
-- Action options: `connect`, `disconnect`
+- Opțiuni acțiune: `conectare`, `deconectare`
 
-### `Is connected` {#block_hubs_all_sensors_is_connected}
+### `Este conectat` {#block_hubs_all_sensors_is_connected}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_connected.svg')} alt="block_hubs_all_sensors_is_connected.svg" />
 
-Returns whether the hub is currently connected.
+Returnează dacă hub-ul este conectat în prezent.
 
-- Type: boolean reporter block
+- Tip: bloc reporter boolean
 
-### `BuWizz 2 set power mode` {#block_hubs_buwizz_sensors_set_power_mode}
+### `BuWizz 2 setează modul de putere` {#block_hubs_buwizz_sensors_set_power_mode}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_set_power_mode.svg')} alt="block_hubs_buwizz_sensors_set_power_mode.svg" />
 
-Sets BuWizz 2 hub power mode.
+Setează modul de putere al hub-ului BuWizz 2.
 
-- Mode options: `Slow`, `Normal`, `Fast`, `Ludicrous`
+- Opțiuni mod: `Slow`, `Normal`, `Fast`, `Ludicrous`
 
-### `BuWizz 2 get power mode` {#block_hubs_buwizz_sensors_get_power_mode}
+### `BuWizz 2 obține modul de putere` {#block_hubs_buwizz_sensors_get_power_mode}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_get_power_mode.svg')} alt="block_hubs_buwizz_sensors_get_power_mode.svg" />
 
-Returns the currently active BuWizz 2 power mode.
+Returnează modul de putere activ în prezent pentru BuWizz 2.
 
-- Output format options: `text`, `index`
+- Opțiuni format ieșire: `text`, `index`
 
-### `MouldKing set control channel` {#block_hubs_mouldking_control_set_control_channel}
+### `MouldKing setează canalul de control` {#block_hubs_mouldking_control_set_control_channel}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_set_control_channel.svg')} alt="block_hubs_mouldking_control_set_control_channel.svg" />
 
-Sets active control channel for supported MouldKing hub/controller.
+Setează canalul de control activ pentru hub/controller MouldKing suportat.
 
-- Channel options: `A`, `B`, `C`
+- Opțiuni canal: `A`, `B`, `C`
 
-### `MouldKing get control channel` {#block_hubs_mouldking_control_get_control_channel}
+### `MouldKing obține canalul de control` {#block_hubs_mouldking_control_get_control_channel}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_get_control_channel.svg')} alt="block_hubs_mouldking_control_get_control_channel.svg" />
 
-Returns current active control channel for supported MouldKing hub/controller.
+Returnează canalul de control activ curent pentru hub/controller MouldKing suportat.
 
-- Output format options: `text`, `index`
+- Opțiuni format ieșire: `text`, `index`
