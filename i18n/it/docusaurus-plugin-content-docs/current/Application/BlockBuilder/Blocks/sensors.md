@@ -1,200 +1,194 @@
 ---
 id: Sensors
-title: Sensors
+title: Sensori
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Sensors
+# Sensori
 
-Sensor blocks read hub/device state and provide data for conditions, events, and control logic.
+I blocchi sensore leggono lo stato di hub/dispositivo e forniscono dati per condizioni, eventi e logica di controllo.
 
-## Device and hub sensors
+## Sensori del dispositivo e dell'hub
 
-### `Hub battery level` {#block_hubs_all_sensors_battery_level}
+### `Livello batteria hub` {#block_hubs_all_sensors_battery_level}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_battery_level.svg')} alt="block_hubs_all_sensors_battery_level.svg" />
-Returns current hub battery level.
+Restituisce il livello attuale della batteria dell'hub.
 
-### `Device % battery` {#block_sensors_device_battery_level}
+### `Batteria % dispositivo` {#block_sensors_device_battery_level}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_battery_level.svg')} alt="block_sensors_device_battery_level.svg" />
-Returns the current battery level of the phone/tablet device running MOCPilot (in percent).
+Restituisce il livello attuale della batteria del telefono/tablet che esegue MOCPilot (in percentuale).
 
-### `Board temperature` {#block_hubs_all_sensors_board_temp}
+### `Temperatura scheda` {#block_hubs_all_sensors_board_temp}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_board_temp.svg')} alt="block_hubs_all_sensors_board_temp.svg" />
-Returns hub board temperature.
+Restituisce la temperatura della scheda dell'hub.
 
-- Available only for `BuWizz 2` and `BuWizz 3`.
+- Disponibile solo per `BuWizz 2` e `BuWizz 3`.
 
-### `Button pressed` {#block_hubs_all_sensors_button_pressed}
+### `Pulsante premuto` {#block_hubs_all_sensors_button_pressed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_button_pressed.svg?v=20260409-2258')} alt="block_hubs_all_sensors_button_pressed.svg" />
-Checks whether a selected hub button matches the selected state.
+Verifica se un pulsante dell'hub selezionato corrisponde allo stato selezionato.
 
-- State options: `pressed`, `released`
-- Typical button option: `center` (hub-dependent)
+- Opzioni stato: `premuto`, `rilasciato`
+- Opzione pulsante tipica: `centro` (dipende dall'hub)
 
-- Note: available button options may differ by hub model (different hubs can expose different button sets).
+- Nota: le opzioni disponibili per i pulsanti possono variare in base al modello di hub (hub diversi possono esporre set di pulsanti diversi).
 
-### `Device type` {#block_hubs_all_motors_port_device_type}
+### `Tipo dispositivo` {#block_hubs_all_motors_port_device_type}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_device_type.svg')} alt="block_hubs_all_motors_port_device_type.svg" />
-Returns connected device type for the selected port.
+Restituisce il tipo di dispositivo collegato alla porta selezionata.
 
-- Type: reporter block
-- Typical use: detect what device is connected before running device-specific logic
+- Tipo: blocco reporter
+- Uso tipico: rilevare quale dispositivo è collegato prima di eseguire logica specifica per dispositivo
 
-### `Device accelerometer` {#block_sensors_device_accelerometer_sensor_data}
+### `Accelerometro dispositivo` {#block_sensors_device_accelerometer_sensor_data}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_accelerometer_sensor_data.svg')} alt="block_sensors_device_accelerometer_sensor_data.svg" />
-Returns raw accelerometer values from device sensors.
+Restituisce i valori grezzi dell'accelerometro dai sensori del dispositivo.
 
-- Axis options: `x`, `y`, `z`
+- Opzioni asse: `x`, `y`, `z`
 
-### `Device acceleration` {#block_sensors_device_acceleration_sensor_data}
+### `Accelerazione dispositivo` {#block_sensors_device_acceleration_sensor_data}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_acceleration_sensor_data.svg')} alt="block_sensors_device_acceleration_sensor_data.svg" />
-Returns acceleration data from device sensors.
+Restituisce i dati di accelerazione dai sensori del dispositivo.
 
-- Axis options: `x`, `y`, `z`
+- Opzioni asse: `x`, `y`, `z`
 
-## Orientation and tilt sensors
+## Sensori di orientamento e inclinazione
 
-### `Tilt` {#block_hubs_all_sensors_tilt}
+### `Inclinazione` {#block_hubs_all_sensors_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
-Returns tilt angle for the selected axis.
+Restituisce l'angolo di inclinazione per l'asse selezionato.
 
-- Axis options: `pitch`, `roll`, `yaw`
-- Note: `yaw` is available only on hubs that provide yaw data.
+- Opzioni asse: `beccheggio`, `rollio`, `imbardata`
+- Nota: `imbardata` è disponibile solo sugli hub che forniscono dati di imbardata.
 
-### `Get orientation` {#block_hubs_sensors_get_orientation}
+### `Ottieni orientamento` {#block_hubs_sensors_get_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_get_orientation.svg')} alt="block_hubs_sensors_get_orientation.svg" />
-Returns current orientation state of the hub.
+Restituisce lo stato di orientamento attuale dell'hub.
 
-- Output format options: `text`, `index`
-- Orientation values: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Opzioni formato output: `testo`, `indice`
+- Valori orientamento: `Davanti`, `Superiore`, `Destra`, `Posteriore`, `Fondo`, `Sinistra`
 
-### `Is orientation up` {#block_hubs_all_sensors_is_orientation_up}
+### `Orientamento verso l'alto` {#block_hubs_all_sensors_is_orientation_up}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_orientation_up.svg')} alt="block_hubs_all_sensors_is_orientation_up.svg" />
-Checks whether the hub orientation matches selected "up" orientation.
+Verifica se l'orientamento dell'hub corrisponde all'orientamento selezionato come "verso l'alto".
 
-- Orientation options: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Opzioni orientamento: `Davanti`, `Superiore`, `Destra`, `Posteriore`, `Fondo`, `Sinistra`
 
-### `Set tilt orientation` {#block_hubs_sensors_set_tilt_orientation}
+### `Imposta orientamento inclinazione` {#block_hubs_sensors_set_tilt_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_set_tilt_orientation.svg')} alt="block_hubs_sensors_set_tilt_orientation.svg" />
-Configures orientation reference used by tilt/orientation-related blocks.
+Configura il riferimento di orientamento usato dai blocchi legati a inclinazione/orientamento.
 
-- Orientation options: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Opzioni orientamento: `Davanti`, `Superiore`, `Destra`, `Posteriore`, `Fondo`, `Sinistra`
 
-## Timer and device motion sensors
+## Timer e sensori di movimento del dispositivo
 
 ### `Timer` {#block_sensors_timer_value_float}
 <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
-Returns timer value in seconds.
+Restituisce il valore del timer in secondi.
 
-### `Reset timer` {#block_sensors_timer_reset}
+### `Azzera timer` {#block_sensors_timer_reset}
 <img src={useBaseUrl('/img/blocks/block_sensors_timer_reset.svg')} alt="block_sensors_timer_reset.svg" />
-Resets the timer to zero.
+Azzera il timer.
 
-## Port sensor blocks
+## Blocchi sensore per porta
 
-### `Technic distance sensor` {#block_hubs_all_sensors_port_technic_sensor_distance}
+### `Sensore distanza Technic` {#block_hubs_all_sensors_port_technic_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
-Returns distance values from a Technic distance sensor.
+Restituisce i valori di distanza da un sensore di distanza Technic.
 
-- Unit options: `mm`, `cm`, `inch`, `%`
+- Opzioni unità: `mm`, `cm`, `pollici`, `%`
 
-### `Technic when distance is` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
+### `Technic quando la distanza e` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
-Triggers/checks distance condition for a Technic distance sensor.
+Attiva/verifica una condizione di distanza per un sensore di distanza Technic.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `mm`, `cm`, `inch`, `%`
+- Opzioni confronto: `più vicino di`, `più lontano di`, `esattamente a`
+- Opzioni unità: `mm`, `cm`, `pollici`, `%`
 
-### `Technic color sensor value` {#block_hubs_all_sensors_port_technic_sensor_color}
+### `Valore sensore colore Technic` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
-Returns detected color value from a Technic distance sensor.
+Restituisce il valore colore rilevato da un sensore di distanza Technic.
 
-- Output options: `value`, `string`
+- Opzioni output: `valore`, `stringa`
 
-### `Technic when color is` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
+### `Technic quando il colore e` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_color_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_color_is.svg" />
-Triggers/checks when detected color matches selected color.
+Attiva/verifica quando il colore rilevato corrisponde al colore selezionato.
 
-### `Technic reflected light` {#block_hubs_all_sensors_port_technic_sensor_reflected_light}
+### `Luce riflessa Technic` {#block_hubs_all_sensors_port_technic_sensor_reflected_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_reflected_light.svg')} alt="block_hubs_all_sensors_port_technic_sensor_reflected_light.svg" />
-Returns reflected light intensity.
+Restituisce l'intensità della luce riflessa.
 
-### `Technic when reflected light is` {#block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is}
+### `Technic quando la luce riflessa e` {#block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is.svg" />
-Triggers/checks reflected light threshold condition.
+Attiva/verifica una condizione di soglia della luce riflessa.
 
-- Compare options: `<`, `=`, `>`
+- Opzioni confronto: `<`, `=`, `>`
 
-### `Technic ambient light` {#block_hubs_all_sensors_port_technic_sensor_ambient_light}
+### `Luce ambientale Technic` {#block_hubs_all_sensors_port_technic_sensor_ambient_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_ambient_light.svg')} alt="block_hubs_all_sensors_port_technic_sensor_ambient_light.svg" />
-Returns ambient light intensity.
+Restituisce l'intensità della luce ambientale.
 
-### `Technic when ambient light is` {#block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is}
+### `Technic quando la luce ambientale e` {#block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is.svg" />
-Triggers/checks ambient light threshold condition.
+Attiva/verifica una condizione di soglia della luce ambientale.
 
-- Compare options: `<`, `=`, `>`
+- Opzioni confronto: `<`, `=`, `>`
 
-### `Technic raw color` {#block_hubs_all_sensors_port_technic_sensor_raw_color}
+### `Colore grezzo Technic` {#block_hubs_all_sensors_port_technic_sensor_raw_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_raw_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_raw_color.svg" />
-Returns raw color channel value from Technic sensor.
+Restituisce il valore grezzo del canale colore dal sensore Technic.
 
-- Channel options: `red`, `green`, `blue`
+- Opzioni canale: `rosso`, `verde`, `blu`
 
-### `BOOST sensor distance` {#block_hubs_all_sensors_port_boost_sensor_distance}
+### `Sensore distanza BOOST` {#block_hubs_all_sensors_port_boost_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_distance.svg" />
-Returns distance from a BOOST distance sensor.
+Restituisce la distanza da un sensore di distanza BOOST.
 
-- Unit options: `%`, `cm`, `inch`
+- Opzioni unità: `%`, `cm`, `pollici`
 
-### `BOOST when distance is` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
+### `BOOST quando la distanza e` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_distance.svg" />
-Triggers/checks distance condition for BOOST distance sensor.
+Attiva/verifica una condizione di distanza per un sensore di distanza BOOST.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `%`, `cm`, `inch`
+- Opzioni confronto: `più vicino di`, `più lontano di`, `esattamente a`
+- Opzioni unità: `%`, `cm`, `pollici`
 
-### `BOOST sensor color` {#block_hubs_all_sensors_port_boost_sensor_color}
+### `Sensore colore BOOST` {#block_hubs_all_sensors_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_color.svg" />
-Returns color detected by a BOOST sensor.
+Restituisce il colore rilevato da un sensore BOOST.
 
-- Output options: `value`, `string`
+- Opzioni output: `valore`, `stringa`
 
-### `BOOST is color` {#block_hubs_all_sensors_port_boost_sensor_is_color}
+### `BOOST e colore` {#block_hubs_all_sensors_port_boost_sensor_is_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_is_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_is_color.svg" />
-Checks whether BOOST sensor currently detects selected color.
+Verifica se il sensore BOOST rileva attualmente il colore selezionato.
 
-### `BOOST reflected light` {#block_hubs_all_sensors_port_boost_sensor_reflected_light}
+### `Luce riflessa BOOST` {#block_hubs_all_sensors_port_boost_sensor_reflected_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_reflected_light.svg')} alt="block_hubs_all_sensors_port_boost_sensor_reflected_light.svg" />
-Returns reflected light value from BOOST sensor.
+Restituisce il valore di luce riflessa dal sensore BOOST.
 
-### `BOOST when reflected light is` {#block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is}
+### `BOOST quando la luce riflessa e` {#block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is.svg" />
-Triggers/checks reflected light threshold condition for BOOST sensor.
+Attiva/verifica una condizione di soglia della luce riflessa per il sensore BOOST.
 
-- Compare options: `<`, `=`, `>`
+- Opzioni confronto: `<`, `=`, `>`
 
-### `Technic Move set power mode` {#block_hubs_technicmove_sensors_set_power_mode}
+### `Technic Move imposta power mode` {#block_hubs_technicmove_sensors_set_power_mode}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_sensors_set_power_mode.svg')} alt="block_hubs_technicmove_sensors_set_power_mode.svg" />
-Sets Technic Move power mode.
+Imposta il power mode Technic Move.
 
-- Mode options: `normal`, `boost`
+- Opzioni modalita: `normale`, `boost`
 
-### `WeDo 2 distance` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
+### `Distanza WeDo 2` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_distance.svg" />
-Returns distance from WeDo 2 distance sensor.
+Restituisce la distanza da un sensore di distanza WeDo 2.
 
-- Unit options: `%`, `cm`, `inch`
+- Opzioni unità: `%`, `cm`, `pollici`
 
-### `WeDo 2 tilt` {#block_hubs_all_sensors_port_wedo2_tilt}
+### `Inclinazione WeDo 2` {#block_hubs_all_sensors_port_wedo2_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
-Returns tilt value from WeDo 2 tilt sensor.
+Restituisce il valore di inclinazione da un sensore di inclinazione WeDo 2.
 
-- Axis options: `pitch`, `roll`
-
-## Usage notes
-
-- Use sensor reporter blocks with `if`, `if/else`, and `wait until` for reactive logic.
-- Combine sensor values with Operators blocks to build thresholds and conditions.
-- Check `Device type` before sending commands that depend on specific connected hardware.
+- Opzioni asse: `beccheggio`, `rollio`

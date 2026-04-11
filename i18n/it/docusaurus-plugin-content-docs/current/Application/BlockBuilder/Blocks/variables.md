@@ -1,45 +1,39 @@
 ---
 id: Variables
-title: Variables
+title: Variabili
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Variables
+# Variabili
 
-Variables store values that can be read and updated across block stacks and scripts.
+Le variabili memorizzano valori che possono essere letti e aggiornati tra blocchi e script.
 
-## Variable command blocks
+## Blocchi di comando delle variabili
 
-### `Set variable to` {#block_variables_set_to}
+### `Imposta variabile a` {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
-Sets selected variable to the specified value.
+Imposta la variabile selezionata al valore specificato.
 
-- Type: command block
-- Typical use: initialize state, overwrite previous value
+- Tipo: blocco di comando
+- Utilizzo tipico: inizializzare uno stato, sovrascrivere un valore precedente
 
-### `Change variable by` {#block_variables_change_by}
+### `Cambia variabile di` {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
-Adds the specified amount to selected variable.
+Aggiunge il valore specificato alla variabile selezionata.
 
-- Type: command block
-- Typical use: counters, score, accumulated distance/time
+- Tipo: blocco di comando
+- Utilizzo tipico: contatori, punteggio, distanza/tempo accumulati
 
-## Variable value reporter
+## Blocco reporter del valore della variabile
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 
-Returns the current value of the selected variable.
+Restituisce il valore corrente della variabile selezionata.
 
-- Type: reporter block
-- Typical use: use variable value inside operators, conditions, and command inputs
-
-## Usage notes
-
-- Initialize important variables at program start.
-- Use `change by` for incremental updates to avoid repetitive get/set logic.
-- Keep variable names descriptive (`speed_target`, `is_armed`, `lap_count`).
+- Tipo: blocco reporter
+- Utilizzo tipico: usare il valore della variabile all’interno di operatori, condizioni e input dei comandi

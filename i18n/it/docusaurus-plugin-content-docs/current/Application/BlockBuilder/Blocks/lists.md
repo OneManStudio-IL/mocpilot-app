@@ -1,84 +1,78 @@
 ---
 id: Lists
-title: Lists
+title: Liste
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Lists
+# Liste
 
-Lists store ordered collections of values and are manipulated by dedicated list Reporter and Stack blocks.
+Le liste memorizzano raccolte ordinate di valori e sono gestite tramite blocchi dedicati di tipo Reporter e Stack.
 
-## List mutation blocks
+## Blocchi di modifica delle liste
 
-### `Add value to list` {#block_lists_add}
+### `Aggiungi valore alla lista` {#block_lists_add}
 
 <img src={useBaseUrl('/img/blocks/block_lists_add.svg')} alt="block_lists_add.svg" />
 
-Appends a value to the end of selected list.
+Aggiunge un valore alla fine della lista selezionata.
 
-### `Insert at` {#block_lists_insert_at}
+### `Inserisci alla posizione` {#block_lists_insert_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_insert_at.svg')} alt="block_lists_insert_at.svg" />
 
-Inserts a value at selected index in the list.
+Inserisce un valore all’indice selezionato nella lista.
 
-### `Replace at` {#block_lists_replace_at}
+### `Sostituisci alla posizione` {#block_lists_replace_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_replace_at.svg')} alt="block_lists_replace_at.svg" />
 
-Replaces item at selected index with new value.
+Sostituisce l’elemento all’indice selezionato con un nuovo valore.
 
-### `Delete` {#block_lists_delete}
+### `Elimina` {#block_lists_delete}
 
 <img src={useBaseUrl('/img/blocks/block_lists_delete.svg')} alt="block_lists_delete.svg" />
 
-Deletes item at selected index (or selected delete mode).
+Elimina l’elemento all’indice selezionato (o secondo la modalità di eliminazione scelta).
 
-### `Clear all` {#block_lists_clear_all}
+### `Cancella tutto` {#block_lists_clear_all}
 
 <img src={useBaseUrl('/img/blocks/block_lists_clear_all.svg')} alt="block_lists_clear_all.svg" />
 
-Removes all items from selected list.
+Rimuove tutti gli elementi dalla lista selezionata.
 
-## List value/check blocks
+## Blocchi di lettura/verifica delle liste
 
-### `Item at` {#block_lists_item_at}
+### `Elemento alla posizione` {#block_lists_item_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_item_at.svg')} alt="block_lists_item_at.svg" />
 
-Returns value at selected index.
+Restituisce il valore all’indice selezionato.
 
-### `Index of value` {#block_lists_index_of_value}
+### `Indice del valore` {#block_lists_index_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_index_of_value.svg')} alt="block_lists_index_of_value.svg" />
 
-Returns index of the first matching value in list.
+Restituisce l’indice del primo valore corrispondente nella lista.
 
-### `Contains value` {#block_lists_contains_value}
+### `Contiene valore` {#block_lists_contains_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_contains_value.svg')} alt="block_lists_contains_value.svg" />
 
-Returns whether list contains a specified value.
+Restituisce se la lista contiene un valore specificato.
 
-### `Size of list` {#block_lists_size_of_value}
+### `Dimensione della lista` {#block_lists_size_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_size_of_value.svg')} alt="block_lists_size_of_value.svg" />
 
-Returns number of items in selected list.
+Restituisce il numero di elementi nella lista selezionata.
 
-## List value reporter
+## Blocco reporter della lista
 
 <img src={useBaseUrl('/img/blocks/list.svg')} alt="list.svg" />
 
-Returns the current value of the selected list.
+Restituisce il valore corrente della lista selezionata.
 
-- Type: reporter block
-- Output format example: `[item1,item2,item3]`
-- Typical use: inspect current list content or pass the list value into compatible blocks
-
-## Usage notes
-
-- Use lists for history buffers, waypoints, recorded sensor samples, and presets.
-- Check list size before reading by index to avoid invalid access.
-- Combine `contains` and `index of` for lookup logic.
+- Tipo: blocco reporter
+- Esempio di formato output: `[item1,item2,item3]`
+- Utilizzo tipico: ispezionare il contenuto corrente della lista o passare la lista ad altri blocchi compatibili

@@ -1,152 +1,152 @@
 ---
 id: BlocksIntroducing
-title: Blocks Introducing
+title: Introduzione ai blocchi
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Blocks Introducing
+# Introduzione ai blocchi
 
-MOCPilot uses a visual block programming system that looks and feels similar to Scratch.
-Each block has a specific role, and valid combinations define control flow and data flow through a script.
-It uses drag-and-drop logic and Scratch-like interaction patterns to provide a convenient and familiar way to build programs.
+MOCPilot utilizza un sistema di programmazione visuale a blocchi simile a Scratch per aspetto e utilizzo.
+Ogni blocco ha un ruolo specifico e le combinazioni valide definiscono il flusso di controllo e il flusso dei dati all'interno di uno script.
+Utilizza la logica drag-and-drop e schemi di interazione in stile Scratch per offrire un modo comodo e familiare di creare programmi.
 
-:::warning Compatibility Notice
-This is a different block system with its own block set and behavior.
-MOCPilot programs are not compatible with Scratch projects: MOCPilot programs cannot be imported into Scratch, and Scratch programs cannot be imported into MOCPilot.
+:::warning Avviso di compatibilita
+Questo e un sistema a blocchi diverso, con un proprio set di blocchi e comportamenti.
+I programmi MOCPilot non sono compatibili con i progetti Scratch: i programmi MOCPilot non possono essere importati in Scratch e i programmi Scratch non possono essere importati in MOCPilot.
 :::
 
-## Block shapes and meaning
+## Forme dei blocchi e significato
 
-### Hat Blocks
+### Blocchi cappello
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
   <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 </div>
 
-Start a script when a specific event occurs. Blocks can only be attached below.
+Avviano uno script quando si verifica un evento specifico. I blocchi possono essere collegati solo sotto.
 
 ---
 
-### Stack Blocks
+### Blocchi stack
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_reset.svg')} alt="block_sensors_timer_reset.svg" />
 </div>
 
-Main command blocks that perform actions.
+Blocchi di comando principali che eseguono azioni.
 
 ---
 
-### C Blocks
+### Blocchi C
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 </div>
 
-C-shaped control blocks that contain nested block stacks (loops/conditions).
+Blocchi di controllo a forma di C che contengono stack di blocchi annidati (cicli/condizioni).
 
 ---
 
-### Reporter Blocks
+### Blocchi reporter
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 </div>
 
-Return values such as numbers or strings.
+Restituiscono valori come numeri o stringhe.
 
 ---
 
-### Boolean Blocks
+### Blocchi booleani
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 </div>
 
-Return only `true` or `false`, typically used in conditions.
+Restituiscono solo `true` o `false`, tipicamente usati nelle condizioni.
 
 ---
 
-### Cap Blocks
+### Blocchi cap
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 </div>
 
-End scripts and do not allow blocks below.
+Terminano gli script e non consentono blocchi sotto.
 
 ---
 
-### Blocks Stack
+### Stack di blocchi
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks_stack.svg')} alt="blocks_stack.svg" />
 </div>
 
-A block stack is a sequence of connected blocks that runs as one script flow from top to bottom.
-Stacks usually start with an event block and then execute attached blocks in order.
+Uno stack di blocchi e una sequenza di blocchi collegati che viene eseguita come un unico flusso di script dall'alto verso il basso.
+Gli stack iniziano di solito con un blocco evento e poi eseguono in ordine i blocchi collegati.
 
 ---
 
-## Script execution model
+## Modello di esecuzione degli script
 
-- A script usually starts from an event block.
-- Connected stack blocks run top to bottom.
-- Multiple scripts can run in parallel.
-- Message/broadcast blocks are used to synchronize scripts.
-- A block stack is a sequence of blocks connected together.
+- Uno script inizia di solito da un blocco evento.
+- I blocchi stack collegati vengono eseguiti dall'alto verso il basso.
+- Piu script possono essere eseguiti in parallelo.
+- I blocchi messaggio/broadcast vengono usati per sincronizzare gli script.
+- Uno stack di blocchi e una sequenza di blocchi collegati tra loro.
 
-## Data and values
+## Dati e valori
 
-- Reporter blocks can be nested inside command/condition inputs.
-- Variables store reusable values across blocks and scripts.
-- Lists store ordered collections for history, queues, and lookup data.
+- I blocchi reporter possono essere annidati negli input di comandi/condizioni.
+- Le variabili memorizzano valori riutilizzabili tra blocchi e script.
+- Le liste memorizzano raccolte ordinate per cronologia, code e dati di ricerca.
 
-## Events and timing
+## Eventi e temporizzazione
 
-- Event blocks react to user input, hub state, sensors, or messages.
-- Timer- and sensor-based events may trigger frequently.
-- Use thresholds, filtering, or short waits to reduce noisy repeated triggers.
+- I blocchi evento reagiscono all'input utente, allo stato dell'hub, ai sensori o ai messaggi.
+- Gli eventi basati su timer e sensori possono attivarsi frequentemente.
+- Usa soglie, filtri o brevi attese per ridurre attivazioni ripetute rumorose.
 
-## Hub, ports, and controllers
+## Hub, porte e controller
 
-- Hub blocks target hub and port context.
-- Some blocks are available only for specific hub families/devices.
-- Dashboard and gamepad blocks provide runtime input and UI control.
+- I blocchi hub lavorano nel contesto di hub e porte.
+- Alcuni blocchi sono disponibili solo per famiglie di hub/dispositivi specifici.
+- I blocchi dashboard e gamepad forniscono input runtime e controllo dell'interfaccia.
 
-## Recommended workflow
+## Flusso di lavoro consigliato
 
-1. Start with one event block and a minimal script.
-2. Validate motor/sensor direction and ranges early.
-3. Extract repeated logic with messages and helper scripts.
-4. Add safeguards (limits, stops, fallback values) before final tuning.
+1. Inizia con un blocco evento e uno script minimo.
+2. Valida presto direzione e intervalli di motori/sensori.
+3. Estrai la logica ripetuta con messaggi e script di supporto.
+4. Aggiungi protezioni (limiti, stop, valori di fallback) prima della messa a punto finale.
 
-## Common pitfalls
+## Errori comuni
 
-- Missing event entry block means script never starts.
-- Wrong hub/port selection causes no visible effect.
-- Mixing value types (text/number/boolean) can produce invalid logic.
-- High-frequency events without filtering can overload behavior.
+- L'assenza di un blocco evento di ingresso significa che lo script non parte mai.
+- Una selezione errata di hub/porta non produce effetti visibili.
+- Mescolare tipi di valore (testo/numero/booleano) puo produrre logica non valida.
+- Eventi ad alta frequenza senza filtro possono sovraccaricare il comportamento.
 
-## Documentation structure in this section
+## Struttura della documentazione in questa sezione
 
-Use category pages in this order:
+Usa le pagine di categoria in questo ordine:
 
-- Light
-- Motors
-- Sensors
-- Events
-- Control
-- Operators
-- Variables
-- Lists
-- My Blocks
-- Dashboard controllers
+- Luce
+- Motori
+- Sensori
+- Eventi
+- Controllo
+- Operatori
+- Variabili
+- Liste
+- I miei blocchi
+- Controller dashboard
 - Gamepad
