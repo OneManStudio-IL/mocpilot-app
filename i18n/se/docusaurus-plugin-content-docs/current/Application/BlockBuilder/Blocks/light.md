@@ -1,76 +1,76 @@
 ---
 id: Light
-title: Light
+title: Ljus
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Light
+# Ljus
 
-This page documents Light category blocks used to control LEDs and light outputs on supported hubs.
+Den här sidan dokumenterar block i kategorin Ljus som används för att styra LED:er och ljusutgångar på stödda hubbar.
 
-## Common light blocks
+## Vanliga ljusblock
 
-### `Set LED color` {#block_hubs_all_light_set_led_color}
+### `Ställ in LED-färg` {#block_hubs_all_light_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_set_led_color.svg')} alt="block_hubs_all_light_set_led_color.svg" />
 
-Sets hub LED color using predefined color options.
+Ställer in hubbens LED-färg med fördefinierade färgalternativ.
 
-- Type: command block
-- Typical use: show state (ready, running, warning, error)
+- Typ: kommandoblock
+- Typisk användning: visa tillstånd (redo, kör, varning, fel)
 
-### `Light turn to` {#block_hubs_all_light_light_turn_to}
+### `Ställ ljus till` {#block_hubs_all_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_to.svg')} alt="block_hubs_all_light_light_turn_to.svg" />
 
-Sets selected light output to a target brightness/value.
+Ställer in vald ljusutgång till ett målvärde för ljusstyrka/värde.
 
-- Type: command block
-- Typical use: headlight brightness, status intensity
+- Typ: kommandoblock
+- Typisk användning: strålkastarens ljusstyrka, statusintensitet
 
-### `Light turn off` {#block_hubs_all_light_light_turn_off}
+### `Stäng av ljus` {#block_hubs_all_light_light_turn_off}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_off.svg')} alt="block_hubs_all_light_light_turn_off.svg" />
 
-Turns selected light output off.
+Stänger av vald ljusutgång.
 
-- Type: command block
-- Typical use: shutdown sequence, battery-saving behavior
+- Typ: kommandoblock
+- Typisk användning: avstängningssekvens, batteribesparande beteende
 
-### `Technic Move light turn to` {#block_hubs_technicmove_light_light_turn_to}
+### `Technic Move ställ ljus till` {#block_hubs_technicmove_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_light_light_turn_to.svg')} alt="block_hubs_technicmove_light_light_turn_to.svg" />
 
-Variant of `Light turn to` for Technic Move hub/light target.
+Variant av `Ställ ljus till` för Technic Move-hubb/ljusmål.
 
-- Type: command block
-- Typical use: set Move hub light output level
+- Typ: kommandoblock
+- Typisk användning: ställa in ljusutgångsnivån för Move-hubben
 
-## BuWizz 3 light blocks
+## BuWizz 3-ljusblock
 
-### `BuWizz 3 set LED color` {#block_hubs_buwizz3_light_port_set_led_color}
+### `BuWizz 3 ställ in LED-färg` {#block_hubs_buwizz3_light_port_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color.svg')} alt="block_hubs_buwizz3_light_port_set_led_color.svg" />
 
-Sets LED color on selected BuWizz 3 port with built-in color options.
+Ställer in LED-färg på vald BuWizz 3-port med inbyggda färgalternativ.
 
-- Type: command block
+- Typ: kommandoblock
 
-### `BuWizz 3 set LED color (string)` {#block_hubs_buwizz3_light_port_set_led_color_string}
+### `BuWizz 3 ställ in LED-färg (sträng)` {#block_hubs_buwizz3_light_port_set_led_color_string}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_string.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_string.svg" />
 
-Sets BuWizz 3 LED color using text color value.
+Ställer in BuWizz 3-LED-färg med ett textbaserat färgvärde.
 
-- Type: command block
-- Typical use: dynamic color names from variables
+- Typ: kommandoblock
+- Typisk användning: dynamiska färgnamn från variabler
 
-### `BuWizz 3 set LED color (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
+### `BuWizz 3 ställ in LED-färg (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_rgb.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_rgb.svg" />
 
-Sets BuWizz 3 LED color using explicit RGB channels.
+Ställer in BuWizz 3-LED-färg med explicita RGB-kanaler.
 
-- Type: command block
-- Typical use: full custom color control and gradients
+- Typ: kommandoblock
+- Typisk användning: fullständig anpassad färgstyrning och gradienter

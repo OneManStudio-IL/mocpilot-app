@@ -1,259 +1,259 @@
 ---
 id: DashboardControllers
-title: Dashboard controllers
+title: Dashboard-kontroller
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Dashboard controllers
+# Dashboard-kontroller
 
-These blocks are used to read user input from on-screen controls, react to user actions, and update dashboard UI state.
+Dessa block används för att läsa användarinmatning från kontroller på skärmen, reagera på användaråtgärder och uppdatera dashboard-gränssnittets tillstånd.
 
-## Global dashboard controller blocks
+## Globala dashboard-kontrollblock
 
-### `Set controller color` {#block_dashboard_controller_all_set_color}
+### `Ställ in kontrollfärg` {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
-Changes the visual accent color of the selected dashboard controller.
+Ändrar den visuella accentfärgen för vald dashboard-kontroll.
 
-- Type: command block
-- Typical use: indicate runtime states or dynamically change controller style based on conditions
+- Typ: kommandoblock
+- Typisk användning: visa körtidstillstånd eller dynamiskt ändra kontrollens stil baserat på villkor
 
-### `Set controller interactivity` {#block_dashboard_controller_all_set_interactivity}
+### `Ställ in kontrollens interaktivitet` {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
-Controls selected dashboard controller interactivity.
-If interactivity is disabled, the controller does not react to touch input.
+Styr interaktiviteten för vald dashboard-kontroll.
+Om interaktivitet är inaktiverad reagerar kontrollen inte på touchinmatning.
 
-- Type: command block
-- Typical use: temporarily lock controls during specific logic or safety states
-- State options: `enable`, `disable`
+- Typ: kommandoblock
+- Typisk användning: tillfälligt låsa kontroller under särskild logik eller säkerhetstillstånd
+- Tillståndsalternativ: `aktivera`, `inaktivera`
 
-## Button blocks
+## Knappblock
 
-### `Button event` {#block_dashboard_controller_button_event}
+### `Knapphändelse` {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
-Triggers when the dashboard button changes state (pressed/released).
+Utlöses när dashboard-knappen byter tillstånd (nedtryckt/släppt).
 
-- Type: event block
-- Output: starts connected script
-- State options: `pressed`, `released`
+- Typ: händelseblock
+- Utdata: startar anslutet skript
+- Tillståndsalternativ: `nedtryckt`, `släppt`
 
-### `Button value (boolean)` {#block_dashboard_controller_button_value_boolean}
+### `Knappvärde (booleskt)` {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
-Reports current dashboard button state.
+Rapporterar aktuellt tillstånd för dashboard-knappen.
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `pressed`, `released`
+- Typ: värdeblock
+- Utdata: `true`/`false`
+- Tillståndsalternativ: `nedtryckt`, `släppt`
 
-## D-pad blocks
+## D-pad-block
 
-### `D-pad event` {#block_dashboard_controller_dpad_event}
+### `D-pad-händelse` {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
-Triggers when D-pad direction changes or matches configured direction.
+Utlöses när D-pad-riktningen ändras eller matchar den konfigurerade riktningen.
 
-- Type: event block
-- Output: starts connected script
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- Typ: händelseblock
+- Utdata: startar anslutet skript
+- Riktningsalternativ: `upp`, `ner`, `vänster`, `höger`
+- Knappstatusalternativ: `nedtryckt`, `släppt`
 
-### `D-pad value (boolean)` {#block_dashboard_controller_dpad_value_boolean}
+### `D-pad-värde (booleskt)` {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
-Reports whether a selected D-pad direction is active.
+Rapporterar om en vald D-pad-riktning är aktiv.
 
-- Type: value block
-- Output: `true`/`false`
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- Typ: värdeblock
+- Utdata: `true`/`false`
+- Riktningsalternativ: `upp`, `ner`, `vänster`, `höger`
+- Knappstatusalternativ: `nedtryckt`, `släppt`
 
-## Joystick blocks
+## Joystickblock
 
-### `Joystick event` {#block_dashboard_controller_joystick_event}
+### `Joystickhändelse` {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
-Triggers when joystick position changes.
+Utlöses när joystickens position ändras.
 
-- Type: event block
-- Output: starts connected script
-- State options: `up`, `down`, `left`, `right`, `moved`, `released`
+- Typ: händelseblock
+- Utdata: startar anslutet skript
+- Tillståndsalternativ: `upp`, `ner`, `vänster`, `höger`, `flyttad`, `släppt`
 
-### `Joystick value (float)` {#block_dashboard_controller_joystick_value_float}
+### `Joystickvärde (float)` {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
-Reports joystick axis value.
+Rapporterar joystickens axelvärde.
 
-- Type: value block
-- Output: numeric (float), typically in a normalized range
-- Axis options: `x-axis`, `y-axis`
+- Typ: värdeblock
+- Utdata: numeriskt (float), vanligtvis inom ett normaliserat intervall
+- Axelalternativ: `x-axel`, `y-axel`
 
-## Pedals blocks
+## Pedalblock
 
-### `Pedals event` {#block_dashboard_controller_pedals_event}
+### `Pedalhändelse` {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
-Triggers when pedal input changes.
+Utlöses när pedalinmatning ändras.
 
-- Type: event block
-- Output: starts connected script
-- Pedal options: `any`, `brake`, `acceleration`
-- State options: `moved`, `pressed`, `released`
+- Typ: händelseblock
+- Utdata: startar anslutet skript
+- Pedalalternativ: `valfri`, `broms`, `acceleration`
+- Tillståndsalternativ: `flyttad`, `nedtryckt`, `släppt`
 
-### `Pedals value (float)` {#block_dashboard_controller_pedals_value_float}
+### `Pedalvärde (float)` {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
-Reports pedal analog value.
+Rapporterar pedalens analoga värde.
 
-- Type: value block
-- Output: numeric (float)
+- Typ: värdeblock
+- Utdata: numeriskt (float)
 
-### `Pedals value (boolean)` {#block_dashboard_controller_pedals_value_boolean}
+### `Pedalvärde (booleskt)` {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
-Returns selected state based on whether a specific pedal is pressed or released.
+Returnerar valt tillstånd beroende på om en specifik pedal är nedtryckt eller släppt.
 
-- Type: value block
-- Output: `true`/`false`
-- Pedal options: `brake`, `acceleration`
-- State options: `pressed`, `released`
+- Typ: värdeblock
+- Utdata: `true`/`false`
+- Pedalalternativ: `broms`, `acceleration`
+- Tillståndsalternativ: `nedtryckt`, `släppt`
 
-## Slider blocks
+## Reglageblock
 
-### `Slider event` {#block_dashboard_controller_slider_event}
+### `Reglagehändelse` {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
-Triggers when slider value changes.
+Utlöses när reglagesvärdet ändras.
 
-- Type: event block
-- Output: starts connected script
-- State options: `low`, `high`, `moved`, `released`
+- Typ: händelseblock
+- Utdata: startar anslutet skript
+- Tillståndsalternativ: `låg`, `hög`, `flyttad`, `släppt`
 
-### `Slider value (float)` {#block_dashboard_controller_slider_value_float}
+### `Reglagevärde (float)` {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
-Reports current slider value.
+Rapporterar aktuellt reglagesvärde.
 
-- Type: value block
-- Output: numeric (float)
+- Typ: värdeblock
+- Utdata: numeriskt (float)
 
-## Stepper blocks
+## Stepperblock
 
-### `Stepper event` {#block_dashboard_controller_stepper_event}
+### `Stepperhändelse` {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
-Triggers when stepper value changes by a step.
+Utlöses när steppervärdet ändras med ett steg.
 
-- Type: event block
-- Output: starts connected script
-- Step options: `any`, `reset`, `minus`, `plus`
-- Button state options: `pressed`, `released`
+- Typ: händelseblock
+- Utdata: startar anslutet skript
+- Stegalternativ: `valfri`, `återställ`, `minus`, `plus`
+- Knappstatusalternativ: `nedtryckt`, `släppt`
 
-### `Stepper value (float)` {#block_dashboard_controller_stepper_value_float}
+### `Steppervärde (float)` {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
-Reports current stepper value.
+Rapporterar aktuellt steppervärde.
 
-- Type: value block
-- Output: numeric (float)
+- Typ: värdeblock
+- Utdata: numeriskt (float)
 
-## Steering wheel blocks
+## Rattblock
 
-### `Steering wheel event` {#block_dashboard_controller_steering_wheel_event}
+### `Ratthändelse` {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
-Triggers when steering wheel position changes.
+Utlöses när rattens position ändras.
 
-- Type: event block
-- Output: starts connected script
-- State options: `moved`, `pressed`, `released`
+- Typ: händelseblock
+- Utdata: startar anslutet skript
+- Tillståndsalternativ: `flyttad`, `nedtryckt`, `släppt`
 
-### `Steering wheel value (float)` {#block_dashboard_controller_steering_wheel_value_float}
+### `Rattvärde (float)` {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
-Reports current steering wheel value.
+Rapporterar aktuellt rattvärde.
 
-- Type: value block
-- Output: numeric (float)
+- Typ: värdeblock
+- Utdata: numeriskt (float)
 
-### `Steering wheel value (boolean)` {#block_dashboard_controller_steeringwheel_value_boolean}
+### `Rattvärde (booleskt)` {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
-Returns selected state based on whether the steering wheel is pressed or released.
+Returnerar valt tillstånd beroende på om ratten är nedtryckt eller släppt.
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `moved`, `pressed`, `released`
+- Typ: värdeblock
+- Utdata: `true`/`false`
+- Tillståndsalternativ: `flyttad`, `nedtryckt`, `släppt`
 
-## Switch blocks
+## Växelblock
 
-### `Switch event` {#block_dashboard_controller_switch_event}
+### `Växelhändelse` {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
-Triggers when switch state changes.
+Utlöses när växelns tillstånd ändras.
 
-- Type: event block
-- Output: starts connected script
-- Toggle options: `on`, `off`
+- Typ: händelseblock
+- Utdata: startar anslutet skript
+- Växlingsalternativ: `på`, `av`
 
-### `Switch value (boolean)` {#block_dashboard_controller_switch_value_boolean}
+### `Växelvärde (booleskt)` {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
-Reports current switch state.
+Rapporterar aktuellt växeltillstånd.
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `on`, `off`
+- Typ: värdeblock
+- Utdata: `true`/`false`
+- Tillståndsalternativ: `på`, `av`
 
-## Monitor blocks
+## Monitorblock
 
-### `Monitor show` {#block_dashboard_controller_monitor_show}
+### `Visa monitor` {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
-Displays information (text or value) on the dashboard monitor.
+Visar information (text eller värde) på dashboard-monitorn.
 
-- Type: command block
-- Typical use: show battery level, motor angle, current connected device on a hub port, and similar runtime info
+- Typ: kommandoblock
+- Typisk användning: visa batterinivå, motorvinkel, aktuell ansluten enhet på en hubbport och liknande körtidsinformation
 
-### `Monitor set value` {#block_dashboard_controller_monitor_set_value}
+### `Ställ in monitorvärde` {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
-Sets integer value for a dashboard speedometer monitor.
+Ställer in heltalsvärdet för en hastighetsmätar-monitor på dashboarden.
 
-- Type: command block
-- Typical use: update speedometer-like monitor value in runtime
+- Typ: kommandoblock
+- Typisk användning: uppdatera hastighetsmätarens värde under körning
 
-### `Monitor tilt set value` {#block_dashboard_controller_monitor_tilt_set_value}
+### `Ställ in monitorlutningsvärde` {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
-Sets tilt monitor value (pitch/roll) for dashboard tilt monitor.
+Ställer in lutningsmonitorns värde (pitch/roll) för dashboardens lutningsmonitor.
 
-- Type: command block
-- Typical use: display runtime tilt values in dedicated tilt monitor
-- Axis options: `pitch`, `roll`
+- Typ: kommandoblock
+- Typisk användning: visa lutningsvärden under körning i en dedikerad lutningsmonitor
+- Axelalternativ: `pitch`, `roll`

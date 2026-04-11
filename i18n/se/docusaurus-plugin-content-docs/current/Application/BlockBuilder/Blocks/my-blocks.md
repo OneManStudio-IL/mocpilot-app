@@ -1,34 +1,34 @@
 ---
 id: MyBlocks
-title: My Blocks
+title: Mina block
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# My Blocks
+# Mina block
 
-My Blocks let you define your own custom reusable block.
-This category is conceptually similar to creating a function in traditional programming: define behavior once, then call it many times.
+Mina block låter dig definiera dina egna anpassade återanvändbara block.
+Den här kategorin är konceptuellt lik att skapa en funktion i traditionell programmering: definiera beteendet en gång och anropa det sedan många gånger.
 
-## Core My Blocks
+## Grundläggande Mina block
 
-### `Make a Block`
+### `Skapa ett block`
 
-Creates a new custom block definition.
+Skapar en ny definition av ett anpassat block.
 
-- Type: definition/setup block
-- Typical use: group repeated logic into one named block
+- Typ: definitions-/inställningsblock
+- Typisk användning: gruppera upprepad logik i ett namngivet block
 
-### `MyBlock` (call block)
+### `MittBlock` (anropsblock)
 
-Calls a previously created custom block.
+Anropar ett tidigare skapat anpassat block.
 
-- Type: stack block (custom command call)
-- Typical use: reuse the same logic in multiple places without duplicating block stacks
+- Typ: stackblock (anrop av anpassat kommando)
+- Typisk användning: återanvänd samma logik på flera ställen utan att duplicera blockstaplar
 
-## Variadic examples
+## Variadiska exempel
 
-These examples show custom My Blocks with different argument signatures.
+Dessa exempel visar anpassade Mina block med olika argumentsignaturer.
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758091855.svg')} alt="block_myblock_1775758091855.svg" />
@@ -40,30 +40,30 @@ These examples show custom My Blocks with different argument signatures.
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758145135.svg')} alt="block_myblock_1775758145135.svg" />
 </div>
 
-## Example usage in program stack
+## Exempel på användning i programstapel
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-usage-example.png')} alt="my-blocks-usage-example.png" />
 
-This example shows a custom block call attached under `when program starts`, while the `define my block` stack contains the reusable motor logic.
+Detta exempel visar ett anrop till ett anpassat block som är kopplat under `när programmet startar`, medan stapeln `definiera mitt block` innehåller den återanvändbara motorlogiken.
 
-- Typical flow: call custom block from event stacks
-- Benefit: one definition, many call sites
+- Typiskt flöde: anropa anpassade block från händelsestaplar
+- Fördel: en definition, många anropsställen
 
-## My Block editor view
+## Vy för Mitt block-redigeraren
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-editor-cropped.png')} alt="my-blocks-editor-cropped.png" />
 
-The Make a Block editor is used to design your custom block signature.
-You can add labels and inputs (for example number/text and boolean inputs), then define implementation logic in the block definition stack.
+Redigeraren Skapa ett block används för att utforma signaturen för ditt anpassade block.
+Du kan lägga till etiketter och inmatningar (till exempel tal-/text- och booleska inmatningar) och sedan definiera implementationslogiken i blockets definitionsstapel.
 
-## Why use My Blocks
+## Varför använda Mina block
 
-- Reusability: write once, call many times.
-- Readability: replace long repeated stacks with one meaningful name.
-- Maintainability: update logic in one place instead of many copies.
-- Structure: split large programs into smaller logical units.
+- Återanvändbarhet: skriv en gång, anropa många gånger.
+- Läsbarhet: ersätt långa upprepade staplar med ett meningsfullt namn.
+- Underhållbarhet: uppdatera logik på ett ställe i stället för i många kopior.
+- Struktur: dela upp stora program i mindre logiska enheter.
 
-## Notes
+## Anteckningar
 
-- Custom blocks are project-level and intended for reuse inside the same profile/project context.
-- Prefer descriptive names that explain intent, not implementation details.
+- Anpassade block är på projektnivå och avsedda för återanvändning inom samma profil-/projektkontext.
+- Föredra beskrivande namn som förklarar avsikten, inte implementationsdetaljer.

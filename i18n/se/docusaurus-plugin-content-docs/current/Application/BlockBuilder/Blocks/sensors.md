@@ -1,194 +1,194 @@
 ---
 id: Sensors
-title: Sensors
+title: Sensorer
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Sensors
+# Sensorer
 
-Sensor blocks read hub/device state and provide data for conditions, events, and control logic.
+Sensorblock läser hubb-/enhetstillstånd och tillhandahåller data för villkor, händelser och kontrolllogik.
 
-## Device and hub sensors
+## Enhets- och hubbsensorer
 
-### `Hub battery level` {#block_hubs_all_sensors_battery_level}
+### `Hubbens batterinivå` {#block_hubs_all_sensors_battery_level}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_battery_level.svg')} alt="block_hubs_all_sensors_battery_level.svg" />
-Returns current hub battery level.
+Returnerar hubbens aktuella batterinivå.
 
-### `Device % battery` {#block_sensors_device_battery_level}
+### `Enhetens % batteri` {#block_sensors_device_battery_level}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_battery_level.svg')} alt="block_sensors_device_battery_level.svg" />
-Returns the current battery level of the phone/tablet device running MOCPilot (in percent).
+Returnerar den aktuella batterinivån för telefonen/surfplattan som kör MOCPilot (i procent).
 
-### `Board temperature` {#block_hubs_all_sensors_board_temp}
+### `Korttemperatur` {#block_hubs_all_sensors_board_temp}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_board_temp.svg')} alt="block_hubs_all_sensors_board_temp.svg" />
-Returns hub board temperature.
+Returnerar hubbens korttemperatur.
 
-- Available only for `BuWizz 2` and `BuWizz 3`.
+- Tillgänglig endast för `BuWizz 2` och `BuWizz 3`.
 
-### `Button pressed` {#block_hubs_all_sensors_button_pressed}
+### `Knapp nedtryckt` {#block_hubs_all_sensors_button_pressed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_button_pressed.svg?v=20260409-2258')} alt="block_hubs_all_sensors_button_pressed.svg" />
-Checks whether a selected hub button matches the selected state.
+Kontrollerar om en vald hubbknapp matchar det valda tillståndet.
 
-- State options: `pressed`, `released`
-- Typical button option: `center` (hub-dependent)
+- Tillståndsalternativ: `nedtryckt`, `släppt`
+- Typiskt knappalternativ: `mitten` (hubberoende)
 
-- Note: available button options may differ by hub model (different hubs can expose different button sets).
+- Obs: tillgängliga knappalternativ kan skilja sig mellan olika hubbmodeller (olika hubbar kan exponera olika uppsättningar knappar).
 
-### `Device type` {#block_hubs_all_motors_port_device_type}
+### `Enhetstyp` {#block_hubs_all_motors_port_device_type}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_device_type.svg')} alt="block_hubs_all_motors_port_device_type.svg" />
-Returns connected device type for the selected port.
+Returnerar ansluten enhetstyp för den valda porten.
 
-- Type: reporter block
-- Typical use: detect what device is connected before running device-specific logic
+- Typ: reporterblock
+- Typisk användning: upptäcka vilken enhet som är ansluten innan enhetsspecifik logik körs
 
-### `Device accelerometer` {#block_sensors_device_accelerometer_sensor_data}
+### `Enhetsaccelerometer` {#block_sensors_device_accelerometer_sensor_data}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_accelerometer_sensor_data.svg')} alt="block_sensors_device_accelerometer_sensor_data.svg" />
-Returns raw accelerometer values from device sensors.
+Returnerar råa accelerometervärden från enhetssensorer.
 
-- Axis options: `x`, `y`, `z`
+- Axelalternativ: `x`, `y`, `z`
 
-### `Device acceleration` {#block_sensors_device_acceleration_sensor_data}
+### `Enhetsacceleration` {#block_sensors_device_acceleration_sensor_data}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_acceleration_sensor_data.svg')} alt="block_sensors_device_acceleration_sensor_data.svg" />
-Returns acceleration data from device sensors.
+Returnerar accelerationsdata från enhetssensorer.
 
-- Axis options: `x`, `y`, `z`
+- Axelalternativ: `x`, `y`, `z`
 
-## Orientation and tilt sensors
+## Orienterings- och lutningssensorer
 
-### `Tilt` {#block_hubs_all_sensors_tilt}
+### `Lutning` {#block_hubs_all_sensors_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
-Returns tilt angle for the selected axis.
+Returnerar lutningsvinkeln för den valda axeln.
 
-- Axis options: `pitch`, `roll`, `yaw`
-- Note: `yaw` is available only on hubs that provide yaw data.
+- Axelalternativ: `pitch`, `roll`, `yaw`
+- Obs: `yaw` är endast tillgängligt på hubbar som tillhandahåller yaw-data.
 
-### `Get orientation` {#block_hubs_sensors_get_orientation}
+### `Hämta orientering` {#block_hubs_sensors_get_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_get_orientation.svg')} alt="block_hubs_sensors_get_orientation.svg" />
-Returns current orientation state of the hub.
+Returnerar hubbens aktuella orienteringstillstånd.
 
-- Output format options: `text`, `index`
-- Orientation values: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Alternativ för utdataformat: `text`, `index`
+- Orienteringsvärden: `Fram`, `Topp`, `Höger`, `Bak`, `Botten`, `Vänster`
 
-### `Is orientation up` {#block_hubs_all_sensors_is_orientation_up}
+### `Är orientering uppåt` {#block_hubs_all_sensors_is_orientation_up}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_orientation_up.svg')} alt="block_hubs_all_sensors_is_orientation_up.svg" />
-Checks whether the hub orientation matches selected "up" orientation.
+Kontrollerar om hubbens orientering matchar den valda "uppåt"-orienteringen.
 
-- Orientation options: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Orienteringsalternativ: `Fram`, `Topp`, `Höger`, `Bak`, `Botten`, `Vänster`
 
-### `Set tilt orientation` {#block_hubs_sensors_set_tilt_orientation}
+### `Ställ in lutningsorientering` {#block_hubs_sensors_set_tilt_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_set_tilt_orientation.svg')} alt="block_hubs_sensors_set_tilt_orientation.svg" />
-Configures orientation reference used by tilt/orientation-related blocks.
+Konfigurerar den orienteringsreferens som används av lutnings-/orienteringsrelaterade block.
 
-- Orientation options: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Orienteringsalternativ: `Fram`, `Topp`, `Höger`, `Bak`, `Botten`, `Vänster`
 
-## Timer and device motion sensors
+## Timer- och enhetsrörelsesensorer
 
 ### `Timer` {#block_sensors_timer_value_float}
 <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
-Returns timer value in seconds.
+Returnerar timervärdet i sekunder.
 
-### `Reset timer` {#block_sensors_timer_reset}
+### `Återställ timer` {#block_sensors_timer_reset}
 <img src={useBaseUrl('/img/blocks/block_sensors_timer_reset.svg')} alt="block_sensors_timer_reset.svg" />
-Resets the timer to zero.
+Återställer timern till noll.
 
-## Port sensor blocks
+## Portsensorblock
 
-### `Technic distance sensor` {#block_hubs_all_sensors_port_technic_sensor_distance}
+### `Technic avståndssensor` {#block_hubs_all_sensors_port_technic_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
-Returns distance values from a Technic distance sensor.
+Returnerar avståndsvärden från en Technic-avståndssensor.
 
-- Unit options: `mm`, `cm`, `inch`, `%`
+- Enhetsalternativ: `mm`, `cm`, `tum`, `%`
 
-### `Technic when distance is` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
+### `Technic när avstånd är` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
-Triggers/checks distance condition for a Technic distance sensor.
+Utlöser/kontrollerar avståndsvillkor för en Technic-avståndssensor.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `mm`, `cm`, `inch`, `%`
+- Jämförelsealternativ: `närmare än`, `längre bort än`, `exakt vid`
+- Enhetsalternativ: `mm`, `cm`, `tum`, `%`
 
-### `Technic color sensor value` {#block_hubs_all_sensors_port_technic_sensor_color}
+### `Technic färgsensorvärde` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
-Returns detected color value from a Technic distance sensor.
+Returnerar detekterat färgvärde från en Technic-avståndssensor.
 
-- Output options: `value`, `string`
+- Utdatalternativ: `värde`, `sträng`
 
-### `Technic when color is` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
+### `Technic när färg är` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_color_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_color_is.svg" />
-Triggers/checks when detected color matches selected color.
+Utlöser/kontrollerar när den detekterade färgen matchar vald färg.
 
-### `Technic reflected light` {#block_hubs_all_sensors_port_technic_sensor_reflected_light}
+### `Technic reflekterat ljus` {#block_hubs_all_sensors_port_technic_sensor_reflected_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_reflected_light.svg')} alt="block_hubs_all_sensors_port_technic_sensor_reflected_light.svg" />
-Returns reflected light intensity.
+Returnerar intensiteten för reflekterat ljus.
 
-### `Technic when reflected light is` {#block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is}
+### `Technic när reflekterat ljus är` {#block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is.svg" />
-Triggers/checks reflected light threshold condition.
+Utlöser/kontrollerar tröskelvillkor för reflekterat ljus.
 
-- Compare options: `<`, `=`, `>`
+- Jämförelsealternativ: `<`, `=`, `>`
 
-### `Technic ambient light` {#block_hubs_all_sensors_port_technic_sensor_ambient_light}
+### `Technic omgivningsljus` {#block_hubs_all_sensors_port_technic_sensor_ambient_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_ambient_light.svg')} alt="block_hubs_all_sensors_port_technic_sensor_ambient_light.svg" />
-Returns ambient light intensity.
+Returnerar intensiteten för omgivningsljus.
 
-### `Technic when ambient light is` {#block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is}
+### `Technic när omgivningsljus är` {#block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is.svg" />
-Triggers/checks ambient light threshold condition.
+Utlöser/kontrollerar tröskelvillkor för omgivningsljus.
 
-- Compare options: `<`, `=`, `>`
+- Jämförelsealternativ: `<`, `=`, `>`
 
-### `Technic raw color` {#block_hubs_all_sensors_port_technic_sensor_raw_color}
+### `Technic rå färg` {#block_hubs_all_sensors_port_technic_sensor_raw_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_raw_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_raw_color.svg" />
-Returns raw color channel value from Technic sensor.
+Returnerar rått färgkanalvärde från Technic-sensorn.
 
-- Channel options: `red`, `green`, `blue`
+- Kanalalternativ: `röd`, `grön`, `blå`
 
-### `BOOST sensor distance` {#block_hubs_all_sensors_port_boost_sensor_distance}
+### `BOOST avståndssensor` {#block_hubs_all_sensors_port_boost_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_distance.svg" />
-Returns distance from a BOOST distance sensor.
+Returnerar avstånd från en BOOST-avståndssensor.
 
-- Unit options: `%`, `cm`, `inch`
+- Enhetsalternativ: `%`, `cm`, `tum`
 
-### `BOOST when distance is` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
+### `BOOST när avstånd är` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_distance.svg" />
-Triggers/checks distance condition for BOOST distance sensor.
+Utlöser/kontrollerar avståndsvillkor för BOOST-avståndssensorn.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `%`, `cm`, `inch`
+- Jämförelsealternativ: `närmare än`, `längre bort än`, `exakt vid`
+- Enhetsalternativ: `%`, `cm`, `tum`
 
-### `BOOST sensor color` {#block_hubs_all_sensors_port_boost_sensor_color}
+### `BOOST färgsensor` {#block_hubs_all_sensors_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_color.svg" />
-Returns color detected by a BOOST sensor.
+Returnerar färgen som detekteras av en BOOST-sensor.
 
-- Output options: `value`, `string`
+- Utdatalternativ: `värde`, `sträng`
 
-### `BOOST is color` {#block_hubs_all_sensors_port_boost_sensor_is_color}
+### `BOOST är färg` {#block_hubs_all_sensors_port_boost_sensor_is_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_is_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_is_color.svg" />
-Checks whether BOOST sensor currently detects selected color.
+Kontrollerar om BOOST-sensorn för närvarande detekterar vald färg.
 
-### `BOOST reflected light` {#block_hubs_all_sensors_port_boost_sensor_reflected_light}
+### `BOOST reflekterat ljus` {#block_hubs_all_sensors_port_boost_sensor_reflected_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_reflected_light.svg')} alt="block_hubs_all_sensors_port_boost_sensor_reflected_light.svg" />
-Returns reflected light value from BOOST sensor.
+Returnerar värdet för reflekterat ljus från BOOST-sensorn.
 
-### `BOOST when reflected light is` {#block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is}
+### `BOOST när reflekterat ljus är` {#block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is.svg" />
-Triggers/checks reflected light threshold condition for BOOST sensor.
+Utlöser/kontrollerar tröskelvillkor för reflekterat ljus för BOOST-sensorn.
 
-- Compare options: `<`, `=`, `>`
+- Jämförelsealternativ: `<`, `=`, `>`
 
-### `Technic Move set power mode` {#block_hubs_technicmove_sensors_set_power_mode}
+### `Technic Move ställ in effektläge` {#block_hubs_technicmove_sensors_set_power_mode}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_sensors_set_power_mode.svg')} alt="block_hubs_technicmove_sensors_set_power_mode.svg" />
-Sets Technic Move power mode.
+Ställer in effektläget för Technic Move.
 
-- Mode options: `normal`, `boost`
+- Lägesalternativ: `normal`, `boost`
 
-### `WeDo 2 distance` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
+### `WeDo 2 avstånd` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_distance.svg" />
-Returns distance from WeDo 2 distance sensor.
+Returnerar avstånd från WeDo 2-avståndssensorn.
 
-- Unit options: `%`, `cm`, `inch`
+- Enhetsalternativ: `%`, `cm`, `tum`
 
-### `WeDo 2 tilt` {#block_hubs_all_sensors_port_wedo2_tilt}
+### `WeDo 2 lutning` {#block_hubs_all_sensors_port_wedo2_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
-Returns tilt value from WeDo 2 tilt sensor.
+Returnerar lutningsvärde från WeDo 2-lutningssensorn.
 
-- Axis options: `pitch`, `roll`
+- Axelalternativ: `pitch`, `roll`
