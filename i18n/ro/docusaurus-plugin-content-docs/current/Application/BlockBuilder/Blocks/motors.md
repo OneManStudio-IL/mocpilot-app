@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Motoare
 
-Blocurile pentru motoare sunt utilizate pentru a porni, opri, poziționa și regla motoarele conectate la porturile hub-ului. :contentReference[oaicite:0]{index=0}
+Blocurile pentru motoare sunt utilizate pentru a porni, opri, poziționa și regla motoarele conectate la porturile hub-ului.
 
 ## Blocuri principale de comandă pentru motoare
 

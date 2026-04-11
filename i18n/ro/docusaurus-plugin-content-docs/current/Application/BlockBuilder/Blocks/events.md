@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Evenimente
 
-Categoria **Evenimente** conține blocuri care pornesc scripturi atunci când apare o condiție. :contentReference[oaicite:0]{index=0}
+Categoria **Evenimente** conține blocuri care pornesc scripturi atunci când apare o condiție.
 
 ## Evenimente de bază
 
@@ -106,8 +106,8 @@ Rulează când valorile accelerației se schimbă.
 
 Rulează când valoarea înclinării se schimbă.
 
-- Opțiuni unghi: `oricare`, `pitch`, `roll`, `yaw`
-- Notă: `yaw` este disponibil doar pe hub-uri care oferă acest tip de date
+- Opțiuni unghi: `oricare`, `înclinare`, `rotire`, `derapaj`
+- Notă: `derapaj` este disponibil doar pe hub-uri care oferă acest tip de date
 
 ### `Orientarea hub schimbată` {#block_hubs_all_event_tilt_orientation_changed}
 
@@ -130,7 +130,7 @@ Rulează când senzorul de culoare Technic detectează o culoare selectată.
 Rulează când valorile senzorului de distanță Technic corespund condiției selectate.
 
 - Opțiuni comparație: `mai aproape decât`, `mai departe decât`, `exact la`
-- Opțiuni unitate: `mm`, `cm`, `inch`, `%`
+- Opțiuni unitate: `mm`, `cm`, `inci`, `%`
 - Notă: unitățile disponibile depind de modul senzorului și dispozitivul conectat
 
 ### `Eveniment senzor distanță BOOST` {#block_hubs_all_event_port_boost_sensor_when_distance}
@@ -140,7 +140,7 @@ Rulează când valorile senzorului de distanță Technic corespund condiției se
 Rulează când senzorul de distanță BOOST atinge pragul/condiția aleasă.
 
 - Opțiuni comparație: `mai aproape decât`, `mai departe decât`, `exact la`
-- Opțiuni unitate: `%`, `cm`, `inch`
+- Opțiuni unitate: `%`, `cm`, `inci`
 
 ### `Eveniment senzor culoare BOOST` {#block_hubs_all_event_port_boost_sensor_color}
 

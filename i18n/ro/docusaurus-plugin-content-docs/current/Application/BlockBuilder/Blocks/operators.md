@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Operatori
 
-Operatorii sunt blocuri de tip Reporter și Boolean utilizate pentru calcule, comparații, logică și procesarea textului. :contentReference[oaicite:0]{index=0}
+Operatorii sunt blocuri de tip Reporter și Boolean utilizate pentru calcule, comparații, logică și procesarea textului.
 
 ## Operatori aritmetici
 
@@ -55,10 +55,10 @@ Aplică o funcție matematică cu un singur argument.
 
 Funcții disponibile:
 
-- `abs`: valoare absolută
-- `floor`: rotunjire în jos
-- `ceiling`: rotunjire în sus
-- `sqrt`: rădăcină pătrată
+- `valoare absolută`: valoare absolută
+- `întreg mai mic`: rotunjire în jos
+- `întreg mai mare`: rotunjire în sus
+- `rădăcina pătrată`: rădăcină pătrată
 - `sin`: sinus
 - `cos`: cosinus
 - `tan`: tangentă
@@ -80,7 +80,7 @@ Funcții disponibile:
 
 - `min`: valoarea mai mică
 - `max`: valoarea mai mare
-- `pow`: prima valoare la puterea celei de-a doua
+- `putere`: prima valoare la puterea celei de-a doua
 - `atan2`: unghi din pereche X/Y
 - `hypot`: lungimea ipotenuzei
 - `copysign`: valoare cu semnul celei de-a doua

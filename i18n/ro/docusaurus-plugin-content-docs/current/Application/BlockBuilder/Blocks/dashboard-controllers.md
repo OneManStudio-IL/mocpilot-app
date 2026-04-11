@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Controale Dashboard
 
-Aceste blocuri sunt utilizate pentru a citi inputul utilizatorului din controalele de pe ecran, pentru a reacționa la acțiunile utilizatorului și pentru a actualiza starea UI-ului dashboard-ului. :contentReference[oaicite:0]{index=0}
+Aceste blocuri sunt utilizate pentru a citi inputul utilizatorului din controalele de pe ecran, pentru a reacționa la acțiunile utilizatorului și pentru a actualiza starea UI-ului dashboard-ului.
 
 ## Blocuri globale pentru controlerele dashboard
 
@@ -252,8 +252,8 @@ Setează o valoare întreagă pentru un monitor de tip vitezometru.
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
-Setează valoarea de înclinare (pitch/roll) pentru monitorul de înclinare.
+Setează valoarea de înclinare (înclinare/rotire) pentru monitorul de înclinare.
 
 - Tip: bloc de comandă
 - Utilizare tipică: afișarea valorilor de înclinare în runtime
-- Opțiuni axă: `pitch`, `roll`
+- Opțiuni axă: `înclinare`, `rotire`

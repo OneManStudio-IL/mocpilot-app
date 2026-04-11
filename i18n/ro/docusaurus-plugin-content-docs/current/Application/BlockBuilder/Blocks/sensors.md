@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Senzori
 
-Blocurile de senzori citesc starea hub-ului/dispozitivului și furnizează date pentru condiții, evenimente și logică de control. :contentReference[oaicite:0]{index=0}
+Blocurile de senzori citesc starea hub-ului/dispozitivului și furnizează date pentru condiții, evenimente și logică de control.
 
 ## Senzori dispozitiv și hub
 
@@ -58,27 +58,27 @@ Returnează datele de accelerație.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
 Returnează unghiul de înclinare.
 
-- Opțiuni axă: `pitch`, `roll`, `yaw`
-- Notă: `yaw` este disponibil doar pe anumite hub-uri
+- Opțiuni axă: `înclinare`, `rotire`, `derapaj`
+- Notă: `derapaj` este disponibil doar pe anumite hub-uri
 
 ### `Obține orientarea` {#block_hubs_sensors_get_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_get_orientation.svg')} alt="block_hubs_sensors_get_orientation.svg" />
 Returnează orientarea curentă a hub-ului.
 
 - Opțiuni output: `text`, `index`
-- Valori: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Valori: `Față`, `Sus`, `Dreapta`, `Spate`, `Jos`, `Stânga`
 
 ### `Este orientarea sus` {#block_hubs_all_sensors_is_orientation_up}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_orientation_up.svg')} alt="block_hubs_all_sensors_is_orientation_up.svg" />
 Verifică dacă orientarea corespunde direcției „sus”.
 
-- Opțiuni: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Opțiuni: `Față`, `Sus`, `Dreapta`, `Spate`, `Jos`, `Stânga`
 
 ### `Setează orientarea înclinării` {#block_hubs_sensors_set_tilt_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_set_tilt_orientation.svg')} alt="block_hubs_sensors_set_tilt_orientation.svg" />
 Configurează referința de orientare.
 
-- Opțiuni: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Opțiuni: `Față`, `Sus`, `Dreapta`, `Spate`, `Jos`, `Stânga`
 
 ## Timer și senzori de mișcare
 
@@ -96,20 +96,20 @@ Resetează timerul la zero.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
 Returnează distanța măsurată.
 
-- Unități: `mm`, `cm`, `inch`, `%`
+- Unități: `mm`, `cm`, `inci`, `%`
 
 ### `Technic când distanța este` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
 Verifică/declanșează condiția de distanță.
 
-- Opțiuni: `mai aproape`, `mai departe`, `egal`
-- Unități: `mm`, `cm`, `inch`, `%`
+- Opțiuni: `mai aproape decât`, `mai departe decât`, `exact la`
+- Unități: `mm`, `cm`, `inci`, `%`
 
 ### `Valoare culoare Technic` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Returnează culoarea detectată.
 
-- Output: `valoare`, `text`
+- Output: `valoare`, `șir`
 
 ### `Technic când culoarea este` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_color_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_color_is.svg" />
@@ -145,19 +145,20 @@ Returnează valorile RGB brute.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_distance.svg" />
 Returnează distanța.
 
-- Unități: `%`, `cm`, `inch`
+- Unități: `%`, `cm`, `inci`
 
 ### `BOOST când distanța este` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_distance.svg" />
 Verifică condiția de distanță.
 
-- Opțiuni: `mai aproape`, `mai departe`, `egal`
+- Opțiuni: `mai aproape decât`, `mai departe decât`, `exact la`
+- Unități: `%`, `cm`, `inci`
 
 ### `Culoare BOOST` {#block_hubs_all_sensors_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_color.svg" />
 Returnează culoarea detectată.
 
-- Output: `valoare`, `text`
+- Output: `valoare`, `șir`
 
 ### `BOOST este culoare` {#block_hubs_all_sensors_port_boost_sensor_is_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_is_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_is_color.svg" />
@@ -177,7 +178,7 @@ Verifică pragul luminii reflectate.
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_sensors_set_power_mode.svg')} alt="block_hubs_technicmove_sensors_set_power_mode.svg" />
 Setează modul de putere.
 
-- Opțiuni: `normal`, `boost`
+- Opțiuni: `normal`, `impuls`
 
 ### `Distanță WeDo 2` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_distance.svg" />
@@ -187,4 +188,4 @@ Returnează distanța.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
 Returnează înclinarea.
 
-- Axe: `pitch`, `roll`
+- Axe: `înclinare`, `rotire`
