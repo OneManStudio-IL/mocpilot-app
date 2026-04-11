@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="36.6889mm" height="9.87778mm"
+ viewBox="0 0 104 28"
+ xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.2" baseProfile="tiny">
+<title>Abstract block</title>
+<desc>block_operator_or</desc>
+<defs>
+</defs>
+<g fill="none" stroke="black" stroke-width="1" fill-rule="evenodd" stroke-linecap="square" stroke-linejoin="bevel" >
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+</g>
+
+<g fill="#00b94d" fill-opacity="1" stroke="#007e32" stroke-opacity="1" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M0,14 L14,0 L89.4,0 L103.4,14 L89.4,28 L14,28 L0,14"/>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
+font-family="Inter" font-size="11" font-weight="700" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="nonzero" d="M49.0313,17.0547 C48.4245,17.0547 47.9004,16.9251 47.459,16.666 C47.0176,16.4069 46.6771,16.0449 46.4375,15.5801 C46.1979,15.1152 46.0781,14.5755 46.0781,13.9609 C46.0781,13.3411 46.1979,12.7988 46.4375,12.334 C46.6771,11.8691 47.0176,11.5072 47.459,11.248 C47.9004,10.9889 48.4245,10.8594 49.0313,10.8594 C49.638,10.8594 50.1621,10.9889 50.6035,11.248 C51.0449,11.5072 51.3854,11.8691 51.625,12.334 C51.8646,12.7988 51.9844,13.3411 51.9844,13.9609 C51.9844,14.5755 51.8646,15.1152 51.625,15.5801 C51.3854,16.0449 51.0449,16.4069 50.6035,16.666 C50.1621,16.9251 49.638,17.0547 49.0313,17.0547 M49.0391,15.7656 C49.3151,15.7656 49.5456,15.6868 49.7305,15.5293 C49.9154,15.3717 50.0553,15.1563 50.1504,14.8828 C50.2454,14.6094 50.293,14.2982 50.293,13.9492 C50.293,13.6003 50.2454,13.2891 50.1504,13.0156 C50.0553,12.7422 49.9154,12.526 49.7305,12.3672 C49.5456,12.2083 49.3151,12.1289 49.0391,12.1289 C48.7604,12.1289 48.5267,12.2083 48.3379,12.3672 C48.1491,12.526 48.0072,12.7422 47.9121,13.0156 C47.8171,13.2891 47.7695,13.6003 47.7695,13.9492 C47.7695,14.2982 47.8171,14.6094 47.9121,14.8828 C48.0072,15.1563 48.1491,15.3717 48.3379,15.5293 C48.5267,15.6868 48.7604,15.7656 49.0391,15.7656 M53.0703,16.9375 L53.0703,10.9375 L54.6836,10.9375 L54.6836,11.9844 L54.7461,11.9844 C54.8555,11.612 55.0391,11.3301 55.2969,11.1387 C55.5547,10.9473 55.8516,10.8516 56.1875,10.8516 C56.2708,10.8516 56.3607,10.8568 56.457,10.8672 C56.5534,10.8776 56.638,10.8919 56.7109,10.9102 L56.7109,12.3867 C56.6328,12.3633 56.5247,12.3424 56.3867,12.3242 C56.2487,12.306 56.1224,12.2969 56.0078,12.2969 C55.763,12.2969 55.5449,12.3496 55.3535,12.4551 C55.1621,12.5605 55.0111,12.707 54.9004,12.8945 C54.7897,13.082 54.7344,13.2982 54.7344,13.543 L54.7344,16.9375 L53.0703,16.9375"/>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
+font-family="Inter" font-size="11" font-weight="700" font-style="normal" 
+>
+</g>
+
+<g fill="#007e32" fill-opacity="1" stroke="#006a2a" stroke-opacity="1" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,5,3)"
+font-family="Inter" font-size="11" font-weight="700" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M0,11 L11,0 L24.2,0 L35.2,11 L24.2,22 L11,22 L0,11"/>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
+font-family="Inter" font-size="11" font-weight="700" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
+font-family="Inter" font-size="11" font-weight="700" font-style="normal" 
+>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
+font-family="Inter" font-size="11" font-weight="700" font-style="normal" 
+>
+</g>
+
+<g fill="#007e32" fill-opacity="1" stroke="#006a2a" stroke-opacity="1" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,63.2,3)"
+font-family="Inter" font-size="11" font-weight="700" font-style="normal" 
+>
+<path vector-effect="none" fill-rule="evenodd" d="M0,11 L11,0 L24.2,0 L35.2,11 L24.2,22 L11,22 L0,11"/>
+</g>
+
+<g fill="#ffffff" fill-opacity="1" stroke="none" transform="matrix(1,0,0,1,0,0)"
+font-family="Inter" font-size="11" font-weight="700" font-style="normal" 
+>
+</g>
+
+<g fill="none" stroke="#000000" stroke-opacity="1" stroke-width="1" stroke-linecap="square" stroke-linejoin="bevel" transform="matrix(1,0,0,1,0,0)"
+font-family=".AppleSystemUIFont" font-size="13" font-weight="400" font-style="normal" 
+>
+</g>
+</g>
+</svg>
