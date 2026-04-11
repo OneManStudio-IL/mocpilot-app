@@ -106,7 +106,7 @@ Spustí sa pri zmene hodnôt zrýchlenia.
 
 Spustí sa pri zmene náklonu.
 
-- Možnosti osi: `ľubovoľná`, `pitch`, `roll`, `yaw`
+- Možnosti osi: `akýkoľvek`, `náklon`, `rotácia`, `yaw`
 
 ### `Zmena orientácie` {#block_hubs_all_event_tilt_orientation_changed}
 

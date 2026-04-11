@@ -29,7 +29,7 @@ Ak je interaktivita vypnutá, ovládač nereaguje na dotyk.
 
 - Typ: príkazový blok  
 - Typické použitie: dočasné zablokovanie ovládania  
-- Možnosti stavu: `zapnuté`, `vypnuté`  
+- Možnosti stavu: `povolené`, `vypnuté`  
 
 ## Bloky tlačidiel
 
@@ -179,7 +179,7 @@ Vracia stav volantu.
 
 Spustí sa pri zmene stavu prepínača.
 
-- Možnosti: `zapnuté`, `vypnuté`  
+- Možnosti: `povolené`, `vypnuté`  
 
 ### `Hodnota prepínača (boolean)` {#block_dashboard_controller_switch_value_boolean}
 
@@ -207,4 +207,4 @@ Nastaví číselnú hodnotu (napr. tachometer).
 
 Nastaví hodnotu náklonu.
 
-- Osi: `pitch`, `roll`
+- Osi: `náklon`, `rotácia`

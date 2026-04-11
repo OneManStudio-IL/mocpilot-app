@@ -140,7 +140,7 @@ Zastaví motory.
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_brake.svg')} alt="block_hubs_technicmove_motors_brake.svg" />
 Aplikuje brzdenie.
 
-- Možnosti: `vypnuté`, `zapnuté`
+- Možnosti: `vypnuté`, `povolené`
 
 ### `Nastav riadiacu tyč na` {#block_hubs_technicmove_motors_set_steering_rack_to}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_set_steering_rack_to.svg')} alt="block_hubs_technicmove_motors_set_steering_rack_to.svg" />

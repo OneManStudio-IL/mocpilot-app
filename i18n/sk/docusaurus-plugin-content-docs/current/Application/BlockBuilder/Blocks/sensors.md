@@ -59,7 +59,7 @@ Vracia údaje o zrýchlení zo senzorov zariadenia.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
 Vracia uhol náklonu pre vybranú os.
 
-- Možnosti osi: `pitch`, `roll`, `yaw`
+- Možnosti osi: `náklon`, `rotácia`, `yaw`
 - Poznámka: `yaw` je dostupné iba na huboch, ktoré poskytujú údaje yaw.
 
 ### `Získať orientáciu` {#block_hubs_sensors_get_orientation}
@@ -97,14 +97,14 @@ Resetuje časovač na nulu.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
 Vracia hodnoty vzdialenosti zo senzora vzdialenosti Technic.
 
-- Možnosti jednotiek: `mm`, `cm`, `palec`, `%`
+- Možnosti jednotiek: `mm`, `cm`, `palce`, `%`
 
 ### `Technic keď vzdialenosť je` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
 Spúšťa/kontroluje podmienku vzdialenosti pre senzor vzdialenosti Technic.
 
 - Možnosti porovnania: `bližšie ako`, `ďalej ako`, `presne na`
-- Možnosti jednotiek: `mm`, `cm`, `palec`, `%`
+- Možnosti jednotiek: `mm`, `cm`, `palce`, `%`
 
 ### `Hodnota farby senzora Technic` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
@@ -146,14 +146,14 @@ Vracia surovú hodnotu farebného kanála zo senzora Technic.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_distance.svg" />
 Vracia vzdialenosť zo senzora vzdialenosti BOOST.
 
-- Možnosti jednotiek: `%`, `cm`, `palec`
+- Možnosti jednotiek: `%`, `cm`, `palce`
 
 ### `BOOST keď vzdialenosť je` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_distance.svg" />
 Spúšťa/kontroluje podmienku vzdialenosti pre senzor vzdialenosti BOOST.
 
 - Možnosti porovnania: `bližšie ako`, `ďalej ako`, `presne na`
-- Možnosti jednotiek: `%`, `cm`, `palec`
+- Možnosti jednotiek: `%`, `cm`, `palce`
 
 ### `BOOST farba senzora` {#block_hubs_all_sensors_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_color.svg" />
@@ -185,10 +185,10 @@ Nastaví režim výkonu Technic Move.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_distance.svg" />
 Vracia vzdialenosť zo senzora vzdialenosti WeDo 2.
 
-- Možnosti jednotiek: `%`, `cm`, `palec`
+- Možnosti jednotiek: `%`, `cm`, `palce`
 
 ### `WeDo 2 náklon` {#block_hubs_all_sensors_port_wedo2_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
 Vracia hodnotu náklonu zo senzora náklonu WeDo 2.
 
-- Možnosti osi: `pitch`, `roll`
+- Možnosti osi: `náklon`, `rotácia`

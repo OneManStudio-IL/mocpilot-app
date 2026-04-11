@@ -55,10 +55,10 @@ Použije matematickú funkciu na jednu hodnotu.
 
 Dostupné funkcie:
 
-- `abs`: absolútna hodnota čísla  
-- `floor`: zaokrúhlenie nadol na najbližšie celé číslo  
-- `ceiling`: zaokrúhlenie nahor na najbližšie celé číslo  
-- `sqrt`: druhá odmocnina  
+- `absolútna hodnota`: absolútna hodnota čísla  
+- `celé menšie`: zaokrúhlenie nadol na najbližšie celé číslo  
+- `celé väčšie`: zaokrúhlenie nahor na najbližšie celé číslo  
+- `druhá odmocnina`: druhá odmocnina  
 - `sin`: sínus (podľa uhla)  
 - `cos`: kosínus (podľa uhla)  
 - `tan`: tangens (podľa uhla)  
@@ -80,7 +80,7 @@ Dostupné funkcie:
 
 - `min`: menšia z dvoch hodnôt  
 - `max`: väčšia z dvoch hodnôt  
-- `pow`: prvá hodnota umocnená na druhú  
+- `mocnina`: prvá hodnota umocnená na druhú  
 - `atan2`: uhol zo súradníc X/Y  
 - `hypot`: dĺžka prepony zo súradníc  
 - `copysign`: prvá hodnota so znamienkom druhej  
