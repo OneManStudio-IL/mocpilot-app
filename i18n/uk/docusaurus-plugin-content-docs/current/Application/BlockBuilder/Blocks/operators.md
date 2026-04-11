@@ -47,7 +47,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Округлює до найближчого цілого (наприклад `2.6 -> 3`).
 
-### `Math single` {#block_operator_math_single}
+### `Математична функція (один аргумент)` {#block_operator_math_single}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 
@@ -70,7 +70,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - `e^`: піднести `e` до степеня вхідного значення
 - `10^`: піднести `10` до степеня вхідного значення
 
-### `Math pair` {#block_operator_math_pair}
+### `Математична функція (два аргументи)` {#block_operator_math_pair}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_pair.svg')} alt="block_operator_math_pair.svg" />
 
