@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Sensores
 
-Os blocos de sensores leem o estado do hub/dispositivo e fornecem dados para condições, eventos e lógica de controle. :contentReference[oaicite:0]{index=0}
+Os blocos de sensores leem o estado do hub/dispositivo e fornecem dados para condições, eventos e lógica de controle.
 
 ## Sensores de dispositivo e hub
 
@@ -58,27 +58,27 @@ Retorna dados de aceleração.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
 Retorna o ângulo de inclinação.
 
-- Eixos: `pitch`, `roll`, `yaw`
-- Nota: `yaw` depende do hub.
+- Eixos: `inclinação`, `rotação`, `guinada`
+- Nota: `guinada` depende do hub.
 
 ### `Obter orientação` {#block_hubs_sensors_get_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_get_orientation.svg')} alt="block_hubs_sensors_get_orientation.svg" />
 Retorna o estado atual de orientação do hub.
 
 - Formato: `texto`, `índice`
-- Valores: `Frente`, `Topo`, `Direita`, `Trás`, `Base`, `Esquerda`
+- Valores: `Frente`, `Topo`, `Direita`, `Traseira`, `Fundo`, `Esquerda`
 
 ### `Orientação é para cima` {#block_hubs_all_sensors_is_orientation_up}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_orientation_up.svg')} alt="block_hubs_all_sensors_is_orientation_up.svg" />
 Verifica se a orientação corresponde à posição selecionada.
 
-- Opções: `Frente`, `Topo`, `Direita`, `Trás`, `Base`, `Esquerda`
+- Opções: `Frente`, `Topo`, `Direita`, `Traseira`, `Fundo`, `Esquerda`
 
 ### `Definir orientação de inclinação` {#block_hubs_sensors_set_tilt_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_set_tilt_orientation.svg')} alt="block_hubs_sensors_set_tilt_orientation.svg" />
 Define a referência de orientação.
 
-- Opções: `Frente`, `Topo`, `Direita`, `Trás`, `Base`, `Esquerda`
+- Opções: `Frente`, `Topo`, `Direita`, `Traseira`, `Fundo`, `Esquerda`
 
 ## Sensores de tempo e movimento
 
@@ -96,19 +96,20 @@ Reinicia o temporizador.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
 Retorna a distância medida.
 
-- Unidades: `mm`, `cm`, `polegada`, `%`
+- Unidades: `mm`, `cm`, `polegadas`, `%`
 
 ### `Technic quando distância é` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
 Verifica condição de distância.
 
-- Comparação: `mais próximo que`, `mais distante que`, `exatamente em`
+- Comparação: `mais perto que`, `mais longe que`, `exatamente em`
+- Unidades: `mm`, `cm`, `polegadas`, `%`
 
 ### `Valor do sensor de cor Technic` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Retorna a cor detectada.
 
-- Saída: `valor`, `texto`
+- Saída: `valor`, `cadeia`
 
 ### `Technic quando cor é` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_color_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_color_is.svg" />
@@ -168,7 +169,7 @@ Verifica condição de luz refletida.
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_sensors_set_power_mode.svg')} alt="block_hubs_technicmove_sensors_set_power_mode.svg" />
 Define o modo de potência.
 
-- Opções: `normal`, `boost`
+- Opções: `normal`, `impulso`
 
 ### `WeDo 2 distância` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_distance.svg" />
@@ -178,4 +179,4 @@ Retorna a distância do sensor WeDo 2.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
 Retorna o valor de inclinação.
 
-- Eixos: `pitch`, `roll`
+- Eixos: `inclinação`, `rotação`

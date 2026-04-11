@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Eventos
 
-A categoria **Eventos** contém blocos que iniciam scripts quando uma condição acontece. :contentReference[oaicite:0]{index=0}
+A categoria **Eventos** contém blocos que iniciam scripts quando uma condição acontece.
 
 ## Eventos principais
 
@@ -106,8 +106,8 @@ Executa quando os valores de aceleração mudam.
 
 Executa quando o valor de inclinação muda.
 
-- Opções de ângulo: `qualquer`, `pitch`, `roll`, `yaw`
-- Nota: `yaw` está disponível apenas em hubs que suportam esse dado.
+- Opções de ângulo: `qualquer`, `inclinação`, `rotação`, `guinada`
+- Nota: `guinada` está disponível apenas em hubs que suportam esse dado.
 
 ### `Orientação do hub alterada` {#block_hubs_all_event_tilt_orientation_changed}
 
@@ -129,8 +129,8 @@ Executa quando o sensor de cor Technic detecta uma cor selecionada.
 
 Executa quando os valores do sensor de distância Technic correspondem à condição selecionada.
 
-- Opções de comparação: `mais próximo que`, `mais distante que`, `exatamente em`
-- Opções de unidade: `mm`, `cm`, `polegada`, `%`
+- Opções de comparação: `mais perto que`, `mais longe que`, `exatamente em`
+- Opções de unidade: `mm`, `cm`, `polegadas`, `%`
 - Nota: as unidades disponíveis podem depender do modo do sensor.
 
 ### `Evento do sensor de distância BOOST` {#block_hubs_all_event_port_boost_sensor_when_distance}
@@ -139,8 +139,8 @@ Executa quando os valores do sensor de distância Technic correspondem à condi�
 
 Executa quando o sensor de distância BOOST atinge a condição/limite definido.
 
-- Opções de comparação: `mais próximo que`, `mais distante que`, `exatamente em`
-- Opções de unidade: `%`, `cm`, `polegada`
+- Opções de comparação: `mais perto que`, `mais longe que`, `exatamente em`
+- Opções de unidade: `%`, `cm`, `polegadas`
 
 ### `Evento do sensor de cor BOOST` {#block_hubs_all_event_port_boost_sensor_color}
 

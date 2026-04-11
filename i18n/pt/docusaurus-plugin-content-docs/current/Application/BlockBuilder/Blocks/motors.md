@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Motores
 
-Os blocos de motor são usados para iniciar, parar, posicionar e ajustar motores conectados às portas do hub. :contentReference[oaicite:0]{index=0}
+Os blocos de motor são usados para iniciar, parar, posicionar e ajustar motores conectados às portas do hub.
 
 ## Blocos principais de comando de motor
 

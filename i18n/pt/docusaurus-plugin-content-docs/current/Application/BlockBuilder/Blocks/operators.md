@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Operadores
 
-Os operadores são blocos do tipo Repórter e Booleano usados para cálculos, comparações, lógica e processamento de texto. :contentReference[oaicite:0]{index=0}
+Os operadores são blocos do tipo Repórter e Booleano usados para cálculos, comparações, lógica e processamento de texto.
 
 ## Operadores aritméticos
 
@@ -55,10 +55,10 @@ Aplica uma função matemática de um único argumento.
 
 Funções disponíveis:
 
-- `abs`: valor absoluto
-- `floor`: arredondar para baixo
-- `ceiling`: arredondar para cima
-- `sqrt`: raiz quadrada
+- `valor absoluto`: valor absoluto
+- `inteiro menor`: arredondar para baixo
+- `inteiro maior`: arredondar para cima
+- `raiz quadrada`: raiz quadrada
 - `sin`: seno
 - `cos`: cosseno
 - `tan`: tangente
@@ -80,7 +80,7 @@ Funções disponíveis:
 
 - `min`: menor valor
 - `max`: maior valor
-- `pow`: primeiro valor elevado ao segundo
+- `potência`: primeiro valor elevado ao segundo
 - `atan2`: ângulo a partir de X/Y
 - `hypot`: comprimento da hipotenusa
 - `copysign`: valor com o sinal do segundo

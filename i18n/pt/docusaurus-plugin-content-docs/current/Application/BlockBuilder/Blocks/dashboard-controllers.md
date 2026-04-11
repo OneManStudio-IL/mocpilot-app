@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Controladores do painel
 
-Estes blocos são usados para ler a entrada do usuário a partir de controles na tela, reagir às ações do usuário e atualizar o estado da interface do painel. :contentReference[oaicite:0]{index=0}
+Estes blocos são usados para ler a entrada do usuário a partir de controles na tela, reagir às ações do usuário e atualizar o estado da interface do painel.
 
 ## Blocos globais de controladores do painel
 
