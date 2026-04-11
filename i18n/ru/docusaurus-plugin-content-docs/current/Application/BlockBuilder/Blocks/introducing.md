@@ -18,7 +18,7 @@ MOCPilot использует визуальную систему блочног
 
 ## Формы Блоков И Их Назначение
 
-### Стартовые Блоки (Hat)
+### Стартовые Блоки
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
@@ -29,7 +29,7 @@ MOCPilot использует визуальную систему блочног
 
 ---
 
-### Командные Блоки (Stack)
+### Командные Блоки
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
@@ -51,7 +51,7 @@ MOCPilot использует визуальную систему блочног
 
 ---
 
-### Репортер-Блоки (Reporter)
+### Репортер-Блоки
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
@@ -62,7 +62,7 @@ MOCPilot использует визуальную систему блочног
 
 ---
 
-### Логические Блоки (Boolean)
+### Логические Блоки
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
@@ -73,7 +73,7 @@ MOCPilot использует визуальную систему блочног
 
 ---
 
-### Завершающие Блоки (Cap)
+### Завершающие Блоки
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
