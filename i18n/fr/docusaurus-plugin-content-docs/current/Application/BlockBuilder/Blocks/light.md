@@ -1,82 +1,82 @@
 ---
 id: Light
-title: Light
+title: Lumière
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Light
+# Lumière
 
-This page documents Light category blocks used to control LEDs and light outputs on supported hubs.
+Cette page décrit les blocs de la catégorie Lumière utilisés pour contrôler les LED et les sorties lumineuses sur les hubs compatibles.
 
-## Common light blocks
+## Blocs lumineux communs
 
-### `Set LED color` {#block_hubs_all_light_set_led_color}
+### `Définir la couleur de la LED` {#block_hubs_all_light_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_set_led_color.svg')} alt="block_hubs_all_light_set_led_color.svg" />
 
-Sets hub LED color using predefined color options.
+Définit la couleur de la LED du hub en utilisant des options de couleur prédéfinies.
 
-- Type: command block
-- Typical use: show state (ready, running, warning, error)
+- Type : bloc de commande
+- Utilisation typique : indiquer un état (prêt, en cours, avertissement, erreur)
 
-### `Light turn to` {#block_hubs_all_light_light_turn_to}
+### `Allumer la lumière à` {#block_hubs_all_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_to.svg')} alt="block_hubs_all_light_light_turn_to.svg" />
 
-Sets selected light output to a target brightness/value.
+Définit la sortie lumineuse sélectionnée à une luminosité/valeur cible.
 
-- Type: command block
-- Typical use: headlight brightness, status intensity
+- Type : bloc de commande
+- Utilisation typique : intensité des phares, indication d’état
 
-### `Light turn off` {#block_hubs_all_light_light_turn_off}
+### `Éteindre la lumière` {#block_hubs_all_light_light_turn_off}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_off.svg')} alt="block_hubs_all_light_light_turn_off.svg" />
 
-Turns selected light output off.
+Éteint la sortie lumineuse sélectionnée.
 
-- Type: command block
-- Typical use: shutdown sequence, battery-saving behavior
+- Type : bloc de commande
+- Utilisation typique : séquence d’arrêt, économie de batterie
 
-### `Technic Move light turn to` {#block_hubs_technicmove_light_light_turn_to}
+### `Technic Move allumer la lumière à` {#block_hubs_technicmove_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_light_light_turn_to.svg')} alt="block_hubs_technicmove_light_light_turn_to.svg" />
 
-Variant of `Light turn to` for Technic Move hub/light target.
+Variante de `Allumer la lumière à` pour le hub Technic Move.
 
-- Type: command block
-- Typical use: set Move hub light output level
+- Type : bloc de commande
+- Utilisation typique : définir le niveau de sortie lumineuse du hub Move
 
-## BuWizz 3 light blocks
+## Blocs lumineux BuWizz 3
 
-### `BuWizz 3 set LED color` {#block_hubs_buwizz3_light_port_set_led_color}
+### `BuWizz 3 définir la couleur de la LED` {#block_hubs_buwizz3_light_port_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color.svg')} alt="block_hubs_buwizz3_light_port_set_led_color.svg" />
 
-Sets LED color on selected BuWizz 3 port with built-in color options.
+Définit la couleur de la LED sur le port BuWizz 3 sélectionné avec des options intégrées.
 
-- Type: command block
+- Type : bloc de commande
 
-### `BuWizz 3 set LED color (string)` {#block_hubs_buwizz3_light_port_set_led_color_string}
+### `BuWizz 3 définir la couleur de la LED (texte)` {#block_hubs_buwizz3_light_port_set_led_color_string}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_string.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_string.svg" />
 
-Sets BuWizz 3 LED color using text color value.
+Définit la couleur de la LED BuWizz 3 à partir d’une valeur texte.
 
-- Type: command block
-- Typical use: dynamic color names from variables
+- Type : bloc de commande
+- Utilisation typique : couleurs dynamiques provenant de variables
 
-### `BuWizz 3 set LED color (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
+### `BuWizz 3 définir la couleur de la LED (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_rgb.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_rgb.svg" />
 
-Sets BuWizz 3 LED color using explicit RGB channels.
+Définit la couleur de la LED BuWizz 3 à l’aide des canaux RGB.
 
-- Type: command block
-- Typical use: full custom color control and gradients
+- Type : bloc de commande
+- Utilisation typique : contrôle complet des couleurs et dégradés
 
-## Notes
+## Notes d’utilisation
 
-- Light output capabilities depend on hub and connected device.
-- If a light command has no visible effect, verify device type and target port.
-- Sensor blocks that read reflected/ambient light are documented in the **Sensors** page.
+- Les capacités d’éclairage dépendent du hub et de l’appareil connecté.
+- Si une commande lumineuse n’a aucun effet visible, vérifiez le type d’appareil et le port cible.
+- Les blocs de capteurs qui lisent la lumière réfléchie/ambiante sont documentés dans la page **Sensors**.

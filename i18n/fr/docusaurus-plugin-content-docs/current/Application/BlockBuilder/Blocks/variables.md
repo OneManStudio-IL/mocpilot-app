@@ -7,39 +7,39 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Variables
 
-Variables store values that can be read and updated across block stacks and scripts.
+Les variables stockent des valeurs qui peuvent être lues et mises à jour à travers les blocs et les scripts.
 
-## Variable command blocks
+## Blocs de commande de variables
 
 ### `Set variable to` {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
-Sets selected variable to the specified value.
+Définit la variable sélectionnée à la valeur spécifiée.
 
-- Type: command block
-- Typical use: initialize state, overwrite previous value
+- Type : bloc de commande
+- Utilisation typique : initialiser un état, écraser une valeur précédente
 
 ### `Change variable by` {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
-Adds the specified amount to selected variable.
+Ajoute la valeur spécifiée à la variable sélectionnée.
 
-- Type: command block
-- Typical use: counters, score, accumulated distance/time
+- Type : bloc de commande
+- Utilisation typique : compteurs, score, distance/temps accumulés
 
-## Variable value reporter
+## Bloc reporter de valeur de variable
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 
-Returns the current value of the selected variable.
+Retourne la valeur actuelle de la variable sélectionnée.
 
-- Type: reporter block
-- Typical use: use variable value inside operators, conditions, and command inputs
+- Type : bloc reporter
+- Utilisation typique : utiliser la valeur de la variable dans des opérateurs, des conditions et des entrées de commandes
 
-## Usage notes
+## Notes d’utilisation
 
-- Initialize important variables at program start.
-- Use `change by` for incremental updates to avoid repetitive get/set logic.
-- Keep variable names descriptive (`speed_target`, `is_armed`, `lap_count`).
+- Initialisez les variables importantes au démarrage du programme.
+- Utilisez `change by` pour des mises à jour incrémentales afin d’éviter une logique répétitive de lecture/écriture.
+- Donnez des noms descriptifs aux variables (`speed_target`, `is_armed`, `lap_count`).
