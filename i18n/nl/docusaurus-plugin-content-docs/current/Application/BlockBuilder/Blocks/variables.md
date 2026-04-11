@@ -1,39 +1,39 @@
 ---
 id: Variables
-title: Variables
+title: Variabelen
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Variables
+# Variabelen
 
-Variables store values that can be read and updated across block stacks and scripts.
+Variabelen slaan waarden op die kunnen worden gelezen en bijgewerkt in blokstapels en scripts.
 
-## Variable command blocks
+## Variabele opdrachtblokken
 
-### `Set variable to` {#block_variables_set_to}
+### `Stel variabele in op` {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
-Sets selected variable to the specified value.
+Stelt de geselecteerde variabele in op de opgegeven waarde.
 
-- Type: command block
-- Typical use: initialize state, overwrite previous value
+- Type: opdrachtblok
+- Typisch gebruik: initialiseren van status, overschrijven van eerdere waarde
 
-### `Change variable by` {#block_variables_change_by}
+### `Verander variabele met` {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
-Adds the specified amount to selected variable.
+Voegt de opgegeven hoeveelheid toe aan de geselecteerde variabele.
 
-- Type: command block
-- Typical use: counters, score, accumulated distance/time
+- Type: opdrachtblok
+- Typisch gebruik: tellers, score, geaccumuleerde afstand/tijd
 
-## Variable value reporter
+## Variabele waarde-rapporteur
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 
-Returns the current value of the selected variable.
+Geeft de huidige waarde van de geselecteerde variabele terug.
 
-- Type: reporter block
-- Typical use: use variable value inside operators, conditions, and command inputs
+- Type: rapporteurblok
+- Typisch gebruik: variabele waarde gebruiken binnen operatoren, voorwaarden en opdrachtinvoer

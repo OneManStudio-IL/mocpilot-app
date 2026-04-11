@@ -1,156 +1,156 @@
 ---
 id: Motors
-title: Motors
+title: Motoren
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Motors
+# Motoren
 
-Motor blocks are used to start, stop, position, and tune motors connected to hub ports.
+Motorblokken worden gebruikt om motoren die op hubpoorten zijn aangesloten te starten, stoppen, positioneren en af te stellen. :contentReference[oaicite:0]{index=0}
 
-## Core motor command blocks
+## Basis motoropdrachtblokken
 
 ### `Start motor` {#block_hubs_all_motors_port_start_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor.svg')} alt="block_hubs_all_motors_port_start_motor.svg" />
-Starts selected motor.
+Start de geselecteerde motor.
 
-- Direction options: clockwise / counterclockwise
+- Richtingsopties: rechtsom / linksom
 
 ### `Stop motor` {#block_hubs_all_motors_port_stop_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_stop_motor.svg')} alt="block_hubs_all_motors_port_stop_motor.svg" />
-Stops selected motor.
+Stopt de geselecteerde motor.
 
-### `Run for` {#block_hubs_all_motors_port_run_for}
+### `Draaien voor` {#block_hubs_all_motors_port_run_for}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for.svg')} alt="block_hubs_all_motors_port_run_for.svg" />
-Runs selected motor for specified time/angle/rotation based on block settings.
+Laat de geselecteerde motor draaien voor een opgegeven tijd/hoek/rotatie op basis van de blokinstellingen.
 
-- Direction options: clockwise / counterclockwise
-- Unit options: `rotations`, `degrees`, `seconds`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Richtingsopties: rechtsom / linksom
+- Eenheidsopties: `rotaties`, `graden`, `seconden`
+- Opmerking: deze functie vereist een motor op de geselecteerde poort die encodergebaseerde besturing ondersteunt.
 
-### `Start motor at speed` {#block_hubs_all_motors_port_start_motor_at_speed}
+### `Start motor met snelheid` {#block_hubs_all_motors_port_start_motor_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor_at_speed.svg')} alt="block_hubs_all_motors_port_start_motor_at_speed.svg" />
-Starts motor with explicit speed value.
+Start de motor met een expliciete snelheidswaarde.
 
-### `Run for at speed` {#block_hubs_all_motors_port_run_for_at_speed}
+### `Draaien voor met snelheid` {#block_hubs_all_motors_port_run_for_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_run_for_at_speed.svg')} alt="block_hubs_all_motors_port_run_for_at_speed.svg" />
-Runs motor for a target duration/amount with explicit speed.
+Laat de motor draaien voor een doelduur/hoeveelheid met een expliciete snelheid.
 
-- Unit options: `rotations`, `degrees`, `seconds`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Eenheidsopties: `rotaties`, `graden`, `seconden`
+- Opmerking: deze functie vereist een motor op de geselecteerde poort die encodergebaseerde besturing ondersteunt.
 
-### `Set motor speed` {#block_hubs_all_motors_port_set_motor_speed}
+### `Stel motorsnelheid in` {#block_hubs_all_motors_port_set_motor_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motor_speed.svg')} alt="block_hubs_all_motors_port_set_motor_speed.svg" />
-Sets speed used by related motor run blocks.
+Stelt de snelheid in die wordt gebruikt door gerelateerde motorblokken.
 
-## Position and movement blocks
+## Positie- en bewegingsblokken
 
-### `Go to position` {#block_hubs_all_motors_port_go_to_position}
+### `Ga naar positie` {#block_hubs_all_motors_port_go_to_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_go_to_position.svg')} alt="block_hubs_all_motors_port_go_to_position.svg" />
-Moves motor to target absolute position.
+Verplaatst de motor naar een absolute doelpositie.
 
-- Path options: `shortest path`, `clockwise`, `counterclockwise`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Padopties: `kortste pad`, `rechtsom`, `linksom`
+- Opmerking: deze functie vereist een motor op de geselecteerde poort die encodergebaseerde besturing ondersteunt.
 
-### `Go to relative position` {#block_hubs_all_motors_port_go_to_relative_position}
+### `Ga naar relatieve positie` {#block_hubs_all_motors_port_go_to_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_go_to_relative_position.svg')} alt="block_hubs_all_motors_port_go_to_relative_position.svg" />
-Moves motor by a relative offset.
+Verplaatst de motor met een relatieve offset.
 
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Opmerking: deze functie vereist een motor op de geselecteerde poort die encodergebaseerde besturing ondersteunt.
 
-### `BuWizz 3 go to relative position` {#block_hubs_buwizz3_motors_port_go_to_relative_position}
+### `BuWizz 3 ga naar relatieve positie` {#block_hubs_buwizz3_motors_port_go_to_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_motors_port_go_to_relative_position.svg')} alt="block_hubs_buwizz3_motors_port_go_to_relative_position.svg" />
-BuWizz 3 variant of relative positioning block.
+BuWizz 3-variant van het relatieve positioneringsblok.
 
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Opmerking: deze functie vereist een motor op de geselecteerde poort die encodergebaseerde besturing ondersteunt.
 
-### `Set relative position` {#block_hubs_all_motors_port_set_relative_position}
+### `Stel relatieve positie in` {#block_hubs_all_motors_port_set_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_relative_position.svg')} alt="block_hubs_all_motors_port_set_relative_position.svg" />
-Sets motor relative-position reference.
+Stelt de referentie voor de relatieve motorpositie in.
 
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Opmerking: deze functie vereist een motor op de geselecteerde poort die encodergebaseerde besturing ondersteunt.
 
-### `Calibrate steering rack` {#block_hubs_all_motors_port_calibrate_steering_rack}
+### `Kalibreer stuurmechanisme` {#block_hubs_all_motors_port_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_calibrate_steering_rack.svg')} alt="block_hubs_all_motors_port_calibrate_steering_rack.svg" />
-Calibrates steering rack neutral/reference position.
+Kalibreert de neutrale/referentiepositie van het stuurmechanisme.
 
-- Requirement: the motor connected to the selected port must support absolute/relative angle tracking (internal encoder).
-- Mechanical requirement: steering axis movement must be physically limited to a valid range (for example with steering rack/gearing end limits).
-- How it works: the block sweeps and measures the available steering rotation range, then computes calibration data used for steering configuration.
-- Output behavior: block arguments write results into variables passed to the block (function-like pass-by-reference behavior). Those variables are mutated by the block and should be used to read calibration results.
+- Vereiste: de motor op de geselecteerde poort moet absolute/relatieve hoekmeting ondersteunen (interne encoder).
+- Mechanische vereiste: de beweging van de stuuras moet fysiek beperkt zijn tot een geldig bereik (bijvoorbeeld met eindstops).
+- Werking: het blok scant en meet het beschikbare draaibereik en berekent kalibratiegegevens voor stuurconfiguratie.
+- Uitvoer: blokargumenten schrijven resultaten naar variabelen die aan het blok worden doorgegeven (pass-by-reference gedrag).
 
-## Motor tuning and safety blocks
+## Motorafstelling en veiligheidsblokken
 
-### `Set motor behavior at stop` {#block_hubs_all_motors_port_set_motor_to_at_stop}
+### `Stel motorstopgedrag in` {#block_hubs_all_motors_port_set_motor_to_at_stop}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motor_to_at_stop.svg')} alt="block_hubs_all_motors_port_set_motor_to_at_stop.svg" />
-Sets motor stop mode (for example brake/hold/float based on available options).
+Stelt de stopmodus van de motor in (bijvoorbeeld remmen/vasthouden/vrijloop).
 
-- Stop mode options: `brake`, `hold position`, `coast`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Stopmodi: `rem`, `positie vasthouden`, `vrijloop`
+- Opmerking: deze functie vereist een motor op de geselecteerde poort die encodergebaseerde besturing ondersteunt.
 
-### `Set stall detection` {#block_hubs_all_motors_port_set_motors_stall_detection}
+### `Stel blokkadedetectie in` {#block_hubs_all_motors_port_set_motors_stall_detection}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motors_stall_detection.svg')} alt="block_hubs_all_motors_port_set_motors_stall_detection.svg" />
-Enables or disables stall detection.
+Schakelt blokkadedetectie in of uit.
 
-- Note: available only for the MINDSTORMS Robot Inventor hub.
+- Opmerking: alleen beschikbaar voor de MINDSTORMS Robot Inventor hub.
 
-### `Set acceleration` {#block_hubs_all_motors_port_set_acceleration}
+### `Stel acceleratie in` {#block_hubs_all_motors_port_set_acceleration}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_acceleration.svg')} alt="block_hubs_all_motors_port_set_acceleration.svg" />
-Sets motor acceleration profile/rate.
+Stelt het acceleratieprofiel/snelheid van de motor in.
 
-- Profile options: `default`, `fast`, `balanced`, `smooth`, `slow`, `very slow`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Profielopties: `standaard`, `snel`, `gebalanceerd`, `vloeiend`, `traag`, `zeer traag`
+- Opmerking: deze functie vereist een motor op de geselecteerde poort die encodergebaseerde besturing ondersteunt.
 
-### `Set deceleration` {#block_hubs_all_motors_port_set_deceleration}
+### `Stel deceleratie in` {#block_hubs_all_motors_port_set_deceleration}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_deceleration.svg')} alt="block_hubs_all_motors_port_set_deceleration.svg" />
-Sets motor deceleration profile/rate.
+Stelt het deceleratieprofiel/snelheid van de motor in.
 
-- Profile options: `default`, `fast`, `balanced`, `smooth`, `slow`, `very slow`
-- Note: this feature requires a motor on the selected port that supports encoder-based control.
+- Profielopties: `standaard`, `snel`, `gebalanceerd`, `vloeiend`, `traag`, `zeer traag`
+- Opmerking: deze functie vereist een motor op de geselecteerde poort die encodergebaseerde besturing ondersteunt.
 
-## Motor reporter blocks
+## Motor rapporteurblokken
 
-### `Position` {#block_hubs_all_motors_port_position}
+### `Positie` {#block_hubs_all_motors_port_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_position.svg')} alt="block_hubs_all_motors_port_position.svg" />
-Returns current motor position.
+Geeft de huidige motorpositie terug.
 
-### `Relative position` {#block_hubs_all_motors_port_relative_position}
+### `Relatieve positie` {#block_hubs_all_motors_port_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_relative_position.svg')} alt="block_hubs_all_motors_port_relative_position.svg" />
-Returns current relative position value.
+Geeft de huidige relatieve positie terug.
 
-### `Speed` {#block_hubs_all_motors_port_speed}
+### `Snelheid` {#block_hubs_all_motors_port_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_speed.svg')} alt="block_hubs_all_motors_port_speed.svg" />
-Returns current motor speed.
+Geeft de huidige motorsnelheid terug.
 
-### `Power` {#block_hubs_all_motors_port_power}
+### `Vermogen` {#block_hubs_all_motors_port_power}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_power.svg')} alt="block_hubs_all_motors_port_power.svg" />
-Returns current motor power value.
+Geeft het huidige motorvermogen terug.
 
-- Note: available only for the MINDSTORMS Robot Inventor hub.
+- Opmerking: alleen beschikbaar voor de MINDSTORMS Robot Inventor hub.
 
-## Technic Move motor blocks
+## Technic Move motorblokken
 
-### `Start motors at speed` {#block_hubs_technicmove_motors_start_motors_at_speed}
+### `Start motoren met snelheid` {#block_hubs_technicmove_motors_start_motors_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_start_motors_at_speed.svg')} alt="block_hubs_technicmove_motors_start_motors_at_speed.svg" />
-Starts Technic Move drive motors at selected speed.
+Start Technic Move aandrijfmotoren met de geselecteerde snelheid.
 
-### `Stop motors` {#block_hubs_technicmove_motors_stop_motors}
+### `Stop motoren` {#block_hubs_technicmove_motors_stop_motors}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_stop_motors.svg')} alt="block_hubs_technicmove_motors_stop_motors.svg" />
-Stops Technic Move drive motors.
+Stopt Technic Move aandrijfmotoren.
 
-### `Brake` {#block_hubs_technicmove_motors_brake}
+### `Rem` {#block_hubs_technicmove_motors_brake}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_brake.svg')} alt="block_hubs_technicmove_motors_brake.svg" />
-Applies brake behavior to Technic Move motors.
+Past remgedrag toe op Technic Move motoren.
 
-- Brake options: `off`, `on`
+- Remopties: `uit`, `aan`
 
-### `Set steering rack to` {#block_hubs_technicmove_motors_set_steering_rack_to}
+### `Stel stuurmechanisme in op` {#block_hubs_technicmove_motors_set_steering_rack_to}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_set_steering_rack_to.svg')} alt="block_hubs_technicmove_motors_set_steering_rack_to.svg" />
-Sets steering rack target position/value.
+Stelt de doelpositie/waarde van het stuurmechanisme in.
 
-### `Calibrate steering rack` {#block_hubs_technicmove_motors_calibrate_steering_rack}
+### `Kalibreer stuurmechanisme` {#block_hubs_technicmove_motors_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_calibrate_steering_rack.svg')} alt="block_hubs_technicmove_motors_calibrate_steering_rack.svg" />
-Calibrates the Technic Move steering rack using the hub's internal calibration algorithm and automatic steering range detection.
+Kalibreert het Technic Move stuurmechanisme met behulp van het interne kalibratie-algoritme en automatische detectie van het stuur bereik.
 
-- Note: the motor axis must be mechanically limited (for example, by a steering rack mechanism).
+- Opmerking: de motoras moet mechanisch begrensd zijn (bijvoorbeeld door een stuurmechanisme).

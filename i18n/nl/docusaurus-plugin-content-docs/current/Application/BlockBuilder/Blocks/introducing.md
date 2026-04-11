@@ -1,152 +1,152 @@
 ---
 id: BlocksIntroducing
-title: Blocks Introducing
+title: Introductie van blokken
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Blocks Introducing
+# Introductie van blokken
 
-MOCPilot uses a visual block programming system that looks and feels similar to Scratch.
-Each block has a specific role, and valid combinations define control flow and data flow through a script.
-It uses drag-and-drop logic and Scratch-like interaction patterns to provide a convenient and familiar way to build programs.
+MOCPilot gebruikt een visueel blokprogrammeringssysteem dat lijkt op en aanvoelt als Scratch.
+Elk blok heeft een specifieke rol, en geldige combinaties bepalen de besturingsstroom en gegevensstroom binnen een script.
+Het maakt gebruik van drag-and-drop logica en interactiepatronen vergelijkbaar met Scratch om een handige en vertrouwde manier te bieden om programma’s te bouwen. :contentReference[oaicite:0]{index=0}
 
-:::warning Compatibility Notice
-This is a different block system with its own block set and behavior.
-MOCPilot programs are not compatible with Scratch projects: MOCPilot programs cannot be imported into Scratch, and Scratch programs cannot be imported into MOCPilot.
+:::warning Compatibiliteitsmelding
+Dit is een ander bloksysteem met een eigen set blokken en gedrag.  
+MOCPilot-programma’s zijn niet compatibel met Scratch-projecten: MOCPilot-programma’s kunnen niet in Scratch worden geïmporteerd en Scratch-programma’s kunnen niet in MOCPilot worden geïmporteerd.
 :::
 
-## Block shapes and meaning
+## Blokvormen en betekenis
 
-### Hat Blocks
+### Startblokken
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
   <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 </div>
 
-Start a script when a specific event occurs. Blocks can only be attached below.
+Starten een script wanneer een specifieke gebeurtenis plaatsvindt. Blokken kunnen alleen eronder worden gekoppeld.
 
 ---
 
-### Stack Blocks
+### Stapelblokken (Stack Blocks)
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_reset.svg')} alt="block_sensors_timer_reset.svg" />
 </div>
 
-Main command blocks that perform actions.
+Hoofdopdrachtblokken die acties uitvoeren.
 
 ---
 
-### C Blocks
+### C-blokken
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 </div>
 
-C-shaped control blocks that contain nested block stacks (loops/conditions).
+C-vormige besturingsblokken die geneste blokstapels bevatten (lussen/voorwaarden).
 
 ---
 
-### Reporter Blocks
+### Rapporteurblokken
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 </div>
 
-Return values such as numbers or strings.
+Geven waarden terug zoals getallen of tekst.
 
 ---
 
-### Boolean Blocks
+### Booleaanse blokken
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 </div>
 
-Return only `true` or `false`, typically used in conditions.
+Geven alleen `true` of `false` terug, meestal gebruikt in voorwaarden.
 
 ---
 
-### Cap Blocks
+### Eindblokken
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 </div>
 
-End scripts and do not allow blocks below.
+Beëindigen scripts en laten geen blokken eronder toe.
 
 ---
 
-### Blocks Stack
+### Blokstapel
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks_stack.svg')} alt="blocks_stack.svg" />
 </div>
 
-A block stack is a sequence of connected blocks that runs as one script flow from top to bottom.
-Stacks usually start with an event block and then execute attached blocks in order.
+Een blokstapel is een reeks verbonden blokken die als één script van boven naar beneden wordt uitgevoerd.  
+Stapelblokken beginnen meestal met een gebeurtenisblok en voeren daarna de gekoppelde blokken in volgorde uit.
 
 ---
 
-## Script execution model
+## Script-uitvoeringsmodel
 
-- A script usually starts from an event block.
-- Connected stack blocks run top to bottom.
-- Multiple scripts can run in parallel.
-- Message/broadcast blocks are used to synchronize scripts.
-- A block stack is a sequence of blocks connected together.
+- Een script start meestal met een gebeurtenisblok.
+- Verbonden stapelblokken worden van boven naar beneden uitgevoerd.
+- Meerdere scripts kunnen parallel draaien.
+- Bericht-/broadcastblokken worden gebruikt om scripts te synchroniseren.
+- Een blokstapel is een reeks verbonden blokken.
 
-## Data and values
+## Gegevens en waarden
 
-- Reporter blocks can be nested inside command/condition inputs.
-- Variables store reusable values across blocks and scripts.
-- Lists store ordered collections for history, queues, and lookup data.
+- Rapporteurblokken kunnen genest worden in invoervelden van opdrachten/voorwaarden.
+- Variabelen slaan herbruikbare waarden op tussen blokken en scripts.
+- Lijsten slaan geordende verzamelingen op voor geschiedenis, wachtrijen en opzoekgegevens.
 
-## Events and timing
+## Gebeurtenissen en timing
 
-- Event blocks react to user input, hub state, sensors, or messages.
-- Timer- and sensor-based events may trigger frequently.
-- Use thresholds, filtering, or short waits to reduce noisy repeated triggers.
+- Gebeurtenisblokken reageren op gebruikersinvoer, hubstatus, sensoren of berichten.
+- Timer- en sensorgebaseerde gebeurtenissen kunnen vaak worden geactiveerd.
+- Gebruik drempels, filtering of korte wachttijden om herhaalde triggers te verminderen.
 
-## Hub, ports, and controllers
+## Hub, poorten en controllers
 
-- Hub blocks target hub and port context.
-- Some blocks are available only for specific hub families/devices.
-- Dashboard and gamepad blocks provide runtime input and UI control.
+- Hubblokken werken binnen de context van hub en poort.
+- Sommige blokken zijn alleen beschikbaar voor specifieke hubfamilies/apparaten.
+- Dashboard- en gamepadblokken bieden runtime-invoer en UI-besturing.
 
-## Recommended workflow
+## Aanbevolen workflow
 
-1. Start with one event block and a minimal script.
-2. Validate motor/sensor direction and ranges early.
-3. Extract repeated logic with messages and helper scripts.
-4. Add safeguards (limits, stops, fallback values) before final tuning.
+1. Begin met één gebeurtenisblok en een minimaal script.
+2. Controleer vroegtijdig motor-/sensorrichting en bereik.
+3. Hergebruik logica met berichten en hulpscripts.
+4. Voeg beveiligingen toe (limieten, stops, fallbackwaarden) vóór finetuning.
 
-## Common pitfalls
+## Veelvoorkomende valkuilen
 
-- Missing event entry block means script never starts.
-- Wrong hub/port selection causes no visible effect.
-- Mixing value types (text/number/boolean) can produce invalid logic.
-- High-frequency events without filtering can overload behavior.
+- Geen startblok → script wordt nooit uitgevoerd.
+- Verkeerde hub-/poortselectie → geen zichtbaar effect.
+- Mengen van waardetypen (tekst/getal/boolean) kan ongeldige logica veroorzaken.
+- Hoogfrequente gebeurtenissen zonder filtering kunnen gedrag overbelasten.
 
-## Documentation structure in this section
+## Documentatiestructuur in deze sectie
 
-Use category pages in this order:
+Gebruik categoriepagina’s in deze volgorde:
 
 - Light
 - Motors
 - Sensors
-- Events
-- Control
+- Gebeurtenissen
+- Besturing
 - Operators
-- Variables
-- Lists
-- My Blocks
-- Dashboard controllers
+- Variabelen
+- Lijsten
+- Mijn blokken
+- Dashboardbedieningselementen
 - Gamepad

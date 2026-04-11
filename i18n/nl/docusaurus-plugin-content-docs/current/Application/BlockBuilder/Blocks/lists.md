@@ -1,78 +1,78 @@
 ---
 id: Lists
-title: Lists
+title: Lijsten
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Lists
+# Lijsten
 
-Lists store ordered collections of values and are manipulated by dedicated list Reporter and Stack blocks.
+Lijsten slaan geordende verzamelingen van waarden op en worden beheerd met speciale lijst-rapporteur- en stapelblokken.
 
-## List mutation blocks
+## Lijstbewerkingsblokken
 
-### `Add value to list` {#block_lists_add}
+### `Waarde toevoegen aan lijst` {#block_lists_add}
 
 <img src={useBaseUrl('/img/blocks/block_lists_add.svg')} alt="block_lists_add.svg" />
 
-Appends a value to the end of selected list.
+Voegt een waarde toe aan het einde van de geselecteerde lijst.
 
-### `Insert at` {#block_lists_insert_at}
+### `Invoegen op` {#block_lists_insert_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_insert_at.svg')} alt="block_lists_insert_at.svg" />
 
-Inserts a value at selected index in the list.
+Voegt een waarde in op de geselecteerde index in de lijst.
 
-### `Replace at` {#block_lists_replace_at}
+### `Vervangen op` {#block_lists_replace_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_replace_at.svg')} alt="block_lists_replace_at.svg" />
 
-Replaces item at selected index with new value.
+Vervangt het item op de geselecteerde index door een nieuwe waarde.
 
-### `Delete` {#block_lists_delete}
+### `Verwijderen` {#block_lists_delete}
 
 <img src={useBaseUrl('/img/blocks/block_lists_delete.svg')} alt="block_lists_delete.svg" />
 
-Deletes item at selected index (or selected delete mode).
+Verwijdert het item op de geselecteerde index (of volgens de gekozen verwijdermodus).
 
-### `Clear all` {#block_lists_clear_all}
+### `Alles wissen` {#block_lists_clear_all}
 
 <img src={useBaseUrl('/img/blocks/block_lists_clear_all.svg')} alt="block_lists_clear_all.svg" />
 
-Removes all items from selected list.
+Verwijdert alle items uit de geselecteerde lijst.
 
-## List value/check blocks
+## Lijstwaarde-/controleblokken
 
-### `Item at` {#block_lists_item_at}
+### `Item op` {#block_lists_item_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_item_at.svg')} alt="block_lists_item_at.svg" />
 
-Returns value at selected index.
+Geeft de waarde terug op de geselecteerde index.
 
-### `Index of value` {#block_lists_index_of_value}
+### `Index van waarde` {#block_lists_index_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_index_of_value.svg')} alt="block_lists_index_of_value.svg" />
 
-Returns index of the first matching value in list.
+Geeft de index terug van de eerste overeenkomende waarde in de lijst.
 
-### `Contains value` {#block_lists_contains_value}
+### `Bevat waarde` {#block_lists_contains_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_contains_value.svg')} alt="block_lists_contains_value.svg" />
 
-Returns whether list contains a specified value.
+Geeft aan of de lijst een bepaalde waarde bevat.
 
-### `Size of list` {#block_lists_size_of_value}
+### `Grootte van lijst` {#block_lists_size_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_size_of_value.svg')} alt="block_lists_size_of_value.svg" />
 
-Returns number of items in selected list.
+Geeft het aantal items in de geselecteerde lijst terug.
 
-## List value reporter
+## Lijstwaarde-rapporteur
 
 <img src={useBaseUrl('/img/blocks/list.svg')} alt="list.svg" />
 
-Returns the current value of the selected list.
+Geeft de huidige waarde van de geselecteerde lijst terug.
 
-- Type: reporter block
-- Output format example: `[item1,item2,item3]`
-- Typical use: inspect current list content or pass the list value into compatible blocks
+- Type: rapporteurblok
+- Uitvoerformaat voorbeeld: `[item1,item2,item3]`
+- Typisch gebruik: huidige lijstinhoud bekijken of de lijstwaarde doorgeven aan compatibele blokken

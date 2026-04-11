@@ -1,34 +1,34 @@
 ---
 id: MyBlocks
-title: My Blocks
+title: Mijn blokken
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# My Blocks
+# Mijn blokken
 
-My Blocks let you define your own custom reusable block.
-This category is conceptually similar to creating a function in traditional programming: define behavior once, then call it many times.
+Met Mijn blokken kun je je eigen herbruikbare blokken definiëren.  
+Deze categorie is conceptueel vergelijkbaar met het maken van een functie in traditionele programmeertalen: definieer gedrag één keer en roep het daarna meerdere keren aan.
 
-## Core My Blocks
+## Basis Mijn blokken
 
-### `Make a Block`
+### `Maak een blok`
 
-Creates a new custom block definition.
+Maakt een nieuwe aangepaste blokdefinitie.
 
-- Type: definition/setup block
-- Typical use: group repeated logic into one named block
+- Type: definitie-/instelblok
+- Typisch gebruik: herhaalde logica groeperen in één benoemd blok
 
-### `MyBlock` (call block)
+### `MijnBlok` (aanroepblok)
 
-Calls a previously created custom block.
+Roept een eerder aangemaakt aangepast blok aan.
 
-- Type: stack block (custom command call)
-- Typical use: reuse the same logic in multiple places without duplicating block stacks
+- Type: stapelblok (aangepaste opdracht-aanroep)
+- Typisch gebruik: dezelfde logica op meerdere plaatsen hergebruiken zonder blokstapels te dupliceren
 
-## Variadic examples
+## Variadische voorbeelden
 
-These examples show custom My Blocks with different argument signatures.
+Deze voorbeelden tonen aangepaste Mijn blokken met verschillende argumentstructuren.
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758091855.svg')} alt="block_myblock_1775758091855.svg" />
@@ -40,30 +40,30 @@ These examples show custom My Blocks with different argument signatures.
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758145135.svg')} alt="block_myblock_1775758145135.svg" />
 </div>
 
-## Example usage in program stack
+## Voorbeeldgebruik in een programmastapel
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-usage-example.png')} alt="my-blocks-usage-example.png" />
 
-This example shows a custom block call attached under `when program starts`, while the `define my block` stack contains the reusable motor logic.
+Dit voorbeeld toont een aangepaste blokaanroep onder `wanneer programma start`, terwijl de `definieer mijn blok`-stapel de herbruikbare motorlogica bevat.
 
-- Typical flow: call custom block from event stacks
-- Benefit: one definition, many call sites
+- Typische flow: aangepaste blokken aanroepen vanuit gebeurtenisstapels  
+- Voordeel: één definitie, meerdere aanroeppunten  
 
-## My Block editor view
+## Mijn blok-editorweergave
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-editor-cropped.png')} alt="my-blocks-editor-cropped.png" />
 
-The Make a Block editor is used to design your custom block signature.
-You can add labels and inputs (for example number/text and boolean inputs), then define implementation logic in the block definition stack.
+De editor *Maak een blok* wordt gebruikt om de signatuur van je aangepaste blok te ontwerpen.  
+Je kunt labels en invoervelden toevoegen (bijvoorbeeld getal/tekst en boolean), en daarna de implementatielogica definiëren in de blokdefinitiestapel.
 
-## Why use My Blocks
+## Waarom Mijn blokken gebruiken
 
-- Reusability: write once, call many times.
-- Readability: replace long repeated stacks with one meaningful name.
-- Maintainability: update logic in one place instead of many copies.
-- Structure: split large programs into smaller logical units.
+- Herbruikbaarheid: één keer schrijven, meerdere keren gebruiken  
+- Leesbaarheid: vervang lange herhaalde blokken door één betekenisvolle naam  
+- Onderhoudbaarheid: logica op één plek aanpassen in plaats van meerdere kopieën  
+- Structuur: grote programma’s opsplitsen in kleinere logische onderdelen  
 
-## Notes
+## Opmerkingen
 
-- Custom blocks are project-level and intended for reuse inside the same profile/project context.
-- Prefer descriptive names that explain intent, not implementation details.
+- Aangepaste blokken zijn projectgebonden en bedoeld voor hergebruik binnen dezelfde profiel-/projectcontext.  
+- Gebruik bij voorkeur beschrijvende namen die de bedoeling uitleggen, niet de implementatiedetails.

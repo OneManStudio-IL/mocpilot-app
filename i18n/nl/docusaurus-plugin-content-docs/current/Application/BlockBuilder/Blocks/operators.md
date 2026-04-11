@@ -1,170 +1,170 @@
 ---
 id: Operators
-title: Operators
+title: Operatoren
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Operators
+# Operatoren
 
-Operators are Reporter and Boolean blocks used for calculations, comparisons, logic, and string processing.
+Operatoren zijn rapporteur- en booleaanse blokken die worden gebruikt voor berekeningen, vergelijkingen, logica en tekstverwerking. :contentReference[oaicite:0]{index=0}
 
-## Arithmetic operators
+## Rekenkundige operatoren
 
-### `Plus` {#block_operator_plus}
+### `Optellen` {#block_operator_plus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_plus.svg')} alt="block_operator_plus.svg" />
 
-Returns the sum of two values.
+Geeft de som van twee waarden terug.
 
-### `Minus` {#block_operator_minus}
+### `Aftrekken` {#block_operator_minus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_minus.svg')} alt="block_operator_minus.svg" />
 
-Returns the subtraction result of two values.
+Geeft het resultaat van de aftrekking van twee waarden terug.
 
-### `Multiply` {#block_operator_multiply}
+### `Vermenigvuldigen` {#block_operator_multiply}
 
 <img src={useBaseUrl('/img/blocks/block_operator_multiply.svg')} alt="block_operator_multiply.svg" />
 
-Returns the product of two values.
+Geeft het product van twee waarden terug.
 
-### `Divide` {#block_operator_divide}
+### `Delen` {#block_operator_divide}
 
 <img src={useBaseUrl('/img/blocks/block_operator_divide.svg')} alt="block_operator_divide.svg" />
 
-Returns the division result of two values.
+Geeft het resultaat van de deling van twee waarden terug.
 
-### `Modulus` {#block_operator_modulus}
+### `Modulo` {#block_operator_modulus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_modulus.svg')} alt="block_operator_modulus.svg" />
 
-Returns the remainder after division.
+Geeft de rest na deling terug.
 
-### `Round` {#block_operator_round}
+### `Afronden` {#block_operator_round}
 
 <img src={useBaseUrl('/img/blocks/block_operator_round.svg')} alt="block_operator_round.svg" />
 
-Rounds to nearest integer (for example `2.6 -> 3`).
+Rondt af naar het dichtstbijzijnde gehele getal (bijvoorbeeld `2.6 -> 3`).
 
-### `Math single` {#block_operator_math_single}
+### `Enkele wiskundige functie` {#block_operator_math_single}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 
-Applies a single-argument math function.
+Past een wiskundige functie met één argument toe.
 
-Available functions:
+Beschikbare functies:
 
-- `abs`: absolute value of a number
-- `floor`: round down to nearest integer
-- `ceiling`: round up to nearest integer
-- `sqrt`: square root
-- `sin`: sine (angle-based)
-- `cos`: cosine (angle-based)
-- `tan`: tangent (angle-based)
-- `asin`: inverse sine
-- `acos`: inverse cosine
-- `atan`: inverse tangent
-- `ln`: natural logarithm (base `e`)
-- `log`: logarithm base `10`
-- `e^`: raise `e` to power of input
-- `10^`: raise `10` to power of input
+- `abs`: absolute waarde van een getal  
+- `floor`: afronden naar beneden  
+- `ceiling`: afronden naar boven  
+- `sqrt`: vierkantswortel  
+- `sin`: sinus (hoekgebaseerd)  
+- `cos`: cosinus (hoekgebaseerd)  
+- `tan`: tangens (hoekgebaseerd)  
+- `asin`: inverse sinus  
+- `acos`: inverse cosinus  
+- `atan`: inverse tangens  
+- `ln`: natuurlijke logaritme (basis `e`)  
+- `log`: logaritme basis `10`  
+- `e^`: `e` tot de macht van invoer  
+- `10^`: `10` tot de macht van invoer  
 
-### `Math pair` {#block_operator_math_pair}
+### `Wiskundige functie (2 waarden)` {#block_operator_math_pair}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_pair.svg')} alt="block_operator_math_pair.svg" />
 
-Applies a two-argument math function.
+Past een wiskundige functie met twee argumenten toe.
 
-Available functions:
+Beschikbare functies:
 
-- `min`: smaller of two values
-- `max`: larger of two values
-- `pow`: first value raised to second value power
-- `atan2`: angle from X/Y pair
-- `hypot`: hypotenuse length from two components
-- `copysign`: first value with sign of second value
+- `min`: kleinste van twee waarden  
+- `max`: grootste van twee waarden  
+- `pow`: eerste waarde tot de macht van de tweede  
+- `atan2`: hoek uit X/Y-paar  
+- `hypot`: lengte van de hypotenusa uit twee componenten  
+- `copysign`: eerste waarde met teken van tweede waarde  
 
-### `Pick random` {#block_operator_pick_random}
+### `Kies willekeurig` {#block_operator_pick_random}
 
 <img src={useBaseUrl('/img/blocks/block_operator_pick_random.svg')} alt="block_operator_pick_random.svg" />
 
-Returns a random number in the selected range.
+Geeft een willekeurig getal binnen het geselecteerde bereik terug.
 
-## Comparison operators
+## Vergelijkingsoperatoren
 
-### `Equal` {#block_operator_equal}
+### `Gelijk` {#block_operator_equal}
 
 <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
 
-Returns `true` when two values are equal.
+Geeft `true` terug wanneer twee waarden gelijk zijn.
 
-### `Not equal` {#block_operator_not_equal}
+### `Niet gelijk` {#block_operator_not_equal}
 
 <img src={useBaseUrl('/img/blocks/block_operator_not_equal.svg')} alt="block_operator_not_equal.svg" />
 
-Returns `true` when two values are not equal.
+Geeft `true` terug wanneer twee waarden niet gelijk zijn.
 
-### `Greater than` {#block_operator_greater_than}
+### `Groter dan` {#block_operator_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_greater_than.svg')} alt="block_operator_greater_than.svg" />
 
-Returns `true` when left value is greater than right value.
+Geeft `true` terug wanneer de linker waarde groter is dan de rechter waarde.
 
-### `Less than` {#block_operator_less_than}
+### `Kleiner dan` {#block_operator_less_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_less_than.svg')} alt="block_operator_less_than.svg" />
 
-Returns `true` when left value is less than right value.
+Geeft `true` terug wanneer de linker waarde kleiner is dan de rechter waarde.
 
-### `Is in between` {#block_operator_is_in_between}
+### `Ligt tussen` {#block_operator_is_in_between}
 
 <img src={useBaseUrl('/img/blocks/block_operator_is_in_between.svg')} alt="block_operator_is_in_between.svg" />
 
-Returns `true` when a value is inside specified bounds.
+Geeft `true` terug wanneer een waarde binnen de opgegeven grenzen ligt.
 
-## Boolean logic operators
+## Booleaanse logica-operatoren
 
-### `And` {#block_operator_and}
+### `En` {#block_operator_and}
 
 <img src={useBaseUrl('/img/blocks/block_operator_and.svg')} alt="block_operator_and.svg" />
 
-Returns `true` only when both conditions are `true`.
+Geeft alleen `true` terug wanneer beide voorwaarden `true` zijn.
 
-### `Or` {#block_operator_or}
+### `Of` {#block_operator_or}
 
 <img src={useBaseUrl('/img/blocks/block_operator_or.svg')} alt="block_operator_or.svg" />
 
-Returns `true` when at least one condition is `true`.
+Geeft `true` terug wanneer minstens één voorwaarde `true` is.
 
-### `Not` {#block_operator_not}
+### `Niet` {#block_operator_not}
 
 <img src={useBaseUrl('/img/blocks/block_operator_not.svg')} alt="block_operator_not.svg" />
 
-Inverts a boolean value.
+Keert een booleaanse waarde om.
 
-## Text operators
+## Tekstoperatoren
 
-### `Join` {#block_operator_join}
+### `Samenvoegen` {#block_operator_join}
 
 <img src={useBaseUrl('/img/blocks/block_operator_join.svg')} alt="block_operator_join.svg" />
 
-Concatenates two text values.
+Voegt twee tekstwaarden samen.
 
-### `Letter at` {#block_operator_letter_at}
+### `Letter op` {#block_operator_letter_at}
 
 <img src={useBaseUrl('/img/blocks/block_operator_letter_at.svg')} alt="block_operator_letter_at.svg" />
 
-Returns character at a selected position in text.
+Geeft het teken op een geselecteerde positie in de tekst terug.
 
-### `Size of string` {#block_operator_size_of_string}
+### `Lengte van tekst` {#block_operator_size_of_string}
 
 <img src={useBaseUrl('/img/blocks/block_operator_size_of_string.svg')} alt="block_operator_size_of_string.svg" />
 
-Returns string length.
+Geeft de lengte van de tekst terug.
 
-### `String contains` {#block_operator_string_contains}
+### `Tekst bevat` {#block_operator_string_contains}
 
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 
-Returns `true` if text contains specified substring.
+Geeft `true` terug als de tekst de opgegeven substring bevat.

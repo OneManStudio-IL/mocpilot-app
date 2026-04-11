@@ -1,150 +1,149 @@
 ---
 id: Events
-title: Events
+title: Gebeurtenissen
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Events
+# Gebeurtenissen
 
-The **Events** category contains blocks that start scripts when a condition happens.
+De categorie **Gebeurtenissen** bevat blokken die scripts starten wanneer een voorwaarde optreedt. :contentReference[oaicite:0]{index=0}
 
-## Core events
+## Kerngebeurtenissen
 
-### `When program started` {#block_event_when_program_started}
+### `Wanneer programma gestart` {#block_event_when_program_started}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
 
-Starts this script once when the profile program begins.
+Start dit script één keer wanneer het profielprogramma begint.
 
-- Trigger: program launch
-- Typical use: initialize variables, default motor states, startup sounds
+- Trigger: programmastart
+- Typisch gebruik: initialiseren van variabelen, standaard motorstatussen, opstartgeluiden
 
-### `When` {#block_event_when}
+### `Wanneer` {#block_event_when}
 
 <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 
-Runs when a selected condition becomes true.
+Wordt uitgevoerd wanneer een geselecteerde voorwaarde waar wordt.
 
-- Trigger: condition-based
-- Typical use: branch logic based on runtime state
+- Trigger: voorwaarde-gebaseerd
+- Typisch gebruik: logica vertakken op basis van runtime-status
 
-### `When timer greater than` {#block_event_when_timer_greater_than}
+### `Wanneer timer groter dan` {#block_event_when_timer_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_timer_greater_than.svg')} alt="block_event_when_timer_greater_than.svg" />
 
-Runs when timer value passes a threshold.
+Wordt uitgevoerd wanneer de timerwaarde een drempel overschrijdt.
 
-- Trigger: elapsed time
-- Typical use: delayed actions, timed phases
+- Trigger: verstreken tijd
+- Typisch gebruik: vertraagde acties, tijdgebaseerde fasen
 
-### `When message received` {#block_event_when_message_recieved}
+### `Wanneer bericht ontvangen` {#block_event_when_message_recieved}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_message_recieved.svg')} alt="block_event_when_message_recieved.svg" />
 
-Starts a script when a matching broadcast message is received.
+Start een script wanneer een overeenkomend broadcastbericht wordt ontvangen.
 
-- Trigger: message channel
-- Typical use: synchronize multiple scripts
+- Trigger: berichtkanaal
+- Typisch gebruik: synchronisatie van meerdere scripts
 
 ### `Broadcast` {#block_event_broadcast}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast.svg')} alt="block_event_broadcast.svg" />
 
-Sends a message to all scripts listening for that message.
+Stuurt een bericht naar alle scripts die naar dat bericht luisteren.
 
-- Trigger: immediate send
-- Typical use: notify other scripts without waiting
+- Trigger: directe verzending
+- Typisch gebruik: andere scripts informeren zonder te wachten
 
-### `Broadcast and wait` {#block_event_broadcast_and_wait}
+### `Broadcast en wacht` {#block_event_broadcast_and_wait}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast_and_wait.svg')} alt="block_event_broadcast_and_wait.svg" />
 
-Sends a message and pauses this script until listeners complete.
+Stuurt een bericht en pauzeert dit script totdat de luisteraars klaar zijn.
 
-- Trigger: immediate send + wait
-- Typical use: staged flows where order matters
+- Trigger: directe verzending + wachten
+- Typisch gebruik: gefaseerde workflows waarbij volgorde belangrijk is
 
-## Hub events
+## Hubgebeurtenissen
 
-### `Hub button pressed` {#block_hubs_all_event_button_pressed}
+### `Hubknop ingedrukt` {#block_hubs_all_event_button_pressed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_button_pressed.svg')} alt="block_hubs_all_event_button_pressed.svg" />
 
-Runs when the main button on the hub is pressed.
+Wordt uitgevoerd wanneer de hoofdknop op de hub wordt ingedrukt.
 
-- State options: `pressed`, `released`, `changed`
-- Note: available button options may differ by hub model (different hubs can expose different button sets).
+- Statusopties: `ingedrukt`, `losgelaten`, `gewijzigd`
+- Opmerking: beschikbare knopopties kunnen verschillen per hubmodel (verschillende hubs kunnen verschillende knoppen hebben).
 
-### `Hub connection changed` {#block_hubs_all_event_connection_changed}
+### `Hubverbinding gewijzigd` {#block_hubs_all_event_connection_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_connection_changed.svg')} alt="block_hubs_all_event_connection_changed.svg" />
 
-Runs when the hub connection state changes (connected or disconnected).
+Wordt uitgevoerd wanneer de verbindingsstatus van de hub verandert (verbonden of losgekoppeld).
 
-- Trigger: hub connection status change
-- Typical use: reconnection handling and safe fallback behavior after link loss
+- Trigger: wijziging van hubverbindingsstatus
+- Typisch gebruik: herverbindingslogica en veilige fallback na verbindingsverlies
 
-### `Hub battery changed` {#block_hubs_all_event_battery_changed}
+### `Hubbatterij gewijzigd` {#block_hubs_all_event_battery_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_battery_changed.svg')} alt="block_hubs_all_event_battery_changed.svg" />
 
-Runs when reported hub battery level changes.
+Wordt uitgevoerd wanneer het batterijniveau van de hub verandert.
 
-- Trigger: battery level update (for hubs that report battery state)
-- Typical use: low-battery warning logic and power-saving mode switching
+- Trigger: batterij-update (voor hubs die batterijniveau rapporteren)
+- Typisch gebruik: waarschuwingen voor lage batterij en energiebesparende modus
 
-### `Hub accelerometer changed` {#block_hubs_all_event_accelerometer_changed}
+### `Hubversnelling gewijzigd` {#block_hubs_all_event_accelerometer_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_accelerometer_changed.svg')} alt="block_hubs_all_event_accelerometer_changed.svg" />
 
-Runs when acceleration values change.
+Wordt uitgevoerd wanneer versnellingswaarden veranderen.
 
-### `Hub tilt changed` {#block_hubs_all_event_tilt_changed}
+### `Hubkanteling gewijzigd` {#block_hubs_all_event_tilt_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_changed.svg')} alt="block_hubs_all_event_tilt_changed.svg" />
 
-Runs when tilt value changes.
+Wordt uitgevoerd wanneer de kantelwaarde verandert.
 
-- Angle options: `any`, `pitch`, `roll`, `yaw`
-- Note: `yaw` is available only on hubs that provide yaw data.
+- Hoekopties: `elk`, `pitch`, `roll`, `yaw`
+- Opmerking: `yaw` is alleen beschikbaar op hubs die yaw-data leveren.
 
-### `Hub orientation changed` {#block_hubs_all_event_tilt_orientation_changed}
+### `Huboriëntatie gewijzigd` {#block_hubs_all_event_tilt_orientation_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_orientation_changed.svg')} alt="block_hubs_all_event_tilt_orientation_changed.svg" />
 
-Runs when orientation state changes (for example, front/up/down/left/right).
+Wordt uitgevoerd wanneer de oriëntatiestatus verandert (bijvoorbeeld voor/omhoog/omlaag/links/rechts).
 
-## Sensor port events
+## Sensorpoort gebeurtenissen
 
-### `Technic color sensor event` {#block_hubs_all_event_port_technic_sensor_color}
+### `Technic kleursensor gebeurtenis` {#block_hubs_all_event_port_technic_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
 
-Runs when the Technic color sensor reports a selected color.
+Wordt uitgevoerd wanneer de Technic kleursensor een geselecteerde kleur detecteert.
 
-
-### `Technic distance sensor event` {#block_hubs_all_event_port_technic_sensor_distance}
+### `Technic afstandssensor gebeurtenis` {#block_hubs_all_event_port_technic_sensor_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_distance.svg')} alt="block_hubs_all_event_port_technic_sensor_distance.svg" />
 
-Runs when Technic distance sensor values match the selected condition.
+Wordt uitgevoerd wanneer de waarden van de Technic afstandssensor voldoen aan de geselecteerde voorwaarde.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `mm`, `cm`, `inch`, `%`
-- Note: available units can depend on sensor mode and connected device.
+- Vergelijkopties: `dichter dan`, `verder dan`, `exact op`
+- Eenheidsopties: `mm`, `cm`, `inch`, `%`
+- Opmerking: beschikbare eenheden kunnen afhangen van de sensormodus en het aangesloten apparaat.
 
-### `BOOST sensor distance event` {#block_hubs_all_event_port_boost_sensor_when_distance}
+### `BOOST afstandssensor gebeurtenis` {#block_hubs_all_event_port_boost_sensor_when_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_event_port_boost_sensor_when_distance.svg" />
 
-Runs when the BOOST distance sensor reaches the chosen threshold/condition.
+Wordt uitgevoerd wanneer de BOOST afstandssensor de gekozen drempel/voorwaarde bereikt.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `%`, `cm`, `inch`
+- Vergelijkopties: `dichter dan`, `verder dan`, `exact op`
+- Eenheidsopties: `%`, `cm`, `inch`
 
-### `BOOST sensor color event` {#block_hubs_all_event_port_boost_sensor_color}
+### `BOOST kleursensor gebeurtenis` {#block_hubs_all_event_port_boost_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 
-Runs when the BOOST sensor detects a selected color/value.
+Wordt uitgevoerd wanneer de BOOST sensor een geselecteerde kleur/waarde detecteert.
