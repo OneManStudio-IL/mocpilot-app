@@ -55,10 +55,10 @@ Bruker en matematisk funksjon med ett argument.
 
 Tilgjengelige funksjoner:
 
-- `abs`: absoluttverdi
-- `floor`: rund ned
-- `ceiling`: rund opp
-- `sqrt`: kvadratrot
+- `absoluttverdi`: absoluttverdi
+- `heltall mindre`: rund ned
+- `heltall større`: rund opp
+- `kvadratrot`: kvadratrot
 - `sin`: sinus
 - `cos`: cosinus
 - `tan`: tangens
@@ -80,7 +80,7 @@ Tilgjengelige funksjoner:
 
 - `min`: minste verdi
 - `max`: største verdi
-- `pow`: første verdi opphøyd i andre
+- `potens`: første verdi opphøyd i andre
 - `atan2`: vinkel fra X/Y
 - `hypot`: hypotenuslengde
 - `copysign`: første verdi med fortegn fra andre

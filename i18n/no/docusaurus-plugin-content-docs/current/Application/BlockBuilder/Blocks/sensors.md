@@ -58,7 +58,7 @@ Returnerer akselerasjonsdata.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
 Returnerer tilt-vinkel.
 
-- Aksevalg: `pitch`, `roll`, `yaw`
+- Aksevalg: `stigning`, `rulling`, `yaw`
 - Merk: `yaw` støttes ikke av alle huber.
 
 ### `Hent orientering` {#block_hubs_sensors_get_orientation}
@@ -66,7 +66,7 @@ Returnerer tilt-vinkel.
 Returnerer gjeldende orientering.
 
 - Output: `tekst`, `indeks`
-- Verdier: `Front`, `Topp`, `Høyre`, `Bak`, `Bunn`, `Venstre`
+- Verdier: `Foran`, `Topp`, `Høyre`, `Bak`, `Bunn`, `Venstre`
 
 ### `Er orientering opp` {#block_hubs_all_sensors_is_orientation_up}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_orientation_up.svg')} alt="block_hubs_all_sensors_is_orientation_up.svg" />

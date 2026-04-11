@@ -103,7 +103,7 @@ Returnerer om huben for øyeblikket er tilkoblet.
 
 Setter effektmodus for BuWizz 2-huben.
 
-- Modusalternativer: `Sakte`, `Normal`, `Rask`, `Ludicrous`
+- Modusalternativer: `Slow`, `Normal`, `Fast`, `Ludicrous`
 
 ### `BuWizz 2 hent effektmodus` {#block_hubs_buwizz_sensors_get_power_mode}
 

@@ -252,8 +252,8 @@ Setter heltallsverdi for en dashboard speedometer-monitor.
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
-Setter tiltmonitorverdi (pitch/roll) for dashboard tiltmonitor.
+Setter tiltmonitorverdi (stigning/rulling) for dashboard tiltmonitor.
 
 - Type: kommandoblokk
 - Typisk bruk: vise tiltverdier i sanntid
-- Aksevalg: `pitch`, `roll`
+- Aksevalg: `stigning`, `rulling`

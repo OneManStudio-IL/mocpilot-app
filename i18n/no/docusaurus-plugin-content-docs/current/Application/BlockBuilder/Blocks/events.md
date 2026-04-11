@@ -106,7 +106,7 @@ Kjører når akselerasjonsverdier endres.
 
 Kjører når tilt-verdi endres.
 
-- Vinkelvalg: `hvilken som helst`, `pitch`, `roll`, `yaw`
+- Vinkelvalg: `hvilken som helst`, `stigning`, `rulling`, `yaw`
 - Merk: `yaw` er kun tilgjengelig på huber som støtter det.
 
 ### `Hub-orientering endret` {#block_hubs_all_event_tilt_orientation_changed}
@@ -129,8 +129,8 @@ Kjører når Technic fargesensor rapporterer valgt farge.
 
 Kjører når Technic avstandssensorverdier matcher valgt betingelse.
 
-- Sammenligningsvalg: `nærmere enn`, `lenger enn`, `nøyaktig ved`
-- Enhetsvalg: `mm`, `cm`, `inch`, `%`
+- Sammenligningsvalg: `nærmere enn`, `lengre enn`, `nøyaktig på`
+- Enhetsvalg: `mm`, `cm`, `tommer`, `%`
 - Merk: tilgjengelige enheter kan avhenge av sensormodus og tilkoblet enhet.
 
 ### `BOOST avstandssensor-hendelse` {#block_hubs_all_event_port_boost_sensor_when_distance}
@@ -139,8 +139,8 @@ Kjører når Technic avstandssensorverdier matcher valgt betingelse.
 
 Kjører når BOOST avstandssensor når valgt terskel/betingelse.
 
-- Sammenligningsvalg: `nærmere enn`, `lenger enn`, `nøyaktig ved`
-- Enhetsvalg: `%`, `cm`, `inch`
+- Sammenligningsvalg: `nærmere enn`, `lengre enn`, `nøyaktig på`
+- Enhetsvalg: `%`, `cm`, `tommer`
 
 ### `BOOST fargesensor-hendelse` {#block_hubs_all_event_port_boost_sensor_color}
 
