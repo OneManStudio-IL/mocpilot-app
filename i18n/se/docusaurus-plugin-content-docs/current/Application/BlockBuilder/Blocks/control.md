@@ -103,7 +103,7 @@ Returnerar om hubben för närvarande är ansluten.
 
 Ställer in effektläget för BuWizz 2-hubben.
 
-- Lägesalternativ: `Långsam`, `Normal`, `Snabb`, `Ludicrous`
+- Lägesalternativ: `Slow`, `Normal`, `Fast`, `Ludicrous`
 
 ### `BuWizz 2 hämta effektläge` {#block_hubs_buwizz_sensors_get_power_mode}
 

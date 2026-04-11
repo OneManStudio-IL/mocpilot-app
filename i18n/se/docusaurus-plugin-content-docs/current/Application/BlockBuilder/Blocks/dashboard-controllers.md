@@ -97,7 +97,7 @@ Rapporterar joystickens axelvärde.
 
 - Typ: värdeblock
 - Utdata: numeriskt (float), vanligtvis inom ett normaliserat intervall
-- Axelalternativ: `x-axel`, `y-axel`
+- Axelalternativ: `X-axel`, `Y-axel`
 
 ## Pedalblock
 
@@ -109,7 +109,7 @@ Utlöses när pedalinmatning ändras.
 
 - Typ: händelseblock
 - Utdata: startar anslutet skript
-- Pedalalternativ: `valfri`, `broms`, `acceleration`
+- Pedalalternativ: `vilken som helst`, `broms`, `acceleration`
 - Tillståndsalternativ: `flyttad`, `nedtryckt`, `släppt`
 
 ### `Pedalvärde (float)` {#block_dashboard_controller_pedals_value_float}
@@ -163,7 +163,7 @@ Utlöses när steppervärdet ändras med ett steg.
 
 - Typ: händelseblock
 - Utdata: startar anslutet skript
-- Stegalternativ: `valfri`, `återställ`, `minus`, `plus`
+- Stegalternativ: `vilken som helst`, `återställ`, `minus`, `plus`
 - Knappstatusalternativ: `nedtryckt`, `släppt`
 
 ### `Steppervärde (float)` {#block_dashboard_controller_stepper_value_float}
@@ -252,8 +252,8 @@ Ställer in heltalsvärdet för en hastighetsmätar-monitor på dashboarden.
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
-Ställer in lutningsmonitorns värde (pitch/roll) för dashboardens lutningsmonitor.
+Ställer in lutningsmonitorns värde (lutning/rullning) för dashboardens lutningsmonitor.
 
 - Typ: kommandoblock
 - Typisk användning: visa lutningsvärden under körning i en dedikerad lutningsmonitor
-- Axelalternativ: `pitch`, `roll`
+- Axelalternativ: `lutning`, `rullning`

@@ -106,7 +106,7 @@ Körs när accelerationsvärden ändras.
 
 Körs när lutningsvärdet ändras.
 
-- Vinkelalternativ: `valfri`, `pitch`, `roll`, `yaw`
+- Vinkelalternativ: `vilken som helst`, `lutning`, `rullning`, `yaw`
 - Obs: `yaw` är endast tillgängligt på hubbar som tillhandahåller yaw-data.
 
 ### `Hubborientering ändrad` {#block_hubs_all_event_tilt_orientation_changed}
@@ -129,7 +129,7 @@ Körs när Technic-färgsensorn rapporterar en vald färg.
 
 Körs när Technic-avståndssensorns värden matchar det valda villkoret.
 
-- Jämförelsealternativ: `närmare än`, `längre bort än`, `exakt vid`
+- Jämförelsealternativ: `närmare än`, `längre än`, `precis på`
 - Enhetsalternativ: `mm`, `cm`, `tum`, `%`
 - Obs: tillgängliga enheter kan bero på sensorns läge och ansluten enhet.
 
@@ -139,7 +139,7 @@ Körs när Technic-avståndssensorns värden matchar det valda villkoret.
 
 Körs när BOOST-avståndssensorn når valt tröskelvärde/villkor.
 
-- Jämförelsealternativ: `närmare än`, `längre bort än`, `exakt vid`
+- Jämförelsealternativ: `närmare än`, `längre än`, `precis på`
 - Enhetsalternativ: `%`, `cm`, `tum`
 
 ### `BOOST färgsensorhändelse` {#block_hubs_all_event_port_boost_sensor_color}

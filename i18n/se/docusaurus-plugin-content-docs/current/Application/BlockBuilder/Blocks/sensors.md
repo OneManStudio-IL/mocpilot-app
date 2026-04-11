@@ -59,7 +59,7 @@ Returnerar accelerationsdata från enhetssensorer.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
 Returnerar lutningsvinkeln för den valda axeln.
 
-- Axelalternativ: `pitch`, `roll`, `yaw`
+- Axelalternativ: `lutning`, `rullning`, `yaw`
 - Obs: `yaw` är endast tillgängligt på hubbar som tillhandahåller yaw-data.
 
 ### `Hämta orientering` {#block_hubs_sensors_get_orientation}
@@ -103,7 +103,7 @@ Returnerar avståndsvärden från en Technic-avståndssensor.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
 Utlöser/kontrollerar avståndsvillkor för en Technic-avståndssensor.
 
-- Jämförelsealternativ: `närmare än`, `längre bort än`, `exakt vid`
+- Jämförelsealternativ: `närmare än`, `längre än`, `precis på`
 - Enhetsalternativ: `mm`, `cm`, `tum`, `%`
 
 ### `Technic färgsensorvärde` {#block_hubs_all_sensors_port_technic_sensor_color}
@@ -152,7 +152,7 @@ Returnerar avstånd från en BOOST-avståndssensor.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_distance.svg" />
 Utlöser/kontrollerar avståndsvillkor för BOOST-avståndssensorn.
 
-- Jämförelsealternativ: `närmare än`, `längre bort än`, `exakt vid`
+- Jämförelsealternativ: `närmare än`, `längre än`, `precis på`
 - Enhetsalternativ: `%`, `cm`, `tum`
 
 ### `BOOST färgsensor` {#block_hubs_all_sensors_port_boost_sensor_color}
@@ -191,4 +191,4 @@ Returnerar avstånd från WeDo 2-avståndssensorn.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
 Returnerar lutningsvärde från WeDo 2-lutningssensorn.
 
-- Axelalternativ: `pitch`, `roll`
+- Axelalternativ: `lutning`, `rullning`

@@ -87,7 +87,7 @@ Returnerar numeriskt axelvärde för spaken.
 - Standardintervall: `-1` till `1`
 - Valfritt intervall i gamepad-inställningar: `-100` till `100`
 - Spakalternativ: `vänster`, `höger`
-- Axelalternativ: `x-axel` / `y-axel`
+- Axelalternativ: `X-axel` / `Y-axel`
 
 ### `Gamepad-triggertryckvärde (float)` {#block_gamepad_trigger_pressure_value_float}
 
