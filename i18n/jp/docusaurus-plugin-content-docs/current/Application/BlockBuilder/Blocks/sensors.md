@@ -102,7 +102,7 @@ MOCPilotが動作している端末（スマートフォン／タブレット）
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
 距離条件を判定します。
 
-- 比較: `より近い`, `より遠い`, `ちょうど`
+- 比較: `より近い`, `より遠い`, `正確に`
 - 単位: `mm`, `cm`, `インチ`, `%`
 
 ### `Technic 色センサー値` {#block_hubs_all_sensors_port_technic_sensor_color}
@@ -151,7 +151,7 @@ RGBチャンネルの値を返します。
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_distance.svg" />
 距離条件を判定します。
 
-- 比較: `より近い`, `より遠い`, `ちょうど`
+- 比較: `より近い`, `より遠い`, `正確に`
 
 ### `BOOST 色センサー` {#block_hubs_all_sensors_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_color.svg" />
