@@ -96,6 +96,12 @@ Returnerer avstand.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
 Sjekker/utløser avstandsbetingelse.
 
+### `Technic fargesensor sett modus` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+Denne blokken setter Technic-fargesensoren til den valgte modusen.
+
+- Merk: Endring av fargesensor-modus kan påvirke programmet ditt på uventede måter. For eksempel kan Technic-fargesensoren ikke lese farger eller reflektert lys når den er i `"omgivelseslys"`-modus.
+
 ### `Technic fargesensorverdi` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Returnerer fargeverdi.

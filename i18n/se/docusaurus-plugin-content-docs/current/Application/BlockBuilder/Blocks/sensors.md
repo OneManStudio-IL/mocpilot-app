@@ -106,6 +106,12 @@ Utlöser/kontrollerar avståndsvillkor för en Technic-avståndssensor.
 - Jämförelsealternativ: `närmare än`, `längre än`, `precis på`
 - Enhetsalternativ: `mm`, `cm`, `tum`, `%`
 
+### `Technic färgsensor ställ in läge` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+Det här blocket ställer in Technic-färgsensorn till det valda läget.
+
+- Obs: Att ändra färgsensorns läge kan påverka ditt program på oväntade sätt. Till exempel kan Technic-färgsensorn inte läsa färger eller reflekterat ljus när den är i läget `"omgivningsljus"`.
+
 ### `Technic färgsensorvärde` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Returnerar detekterat färgvärde från en Technic-avståndssensor.

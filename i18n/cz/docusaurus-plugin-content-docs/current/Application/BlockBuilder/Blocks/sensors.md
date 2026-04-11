@@ -106,6 +106,12 @@ Spouští/kontroluje podmínku vzdálenosti pro senzor vzdálenosti Technic.
 - Možnosti porovnání: `blíže než`, `dál než`, `přesně na`
 - Možnosti jednotek: `mm`, `cm`, `palce`, `%`
 
+### `Technic nastavit režim barevného senzoru` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+Tento blok nastaví barevný senzor Technic do zvoleného režimu.
+
+- Poznámka: Změna režimu barevného senzoru může ovlivnit váš program neočekávaným způsobem. Například barevný senzor Technic nemůže číst barvy ani odražené světlo, když je v režimu `"okolní"`.
+
 ### `Hodnota barvy senzoru Technic` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Vrací zjištěnou hodnotu barvy ze senzoru Technic.

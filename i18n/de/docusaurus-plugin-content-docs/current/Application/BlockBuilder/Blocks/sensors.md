@@ -100,6 +100,12 @@ Prüft/auslöst Distanzbedingungen für den Technic-Distanzsensor.
 - Vergleichsoptionen: `näher als`, `weiter als`, `genau bei`
 - Einheitenoptionen: `mm`, `cm`, `zoll`, `%`
 
+### `Technic Sensor-Modus einstellen` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+Dieser Block setzt den Technic-Farbsensor auf den ausgewählten Modus.
+
+- Hinweis: Das Ändern des Farbsensor-Modus kann dein Programm auf unerwartete Weise beeinflussen. Zum Beispiel kann der Technic-Farbsensor keine Farben oder reflektiertes Licht lesen, wenn er sich im Modus `"Umgebungslicht"` befindet.
+
 ### `Technic Farbsensorwert` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Gibt den erkannten Farbwert des Technic-Sensors zurück.

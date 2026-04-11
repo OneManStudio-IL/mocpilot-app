@@ -105,6 +105,12 @@ Verifică/declanșează condiția de distanță.
 - Opțiuni: `mai aproape decât`, `mai departe decât`, `exact la`
 - Unități: `mm`, `cm`, `inci`, `%`
 
+### `Technic setează modul senzorului de culoare` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+Acest bloc setează senzorul de culoare Technic pe modul selectat.
+
+- Notă: Schimbarea modului senzorului de culoare poate afecta programul în moduri neașteptate. De exemplu, senzorul de culoare Technic nu poate citi culori sau lumină reflectată când este în modul `"ambiental"`.
+
 ### `Valoare culoare Technic` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Returnează culoarea detectată.

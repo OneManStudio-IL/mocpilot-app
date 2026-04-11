@@ -106,6 +106,12 @@ Triggers/checks distance condition for a Technic distance sensor.
 - Compare options: `closer than`, `farther than`, `exactly at`
 - Unit options: `mm`, `cm`, `inch`, `%`
 
+### `Technic sensor set mode` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+This block sets the Technic color sensor to the selected mode.
+
+- Note: Changing the Color Sensor mode can affect your program in unexpected ways. For example, the Technic color sensor can't read colors or reflected light when it's in `"ambient"` mode.
+
 ### `Technic color sensor value` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Returns detected color value from a Technic distance sensor.

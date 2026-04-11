@@ -105,6 +105,12 @@ Déclenche/vérifie une condition de distance pour un capteur de distance Techni
 - Options de comparaison : `plus proche que`, `plus loin que`, `exactement à`
 - Options d’unité : `mm`, `cm`, `pouces`, `%`
 
+### `Technic définir le mode du capteur de couleur` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+Ce bloc règle le capteur de couleur Technic sur le mode sélectionné.
+
+- Remarque : Modifier le mode du capteur de couleur peut affecter votre programme de manière inattendue. Par exemple, le capteur de couleur Technic ne peut pas lire les couleurs ni la lumière réfléchie lorsqu’il est en mode `"ambiante"`.
+
 ### `Technic color sensor value` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Retourne la valeur de la couleur détectée par un capteur de distance Technic.

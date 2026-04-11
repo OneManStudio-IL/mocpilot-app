@@ -100,6 +100,12 @@ Tarkistaa etäisyyden ehdon.
 
 - Vaihtoehdot: `lähempänä kuin`, `kauempana kuin`, `täsmälleen kohdalla`
 
+### `Technic-värisensorin tilan asetus` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+Tämä lohko asettaa Technic-värisensorin valittuun tilaan.
+
+- Huomautus: Värisensorin tilan muuttaminen voi vaikuttaa ohjelmaasi odottamattomilla tavoilla. Esimerkiksi Technic-värisensori ei voi lukea värejä tai heijastunutta valoa, kun se on tilassa `"ympäristövalo"`.
+
 ### `Technic-värianturi arvo` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Palauttaa värin.

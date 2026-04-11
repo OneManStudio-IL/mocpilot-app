@@ -106,6 +106,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - 比较选项：`小于`、`大于`、`等于`
 - 单位选项：`毫米`、`厘米`、`英寸`、`百分比`
 
+### `Technic 颜色传感器设置模式` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+此积木将 Technic 颜色传感器设置为所选模式。
+
+- 注意：更改颜色传感器模式可能会以意想不到的方式影响你的程序。例如，当 Technic 颜色传感器处于 `"环境光"` 模式时，无法读取颜色或反射光。
+
 ### `Technic 颜色传感器值` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 返回 Technic 距离传感器检测到的颜色值。

@@ -105,6 +105,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варіанти порівняння: `ближче ніж`, `далі ніж`, `точно на`
 - Варіанти одиниць: `мм`, `см`, `дюйм`, `відсоток`
 
+### `Technic встановити режим датчика кольору` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+Цей блок встановлює датчик кольору Technic у вибраний режим.
+
+- Примітка: Зміна режиму датчика кольору може неочікувано вплинути на вашу програму. Наприклад, датчик кольору Technic не може зчитувати кольори або відбите світло, коли він у режимі `"довкілля"`.
+
 ### `Значення кольору Technic` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Повертає визначене значення кольору з датчика відстані Technic.

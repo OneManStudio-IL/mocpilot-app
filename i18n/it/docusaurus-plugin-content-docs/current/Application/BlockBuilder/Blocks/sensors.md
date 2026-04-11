@@ -106,6 +106,12 @@ Attiva/verifica una condizione di distanza per un sensore di distanza Technic.
 - Opzioni confronto: `più vicino di`, `più lontano di`, `esattamente a`
 - Opzioni unità: `mm`, `cm`, `pollici`, `%`
 
+### `Technic imposta modalità sensore colore` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+Questo blocco imposta il sensore di colore Technic sulla modalità selezionata.
+
+- Nota: Cambiare la modalità del sensore di colore può influire sul tuo programma in modi inaspettati. Ad esempio, il sensore di colore Technic non può leggere i colori o la luce riflessa quando è in modalità `"ambientale"`.
+
 ### `Valore sensore colore Technic` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Restituisce il valore colore rilevato da un sensore di distanza Technic.

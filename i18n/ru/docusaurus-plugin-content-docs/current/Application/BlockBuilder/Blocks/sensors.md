@@ -106,6 +106,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варианты сравнения: `ближе чем`, `дальше чем`, `ровно`
 - Варианты единиц: `мм`, `см`, `дюйм`, `процент`
 
+### `Technic установить режим датчика цвета` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+Этот блок устанавливает датчик цвета Technic в выбранный режим.
+
+- Примечание: Изменение режима датчика цвета может неожиданно повлиять на вашу программу. Например, датчик цвета Technic не может считывать цвета или отражённый свет, когда он находится в режиме `"окружающий"`.
+
 ### `Technic значение цвета` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Возвращает определенное значение цвета с датчика расстояния Technic.

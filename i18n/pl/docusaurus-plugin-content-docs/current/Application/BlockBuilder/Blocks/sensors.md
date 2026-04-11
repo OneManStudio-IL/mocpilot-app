@@ -106,6 +106,12 @@ Sprawdza warunek odległości.
 - Opcje: `bliżej niż`, `dalej niż`, `dokładnie na`
 - Jednostki: `mm`, `cm`, `cal`, `%`
 
+### `Technic ustaw tryb czujnika koloru` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+Ten blok ustawia czujnik koloru Technic na wybrany tryb.
+
+- Uwaga: Zmiana trybu czujnika koloru może wpłynąć na program w nieoczekiwany sposób. Na przykład czujnik koloru Technic nie może odczytywać kolorów ani światła odbitego, gdy jest w trybie `"otoczenia"`.
+
 ### `Wartość koloru Technic` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Zwraca wykryty kolor.

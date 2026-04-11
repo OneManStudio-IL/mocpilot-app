@@ -106,6 +106,12 @@ Udløser/tjekker afstandsbetingelse for en Technic-afstandssensor.
 - Sammenligningsmuligheder: `nærmere end`, `længere end`, `præcis ved`
 - Enhedsmuligheder: `mm`, `cm`, `tommer`, `%`
 
+### `Technic farvesensor sæt tilstand` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+Denne blok sætter Technic-farvesensoren til den valgte tilstand.
+
+- Bemærk: Hvis du ændrer farvesensorens tilstand, kan det påvirke dit program på uventede måder. For eksempel kan Technic-farvesensoren ikke læse farver eller reflekteret lys, når den er i `"omgivelseslys"`-tilstand.
+
 ### `Technic farvesensorværdi` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Returnerer registreret farveværdi fra en Technic-afstandssensor.

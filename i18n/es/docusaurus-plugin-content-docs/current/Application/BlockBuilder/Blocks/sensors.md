@@ -100,6 +100,12 @@ Evalúa condición de distancia.
 
 - Opciones: `más cerca que`, `más lejos que`, `exactamente en`
 
+### `Technic establecer modo del sensor de color` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+Este bloque configura el sensor de color Technic en el modo seleccionado.
+
+- Nota: Cambiar el modo del Sensor de color puede afectar tu programa de formas inesperadas. Por ejemplo, el sensor de color Technic no puede leer colores ni luz reflejada cuando está en modo `"ambiente"`.
+
 ### `Sensor de color Technic` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Devuelve color detectado.

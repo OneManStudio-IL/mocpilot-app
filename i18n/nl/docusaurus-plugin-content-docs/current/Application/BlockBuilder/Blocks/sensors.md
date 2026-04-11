@@ -106,6 +106,12 @@ Activeert/controleert de afstandsvoorwaarde voor een Technic afstandssensor.
 - Vergelijkopties: `dichterbij dan`, `verder dan`, `precies op`
 - Eenheidsopties: `mm`, `cm`, `duim`, `%`
 
+### `Technic-kleursensor modus instellen` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+Dit blok stelt de Technic-kleursensor in op de geselecteerde modus.
+
+- Opmerking: Het wijzigen van de modus van de kleursensor kan je programma op onverwachte manieren beïnvloeden. De Technic-kleursensor kan bijvoorbeeld geen kleuren of gereflecteerd licht lezen wanneer hij in de modus `"omgevingslicht"` staat.
+
 ### `Technic kleursensor waarde` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Geeft de gedetecteerde kleurwaarde van een Technic sensor terug.

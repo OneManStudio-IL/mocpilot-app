@@ -105,6 +105,12 @@ MOCPilotが動作している端末（スマートフォン／タブレット）
 - 比較: `より近い`, `より遠い`, `正確に`
 - 単位: `mm`, `cm`, `インチ`, `%`
 
+### `Technic カラーセンサーのモード設定` {#block_hubs_all_sensors_port_technic_sensor_set_mode}
+<img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_set_mode.svg')} alt="block_hubs_all_sensors_port_technic_sensor_set_mode.svg" />
+このブロックは Technic カラーセンサーを選択したモードに設定します。
+
+- 注意: カラーセンサーのモードを変更すると、プログラムに予期しない影響が出ることがあります。例えば、Technic カラーセンサーは `"環境光"` モードでは色や反射光を読み取れません。
+
 ### `Technic 色センサー値` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 検出された色を返します。
