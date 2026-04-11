@@ -55,9 +55,9 @@ Past een wiskundige functie met één argument toe.
 
 Beschikbare functies:
 
-- `abs`: absolute waarde van een getal  
-- `floor`: afronden naar beneden  
-- `ceiling`: afronden naar boven  
+- `absoluutwaarde`: absolute waarde van een getal  
+- `gehel getal kleiner`: afronden naar beneden  
+- `gehel getal groter`: afronden naar boven  
 - `sqrt`: vierkantswortel  
 - `sin`: sinus (hoekgebaseerd)  
 - `cos`: cosinus (hoekgebaseerd)  
@@ -80,7 +80,7 @@ Beschikbare functies:
 
 - `min`: kleinste van twee waarden  
 - `max`: grootste van twee waarden  
-- `pow`: eerste waarde tot de macht van de tweede  
+- `macht`: eerste waarde tot de macht van de tweede  
 - `atan2`: hoek uit X/Y-paar  
 - `hypot`: lengte van de hypotenusa uit twee componenten  
 - `copysign`: eerste waarde met teken van tweede waarde  
