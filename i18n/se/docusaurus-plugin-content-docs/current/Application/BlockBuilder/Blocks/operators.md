@@ -168,9 +168,3 @@ Returns string length.
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 
 Returns `true` if text contains specified substring.
-
-## Usage notes
-
-- Use operator blocks to build conditions for `if`, `wait until`, and event filters.
-- For motor control, normalize and clamp values before passing to speed/power blocks.
-- Avoid dividing by zero in `Divide` and `Modulus`.

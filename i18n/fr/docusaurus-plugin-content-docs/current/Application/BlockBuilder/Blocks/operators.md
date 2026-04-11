@@ -168,9 +168,3 @@ Retourne la longueur de la chaîne.
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 
 Retourne `true` si le texte contient la sous-chaîne spécifiée.
-
-## Notes d’utilisation
-
-- Utilisez les blocs opérateurs pour construire des conditions dans `si`, `attendre jusqu’à` et les filtres d’événements.
-- Pour le contrôle des moteurs, normalisez et limitez les valeurs avant de les passer aux blocs de vitesse/puissance.
-- Évitez la division par zéro dans `Divide` et `Modulus`.

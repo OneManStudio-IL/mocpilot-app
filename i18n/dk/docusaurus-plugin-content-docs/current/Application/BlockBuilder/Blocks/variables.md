@@ -37,9 +37,3 @@ Returnerer den aktuelle værdi af den valgte variabel.
 
 - Type: rapportør-blok
 - Typisk brug: brug variabelværdi i operatorer, betingelser og kommando-input
-
-## Brugsnoter
-
-- Initialisér vigtige variabler ved programmets start.
-- Brug `ændr med` til trinvise opdateringer for at undgå gentagen hent/sæt-logik.
-- Hold variabelnavne beskrivende (`speed_target`, `is_armed`, `lap_count`).

@@ -128,9 +128,3 @@ Asettaa aktiivisen ohjauskanavan.
 Palauttaa aktiivisen ohjauskanavan.
 
 - Muoto: `teksti`, `indeksi`
-
-## Käyttöhuomiot
-
-- Käytä `odota kunnes` yhdessä sensori- ja operaattorilohkojen kanssa.
-- Lisää turvaehtoja silmukoihin loputtoman suorituksen välttämiseksi.
-- Käytä `jos / muuten`, kun molemmat haarat tarvitsevat käsittelyn.

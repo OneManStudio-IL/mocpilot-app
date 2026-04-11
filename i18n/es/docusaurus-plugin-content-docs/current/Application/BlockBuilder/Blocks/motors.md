@@ -154,9 +154,3 @@ Establece la posición de la dirección.
 Calibra la dirección automáticamente.
 
 - Nota: requiere límites mecánicos.
-
-## Notas de uso
-
-- Usa posición absoluta o relativa según el caso.
-- Ajusta aceleración/desaceleración para suavidad.
-- Activa detección de bloqueo en mecanismos con carga.

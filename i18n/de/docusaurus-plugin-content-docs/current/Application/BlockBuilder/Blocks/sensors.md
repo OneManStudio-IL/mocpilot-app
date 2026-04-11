@@ -180,9 +180,3 @@ Gibt Distanzwerte des WeDo-2-Distanzsensors zurück.
 Gibt Neigungswerte des WeDo-2-Neigungssensors zurück.
 
 - Achsenoptionen: `pitch`, `roll`
-
-## Hinweise zur Verwendung
-
-- Sensor-Reporterblöcke mit `if`, `if/else` und `wait until` für reaktive Logik kombinieren.
-- Sensorwerte mit Operator-Blöcken kombinieren, um Schwellwerte und Bedingungen zu bauen.
-- `Gerätetyp` prüfen, bevor hardwareabhängige Befehle gesendet werden.

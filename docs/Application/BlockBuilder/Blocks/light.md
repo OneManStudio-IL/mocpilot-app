@@ -74,9 +74,3 @@ Sets BuWizz 3 LED color using explicit RGB channels.
 
 - Type: command block
 - Typical use: full custom color control and gradients
-
-## Notes
-
-- Light output capabilities depend on hub and connected device.
-- If a light command has no visible effect, verify device type and target port.
-- Sensor blocks that read reflected/ambient light are documented in the **Sensors** page.

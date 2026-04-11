@@ -148,9 +148,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 
 Спрацьовує, коли датчик BOOST визначає вибраний колір/значення.
-
-## Примітки
-
-- Подієві блоки можуть спрацьовувати дуже часто (особливо події змін датчиків/контролерів).
-- Для стабільної поведінки додавайте порогові перевірки або короткі затримки.
-- Для координації скриптів краще використовувати розсилку повідомлень, ніж дублювати логіку.

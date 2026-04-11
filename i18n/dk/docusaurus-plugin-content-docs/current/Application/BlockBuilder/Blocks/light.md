@@ -74,9 +74,3 @@ Sætter BuWizz 3 LED-farven ved hjælp af eksplicitte RGB-kanaler.
 
 - Type: kommandoblok
 - Typisk brug: fuld brugerdefineret farvestyring og gradienter
-
-## Noter
-
-- Lysudgangsmuligheder afhænger af hub og tilsluttet enhed.
-- Hvis en lyskommando ikke har synlig effekt, skal du kontrollere enhedstype og målport.
-- Sensorblokke, der læser reflekteret/omgivelseslys, er dokumenteret på siden **Sensorer**.

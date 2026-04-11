@@ -148,9 +148,3 @@ Runs when the BOOST distance sensor reaches the chosen threshold/condition.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 
 Runs when the BOOST sensor detects a selected color/value.
-
-## Notes
-
-- Event blocks can trigger very frequently (especially sensor/controller change events).
-- For stable behavior, add threshold checks or small delays when values are noisy.
-- Prefer broadcasting messages to coordinate scripts instead of duplicating logic.

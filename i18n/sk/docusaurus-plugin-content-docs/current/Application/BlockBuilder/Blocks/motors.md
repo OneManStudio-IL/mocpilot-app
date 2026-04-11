@@ -154,9 +154,3 @@ Sets steering rack target position/value.
 Calibrates the Technic Move steering rack using the hub's internal calibration algorithm and automatic steering range detection.
 
 - Note: the motor axis must be mechanically limited (for example, by a steering rack mechanism).
-
-## Usage notes
-
-- Choose `go to position` for absolute targets and `go to relative position` for incremental motion.
-- Use acceleration/deceleration tuning for smoother starts and stops.
-- Enable stall detection when mechanisms can jam under load.

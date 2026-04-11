@@ -148,9 +148,3 @@ Kører når BOOST-afstandssensoren når den valgte tærskel/betingelse.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 
 Kører når BOOST-sensoren registrerer en valgt farve.
-
-## Noter
-
-- Hændelsesblokke kan trigges meget ofte (især sensor-/controller-ændringshændelser).
-- For stabil adfærd: tilføj tærskelchecks eller små forsinkelser ved støjende værdier.
-- Foretræk broadcast-beskeder til at koordinere scripts i stedet for at duplikere logik.

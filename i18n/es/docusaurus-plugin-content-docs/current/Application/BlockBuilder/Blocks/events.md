@@ -148,9 +148,3 @@ Se ejecuta cuando el sensor BOOST alcanza un umbral.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 
 Se ejecuta cuando el sensor BOOST detecta un color o valor.
-
-## Notas de uso
-
-- Los eventos pueden activarse con mucha frecuencia (especialmente sensores).
-- Para estabilidad, usa umbrales o pequeños retrasos.
-- Usa mensajes (broadcast) para coordinar scripts en lugar de duplicar lógica.

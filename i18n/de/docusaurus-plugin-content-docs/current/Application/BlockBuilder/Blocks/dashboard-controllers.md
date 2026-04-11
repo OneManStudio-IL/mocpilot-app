@@ -157,9 +157,3 @@ Setzt einen Ganzzahlwert für den Dashboard-Tacho-Monitor.
 Setzt den Neigungsmonitorwert (pitch/roll).
 
 - Achsenoptionen: `pitch`, `roll`
-
-## Hinweise zur Verwendung
-
-- Ereignisblöcke sind ideal für sofortige Reaktionen auf Eingabeänderungen.
-- Werteblöcke sind ideal, wenn aktueller Zustand in Schleifen/Bedingungen benötigt wird.
-- Für weiche Steuerung Werteblöcke mit Skalierung und Dead-Zone-Logik kombinieren.

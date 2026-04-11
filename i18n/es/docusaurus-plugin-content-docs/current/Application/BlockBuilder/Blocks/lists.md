@@ -76,9 +76,3 @@ Devuelve el valor actual de la lista seleccionada.
 - Tipo: bloque reportero
 - Ejemplo de salida: `[item1,item2,item3]`
 - Uso típico: inspeccionar el contenido o pasar la lista a otros bloques
-
-## Notas de uso
-
-- Usa listas para historial, rutas, muestras de sensores y configuraciones.
-- Verifica el tamaño antes de acceder por índice.
-- Combina `contiene` e `índice de` para lógica de búsqueda.

@@ -168,9 +168,3 @@ Gibt die Textlänge zurück.
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 
 Gibt `true` zurück, wenn der Text die angegebene Teilzeichenfolge enthält.
-
-## Hinweise zur Verwendung
-
-- Verwenden Sie Operatorblöcke, um Bedingungen für `if`, `wait until` und Ereignisfilter zu erstellen.
-- Für die Motorsteuerung Werte normalisieren und begrenzen, bevor sie an Geschwindigkeits-/Leistungsblöcke übergeben werden.
-- Vermeiden Sie Division durch Null bei `Dividieren` und `Modulo`.

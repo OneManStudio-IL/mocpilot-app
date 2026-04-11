@@ -74,9 +74,3 @@ Nastaví barvu LED BuWizz 3 pomocí explicitních kanálů RGB.
 
 - Typ: příkazový blok
 - Typické použití: plně vlastní řízení barev a přechody
-
-## Poznámky
-
-- Možnosti světelného výstupu závisí na hubu a připojeném zařízení.
-- Pokud světelný příkaz nemá viditelný efekt, ověřte typ zařízení a cílový port.
-- Bloky senzorů pro čtení odraženého/okolního světla jsou popsány na stránce **Sensors**.

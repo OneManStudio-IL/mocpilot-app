@@ -126,9 +126,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 ### `Строка содержит` {#block_operator_string_contains}
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 Возвращает `истина`, если текст содержит указанную подстроку.
-
-## Примечания по использованию
-
-- Используйте операторы для построения условий в `if`, `wait until` и фильтрах событий.
-- Для управления моторами нормализуйте и ограничивайте значения перед передачей в блоки speed/power.
-- Избегайте деления на ноль в `Divide` и `Modulus`.

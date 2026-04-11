@@ -37,9 +37,3 @@ Palauttaa valitun muuttujan nykyisen arvon.
 
 - Tyyppi: reporter-lohko
 - Tyypillinen käyttö: käyttää muuttujan arvoa operaattoreissa, ehdoissa ja komentojen syötteinä
-
-## Käyttöhuomiot
-
-- Alusta tärkeät muuttujat ohjelman alussa.
-- Käytä `muuta muuttujaa määrällä` -lohkoa inkrementaalisiin päivityksiin välttääksesi turhan get/set-logiikan.
-- Käytä kuvaavia nimiä (`speed_target`, `is_armed`, `lap_count`).

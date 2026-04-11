@@ -37,9 +37,3 @@ Vrací aktuální hodnotu vybrané proměnné.
 
 - Typ: reportovací blok
 - Typické použití: použití hodnoty proměnné v operátorech, podmínkách a vstupech příkazů
-
-## Poznámky k použití
-
-- Důležité proměnné inicializujte při spuštění programu.
-- Pro postupné navyšování používejte `Změnit proměnnou o`, abyste se vyhnuli opakovanému čtení/nastavení.
-- Používejte popisná jména proměnných (`speed_target`, `is_armed`, `lap_count`).

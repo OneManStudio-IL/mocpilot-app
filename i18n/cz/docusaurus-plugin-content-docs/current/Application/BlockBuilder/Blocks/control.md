@@ -96,9 +96,3 @@ Nastaví aktivní řídicí kanál pro podporovaný hub/ovladač MouldKing.
 Vrací aktuálně aktivní řídicí kanál pro podporovaný hub/ovladač MouldKing.
 
 - Možnosti výstupu: `text`, `index`
-
-## Poznámky k použití
-
-- Používejte `Čekat dokud` s booleovskými reportéry ze Sensors/Operators.
-- Do cyklů přidávejte bezpečnostní podmínky, aby nedocházelo k nechtěnému nekonečnému chování.
-- Preferujte `Pokud / Jinak`, pokud potřebujete explicitně zpracovat obě větve.

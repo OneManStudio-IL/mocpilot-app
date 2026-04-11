@@ -168,9 +168,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 
 如果文本包含指定子串，则返回 `true`。
-
-## 使用说明
-
-- 使用运算积木为 `如果`、`等待直到` 和事件过滤构建条件。
-- 在电机控制中，将数值传入速度/功率积木前，先做归一化与限幅。
-- 在 `除` 和 `取模` 中避免除数为零。

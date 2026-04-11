@@ -37,9 +37,3 @@ Retourne la valeur actuelle de la variable sélectionnée.
 
 - Type : bloc reporter
 - Utilisation typique : utiliser la valeur de la variable dans des opérateurs, des conditions et des entrées de commandes
-
-## Notes d’utilisation
-
-- Initialisez les variables importantes au démarrage du programme.
-- Utilisez `change by` pour des mises à jour incrémentales afin d’éviter une logique répétitive de lecture/écriture.
-- Donnez des noms descriptifs aux variables (`speed_target`, `is_armed`, `lap_count`).

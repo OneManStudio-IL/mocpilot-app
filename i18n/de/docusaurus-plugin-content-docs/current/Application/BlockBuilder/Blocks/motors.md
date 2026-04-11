@@ -127,9 +127,3 @@ Setzt die Zielposition/-wert des Lenkgestänges.
 ### `Lenkgestänge kalibrieren` {#block_hubs_technicmove_motors_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_calibrate_steering_rack.svg')} alt="block_hubs_technicmove_motors_calibrate_steering_rack.svg" />
 Kalibriert das Technic-Move-Lenkgestänge.
-
-## Hinweise zur Verwendung
-
-- Für absolute Ziele `Gehe zu Position` verwenden, für inkrementelle Bewegung `Gehe zu relativer Position`.
-- Beschleunigungs-/Verzögerungseinstellungen machen Starts und Stopps weicher.
-- Blockiererkennung aktivieren, wenn sich die Mechanik verklemmen kann.

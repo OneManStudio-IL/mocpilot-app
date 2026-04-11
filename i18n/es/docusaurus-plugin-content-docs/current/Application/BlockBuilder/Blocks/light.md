@@ -74,9 +74,3 @@ Establece el color del LED usando valores RGB.
 
 - Tipo: bloque de comando
 - Uso típico: control completo de color y gradientes
-
-## Notas de uso
-
-- Las capacidades de iluminación dependen del hub y del dispositivo conectado.
-- Si no hay efecto visible, verifica el tipo de dispositivo y el puerto.
-- Los sensores de luz están documentados en la página **Sensores**.

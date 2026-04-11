@@ -74,9 +74,3 @@ Définit la couleur de la LED BuWizz 3 à l’aide des canaux RGB.
 
 - Type : bloc de commande
 - Utilisation typique : contrôle complet des couleurs et dégradés
-
-## Notes d’utilisation
-
-- Les capacités d’éclairage dépendent du hub et de l’appareil connecté.
-- Si une commande lumineuse n’a aucun effet visible, vérifiez le type d’appareil et le port cible.
-- Les blocs de capteurs qui lisent la lumière réfléchie/ambiante sont documentés dans la page **Sensors**.

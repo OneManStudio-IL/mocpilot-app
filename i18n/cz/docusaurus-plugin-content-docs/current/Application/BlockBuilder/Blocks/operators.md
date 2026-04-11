@@ -126,9 +126,3 @@ Vrací délku řetězce.
 ### `Řetězec obsahuje` {#block_operator_string_contains}
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 Vrací `true`, pokud text obsahuje zadaný podřetězec.
-
-## Poznámky k použití
-
-- Operátory používejte pro tvorbu podmínek v `if`, `wait until` a filtrování událostí.
-- Pro řízení motorů hodnoty normalizujte a omezujte před předáním do bloků rychlosti/výkonu.
-- Vyhněte se dělení nulou v `Dělení` a `Modulo`.

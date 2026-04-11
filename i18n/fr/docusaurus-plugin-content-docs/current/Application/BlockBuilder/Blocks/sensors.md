@@ -191,9 +191,3 @@ Retourne la distance mesurée par un capteur de distance WeDo 2.
 Retourne la valeur d’inclinaison d’un capteur d’inclinaison WeDo 2.
 
 - Options d’axe : `tangage`, `roulis`
-
-## Notes d’utilisation
-
-- Utilisez les blocs reporter de capteurs avec `if`, `if/else` et `wait until` pour une logique réactive.
-- Combinez les valeurs des capteurs avec les blocs Operators pour construire des seuils et des conditions.
-- Vérifiez le `type d’appareil` avant d’envoyer des commandes qui dépendent d’un matériel connecté spécifique.

@@ -128,9 +128,3 @@ Définit le canal de contrôle actif pour le hub/contrôleur MouldKing pris en c
 Retourne le canal de contrôle actif pour le hub/contrôleur MouldKing pris en charge.
 
 - Options de sortie : `texte`, `index`
-
-## Notes d’utilisation
-
-- Utilisez `attendre jusqu’à` avec des blocs booléens provenant des capteurs/opérateurs.
-- Ajoutez des conditions de sécurité dans les boucles pour éviter un comportement infini.
-- Préférez `si / sinon` lorsque les deux cas (vrai/faux) doivent être traités explicitement.

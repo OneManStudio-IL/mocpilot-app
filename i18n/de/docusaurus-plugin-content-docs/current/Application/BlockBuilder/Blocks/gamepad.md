@@ -99,9 +99,3 @@ Gibt den Trigger-Druckwert für den ausgewählten Trigger zurück.
 - Optionaler Bereich in Gamepad-Einstellungen: `-100` bis `100`
 - Triggeroptionen (Xbox-Layout): `LT`, `RT`
 - Triggeroptionen (Sony-Layout): `L2`, `R2`
-
-## Hinweise zur Verwendung
-
-- Ereignisblöcke für unmittelbare Reaktionen auf Eingabezustandsänderungen nutzen.
-- Werteblöcke für kontinuierliches Polling in Schleifen und Steuerberechnungen nutzen.
-- Für sanfte Motorsteuerung Dead-Zone und Skalierung auf Stick-/Triggerwerte anwenden.

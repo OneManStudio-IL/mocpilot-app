@@ -128,9 +128,3 @@ Establece el canal de control activo para el hub/controlador MouldKing.
 Devuelve el canal de control activo actual.
 
 - Formato de salida: `texto`, `índice`
-
-## Notas de uso
-
-- Usa `esperar hasta` con bloques booleanos de Sensores/Operadores.
-- Añade condiciones de seguridad en los bucles para evitar comportamientos no deseados.
-- Prefiere `si / si no` cuando necesitas manejar explícitamente ambos casos.

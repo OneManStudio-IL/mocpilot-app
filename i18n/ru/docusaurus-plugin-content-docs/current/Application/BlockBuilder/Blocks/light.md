@@ -54,8 +54,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_rgb.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_rgb.svg" />
 
 Устанавливает цвет LED BuWizz 3 через значения RGB.
-
-## Примечания
-
-- Доступность световых блоков зависит от модели хаба и выбранного порта.
-- Для динамической индикации состояний удобно комбинировать эти блоки с Events и Control.

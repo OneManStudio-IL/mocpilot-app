@@ -192,9 +192,3 @@ Vrací vzdálenost ze senzoru vzdálenosti WeDo 2.
 Vrací hodnotu náklonu ze senzoru náklonu WeDo 2.
 
 - Možnosti osy: `náklon`, `rotace`
-
-## Poznámky k použití
-
-- Používejte reportovací bloky senzorů s `if`, `if/else` a `wait until` pro reaktivní logiku.
-- Kombinujte hodnoty senzorů s bloky Operators pro vytváření prahů a podmínek.
-- Před odesláním příkazů závislých na konkrétním hardwaru zkontrolujte `Typ zařízení`.

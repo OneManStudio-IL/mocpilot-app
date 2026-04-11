@@ -168,9 +168,3 @@ Devuelve la longitud del texto.
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 
 Devuelve `true` si el texto contiene una subcadena.
-
-## Notas de uso
-
-- Usa operadores para construir condiciones en `if`, `esperar hasta` y eventos.
-- Normaliza valores antes de usarlos en control de motores.
-- Evita dividir por cero en `Dividir` y `Módulo`.

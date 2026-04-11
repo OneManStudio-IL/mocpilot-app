@@ -148,9 +148,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 
 Срабатывает, когда датчик BOOST определяет выбранный цвет/значение.
-
-## Примечания
-
-- Событийные блоки могут срабатывать очень часто (особенно при изменениях датчиков/контроллеров).
-- Для стабильной работы добавляйте пороги, фильтрацию или короткие задержки.
-- Для координации скриптов чаще используйте broadcast, вместо дублирования логики.

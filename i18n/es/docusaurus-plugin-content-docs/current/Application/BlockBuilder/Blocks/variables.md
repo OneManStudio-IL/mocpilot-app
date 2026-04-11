@@ -37,9 +37,3 @@ Devuelve el valor actual de la variable seleccionada.
 
 - Tipo: bloque reportero
 - Uso típico: usar el valor dentro de operadores, condiciones o comandos
-
-## Notas de uso
-
-- Inicializa variables importantes al inicio del programa.
-- Usa `cambiar por` para actualizaciones incrementales.
-- Usa nombres descriptivos (`velocidad_objetivo`, `armado`, `vueltas`).

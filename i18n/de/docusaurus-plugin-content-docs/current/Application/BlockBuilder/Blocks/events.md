@@ -89,9 +89,3 @@ Wird ausgelöst, wenn der BOOST-Distanzsensor den gewählten Schwellwert erreich
 ### `BOOST Farbsensor-Ereignis` {#block_hubs_all_event_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 Wird ausgelöst, wenn der BOOST-Sensor die gewählte Farbe erkennt.
-
-## Hinweise
-
-- Ereignisblöcke können sehr häufig auslösen.
-- Für stabiles Verhalten Schwellenwerte, Filterung oder kurze Wartezeiten verwenden.
-- Für Skriptkoordination bevorzugt Broadcast-Nachrichten nutzen.

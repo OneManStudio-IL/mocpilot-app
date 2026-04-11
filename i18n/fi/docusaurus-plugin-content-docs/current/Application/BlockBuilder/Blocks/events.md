@@ -117,9 +117,3 @@ Suorittaa, kun etäisyys saavutetaan.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 
 Suorittaa, kun väri havaitaan.
-
-## Käyttöhuomiot
-
-- Tapahtumat voivat laukaista usein.
-- Käytä viiveitä tai rajoja vakauden parantamiseksi.
-- Käytä viestejä skriptien synkronointiin.

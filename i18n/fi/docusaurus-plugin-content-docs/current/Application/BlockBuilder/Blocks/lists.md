@@ -76,9 +76,3 @@ Palauttaa valitun listan nykyisen arvon.
 - Tyyppi: reporter-lohko
 - Esimerkkimuoto: `[item1,item2,item3]`
 - Tyypillinen käyttö: tarkastella listaa tai käyttää sitä muissa lohkoissa
-
-## Käyttöhuomiot
-
-- Käytä listoja historiatietoihin, reittipisteisiin, mittauksiin ja asetuksiin.
-- Tarkista listan koko ennen indeksin käyttöä.
-- Yhdistä `sisältää` ja `indeksi` hakulogiikkaan.

@@ -154,9 +154,3 @@ Sætter målposition/-værdi for styretøjsstangen.
 Kalibrerer Technic Move-styretøjsstangen ved hjælp af hubbens interne kalibreringsalgoritme og automatisk registrering af styreområde.
 
 - Bemærk: motoraksen skal være mekanisk begrænset (f.eks. af en styretøjsstangsmekanisme).
-
-## Brugsnoter
-
-- Vælg go to position for absolutte mål og go to relative position for inkrementel bevægelse.
-- Brug acceleration/deceleration-justering for blødere start og stop.
-- Aktivér stall-detektering når mekanismer kan sætte sig fast under belastning.

@@ -150,9 +150,3 @@ Asettaa ohjauksen arvon.
 ### `Kalibroi ohjaus` {#block_hubs_technicmove_motors_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_calibrate_steering_rack.svg')} alt="block_hubs_technicmove_motors_calibrate_steering_rack.svg" />
 Kalibroi ohjauksen.
-
-## Käyttöhuomiot
-
-- Käytä absoluuttista tai suhteellista sijaintia tarpeen mukaan.
-- Säädä kiihtyvyyttä ja hidastuvuutta sujuvuuden parantamiseksi.
-- Ota käyttöön jumituksen tunnistus tarvittaessa.

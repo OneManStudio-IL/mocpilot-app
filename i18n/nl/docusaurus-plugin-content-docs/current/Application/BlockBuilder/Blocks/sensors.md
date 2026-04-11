@@ -192,9 +192,3 @@ Returns distance from WeDo 2 distance sensor.
 Returns tilt value from WeDo 2 tilt sensor.
 
 - Axis options: `pitch`, `roll`
-
-## Usage notes
-
-- Use sensor reporter blocks with `if`, `if/else`, and `wait until` for reactive logic.
-- Combine sensor values with Operators blocks to build thresholds and conditions.
-- Check `Device type` before sending commands that depend on specific connected hardware.

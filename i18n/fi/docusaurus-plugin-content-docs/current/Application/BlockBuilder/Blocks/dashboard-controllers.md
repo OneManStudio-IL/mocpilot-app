@@ -190,9 +190,3 @@ Asettaa arvon.
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
 Asettaa kallistuksen.
-
-## Käyttöhuomiot
-
-- Tapahtumalohkot reagoivat nopeasti.
-- Arvolohkot käytetään ehdoissa.
-- Yhdistä skaalaus ja dead-zone sujuvaan ohjaukseen.

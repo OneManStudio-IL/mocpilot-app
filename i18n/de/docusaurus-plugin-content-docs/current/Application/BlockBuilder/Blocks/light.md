@@ -74,9 +74,3 @@ Setzt die BuWizz-3-LED-Farbe über explizite RGB-Kanäle.
 
 - Typ: Befehlsblock
 - Typische Verwendung: Volle benutzerdefinierte Farbkonteolle und Verläufe
-
-## Hinweise
-
-- Die Lichtfähigkeiten hängen vom Hub und vom angeschlossenen Gerät ab.
-- Häufige Farbwechsel können die Wahrnehmung der Statusanzeige verschlechtern.
-- Bei scriptgesteuertem Blinken kurze `Warte`-Intervalle nutzen, um Überlastung zu vermeiden.

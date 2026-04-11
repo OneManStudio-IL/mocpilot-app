@@ -145,9 +145,3 @@ Exécute lorsque la distance atteint la condition.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 
 Exécute lorsque le capteur détecte une couleur.
-
-## Notes d’utilisation
-
-- Les événements peuvent être déclenchés très fréquemment.
-- Ajoutez des seuils ou délais pour stabiliser le comportement.
-- Préférez les messages pour synchroniser les scripts.

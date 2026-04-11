@@ -128,9 +128,3 @@ Sets active control channel for supported MouldKing hub/controller.
 Returns current active control channel for supported MouldKing hub/controller.
 
 - Output format options: `text`, `index`
-
-## Usage notes
-
-- Use `wait until` with boolean reporter blocks from Sensors/Operators.
-- Put safety conditions in loops to avoid endless unintended behavior.
-- Prefer `if / else` when both true/false paths need explicit handling.

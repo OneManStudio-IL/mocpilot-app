@@ -74,9 +74,3 @@ Asettaa LED-värin RGB-arvoilla.
 
 - Tyyppi: komentolohko
 - Tyypillinen käyttö: tarkka väriohjaus ja gradientit
-
-## Huomiot
-
-- Valotoiminnot riippuvat hubista ja liitetystä laitteesta.
-- Jos komento ei vaikuta, tarkista laite ja portti.
-- Valoanturit löytyvät **Sensors**-sivulta.

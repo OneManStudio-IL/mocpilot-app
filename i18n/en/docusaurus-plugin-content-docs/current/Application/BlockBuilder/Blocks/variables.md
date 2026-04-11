@@ -37,9 +37,3 @@ Returns the current value of the selected variable.
 
 - Type: reporter block
 - Typical use: use variable value inside operators, conditions, and command inputs
-
-## Usage notes
-
-- Initialize important variables at program start.
-- Use `change by` for incremental updates to avoid repetitive get/set logic.
-- Keep variable names descriptive (`speed_target`, `is_armed`, `lap_count`).

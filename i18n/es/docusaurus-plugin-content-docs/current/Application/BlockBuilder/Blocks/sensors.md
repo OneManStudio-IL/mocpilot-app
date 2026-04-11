@@ -141,9 +141,3 @@ Devuelve distancia WeDo.
 ### `WeDo 2 inclinación` {#block_hubs_all_sensors_port_wedo2_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
 Devuelve inclinación.
-
-## Notas de uso
-
-- Usa sensores en `si`, `si/si no`, `esperar hasta`.
-- Combina con operadores para lógica.
-- Verifica tipo de dispositivo antes de comandos.

@@ -128,9 +128,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 返回受支持的 MouldKing 主控/控制器当前控制通道。
 
 - 输出格式选项：`文本`、`索引`
-
-## 使用说明
-
-- 将 `等待直到` 与来自 Sensors/Operators 的布尔数值积木配合使用。
-- 在循环中加入安全条件，避免出现无尽且非预期的行为。
-- 当真/假两条路径都需要明确处理时，优先使用 `如果 / 否则`。

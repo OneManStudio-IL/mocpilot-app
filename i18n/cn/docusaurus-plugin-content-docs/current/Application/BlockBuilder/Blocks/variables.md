@@ -37,9 +37,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - 类型：数值积木（Reporter）
 - 常见用途：在运算、条件和命令输入中使用变量值
-
-## 使用说明
-
-- 在程序启动时初始化关键变量。
-- 对增量更新使用 `将变量增加`，避免重复的读写赋值逻辑。
-- 变量命名应具有可读性（如 `speed_target`、`is_armed`、`lap_count`）。

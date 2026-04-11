@@ -128,9 +128,3 @@ Sætter aktiv kontrolkanal for understøttet MouldKing-hub/controller.
 Returnerer den aktuelle aktive kontrolkanal for understøttet MouldKing-hub/controller.
 
 - Outputformat-muligheder: tekst, indeks
-
-## Brugsnoter
-
-- Brug `wait until` sammen med booleske reporterblokke fra Sensorer/Operatorer.
-- Tilføj sikkerhedsbetingelser i løkker for at undgå endeløs utilsigtet adfærd.
-- Foretræk `if / else` når både sand/falsk-stier skal håndteres eksplicit.

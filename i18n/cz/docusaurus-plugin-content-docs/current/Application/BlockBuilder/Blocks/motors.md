@@ -127,9 +127,3 @@ Nastaví cílovou pozici/hodnotu hřebene řízení.
 ### `Kalibrovat hřeben řízení` {#block_hubs_technicmove_motors_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_calibrate_steering_rack.svg')} alt="block_hubs_technicmove_motors_calibrate_steering_rack.svg" />
 Kalibruje hřeben řízení Technic Move pomocí interního algoritmu hubu.
-
-## Poznámky k použití
-
-- Pro absolutní cíl použijte `Přejít na pozici`, pro přírůstkový pohyb `Přejít na relativní pozici`.
-- Nastavení zrychlení/zpomalení zjemní rozjezdy a zastavení.
-- Detekci zablokování zapínejte tam, kde může dojít k zaseknutí mechaniky.

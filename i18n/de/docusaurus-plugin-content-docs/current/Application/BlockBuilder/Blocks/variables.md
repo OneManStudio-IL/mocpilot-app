@@ -37,9 +37,3 @@ Gibt den aktuellen Wert der ausgewählten Variable zurück.
 
 - Typ: Reporterblock
 - Typische Verwendung: Variablenwert in Operatoren, Bedingungen und Befehls-Eingaben nutzen
-
-## Hinweise zur Verwendung
-
-- Wichtige Variablen beim Programmstart initialisieren.
-- `Ändere um` für inkrementelle Updates verwenden, um wiederholte Get/Set-Logik zu vermeiden.
-- Variablennamen aussagekräftig halten (`speed_target`, `is_armed`, `lap_count`).

@@ -76,9 +76,3 @@ Retourne la valeur actuelle de la liste sélectionnée.
 - Type : bloc reporter
 - Exemple de format de sortie : `[item1,item2,item3]`
 - Utilisation typique : inspecter le contenu de la liste ou passer la liste à des blocs compatibles
-
-## Notes d’utilisation
-
-- Utilisez les listes pour les historiques, points de passage, échantillons de capteurs et préréglages.
-- Vérifiez la taille de la liste avant d’accéder à un index pour éviter les erreurs.
-- Combinez `contient` et `index de` pour la logique de recherche.

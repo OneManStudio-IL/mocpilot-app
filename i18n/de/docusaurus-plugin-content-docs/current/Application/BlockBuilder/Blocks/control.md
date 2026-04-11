@@ -96,9 +96,3 @@ Setzt den aktiven Steuerkanal für unterstützte MouldKing-Hubs/Controller.
 Gibt den aktuell aktiven Steuerkanal für unterstützte MouldKing-Hubs/Controller zurück.
 
 - Ausgabeoptionen: `text`, `index`
-
-## Hinweise zur Verwendung
-
-- `Warte bis` mit booleschen Reportern aus Sensoren/Operatoren verwenden.
-- In Schleifen Sicherheitsbedingungen ergänzen, um unerwünschtes Endlosverhalten zu vermeiden.
-- `Wenn / Sonst` bevorzugen, wenn beide Zweige explizit behandelt werden müssen.

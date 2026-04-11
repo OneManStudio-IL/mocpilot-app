@@ -168,9 +168,3 @@ Palauttaa merkkijonon pituuden.
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 
 Palauttaa `true`, jos teksti sisältää annetun osan.
-
-## Käyttöhuomiot
-
-- Käytä operaattoreita ehtojen rakentamiseen (`if`, `wait until`, tapahtumat).
-- Normalisoi arvot ennen moottoriohjausta.
-- Vältä jakamista nollalla (`Jakolasku`, `Jakojäännös`).

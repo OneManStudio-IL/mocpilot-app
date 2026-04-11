@@ -192,9 +192,3 @@ Returnerer afstand fra WeDo 2-afstandssensor.
 Returnerer tilt-værdi fra WeDo 2-tiltsensor.
 
 - Aksemuligheder: `hældning`, `rulning`
-
-## Brugsnoter
-
-- Brug sensor-reporterblokke med `if`, `if/else` og `wait until` til reaktiv logik.
-- Kombinér sensorværdier med Operatorer-blokke for at bygge tærskler og betingelser.
-- Tjek `Enhedstype` før afsendelse af kommandoer, der afhænger af specifik tilsluttet hardware.

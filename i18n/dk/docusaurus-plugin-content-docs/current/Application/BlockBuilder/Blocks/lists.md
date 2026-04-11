@@ -76,9 +76,3 @@ Returnerer den aktuelle værdi af den valgte liste.
 - Type: reporter-blok
 - Outputformat eksempel: `[item1,item2,item3]`
 - Typisk brug: inspicere listeindhold eller sende listen til kompatible blokke
-
-## Brugsnoter
-
-- Brug lister til historik, waypoints, registrerede sensordata og forudindstillinger.
-- Tjek listens størrelse før opslag med indeks for at undgå ugyldig adgang.
-- Kombinér `indeholder` og `indeks for` til søgelogik.

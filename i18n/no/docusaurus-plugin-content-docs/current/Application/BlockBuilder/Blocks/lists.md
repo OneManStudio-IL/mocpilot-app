@@ -76,9 +76,3 @@ Returns the current value of the selected list.
 - Type: reporter block
 - Output format example: `[item1,item2,item3]`
 - Typical use: inspect current list content or pass the list value into compatible blocks
-
-## Usage notes
-
-- Use lists for history buffers, waypoints, recorded sensor samples, and presets.
-- Check list size before reading by index to avoid invalid access.
-- Combine `contains` and `index of` for lookup logic.

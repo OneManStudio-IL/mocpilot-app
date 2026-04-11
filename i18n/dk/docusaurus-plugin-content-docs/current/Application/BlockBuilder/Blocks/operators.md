@@ -168,9 +168,3 @@ Returnerer tekstens længde.
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 
 Returnerer `true`, hvis tekst indeholder den angivne delstreng.
-
-## Brugsnoter
-
-- Brug operatorblokke til at bygge betingelser for `hvis`, `vent indtil` og hændelsesfiltre.
-- Til motorstyring: normalisér og begræns værdier, før de sendes til hastigheds-/effektblokke.
-- Undgå at dividere med nul i `Divider` og `Modulo`.

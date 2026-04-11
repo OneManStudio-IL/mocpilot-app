@@ -159,9 +159,3 @@ Palauttaa etäisyyden.
 ### `WeDo 2 kallistus` {#block_hubs_all_sensors_port_wedo2_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
 Palauttaa kallistuksen.
-
-## Käyttöhuomiot
-
-- Käytä sensoreita ehdoissa (`if`, `wait until`).
-- Yhdistä operaattoreihin.
-- Tarkista laitetyyppi ennen käyttöä.

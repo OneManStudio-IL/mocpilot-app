@@ -154,9 +154,3 @@ Définit la position/valeur cible de la crémaillère de direction.
 Calibre la crémaillère de direction Technic Move à l’aide de l’algorithme interne du hub et de la détection automatique de la plage de direction.
 
 - Remarque : l’axe du moteur doit être mécaniquement limité (par exemple par un mécanisme de crémaillère de direction).
-
-## Notes d’utilisation
-
-- Choisissez `aller à la position` pour des cibles absolues et `aller à la position relative` pour des mouvements incrémentaux.
-- Utilisez les réglages d’accélération/décélération pour des démarrages et arrêts plus fluides.
-- Activez la détection de blocage lorsque les mécanismes peuvent se coincer sous charge.

@@ -148,9 +148,3 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 
 当 BOOST 传感器检测到所选颜色/数值时运行。
-
-## 说明
-
-- 事件积木可能非常频繁触发（尤其是传感器/控制器变化事件）。
-- 为了保持行为稳定，建议在数值噪声较大时加入阈值判断或短延时。
-- 建议通过广播消息协调脚本，而不是重复编写相同逻辑。

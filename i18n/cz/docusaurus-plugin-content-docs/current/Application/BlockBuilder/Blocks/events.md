@@ -89,9 +89,3 @@ Spustí se, když senzor vzdálenosti BOOST dosáhne vybraného prahu/podmínky.
 ### `Událost barvy senzoru BOOST` {#block_hubs_all_event_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 Spustí se, když senzor BOOST detekuje vybranou barvu/hodnotu.
-
-## Poznámky
-
-- Událostní bloky se mohou spouštět velmi často.
-- Pro stabilní chování přidejte prahy, filtrování nebo krátká čekání.
-- Pro koordinaci skriptů preferujte vysílání zpráv.

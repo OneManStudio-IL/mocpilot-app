@@ -76,9 +76,3 @@ Gibt den aktuellen Wert der ausgewählten Liste zurück.
 - Typ: Reporterblock
 - Beispielausgabe: `[item1,item2,item3]`
 - Typische Verwendung: Aktuellen Listeninhalt prüfen oder Listenwert an kompatible Blöcke übergeben
-
-## Hinweise zur Verwendung
-
-- Listen für Verlaufspuffer, Wegpunkte, aufgezeichnete Sensorwerte und Presets verwenden.
-- Vor dem Lesen per Index die Listengröße prüfen, um ungültigen Zugriff zu vermeiden.
-- `Enthält` und `Index von` für Suchlogik kombinieren.

@@ -76,9 +76,3 @@ Vrací aktuální hodnotu vybraného seznamu.
 - Typ: reportovací blok
 - Ukázka výstupu: `[item1,item2,item3]`
 - Typické použití: kontrola obsahu seznamu nebo předání hodnoty seznamu do kompatibilních bloků
-
-## Poznámky k použití
-
-- Seznamy používejte pro historii, waypointy, uložené vzorky senzorů a presety.
-- Před čtením podle indexu kontrolujte velikost seznamu.
-- Pro vyhledávací logiku kombinujte `Obsahuje hodnotu` a `Index hodnoty`.
