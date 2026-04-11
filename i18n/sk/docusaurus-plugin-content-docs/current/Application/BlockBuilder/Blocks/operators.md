@@ -1,170 +1,170 @@
 ---
 id: Operators
-title: Operators
+title: Operátory
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Operators
+# Operátory
 
-Operators are Reporter and Boolean blocks used for calculations, comparisons, logic, and string processing.
+Operátory sú bloky typu Reporter a Boolean, ktoré sa používajú na výpočty, porovnávanie, logiku a prácu s textom.
 
-## Arithmetic operators
+## Aritmetické operátory
 
-### `Plus` {#block_operator_plus}
+### `Sčítanie` {#block_operator_plus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_plus.svg')} alt="block_operator_plus.svg" />
 
-Returns the sum of two values.
+Vracia súčet dvoch hodnôt.
 
-### `Minus` {#block_operator_minus}
+### `Odčítanie` {#block_operator_minus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_minus.svg')} alt="block_operator_minus.svg" />
 
-Returns the subtraction result of two values.
+Vracia výsledok odčítania dvoch hodnôt.
 
-### `Multiply` {#block_operator_multiply}
+### `Násobenie` {#block_operator_multiply}
 
 <img src={useBaseUrl('/img/blocks/block_operator_multiply.svg')} alt="block_operator_multiply.svg" />
 
-Returns the product of two values.
+Vracia súčin dvoch hodnôt.
 
-### `Divide` {#block_operator_divide}
+### `Delenie` {#block_operator_divide}
 
 <img src={useBaseUrl('/img/blocks/block_operator_divide.svg')} alt="block_operator_divide.svg" />
 
-Returns the division result of two values.
+Vracia výsledok delenia dvoch hodnôt.
 
-### `Modulus` {#block_operator_modulus}
+### `Zvyšok po delení` {#block_operator_modulus}
 
 <img src={useBaseUrl('/img/blocks/block_operator_modulus.svg')} alt="block_operator_modulus.svg" />
 
-Returns the remainder after division.
+Vracia zvyšok po delení.
 
-### `Round` {#block_operator_round}
+### `Zaokrúhliť` {#block_operator_round}
 
 <img src={useBaseUrl('/img/blocks/block_operator_round.svg')} alt="block_operator_round.svg" />
 
-Rounds to nearest integer (for example `2.6 -> 3`).
+Zaokrúhli na najbližšie celé číslo (napr. `2.6 -> 3`).
 
-### `Math single` {#block_operator_math_single}
+### `Matematická funkcia (jedna hodnota)` {#block_operator_math_single}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 
-Applies a single-argument math function.
+Použije matematickú funkciu na jednu hodnotu.
 
-Available functions:
+Dostupné funkcie:
 
-- `abs`: absolute value of a number
-- `floor`: round down to nearest integer
-- `ceiling`: round up to nearest integer
-- `sqrt`: square root
-- `sin`: sine (angle-based)
-- `cos`: cosine (angle-based)
-- `tan`: tangent (angle-based)
-- `asin`: inverse sine
-- `acos`: inverse cosine
-- `atan`: inverse tangent
-- `ln`: natural logarithm (base `e`)
-- `log`: logarithm base `10`
-- `e^`: raise `e` to power of input
-- `10^`: raise `10` to power of input
+- `abs`: absolútna hodnota čísla  
+- `floor`: zaokrúhlenie nadol na najbližšie celé číslo  
+- `ceiling`: zaokrúhlenie nahor na najbližšie celé číslo  
+- `sqrt`: druhá odmocnina  
+- `sin`: sínus (podľa uhla)  
+- `cos`: kosínus (podľa uhla)  
+- `tan`: tangens (podľa uhla)  
+- `asin`: arkus sínus  
+- `acos`: arkus kosínus  
+- `atan`: arkus tangens  
+- `ln`: prirodzený logaritmus (základ `e`)  
+- `log`: logaritmus so základom `10`  
+- `e^`: číslo `e` umocnené na vstupnú hodnotu  
+- `10^`: číslo `10` umocnené na vstupnú hodnotu  
 
-### `Math pair` {#block_operator_math_pair}
+### `Matematická funkcia (dve hodnoty)` {#block_operator_math_pair}
 
 <img src={useBaseUrl('/img/blocks/block_operator_math_pair.svg')} alt="block_operator_math_pair.svg" />
 
-Applies a two-argument math function.
+Použije matematickú funkciu na dve hodnoty.
 
-Available functions:
+Dostupné funkcie:
 
-- `min`: smaller of two values
-- `max`: larger of two values
-- `pow`: first value raised to second value power
-- `atan2`: angle from X/Y pair
-- `hypot`: hypotenuse length from two components
-- `copysign`: first value with sign of second value
+- `min`: menšia z dvoch hodnôt  
+- `max`: väčšia z dvoch hodnôt  
+- `pow`: prvá hodnota umocnená na druhú  
+- `atan2`: uhol zo súradníc X/Y  
+- `hypot`: dĺžka prepony zo súradníc  
+- `copysign`: prvá hodnota so znamienkom druhej  
 
-### `Pick random` {#block_operator_pick_random}
+### `Náhodné číslo` {#block_operator_pick_random}
 
 <img src={useBaseUrl('/img/blocks/block_operator_pick_random.svg')} alt="block_operator_pick_random.svg" />
 
-Returns a random number in the selected range.
+Vracia náhodné číslo v zadanom intervale.
 
-## Comparison operators
+## Porovnávacie operátory
 
-### `Equal` {#block_operator_equal}
+### `Rovná sa` {#block_operator_equal}
 
 <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
 
-Returns `true` when two values are equal.
+Vracia `true`, keď sú dve hodnoty rovnaké.
 
-### `Not equal` {#block_operator_not_equal}
+### `Nerovná sa` {#block_operator_not_equal}
 
 <img src={useBaseUrl('/img/blocks/block_operator_not_equal.svg')} alt="block_operator_not_equal.svg" />
 
-Returns `true` when two values are not equal.
+Vracia `true`, keď sa hodnoty líšia.
 
-### `Greater than` {#block_operator_greater_than}
+### `Väčšie ako` {#block_operator_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_greater_than.svg')} alt="block_operator_greater_than.svg" />
 
-Returns `true` when left value is greater than right value.
+Vracia `true`, keď je ľavá hodnota väčšia ako pravá.
 
-### `Less than` {#block_operator_less_than}
+### `Menšie ako` {#block_operator_less_than}
 
 <img src={useBaseUrl('/img/blocks/block_operator_less_than.svg')} alt="block_operator_less_than.svg" />
 
-Returns `true` when left value is less than right value.
+Vracia `true`, keď je ľavá hodnota menšia ako pravá.
 
-### `Is in between` {#block_operator_is_in_between}
+### `Je medzi` {#block_operator_is_in_between}
 
 <img src={useBaseUrl('/img/blocks/block_operator_is_in_between.svg')} alt="block_operator_is_in_between.svg" />
 
-Returns `true` when a value is inside specified bounds.
+Vracia `true`, keď sa hodnota nachádza medzi zadanými hranicami.
 
-## Boolean logic operators
+## Logické operátory
 
-### `And` {#block_operator_and}
+### `A zároveň` {#block_operator_and}
 
 <img src={useBaseUrl('/img/blocks/block_operator_and.svg')} alt="block_operator_and.svg" />
 
-Returns `true` only when both conditions are `true`.
+Vracia `true`, iba keď sú obe podmienky pravdivé.
 
-### `Or` {#block_operator_or}
+### `Alebo` {#block_operator_or}
 
 <img src={useBaseUrl('/img/blocks/block_operator_or.svg')} alt="block_operator_or.svg" />
 
-Returns `true` when at least one condition is `true`.
+Vracia `true`, keď je aspoň jedna podmienka pravdivá.
 
-### `Not` {#block_operator_not}
+### `Nie` {#block_operator_not}
 
 <img src={useBaseUrl('/img/blocks/block_operator_not.svg')} alt="block_operator_not.svg" />
 
-Inverts a boolean value.
+Neguje (obracia) boolean hodnotu.
 
-## Text operators
+## Textové operátory
 
-### `Join` {#block_operator_join}
+### `Spojiť` {#block_operator_join}
 
 <img src={useBaseUrl('/img/blocks/block_operator_join.svg')} alt="block_operator_join.svg" />
 
-Concatenates two text values.
+Spojí dva textové reťazce.
 
-### `Letter at` {#block_operator_letter_at}
+### `Znak na pozícii` {#block_operator_letter_at}
 
 <img src={useBaseUrl('/img/blocks/block_operator_letter_at.svg')} alt="block_operator_letter_at.svg" />
 
-Returns character at a selected position in text.
+Vracia znak na vybranej pozícii v texte.
 
-### `Size of string` {#block_operator_size_of_string}
+### `Dĺžka textu` {#block_operator_size_of_string}
 
 <img src={useBaseUrl('/img/blocks/block_operator_size_of_string.svg')} alt="block_operator_size_of_string.svg" />
 
-Returns string length.
+Vracia dĺžku textového reťazca.
 
-### `String contains` {#block_operator_string_contains}
+### `Text obsahuje` {#block_operator_string_contains}
 
 <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 
-Returns `true` if text contains specified substring.
+Vracia `true`, ak text obsahuje zadaný podreťazec.

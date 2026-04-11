@@ -1,34 +1,34 @@
 ---
 id: MyBlocks
-title: My Blocks
+title: Moje bloky
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# My Blocks
+# Moje bloky
 
-My Blocks let you define your own custom reusable block.
-This category is conceptually similar to creating a function in traditional programming: define behavior once, then call it many times.
+Moje bloky umožňujú definovať vlastné opakovane použiteľné bloky.
+Táto kategória je konceptuálne podobná vytváraniu funkcií v tradičnom programovaní: definuj správanie raz a potom ho používaj viackrát.
 
-## Core My Blocks
+## Základné bloky Moje bloky
 
-### `Make a Block`
+### `Vytvor blok`
 
-Creates a new custom block definition.
+Vytvorí novú definíciu vlastného bloku.
 
-- Type: definition/setup block
-- Typical use: group repeated logic into one named block
+- Typ: definičný/nastavovací blok  
+- Typické použitie: zoskupenie opakovanej logiky do jedného pomenovaného bloku  
 
-### `MyBlock` (call block)
+### `Môj blok` (blok volania)
 
-Calls a previously created custom block.
+Volá predtým vytvorený vlastný blok.
 
-- Type: stack block (custom command call)
-- Typical use: reuse the same logic in multiple places without duplicating block stacks
+- Typ: stack blok (volanie vlastného príkazu)  
+- Typické použitie: opätovné použitie rovnakej logiky na viacerých miestach bez duplikovania blokov  
 
-## Variadic examples
+## Variadické príklady
 
-These examples show custom My Blocks with different argument signatures.
+Tieto príklady ukazujú vlastné bloky s rôznymi podpismi argumentov.
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758091855.svg')} alt="block_myblock_1775758091855.svg" />
@@ -40,30 +40,30 @@ These examples show custom My Blocks with different argument signatures.
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758145135.svg')} alt="block_myblock_1775758145135.svg" />
 </div>
 
-## Example usage in program stack
+## Príklad použitia v programovom bloku
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-usage-example.png')} alt="my-blocks-usage-example.png" />
 
-This example shows a custom block call attached under `when program starts`, while the `define my block` stack contains the reusable motor logic.
+Tento príklad ukazuje volanie vlastného bloku pripojené pod `keď sa program spustí`, zatiaľ čo zásobník `definuj môj blok` obsahuje opakovane použiteľnú logiku motora.
 
-- Typical flow: call custom block from event stacks
-- Benefit: one definition, many call sites
+- Typický tok: volanie vlastného bloku z blokov udalostí  
+- Výhoda: jedna definícia, viacero miest použitia  
 
-## My Block editor view
+## Zobrazenie editora Moje bloky
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-editor-cropped.png')} alt="my-blocks-editor-cropped.png" />
 
-The Make a Block editor is used to design your custom block signature.
-You can add labels and inputs (for example number/text and boolean inputs), then define implementation logic in the block definition stack.
+Editor „Vytvor blok“ sa používa na návrh podpisu vlastného bloku.  
+Môžeš pridať popisy a vstupy (napríklad číselné/textové a boolean vstupy) a následne definovať implementačnú logiku v zásobníku definície bloku.
 
-## Why use My Blocks
+## Prečo používať Moje bloky
 
-- Reusability: write once, call many times.
-- Readability: replace long repeated stacks with one meaningful name.
-- Maintainability: update logic in one place instead of many copies.
-- Structure: split large programs into smaller logical units.
+- Znovupoužiteľnosť: napíš raz, použi viackrát.  
+- Čitateľnosť: nahraď dlhé opakované sekvencie jedným zrozumiteľným názvom.  
+- Udržiavateľnosť: aktualizuj logiku na jednom mieste namiesto viacerých kópií.  
+- Štruktúra: rozdeľ veľké programy na menšie logické celky.  
 
-## Notes
+## Poznámky
 
-- Custom blocks are project-level and intended for reuse inside the same profile/project context.
-- Prefer descriptive names that explain intent, not implementation details.
+- Vlastné bloky sú viazané na projekt a sú určené na použitie v rámci rovnakého profilu/projektu.  
+- Používaj výstižné názvy, ktoré vyjadrujú účel, nie implementačné detaily.  

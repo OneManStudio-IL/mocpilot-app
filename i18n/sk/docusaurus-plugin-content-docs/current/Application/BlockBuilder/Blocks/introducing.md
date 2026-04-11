@@ -1,152 +1,152 @@
 ---
 id: BlocksIntroducing
-title: Blocks Introducing
+title: Úvod do blokov
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Blocks Introducing
+# Úvod do blokov
 
-MOCPilot uses a visual block programming system that looks and feels similar to Scratch.
-Each block has a specific role, and valid combinations define control flow and data flow through a script.
-It uses drag-and-drop logic and Scratch-like interaction patterns to provide a convenient and familiar way to build programs.
+MOCPilot používa vizuálny systém blokového programovania, ktorý je podobný Scratch.
+Každý blok má konkrétnu úlohu a správne kombinácie definujú tok riadenia a tok dát v skripte.
+Používa logiku drag-and-drop a interakčné vzory podobné Scratch, aby poskytol pohodlný a známy spôsob tvorby programov.
 
-:::warning Compatibility Notice
-This is a different block system with its own block set and behavior.
-MOCPilot programs are not compatible with Scratch projects: MOCPilot programs cannot be imported into Scratch, and Scratch programs cannot be imported into MOCPilot.
+:::warning Upozornenie na kompatibilitu
+Toto je odlišný blokový systém s vlastnou sadou blokov a správaním.
+Programy MOCPilot nie sú kompatibilné so Scratch projektmi: programy MOCPilot nie je možné importovať do Scratch a Scratch programy nie je možné importovať do MOCPilot.
 :::
 
-## Block shapes and meaning
+## Tvary blokov a ich význam
 
-### Hat Blocks
+### Štartovacie bloky
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
   <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 </div>
 
-Start a script when a specific event occurs. Blocks can only be attached below.
+Spúšťajú skript pri vzniku konkrétnej udalosti. Bloky sa môžu pripájať iba pod ne.
 
 ---
 
-### Stack Blocks
+### Príkazové bloky
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_reset.svg')} alt="block_sensors_timer_reset.svg" />
 </div>
 
-Main command blocks that perform actions.
+Základné bloky vykonávajúce akcie.
 
 ---
 
-### C Blocks
+### C-bloky (riadiace bloky)
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 </div>
 
-C-shaped control blocks that contain nested block stacks (loops/conditions).
+Bloky v tvare „C“, ktoré obsahujú vnorené bloky (cykly/podmienky).
 
 ---
 
-### Reporter Blocks
+### Reporter bloky
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 </div>
 
-Return values such as numbers or strings.
+Vraciajú hodnoty, napríklad čísla alebo text.
 
 ---
 
-### Boolean Blocks
+### Boolovské bloky
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 </div>
 
-Return only `true` or `false`, typically used in conditions.
+Vraciajú iba `true` alebo `false`, typicky používané v podmienkach.
 
 ---
 
-### Cap Blocks
+### Ukončovacie bloky
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 </div>
 
-End scripts and do not allow blocks below.
+Ukončujú skripty a neumožňujú pripojenie ďalších blokov pod ne.
 
 ---
 
-### Blocks Stack
+### Zásobník blokov
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks_stack.svg')} alt="blocks_stack.svg" />
 </div>
 
-A block stack is a sequence of connected blocks that runs as one script flow from top to bottom.
-Stacks usually start with an event block and then execute attached blocks in order.
+Zásobník blokov je sekvencia prepojených blokov, ktorá sa vykonáva ako jeden tok skriptu zhora nadol.
+Zvyčajne začína blokom udalosti a následne vykonáva pripojené bloky v poradí.
 
 ---
 
-## Script execution model
+## Model vykonávania skriptu
 
-- A script usually starts from an event block.
-- Connected stack blocks run top to bottom.
-- Multiple scripts can run in parallel.
-- Message/broadcast blocks are used to synchronize scripts.
-- A block stack is a sequence of blocks connected together.
+- Skript zvyčajne začína blokom udalosti.  
+- Prepojené bloky sa vykonávajú zhora nadol.  
+- Viacero skriptov môže bežať paralelne.  
+- Bloky správ/vysielania sa používajú na synchronizáciu skriptov.  
+- Zásobník blokov je sekvencia blokov prepojených spolu.  
 
-## Data and values
+## Dáta a hodnoty
 
-- Reporter blocks can be nested inside command/condition inputs.
-- Variables store reusable values across blocks and scripts.
-- Lists store ordered collections for history, queues, and lookup data.
+- Reporter bloky je možné vkladať do vstupov príkazov alebo podmienok.  
+- Premenné ukladajú opakovane použiteľné hodnoty medzi blokmi a skriptmi.  
+- Zoznamy ukladajú usporiadané kolekcie pre históriu, fronty a vyhľadávanie.  
 
-## Events and timing
+## Udalosti a časovanie
 
-- Event blocks react to user input, hub state, sensors, or messages.
-- Timer- and sensor-based events may trigger frequently.
-- Use thresholds, filtering, or short waits to reduce noisy repeated triggers.
+- Bloky udalostí reagujú na vstup používateľa, stav hubu, senzory alebo správy.  
+- Udalosti založené na časovači alebo senzoroch sa môžu spúšťať často.  
+- Používaj prahy, filtrovanie alebo krátke čakania na obmedzenie nadmerného spúšťania.  
 
-## Hub, ports, and controllers
+## Hub, porty a ovládače
 
-- Hub blocks target hub and port context.
-- Some blocks are available only for specific hub families/devices.
-- Dashboard and gamepad blocks provide runtime input and UI control.
+- Bloky hubu pracujú s kontextom hubu a portov.  
+- Niektoré bloky sú dostupné iba pre konkrétne zariadenia alebo rodiny hubov.  
+- Bloky dashboardu a gamepadu poskytujú vstup počas behu a ovládanie UI.  
 
-## Recommended workflow
+## Odporúčaný postup
 
-1. Start with one event block and a minimal script.
-2. Validate motor/sensor direction and ranges early.
-3. Extract repeated logic with messages and helper scripts.
-4. Add safeguards (limits, stops, fallback values) before final tuning.
+1. Začni s jedným blokom udalosti a jednoduchým skriptom.  
+2. Over smer motorov a rozsahy senzorov na začiatku.  
+3. Vyčleň opakovanú logiku pomocou správ a pomocných skriptov.  
+4. Pridaj bezpečnostné opatrenia (limity, zastavenia, náhradné hodnoty).  
 
-## Common pitfalls
+## Časté chyby
 
-- Missing event entry block means script never starts.
-- Wrong hub/port selection causes no visible effect.
-- Mixing value types (text/number/boolean) can produce invalid logic.
-- High-frequency events without filtering can overload behavior.
+- Chýbajúci blok udalosti znamená, že skript sa nikdy nespustí.  
+- Nesprávny výber hubu/portu spôsobí, že sa nič nestane.  
+- Miešanie typov hodnôt (text/číslo/boolean) môže viesť k nesprávnej logike.  
+- Udalosti s vysokou frekvenciou bez filtrovania môžu spôsobiť nestabilné správanie.  
 
-## Documentation structure in this section
+## Štruktúra dokumentácie v tejto sekcii
 
-Use category pages in this order:
+Používaj kategórie v tomto poradí:
 
-- Light
-- Motors
-- Sensors
-- Events
-- Control
-- Operators
-- Variables
-- Lists
-- My Blocks
-- Dashboard controllers
-- Gamepad
+- Svetlo  
+- Motory  
+- Senzory  
+- Udalosti  
+- Ovládanie  
+- Operátory  
+- Premenné  
+- Zoznamy  
+- Moje bloky  
+- Ovládací panel  
+- Gamepad  

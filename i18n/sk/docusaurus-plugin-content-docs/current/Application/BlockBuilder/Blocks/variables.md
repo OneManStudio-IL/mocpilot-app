@@ -1,39 +1,39 @@
 ---
 id: Variables
-title: Variables
+title: Premenné
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Variables
+# Premenné
 
-Variables store values that can be read and updated across block stacks and scripts.
+Premenné ukladajú hodnoty, ktoré je možné čítať a meniť naprieč blokmi a skriptmi.
 
-## Variable command blocks
+## Príkazové bloky premenných
 
-### `Set variable to` {#block_variables_set_to}
+### `Nastav premennú na` {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
-Sets selected variable to the specified value.
+Nastaví vybranú premennú na zadanú hodnotu.
 
-- Type: command block
-- Typical use: initialize state, overwrite previous value
+- Typ: príkazový blok  
+- Typické použitie: inicializácia stavu, prepísanie predchádzajúcej hodnoty  
 
-### `Change variable by` {#block_variables_change_by}
+### `Zmeň premennú o` {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
-Adds the specified amount to selected variable.
+Pripočíta zadanú hodnotu k vybranej premennej.
 
-- Type: command block
-- Typical use: counters, score, accumulated distance/time
+- Typ: príkazový blok  
+- Typické použitie: počítadlá, skóre, kumulovaná vzdialenosť/čas  
 
-## Variable value reporter
+## Blok hodnoty premennej
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 
-Returns the current value of the selected variable.
+Vracia aktuálnu hodnotu vybranej premennej.
 
-- Type: reporter block
-- Typical use: use variable value inside operators, conditions, and command inputs
+- Typ: reporter blok  
+- Typické použitie: použitie hodnoty premennej v operátoroch, podmienkach a vstupoch príkazov

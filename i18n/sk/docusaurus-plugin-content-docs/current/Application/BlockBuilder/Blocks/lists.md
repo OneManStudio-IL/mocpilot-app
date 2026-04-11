@@ -1,78 +1,78 @@
 ---
 id: Lists
-title: Lists
+title: Zoznamy
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Lists
+# Zoznamy
 
-Lists store ordered collections of values and are manipulated by dedicated list Reporter and Stack blocks.
+Zoznamy ukladajú usporiadané kolekcie hodnôt a pracuje sa s nimi pomocou špeciálnych blokov typu Reporter a Stack.
 
-## List mutation blocks
+## Bloky úprav zoznamu
 
-### `Add value to list` {#block_lists_add}
+### `Pridaj hodnotu do zoznamu` {#block_lists_add}
 
 <img src={useBaseUrl('/img/blocks/block_lists_add.svg')} alt="block_lists_add.svg" />
 
-Appends a value to the end of selected list.
+Pridá hodnotu na koniec vybraného zoznamu.
 
-### `Insert at` {#block_lists_insert_at}
+### `Vlož na pozíciu` {#block_lists_insert_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_insert_at.svg')} alt="block_lists_insert_at.svg" />
 
-Inserts a value at selected index in the list.
+Vloží hodnotu na zvolený index v zozname.
 
-### `Replace at` {#block_lists_replace_at}
+### `Nahraď na pozícii` {#block_lists_replace_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_replace_at.svg')} alt="block_lists_replace_at.svg" />
 
-Replaces item at selected index with new value.
+Nahradí položku na zvolenom indexe novou hodnotou.
 
-### `Delete` {#block_lists_delete}
+### `Odstráň` {#block_lists_delete}
 
 <img src={useBaseUrl('/img/blocks/block_lists_delete.svg')} alt="block_lists_delete.svg" />
 
-Deletes item at selected index (or selected delete mode).
+Odstráni položku na zvolenom indexe (alebo podľa zvoleného režimu odstránenia).
 
-### `Clear all` {#block_lists_clear_all}
+### `Vymaž všetko` {#block_lists_clear_all}
 
 <img src={useBaseUrl('/img/blocks/block_lists_clear_all.svg')} alt="block_lists_clear_all.svg" />
 
-Removes all items from selected list.
+Odstráni všetky položky zo zoznamu.
 
-## List value/check blocks
+## Bloky čítania/kontroly zoznamu
 
-### `Item at` {#block_lists_item_at}
+### `Položka na pozícii` {#block_lists_item_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_item_at.svg')} alt="block_lists_item_at.svg" />
 
-Returns value at selected index.
+Vracia hodnotu na zvolenom indexe.
 
-### `Index of value` {#block_lists_index_of_value}
+### `Index hodnoty` {#block_lists_index_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_index_of_value.svg')} alt="block_lists_index_of_value.svg" />
 
-Returns index of the first matching value in list.
+Vracia index prvej zodpovedajúcej hodnoty v zozname.
 
-### `Contains value` {#block_lists_contains_value}
+### `Obsahuje hodnotu` {#block_lists_contains_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_contains_value.svg')} alt="block_lists_contains_value.svg" />
 
-Returns whether list contains a specified value.
+Vracia, či zoznam obsahuje zadanú hodnotu.
 
-### `Size of list` {#block_lists_size_of_value}
+### `Veľkosť zoznamu` {#block_lists_size_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_size_of_value.svg')} alt="block_lists_size_of_value.svg" />
 
-Returns number of items in selected list.
+Vracia počet položiek v zozname.
 
-## List value reporter
+## Blok hodnoty zoznamu
 
 <img src={useBaseUrl('/img/blocks/list.svg')} alt="list.svg" />
 
-Returns the current value of the selected list.
+Vracia aktuálnu hodnotu vybraného zoznamu.
 
-- Type: reporter block
-- Output format example: `[item1,item2,item3]`
-- Typical use: inspect current list content or pass the list value into compatible blocks
+- Typ: reporter blok  
+- Príklad výstupu: `[item1,item2,item3]`  
+- Typické použitie: zobrazenie obsahu zoznamu alebo odovzdanie zoznamu do iných blokov

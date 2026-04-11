@@ -1,150 +1,138 @@
 ---
 id: Events
-title: Events
+title: Udalosti
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Events
+# Udalosti
 
-The **Events** category contains blocks that start scripts when a condition happens.
+Kategória **Udalosti** obsahuje bloky, ktoré spúšťajú skripty, keď nastane určitá podmienka.
 
-## Core events
+## Základné udalosti
 
-### `When program started` {#block_event_when_program_started}
+### `Keď sa program spustí` {#block_event_when_program_started}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
 
-Starts this script once when the profile program begins.
+Spustí tento skript raz pri začiatku programu.
 
-- Trigger: program launch
-- Typical use: initialize variables, default motor states, startup sounds
+- Spúšťač: spustenie programu
+- Typické použitie: inicializácia premenných, predvolené stavy motorov, štartovacie zvuky
 
-### `When` {#block_event_when}
+### `Keď` {#block_event_when}
 
 <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 
-Runs when a selected condition becomes true.
+Spustí sa, keď sa vybraná podmienka stane pravdivou.
 
-- Trigger: condition-based
-- Typical use: branch logic based on runtime state
+- Spúšťač: podmienka
+- Typické použitie: vetvenie logiky podľa aktuálneho stavu
 
-### `When timer greater than` {#block_event_when_timer_greater_than}
+### `Keď časovač je väčší ako` {#block_event_when_timer_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_timer_greater_than.svg')} alt="block_event_when_timer_greater_than.svg" />
 
-Runs when timer value passes a threshold.
+Spustí sa, keď hodnota časovača prekročí nastavený limit.
 
-- Trigger: elapsed time
-- Typical use: delayed actions, timed phases
+- Spúšťač: uplynutý čas
+- Typické použitie: oneskorené akcie, časované fázy
 
-### `When message received` {#block_event_when_message_recieved}
+### `Keď je prijatá správa` {#block_event_when_message_recieved}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_message_recieved.svg')} alt="block_event_when_message_recieved.svg" />
 
-Starts a script when a matching broadcast message is received.
+Spustí skript po prijatí zodpovedajúcej správy.
 
-- Trigger: message channel
-- Typical use: synchronize multiple scripts
+- Spúšťač: správa
+- Typické použitie: synchronizácia viacerých skriptov
 
-### `Broadcast` {#block_event_broadcast}
+### `Vysielaj správu` {#block_event_broadcast}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast.svg')} alt="block_event_broadcast.svg" />
 
-Sends a message to all scripts listening for that message.
+Odošle správu všetkým skriptom, ktoré ju sledujú.
 
-- Trigger: immediate send
-- Typical use: notify other scripts without waiting
+- Spúšťač: okamžité odoslanie
+- Typické použitie: informovanie iných skriptov bez čakania
 
-### `Broadcast and wait` {#block_event_broadcast_and_wait}
+### `Vysielaj správu a čakaj` {#block_event_broadcast_and_wait}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast_and_wait.svg')} alt="block_event_broadcast_and_wait.svg" />
 
-Sends a message and pauses this script until listeners complete.
+Odošle správu a pozastaví tento skript, kým ostatné skripty nedokončia vykonávanie.
 
-- Trigger: immediate send + wait
-- Typical use: staged flows where order matters
+- Spúšťač: odoslanie + čakanie
+- Typické použitie: riadené sekvencie, kde záleží na poradí
 
-## Hub events
+## Udalosti hubu
 
-### `Hub button pressed` {#block_hubs_all_event_button_pressed}
+### `Tlačidlo hubu` {#block_hubs_all_event_button_pressed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_button_pressed.svg')} alt="block_hubs_all_event_button_pressed.svg" />
 
-Runs when the main button on the hub is pressed.
+Spustí sa pri zmene stavu tlačidla hubu.
 
-- State options: `pressed`, `released`, `changed`
-- Note: available button options may differ by hub model (different hubs can expose different button sets).
+- Možnosti stavu: `stlačené`, `uvoľnené`, `zmenené`
+- Poznámka: dostupné tlačidlá závisia od modelu hubu.
 
-### `Hub connection changed` {#block_hubs_all_event_connection_changed}
+### `Zmena pripojenia hubu` {#block_hubs_all_event_connection_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_connection_changed.svg')} alt="block_hubs_all_event_connection_changed.svg" />
 
-Runs when the hub connection state changes (connected or disconnected).
+Spustí sa pri zmene stavu pripojenia hubu.
 
-- Trigger: hub connection status change
-- Typical use: reconnection handling and safe fallback behavior after link loss
+- Spúšťač: zmena pripojenia
+- Typické použitie: opätovné pripojenie, bezpečné správanie pri výpadku
 
-### `Hub battery changed` {#block_hubs_all_event_battery_changed}
+### `Zmena batérie hubu` {#block_hubs_all_event_battery_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_battery_changed.svg')} alt="block_hubs_all_event_battery_changed.svg" />
 
-Runs when reported hub battery level changes.
+Spustí sa pri zmene úrovne batérie hubu.
 
-- Trigger: battery level update (for hubs that report battery state)
-- Typical use: low-battery warning logic and power-saving mode switching
+- Spúšťač: aktualizácia batérie
+- Typické použitie: varovanie pri nízkej batérii
 
-### `Hub accelerometer changed` {#block_hubs_all_event_accelerometer_changed}
+### `Zmena akcelerometra` {#block_hubs_all_event_accelerometer_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_accelerometer_changed.svg')} alt="block_hubs_all_event_accelerometer_changed.svg" />
 
-Runs when acceleration values change.
+Spustí sa pri zmene hodnôt zrýchlenia.
 
-### `Hub tilt changed` {#block_hubs_all_event_tilt_changed}
+### `Zmena náklonu` {#block_hubs_all_event_tilt_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_changed.svg')} alt="block_hubs_all_event_tilt_changed.svg" />
 
-Runs when tilt value changes.
+Spustí sa pri zmene náklonu.
 
-- Angle options: `any`, `pitch`, `roll`, `yaw`
-- Note: `yaw` is available only on hubs that provide yaw data.
+- Možnosti osi: `ľubovoľná`, `pitch`, `roll`, `yaw`
 
-### `Hub orientation changed` {#block_hubs_all_event_tilt_orientation_changed}
+### `Zmena orientácie` {#block_hubs_all_event_tilt_orientation_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_orientation_changed.svg')} alt="block_hubs_all_event_tilt_orientation_changed.svg" />
 
-Runs when orientation state changes (for example, front/up/down/left/right).
+Spustí sa pri zmene orientácie hubu.
 
-## Sensor port events
+## Udalosti senzorov portu
 
-### `Technic color sensor event` {#block_hubs_all_event_port_technic_sensor_color}
+### `Udalosť farby Technic` {#block_hubs_all_event_port_technic_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
 
-Runs when the Technic color sensor reports a selected color.
+Spustí sa, keď senzor farby deteguje vybranú farbu.
 
-
-### `Technic distance sensor event` {#block_hubs_all_event_port_technic_sensor_distance}
+### `Udalosť vzdialenosti Technic` {#block_hubs_all_event_port_technic_sensor_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_distance.svg')} alt="block_hubs_all_event_port_technic_sensor_distance.svg" />
 
-Runs when Technic distance sensor values match the selected condition.
+Spustí sa, keď vzdialenosť splní podmienku.
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `mm`, `cm`, `inch`, `%`
-- Note: available units can depend on sensor mode and connected device.
+- Porovnania: `bližšie ako`, `ďalej ako`, `presne na`
+- Jednotky: `mm`, `cm`, `palce`, `%`
 
-### `BOOST sensor distance event` {#block_hubs_all_event_port_boost_sensor_when_distance}
+### `Udalosť vzdialenosti BOOST` {#block_hubs_all_event_port_boost_sensor_when_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_event_port_boost_sensor_when_distance.svg" />
 
-Runs when the BOOST distance sensor reaches the chosen threshold/condition.
-
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `%`, `cm`, `inch`
-
-### `BOOST sensor color event` {#block_hubs_all_event_port_boost_sensor_color}
-
-<img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
-
-Runs when the BOOST sensor detects a selected color/value.
+Spustí sa pri splnení podmienky vzdialenosti BOOST senzora.
