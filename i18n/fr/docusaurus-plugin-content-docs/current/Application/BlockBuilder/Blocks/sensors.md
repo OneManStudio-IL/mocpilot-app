@@ -29,11 +29,11 @@ Retourne la température de la carte du hub.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_button_pressed.svg?v=20260409-2258')} alt="block_hubs_all_sensors_button_pressed.svg" />
 Vérifie si un bouton sélectionné du hub correspond à l’état sélectionné.
 
-- Options d’état : `pressed`, `released`
-- Option de bouton typique : `center` (dépend du hub)
+- Options d’état : `pressé`, `relâché`
+- Option de bouton typique : `centre` (dépend du hub)
 - Remarque : les options de bouton disponibles peuvent varier selon le modèle de hub (différents hubs peuvent exposer différents ensembles de boutons).
 
-### `Device type` {#block_hubs_all_motors_port_device_type}
+### `Type d’appareil` {#block_hubs_all_motors_port_device_type}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_device_type.svg')} alt="block_hubs_all_motors_port_device_type.svg" />
 Retourne le type d’appareil connecté pour le port sélectionné.
 
@@ -58,27 +58,27 @@ Retourne les données d’accélération à partir des capteurs de l’appareil.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
 Retourne l’angle d’inclinaison pour l’axe sélectionné.
 
-- Options d’axe : `pitch`, `roll`, `yaw`
-- Remarque : `yaw` est disponible uniquement sur les hubs qui fournissent des données de lacet.
+- Options d’axe : `tangage`, `roulis`, `lacet`
+- Remarque : `lacet` est disponible uniquement sur les hubs qui fournissent des données de lacet.
 
 ### `Get orientation` {#block_hubs_sensors_get_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_get_orientation.svg')} alt="block_hubs_sensors_get_orientation.svg" />
 Retourne l’état d’orientation actuel du hub.
 
-- Options de format de sortie : `text`, `index`
-- Valeurs d’orientation : `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Options de format de sortie : `texte`, `index`
+- Valeurs d’orientation : `Avant`, `Haut`, `Droite`, `Arrière`, `Bas`, `Gauche`
 
 ### `Is orientation up` {#block_hubs_all_sensors_is_orientation_up}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_orientation_up.svg')} alt="block_hubs_all_sensors_is_orientation_up.svg" />
 Vérifie si l’orientation du hub correspond à l’orientation « vers le haut » sélectionnée.
 
-- Options d’orientation : `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Options d’orientation : `Avant`, `Haut`, `Droite`, `Arrière`, `Bas`, `Gauche`
 
 ### `Set tilt orientation` {#block_hubs_sensors_set_tilt_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_set_tilt_orientation.svg')} alt="block_hubs_sensors_set_tilt_orientation.svg" />
 Configure la référence d’orientation utilisée par les blocs liés à l’inclinaison et à l’orientation.
 
-- Options d’orientation : `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Options d’orientation : `Avant`, `Haut`, `Droite`, `Arrière`, `Bas`, `Gauche`
 
 ## Minuteur et capteurs de mouvement de l’appareil
 
@@ -96,20 +96,20 @@ Réinitialise le minuteur à zéro.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
 Retourne les valeurs de distance d’un capteur de distance Technic.
 
-- Options d’unité : `mm`, `cm`, `inch`, `%`
+- Options d’unité : `mm`, `cm`, `pouces`, `%`
 
 ### `Technic when distance is` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
 Déclenche/vérifie une condition de distance pour un capteur de distance Technic.
 
-- Options de comparaison : `closer than`, `farther than`, `exactly at`
-- Options d’unité : `mm`, `cm`, `inch`, `%`
+- Options de comparaison : `plus proche que`, `plus loin que`, `exactement à`
+- Options d’unité : `mm`, `cm`, `pouces`, `%`
 
 ### `Technic color sensor value` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Retourne la valeur de la couleur détectée par un capteur de distance Technic.
 
-- Options de sortie : `value`, `string`
+- Options de sortie : `valeur`, `chaîne`
 
 ### `Technic when color is` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_color_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_color_is.svg" />
@@ -139,26 +139,26 @@ Déclenche/vérifie une condition de seuil de lumière ambiante.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_raw_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_raw_color.svg" />
 Retourne la valeur brute du canal de couleur à partir du capteur Technic.
 
-- Options de canal : `red`, `green`, `blue`
+- Options de canal : `rouge`, `vert`, `bleu`
 
 ### `BOOST sensor distance` {#block_hubs_all_sensors_port_boost_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_distance.svg" />
 Retourne la distance mesurée par un capteur de distance BOOST.
 
-- Options d’unité : `%`, `cm`, `inch`
+- Options d’unité : `%`, `cm`, `pouces`
 
 ### `BOOST when distance is` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_distance.svg" />
 Déclenche/vérifie une condition de distance pour un capteur de distance BOOST.
 
-- Options de comparaison : `closer than`, `farther than`, `exactly at`
-- Options d’unité : `%`, `cm`, `inch`
+- Options de comparaison : `plus proche que`, `plus loin que`, `exactement à`
+- Options d’unité : `%`, `cm`, `pouces`
 
 ### `BOOST sensor color` {#block_hubs_all_sensors_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_color.svg" />
 Retourne la couleur détectée par un capteur BOOST.
 
-- Options de sortie : `value`, `string`
+- Options de sortie : `valeur`, `chaîne`
 
 ### `BOOST is color` {#block_hubs_all_sensors_port_boost_sensor_is_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_is_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_is_color.svg" />
@@ -184,16 +184,16 @@ Définit le mode de puissance Technic Move.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_distance.svg" />
 Retourne la distance mesurée par un capteur de distance WeDo 2.
 
-- Options d’unité : `%`, `cm`, `inch`
+- Options d’unité : `%`, `cm`, `pouces`
 
 ### `WeDo 2 tilt` {#block_hubs_all_sensors_port_wedo2_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
 Retourne la valeur d’inclinaison d’un capteur d’inclinaison WeDo 2.
 
-- Options d’axe : `pitch`, `roll`
+- Options d’axe : `tangage`, `roulis`
 
 ## Notes d’utilisation
 
 - Utilisez les blocs reporter de capteurs avec `if`, `if/else` et `wait until` pour une logique réactive.
 - Combinez les valeurs des capteurs avec les blocs Operators pour construire des seuils et des conditions.
-- Vérifiez le `Device type` avant d’envoyer des commandes qui dépendent d’un matériel connecté spécifique.
+- Vérifiez le `type d’appareil` avant d’envoyer des commandes qui dépendent d’un matériel connecté spécifique.

@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Contrôleurs du tableau de bord
 
-Ces blocs sont utilisés pour lire les entrées utilisateur depuis les contrôles à l’écran, réagir aux actions de l’utilisateur et mettre à jour l’état de l’interface du tableau de bord. :contentReference[oaicite:0]{index=0}
+Ces blocs sont utilisés pour lire les entrées utilisateur depuis les contrôles à l’écran, réagir aux actions de l’utilisateur et mettre à jour l’état de l’interface du tableau de bord.
 
 ## Blocs globaux des contrôleurs du tableau de bord
 
@@ -252,11 +252,11 @@ Définit une valeur entière pour un compteur.
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
-Définit la valeur d’inclinaison (pitch/roll).
+Définit la valeur d’inclinaison (tangage/roulis).
 
 - Type : bloc de commande
 - Utilisation typique : afficher l’inclinaison en temps réel
-- Axes : `pitch`, `roll`
+- Axes : `tangage`, `roulis`
 
 ## Notes d’utilisation
 

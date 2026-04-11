@@ -55,10 +55,10 @@ Applique une fonction mathématique à un seul argument.
 
 Fonctions disponibles :
 
-- `abs` : valeur absolue d’un nombre
-- `floor` : arrondi à l’entier inférieur
-- `ceiling` : arrondi à l’entier supérieur
-- `sqrt` : racine carrée
+- `valeur absolue` : valeur absolue d’un nombre
+- `entier inférieur` : arrondi à l’entier inférieur
+- `entier supérieur` : arrondi à l’entier supérieur
+- `racine carrée` : racine carrée
 - `sin` : sinus (basé sur un angle)
 - `cos` : cosinus (basé sur un angle)
 - `tan` : tangente (basée sur un angle)
@@ -80,7 +80,7 @@ Fonctions disponibles :
 
 - `min` : plus petite des deux valeurs
 - `max` : plus grande des deux valeurs
-- `pow` : première valeur élevée à la puissance de la seconde
+- `puissance` : première valeur élevée à la puissance de la seconde
 - `atan2` : angle à partir d’une paire X/Y
 - `hypot` : longueur de l’hypoténuse à partir de deux composantes
 - `copysign` : première valeur avec le signe de la seconde
@@ -171,6 +171,6 @@ Retourne `true` si le texte contient la sous-chaîne spécifiée.
 
 ## Notes d’utilisation
 
-- Utilisez les blocs opérateurs pour construire des conditions dans `if`, `wait until` et les filtres d’événements.
+- Utilisez les blocs opérateurs pour construire des conditions dans `si`, `attendre jusqu’à` et les filtres d’événements.
 - Pour le contrôle des moteurs, normalisez et limitez les valeurs avant de les passer aux blocs de vitesse/puissance.
 - Évitez la division par zéro dans `Divide` et `Modulus`.

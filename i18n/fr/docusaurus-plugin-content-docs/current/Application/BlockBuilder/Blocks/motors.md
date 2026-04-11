@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Moteurs
 
-Les blocs moteurs sont utilisés pour démarrer, arrêter, positionner et régler les moteurs connectés aux ports du hub. :contentReference[oaicite:0]{index=0}
+Les blocs moteurs sont utilisés pour démarrer, arrêter, positionner et régler les moteurs connectés aux ports du hub.
 
 ## Blocs de commande principaux des moteurs
 
@@ -143,7 +143,7 @@ Arrête les moteurs d’entraînement Technic Move.
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_brake.svg')} alt="block_hubs_technicmove_motors_brake.svg" />
 Applique le comportement de freinage aux moteurs Technic Move.
 
-- Options de frein : `off`, `on`
+- Options de frein : `éteint`, `activé`
 
 ### `Définir la crémaillère de direction à` {#block_hubs_technicmove_motors_set_steering_rack_to}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_set_steering_rack_to.svg')} alt="block_hubs_technicmove_motors_set_steering_rack_to.svg" />

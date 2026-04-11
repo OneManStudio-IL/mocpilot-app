@@ -90,7 +90,7 @@ Terminent les scripts et ne permettent pas d’ajouter de blocs en dessous.
   <img src={useBaseUrl('/img/blocks_stack.svg')} alt="blocks_stack.svg" />
 </div>
 
-Une pile de blocs est une séquence de blocs connectés qui s’exécute comme un seul flux de script de haut en bas. :contentReference[oaicite:0]{index=0}  
+Une pile de blocs est une séquence de blocs connectés qui s’exécute comme un seul flux de script de haut en bas.  
 Les piles commencent généralement par un bloc événement, puis exécutent les blocs attachés dans l’ordre.
 
 ---

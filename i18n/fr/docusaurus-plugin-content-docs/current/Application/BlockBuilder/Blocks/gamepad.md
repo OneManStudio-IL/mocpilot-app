@@ -44,7 +44,6 @@ Selon les options actuelles, ce bloc prend en charge :
 
 - Sélection du stick : `gauche` / `droite`
 - Direction/état : `haut`, `bas`, `gauche`, `droite`, `déplacé`, `relâché`
-
 - Type : bloc événement
 - Utilisation typique : réagir au mouvement directionnel ou au relâchement
 

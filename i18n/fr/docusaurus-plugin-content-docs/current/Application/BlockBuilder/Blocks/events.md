@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Événements
 
-La catégorie **Événements** contient des blocs qui démarrent des scripts lorsqu’une condition se produit. :contentReference[oaicite:0]{index=0}
+La catégorie **Événements** contient des blocs qui démarrent des scripts lorsqu’une condition se produit.
 
 ## Événements principaux
 
@@ -106,8 +106,8 @@ Exécute lorsque les valeurs d’accélération changent.
 
 Exécute lorsque l’inclinaison change.
 
-- Options : `toutes`, `pitch`, `roll`, `yaw`
-- Remarque : `yaw` dépend du hub.
+- Options : `toutes`, `tangage`, `roulis`, `lacet`
+- Remarque : `lacet` dépend du hub.
 
 ### `Orientation du hub modifiée` {#block_hubs_all_event_tilt_orientation_changed}
 
@@ -130,7 +130,7 @@ Exécute lorsque le capteur détecte une couleur.
 Exécute lorsque la distance correspond à la condition.
 
 - Options : `plus proche que`, `plus loin que`, `exactement à`
-- Unités : `mm`, `cm`, `inch`, `%`
+- Unités : `mm`, `cm`, `pouces`, `%`
 
 ### `Événement capteur de distance BOOST` {#block_hubs_all_event_port_boost_sensor_when_distance}
 
