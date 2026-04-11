@@ -71,7 +71,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Останавливает выполнение скрипта (область остановки зависит от выбранного режима).
 
-- Варианты остановки: `all`, `this stack`, `and exit program`
+- Варианты остановки: `все`, `этот стек`, `и выйти из программы`
 
 ### `Остановить другие стеки` {#block_control_stop_other_stacks}
 
