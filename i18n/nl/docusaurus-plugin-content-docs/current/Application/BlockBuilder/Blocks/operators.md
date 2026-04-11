@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Operatoren
 
-Operatoren zijn rapporteur- en booleaanse blokken die worden gebruikt voor berekeningen, vergelijkingen, logica en tekstverwerking. :contentReference[oaicite:0]{index=0}
+Operatoren zijn rapporteur- en booleaanse blokken die worden gebruikt voor berekeningen, vergelijkingen, logica en tekstverwerking.
 
 ## Rekenkundige operatoren
 

@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Motoren
 
-Motorblokken worden gebruikt om motoren die op hubpoorten zijn aangesloten te starten, stoppen, positioneren en af te stellen. :contentReference[oaicite:0]{index=0}
+Motorblokken worden gebruikt om motoren die op hubpoorten zijn aangesloten te starten, stoppen, positioneren en af te stellen.
 
 ## Basis motoropdrachtblokken
 

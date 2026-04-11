@@ -22,7 +22,7 @@ Wordt geactiveerd wanneer de geselecteerde gamepad-knop overeenkomt met de inges
 - Type: gebeurtenisblok
 - Knopopties (Xbox-indeling): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
 - Knopopties (Sony-indeling): `kruis`, `cirkel`, `vierkant`, `driehoek`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
-- Statusopties: `ingedrukt`, `losgelaten`
+- Statusopties: `ingedrukt`, `vrijgegeven`
 
 ### `Wanneer gamepad D-pad is` {#block_gamepad_event_when_dpad_is}
 
@@ -32,7 +32,7 @@ Wordt geactiveerd wanneer de D-pad richting/status overeenkomt met de geselectee
 
 - Type: gebeurtenisblok
 - Richtingsopties: `boven`, `onder`, `links`, `rechts`
-- Statusopties: `ingedrukt`, `losgelaten`
+- Statusopties: `ingedrukt`, `vrijgegeven`
 
 ### `Wanneer gamepad thumbstick is` {#block_gamepad_event_when_thumbstick_is}
 
@@ -43,7 +43,7 @@ Wordt geactiveerd wanneer de thumbstickvoorwaarde overeenkomt met de geselecteer
 Op basis van de huidige opties ondersteunt dit blok:
 
 - Stickselectie: `links` / `rechts`
-- Richting/status: `boven`, `onder`, `links`, `rechts`, `bewogen`, `losgelaten`
+- Richting/status: `boven`, `onder`, `links`, `rechts`, `bewogen`, `vrijgegeven`
 
 - Type: gebeurtenisblok
 - Typisch gebruik: reageren op richtingbeweging of loslaten van de stick
@@ -63,7 +63,7 @@ Geeft de huidige status van de geselecteerde gamepad-knop terug.
 - Output: `true`/`false`
 - Knopopties (Xbox-indeling): `A`, `B`, `X`, `Y`, `LB`, `RB`, `LT`, `RT`, `LSB`, `RSB`
 - Knopopties (Sony-indeling): `kruis`, `cirkel`, `vierkant`, `driehoek`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
-- Statusopties: `ingedrukt`, `losgelaten`
+- Statusopties: `ingedrukt`, `vrijgegeven`
 
 ### `Gamepad D-pad knopwaarde (boolean)` {#block_gamepad_dpad_button_value_boolean}
 
@@ -74,7 +74,7 @@ Geeft aan of de geselecteerde D-pad richting momenteel actief is.
 - Type: waarde-blok
 - Output: `true`/`false`
 - Richtingsopties: `boven`, `onder`, `links`, `rechts`
-- Statusopties: `ingedrukt`, `losgelaten`
+- Statusopties: `ingedrukt`, `vrijgegeven`
 
 ### `Gamepad thumbstick waarde (float)` {#block_gamepad_thumbstick_value_float}
 
@@ -87,7 +87,7 @@ Geeft de numerieke waarde van de thumbstick-as terug.
 - Standaardbereik: `-1` tot `1`
 - Optioneel bereik in gamepadinstellingen: `-100` tot `100`
 - Stickopties: `links`, `rechts`
-- Asopties: `x-as` / `y-as`
+- Asopties: `X-as` / `Y-as`
 
 ### `Gamepad triggerdruk waarde (float)` {#block_gamepad_trigger_pressure_value_float}
 

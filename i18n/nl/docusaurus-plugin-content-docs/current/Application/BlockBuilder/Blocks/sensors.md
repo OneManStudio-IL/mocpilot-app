@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Sensoren
 
-Sensorblokken lezen de status van hub/apparaat en leveren gegevens voor voorwaarden, gebeurtenissen en besturingslogica. :contentReference[oaicite:0]{index=0}
+Sensorblokken lezen de status van hub/apparaat en leveren gegevens voor voorwaarden, gebeurtenissen en besturingslogica.
 
 ## Apparaat- en hubsensoren
 
@@ -29,7 +29,7 @@ Geeft de temperatuur van het hubbord terug.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_button_pressed.svg?v=20260409-2258')} alt="block_hubs_all_sensors_button_pressed.svg" />
 Controleert of een geselecteerde hubknop overeenkomt met de gekozen status.
 
-- Statusopties: `ingedrukt`, `losgelaten`
+- Statusopties: `ingedrukt`, `vrijgegeven`
 - Typische knopoptie: `center` (afhankelijk van hub)
 
 - Opmerking: beschikbare knopopties kunnen verschillen per hubmodel.
@@ -59,8 +59,8 @@ Geeft versnellingsgegevens van apparaatsensoren terug.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
 Geeft de kantelhoek voor de geselecteerde as terug.
 
-- Asopties: `pitch`, `roll`, `yaw`
-- Opmerking: `yaw` is alleen beschikbaar op hubs die yaw-data ondersteunen.
+- Asopties: `helling`, `rol`, `gieren`
+- Opmerking: `gieren` is alleen beschikbaar op hubs die gier-data ondersteunen.
 
 ### `Haal oriëntatie op` {#block_hubs_sensors_get_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_get_orientation.svg')} alt="block_hubs_sensors_get_orientation.svg" />
@@ -97,14 +97,14 @@ Reset de timer naar nul.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
 Geeft afstandswaarden van een Technic afstandssensor terug.
 
-- Eenheidsopties: `mm`, `cm`, `inch`, `%`
+- Eenheidsopties: `mm`, `cm`, `duim`, `%`
 
 ### `Technic wanneer afstand is` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
 Activeert/controleert de afstandsvoorwaarde voor een Technic afstandssensor.
 
-- Vergelijkopties: `dichter dan`, `verder dan`, `exact op`
-- Eenheidsopties: `mm`, `cm`, `inch`, `%`
+- Vergelijkopties: `dichterbij dan`, `verder dan`, `precies op`
+- Eenheidsopties: `mm`, `cm`, `duim`, `%`
 
 ### `Technic kleursensor waarde` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
@@ -146,14 +146,14 @@ Geeft de ruwe kleurkanaalwaarde van de Technic sensor terug.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_distance.svg" />
 Geeft de afstand van een BOOST afstandssensor terug.
 
-- Eenheidsopties: `%`, `cm`, `inch`
+- Eenheidsopties: `%`, `cm`, `duim`
 
 ### `BOOST wanneer afstand is` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_distance.svg" />
 Activeert/controleert de afstandsvoorwaarde voor de BOOST afstandssensor.
 
-- Vergelijkopties: `dichter dan`, `verder dan`, `exact op`
-- Eenheidsopties: `%`, `cm`, `inch`
+- Vergelijkopties: `dichterbij dan`, `verder dan`, `precies op`
+- Eenheidsopties: `%`, `cm`, `duim`
 
 ### `BOOST kleursensor` {#block_hubs_all_sensors_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_color.svg" />
@@ -179,16 +179,16 @@ Activeert/controleert de drempelwaarde voor gereflecteerd licht van de BOOST sen
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_sensors_set_power_mode.svg')} alt="block_hubs_technicmove_sensors_set_power_mode.svg" />
 Stelt de vermogensmodus van Technic Move in.
 
-- Modusopties: `normal`, `boost`
+- Modusopties: `normaal`, `boost`
 
 ### `WeDo 2 afstand` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_distance.svg" />
 Geeft de afstand van een WeDo 2 afstandssensor terug.
 
-- Eenheidsopties: `%`, `cm`, `inch`
+- Eenheidsopties: `%`, `cm`, `duim`
 
 ### `WeDo 2 kanteling` {#block_hubs_all_sensors_port_wedo2_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
 Geeft de kantelwaarde van een WeDo 2 kantelsensor terug.
 
-- Asopties: `pitch`, `roll`
+- Asopties: `helling`, `rol`

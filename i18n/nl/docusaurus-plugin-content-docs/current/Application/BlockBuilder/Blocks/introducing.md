@@ -9,7 +9,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 MOCPilot gebruikt een visueel blokprogrammeringssysteem dat lijkt op en aanvoelt als Scratch.
 Elk blok heeft een specifieke rol, en geldige combinaties bepalen de besturingsstroom en gegevensstroom binnen een script.
-Het maakt gebruik van drag-and-drop logica en interactiepatronen vergelijkbaar met Scratch om een handige en vertrouwde manier te bieden om programma’s te bouwen. :contentReference[oaicite:0]{index=0}
+Het maakt gebruik van drag-and-drop logica en interactiepatronen vergelijkbaar met Scratch om een handige en vertrouwde manier te bieden om programma’s te bouwen.
 
 :::warning Compatibiliteitsmelding
 Dit is een ander bloksysteem met een eigen set blokken en gedrag.  

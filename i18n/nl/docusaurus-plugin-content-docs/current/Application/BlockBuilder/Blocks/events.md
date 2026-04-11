@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Gebeurtenissen
 
-De categorie **Gebeurtenissen** bevat blokken die scripts starten wanneer een voorwaarde optreedt. :contentReference[oaicite:0]{index=0}
+De categorie **Gebeurtenissen** bevat blokken die scripts starten wanneer een voorwaarde optreedt.
 
 ## Kerngebeurtenissen
 
@@ -73,7 +73,7 @@ Stuurt een bericht en pauzeert dit script totdat de luisteraars klaar zijn.
 
 Wordt uitgevoerd wanneer de hoofdknop op de hub wordt ingedrukt.
 
-- Statusopties: `ingedrukt`, `losgelaten`, `gewijzigd`
+- Statusopties: `ingedrukt`, `vrijgegeven`, `gewijzigd`
 - Opmerking: beschikbare knopopties kunnen verschillen per hubmodel (verschillende hubs kunnen verschillende knoppen hebben).
 
 ### `Hubverbinding gewijzigd` {#block_hubs_all_event_connection_changed}
@@ -106,8 +106,8 @@ Wordt uitgevoerd wanneer versnellingswaarden veranderen.
 
 Wordt uitgevoerd wanneer de kantelwaarde verandert.
 
-- Hoekopties: `elk`, `pitch`, `roll`, `yaw`
-- Opmerking: `yaw` is alleen beschikbaar op hubs die yaw-data leveren.
+- Hoekopties: `elke`, `helling`, `rol`, `gieren`
+- Opmerking: `gieren` is alleen beschikbaar op hubs die gier-data leveren.
 
 ### `Huboriëntatie gewijzigd` {#block_hubs_all_event_tilt_orientation_changed}
 
@@ -129,8 +129,8 @@ Wordt uitgevoerd wanneer de Technic kleursensor een geselecteerde kleur detectee
 
 Wordt uitgevoerd wanneer de waarden van de Technic afstandssensor voldoen aan de geselecteerde voorwaarde.
 
-- Vergelijkopties: `dichter dan`, `verder dan`, `exact op`
-- Eenheidsopties: `mm`, `cm`, `inch`, `%`
+- Vergelijkopties: `dichterbij dan`, `verder dan`, `precies op`
+- Eenheidsopties: `mm`, `cm`, `duim`, `%`
 - Opmerking: beschikbare eenheden kunnen afhangen van de sensormodus en het aangesloten apparaat.
 
 ### `BOOST afstandssensor gebeurtenis` {#block_hubs_all_event_port_boost_sensor_when_distance}
@@ -139,8 +139,8 @@ Wordt uitgevoerd wanneer de waarden van de Technic afstandssensor voldoen aan de
 
 Wordt uitgevoerd wanneer de BOOST afstandssensor de gekozen drempel/voorwaarde bereikt.
 
-- Vergelijkopties: `dichter dan`, `verder dan`, `exact op`
-- Eenheidsopties: `%`, `cm`, `inch`
+- Vergelijkopties: `dichterbij dan`, `verder dan`, `precies op`
+- Eenheidsopties: `%`, `cm`, `duim`
 
 ### `BOOST kleursensor gebeurtenis` {#block_hubs_all_event_port_boost_sensor_color}
 
