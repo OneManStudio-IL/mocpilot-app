@@ -1,39 +1,39 @@
 ---
 id: Variables
-title: Variables
+title: Variáveis
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Variables
+# Variáveis
 
-Variables store values that can be read and updated across block stacks and scripts.
+Variáveis armazenam valores que podem ser lidos e atualizados entre diferentes pilhas de blocos e scripts.
 
-## Variable command blocks
+## Blocos de comando de variáveis
 
-### `Set variable to` {#block_variables_set_to}
+### `Definir variável para` {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
-Sets selected variable to the specified value.
+Define a variável selecionada para o valor especificado.
 
-- Type: command block
-- Typical use: initialize state, overwrite previous value
+- Tipo: bloco de comando
+- Uso típico: inicializar estado, substituir valor anterior
 
-### `Change variable by` {#block_variables_change_by}
+### `Alterar variável por` {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
-Adds the specified amount to selected variable.
+Adiciona o valor especificado à variável selecionada.
 
-- Type: command block
-- Typical use: counters, score, accumulated distance/time
+- Tipo: bloco de comando
+- Uso típico: contadores, pontuação, distância/tempo acumulado
 
-## Variable value reporter
+## Bloco repórter de variável
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 
-Returns the current value of the selected variable.
+Retorna o valor atual da variável selecionada.
 
-- Type: reporter block
-- Typical use: use variable value inside operators, conditions, and command inputs
+- Tipo: bloco repórter
+- Uso típico: usar o valor da variável em operadores, condições e entradas de comandos

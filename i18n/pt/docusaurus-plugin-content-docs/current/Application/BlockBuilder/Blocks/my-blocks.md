@@ -1,34 +1,34 @@
 ---
 id: MyBlocks
-title: My Blocks
+title: Meus Blocos
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# My Blocks
+# Meus Blocos
 
-My Blocks let you define your own custom reusable block.
-This category is conceptually similar to creating a function in traditional programming: define behavior once, then call it many times.
+Meus Blocos permitem que você defina seus próprios blocos reutilizáveis personalizados.  
+Esta categoria é conceitualmente semelhante à criação de uma função na programação tradicional: definir um comportamento uma vez e reutilizá-lo várias vezes.
 
-## Core My Blocks
+## Blocos principais de Meus Blocos
 
-### `Make a Block`
+### `Criar um bloco`
 
-Creates a new custom block definition.
+Cria uma nova definição de bloco personalizado.
 
-- Type: definition/setup block
-- Typical use: group repeated logic into one named block
+- Tipo: bloco de definição/configuração
+- Uso típico: agrupar lógica repetida em um único bloco nomeado
 
-### `MyBlock` (call block)
+### `MeuBloco` (bloco de chamada)
 
-Calls a previously created custom block.
+Chama um bloco personalizado previamente criado.
 
-- Type: stack block (custom command call)
-- Typical use: reuse the same logic in multiple places without duplicating block stacks
+- Tipo: bloco de pilha (chamada de comando personalizado)
+- Uso típico: reutilizar a mesma lógica em vários lugares sem duplicar pilhas de blocos
 
-## Variadic examples
+## Exemplos variádicos
 
-These examples show custom My Blocks with different argument signatures.
+Estes exemplos mostram blocos personalizados com diferentes assinaturas de argumentos.
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758091855.svg')} alt="block_myblock_1775758091855.svg" />
@@ -40,30 +40,30 @@ These examples show custom My Blocks with different argument signatures.
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758145135.svg')} alt="block_myblock_1775758145135.svg" />
 </div>
 
-## Example usage in program stack
+## Exemplo de uso em uma pilha de programa
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-usage-example.png')} alt="my-blocks-usage-example.png" />
 
-This example shows a custom block call attached under `when program starts`, while the `define my block` stack contains the reusable motor logic.
+Este exemplo mostra uma chamada de bloco personalizado conectada ao bloco `quando o programa iniciar`, enquanto a pilha `definir meu bloco` contém a lógica reutilizável do motor.
 
-- Typical flow: call custom block from event stacks
-- Benefit: one definition, many call sites
+- Fluxo típico: chamar blocos personalizados a partir de pilhas de eventos
+- Benefício: uma definição, múltiplos pontos de uso
 
-## My Block editor view
+## Visualização do editor de Meus Blocos
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-editor-cropped.png')} alt="my-blocks-editor-cropped.png" />
 
-The Make a Block editor is used to design your custom block signature.
-You can add labels and inputs (for example number/text and boolean inputs), then define implementation logic in the block definition stack.
+O editor Criar um bloco é usado para definir a assinatura do seu bloco personalizado.  
+Você pode adicionar rótulos e entradas (por exemplo, entradas numéricas/texto e booleanas) e depois definir a lógica de implementação na pilha de definição do bloco.
 
-## Why use My Blocks
+## Por que usar Meus Blocos
 
-- Reusability: write once, call many times.
-- Readability: replace long repeated stacks with one meaningful name.
-- Maintainability: update logic in one place instead of many copies.
-- Structure: split large programs into smaller logical units.
+- Reutilização: escreva uma vez, use várias vezes.
+- Legibilidade: substitua pilhas longas por um nome significativo.
+- Manutenção: atualize a lógica em um único lugar.
+- Estrutura: divida programas grandes em unidades menores.
 
-## Notes
+## Notas
 
-- Custom blocks are project-level and intended for reuse inside the same profile/project context.
-- Prefer descriptive names that explain intent, not implementation details.
+- Blocos personalizados são específicos do projeto e destinados ao uso dentro do mesmo contexto de perfil/projeto.
+- Prefira nomes descritivos que expliquem a intenção, não os detalhes de implementação.
