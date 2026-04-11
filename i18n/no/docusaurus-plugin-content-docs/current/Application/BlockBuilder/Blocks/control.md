@@ -1,130 +1,130 @@
 ---
 id: Control
-title: Control
+title: Kontroll
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Control
+# Kontroll
 
-Control blocks manage execution flow: waiting, loops, branching, and stopping scripts.
+Kontrollblokker styrer kjørelogikken: venting, løkker, forgrening og stopping av skript.
 
-## Wait blocks
+## Venteblokker
 
-### `Wait` {#block_control_wait_for}
+### `Vent` {#block_control_wait_for}
 
 <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
 
-Pauses the current script for a specified time.
+Setter det nåværende skriptet på pause i en spesifisert tid.
 
-### `Wait until` {#block_control_wait_until}
+### `Vent til` {#block_control_wait_until}
 
 <img src={useBaseUrl('/img/blocks/block_control_wait_until.svg')} alt="block_control_wait_until.svg" />
 
-Pauses the current script until a condition becomes true.
+Setter det nåværende skriptet på pause til en betingelse blir sann.
 
-## Loop blocks
+## Løkkeblokker
 
-### `Repeat` {#block_control_repeat_for}
+### `Gjenta` {#block_control_repeat_for}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_for.svg')} alt="block_control_repeat_for.svg" />
 
-Runs nested blocks a fixed number of times.
+Kjører innebygde blokker et fast antall ganger.
 
-### `Repeat until` {#block_control_repeat_until}
+### `Gjenta til` {#block_control_repeat_until}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_until.svg')} alt="block_control_repeat_until.svg" />
 
-Runs nested blocks repeatedly until a condition becomes true.
+Kjører innebygde blokker gjentatte ganger til en betingelse blir sann.
 
-### `Forever` {#block_control_repeat_forever}
+### `For alltid` {#block_control_repeat_forever}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 
-Runs nested blocks continuously until the program or script is stopped.
+Kjører innebygde blokker kontinuerlig til programmet eller skriptet stoppes.
 
-## Branch blocks
+## Forgreningsblokker
 
-### `If` {#block_control_if}
+### `Hvis` {#block_control_if}
 
 <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
 
-Runs nested blocks only when the condition is true.
+Kjører innebygde blokker kun når betingelsen er sann.
 
-### `If / Else` {#block_control_if_else}
+### `Hvis / Ellers` {#block_control_if_else}
 
 <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 
-Runs one branch when the condition is true, otherwise runs the alternative branch.
+Kjører én gren når betingelsen er sann, ellers kjøres den alternative grenen.
 
-### `Do this and this` {#block_control_do_this_and_this}
+### `Gjør dette og dette` {#block_control_do_this_and_this}
 
 <img src={useBaseUrl('/img/blocks/block_control_do_this_and_this.svg')} alt="block_control_do_this_and_this.svg" />
 
-Runs two block stacks in sequence as part of one control flow operation.
+Kjører to blokkstabler i sekvens som en del av én kontrollflytoperasjon.
 
-## Stop blocks
+## Stoppblokker
 
-### `Stop` {#block_control_stop}
+### `Stopp` {#block_control_stop}
 
 <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
 
-Stops script execution (scope depends on selected stop option).
+Stopper kjøring av skript (omfang avhenger av valgt stoppalternativ).
 
-- Stop options: `all`, `this stack`, `and exit program`
+- Stoppalternativer: `alle`, `denne stakken`, `og avslutt programmet`
 
-### `Stop other stacks` {#block_control_stop_other_stacks}
+### `Stopp andre stabler` {#block_control_stop_other_stacks}
 
 <img src={useBaseUrl('/img/blocks/block_control_stop_other_stacks.svg')} alt="block_control_stop_other_stacks.svg" />
 
-Stops all other running stacks while allowing the current stack to continue.
+Stopper alle andre kjørende stabler mens den nåværende fortsetter.
 
-## Hub/control utility blocks
+## Hub-/kontrollverktøyblokker
 
-### `Set connect` {#block_hubs_control_set_connect}
+### `Sett tilkobling` {#block_hubs_control_set_connect}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_control_set_connect.svg')} alt="block_hubs_control_set_connect.svg" />
 
-Controls hub connection state from control flow logic.
+Styrer hubens tilkoblingsstatus fra kontrollflytlogikk.
 
-- Action options: `connect`, `disconnect`
+- Handlingsalternativer: `koble til`, `koble fra`
 
-### `Is connected` {#block_hubs_all_sensors_is_connected}
+### `Er tilkoblet` {#block_hubs_all_sensors_is_connected}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_connected.svg')} alt="block_hubs_all_sensors_is_connected.svg" />
 
-Returns whether the hub is currently connected.
+Returnerer om huben for øyeblikket er tilkoblet.
 
-- Type: boolean reporter block
+- Type: boolsk rapporteringsblokk
 
-### `BuWizz 2 set power mode` {#block_hubs_buwizz_sensors_set_power_mode}
+### `BuWizz 2 sett effektmodus` {#block_hubs_buwizz_sensors_set_power_mode}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_set_power_mode.svg')} alt="block_hubs_buwizz_sensors_set_power_mode.svg" />
 
-Sets BuWizz 2 hub power mode.
+Setter effektmodus for BuWizz 2-huben.
 
-- Mode options: `Slow`, `Normal`, `Fast`, `Ludicrous`
+- Modusalternativer: `Sakte`, `Normal`, `Rask`, `Ludicrous`
 
-### `BuWizz 2 get power mode` {#block_hubs_buwizz_sensors_get_power_mode}
+### `BuWizz 2 hent effektmodus` {#block_hubs_buwizz_sensors_get_power_mode}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_get_power_mode.svg')} alt="block_hubs_buwizz_sensors_get_power_mode.svg" />
 
-Returns the currently active BuWizz 2 power mode.
+Returnerer gjeldende effektmodus for BuWizz 2.
 
-- Output format options: `text`, `index`
+- Utdataformatalternativer: `tekst`, `indeks`
 
-### `MouldKing set control channel` {#block_hubs_mouldking_control_set_control_channel}
+### `MouldKing sett kontrollkanal` {#block_hubs_mouldking_control_set_control_channel}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_set_control_channel.svg')} alt="block_hubs_mouldking_control_set_control_channel.svg" />
 
-Sets active control channel for supported MouldKing hub/controller.
+Setter aktiv kontrollkanal for støttet MouldKing-hub/kontroller.
 
-- Channel options: `A`, `B`, `C`
+- Kanalalternativer: `A`, `B`, `C`
 
-### `MouldKing get control channel` {#block_hubs_mouldking_control_get_control_channel}
+### `MouldKing hent kontrollkanal` {#block_hubs_mouldking_control_get_control_channel}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_get_control_channel.svg')} alt="block_hubs_mouldking_control_get_control_channel.svg" />
 
-Returns current active control channel for supported MouldKing hub/controller.
+Returnerer gjeldende aktiv kontrollkanal for støttet MouldKing-hub/kontroller.
 
-- Output format options: `text`, `index`
+- Utdataformatalternativer: `tekst`, `indeks`

@@ -1,34 +1,34 @@
 ---
 id: MyBlocks
-title: My Blocks
+title: Mine blokker
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# My Blocks
+# Mine blokker
 
-My Blocks let you define your own custom reusable block.
-This category is conceptually similar to creating a function in traditional programming: define behavior once, then call it many times.
+Mine blokker lar deg definere dine egne tilpassede gjenbrukbare blokker.  
+Denne kategorien ligner konseptuelt på å lage en funksjon i tradisjonell programmering: definer oppførsel én gang, og bruk den mange ganger.
 
-## Core My Blocks
+## Grunnleggende Mine blokker
 
-### `Make a Block`
+### `Lag en blokk`
 
-Creates a new custom block definition.
+Oppretter en ny tilpasset blokkdefinisjon.
 
-- Type: definition/setup block
-- Typical use: group repeated logic into one named block
+- Type: definisjons-/oppsettblokk
+- Typisk bruk: samle gjentatt logikk i én navngitt blokk
 
-### `MyBlock` (call block)
+### `Min blokk` (kallblokk)
 
-Calls a previously created custom block.
+Kaller en tidligere opprettet tilpasset blokk.
 
-- Type: stack block (custom command call)
-- Typical use: reuse the same logic in multiple places without duplicating block stacks
+- Type: stabelblokk (tilpasset kommando)
+- Typisk bruk: gjenbruke samme logikk flere steder uten å duplisere blokkstabler
 
-## Variadic examples
+## Variadiske eksempler
 
-These examples show custom My Blocks with different argument signatures.
+Disse eksemplene viser tilpassede blokker med ulike argumenttyper.
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758091855.svg')} alt="block_myblock_1775758091855.svg" />
@@ -40,30 +40,30 @@ These examples show custom My Blocks with different argument signatures.
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758145135.svg')} alt="block_myblock_1775758145135.svg" />
 </div>
 
-## Example usage in program stack
+## Eksempel på bruk i programstabel
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-usage-example.png')} alt="my-blocks-usage-example.png" />
 
-This example shows a custom block call attached under `when program starts`, while the `define my block` stack contains the reusable motor logic.
+Dette eksemplet viser et kall til en tilpasset blokk under `når programmet starter`, mens `definer min blokk`-stabelen inneholder gjenbrukbar motorlogikk.
 
-- Typical flow: call custom block from event stacks
-- Benefit: one definition, many call sites
+- Typisk flyt: kall tilpassede blokker fra hendelsesstabler
+- Fordel: én definisjon, mange kallesteder
 
-## My Block editor view
+## Redigeringsvisning for Mine blokker
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-editor-cropped.png')} alt="my-blocks-editor-cropped.png" />
 
-The Make a Block editor is used to design your custom block signature.
-You can add labels and inputs (for example number/text and boolean inputs), then define implementation logic in the block definition stack.
+Redigereren for `Lag en blokk` brukes til å designe signaturen til din tilpassede blokk.  
+Du kan legge til etiketter og inputfelt (for eksempel tall/tekst og boolske input), og deretter definere implementasjonslogikk i blokkdefinisjonen.
 
-## Why use My Blocks
+## Hvorfor bruke Mine blokker
 
-- Reusability: write once, call many times.
-- Readability: replace long repeated stacks with one meaningful name.
-- Maintainability: update logic in one place instead of many copies.
-- Structure: split large programs into smaller logical units.
+- Gjenbruk: skriv én gang, bruk mange ganger  
+- Lesbarhet: erstatt lange gjentatte blokker med ett meningsfullt navn  
+- Vedlikehold: oppdater logikk på ett sted i stedet for mange kopier  
+- Struktur: del opp store programmer i mindre logiske enheter  
 
-## Notes
+## Merknader
 
-- Custom blocks are project-level and intended for reuse inside the same profile/project context.
-- Prefer descriptive names that explain intent, not implementation details.
+- Tilpassede blokker er prosjektbaserte og ment for gjenbruk innen samme profil/prosjekt.  
+- Foretrekk beskrivende navn som forklarer hensikt, ikke implementasjonsdetaljer.

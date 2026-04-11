@@ -1,76 +1,76 @@
 ---
 id: Light
-title: Light
+title: Lys
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Light
+# Lys
 
-This page documents Light category blocks used to control LEDs and light outputs on supported hubs.
+Denne siden dokumenterer blokker i Lys-kategorien som brukes til å kontrollere LED-er og lysutganger på støttede huber.
 
-## Common light blocks
+## Vanlige lysblokker
 
-### `Set LED color` {#block_hubs_all_light_set_led_color}
+### `Sett LED-farge` {#block_hubs_all_light_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_set_led_color.svg')} alt="block_hubs_all_light_set_led_color.svg" />
 
-Sets hub LED color using predefined color options.
+Setter hubens LED-farge ved hjelp av forhåndsdefinerte fargevalg.
 
-- Type: command block
-- Typical use: show state (ready, running, warning, error)
+- Type: kommandoblokk
+- Typisk bruk: vise tilstand (klar, kjører, advarsel, feil)
 
-### `Light turn to` {#block_hubs_all_light_light_turn_to}
+### `Sett lys til` {#block_hubs_all_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_to.svg')} alt="block_hubs_all_light_light_turn_to.svg" />
 
-Sets selected light output to a target brightness/value.
+Setter valgt lysutgang til en målverdi/lysstyrke.
 
-- Type: command block
-- Typical use: headlight brightness, status intensity
+- Type: kommandoblokk
+- Typisk bruk: frontlys, statusintensitet
 
-### `Light turn off` {#block_hubs_all_light_light_turn_off}
+### `Slå av lys` {#block_hubs_all_light_light_turn_off}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_off.svg')} alt="block_hubs_all_light_light_turn_off.svg" />
 
-Turns selected light output off.
+Slår av valgt lysutgang.
 
-- Type: command block
-- Typical use: shutdown sequence, battery-saving behavior
+- Type: kommandoblokk
+- Typisk bruk: avslutningssekvens, batterisparing
 
-### `Technic Move light turn to` {#block_hubs_technicmove_light_light_turn_to}
+### `Technic Move sett lys til` {#block_hubs_technicmove_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_light_light_turn_to.svg')} alt="block_hubs_technicmove_light_light_turn_to.svg" />
 
-Variant of `Light turn to` for Technic Move hub/light target.
+Variant av `Sett lys til` for Technic Move hub/lys.
 
-- Type: command block
-- Typical use: set Move hub light output level
+- Type: kommandoblokk
+- Typisk bruk: sette lysnivå på Move-hub
 
-## BuWizz 3 light blocks
+## BuWizz 3 lysblokker
 
-### `BuWizz 3 set LED color` {#block_hubs_buwizz3_light_port_set_led_color}
+### `BuWizz 3 sett LED-farge` {#block_hubs_buwizz3_light_port_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color.svg')} alt="block_hubs_buwizz3_light_port_set_led_color.svg" />
 
-Sets LED color on selected BuWizz 3 port with built-in color options.
+Setter LED-farge på valgt BuWizz 3-port med innebygde fargevalg.
 
-- Type: command block
+- Type: kommandoblokk
 
-### `BuWizz 3 set LED color (string)` {#block_hubs_buwizz3_light_port_set_led_color_string}
+### `BuWizz 3 sett LED-farge (tekst)` {#block_hubs_buwizz3_light_port_set_led_color_string}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_string.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_string.svg" />
 
-Sets BuWizz 3 LED color using text color value.
+Setter BuWizz 3 LED-farge ved bruk av tekstverdi.
 
-- Type: command block
-- Typical use: dynamic color names from variables
+- Type: kommandoblokk
+- Typisk bruk: dynamiske fargenavn fra variabler
 
-### `BuWizz 3 set LED color (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
+### `BuWizz 3 sett LED-farge (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_rgb.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_rgb.svg" />
 
-Sets BuWizz 3 LED color using explicit RGB channels.
+Setter BuWizz 3 LED-farge ved bruk av eksplisitte RGB-kanaler.
 
-- Type: command block
-- Typical use: full custom color control and gradients
+- Type: kommandoblokk
+- Typisk bruk: full tilpasset fargekontroll og gradienter

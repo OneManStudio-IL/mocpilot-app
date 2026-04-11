@@ -1,259 +1,259 @@
 ---
 id: DashboardControllers
-title: Dashboard controllers
+title: Dashboard-kontrollere
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Dashboard controllers
+# Dashboard-kontrollere
 
-These blocks are used to read user input from on-screen controls, react to user actions, and update dashboard UI state.
+Disse blokkene brukes til å lese brukerinput fra skjermkontroller, reagere på brukerhandlinger og oppdatere dashboardets UI-tilstand.
 
-## Global dashboard controller blocks
+## Globale dashboard-kontrollerblokker
 
-### `Set controller color` {#block_dashboard_controller_all_set_color}
+### `Sett kontrollerfarge` {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
-Changes the visual accent color of the selected dashboard controller.
+Endrer den visuelle aksentfargen til valgt dashboard-kontroller.
 
-- Type: command block
-- Typical use: indicate runtime states or dynamically change controller style based on conditions
+- Type: kommandoblokk
+- Typisk bruk: indikere kjøretidstilstander eller dynamisk endre kontrollerstil basert på betingelser
 
-### `Set controller interactivity` {#block_dashboard_controller_all_set_interactivity}
+### `Sett kontrollerinteraktivitet` {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
-Controls selected dashboard controller interactivity.
-If interactivity is disabled, the controller does not react to touch input.
+Kontrollerer interaktiviteten til valgt dashboard-kontroller.  
+Hvis interaktivitet er deaktivert, reagerer ikke kontrolleren på berøringsinput.
 
-- Type: command block
-- Typical use: temporarily lock controls during specific logic or safety states
-- State options: `enable`, `disable`
+- Type: kommandoblokk
+- Typisk bruk: midlertidig låse kontroller under spesifikk logikk eller sikkerhetstilstander
+- Tilstandsvalg: `aktiver`, `deaktiver`
 
-## Button blocks
+## Knappblokker
 
-### `Button event` {#block_dashboard_controller_button_event}
+### `Knapphendelse` {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
-Triggers when the dashboard button changes state (pressed/released).
+Utløses når dashboard-knappen endrer tilstand (trykket/sluppet).
 
-- Type: event block
-- Output: starts connected script
-- State options: `pressed`, `released`
+- Type: hendelsesblokk
+- Output: starter tilkoblet skript
+- Tilstandsvalg: `trykket`, `sluppet`
 
-### `Button value (boolean)` {#block_dashboard_controller_button_value_boolean}
+### `Knappverdi (boolsk)` {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
-Reports current dashboard button state.
+Rapporterer gjeldende tilstand for dashboard-knappen.
 
-- Type: value block
+- Type: verdiblokk
 - Output: `true`/`false`
-- State options: `pressed`, `released`
+- Tilstandsvalg: `trykket`, `sluppet`
 
-## D-pad blocks
+## D-pad-blokker
 
-### `D-pad event` {#block_dashboard_controller_dpad_event}
+### `D-pad-hendelse` {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
-Triggers when D-pad direction changes or matches configured direction.
+Utløses når D-pad-retningen endres eller matcher konfigurert retning.
 
-- Type: event block
-- Output: starts connected script
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- Type: hendelsesblokk
+- Output: starter tilkoblet skript
+- Retningsvalg: `opp`, `ned`, `venstre`, `høyre`
+- Knappetilstand: `trykket`, `sluppet`
 
-### `D-pad value (boolean)` {#block_dashboard_controller_dpad_value_boolean}
+### `D-pad-verdi (boolsk)` {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
-Reports whether a selected D-pad direction is active.
+Rapporterer om valgt D-pad-retning er aktiv.
 
-- Type: value block
+- Type: verdiblokk
 - Output: `true`/`false`
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- Retningsvalg: `opp`, `ned`, `venstre`, `høyre`
+- Knappetilstand: `trykket`, `sluppet`
 
-## Joystick blocks
+## Joystick-blokker
 
-### `Joystick event` {#block_dashboard_controller_joystick_event}
+### `Joystick-hendelse` {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
-Triggers when joystick position changes.
+Utløses når joystick-posisjonen endres.
 
-- Type: event block
-- Output: starts connected script
-- State options: `up`, `down`, `left`, `right`, `moved`, `released`
+- Type: hendelsesblokk
+- Output: starter tilkoblet skript
+- Tilstandsvalg: `opp`, `ned`, `venstre`, `høyre`, `flyttet`, `sluppet`
 
-### `Joystick value (float)` {#block_dashboard_controller_joystick_value_float}
+### `Joystick-verdi (float)` {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
-Reports joystick axis value.
+Rapporterer joystick-akseverdi.
 
-- Type: value block
-- Output: numeric (float), typically in a normalized range
-- Axis options: `x-axis`, `y-axis`
+- Type: verdiblokk
+- Output: numerisk (float), vanligvis i et normalisert område
+- Aksevalg: `x-akse`, `y-akse`
 
-## Pedals blocks
+## Pedalblokker
 
-### `Pedals event` {#block_dashboard_controller_pedals_event}
+### `Pedalhendelse` {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
-Triggers when pedal input changes.
+Utløses når pedalinput endres.
 
-- Type: event block
-- Output: starts connected script
-- Pedal options: `any`, `brake`, `acceleration`
-- State options: `moved`, `pressed`, `released`
+- Type: hendelsesblokk
+- Output: starter tilkoblet skript
+- Pedalvalg: `hvilken som helst`, `brems`, `akselerasjon`
+- Tilstandsvalg: `flyttet`, `trykket`, `sluppet`
 
-### `Pedals value (float)` {#block_dashboard_controller_pedals_value_float}
+### `Pedalverdi (float)` {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
-Reports pedal analog value.
+Rapporterer analog pedalverdi.
 
-- Type: value block
-- Output: numeric (float)
+- Type: verdiblokk
+- Output: numerisk (float)
 
-### `Pedals value (boolean)` {#block_dashboard_controller_pedals_value_boolean}
+### `Pedalverdi (boolsk)` {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
-Returns selected state based on whether a specific pedal is pressed or released.
+Returnerer valgt tilstand basert på om en spesifikk pedal er trykket eller sluppet.
 
-- Type: value block
+- Type: verdiblokk
 - Output: `true`/`false`
-- Pedal options: `brake`, `acceleration`
-- State options: `pressed`, `released`
+- Pedalvalg: `brems`, `akselerasjon`
+- Tilstandsvalg: `trykket`, `sluppet`
 
-## Slider blocks
+## Sliderblokker
 
-### `Slider event` {#block_dashboard_controller_slider_event}
+### `Slider-hendelse` {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
-Triggers when slider value changes.
+Utløses når sliderverdi endres.
 
-- Type: event block
-- Output: starts connected script
-- State options: `low`, `high`, `moved`, `released`
+- Type: hendelsesblokk
+- Output: starter tilkoblet skript
+- Tilstandsvalg: `lav`, `høy`, `flyttet`, `sluppet`
 
-### `Slider value (float)` {#block_dashboard_controller_slider_value_float}
+### `Sliderverdi (float)` {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
-Reports current slider value.
+Rapporterer gjeldende sliderverdi.
 
-- Type: value block
-- Output: numeric (float)
+- Type: verdiblokk
+- Output: numerisk (float)
 
-## Stepper blocks
+## Stepperblokker
 
-### `Stepper event` {#block_dashboard_controller_stepper_event}
+### `Stepper-hendelse` {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
-Triggers when stepper value changes by a step.
+Utløses når stepperverdi endres med ett steg.
 
-- Type: event block
-- Output: starts connected script
-- Step options: `any`, `reset`, `minus`, `plus`
-- Button state options: `pressed`, `released`
+- Type: hendelsesblokk
+- Output: starter tilkoblet skript
+- Stegvalg: `hvilken som helst`, `reset`, `minus`, `pluss`
+- Knappetilstand: `trykket`, `sluppet`
 
-### `Stepper value (float)` {#block_dashboard_controller_stepper_value_float}
+### `Stepperverdi (float)` {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
-Reports current stepper value.
+Rapporterer gjeldende stepperverdi.
 
-- Type: value block
-- Output: numeric (float)
+- Type: verdiblokk
+- Output: numerisk (float)
 
-## Steering wheel blocks
+## Rattblokker
 
-### `Steering wheel event` {#block_dashboard_controller_steering_wheel_event}
+### `Ratt-hendelse` {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
-Triggers when steering wheel position changes.
+Utløses når rattposisjonen endres.
 
-- Type: event block
-- Output: starts connected script
-- State options: `moved`, `pressed`, `released`
+- Type: hendelsesblokk
+- Output: starter tilkoblet skript
+- Tilstandsvalg: `flyttet`, `trykket`, `sluppet`
 
-### `Steering wheel value (float)` {#block_dashboard_controller_steering_wheel_value_float}
+### `Rattverdi (float)` {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
-Reports current steering wheel value.
+Rapporterer gjeldende rattverdi.
 
-- Type: value block
-- Output: numeric (float)
+- Type: verdiblokk
+- Output: numerisk (float)
 
-### `Steering wheel value (boolean)` {#block_dashboard_controller_steeringwheel_value_boolean}
+### `Rattverdi (boolsk)` {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
-Returns selected state based on whether the steering wheel is pressed or released.
+Returnerer valgt tilstand basert på om rattet er trykket eller sluppet.
 
-- Type: value block
+- Type: verdiblokk
 - Output: `true`/`false`
-- State options: `moved`, `pressed`, `released`
+- Tilstandsvalg: `flyttet`, `trykket`, `sluppet`
 
-## Switch blocks
+## Bryterblokker
 
-### `Switch event` {#block_dashboard_controller_switch_event}
+### `Bryter-hendelse` {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
-Triggers when switch state changes.
+Utløses når brytertilstand endres.
 
-- Type: event block
-- Output: starts connected script
-- Toggle options: `on`, `off`
+- Type: hendelsesblokk
+- Output: starter tilkoblet skript
+- Valg: `på`, `av`
 
-### `Switch value (boolean)` {#block_dashboard_controller_switch_value_boolean}
+### `Bryterverdi (boolsk)` {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
-Reports current switch state.
+Rapporterer gjeldende brytertilstand.
 
-- Type: value block
+- Type: verdiblokk
 - Output: `true`/`false`
-- State options: `on`, `off`
+- Tilstandsvalg: `på`, `av`
 
-## Monitor blocks
+## Monitorblokker
 
-### `Monitor show` {#block_dashboard_controller_monitor_show}
+### `Vis på monitor` {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
-Displays information (text or value) on the dashboard monitor.
+Viser informasjon (tekst eller verdi) på dashboard-monitoren.
 
-- Type: command block
-- Typical use: show battery level, motor angle, current connected device on a hub port, and similar runtime info
+- Type: kommandoblokk
+- Typisk bruk: vise batterinivå, motorvinkel, tilkoblet enhet på hub-port osv.
 
-### `Monitor set value` {#block_dashboard_controller_monitor_set_value}
+### `Sett monitorverdi` {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
-Sets integer value for a dashboard speedometer monitor.
+Setter heltallsverdi for en dashboard speedometer-monitor.
 
-- Type: command block
-- Typical use: update speedometer-like monitor value in runtime
+- Type: kommandoblokk
+- Typisk bruk: oppdatere speedometerverdi under kjøring
 
-### `Monitor tilt set value` {#block_dashboard_controller_monitor_tilt_set_value}
+### `Sett tiltmonitorverdi` {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
-Sets tilt monitor value (pitch/roll) for dashboard tilt monitor.
+Setter tiltmonitorverdi (pitch/roll) for dashboard tiltmonitor.
 
-- Type: command block
-- Typical use: display runtime tilt values in dedicated tilt monitor
-- Axis options: `pitch`, `roll`
+- Type: kommandoblokk
+- Typisk bruk: vise tiltverdier i sanntid
+- Aksevalg: `pitch`, `roll`

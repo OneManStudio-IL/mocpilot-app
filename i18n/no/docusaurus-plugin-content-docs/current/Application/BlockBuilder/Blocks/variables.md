@@ -1,39 +1,39 @@
 ---
 id: Variables
-title: Variables
+title: Variabler
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Variables
+# Variabler
 
-Variables store values that can be read and updated across block stacks and scripts.
+Variabler lagrer verdier som kan leses og oppdateres på tvers av blokkstabler og skript.
 
-## Variable command blocks
+## Kommando-blokker for variabler
 
-### `Set variable to` {#block_variables_set_to}
+### `Sett variabel til` {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
-Sets selected variable to the specified value.
+Setter valgt variabel til en spesifisert verdi.
 
-- Type: command block
-- Typical use: initialize state, overwrite previous value
+- Type: kommandoblokk
+- Typisk bruk: initialisere tilstand, overskrive tidligere verdi
 
-### `Change variable by` {#block_variables_change_by}
+### `Endre variabel med` {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
-Adds the specified amount to selected variable.
+Legger til en spesifisert verdi til valgt variabel.
 
-- Type: command block
-- Typical use: counters, score, accumulated distance/time
+- Type: kommandoblokk
+- Typisk bruk: tellere, poeng, akkumulert avstand/tid
 
-## Variable value reporter
+## Variabelverdi (rapportør)
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 
-Returns the current value of the selected variable.
+Returnerer gjeldende verdi av valgt variabel.
 
-- Type: reporter block
-- Typical use: use variable value inside operators, conditions, and command inputs
+- Type: rapportørblokk
+- Typisk bruk: bruke variabelverdier i operatorer, betingelser og kommandoinput

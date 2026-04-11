@@ -1,78 +1,78 @@
 ---
 id: Lists
-title: Lists
+title: Lister
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Lists
+# Lister
 
-Lists store ordered collections of values and are manipulated by dedicated list Reporter and Stack blocks.
+Lister lagrer ordnede samlinger av verdier og håndteres av dedikerte listeblokker (rapportør- og stabelblokker).
 
-## List mutation blocks
+## Blokker for endring av lister
 
-### `Add value to list` {#block_lists_add}
+### `Legg til verdi i liste` {#block_lists_add}
 
 <img src={useBaseUrl('/img/blocks/block_lists_add.svg')} alt="block_lists_add.svg" />
 
-Appends a value to the end of selected list.
+Legger til en verdi på slutten av valgt liste.
 
-### `Insert at` {#block_lists_insert_at}
+### `Sett inn på` {#block_lists_insert_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_insert_at.svg')} alt="block_lists_insert_at.svg" />
 
-Inserts a value at selected index in the list.
+Setter inn en verdi på valgt indeks i listen.
 
-### `Replace at` {#block_lists_replace_at}
+### `Erstatt på` {#block_lists_replace_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_replace_at.svg')} alt="block_lists_replace_at.svg" />
 
-Replaces item at selected index with new value.
+Erstatter elementet på valgt indeks med en ny verdi.
 
-### `Delete` {#block_lists_delete}
+### `Slett` {#block_lists_delete}
 
 <img src={useBaseUrl('/img/blocks/block_lists_delete.svg')} alt="block_lists_delete.svg" />
 
-Deletes item at selected index (or selected delete mode).
+Sletter elementet på valgt indeks (eller valgt slettemodus).
 
-### `Clear all` {#block_lists_clear_all}
+### `Tøm alle` {#block_lists_clear_all}
 
 <img src={useBaseUrl('/img/blocks/block_lists_clear_all.svg')} alt="block_lists_clear_all.svg" />
 
-Removes all items from selected list.
+Fjerner alle elementer fra valgt liste.
 
-## List value/check blocks
+## Blokker for listeverdi/sjekk
 
-### `Item at` {#block_lists_item_at}
+### `Element på` {#block_lists_item_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_item_at.svg')} alt="block_lists_item_at.svg" />
 
-Returns value at selected index.
+Returnerer verdien på valgt indeks.
 
-### `Index of value` {#block_lists_index_of_value}
+### `Indeks for verdi` {#block_lists_index_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_index_of_value.svg')} alt="block_lists_index_of_value.svg" />
 
-Returns index of the first matching value in list.
+Returnerer indeksen til første samsvarende verdi i listen.
 
-### `Contains value` {#block_lists_contains_value}
+### `Inneholder verdi` {#block_lists_contains_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_contains_value.svg')} alt="block_lists_contains_value.svg" />
 
-Returns whether list contains a specified value.
+Returnerer om listen inneholder en spesifisert verdi.
 
-### `Size of list` {#block_lists_size_of_value}
+### `Størrelse på liste` {#block_lists_size_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_size_of_value.svg')} alt="block_lists_size_of_value.svg" />
 
-Returns number of items in selected list.
+Returnerer antall elementer i valgt liste.
 
-## List value reporter
+## Listeverdi (rapportør)
 
 <img src={useBaseUrl('/img/blocks/list.svg')} alt="list.svg" />
 
-Returns the current value of the selected list.
+Returnerer gjeldende verdi av valgt liste.
 
-- Type: reporter block
-- Output format example: `[item1,item2,item3]`
-- Typical use: inspect current list content or pass the list value into compatible blocks
+- Type: rapportørblokk
+- Outputformat eksempel: `[item1,item2,item3]`
+- Typisk bruk: inspisere listeinnhold eller sende listeverdien til kompatible blokker
