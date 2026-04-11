@@ -1,150 +1,149 @@
 ---
 id: Events
-title: Events
+title: イベント
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Events
+# イベント
 
-The **Events** category contains blocks that start scripts when a condition happens.
+**イベント**カテゴリには、特定の条件が発生したときにスクリプトを開始するブロックが含まれます。
 
-## Core events
+## 基本イベント
 
-### `When program started` {#block_event_when_program_started}
+### `プログラム開始時` {#block_event_when_program_started}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
 
-Starts this script once when the profile program begins.
+プロファイルのプログラムが開始されたときに、このスクリプトを一度だけ実行します。
 
-- Trigger: program launch
-- Typical use: initialize variables, default motor states, startup sounds
+- トリガー: プログラム起動
+- 使用例: 変数の初期化、モーターの初期状態設定、起動音の再生
 
-### `When` {#block_event_when}
+### `〜のとき` {#block_event_when}
 
 <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 
-Runs when a selected condition becomes true.
+選択した条件が真になったときに実行されます。
 
-- Trigger: condition-based
-- Typical use: branch logic based on runtime state
+- トリガー: 条件ベース
+- 使用例: 実行中の状態に応じた分岐処理
 
-### `When timer greater than` {#block_event_when_timer_greater_than}
+### `タイマーが〜より大きいとき` {#block_event_when_timer_greater_than}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_timer_greater_than.svg')} alt="block_event_when_timer_greater_than.svg" />
 
-Runs when timer value passes a threshold.
+タイマーの値が指定値を超えたときに実行されます。
 
-- Trigger: elapsed time
-- Typical use: delayed actions, timed phases
+- トリガー: 経過時間
+- 使用例: 遅延処理、時間ベースのフェーズ制御
 
-### `When message received` {#block_event_when_message_recieved}
+### `メッセージを受信したとき` {#block_event_when_message_recieved}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_message_recieved.svg')} alt="block_event_when_message_recieved.svg" />
 
-Starts a script when a matching broadcast message is received.
+一致するブロードキャストメッセージを受信したときにスクリプトを開始します。
 
-- Trigger: message channel
-- Typical use: synchronize multiple scripts
+- トリガー: メッセージチャンネル
+- 使用例: 複数スクリプトの同期
 
-### `Broadcast` {#block_event_broadcast}
+### `ブロードキャスト` {#block_event_broadcast}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast.svg')} alt="block_event_broadcast.svg" />
 
-Sends a message to all scripts listening for that message.
+そのメッセージを待機しているすべてのスクリプトに送信します。
 
-- Trigger: immediate send
-- Typical use: notify other scripts without waiting
+- トリガー: 即時送信
+- 使用例: 他のスクリプトへ通知（待機なし）
 
-### `Broadcast and wait` {#block_event_broadcast_and_wait}
+### `ブロードキャストして待機` {#block_event_broadcast_and_wait}
 
 <img src={useBaseUrl('/img/blocks/block_event_broadcast_and_wait.svg')} alt="block_event_broadcast_and_wait.svg" />
 
-Sends a message and pauses this script until listeners complete.
+メッセージを送信し、受信側の処理が完了するまでこのスクリプトを一時停止します。
 
-- Trigger: immediate send + wait
-- Typical use: staged flows where order matters
+- トリガー: 即時送信＋待機
+- 使用例: 実行順序が重要な処理フロー
 
-## Hub events
+## ハブイベント
 
-### `Hub button pressed` {#block_hubs_all_event_button_pressed}
+### `ハブボタンが押されたとき` {#block_hubs_all_event_button_pressed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_button_pressed.svg')} alt="block_hubs_all_event_button_pressed.svg" />
 
-Runs when the main button on the hub is pressed.
+ハブのメインボタンが押されたときに実行されます。
 
-- State options: `pressed`, `released`, `changed`
-- Note: available button options may differ by hub model (different hubs can expose different button sets).
+- 状態オプション: `押された`, `離された`, `変更された`
+- 注: 利用可能なボタンはハブモデルによって異なります。
 
-### `Hub connection changed` {#block_hubs_all_event_connection_changed}
+### `ハブ接続が変更されたとき` {#block_hubs_all_event_connection_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_connection_changed.svg')} alt="block_hubs_all_event_connection_changed.svg" />
 
-Runs when the hub connection state changes (connected or disconnected).
+ハブの接続状態が変化したときに実行されます（接続／切断）。
 
-- Trigger: hub connection status change
-- Typical use: reconnection handling and safe fallback behavior after link loss
+- トリガー: 接続状態の変化
+- 使用例: 再接続処理や安全なフォールバック動作
 
-### `Hub battery changed` {#block_hubs_all_event_battery_changed}
+### `ハブバッテリーが変化したとき` {#block_hubs_all_event_battery_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_battery_changed.svg')} alt="block_hubs_all_event_battery_changed.svg" />
 
-Runs when reported hub battery level changes.
+ハブのバッテリーレベルが変化したときに実行されます。
 
-- Trigger: battery level update (for hubs that report battery state)
-- Typical use: low-battery warning logic and power-saving mode switching
+- トリガー: バッテリー更新
+- 使用例: 低電力警告や省電力モードへの切替
 
-### `Hub accelerometer changed` {#block_hubs_all_event_accelerometer_changed}
+### `ハブ加速度が変化したとき` {#block_hubs_all_event_accelerometer_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_accelerometer_changed.svg')} alt="block_hubs_all_event_accelerometer_changed.svg" />
 
-Runs when acceleration values change.
+加速度の値が変化したときに実行されます。
 
-### `Hub tilt changed` {#block_hubs_all_event_tilt_changed}
+### `ハブ傾きが変化したとき` {#block_hubs_all_event_tilt_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_changed.svg')} alt="block_hubs_all_event_tilt_changed.svg" />
 
-Runs when tilt value changes.
+傾きの値が変化したときに実行されます。
 
-- Angle options: `any`, `pitch`, `roll`, `yaw`
-- Note: `yaw` is available only on hubs that provide yaw data.
+- 角度オプション: `任意`, `ピッチ`, `ロール`, `ヨー`
+- 注: `ヨー`は対応ハブのみ利用可能
 
-### `Hub orientation changed` {#block_hubs_all_event_tilt_orientation_changed}
+### `ハブ向きが変化したとき` {#block_hubs_all_event_tilt_orientation_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_orientation_changed.svg')} alt="block_hubs_all_event_tilt_orientation_changed.svg" />
 
-Runs when orientation state changes (for example, front/up/down/left/right).
+向き（前／上／下／左／右）が変化したときに実行されます。
 
-## Sensor port events
+## センサーポートイベント
 
-### `Technic color sensor event` {#block_hubs_all_event_port_technic_sensor_color}
+### `Technic カラーセンサーイベント` {#block_hubs_all_event_port_technic_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
 
-Runs when the Technic color sensor reports a selected color.
+Technicカラーセンサーが指定した色を検出したときに実行されます。
 
-
-### `Technic distance sensor event` {#block_hubs_all_event_port_technic_sensor_distance}
+### `Technic 距離センサーイベント` {#block_hubs_all_event_port_technic_sensor_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_distance.svg')} alt="block_hubs_all_event_port_technic_sensor_distance.svg" />
 
-Runs when Technic distance sensor values match the selected condition.
+距離センサーの値が条件に一致したときに実行されます。
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `mm`, `cm`, `inch`, `%`
-- Note: available units can depend on sensor mode and connected device.
+- 比較オプション: `より近い`, `より遠い`, `ちょうど`
+- 単位オプション: `mm`, `cm`, `インチ`, `%`
+- 注: 単位はセンサーモードに依存
 
-### `BOOST sensor distance event` {#block_hubs_all_event_port_boost_sensor_when_distance}
+### `BOOST 距離センサーイベント` {#block_hubs_all_event_port_boost_sensor_when_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_event_port_boost_sensor_when_distance.svg" />
 
-Runs when the BOOST distance sensor reaches the chosen threshold/condition.
+BOOST距離センサーが条件に達したときに実行されます。
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `%`, `cm`, `inch`
+- 比較オプション: `より近い`, `より遠い`, `ちょうど`
+- 単位オプション: `%`, `cm`, `インチ`
 
-### `BOOST sensor color event` {#block_hubs_all_event_port_boost_sensor_color}
+### `BOOST カラーセンサーイベント` {#block_hubs_all_event_port_boost_sensor_color}
 
-<img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
+<img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_dashboard_controller_boost_sensor_color.svg" />
 
-Runs when the BOOST sensor detects a selected color/value.
+BOOSTセンサーが指定された色または値を検出したときに実行されます。

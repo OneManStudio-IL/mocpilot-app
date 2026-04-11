@@ -1,76 +1,76 @@
 ---
 id: Light
-title: Light
+title: ライト
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Light
+# ライト
 
-This page documents Light category blocks used to control LEDs and light outputs on supported hubs.
+このページでは、対応するハブのLEDやライト出力を制御するためのライトカテゴリブロックについて説明します。
 
-## Common light blocks
+## 共通ライトブロック
 
-### `Set LED color` {#block_hubs_all_light_set_led_color}
+### `LEDの色を設定` {#block_hubs_all_light_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_set_led_color.svg')} alt="block_hubs_all_light_set_led_color.svg" />
 
-Sets hub LED color using predefined color options.
+事前定義された色を使用してハブのLEDカラーを設定します。
 
-- Type: command block
-- Typical use: show state (ready, running, warning, error)
+- タイプ: コマンドブロック
+- 使用例: 状態表示（待機中、動作中、警告、エラー）
 
-### `Light turn to` {#block_hubs_all_light_light_turn_to}
+### `ライトを〜にする` {#block_hubs_all_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_to.svg')} alt="block_hubs_all_light_light_turn_to.svg" />
 
-Sets selected light output to a target brightness/value.
+選択したライト出力を指定した明るさ／値に設定します。
 
-- Type: command block
-- Typical use: headlight brightness, status intensity
+- タイプ: コマンドブロック
+- 使用例: ヘッドライトの明るさ調整、状態の強度表示
 
-### `Light turn off` {#block_hubs_all_light_light_turn_off}
+### `ライトをオフ` {#block_hubs_all_light_light_turn_off}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_off.svg')} alt="block_hubs_all_light_light_turn_off.svg" />
 
-Turns selected light output off.
+選択したライト出力をオフにします。
 
-- Type: command block
-- Typical use: shutdown sequence, battery-saving behavior
+- タイプ: コマンドブロック
+- 使用例: シャットダウン処理、省電力動作
 
-### `Technic Move light turn to` {#block_hubs_technicmove_light_light_turn_to}
+### `Technic Move ライトを〜にする` {#block_hubs_technicmove_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_light_light_turn_to.svg')} alt="block_hubs_technicmove_light_light_turn_to.svg" />
 
-Variant of `Light turn to` for Technic Move hub/light target.
+Technic Moveハブ用の `ライトを〜にする` のバリエーションです。
 
-- Type: command block
-- Typical use: set Move hub light output level
+- タイプ: コマンドブロック
+- 使用例: Moveハブのライト出力レベル設定
 
-## BuWizz 3 light blocks
+## BuWizz 3 ライトブロック
 
-### `BuWizz 3 set LED color` {#block_hubs_buwizz3_light_port_set_led_color}
+### `BuWizz 3 LEDの色を設定` {#block_hubs_buwizz3_light_port_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color.svg')} alt="block_hubs_buwizz3_light_port_set_led_color.svg" />
 
-Sets LED color on selected BuWizz 3 port with built-in color options.
+選択したBuWizz 3ポートのLEDカラーを設定します（内蔵カラーパレット）。
 
-- Type: command block
+- タイプ: コマンドブロック
 
-### `BuWizz 3 set LED color (string)` {#block_hubs_buwizz3_light_port_set_led_color_string}
+### `BuWizz 3 LEDの色を設定（テキスト）` {#block_hubs_buwizz3_light_port_set_led_color_string}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_string.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_string.svg" />
 
-Sets BuWizz 3 LED color using text color value.
+テキストによる色指定でBuWizz 3のLEDカラーを設定します。
 
-- Type: command block
-- Typical use: dynamic color names from variables
+- タイプ: コマンドブロック
+- 使用例: 変数による動的な色指定
 
-### `BuWizz 3 set LED color (RGB)` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
+### `BuWizz 3 LEDの色を設定（RGB）` {#block_hubs_buwizz3_light_port_set_led_color_rgb}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_rgb.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_rgb.svg" />
 
-Sets BuWizz 3 LED color using explicit RGB channels.
+RGB値を使用してBuWizz 3のLEDカラーを設定します。
 
-- Type: command block
-- Typical use: full custom color control and gradients
+- タイプ: コマンドブロック
+- 使用例: カスタムカラーやグラデーション制御

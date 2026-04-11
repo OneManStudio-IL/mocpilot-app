@@ -1,259 +1,259 @@
 ---
 id: DashboardControllers
-title: Dashboard controllers
+title: ダッシュボードコントローラー
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Dashboard controllers
+# ダッシュボードコントローラー
 
-These blocks are used to read user input from on-screen controls, react to user actions, and update dashboard UI state.
+これらのブロックは、画面上のコントロールからユーザー入力を取得し、ユーザー操作に反応し、ダッシュボードのUI状態を更新するために使用されます。
 
-## Global dashboard controller blocks
+## グローバルダッシュボードコントローラーブロック
 
-### `Set controller color` {#block_dashboard_controller_all_set_color}
+### `コントローラーの色を設定` {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
-Changes the visual accent color of the selected dashboard controller.
+選択したダッシュボードコントローラーの表示アクセントカラーを変更します。
 
-- Type: command block
-- Typical use: indicate runtime states or dynamically change controller style based on conditions
+- タイプ: コマンドブロック
+- 使用例: 実行時の状態を示す、または条件に応じてコントローラーのスタイルを動的に変更する
 
-### `Set controller interactivity` {#block_dashboard_controller_all_set_interactivity}
+### `コントローラーの操作性を設定` {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
-Controls selected dashboard controller interactivity.
-If interactivity is disabled, the controller does not react to touch input.
+選択したダッシュボードコントローラーの操作可否を制御します。  
+操作が無効の場合、コントローラーはタッチ入力に反応しません。
 
-- Type: command block
-- Typical use: temporarily lock controls during specific logic or safety states
-- State options: `enable`, `disable`
+- タイプ: コマンドブロック
+- 使用例: 特定のロジックや安全状態の間、一時的に操作をロックする
+- 状態オプション: `有効`, `無効`
 
-## Button blocks
+## ボタンブロック
 
-### `Button event` {#block_dashboard_controller_button_event}
+### `ボタンイベント` {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
-Triggers when the dashboard button changes state (pressed/released).
+ダッシュボードボタンの状態が変化したときに実行されます（押下／解放）。
 
-- Type: event block
-- Output: starts connected script
-- State options: `pressed`, `released`
+- タイプ: イベントブロック
+- 出力: 接続されたスクリプトを開始
+- 状態オプション: `押された`, `離された`
 
-### `Button value (boolean)` {#block_dashboard_controller_button_value_boolean}
+### `ボタン値（ブール）` {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
-Reports current dashboard button state.
+現在のボタン状態を返します。
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `pressed`, `released`
+- タイプ: 値ブロック
+- 出力: `true` / `false`
+- 状態オプション: `押された`, `離された`
 
-## D-pad blocks
+## 十字キー（D-pad）ブロック
 
-### `D-pad event` {#block_dashboard_controller_dpad_event}
+### `十字キーイベント` {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
-Triggers when D-pad direction changes or matches configured direction.
+方向が変化したとき、または設定した方向と一致したときに実行されます。
 
-- Type: event block
-- Output: starts connected script
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- タイプ: イベントブロック
+- 出力: 接続されたスクリプトを開始
+- 方向オプション: `上`, `下`, `左`, `右`
+- 状態オプション: `押された`, `離された`
 
-### `D-pad value (boolean)` {#block_dashboard_controller_dpad_value_boolean}
+### `十字キー値（ブール）` {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
-Reports whether a selected D-pad direction is active.
+選択した方向がアクティブかどうかを返します。
 
-- Type: value block
-- Output: `true`/`false`
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- タイプ: 値ブロック
+- 出力: `true` / `false`
+- 方向オプション: `上`, `下`, `左`, `右`
+- 状態オプション: `押された`, `離された`
 
-## Joystick blocks
+## ジョイスティックブロック
 
-### `Joystick event` {#block_dashboard_controller_joystick_event}
+### `ジョイスティックイベント` {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
-Triggers when joystick position changes.
+ジョイスティックの位置が変化したときに実行されます。
 
-- Type: event block
-- Output: starts connected script
-- State options: `up`, `down`, `left`, `right`, `moved`, `released`
+- タイプ: イベントブロック
+- 出力: 接続されたスクリプトを開始
+- 状態オプション: `上`, `下`, `左`, `右`, `移動`, `解放`
 
-### `Joystick value (float)` {#block_dashboard_controller_joystick_value_float}
+### `ジョイスティック値（数値）` {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
-Reports joystick axis value.
+ジョイスティックの軸の値を返します。
 
-- Type: value block
-- Output: numeric (float), typically in a normalized range
-- Axis options: `x-axis`, `y-axis`
+- タイプ: 値ブロック
+- 出力: 数値（float）
+- 軸オプション: `X軸`, `Y軸`
 
-## Pedals blocks
+## ペダルブロック
 
-### `Pedals event` {#block_dashboard_controller_pedals_event}
+### `ペダルイベント` {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
-Triggers when pedal input changes.
+ペダル入力が変化したときに実行されます。
 
-- Type: event block
-- Output: starts connected script
-- Pedal options: `any`, `brake`, `acceleration`
-- State options: `moved`, `pressed`, `released`
+- タイプ: イベントブロック
+- 出力: 接続されたスクリプトを開始
+- ペダルオプション: `任意`, `ブレーキ`, `アクセル`
+- 状態オプション: `移動`, `押された`, `離された`
 
-### `Pedals value (float)` {#block_dashboard_controller_pedals_value_float}
+### `ペダル値（数値）` {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
-Reports pedal analog value.
+ペダルのアナログ値を返します。
 
-- Type: value block
-- Output: numeric (float)
+- タイプ: 値ブロック
+- 出力: 数値（float）
 
-### `Pedals value (boolean)` {#block_dashboard_controller_pedals_value_boolean}
+### `ペダル値（ブール）` {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
-Returns selected state based on whether a specific pedal is pressed or released.
+ペダルが押されたかどうかに基づいた状態を返します。
 
-- Type: value block
-- Output: `true`/`false`
-- Pedal options: `brake`, `acceleration`
-- State options: `pressed`, `released`
+- タイプ: 値ブロック
+- 出力: `true` / `false`
+- ペダルオプション: `ブレーキ`, `アクセル`
+- 状態オプション: `押された`, `離された`
 
-## Slider blocks
+## スライダーブロック
 
-### `Slider event` {#block_dashboard_controller_slider_event}
+### `スライダーイベント` {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
-Triggers when slider value changes.
+スライダーの値が変化したときに実行されます。
 
-- Type: event block
-- Output: starts connected script
-- State options: `low`, `high`, `moved`, `released`
+- タイプ: イベントブロック
+- 出力: 接続されたスクリプトを開始
+- 状態オプション: `低`, `高`, `移動`, `解放`
 
-### `Slider value (float)` {#block_dashboard_controller_slider_value_float}
+### `スライダー値（数値）` {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
-Reports current slider value.
+現在のスライダー値を返します。
 
-- Type: value block
-- Output: numeric (float)
+- タイプ: 値ブロック
+- 出力: 数値（float）
 
-## Stepper blocks
+## ステッパーブロック
 
-### `Stepper event` {#block_dashboard_controller_stepper_event}
+### `ステッパーイベント` {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
-Triggers when stepper value changes by a step.
+ステップ単位で値が変化したときに実行されます。
 
-- Type: event block
-- Output: starts connected script
-- Step options: `any`, `reset`, `minus`, `plus`
-- Button state options: `pressed`, `released`
+- タイプ: イベントブロック
+- 出力: 接続されたスクリプトを開始
+- ステップオプション: `任意`, `リセット`, `マイナス`, `プラス`
+- 状態オプション: `押された`, `離された`
 
-### `Stepper value (float)` {#block_dashboard_controller_stepper_value_float}
+### `ステッパー値（数値）` {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
-Reports current stepper value.
+現在のステッパー値を返します。
 
-- Type: value block
-- Output: numeric (float)
+- タイプ: 値ブロック
+- 出力: 数値（float）
 
-## Steering wheel blocks
+## ステアリングホイールブロック
 
-### `Steering wheel event` {#block_dashboard_controller_steering_wheel_event}
+### `ステアリングイベント` {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
-Triggers when steering wheel position changes.
+ハンドルの位置が変化したときに実行されます。
 
-- Type: event block
-- Output: starts connected script
-- State options: `moved`, `pressed`, `released`
+- タイプ: イベントブロック
+- 出力: 接続されたスクリプトを開始
+- 状態オプション: `移動`, `押された`, `離された`
 
-### `Steering wheel value (float)` {#block_dashboard_controller_steering_wheel_value_float}
+### `ステアリング値（数値）` {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
-Reports current steering wheel value.
+現在のステアリング値を返します。
 
-- Type: value block
-- Output: numeric (float)
+- タイプ: 値ブロック
+- 出力: 数値（float）
 
-### `Steering wheel value (boolean)` {#block_dashboard_controller_steeringwheel_value_boolean}
+### `ステアリング値（ブール）` {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
-Returns selected state based on whether the steering wheel is pressed or released.
+ハンドルの押下状態を返します。
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `moved`, `pressed`, `released`
+- タイプ: 値ブロック
+- 出力: `true` / `false`
+- 状態オプション: `移動`, `押された`, `離された`
 
-## Switch blocks
+## スイッチブロック
 
-### `Switch event` {#block_dashboard_controller_switch_event}
+### `スイッチイベント` {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
-Triggers when switch state changes.
+スイッチの状態が変化したときに実行されます。
 
-- Type: event block
-- Output: starts connected script
-- Toggle options: `on`, `off`
+- タイプ: イベントブロック
+- 出力: 接続されたスクリプトを開始
+- 切替オプション: `オン`, `オフ`
 
-### `Switch value (boolean)` {#block_dashboard_controller_switch_value_boolean}
+### `スイッチ値（ブール）` {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
-Reports current switch state.
+現在のスイッチ状態を返します。
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `on`, `off`
+- タイプ: 値ブロック
+- 出力: `true` / `false`
+- 状態オプション: `オン`, `オフ`
 
-## Monitor blocks
+## モニターブロック
 
-### `Monitor show` {#block_dashboard_controller_monitor_show}
+### `モニター表示` {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
-Displays information (text or value) on the dashboard monitor.
+ダッシュボードモニターに情報（テキストまたは値）を表示します。
 
-- Type: command block
-- Typical use: show battery level, motor angle, current connected device on a hub port, and similar runtime info
+- タイプ: コマンドブロック
+- 使用例: バッテリー残量、モーター角度、接続デバイスなどの表示
 
-### `Monitor set value` {#block_dashboard_controller_monitor_set_value}
+### `モニター値を設定` {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
-Sets integer value for a dashboard speedometer monitor.
+スピードメーターモニターの整数値を設定します。
 
-- Type: command block
-- Typical use: update speedometer-like monitor value in runtime
+- タイプ: コマンドブロック
+- 使用例: 実行中の速度表示更新
 
-### `Monitor tilt set value` {#block_dashboard_controller_monitor_tilt_set_value}
+### `モニター傾きを設定` {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
-Sets tilt monitor value (pitch/roll) for dashboard tilt monitor.
+傾きモニター（ピッチ／ロール）の値を設定します。
 
-- Type: command block
-- Typical use: display runtime tilt values in dedicated tilt monitor
-- Axis options: `pitch`, `roll`
+- タイプ: コマンドブロック
+- 使用例: 傾き値のリアルタイム表示
+- 軸オプション: `ピッチ`, `ロール`

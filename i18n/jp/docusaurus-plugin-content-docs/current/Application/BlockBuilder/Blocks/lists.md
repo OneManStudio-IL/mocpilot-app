@@ -1,78 +1,78 @@
 ---
 id: Lists
-title: Lists
+title: リスト
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Lists
+# リスト
 
-Lists store ordered collections of values and are manipulated by dedicated list Reporter and Stack blocks.
+リストは順序付きの値の集合を保存し、専用のリスト用レポーターブロックおよびスタックブロックによって操作されます。
 
-## List mutation blocks
+## リスト操作ブロック
 
-### `Add value to list` {#block_lists_add}
+### `リストに追加` {#block_lists_add}
 
 <img src={useBaseUrl('/img/blocks/block_lists_add.svg')} alt="block_lists_add.svg" />
 
-Appends a value to the end of selected list.
+選択したリストの末尾に値を追加します。
 
-### `Insert at` {#block_lists_insert_at}
+### `〜番目に挿入` {#block_lists_insert_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_insert_at.svg')} alt="block_lists_insert_at.svg" />
 
-Inserts a value at selected index in the list.
+指定した位置に値を挿入します。
 
-### `Replace at` {#block_lists_replace_at}
+### `〜番目を置き換え` {#block_lists_replace_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_replace_at.svg')} alt="block_lists_replace_at.svg" />
 
-Replaces item at selected index with new value.
+指定した位置の値を新しい値に置き換えます。
 
-### `Delete` {#block_lists_delete}
+### `削除` {#block_lists_delete}
 
 <img src={useBaseUrl('/img/blocks/block_lists_delete.svg')} alt="block_lists_delete.svg" />
 
-Deletes item at selected index (or selected delete mode).
+指定した位置の要素を削除します（または削除モードに従います）。
 
-### `Clear all` {#block_lists_clear_all}
+### `すべて削除` {#block_lists_clear_all}
 
 <img src={useBaseUrl('/img/blocks/block_lists_clear_all.svg')} alt="block_lists_clear_all.svg" />
 
-Removes all items from selected list.
+選択したリストのすべての要素を削除します。
 
-## List value/check blocks
+## リスト値・判定ブロック
 
-### `Item at` {#block_lists_item_at}
+### `〜番目の項目` {#block_lists_item_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_item_at.svg')} alt="block_lists_item_at.svg" />
 
-Returns value at selected index.
+指定した位置の値を返します。
 
-### `Index of value` {#block_lists_index_of_value}
+### `値の位置` {#block_lists_index_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_index_of_value.svg')} alt="block_lists_index_of_value.svg" />
 
-Returns index of the first matching value in list.
+一致する最初の値の位置を返します。
 
-### `Contains value` {#block_lists_contains_value}
+### `値を含むか` {#block_lists_contains_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_contains_value.svg')} alt="block_lists_contains_value.svg" />
 
-Returns whether list contains a specified value.
+リストに指定した値が含まれているかを返します。
 
-### `Size of list` {#block_lists_size_of_value}
+### `リストの長さ` {#block_lists_size_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_size_of_value.svg')} alt="block_lists_size_of_value.svg" />
 
-Returns number of items in selected list.
+リスト内の要素数を返します。
 
-## List value reporter
+## リスト値レポーター
 
 <img src={useBaseUrl('/img/blocks/list.svg')} alt="list.svg" />
 
-Returns the current value of the selected list.
+選択したリストの現在の値を返します。
 
-- Type: reporter block
-- Output format example: `[item1,item2,item3]`
-- Typical use: inspect current list content or pass the list value into compatible blocks
+- タイプ: レポーターブロック
+- 出力例: `[item1,item2,item3]`
+- 使用例: リスト内容の確認や他ブロックへの入力

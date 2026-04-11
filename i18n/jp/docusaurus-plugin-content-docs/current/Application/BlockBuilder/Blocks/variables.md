@@ -1,39 +1,39 @@
 ---
 id: Variables
-title: Variables
+title: 変数
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Variables
+# 変数
 
-Variables store values that can be read and updated across block stacks and scripts.
+変数は値を保存し、ブロックスタックやスクリプト間で読み取りおよび更新することができます。
 
-## Variable command blocks
+## 変数操作ブロック
 
-### `Set variable to` {#block_variables_set_to}
+### `変数を〜にする` {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
-Sets selected variable to the specified value.
+選択した変数に指定した値を設定します。
 
-- Type: command block
-- Typical use: initialize state, overwrite previous value
+- タイプ: コマンドブロック
+- 使用例: 初期化、値の上書き
 
-### `Change variable by` {#block_variables_change_by}
+### `変数を〜ずつ変える` {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
-Adds the specified amount to selected variable.
+選択した変数に指定した値を加算します。
 
-- Type: command block
-- Typical use: counters, score, accumulated distance/time
+- タイプ: コマンドブロック
+- 使用例: カウンター、スコア、累積距離や時間
 
-## Variable value reporter
+## 変数値レポーター
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 
-Returns the current value of the selected variable.
+選択した変数の現在の値を返します。
 
-- Type: reporter block
-- Typical use: use variable value inside operators, conditions, and command inputs
+- タイプ: レポーターブロック
+- 使用例: 条件や演算、コマンド入力で使用

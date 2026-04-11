@@ -1,34 +1,34 @@
 ---
 id: MyBlocks
-title: My Blocks
+title: マイブロック
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# My Blocks
+# マイブロック
 
-My Blocks let you define your own custom reusable block.
-This category is conceptually similar to creating a function in traditional programming: define behavior once, then call it many times.
+マイブロックを使用すると、独自のカスタムブロックを作成できます。  
+この機能は従来のプログラミングにおける関数に似ており、処理を一度定義して何度でも呼び出すことができます。
 
-## Core My Blocks
+## 基本マイブロック
 
-### `Make a Block`
+### `ブロックを作成`
 
-Creates a new custom block definition.
+新しいカスタムブロックを定義します。
 
-- Type: definition/setup block
-- Typical use: group repeated logic into one named block
+- タイプ: 定義／設定ブロック
+- 使用例: 繰り返し処理を1つの名前付きブロックにまとめる
 
-### `MyBlock` (call block)
+### `マイブロック`（呼び出し）
 
-Calls a previously created custom block.
+作成済みのカスタムブロックを呼び出します。
 
-- Type: stack block (custom command call)
-- Typical use: reuse the same logic in multiple places without duplicating block stacks
+- タイプ: スタックブロック（カスタムコマンド呼び出し）
+- 使用例: 同じ処理を複数箇所で再利用する
 
-## Variadic examples
+## 可変引数の例
 
-These examples show custom My Blocks with different argument signatures.
+以下は異なる引数構成を持つマイブロックの例です。
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758091855.svg')} alt="block_myblock_1775758091855.svg" />
@@ -40,30 +40,31 @@ These examples show custom My Blocks with different argument signatures.
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758145135.svg')} alt="block_myblock_1775758145135.svg" />
 </div>
 
-## Example usage in program stack
+## プログラム内での使用例
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-usage-example.png')} alt="my-blocks-usage-example.png" />
 
-This example shows a custom block call attached under `when program starts`, while the `define my block` stack contains the reusable motor logic.
+この例では、`プログラム開始時` の下でカスタムブロックが呼び出され、  
+`マイブロックの定義` スタック内には再利用可能なモーター制御ロジックが含まれています。
 
-- Typical flow: call custom block from event stacks
-- Benefit: one definition, many call sites
+- 一般的な流れ: イベントブロックからカスタムブロックを呼び出す
+- メリット: 1つの定義で複数箇所から利用可能
 
-## My Block editor view
+## マイブロックエディター
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-editor-cropped.png')} alt="my-blocks-editor-cropped.png" />
 
-The Make a Block editor is used to design your custom block signature.
-You can add labels and inputs (for example number/text and boolean inputs), then define implementation logic in the block definition stack.
+「ブロックを作成」エディターでは、カスタムブロックの構造を設計できます。  
+ラベルや入力（数値／テキスト／ブールなど）を追加し、定義スタック内で処理を実装します。
 
-## Why use My Blocks
+## マイブロックを使う理由
 
-- Reusability: write once, call many times.
-- Readability: replace long repeated stacks with one meaningful name.
-- Maintainability: update logic in one place instead of many copies.
-- Structure: split large programs into smaller logical units.
+- 再利用性: 一度作成すれば何度でも使用可能
+- 可読性: 長い処理をわかりやすい名前に置き換えられる
+- 保守性: 修正は1か所だけで済む
+- 構造化: 大きなプログラムを小さな単位に分割できる
 
-## Notes
+## 注意
 
-- Custom blocks are project-level and intended for reuse inside the same profile/project context.
-- Prefer descriptive names that explain intent, not implementation details.
+- カスタムブロックはプロジェクト単位で管理されます。
+- 実装ではなく目的がわかる名前を付けることを推奨します。

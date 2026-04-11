@@ -1,152 +1,154 @@
 ---
 id: BlocksIntroducing
-title: Blocks Introducing
+title: ブロック紹介
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Blocks Introducing
+# ブロック紹介
 
-MOCPilot uses a visual block programming system that looks and feels similar to Scratch.
-Each block has a specific role, and valid combinations define control flow and data flow through a script.
-It uses drag-and-drop logic and Scratch-like interaction patterns to provide a convenient and familiar way to build programs.
+MOCPilotは、Scratchに似た見た目と操作感を持つビジュアルブロックプログラミングシステムを使用しています。  
+各ブロックは特定の役割を持ち、有効な組み合わせによってスクリプト内の制御フローとデータフローが定義されます。  
+ドラッグ＆ドロップ操作とScratch風のインタラクションにより、直感的で使いやすいプログラム作成が可能です。
 
-:::warning Compatibility Notice
-This is a different block system with its own block set and behavior.
-MOCPilot programs are not compatible with Scratch projects: MOCPilot programs cannot be imported into Scratch, and Scratch programs cannot be imported into MOCPilot.
+:::warning 互換性に関する注意
+これは独自のブロックシステムであり、専用のブロックセットと動作仕様を持っています。  
+MOCPilotのプログラムはScratchプロジェクトと互換性がありません。  
+MOCPilotのプログラムをScratchにインポートすることはできず、ScratchのプログラムもMOCPilotにインポートできません。
 :::
 
-## Block shapes and meaning
+## ブロックの形状と意味
 
-### Hat Blocks
+### ハットブロック
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
   <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 </div>
 
-Start a script when a specific event occurs. Blocks can only be attached below.
+特定のイベントが発生したときにスクリプトを開始します。ブロックは下にのみ接続できます。
 
 ---
 
-### Stack Blocks
+### スタックブロック
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_reset.svg')} alt="block_sensors_timer_reset.svg" />
 </div>
 
-Main command blocks that perform actions.
+処理を実行する基本的なコマンドブロックです。
 
 ---
 
-### C Blocks
+### C型ブロック
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 </div>
 
-C-shaped control blocks that contain nested block stacks (loops/conditions).
+内側にブロックを入れることができるC字型の制御ブロック（ループや条件分岐）。
 
 ---
 
-### Reporter Blocks
+### レポーターブロック
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 </div>
 
-Return values such as numbers or strings.
+数値や文字列などの値を返します。
 
 ---
 
-### Boolean Blocks
+### ブールブロック
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 </div>
 
-Return only `true` or `false`, typically used in conditions.
+`true` または `false` のみを返し、主に条件で使用されます。
 
 ---
 
-### Cap Blocks
+### キャップブロック
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 </div>
 
-End scripts and do not allow blocks below.
+スクリプトを終了し、下にブロックを接続できません。
 
 ---
 
-### Blocks Stack
+### ブロックスタック
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks_stack.svg')} alt="blocks_stack.svg" />
 </div>
 
-A block stack is a sequence of connected blocks that runs as one script flow from top to bottom.
-Stacks usually start with an event block and then execute attached blocks in order.
+ブロックスタックは、複数のブロックを連結した一連の処理です。  
+上から下へ順番に実行されます。  
+通常、イベントブロックから開始され、接続されたブロックが順に実行されます。
 
 ---
 
-## Script execution model
+## スクリプト実行モデル
 
-- A script usually starts from an event block.
-- Connected stack blocks run top to bottom.
-- Multiple scripts can run in parallel.
-- Message/broadcast blocks are used to synchronize scripts.
-- A block stack is a sequence of blocks connected together.
+- スクリプトは通常、イベントブロックから開始されます。
+- 接続されたブロックは上から下へ実行されます。
+- 複数のスクリプトは並列に実行されます。
+- メッセージ／ブロードキャストでスクリプトを同期できます。
+- ブロックスタックは一連の処理単位です。
 
-## Data and values
+## データと値
 
-- Reporter blocks can be nested inside command/condition inputs.
-- Variables store reusable values across blocks and scripts.
-- Lists store ordered collections for history, queues, and lookup data.
+- レポーターブロックは他のブロックの入力としてネストできます。
+- 変数は値を保存し、スクリプト間で再利用できます。
+- リストは履歴やキューなどのデータを保持します。
 
-## Events and timing
+## イベントとタイミング
 
-- Event blocks react to user input, hub state, sensors, or messages.
-- Timer- and sensor-based events may trigger frequently.
-- Use thresholds, filtering, or short waits to reduce noisy repeated triggers.
+- イベントブロックはユーザー入力、ハブ状態、センサー、メッセージに反応します。
+- タイマーやセンサーイベントは頻繁に発生する場合があります。
+- 閾値やフィルタ、短い待機を使って過剰なトリガーを抑えます。
 
-## Hub, ports, and controllers
+## ハブ・ポート・コントローラー
 
-- Hub blocks target hub and port context.
-- Some blocks are available only for specific hub families/devices.
-- Dashboard and gamepad blocks provide runtime input and UI control.
+- ハブブロックは特定のハブやポートに対応します。
+- 一部のブロックは特定のデバイスでのみ利用可能です。
+- ダッシュボードやゲームパッドブロックは入力とUI制御を提供します。
 
-## Recommended workflow
+## 推奨ワークフロー
 
-1. Start with one event block and a minimal script.
-2. Validate motor/sensor direction and ranges early.
-3. Extract repeated logic with messages and helper scripts.
-4. Add safeguards (limits, stops, fallback values) before final tuning.
+1. イベントブロック1つと最小構成で開始する。
+2. モーターやセンサーの方向・範囲を早期に確認する。
+3. 繰り返し処理はメッセージで分離する。
+4. 最終調整前に安全対策（制限・停止など）を追加する。
 
-## Common pitfalls
+## よくあるミス
 
-- Missing event entry block means script never starts.
-- Wrong hub/port selection causes no visible effect.
-- Mixing value types (text/number/boolean) can produce invalid logic.
-- High-frequency events without filtering can overload behavior.
+- イベントブロックがないとスクリプトは開始されません。
+- ハブやポート設定の誤りで動作しない場合があります。
+- 型の不一致（文字列／数値／ブール）に注意。
+- 高頻度イベントの未制御で動作が不安定になる可能性があります。
 
-## Documentation structure in this section
+## このセクションの構成
 
-Use category pages in this order:
+以下の順序でカテゴリページを参照してください：
 
-- Light
-- Motors
-- Sensors
-- Events
-- Control
-- Operators
-- Variables
-- Lists
-- My Blocks
-- Dashboard controllers
-- Gamepad
+- ライト
+- モーター
+- センサー
+- イベント
+- コントロール
+- 演算
+- 変数
+- リスト
+- マイブロック
+- ダッシュボードコントローラー
+- ゲームパッド

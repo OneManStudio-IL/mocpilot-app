@@ -1,130 +1,130 @@
 ---
 id: Control
-title: Control
+title: コントロール
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Control
+# コントロール
 
-Control blocks manage execution flow: waiting, loops, branching, and stopping scripts.
+コントロールブロックは実行フローを管理します：待機、ループ、分岐、およびスクリプトの停止。
 
-## Wait blocks
+## 待機ブロック
 
-### `Wait` {#block_control_wait_for}
+### `待機` {#block_control_wait_for}
 
 <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
 
-Pauses the current script for a specified time.
+現在のスクリプトを指定した時間だけ一時停止します。
 
-### `Wait until` {#block_control_wait_until}
+### `〜まで待機` {#block_control_wait_until}
 
 <img src={useBaseUrl('/img/blocks/block_control_wait_until.svg')} alt="block_control_wait_until.svg" />
 
-Pauses the current script until a condition becomes true.
+条件が真になるまで現在のスクリプトを一時停止します。
 
-## Loop blocks
+## ループブロック
 
-### `Repeat` {#block_control_repeat_for}
+### `繰り返し` {#block_control_repeat_for}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_for.svg')} alt="block_control_repeat_for.svg" />
 
-Runs nested blocks a fixed number of times.
+ネストされたブロックを指定回数実行します。
 
-### `Repeat until` {#block_control_repeat_until}
+### `〜まで繰り返し` {#block_control_repeat_until}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_until.svg')} alt="block_control_repeat_until.svg" />
 
-Runs nested blocks repeatedly until a condition becomes true.
+条件が真になるまでブロックを繰り返し実行します。
 
-### `Forever` {#block_control_repeat_forever}
+### `ずっと` {#block_control_repeat_forever}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 
-Runs nested blocks continuously until the program or script is stopped.
+プログラムまたはスクリプトが停止されるまで継続的に実行します。
 
-## Branch blocks
+## 分岐ブロック
 
-### `If` {#block_control_if}
+### `もし` {#block_control_if}
 
 <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
 
-Runs nested blocks only when the condition is true.
+条件が真のときのみブロックを実行します。
 
-### `If / Else` {#block_control_if_else}
+### `もし / そうでなければ` {#block_control_if_else}
 
 <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 
-Runs one branch when the condition is true, otherwise runs the alternative branch.
+条件が真の場合は一方を、そうでない場合は別のブランチを実行します。
 
-### `Do this and this` {#block_control_do_this_and_this}
+### `これとこれを実行` {#block_control_do_this_and_this}
 
 <img src={useBaseUrl('/img/blocks/block_control_do_this_and_this.svg')} alt="block_control_do_this_and_this.svg" />
 
-Runs two block stacks in sequence as part of one control flow operation.
+2つのブロックスタックを順番に実行します。
 
-## Stop blocks
+## 停止ブロック
 
-### `Stop` {#block_control_stop}
+### `停止` {#block_control_stop}
 
 <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
 
-Stops script execution (scope depends on selected stop option).
+スクリプトの実行を停止します（範囲は選択されたオプションによる）。
 
-- Stop options: `all`, `this stack`, `and exit program`
+- 停止オプション: `すべて`, `このスタック`, `プログラムを終了`
 
-### `Stop other stacks` {#block_control_stop_other_stacks}
+### `他のスタックを停止` {#block_control_stop_other_stacks}
 
 <img src={useBaseUrl('/img/blocks/block_control_stop_other_stacks.svg')} alt="block_control_stop_other_stacks.svg" />
 
-Stops all other running stacks while allowing the current stack to continue.
+現在のスタックを継続したまま、他のすべてのスタックを停止します。
 
-## Hub/control utility blocks
+## ハブ／制御ユーティリティブロック
 
-### `Set connect` {#block_hubs_control_set_connect}
+### `接続を設定` {#block_hubs_control_set_connect}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_control_set_connect.svg')} alt="block_hubs_control_set_connect.svg" />
 
-Controls hub connection state from control flow logic.
+制御フローからハブの接続状態を変更します。
 
-- Action options: `connect`, `disconnect`
+- アクションオプション: `接続`, `切断`
 
-### `Is connected` {#block_hubs_all_sensors_is_connected}
+### `接続されているか` {#block_hubs_all_sensors_is_connected}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_connected.svg')} alt="block_hubs_all_sensors_is_connected.svg" />
 
-Returns whether the hub is currently connected.
+ハブが接続されているかどうかを返します。
 
-- Type: boolean reporter block
+- タイプ: ブール値レポーターブロック
 
-### `BuWizz 2 set power mode` {#block_hubs_buwizz_sensors_set_power_mode}
+### `BuWizz 2 電力モードを設定` {#block_hubs_buwizz_sensors_set_power_mode}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_set_power_mode.svg')} alt="block_hubs_buwizz_sensors_set_power_mode.svg" />
 
-Sets BuWizz 2 hub power mode.
+BuWizz 2 ハブの電力モードを設定します。
 
-- Mode options: `Slow`, `Normal`, `Fast`, `Ludicrous`
+- モードオプション: `Slow`, `Normal`, `Fast`, `Ludicrous`
 
-### `BuWizz 2 get power mode` {#block_hubs_buwizz_sensors_get_power_mode}
+### `BuWizz 2 電力モードを取得` {#block_hubs_buwizz_sensors_get_power_mode}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_get_power_mode.svg')} alt="block_hubs_buwizz_sensors_get_power_mode.svg" />
 
-Returns the currently active BuWizz 2 power mode.
+現在の電力モードを返します。
 
-- Output format options: `text`, `index`
+- 出力形式: `テキスト`, `インデックス`
 
-### `MouldKing set control channel` {#block_hubs_mouldking_control_set_control_channel}
+### `MouldKing 制御チャンネルを設定` {#block_hubs_mouldking_control_set_control_channel}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_set_control_channel.svg')} alt="block_hubs_mouldking_control_set_control_channel.svg" />
 
-Sets active control channel for supported MouldKing hub/controller.
+MouldKing ハブの制御チャンネルを設定します。
 
-- Channel options: `A`, `B`, `C`
+- チャンネル: `A`, `B`, `C`
 
-### `MouldKing get control channel` {#block_hubs_mouldking_control_get_control_channel}
+### `MouldKing 制御チャンネルを取得` {#block_hubs_mouldking_control_get_control_channel}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_get_control_channel.svg')} alt="block_hubs_mouldking_control_get_control_channel.svg" />
 
-Returns current active control channel for supported MouldKing hub/controller.
+現在の制御チャンネルを返します。
 
-- Output format options: `text`, `index`
+- 出力形式: `テキスト`, `インデックス`

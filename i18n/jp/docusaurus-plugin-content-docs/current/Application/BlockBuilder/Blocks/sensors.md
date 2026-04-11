@@ -1,194 +1,186 @@
 ---
 id: Sensors
-title: Sensors
+title: センサー
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Sensors
+# センサー
 
-Sensor blocks read hub/device state and provide data for conditions, events, and control logic.
+センサーブロックは、ハブやデバイスの状態を読み取り、条件分岐、イベント、制御ロジックにデータを提供します。
 
-## Device and hub sensors
+## デバイス・ハブセンサー
 
-### `Hub battery level` {#block_hubs_all_sensors_battery_level}
+### `ハブのバッテリー残量` {#block_hubs_all_sensors_battery_level}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_battery_level.svg')} alt="block_hubs_all_sensors_battery_level.svg" />
-Returns current hub battery level.
+現在のハブのバッテリー残量を返します。
 
-### `Device % battery` {#block_sensors_device_battery_level}
+### `デバイスのバッテリー（%）` {#block_sensors_device_battery_level}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_battery_level.svg')} alt="block_sensors_device_battery_level.svg" />
-Returns the current battery level of the phone/tablet device running MOCPilot (in percent).
+MOCPilotが動作している端末（スマートフォン／タブレット）のバッテリー残量（％）を返します。
 
-### `Board temperature` {#block_hubs_all_sensors_board_temp}
+### `基板温度` {#block_hubs_all_sensors_board_temp}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_board_temp.svg')} alt="block_hubs_all_sensors_board_temp.svg" />
-Returns hub board temperature.
+ハブの基板温度を返します。
 
-- Available only for `BuWizz 2` and `BuWizz 3`.
+- `BuWizz 2` および `BuWizz 3` のみ対応
 
-### `Button pressed` {#block_hubs_all_sensors_button_pressed}
+### `ボタンが〜のとき` {#block_hubs_all_sensors_button_pressed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_button_pressed.svg?v=20260409-2258')} alt="block_hubs_all_sensors_button_pressed.svg" />
-Checks whether a selected hub button matches the selected state.
+選択したハブボタンが指定状態と一致するかを判定します。
 
-- State options: `pressed`, `released`
-- Typical button option: `center` (hub-dependent)
+- 状態オプション: `押された`, `離された`
+- ボタン例: `中央`
+- 注: 利用可能なボタンはハブにより異なります
 
-- Note: available button options may differ by hub model (different hubs can expose different button sets).
-
-### `Device type` {#block_hubs_all_motors_port_device_type}
+### `接続デバイスの種類` {#block_hubs_all_motors_port_device_type}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_device_type.svg')} alt="block_hubs_all_motors_port_device_type.svg" />
-Returns connected device type for the selected port.
+指定ポートに接続されているデバイスの種類を返します。
 
-- Type: reporter block
-- Typical use: detect what device is connected before running device-specific logic
+- タイプ: レポーターブロック
+- 使用例: 接続機器に応じた処理分岐
 
-### `Device accelerometer` {#block_sensors_device_accelerometer_sensor_data}
+### `デバイス加速度センサー` {#block_sensors_device_accelerometer_sensor_data}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_accelerometer_sensor_data.svg')} alt="block_sensors_device_accelerometer_sensor_data.svg" />
-Returns raw accelerometer values from device sensors.
+デバイスの加速度センサーの生データを返します。
 
-- Axis options: `x`, `y`, `z`
+- 軸オプション: `x`, `y`, `z`
 
-### `Device acceleration` {#block_sensors_device_acceleration_sensor_data}
+### `デバイス加速度` {#block_sensors_device_acceleration_sensor_data}
 <img src={useBaseUrl('/img/blocks/block_sensors_device_acceleration_sensor_data.svg')} alt="block_sensors_device_acceleration_sensor_data.svg" />
-Returns acceleration data from device sensors.
+デバイスの加速度データを返します。
 
-- Axis options: `x`, `y`, `z`
+- 軸オプション: `x`, `y`, `z`
 
-## Orientation and tilt sensors
+## 姿勢・傾きセンサー
 
-### `Tilt` {#block_hubs_all_sensors_tilt}
+### `傾き` {#block_hubs_all_sensors_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_tilt.svg')} alt="block_hubs_all_sensors_tilt.svg" />
-Returns tilt angle for the selected axis.
+指定軸の傾き角度を返します。
 
-- Axis options: `pitch`, `roll`, `yaw`
-- Note: `yaw` is available only on hubs that provide yaw data.
+- 軸オプション: `ピッチ`, `ロール`, `ヨー`
+- 注: `ヨー`は対応ハブのみ
 
-### `Get orientation` {#block_hubs_sensors_get_orientation}
+### `向きを取得` {#block_hubs_sensors_get_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_get_orientation.svg')} alt="block_hubs_sensors_get_orientation.svg" />
-Returns current orientation state of the hub.
+現在のハブの向きを返します。
 
-- Output format options: `text`, `index`
-- Orientation values: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- 出力形式: `テキスト`, `インデックス`
+- 値: `前`, `上`, `右`, `後`, `下`, `左`
 
-### `Is orientation up` {#block_hubs_all_sensors_is_orientation_up}
+### `向きが上か` {#block_hubs_all_sensors_is_orientation_up}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_orientation_up.svg')} alt="block_hubs_all_sensors_is_orientation_up.svg" />
-Checks whether the hub orientation matches selected "up" orientation.
+指定した向きが「上」と一致するかを判定します。
 
-- Orientation options: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- 向きオプション: `前`, `上`, `右`, `後`, `下`, `左`
 
-### `Set tilt orientation` {#block_hubs_sensors_set_tilt_orientation}
+### `傾き基準を設定` {#block_hubs_sensors_set_tilt_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_set_tilt_orientation.svg')} alt="block_hubs_sensors_set_tilt_orientation.svg" />
-Configures orientation reference used by tilt/orientation-related blocks.
+傾き・向きブロックの基準方向を設定します。
 
-- Orientation options: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- 向きオプション: `前`, `上`, `右`, `後`, `下`, `左`
 
-## Timer and device motion sensors
+## タイマー・モーション
 
-### `Timer` {#block_sensors_timer_value_float}
+### `タイマー` {#block_sensors_timer_value_float}
 <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
-Returns timer value in seconds.
+秒単位のタイマー値を返します。
 
-### `Reset timer` {#block_sensors_timer_reset}
+### `タイマーをリセット` {#block_sensors_timer_reset}
 <img src={useBaseUrl('/img/blocks/block_sensors_timer_reset.svg')} alt="block_sensors_timer_reset.svg" />
-Resets the timer to zero.
+タイマーを0にリセットします。
 
-## Port sensor blocks
+## ポートセンサー
 
-### `Technic distance sensor` {#block_hubs_all_sensors_port_technic_sensor_distance}
+### `Technic 距離センサー` {#block_hubs_all_sensors_port_technic_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
-Returns distance values from a Technic distance sensor.
+距離センサーの値を返します。
 
-- Unit options: `mm`, `cm`, `inch`, `%`
+- 単位: `mm`, `cm`, `インチ`, `%`
 
-### `Technic when distance is` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
+### `Technic 距離が〜のとき` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
-Triggers/checks distance condition for a Technic distance sensor.
+距離条件を判定します。
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `mm`, `cm`, `inch`, `%`
+- 比較: `より近い`, `より遠い`, `ちょうど`
+- 単位: `mm`, `cm`, `インチ`, `%`
 
-### `Technic color sensor value` {#block_hubs_all_sensors_port_technic_sensor_color}
+### `Technic 色センサー値` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
-Returns detected color value from a Technic distance sensor.
+検出された色を返します。
 
-- Output options: `value`, `string`
+- 出力: `値`, `文字列`
 
-### `Technic when color is` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
+### `Technic 色が〜のとき` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_color_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_color_is.svg" />
-Triggers/checks when detected color matches selected color.
+指定した色と一致するかを判定します。
 
-### `Technic reflected light` {#block_hubs_all_sensors_port_technic_sensor_reflected_light}
+### `Technic 反射光` {#block_hubs_all_sensors_port_technic_sensor_reflected_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_reflected_light.svg')} alt="block_hubs_all_sensors_port_technic_sensor_reflected_light.svg" />
-Returns reflected light intensity.
+反射光の強さを返します。
 
-### `Technic when reflected light is` {#block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is}
+### `Technic 反射光が〜のとき` {#block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_reflected_light_is.svg" />
-Triggers/checks reflected light threshold condition.
+反射光条件を判定します。
 
-- Compare options: `<`, `=`, `>`
+- 比較: `<`, `=`, `>`
 
-### `Technic ambient light` {#block_hubs_all_sensors_port_technic_sensor_ambient_light}
+### `Technic 環境光` {#block_hubs_all_sensors_port_technic_sensor_ambient_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_ambient_light.svg')} alt="block_hubs_all_sensors_port_technic_sensor_ambient_light.svg" />
-Returns ambient light intensity.
+環境光の強さを返します。
 
-### `Technic when ambient light is` {#block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is}
+### `Technic 環境光が〜のとき` {#block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_ambient_light_is.svg" />
-Triggers/checks ambient light threshold condition.
+環境光条件を判定します。
 
-- Compare options: `<`, `=`, `>`
+- 比較: `<`, `=`, `>`
 
-### `Technic raw color` {#block_hubs_all_sensors_port_technic_sensor_raw_color}
+### `Technic 生カラー` {#block_hubs_all_sensors_port_technic_sensor_raw_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_raw_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_raw_color.svg" />
-Returns raw color channel value from Technic sensor.
+RGBチャンネルの値を返します。
 
-- Channel options: `red`, `green`, `blue`
+- チャンネル: `赤`, `緑`, `青`
 
-### `BOOST sensor distance` {#block_hubs_all_sensors_port_boost_sensor_distance}
+### `BOOST 距離センサー` {#block_hubs_all_sensors_port_boost_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_distance.svg" />
-Returns distance from a BOOST distance sensor.
+距離を返します。
 
-- Unit options: `%`, `cm`, `inch`
+- 単位: `%`, `cm`, `インチ`
 
-### `BOOST when distance is` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
+### `BOOST 距離が〜のとき` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_distance.svg" />
-Triggers/checks distance condition for BOOST distance sensor.
+距離条件を判定します。
 
-- Compare options: `closer than`, `farther than`, `exactly at`
-- Unit options: `%`, `cm`, `inch`
+- 比較: `より近い`, `より遠い`, `ちょうど`
 
-### `BOOST sensor color` {#block_hubs_all_sensors_port_boost_sensor_color}
+### `BOOST 色センサー` {#block_hubs_all_sensors_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_color.svg" />
-Returns color detected by a BOOST sensor.
+検出された色を返します。
 
-- Output options: `value`, `string`
-
-### `BOOST is color` {#block_hubs_all_sensors_port_boost_sensor_is_color}
+### `BOOST 色かどうか` {#block_hubs_all_sensors_port_boost_sensor_is_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_is_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_is_color.svg" />
-Checks whether BOOST sensor currently detects selected color.
+指定色と一致するかを判定します。
 
-### `BOOST reflected light` {#block_hubs_all_sensors_port_boost_sensor_reflected_light}
+### `BOOST 反射光` {#block_hubs_all_sensors_port_boost_sensor_reflected_light}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_reflected_light.svg')} alt="block_hubs_all_sensors_port_boost_sensor_reflected_light.svg" />
-Returns reflected light value from BOOST sensor.
+反射光の値を返します。
 
-### `BOOST when reflected light is` {#block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is}
+### `BOOST 反射光が〜のとき` {#block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_reflected_light_is.svg" />
-Triggers/checks reflected light threshold condition for BOOST sensor.
+反射光条件を判定します。
 
-- Compare options: `<`, `=`, `>`
-
-### `Technic Move set power mode` {#block_hubs_technicmove_sensors_set_power_mode}
+### `Technic Move 電力モードを設定` {#block_hubs_technicmove_sensors_set_power_mode}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_sensors_set_power_mode.svg')} alt="block_hubs_technicmove_sensors_set_power_mode.svg" />
-Sets Technic Move power mode.
+電力モードを設定します。
 
-- Mode options: `normal`, `boost`
+- モード: `通常`, `ブースト`
 
-### `WeDo 2 distance` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
+### `WeDo 2 距離センサー` {#block_hubs_all_sensors_port_wedo2_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_distance.svg" />
-Returns distance from WeDo 2 distance sensor.
+距離を返します。
 
-- Unit options: `%`, `cm`, `inch`
-
-### `WeDo 2 tilt` {#block_hubs_all_sensors_port_wedo2_tilt}
+### `WeDo 2 傾き` {#block_hubs_all_sensors_port_wedo2_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />
-Returns tilt value from WeDo 2 tilt sensor.
+傾き値を返します。
 
-- Axis options: `pitch`, `roll`
+- 軸: `ピッチ`, `ロール`
