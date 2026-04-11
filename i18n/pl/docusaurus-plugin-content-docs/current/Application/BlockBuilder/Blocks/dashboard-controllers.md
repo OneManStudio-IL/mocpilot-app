@@ -1,259 +1,259 @@
 ---
 id: DashboardControllers
-title: Dashboard controllers
+title: Kontrolery pulpitu
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Dashboard controllers
+# Kontrolery pulpitu
 
-These blocks are used to read user input from on-screen controls, react to user actions, and update dashboard UI state.
+Bloki te służą do odczytu danych wejściowych użytkownika z elementów sterujących na ekranie, reagowania na działania użytkownika oraz aktualizacji stanu interfejsu pulpitu.
 
-## Global dashboard controller blocks
+## Globalne bloki kontrolerów pulpitu
 
-### `Set controller color` {#block_dashboard_controller_all_set_color}
+### `Ustaw kolor kontrolera` {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
-Changes the visual accent color of the selected dashboard controller.
+Zmienia wizualny kolor akcentu wybranego kontrolera pulpitu.
 
-- Type: command block
-- Typical use: indicate runtime states or dynamically change controller style based on conditions
+- Typ: blok polecenia
+- Typowe użycie: wskazywanie stanów w czasie działania lub dynamiczna zmiana stylu kontrolera w zależności od warunków
 
-### `Set controller interactivity` {#block_dashboard_controller_all_set_interactivity}
+### `Ustaw interaktywność kontrolera` {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
-Controls selected dashboard controller interactivity.
-If interactivity is disabled, the controller does not react to touch input.
+Steruje interaktywnością wybranego kontrolera pulpitu.  
+Jeśli interaktywność jest wyłączona, kontroler nie reaguje na dotyk.
 
-- Type: command block
-- Typical use: temporarily lock controls during specific logic or safety states
-- State options: `enable`, `disable`
+- Typ: blok polecenia
+- Typowe użycie: tymczasowe blokowanie sterowania podczas określonej logiki lub stanów bezpieczeństwa
+- Opcje stanu: `włącz`, `wyłącz`
 
-## Button blocks
+## Bloki przycisków
 
-### `Button event` {#block_dashboard_controller_button_event}
+### `Zdarzenie przycisku` {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
-Triggers when the dashboard button changes state (pressed/released).
+Wyzwalane, gdy stan przycisku pulpitu ulega zmianie (naciśnięty/zwolniony).
 
-- Type: event block
-- Output: starts connected script
-- State options: `pressed`, `released`
+- Typ: blok zdarzenia
+- Wyjście: uruchamia połączony skrypt
+- Opcje stanu: `naciśnięty`, `zwolniony`
 
-### `Button value (boolean)` {#block_dashboard_controller_button_value_boolean}
+### `Wartość przycisku (boolean)` {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
-Reports current dashboard button state.
+Zwraca aktualny stan przycisku pulpitu.
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `pressed`, `released`
+- Typ: blok wartości
+- Wyjście: `true`/`false`
+- Opcje stanu: `naciśnięty`, `zwolniony`
 
-## D-pad blocks
+## Bloki D-pad
 
-### `D-pad event` {#block_dashboard_controller_dpad_event}
+### `Zdarzenie D-pad` {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
-Triggers when D-pad direction changes or matches configured direction.
+Wyzwalane, gdy kierunek D-pada zmienia się lub odpowiada skonfigurowanemu kierunkowi.
 
-- Type: event block
-- Output: starts connected script
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- Typ: blok zdarzenia
+- Wyjście: uruchamia połączony skrypt
+- Opcje kierunku: `góra`, `dół`, `lewo`, `prawo`
+- Opcje stanu przycisku: `naciśnięty`, `zwolniony`
 
-### `D-pad value (boolean)` {#block_dashboard_controller_dpad_value_boolean}
+### `Wartość D-pad (boolean)` {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
-Reports whether a selected D-pad direction is active.
+Zwraca, czy wybrany kierunek D-pada jest aktywny.
 
-- Type: value block
-- Output: `true`/`false`
-- Direction options: `up`, `down`, `left`, `right`
-- Button state options: `pressed`, `released`
+- Typ: blok wartości
+- Wyjście: `true`/`false`
+- Opcje kierunku: `góra`, `dół`, `lewo`, `prawo`
+- Opcje stanu przycisku: `naciśnięty`, `zwolniony`
 
-## Joystick blocks
+## Bloki joysticka
 
-### `Joystick event` {#block_dashboard_controller_joystick_event}
+### `Zdarzenie joysticka` {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
-Triggers when joystick position changes.
+Wyzwalane, gdy pozycja joysticka ulega zmianie.
 
-- Type: event block
-- Output: starts connected script
-- State options: `up`, `down`, `left`, `right`, `moved`, `released`
+- Typ: blok zdarzenia
+- Wyjście: uruchamia połączony skrypt
+- Opcje stanu: `góra`, `dół`, `lewo`, `prawo`, `ruch`, `zwolniony`
 
-### `Joystick value (float)` {#block_dashboard_controller_joystick_value_float}
+### `Wartość joysticka (float)` {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
-Reports joystick axis value.
+Zwraca wartość osi joysticka.
 
-- Type: value block
-- Output: numeric (float), typically in a normalized range
-- Axis options: `x-axis`, `y-axis`
+- Typ: blok wartości
+- Wyjście: liczba (float), zwykle w znormalizowanym zakresie
+- Opcje osi: `oś X`, `oś Y`
 
-## Pedals blocks
+## Bloki pedałów
 
-### `Pedals event` {#block_dashboard_controller_pedals_event}
+### `Zdarzenie pedałów` {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
-Triggers when pedal input changes.
+Wyzwalane, gdy zmienia się wejście pedałów.
 
-- Type: event block
-- Output: starts connected script
-- Pedal options: `any`, `brake`, `acceleration`
-- State options: `moved`, `pressed`, `released`
+- Typ: blok zdarzenia
+- Wyjście: uruchamia połączony skrypt
+- Opcje pedałów: `dowolny`, `hamulec`, `przyspieszenie`
+- Opcje stanu: `ruch`, `naciśnięty`, `zwolniony`
 
-### `Pedals value (float)` {#block_dashboard_controller_pedals_value_float}
+### `Wartość pedałów (float)` {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
-Reports pedal analog value.
+Zwraca wartość analogową pedału.
 
-- Type: value block
-- Output: numeric (float)
+- Typ: blok wartości
+- Wyjście: liczba (float)
 
-### `Pedals value (boolean)` {#block_dashboard_controller_pedals_value_boolean}
+### `Wartość pedałów (boolean)` {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
-Returns selected state based on whether a specific pedal is pressed or released.
+Zwraca wybrany stan w zależności od tego, czy określony pedał jest naciśnięty lub zwolniony.
 
-- Type: value block
-- Output: `true`/`false`
-- Pedal options: `brake`, `acceleration`
-- State options: `pressed`, `released`
+- Typ: blok wartości
+- Wyjście: `true`/`false`
+- Opcje pedałów: `hamulec`, `przyspieszenie`
+- Opcje stanu: `naciśnięty`, `zwolniony`
 
-## Slider blocks
+## Bloki suwaka
 
-### `Slider event` {#block_dashboard_controller_slider_event}
+### `Zdarzenie suwaka` {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
-Triggers when slider value changes.
+Wyzwalane, gdy zmienia się wartość suwaka.
 
-- Type: event block
-- Output: starts connected script
-- State options: `low`, `high`, `moved`, `released`
+- Typ: blok zdarzenia
+- Wyjście: uruchamia połączony skrypt
+- Opcje stanu: `niski`, `wysoki`, `ruch`, `zwolniony`
 
-### `Slider value (float)` {#block_dashboard_controller_slider_value_float}
+### `Wartość suwaka (float)` {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
-Reports current slider value.
+Zwraca aktualną wartość suwaka.
 
-- Type: value block
-- Output: numeric (float)
+- Typ: blok wartości
+- Wyjście: liczba (float)
 
-## Stepper blocks
+## Bloki krokowe (stepper)
 
-### `Stepper event` {#block_dashboard_controller_stepper_event}
+### `Zdarzenie steppera` {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
-Triggers when stepper value changes by a step.
+Wyzwalane, gdy wartość steppera zmienia się o krok.
 
-- Type: event block
-- Output: starts connected script
-- Step options: `any`, `reset`, `minus`, `plus`
-- Button state options: `pressed`, `released`
+- Typ: blok zdarzenia
+- Wyjście: uruchamia połączony skrypt
+- Opcje kroku: `dowolny`, `reset`, `minus`, `plus`
+- Opcje stanu przycisku: `naciśnięty`, `zwolniony`
 
-### `Stepper value (float)` {#block_dashboard_controller_stepper_value_float}
+### `Wartość steppera (float)` {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
-Reports current stepper value.
+Zwraca aktualną wartość steppera.
 
-- Type: value block
-- Output: numeric (float)
+- Typ: blok wartości
+- Wyjście: liczba (float)
 
-## Steering wheel blocks
+## Bloki kierownicy
 
-### `Steering wheel event` {#block_dashboard_controller_steering_wheel_event}
+### `Zdarzenie kierownicy` {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
-Triggers when steering wheel position changes.
+Wyzwalane, gdy pozycja kierownicy się zmienia.
 
-- Type: event block
-- Output: starts connected script
-- State options: `moved`, `pressed`, `released`
+- Typ: blok zdarzenia
+- Wyjście: uruchamia połączony skrypt
+- Opcje stanu: `ruch`, `naciśnięty`, `zwolniony`
 
-### `Steering wheel value (float)` {#block_dashboard_controller_steering_wheel_value_float}
+### `Wartość kierownicy (float)` {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
-Reports current steering wheel value.
+Zwraca aktualną wartość kierownicy.
 
-- Type: value block
-- Output: numeric (float)
+- Typ: blok wartości
+- Wyjście: liczba (float)
 
-### `Steering wheel value (boolean)` {#block_dashboard_controller_steeringwheel_value_boolean}
+### `Wartość kierownicy (boolean)` {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
-Returns selected state based on whether the steering wheel is pressed or released.
+Zwraca wybrany stan w zależności od tego, czy kierownica jest naciśnięta lub zwolniona.
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `moved`, `pressed`, `released`
+- Typ: blok wartości
+- Wyjście: `true`/`false`
+- Opcje stanu: `ruch`, `naciśnięty`, `zwolniony`
 
-## Switch blocks
+## Bloki przełącznika
 
-### `Switch event` {#block_dashboard_controller_switch_event}
+### `Zdarzenie przełącznika` {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
-Triggers when switch state changes.
+Wyzwalane, gdy stan przełącznika ulega zmianie.
 
-- Type: event block
-- Output: starts connected script
-- Toggle options: `on`, `off`
+- Typ: blok zdarzenia
+- Wyjście: uruchamia połączony skrypt
+- Opcje przełącznika: `włączony`, `wyłączony`
 
-### `Switch value (boolean)` {#block_dashboard_controller_switch_value_boolean}
+### `Wartość przełącznika (boolean)` {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
-Reports current switch state.
+Zwraca aktualny stan przełącznika.
 
-- Type: value block
-- Output: `true`/`false`
-- State options: `on`, `off`
+- Typ: blok wartości
+- Wyjście: `true`/`false`
+- Opcje stanu: `włączony`, `wyłączony`
 
-## Monitor blocks
+## Bloki monitora
 
-### `Monitor show` {#block_dashboard_controller_monitor_show}
+### `Pokaż na monitorze` {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
-Displays information (text or value) on the dashboard monitor.
+Wyświetla informacje (tekst lub wartość) na monitorze pulpitu.
 
-- Type: command block
-- Typical use: show battery level, motor angle, current connected device on a hub port, and similar runtime info
+- Typ: blok polecenia
+- Typowe użycie: wyświetlanie poziomu baterii, kąta silnika, aktualnie podłączonego urządzenia do portu huba i innych informacji w czasie działania
 
-### `Monitor set value` {#block_dashboard_controller_monitor_set_value}
+### `Ustaw wartość monitora` {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
-Sets integer value for a dashboard speedometer monitor.
+Ustawia wartość całkowitą dla monitora prędkości (speedometru) na pulpicie.
 
-- Type: command block
-- Typical use: update speedometer-like monitor value in runtime
+- Typ: blok polecenia
+- Typowe użycie: aktualizacja wartości monitora typu speedometr w czasie działania
 
-### `Monitor tilt set value` {#block_dashboard_controller_monitor_tilt_set_value}
+### `Ustaw wartość nachylenia monitora` {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 
-Sets tilt monitor value (pitch/roll) for dashboard tilt monitor.
+Ustawia wartość nachylenia (pitch/roll) dla monitora nachylenia na pulpicie.
 
-- Type: command block
-- Typical use: display runtime tilt values in dedicated tilt monitor
-- Axis options: `pitch`, `roll`
+- Typ: blok polecenia
+- Typowe użycie: wyświetlanie wartości nachylenia w czasie działania
+- Opcje osi: `pitch`, `roll`

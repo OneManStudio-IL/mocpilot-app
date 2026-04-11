@@ -1,152 +1,152 @@
 ---
 id: BlocksIntroducing
-title: Blocks Introducing
+title: Wprowadzenie do bloków
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Blocks Introducing
+# Wprowadzenie do bloków
 
-MOCPilot uses a visual block programming system that looks and feels similar to Scratch.
-Each block has a specific role, and valid combinations define control flow and data flow through a script.
-It uses drag-and-drop logic and Scratch-like interaction patterns to provide a convenient and familiar way to build programs.
+MOCPilot wykorzystuje wizualny system programowania blokowego, który wygląda i działa podobnie do Scratcha.  
+Każdy blok ma określoną rolę, a poprawne ich łączenie definiuje przepływ sterowania i danych w skrypcie.  
+System opiera się na logice przeciągnij-i-upuść oraz interakcjach podobnych do Scratcha, zapewniając wygodny i znajomy sposób tworzenia programów.
 
-:::warning Compatibility Notice
-This is a different block system with its own block set and behavior.
-MOCPilot programs are not compatible with Scratch projects: MOCPilot programs cannot be imported into Scratch, and Scratch programs cannot be imported into MOCPilot.
+:::warning Informacja o kompatybilności
+Jest to inny system bloków z własnym zestawem i zachowaniem.  
+Programy MOCPilot nie są kompatybilne z projektami Scratch: nie można importować programów MOCPilot do Scratcha ani projektów Scratch do MOCPilot.
 :::
 
-## Block shapes and meaning
+## Kształty bloków i ich znaczenie
 
-### Hat Blocks
+### Bloki startowe
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
   <img src={useBaseUrl('/img/blocks/block_event_when.svg')} alt="block_event_when.svg" />
 </div>
 
-Start a script when a specific event occurs. Blocks can only be attached below.
+Rozpoczynają skrypt, gdy wystąpi określone zdarzenie. Bloki mogą być dołączane tylko poniżej.
 
 ---
 
-### Stack Blocks
+### Bloki poleceń
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_reset.svg')} alt="block_sensors_timer_reset.svg" />
 </div>
 
-Main command blocks that perform actions.
+Główne bloki poleceń wykonujące akcje.
 
 ---
 
-### C Blocks
+### Bloki C
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 </div>
 
-C-shaped control blocks that contain nested block stacks (loops/conditions).
+Bloki sterujące w kształcie litery C, które zawierają zagnieżdżone stosy bloków (pętle/warunki).
 
 ---
 
-### Reporter Blocks
+### Bloki raportujące
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_sensors_timer_value_float.svg')} alt="block_sensors_timer_value_float.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_math_single.svg')} alt="block_operator_math_single.svg" />
 </div>
 
-Return values such as numbers or strings.
+Zwracają wartości, takie jak liczby lub tekst.
 
 ---
 
-### Boolean Blocks
+### Bloki logiczne
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_operator_equal.svg')} alt="block_operator_equal.svg" />
   <img src={useBaseUrl('/img/blocks/block_operator_string_contains.svg')} alt="block_operator_string_contains.svg" />
 </div>
 
-Return only `true` or `false`, typically used in conditions.
+Zwracają tylko `true` lub `false`, zazwyczaj używane w warunkach.
 
 ---
 
-### Cap Blocks
+### Bloki kończące
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
   <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 </div>
 
-End scripts and do not allow blocks below.
+Kończą skrypt i nie pozwalają na dodanie bloków poniżej.
 
 ---
 
-### Blocks Stack
+### Stos bloków
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks_stack.svg')} alt="blocks_stack.svg" />
 </div>
 
-A block stack is a sequence of connected blocks that runs as one script flow from top to bottom.
-Stacks usually start with an event block and then execute attached blocks in order.
+Stos bloków to sekwencja połączonych bloków, która działa jako jeden przepływ skryptu od góry do dołu.  
+Zwykle zaczyna się od bloku zdarzenia, a następnie wykonuje podłączone bloki w kolejności.
 
 ---
 
-## Script execution model
+## Model wykonywania skryptu
 
-- A script usually starts from an event block.
-- Connected stack blocks run top to bottom.
-- Multiple scripts can run in parallel.
-- Message/broadcast blocks are used to synchronize scripts.
-- A block stack is a sequence of blocks connected together.
+- Skrypt zwykle zaczyna się od bloku zdarzenia.
+- Połączone bloki wykonywane są od góry do dołu.
+- Wiele skryptów może działać równolegle.
+- Bloki wiadomości (broadcast) służą do synchronizacji skryptów.
+- Stos bloków to sekwencja połączonych bloków.
 
-## Data and values
+## Dane i wartości
 
-- Reporter blocks can be nested inside command/condition inputs.
-- Variables store reusable values across blocks and scripts.
-- Lists store ordered collections for history, queues, and lookup data.
+- Bloki raportujące mogą być zagnieżdżane w polach wejściowych poleceń i warunków.
+- Zmienne przechowują wartości używane wielokrotnie w blokach i skryptach.
+- Listy przechowują uporządkowane kolekcje danych (historia, kolejki, wyszukiwanie).
 
-## Events and timing
+## Zdarzenia i czas
 
-- Event blocks react to user input, hub state, sensors, or messages.
-- Timer- and sensor-based events may trigger frequently.
-- Use thresholds, filtering, or short waits to reduce noisy repeated triggers.
+- Bloki zdarzeń reagują na działania użytkownika, stan huba, czujniki lub wiadomości.
+- Zdarzenia oparte na czasie i czujnikach mogą być wyzwalane bardzo często.
+- Używaj progów, filtrowania lub krótkich opóźnień, aby ograniczyć nadmiar wywołań.
 
-## Hub, ports, and controllers
+## Hub, porty i kontrolery
 
-- Hub blocks target hub and port context.
-- Some blocks are available only for specific hub families/devices.
-- Dashboard and gamepad blocks provide runtime input and UI control.
+- Bloki huba odnoszą się do kontekstu huba i portów.
+- Niektóre bloki są dostępne tylko dla określonych rodzin hubów/urządzeń.
+- Bloki pulpitu i gamepada zapewniają wejście użytkownika i kontrolę UI w czasie działania.
 
-## Recommended workflow
+## Zalecany workflow
 
-1. Start with one event block and a minimal script.
-2. Validate motor/sensor direction and ranges early.
-3. Extract repeated logic with messages and helper scripts.
-4. Add safeguards (limits, stops, fallback values) before final tuning.
+1. Zacznij od jednego bloku zdarzenia i prostego skryptu.
+2. Wcześnie sprawdź kierunki i zakresy silników/czujników.
+3. Wydziel powtarzalną logikę za pomocą komunikatów i pomocniczych skryptów.
+4. Dodaj zabezpieczenia (limity, zatrzymania, wartości zapasowe) przed finalnym dostrojeniem.
 
-## Common pitfalls
+## Typowe błędy
 
-- Missing event entry block means script never starts.
-- Wrong hub/port selection causes no visible effect.
-- Mixing value types (text/number/boolean) can produce invalid logic.
-- High-frequency events without filtering can overload behavior.
+- Brak bloku zdarzenia powoduje, że skrypt nigdy się nie uruchomi.
+- Nieprawidłowy wybór huba/portu powoduje brak efektu.
+- Mieszanie typów wartości (tekst/liczba/boolean) może powodować błędy logiczne.
+- Zdarzenia o wysokiej częstotliwości bez filtrowania mogą przeciążyć działanie.
 
-## Documentation structure in this section
+## Struktura dokumentacji w tej sekcji
 
-Use category pages in this order:
+Używaj stron kategorii w następującej kolejności:
 
-- Light
-- Motors
-- Sensors
-- Events
-- Control
-- Operators
-- Variables
-- Lists
-- My Blocks
-- Dashboard controllers
+- Światło
+- Silniki
+- Czujniki
+- Zdarzenia
+- Sterowanie
+- Operatory
+- Zmienne
+- Listy
+- Moje bloki
+- Kontrolery pulpitu
 - Gamepad

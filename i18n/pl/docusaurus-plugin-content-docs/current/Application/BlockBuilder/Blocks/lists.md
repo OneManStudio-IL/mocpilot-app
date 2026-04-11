@@ -1,78 +1,78 @@
 ---
 id: Lists
-title: Lists
+title: Listy
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Lists
+# Listy
 
-Lists store ordered collections of values and are manipulated by dedicated list Reporter and Stack blocks.
+Listy przechowują uporządkowane kolekcje wartości i są modyfikowane za pomocą dedykowanych bloków raportujących i poleceń.
 
-## List mutation blocks
+## Bloki modyfikacji listy
 
-### `Add value to list` {#block_lists_add}
+### `Dodaj wartość do listy` {#block_lists_add}
 
 <img src={useBaseUrl('/img/blocks/block_lists_add.svg')} alt="block_lists_add.svg" />
 
-Appends a value to the end of selected list.
+Dodaje wartość na koniec wybranej listy.
 
-### `Insert at` {#block_lists_insert_at}
+### `Wstaw na pozycji` {#block_lists_insert_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_insert_at.svg')} alt="block_lists_insert_at.svg" />
 
-Inserts a value at selected index in the list.
+Wstawia wartość na wybranej pozycji w liście.
 
-### `Replace at` {#block_lists_replace_at}
+### `Zastąp na pozycji` {#block_lists_replace_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_replace_at.svg')} alt="block_lists_replace_at.svg" />
 
-Replaces item at selected index with new value.
+Zastępuje element na wybranej pozycji nową wartością.
 
-### `Delete` {#block_lists_delete}
+### `Usuń` {#block_lists_delete}
 
 <img src={useBaseUrl('/img/blocks/block_lists_delete.svg')} alt="block_lists_delete.svg" />
 
-Deletes item at selected index (or selected delete mode).
+Usuwa element na wybranej pozycji (lub zgodnie z wybranym trybem usuwania).
 
-### `Clear all` {#block_lists_clear_all}
+### `Wyczyść wszystko` {#block_lists_clear_all}
 
 <img src={useBaseUrl('/img/blocks/block_lists_clear_all.svg')} alt="block_lists_clear_all.svg" />
 
-Removes all items from selected list.
+Usuwa wszystkie elementy z wybranej listy.
 
-## List value/check blocks
+## Bloki wartości/sprawdzeń listy
 
-### `Item at` {#block_lists_item_at}
+### `Element na pozycji` {#block_lists_item_at}
 
 <img src={useBaseUrl('/img/blocks/block_lists_item_at.svg')} alt="block_lists_item_at.svg" />
 
-Returns value at selected index.
+Zwraca wartość na wybranej pozycji.
 
-### `Index of value` {#block_lists_index_of_value}
+### `Indeks wartości` {#block_lists_index_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_index_of_value.svg')} alt="block_lists_index_of_value.svg" />
 
-Returns index of the first matching value in list.
+Zwraca indeks pierwszego pasującego elementu w liście.
 
-### `Contains value` {#block_lists_contains_value}
+### `Zawiera wartość` {#block_lists_contains_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_contains_value.svg')} alt="block_lists_contains_value.svg" />
 
-Returns whether list contains a specified value.
+Zwraca informację, czy lista zawiera określoną wartość.
 
-### `Size of list` {#block_lists_size_of_value}
+### `Rozmiar listy` {#block_lists_size_of_value}
 
 <img src={useBaseUrl('/img/blocks/block_lists_size_of_value.svg')} alt="block_lists_size_of_value.svg" />
 
-Returns number of items in selected list.
+Zwraca liczbę elementów w wybranej liście.
 
-## List value reporter
+## Blok raportujący listy
 
 <img src={useBaseUrl('/img/blocks/list.svg')} alt="list.svg" />
 
-Returns the current value of the selected list.
+Zwraca aktualną wartość wybranej listy.
 
-- Type: reporter block
-- Output format example: `[item1,item2,item3]`
-- Typical use: inspect current list content or pass the list value into compatible blocks
+- Typ: blok raportujący
+- Przykładowy format wyjścia: `[item1,item2,item3]`
+- Typowe użycie: podgląd zawartości listy lub przekazanie jej wartości do innych kompatybilnych bloków

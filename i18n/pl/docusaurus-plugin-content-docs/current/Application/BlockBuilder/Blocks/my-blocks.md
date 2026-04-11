@@ -1,34 +1,34 @@
 ---
 id: MyBlocks
-title: My Blocks
+title: Moje bloki
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# My Blocks
+# Moje bloki
 
-My Blocks let you define your own custom reusable block.
-This category is conceptually similar to creating a function in traditional programming: define behavior once, then call it many times.
+Moje bloki pozwalają definiować własne, wielokrotnego użytku bloki.  
+Ta kategoria jest koncepcyjnie podobna do tworzenia funkcji w tradycyjnym programowaniu: definiujesz działanie raz, a następnie wywołujesz je wielokrotnie.
 
-## Core My Blocks
+## Podstawowe bloki My Blocks
 
-### `Make a Block`
+### `Utwórz blok`
 
-Creates a new custom block definition.
+Tworzy nową definicję własnego bloku.
 
-- Type: definition/setup block
-- Typical use: group repeated logic into one named block
+- Typ: blok definicji/konfiguracji
+- Typowe użycie: grupowanie powtarzalnej logiki w jednym nazwanym bloku
 
-### `MyBlock` (call block)
+### `MyBlock` (blok wywołania)
 
-Calls a previously created custom block.
+Wywołuje wcześniej utworzony blok niestandardowy.
 
-- Type: stack block (custom command call)
-- Typical use: reuse the same logic in multiple places without duplicating block stacks
+- Typ: blok stosu (wywołanie własnego polecenia)
+- Typowe użycie: ponowne wykorzystanie tej samej logiki w wielu miejscach bez duplikowania bloków
 
-## Variadic examples
+## Przykłady wariantów
 
-These examples show custom My Blocks with different argument signatures.
+Te przykłady pokazują własne bloki z różnymi zestawami argumentów.
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758091855.svg')} alt="block_myblock_1775758091855.svg" />
@@ -40,30 +40,30 @@ These examples show custom My Blocks with different argument signatures.
   <img src={useBaseUrl('/img/blocks/block_myblock_1775758145135.svg')} alt="block_myblock_1775758145135.svg" />
 </div>
 
-## Example usage in program stack
+## Przykład użycia w stosie programu
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-usage-example.png')} alt="my-blocks-usage-example.png" />
 
-This example shows a custom block call attached under `when program starts`, while the `define my block` stack contains the reusable motor logic.
+Ten przykład pokazuje wywołanie własnego bloku pod `gdy program się uruchomi`, podczas gdy stos `definiuj mój blok` zawiera logikę wielokrotnego użycia (np. sterowanie silnikiem).
 
-- Typical flow: call custom block from event stacks
-- Benefit: one definition, many call sites
+- Typowy przepływ: wywoływanie bloków własnych z poziomu bloków zdarzeń
+- Zaleta: jedna definicja, wiele miejsc użycia
 
-## My Block editor view
+## Widok edytora My Blocks
 
 <img src={useBaseUrl('/img/my-blocks/my-blocks-editor-cropped.png')} alt="my-blocks-editor-cropped.png" />
 
-The Make a Block editor is used to design your custom block signature.
-You can add labels and inputs (for example number/text and boolean inputs), then define implementation logic in the block definition stack.
+Edytor „Utwórz blok” służy do projektowania sygnatury własnego bloku.  
+Możesz dodawać etykiety i pola wejściowe (np. liczby/tekst oraz wartości logiczne), a następnie zdefiniować logikę działania w stosie definicji bloku.
 
-## Why use My Blocks
+## Dlaczego warto używać My Blocks
 
-- Reusability: write once, call many times.
-- Readability: replace long repeated stacks with one meaningful name.
-- Maintainability: update logic in one place instead of many copies.
-- Structure: split large programs into smaller logical units.
+- Wielokrotne użycie: napisz raz, używaj wiele razy.
+- Czytelność: zastąp długie powtarzalne sekwencje jednym znaczącym blokiem.
+- Łatwość utrzymania: aktualizuj logikę w jednym miejscu zamiast wielu kopii.
+- Struktura: dziel duże programy na mniejsze logiczne części.
 
-## Notes
+## Uwagi
 
-- Custom blocks are project-level and intended for reuse inside the same profile/project context.
-- Prefer descriptive names that explain intent, not implementation details.
+- Własne bloki są dostępne na poziomie projektu i przeznaczone do użycia w ramach tego samego profilu/projektu.
+- Preferuj opisowe nazwy, które wyjaśniają cel, a nie szczegóły implementacji.

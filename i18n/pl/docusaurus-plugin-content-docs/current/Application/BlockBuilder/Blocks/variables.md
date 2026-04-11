@@ -1,39 +1,39 @@
 ---
 id: Variables
-title: Variables
+title: Zmienne
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Variables
+# Zmienne
 
-Variables store values that can be read and updated across block stacks and scripts.
+Zmienne przechowują wartości, które mogą być odczytywane i aktualizowane w różnych stosach bloków oraz skryptach.
 
-## Variable command blocks
+## Bloki poleceń zmiennych
 
-### `Set variable to` {#block_variables_set_to}
+### `Ustaw zmienną na` {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
-Sets selected variable to the specified value.
+Ustawia wybraną zmienną na określoną wartość.
 
-- Type: command block
-- Typical use: initialize state, overwrite previous value
+- Typ: blok polecenia
+- Typowe użycie: inicjalizacja stanu, nadpisanie poprzedniej wartości
 
-### `Change variable by` {#block_variables_change_by}
+### `Zmień zmienną o` {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
-Adds the specified amount to selected variable.
+Dodaje określoną wartość do wybranej zmiennej.
 
-- Type: command block
-- Typical use: counters, score, accumulated distance/time
+- Typ: blok polecenia
+- Typowe użycie: liczniki, wynik, sumowanie dystansu/czasu
 
-## Variable value reporter
+## Blok raportujący wartość zmiennej
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 
-Returns the current value of the selected variable.
+Zwraca aktualną wartość wybranej zmiennej.
 
-- Type: reporter block
-- Typical use: use variable value inside operators, conditions, and command inputs
+- Typ: blok raportujący
+- Typowe użycie: użycie wartości zmiennej w operatorach, warunkach i wejściach poleceń

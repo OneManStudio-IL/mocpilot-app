@@ -1,130 +1,130 @@
 ---
 id: Control
-title: Control
+title: Sterowanie
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Control
+# Sterowanie
 
-Control blocks manage execution flow: waiting, loops, branching, and stopping scripts.
+Bloki sterowania zarządzają przepływem wykonywania: oczekiwaniem, pętlami, rozgałęzieniami oraz zatrzymywaniem skryptów.
 
-## Wait blocks
+## Bloki oczekiwania
 
-### `Wait` {#block_control_wait_for}
+### `Czekaj` {#block_control_wait_for}
 
 <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
 
-Pauses the current script for a specified time.
+Wstrzymuje bieżący skrypt na określony czas.
 
-### `Wait until` {#block_control_wait_until}
+### `Czekaj aż` {#block_control_wait_until}
 
 <img src={useBaseUrl('/img/blocks/block_control_wait_until.svg')} alt="block_control_wait_until.svg" />
 
-Pauses the current script until a condition becomes true.
+Wstrzymuje bieżący skrypt, aż warunek stanie się prawdziwy.
 
-## Loop blocks
+## Bloki pętli
 
-### `Repeat` {#block_control_repeat_for}
+### `Powtórz` {#block_control_repeat_for}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_for.svg')} alt="block_control_repeat_for.svg" />
 
-Runs nested blocks a fixed number of times.
+Uruchamia zagnieżdżone bloki określoną liczbę razy.
 
-### `Repeat until` {#block_control_repeat_until}
+### `Powtarzaj aż` {#block_control_repeat_until}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_until.svg')} alt="block_control_repeat_until.svg" />
 
-Runs nested blocks repeatedly until a condition becomes true.
+Uruchamia zagnieżdżone bloki wielokrotnie, aż warunek stanie się prawdziwy.
 
-### `Forever` {#block_control_repeat_forever}
+### `Zawsze` {#block_control_repeat_forever}
 
 <img src={useBaseUrl('/img/blocks/block_control_repeat_forever.svg')} alt="block_control_repeat_forever.svg" />
 
-Runs nested blocks continuously until the program or script is stopped.
+Uruchamia zagnieżdżone bloki ciągle, aż program lub skrypt zostanie zatrzymany.
 
-## Branch blocks
+## Bloki warunkowe
 
-### `If` {#block_control_if}
+### `Jeżeli` {#block_control_if}
 
 <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
 
-Runs nested blocks only when the condition is true.
+Uruchamia zagnieżdżone bloki tylko wtedy, gdy warunek jest spełniony.
 
-### `If / Else` {#block_control_if_else}
+### `Jeżeli / W przeciwnym razie` {#block_control_if_else}
 
 <img src={useBaseUrl('/img/blocks/block_control_if_else.svg')} alt="block_control_if_else.svg" />
 
-Runs one branch when the condition is true, otherwise runs the alternative branch.
+Uruchamia jedną gałąź, gdy warunek jest spełniony, w przeciwnym razie uruchamia alternatywną gałąź.
 
-### `Do this and this` {#block_control_do_this_and_this}
+### `Wykonaj to i to` {#block_control_do_this_and_this}
 
 <img src={useBaseUrl('/img/blocks/block_control_do_this_and_this.svg')} alt="block_control_do_this_and_this.svg" />
 
-Runs two block stacks in sequence as part of one control flow operation.
+Uruchamia dwa stosy bloków sekwencyjnie jako część jednej operacji sterowania.
 
-## Stop blocks
+## Bloki zatrzymania
 
-### `Stop` {#block_control_stop}
+### `Zatrzymaj` {#block_control_stop}
 
 <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
 
-Stops script execution (scope depends on selected stop option).
+Zatrzymuje wykonywanie skryptu (zakres zależy od wybranej opcji zatrzymania).
 
-- Stop options: `all`, `this stack`, `and exit program`
+- Opcje zatrzymania: `wszystko`, `ten stos`, `i zakończ program`
 
-### `Stop other stacks` {#block_control_stop_other_stacks}
+### `Zatrzymaj inne stosy` {#block_control_stop_other_stacks}
 
 <img src={useBaseUrl('/img/blocks/block_control_stop_other_stacks.svg')} alt="block_control_stop_other_stacks.svg" />
 
-Stops all other running stacks while allowing the current stack to continue.
+Zatrzymuje wszystkie inne uruchomione stosy, pozwalając bieżącemu stosowi kontynuować.
 
-## Hub/control utility blocks
+## Bloki narzędziowe huba/sterowania
 
-### `Set connect` {#block_hubs_control_set_connect}
+### `Ustaw połączenie` {#block_hubs_control_set_connect}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_control_set_connect.svg')} alt="block_hubs_control_set_connect.svg" />
 
-Controls hub connection state from control flow logic.
+Steruje stanem połączenia huba z poziomu logiki sterowania.
 
-- Action options: `connect`, `disconnect`
+- Opcje akcji: `połącz`, `rozłącz`
 
-### `Is connected` {#block_hubs_all_sensors_is_connected}
+### `Czy połączony` {#block_hubs_all_sensors_is_connected}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_connected.svg')} alt="block_hubs_all_sensors_is_connected.svg" />
 
-Returns whether the hub is currently connected.
+Zwraca informację, czy hub jest aktualnie połączony.
 
-- Type: boolean reporter block
+- Typ: blok raportujący (boolean)
 
-### `BuWizz 2 set power mode` {#block_hubs_buwizz_sensors_set_power_mode}
+### `BuWizz 2 ustaw tryb mocy` {#block_hubs_buwizz_sensors_set_power_mode}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_set_power_mode.svg')} alt="block_hubs_buwizz_sensors_set_power_mode.svg" />
 
-Sets BuWizz 2 hub power mode.
+Ustawia tryb mocy huba BuWizz 2.
 
-- Mode options: `Slow`, `Normal`, `Fast`, `Ludicrous`
+- Opcje trybu: `Wolny`, `Normalny`, `Szybki`, `Ludicrous`
 
-### `BuWizz 2 get power mode` {#block_hubs_buwizz_sensors_get_power_mode}
+### `BuWizz 2 pobierz tryb mocy` {#block_hubs_buwizz_sensors_get_power_mode}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_get_power_mode.svg')} alt="block_hubs_buwizz_sensors_get_power_mode.svg" />
 
-Returns the currently active BuWizz 2 power mode.
+Zwraca aktualnie aktywny tryb mocy BuWizz 2.
 
-- Output format options: `text`, `index`
+- Opcje formatu wyjścia: `tekst`, `indeks`
 
-### `MouldKing set control channel` {#block_hubs_mouldking_control_set_control_channel}
+### `MouldKing ustaw kanał sterowania` {#block_hubs_mouldking_control_set_control_channel}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_set_control_channel.svg')} alt="block_hubs_mouldking_control_set_control_channel.svg" />
 
-Sets active control channel for supported MouldKing hub/controller.
+Ustawia aktywny kanał sterowania dla obsługiwanego huba/kontrolera MouldKing.
 
-- Channel options: `A`, `B`, `C`
+- Opcje kanału: `A`, `B`, `C`
 
-### `MouldKing get control channel` {#block_hubs_mouldking_control_get_control_channel}
+### `MouldKing pobierz kanał sterowania` {#block_hubs_mouldking_control_get_control_channel}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_mouldking_control_get_control_channel.svg')} alt="block_hubs_mouldking_control_get_control_channel.svg" />
 
-Returns current active control channel for supported MouldKing hub/controller.
+Zwraca aktualnie aktywny kanał sterowania dla obsługiwanego huba/kontrolera MouldKing.
 
-- Output format options: `text`, `index`
+- Opcje formatu wyjścia: `tekst`, `indeks`
