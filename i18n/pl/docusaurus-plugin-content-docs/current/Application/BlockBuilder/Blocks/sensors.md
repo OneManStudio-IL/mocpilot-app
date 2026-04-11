@@ -67,19 +67,19 @@ Zwraca kąt nachylenia dla wybranej osi.
 Zwraca aktualną orientację huba.
 
 - Opcje wyjścia: `tekst`, `indeks`
-- Wartości: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Wartości: `Przód`, `Góra`, `Prawo`, `Tył`, `Dół`, `Lewo`
 
 ### `Czy orientacja jest w górę` {#block_hubs_all_sensors_is_orientation_up}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_orientation_up.svg')} alt="block_hubs_all_sensors_is_orientation_up.svg" />
 Sprawdza, czy orientacja odpowiada wybranej pozycji „góra”.
 
-- Opcje: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Opcje: `Przód`, `Góra`, `Prawo`, `Tył`, `Dół`, `Lewo`
 
 ### `Ustaw orientację nachylenia` {#block_hubs_sensors_set_tilt_orientation}
 <img src={useBaseUrl('/img/blocks/block_hubs_sensors_set_tilt_orientation.svg')} alt="block_hubs_sensors_set_tilt_orientation.svg" />
 Konfiguruje orientację odniesienia dla bloków nachylenia.
 
-- Opcje: `Front`, `Top`, `Right`, `Back`, `Bottom`, `Left`
+- Opcje: `Przód`, `Góra`, `Prawo`, `Tył`, `Dół`, `Lewo`
 
 ## Timer i ruch urządzenia
 
@@ -97,20 +97,20 @@ Resetuje timer do zera.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_distance.svg')} alt="block_hubs_all_sensors_port_technic_sensor_distance.svg" />
 Zwraca odległość z czujnika Technic.
 
-- Opcje jednostek: `mm`, `cm`, `inch`, `%`
+- Opcje jednostek: `mm`, `cm`, `cal`, `%`
 
 ### `Technic gdy odległość jest` {#block_hubs_all_sensors_port_technic_sensor_when_distance_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_distance_is.svg" />
 Sprawdza warunek odległości.
 
-- Opcje: `bliżej niż`, `dalej niż`, `dokładnie`
-- Jednostki: `mm`, `cm`, `inch`, `%`
+- Opcje: `bliżej niż`, `dalej niż`, `dokładnie na`
+- Jednostki: `mm`, `cm`, `cal`, `%`
 
 ### `Wartość koloru Technic` {#block_hubs_all_sensors_port_technic_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_color.svg" />
 Zwraca wykryty kolor.
 
-- Opcje wyjścia: `wartość`, `tekst`
+- Opcje wyjścia: `wartość`, `ciąg`
 
 ### `Technic gdy kolor jest` {#block_hubs_all_sensors_port_technic_sensor_when_color_is}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_when_color_is.svg')} alt="block_hubs_all_sensors_port_technic_sensor_when_color_is.svg" />
@@ -140,26 +140,26 @@ Sprawdza próg światła otoczenia.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_technic_sensor_raw_color.svg')} alt="block_hubs_all_sensors_port_technic_sensor_raw_color.svg" />
 Zwraca kanały RGB.
 
-- Opcje: `red`, `green`, `blue`
+- Opcje: `czerwony`, `zielony`, `niebieski`
 
 ### `Czujnik odległości BOOST` {#block_hubs_all_sensors_port_boost_sensor_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_distance.svg" />
 Zwraca odległość z czujnika BOOST.
 
-- Jednostki: `%`, `cm`, `inch`
+- Jednostki: `%`, `cm`, `cal`
 
 ### `BOOST gdy odległość jest` {#block_hubs_all_sensors_port_boost_sensor_when_distance}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_sensors_port_boost_sensor_when_distance.svg" />
 Sprawdza warunek odległości.
 
-- Opcje: `bliżej niż`, `dalej niż`, `dokładnie`
-- Jednostki: `%`, `cm`, `inch`
+- Opcje: `bliżej niż`, `dalej niż`, `dokładnie na`
+- Jednostki: `%`, `cm`, `cal`
 
 ### `Kolor BOOST` {#block_hubs_all_sensors_port_boost_sensor_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_color.svg" />
 Zwraca kolor z czujnika BOOST.
 
-- Opcje: `wartość`, `tekst`
+- Opcje: `wartość`, `ciąg`
 
 ### `BOOST czy kolor` {#block_hubs_all_sensors_port_boost_sensor_is_color}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_boost_sensor_is_color.svg')} alt="block_hubs_all_sensors_port_boost_sensor_is_color.svg" />
@@ -185,7 +185,7 @@ Ustawia tryb mocy.
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_sensor_distance.svg')} alt="block_hubs_all_sensors_port_wedo2_sensor_distance.svg" />
 Zwraca odległość.
 
-- Jednostki: `%`, `cm`, `inch`
+- Jednostki: `%`, `cm`, `cal`
 
 ### `WeDo 2 nachylenie` {#block_hubs_all_sensors_port_wedo2_tilt}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_port_wedo2_tilt.svg')} alt="block_hubs_all_sensors_port_wedo2_tilt.svg" />

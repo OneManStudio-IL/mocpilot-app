@@ -103,7 +103,7 @@ Zwraca informację, czy hub jest aktualnie połączony.
 
 Ustawia tryb mocy huba BuWizz 2.
 
-- Opcje trybu: `Wolny`, `Normalny`, `Szybki`, `Ludicrous`
+- Opcje trybu: `Slow`, `Normal`, `Fast`, `Ludicrous`
 
 ### `BuWizz 2 pobierz tryb mocy` {#block_hubs_buwizz_sensors_get_power_mode}
 

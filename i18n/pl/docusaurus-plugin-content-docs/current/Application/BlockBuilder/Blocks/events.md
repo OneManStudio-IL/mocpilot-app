@@ -129,7 +129,7 @@ Uruchamia się, gdy czujnik koloru Technic wykryje wybrany kolor.
 
 Uruchamia się, gdy wartości czujnika odległości Technic spełniają wybrany warunek.
 
-- Opcje porównania: `bliżej niż`, `dalej niż`, `dokładnie`
+- Opcje porównania: `bliżej niż`, `dalej niż`, `dokładnie na`
 - Opcje jednostek: `mm`, `cm`, `cal`, `%`
 - Uwaga: dostępne jednostki zależą od trybu czujnika i podłączonego urządzenia.
 
@@ -139,7 +139,7 @@ Uruchamia się, gdy wartości czujnika odległości Technic spełniają wybrany 
 
 Uruchamia się, gdy czujnik odległości BOOST osiągnie wybrany próg lub warunek.
 
-- Opcje porównania: `bliżej niż`, `dalej niż`, `dokładnie`
+- Opcje porównania: `bliżej niż`, `dalej niż`, `dokładnie na`
 - Opcje jednostek: `%`, `cm`, `cal`
 
 ### `Zdarzenie czujnika koloru BOOST` {#block_hubs_all_event_port_boost_sensor_color}

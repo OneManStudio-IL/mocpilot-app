@@ -55,10 +55,10 @@ Stosuje funkcję matematyczną z jednym argumentem.
 
 Dostępne funkcje:
 
-- `abs`: wartość bezwzględna
-- `floor`: zaokrąglenie w dół
-- `ceiling`: zaokrąglenie w górę
-- `sqrt`: pierwiastek kwadratowy
+- `wartość bezwzględna`: wartość bezwzględna
+- `całkowita mniejsza`: zaokrąglenie w dół
+- `całkowita większa`: zaokrąglenie w górę
+- `pierwiastek kwadratowy`: pierwiastek kwadratowy
 - `sin`: sinus
 - `cos`: cosinus
 - `tan`: tangens
@@ -80,7 +80,7 @@ Dostępne funkcje:
 
 - `min`: mniejsza z dwóch wartości
 - `max`: większa z dwóch wartości
-- `pow`: potęga (pierwsza wartość do potęgi drugiej)
+- `potęga`: pierwsza wartość do potęgi drugiej
 - `atan2`: kąt z pary X/Y
 - `hypot`: długość przeciwprostokątnej
 - `copysign`: pierwsza wartość z znakiem drugiej
