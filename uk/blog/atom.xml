@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-02-18T00:00:00.000Z</updated>
+    <updated>2026-02-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/uk/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/uk/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Реліз MOCPilot 2026.2.3]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog/2026/02/28/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/uk/blog/2026/02/28/post"/>
+        <updated>2026-02-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.2.3 — Покращення дашборда та виправлення хабів]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202623--покращення-дашборда-та-виправлення-хабів">🚀 MOCPilot 2026.2.3 — Покращення дашборда та виправлення хабів<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/02/28/post#-mocpilot-202623--%D0%BF%D0%BE%D0%BA%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%BD%D1%8F-%D0%B4%D0%B0%D1%88%D0%B1%D0%BE%D1%80%D0%B4%D0%B0-%D1%82%D0%B0-%D0%B2%D0%B8%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D1%85%D0%B0%D0%B1%D1%96%D0%B2" class="hash-link" aria-label="Пряме посилання на 🚀 MOCPilot 2026.2.3 — Покращення дашборда та виправлення хабів" title="Пряме посилання на 🚀 MOCPilot 2026.2.3 — Покращення дашборда та виправлення хабів" translate="no">​</a></h2>
+<p>Ми раді оголосити про реліз <strong>MOCPilot 2026.2.3</strong>, доступний на <strong>Android</strong>, <strong>iOS</strong> та <strong>macOS</strong>.</p>
+<p>Це оновлення покращує робочий процес дашборда та виправляє кілька важливих проблем із хабами й редактором.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-що-нового-у-202623">✨ Що нового у 2026.2.3?<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/02/28/post#-%D1%89%D0%BE-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D1%83-202623" class="hash-link" aria-label="Пряме посилання на ✨ Що нового у 2026.2.3?" title="Пряме посилання на ✨ Що нового у 2026.2.3?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-покращення-дашборда">🧱 Покращення дашборда<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/02/28/post#-%D0%BF%D0%BE%D0%BA%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%BD%D1%8F-%D0%B4%D0%B0%D1%88%D0%B1%D0%BE%D1%80%D0%B4%D0%B0" class="hash-link" aria-label="Пряме посилання на 🧱 Покращення дашборда" title="Пряме посилання на 🧱 Покращення дашборда" translate="no">​</a></h3>
+<ul>
+<li class="">Тепер можна <strong>дублювати контролери дашборда</strong> з опціями: <strong>копіювати всі властивості</strong> або <strong>копіювати лише за типом</strong></li>
+<li class=""><strong>Палітру перероблено</strong> для швидшого складання: показується під дашбордом, є кнопка очищення, не закривається після додавання компонентів і зберігає послідовний вибір секції</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-оновлення-та-виправлення-хабів">🔌 Оновлення та виправлення хабів<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/02/28/post#-%D0%BE%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D1%82%D0%B0-%D0%B2%D0%B8%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D1%85%D0%B0%D0%B1%D1%96%D0%B2" class="hash-link" aria-label="Пряме посилання на 🔌 Оновлення та виправлення хабів" title="Пряме посилання на 🔌 Оновлення та виправлення хабів" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Mould King 4.0</strong> перевпроваджено на <strong>новий протокол в iOS</strong> (Android і надалі використовує попередній протокол)</li>
+<li class="">Виправлено проблему, коли <strong>булевий блок “hub is connected”</strong> не з’являвся, поки хаб рекламувався (advertising)</li>
+<li class="">Виправлено баг, через який <strong>блок світла</strong> міг перестати працювати через обробку команд запуску/зупинки мотора</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-виправлення">🛠 Виправлення<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/02/28/post#-%D0%B2%D0%B8%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F" class="hash-link" aria-label="Пряме посилання на 🛠 Виправлення" title="Пряме посилання на 🛠 Виправлення" translate="no">​</a></h3>
+<ul>
+<li class="">Виправлено валідацію e-mail у компоненті введення, яка могла дозволяти невалідні адреси на кшталт <code>mail@domain.</code></li>
+</ul>
+<hr>
+<p>Оновіть MOCPilot до <strong>2026.2.3</strong> для більш плавної роботи дашборда та надійнішої поведінки хабів на всіх платформах.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Реліз MOCPilot 2026.2.2]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog/2026/02/18/post</id>

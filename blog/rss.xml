@@ -4,10 +4,40 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Wed, 18 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Release MOCPilot 2026.2.3]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/blog/2026/02/28/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/blog/2026/02/28/post</guid>
+            <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.2.3 — Dashboard & Hub Fixes]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202623--dashboard--hub-fixes">🚀 MOCPilot 2026.2.3 — Dashboard &amp; Hub Fixes<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/02/28/post#-mocpilot-202623--dashboard--hub-fixes" class="hash-link" aria-label="Direct link to 🚀 MOCPilot 2026.2.3 — Dashboard &amp; Hub Fixes" title="Direct link to 🚀 MOCPilot 2026.2.3 — Dashboard &amp; Hub Fixes" translate="no">​</a></h2>
+<p>We’re happy to announce the release of <strong>MOCPilot 2026.2.3</strong>, available on <strong>Android</strong>, <strong>iOS</strong>, and <strong>macOS</strong>.</p>
+<p>This update focuses on improving the dashboard workflow and resolving several important hub and editor issues.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-whats-new-in-202623">✨ What’s New in 2026.2.3?<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/02/28/post#-whats-new-in-202623" class="hash-link" aria-label="Direct link to ✨ What’s New in 2026.2.3?" title="Direct link to ✨ What’s New in 2026.2.3?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-dashboard-improvements">🧱 Dashboard Improvements<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/02/28/post#-dashboard-improvements" class="hash-link" aria-label="Direct link to 🧱 Dashboard Improvements" title="Direct link to 🧱 Dashboard Improvements" translate="no">​</a></h3>
+<ul>
+<li class="">You can now <strong>duplicate dashboard controllers</strong>, with options to <strong>copy all properties</strong> or <strong>copy only by type</strong></li>
+<li class=""><strong>Palette reworked</strong> for faster building: shown underneath the dashboard, includes a clear button, stays open after adding components, and keeps section selection consistent</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hub-updates--fixes">🔌 Hub Updates &amp; Fixes<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/02/28/post#-hub-updates--fixes" class="hash-link" aria-label="Direct link to 🔌 Hub Updates &amp; Fixes" title="Direct link to 🔌 Hub Updates &amp; Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Mould King 4.0</strong> reimplemented to the <strong>new protocol on iOS</strong> (Android continues using the previous protocol)</li>
+<li class="">Fixed an issue where the <strong>“hub is connected” boolean block</strong> didn’t appear while a hub was advertising</li>
+<li class="">Fixed a bug where the <strong>light block</strong> could stop working due to motor start/stop command handling</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-fixes">🛠 Fixes<a href="https://onemanstudio-il.github.io/mocpilot-app/blog/2026/02/28/post#-fixes" class="hash-link" aria-label="Direct link to 🛠 Fixes" title="Direct link to 🛠 Fixes" translate="no">​</a></h3>
+<ul>
+<li class="">Fixed email validation in the input component that could allow invalid addresses like <code>mail@domain.</code></li>
+</ul>
+<hr>
+<p>Update MOCPilot to <strong>2026.2.3</strong> for a smoother dashboard experience and more reliable hub behavior across platforms.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Release MOCPilot 2026.2.2]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/blog/2026/02/18/post</link>

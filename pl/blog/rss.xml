@@ -4,10 +4,40 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/pl/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Wed, 18 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>pl</language>
+        <item>
+            <title><![CDATA[Wydanie MOCPilot 2026.2.3]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/pl/blog/2026/02/28/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/pl/blog/2026/02/28/post</guid>
+            <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.2.3 — Ulepszenia dashboardu i poprawki hubów]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202623--ulepszenia-dashboardu-i-poprawki-hubów">🚀 MOCPilot 2026.2.3 — Ulepszenia dashboardu i poprawki hubów<a href="https://onemanstudio-il.github.io/mocpilot-app/pl/blog/2026/02/28/post#-mocpilot-202623--ulepszenia-dashboardu-i-poprawki-hub%C3%B3w" class="hash-link" aria-label="Bezpośredni link do 🚀 MOCPilot 2026.2.3 — Ulepszenia dashboardu i poprawki hubów" title="Bezpośredni link do 🚀 MOCPilot 2026.2.3 — Ulepszenia dashboardu i poprawki hubów" translate="no">​</a></h2>
+<p>Z przyjemnością ogłaszamy wydanie <strong>MOCPilot 2026.2.3</strong>, dostępne na <strong>Android</strong>, <strong>iOS</strong> i <strong>macOS</strong>.</p>
+<p>Ta aktualizacja usprawnia pracę z dashboardem oraz naprawia kilka istotnych problemów z hubami i edytorem.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-co-nowego-w-202623">✨ Co nowego w 2026.2.3?<a href="https://onemanstudio-il.github.io/mocpilot-app/pl/blog/2026/02/28/post#-co-nowego-w-202623" class="hash-link" aria-label="Bezpośredni link do ✨ Co nowego w 2026.2.3?" title="Bezpośredni link do ✨ Co nowego w 2026.2.3?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ulepszenia-dashboardu">🧱 Ulepszenia dashboardu<a href="https://onemanstudio-il.github.io/mocpilot-app/pl/blog/2026/02/28/post#-ulepszenia-dashboardu" class="hash-link" aria-label="Bezpośredni link do 🧱 Ulepszenia dashboardu" title="Bezpośredni link do 🧱 Ulepszenia dashboardu" translate="no">​</a></h3>
+<ul>
+<li class="">Możesz teraz <strong>duplikować kontrolery dashboardu</strong>, z opcją <strong>kopiowania wszystkich właściwości</strong> lub <strong>kopiowania tylko według typu</strong></li>
+<li class=""><strong>Przebudowana paleta</strong> dla szybszego budowania: wyświetlana pod dashboardem, z przyciskiem czyszczenia, nie zamyka się po dodaniu komponentów i utrzymuje spójny wybór sekcji</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-aktualizacje-i-poprawki-hubów">🔌 Aktualizacje i poprawki hubów<a href="https://onemanstudio-il.github.io/mocpilot-app/pl/blog/2026/02/28/post#-aktualizacje-i-poprawki-hub%C3%B3w" class="hash-link" aria-label="Bezpośredni link do 🔌 Aktualizacje i poprawki hubów" title="Bezpośredni link do 🔌 Aktualizacje i poprawki hubów" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Mould King 4.0</strong> zaimplementowany ponownie z <strong>nowym protokołem na iOS</strong> (Android nadal korzysta z poprzedniego protokołu)</li>
+<li class="">Naprawiono problem, w którym <strong>blok boolowski „hub jest połączony”</strong> nie pojawiał się, gdy hub nadawał (advertising)</li>
+<li class="">Naprawiono błąd, przez który <strong>blok światła</strong> mógł przestać działać z powodu obsługi komend start/stop silnika</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-poprawki">🛠 Poprawki<a href="https://onemanstudio-il.github.io/mocpilot-app/pl/blog/2026/02/28/post#-poprawki" class="hash-link" aria-label="Bezpośredni link do 🛠 Poprawki" title="Bezpośredni link do 🛠 Poprawki" translate="no">​</a></h3>
+<ul>
+<li class="">Naprawiono walidację e-mail w komponencie wejściowym, która mogła przepuszczać nieprawidłowe adresy, np. <code>mail@domain.</code></li>
+</ul>
+<hr>
+<p>Zaktualizuj do <strong>2026.2.3</strong>, aby uzyskać płynniejszą pracę z dashboardem i bardziej niezawodne działanie hubów na wszystkich platformach.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Wydanie MOCPilot 2026.2.2]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/pl/blog/2026/02/18/post</link>

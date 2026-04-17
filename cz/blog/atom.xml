@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-02-18T00:00:00.000Z</updated>
+    <updated>2026-02-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/cz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Vydání MOCPilot 2026.2.3]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2026/02/28/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2026/02/28/post"/>
+        <updated>2026-02-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.2.3 — Vylepšení dashboardu a opravy hubů]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202623--vylepšení-dashboardu-a-opravy-hubů">🚀 MOCPilot 2026.2.3 — Vylepšení dashboardu a opravy hubů<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/02/28/post#-mocpilot-202623--vylep%C5%A1en%C3%AD-dashboardu-a-opravy-hub%C5%AF" class="hash-link" aria-label="Přímý odkaz na 🚀 MOCPilot 2026.2.3 — Vylepšení dashboardu a opravy hubů" title="Přímý odkaz na 🚀 MOCPilot 2026.2.3 — Vylepšení dashboardu a opravy hubů" translate="no">​</a></h2>
+<p>S radostí oznamujeme vydání <strong>MOCPilot 2026.2.3</strong>, dostupné pro <strong>Android</strong>, <strong>iOS</strong> a <strong>macOS</strong>.</p>
+<p>Tato aktualizace zlepšuje práci s dashboardem a opravuje několik důležitých problémů s huby a editorem.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-co-je-nového-v-202623">✨ Co je nového v 2026.2.3?<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/02/28/post#-co-je-nov%C3%A9ho-v-202623" class="hash-link" aria-label="Přímý odkaz na ✨ Co je nového v 2026.2.3?" title="Přímý odkaz na ✨ Co je nového v 2026.2.3?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-vylepšení-dashboardu">🧱 Vylepšení dashboardu<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/02/28/post#-vylep%C5%A1en%C3%AD-dashboardu" class="hash-link" aria-label="Přímý odkaz na 🧱 Vylepšení dashboardu" title="Přímý odkaz na 🧱 Vylepšení dashboardu" translate="no">​</a></h3>
+<ul>
+<li class="">Nyní můžete <strong>duplikovat dashboard controllery</strong>, s volbou <strong>kopírovat všechny vlastnosti</strong> nebo <strong>kopírovat pouze podle typu</strong></li>
+<li class=""><strong>Přepracovaná paleta</strong> pro rychlejší stavění: zobrazuje se pod dashboardem, má tlačítko pro vymazání, po přidání komponent se nezavírá a udržuje konzistentní výběr sekce</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-aktualizace-a-opravy-hubů">🔌 Aktualizace a opravy hubů<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/02/28/post#-aktualizace-a-opravy-hub%C5%AF" class="hash-link" aria-label="Přímý odkaz na 🔌 Aktualizace a opravy hubů" title="Přímý odkaz na 🔌 Aktualizace a opravy hubů" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Mould King 4.0</strong> přeimplementován na <strong>nový protokol na iOS</strong> (Android nadále používá předchozí protokol)</li>
+<li class="">Opraven problém, kdy se <strong>boolean blok „hub je připojen“</strong> nezobrazil, když hub inzeroval (advertising)</li>
+<li class="">Opraven bug, kdy <strong>blok světla</strong> mohl přestat fungovat kvůli zpracování příkazů start/stop motoru</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-opravy">🛠 Opravy<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/02/28/post#-opravy" class="hash-link" aria-label="Přímý odkaz na 🛠 Opravy" title="Přímý odkaz na 🛠 Opravy" translate="no">​</a></h3>
+<ul>
+<li class="">Opravena validace e-mailu ve vstupní komponentě, která mohla povolit neplatné adresy jako <code>mail@domain.</code></li>
+</ul>
+<hr>
+<p>Aktualizujte na <strong>2026.2.3</strong> pro plynulejší práci s dashboardem a spolehlivější chování hubů napříč platformami.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vydání MOCPilot 2026.2.2]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2026/02/18/post</id>

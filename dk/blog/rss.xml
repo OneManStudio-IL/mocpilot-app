@@ -4,10 +4,40 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Wed, 18 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>dk</language>
+        <item>
+            <title><![CDATA[Udgivelse af MOCPilot 2026.2.3]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog/2026/02/28/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog/2026/02/28/post</guid>
+            <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.2.3 — Dashboard- og hubrettelser]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202623--dashboard--og-hubrettelser">🚀 MOCPilot 2026.2.3 — Dashboard- og hubrettelser<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/02/28/post#-mocpilot-202623--dashboard--og-hubrettelser" class="hash-link" aria-label="Direkte link til 🚀 MOCPilot 2026.2.3 — Dashboard- og hubrettelser" title="Direkte link til 🚀 MOCPilot 2026.2.3 — Dashboard- og hubrettelser" translate="no">​</a></h2>
+<p>Vi er glade for at kunne annoncere <strong>MOCPilot 2026.2.3</strong>, tilgængelig på <strong>Android</strong>, <strong>iOS</strong> og <strong>macOS</strong>.</p>
+<p>Denne opdatering forbedrer dashboard-arbejdsgangen og retter flere vigtige problemer med hubs og editoren.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hvad-er-nyt-i-202623">✨ Hvad er nyt i 2026.2.3?<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/02/28/post#-hvad-er-nyt-i-202623" class="hash-link" aria-label="Direkte link til ✨ Hvad er nyt i 2026.2.3?" title="Direkte link til ✨ Hvad er nyt i 2026.2.3?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-dashboard-forbedringer">🧱 Dashboard-forbedringer<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/02/28/post#-dashboard-forbedringer" class="hash-link" aria-label="Direkte link til 🧱 Dashboard-forbedringer" title="Direkte link til 🧱 Dashboard-forbedringer" translate="no">​</a></h3>
+<ul>
+<li class="">Du kan nu <strong>duplikere dashboard-controllere</strong>, med mulighed for at <strong>kopiere alle egenskaber</strong> eller <strong>kun kopiere efter type</strong></li>
+<li class=""><strong>Paletten er omarbejdet</strong> for hurtigere opbygning: vises under dashboardet, har en ryd-knap, lukker ikke efter tilføjelse af komponenter og holder sektionsvalget konsistent</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hub-opdateringer-og-rettelser">🔌 Hub-opdateringer og rettelser<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/02/28/post#-hub-opdateringer-og-rettelser" class="hash-link" aria-label="Direkte link til 🔌 Hub-opdateringer og rettelser" title="Direkte link til 🔌 Hub-opdateringer og rettelser" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Mould King 4.0</strong> reimplementeret til <strong>den nye protokol på iOS</strong> (Android bruger fortsat den tidligere protokol)</li>
+<li class="">Rettet et problem hvor den <strong>boolske blok “hub er forbundet”</strong> ikke blev vist mens hubben annoncerede</li>
+<li class="">Rettet en fejl hvor <strong>lys-blokken</strong> kunne stoppe med at virke på grund af håndtering af motor start/stop-kommandoer</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-rettelser">🛠 Rettelser<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/02/28/post#-rettelser" class="hash-link" aria-label="Direkte link til 🛠 Rettelser" title="Direkte link til 🛠 Rettelser" translate="no">​</a></h3>
+<ul>
+<li class="">Rettet e-mailvalidering i input-komponenten, som kunne tillade ugyldige adresser som <code>mail@domain.</code></li>
+</ul>
+<hr>
+<p>Opdater til <strong>2026.2.3</strong> for en mere glidende dashboard-oplevelse og mere stabile hubs på tværs af platforme.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Udgivelse MOCPilot 2026.2.2]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog/2026/02/18/post</link>

@@ -4,10 +4,40 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Wed, 18 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 28 Feb 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>fi</language>
+        <item>
+            <title><![CDATA[MOCPilot 2026.2.3 -julkaisu]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/02/28/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/02/28/post</guid>
+            <pubDate>Sat, 28 Feb 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.2.3 — Dashboard-parannuksia ja hub-korjauksia]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202623--dashboard-parannuksia-ja-hub-korjauksia">🚀 MOCPilot 2026.2.3 — Dashboard-parannuksia ja hub-korjauksia<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/02/28/post#-mocpilot-202623--dashboard-parannuksia-ja-hub-korjauksia" class="hash-link" aria-label="Suora linkki kohtaan 🚀 MOCPilot 2026.2.3 — Dashboard-parannuksia ja hub-korjauksia" title="Suora linkki kohtaan 🚀 MOCPilot 2026.2.3 — Dashboard-parannuksia ja hub-korjauksia" translate="no">​</a></h2>
+<p>On ilo julkaista <strong>MOCPilot 2026.2.3</strong>, saatavilla <strong>Androidille</strong>, <strong>iOS<!-- -->:lle</strong> ja <strong>macOS<!-- -->:lle</strong>.</p>
+<p>Tämä päivitys parantaa dashboard-työskentelyä ja korjaa useita tärkeitä hubi- ja editoriongelmia.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mitä-uutta-versiossa-202623">✨ Mitä uutta versiossa 2026.2.3?<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/02/28/post#-mit%C3%A4-uutta-versiossa-202623" class="hash-link" aria-label="Suora linkki kohtaan ✨ Mitä uutta versiossa 2026.2.3?" title="Suora linkki kohtaan ✨ Mitä uutta versiossa 2026.2.3?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-dashboard-parannukset">🧱 Dashboard-parannukset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/02/28/post#-dashboard-parannukset" class="hash-link" aria-label="Suora linkki kohtaan 🧱 Dashboard-parannukset" title="Suora linkki kohtaan 🧱 Dashboard-parannukset" translate="no">​</a></h3>
+<ul>
+<li class="">Voit nyt <strong>kopioida (duplikoida) dashboard-ohjaimia</strong>, ja valita <strong>kopioida kaikki ominaisuudet</strong> tai <strong>vain tyypin mukaan</strong></li>
+<li class=""><strong>Paletti uudistettu</strong> nopeampaa rakentamista varten: näkyy dashboardin alla, sisältää tyhjennä-painikkeen, ei sulkeudu komponenttien lisäämisen jälkeen ja säilyttää osion valinnan johdonmukaisesti</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hub-päivitykset-ja-korjaukset">🔌 Hub-päivitykset ja korjaukset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/02/28/post#-hub-p%C3%A4ivitykset-ja-korjaukset" class="hash-link" aria-label="Suora linkki kohtaan 🔌 Hub-päivitykset ja korjaukset" title="Suora linkki kohtaan 🔌 Hub-päivitykset ja korjaukset" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Mould King 4.0</strong> toteutettu uudelleen <strong>uudella protokollalla iOS<!-- -->:ll<!-- -->ä</strong> (Android käyttää edelleen aiempaa protokollaa)</li>
+<li class="">Korjattu ongelma, jossa <strong>”hub on yhdistetty” -boolean-lohko</strong> ei näkynyt, kun hubi oli advertising-tilassa</li>
+<li class="">Korjattu bugi, jossa <strong>valo-lohko</strong> saattoi lakata toimimasta moottorin käynnistys/pysäytyskomennon käsittelyn vuoksi</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-korjaukset">🛠 Korjaukset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/02/28/post#-korjaukset" class="hash-link" aria-label="Suora linkki kohtaan 🛠 Korjaukset" title="Suora linkki kohtaan 🛠 Korjaukset" translate="no">​</a></h3>
+<ul>
+<li class="">Korjattu sähköpostin validointi syötekomponentissa, joka saattoi hyväksyä virheellisiä osoitteita kuten <code>mail@domain.</code></li>
+</ul>
+<hr>
+<p>Päivitä versioon <strong>2026.2.3</strong> saadaksesi sujuvamman dashboard-kokemuksen ja luotettavamman hub-toiminnan eri alustoilla.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Julkaisu MOCPilot 2026.2.2]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/02/18/post</link>

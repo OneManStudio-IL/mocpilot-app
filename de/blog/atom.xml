@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/de/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-02-18T00:00:00.000Z</updated>
+    <updated>2026-02-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/de/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release MOCPilot 2026.2.3]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/de/blog/2026/02/28/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/de/blog/2026/02/28/post"/>
+        <updated>2026-02-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.2.3 — Dashboard- & Hub-Fixes]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202623--dashboard---hub-fixes">🚀 MOCPilot 2026.2.3 — Dashboard- &amp; Hub-Fixes<a href="https://onemanstudio-il.github.io/mocpilot-app/de/blog/2026/02/28/post#-mocpilot-202623--dashboard---hub-fixes" class="hash-link" aria-label="Direktlink zu 🚀 MOCPilot 2026.2.3 — Dashboard- &amp; Hub-Fixes" title="Direktlink zu 🚀 MOCPilot 2026.2.3 — Dashboard- &amp; Hub-Fixes" translate="no">​</a></h2>
+<p>Wir freuen uns, die Veröffentlichung von <strong>MOCPilot 2026.2.3</strong> bekannt zu geben – verfügbar für <strong>Android</strong>, <strong>iOS</strong> und <strong>macOS</strong>.</p>
+<p>Dieses Update verbessert den Dashboard-Workflow und behebt mehrere wichtige Probleme mit Hubs und dem Editor.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-was-ist-neu-in-202623">✨ Was ist neu in 2026.2.3?<a href="https://onemanstudio-il.github.io/mocpilot-app/de/blog/2026/02/28/post#-was-ist-neu-in-202623" class="hash-link" aria-label="Direktlink zu ✨ Was ist neu in 2026.2.3?" title="Direktlink zu ✨ Was ist neu in 2026.2.3?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-dashboard-verbesserungen">🧱 Dashboard-Verbesserungen<a href="https://onemanstudio-il.github.io/mocpilot-app/de/blog/2026/02/28/post#-dashboard-verbesserungen" class="hash-link" aria-label="Direktlink zu 🧱 Dashboard-Verbesserungen" title="Direktlink zu 🧱 Dashboard-Verbesserungen" translate="no">​</a></h3>
+<ul>
+<li class="">Dashboard-Controller können jetzt <strong>dupliziert</strong> werden – wahlweise <strong>mit allen Eigenschaften</strong> oder <strong>nur nach Typ</strong></li>
+<li class=""><strong>Palette überarbeitet</strong> für schnelleres Bauen: unter dem Dashboard angezeigt, mit „Leeren“-Button, bleibt nach dem Hinzufügen offen und behält die Sektionsauswahl konsistent bei</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hub-updates--fixes">🔌 Hub-Updates &amp; Fixes<a href="https://onemanstudio-il.github.io/mocpilot-app/de/blog/2026/02/28/post#-hub-updates--fixes" class="hash-link" aria-label="Direktlink zu 🔌 Hub-Updates &amp; Fixes" title="Direktlink zu 🔌 Hub-Updates &amp; Fixes" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Mould King 4.0</strong> auf <strong>iOS</strong> auf das <strong>neue Protokoll</strong> umgestellt (Android verwendet weiterhin das vorherige Protokoll)</li>
+<li class="">Problem behoben, bei dem der <strong>boolesche Block „Hub ist verbunden“</strong> nicht angezeigt wurde, während der Hub beworben hat (Advertising)</li>
+<li class="">Bug behoben, durch den der <strong>Licht-Block</strong> wegen der Start/Stopp-Motor-Befehlslogik nicht mehr funktionieren konnte</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-fixes">🛠 Fixes<a href="https://onemanstudio-il.github.io/mocpilot-app/de/blog/2026/02/28/post#-fixes" class="hash-link" aria-label="Direktlink zu 🛠 Fixes" title="Direktlink zu 🛠 Fixes" translate="no">​</a></h3>
+<ul>
+<li class="">E-Mail-Validierung in der Eingabekomponente korrigiert, die ungültige Adressen wie <code>mail@domain.</code> zulassen konnte</li>
+</ul>
+<hr>
+<p>Aktualisiere auf <strong>2026.2.3</strong> für ein flüssigeres Dashboard und zuverlässigeres Hub-Verhalten auf allen Plattformen.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Veröffentlichung MOCPilot 2026.2.2]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/de/blog/2026/02/18/post</id>

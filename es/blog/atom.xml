@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/es/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-02-18T00:00:00.000Z</updated>
+    <updated>2026-02-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/es/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/es/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Lanzamiento de MOCPilot 2026.2.3]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/es/blog/2026/02/28/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/es/blog/2026/02/28/post"/>
+        <updated>2026-02-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.2.3 — Mejoras del panel y correcciones de hubs]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202623--mejoras-del-panel-y-correcciones-de-hubs">🚀 MOCPilot 2026.2.3 — Mejoras del panel y correcciones de hubs<a href="https://onemanstudio-il.github.io/mocpilot-app/es/blog/2026/02/28/post#-mocpilot-202623--mejoras-del-panel-y-correcciones-de-hubs" class="hash-link" aria-label="Enlace directo a 🚀 MOCPilot 2026.2.3 — Mejoras del panel y correcciones de hubs" title="Enlace directo a 🚀 MOCPilot 2026.2.3 — Mejoras del panel y correcciones de hubs" translate="no">​</a></h2>
+<p>Nos complace anunciar el lanzamiento de <strong>MOCPilot 2026.2.3</strong>, disponible en <strong>Android</strong>, <strong>iOS</strong> y <strong>macOS</strong>.</p>
+<p>Esta actualización se centra en mejorar el flujo de trabajo del panel y resolver varios problemas importantes del hub y del editor.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-qué-hay-de-nuevo-en-202623">✨ ¿Qué hay de nuevo en 2026.2.3?<a href="https://onemanstudio-il.github.io/mocpilot-app/es/blog/2026/02/28/post#-qu%C3%A9-hay-de-nuevo-en-202623" class="hash-link" aria-label="Enlace directo a ✨ ¿Qué hay de nuevo en 2026.2.3?" title="Enlace directo a ✨ ¿Qué hay de nuevo en 2026.2.3?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mejoras-del-panel">🧱 Mejoras del panel<a href="https://onemanstudio-il.github.io/mocpilot-app/es/blog/2026/02/28/post#-mejoras-del-panel" class="hash-link" aria-label="Enlace directo a 🧱 Mejoras del panel" title="Enlace directo a 🧱 Mejoras del panel" translate="no">​</a></h3>
+<ul>
+<li class="">Ahora puedes <strong>duplicar controladores del panel</strong>, con opciones para <strong>copiar todas las propiedades</strong> o <strong>copiar solo por tipo</strong></li>
+<li class=""><strong>Paleta renovada</strong> para construir más rápido: se muestra debajo del panel, incluye botón de limpiar, no se cierra al añadir componentes y mantiene consistente la selección de sección</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-actualizaciones-y-correcciones-de-hubs">🔌 Actualizaciones y correcciones de hubs<a href="https://onemanstudio-il.github.io/mocpilot-app/es/blog/2026/02/28/post#-actualizaciones-y-correcciones-de-hubs" class="hash-link" aria-label="Enlace directo a 🔌 Actualizaciones y correcciones de hubs" title="Enlace directo a 🔌 Actualizaciones y correcciones de hubs" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Mould King 4.0</strong> reimplementado al <strong>nuevo protocolo en iOS</strong> (Android sigue usando el protocolo anterior)</li>
+<li class="">Solucionado un problema donde el <strong>bloque booleano “hub está conectado”</strong> no aparecía mientras el hub estaba anunciándose (advertising)</li>
+<li class="">Corregido un bug donde el <strong>bloque de luz</strong> podía dejar de funcionar debido al manejo de comandos de inicio/parada del motor</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-correcciones">🛠 Correcciones<a href="https://onemanstudio-il.github.io/mocpilot-app/es/blog/2026/02/28/post#-correcciones" class="hash-link" aria-label="Enlace directo a 🛠 Correcciones" title="Enlace directo a 🛠 Correcciones" translate="no">​</a></h3>
+<ul>
+<li class="">Corregida la validación de correo en el componente de entrada, que podía permitir direcciones no válidas como <code>mail@domain.</code></li>
+</ul>
+<hr>
+<p>Actualiza a <strong>2026.2.3</strong> para una experiencia de panel más fluida y un comportamiento del hub más fiable en todas las plataformas.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Lanzamiento MOCPilot 2026.2.2]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/es/blog/2026/02/18/post</id>
