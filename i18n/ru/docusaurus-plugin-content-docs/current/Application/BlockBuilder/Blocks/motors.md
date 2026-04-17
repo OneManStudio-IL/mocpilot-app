@@ -85,7 +85,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_motor_to_at_stop.svg')} alt="block_hubs_all_motors_port_set_motor_to_at_stop.svg" />
 Задает поведение мотора при остановке.
 
-- Варианты режима остановки: `тормоз`, `hold position`, `coast`
+- Варианты режима остановки: `тормоз`, `удерживать позицию`, `накат`
 - Примечание: эта функция требует мотор на выбранном порту с поддержкой энкодерного управления.
 
 ### `Установить обнаружение заклинивания` {#block_hubs_all_motors_port_set_motors_stall_detection}
