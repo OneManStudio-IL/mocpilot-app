@@ -2,11 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-02-28T00:00:00.000Z</updated>
+    <updated>2026-04-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/fi/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/fi/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[MOCPilot 2026.3.1 -julkaisu]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/04/18/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/04/18/post"/>
+        <updated>2026-04-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.3.1 — Gamepad- ja builder-päivitys]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202631--gamepad--ja-builder-päivitys">🚀 MOCPilot 2026.3.1 — Gamepad- ja builder-päivitys<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/04/18/post#-mocpilot-202631--gamepad--ja-builder-p%C3%A4ivitys" class="hash-link" aria-label="Suora linkki kohtaan 🚀 MOCPilot 2026.3.1 — Gamepad- ja builder-päivitys" title="Suora linkki kohtaan 🚀 MOCPilot 2026.3.1 — Gamepad- ja builder-päivitys" translate="no">​</a></h2>
+<p>On ilo julkaista <strong>MOCPilot 2026.3.1</strong>, saatavilla <strong>Androidille</strong>, <strong>iOS<!-- -->:lle</strong> ja <strong>macOS<!-- -->:lle</strong>.</p>
+<p>Tämä julkaisu tuo merkittäviä parannuksia lohkorakentajaan (touch + desktop) sekä entistä paremman gamepad-tuen.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mitä-uutta-versiossa-202631">✨ Mitä uutta versiossa 2026.3.1?<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/04/18/post#-mit%C3%A4-uutta-versiossa-202631" class="hash-link" aria-label="Suora linkki kohtaan ✨ Mitä uutta versiossa 2026.3.1?" title="Suora linkki kohtaan ✨ Mitä uutta versiossa 2026.3.1?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-gamepad-parannukset">🎮 Gamepad-parannukset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/04/18/post#-gamepad-parannukset" class="hash-link" aria-label="Suora linkki kohtaan 🎮 Gamepad-parannukset" title="Suora linkki kohtaan 🎮 Gamepad-parannukset" translate="no">​</a></h3>
+<ul>
+<li class="">Gamepad-lohkot <strong>aktivoituvat automaattisesti</strong>, kun profiili avataan (myös silloin kun gamepad on jo yhdistetty)</li>
+<li class="">Korjattu ongelma, jossa <strong>myöhemmin lisätyt gamepad-tapahtumalohkot</strong> eivät aktivoituneet ennen ohjelman uudelleenkäynnistystä</li>
+<li class="">Lisätty <strong>gamepad-arvoalueen</strong> asetus tarkempaa ohjausta varten</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-builder--ja-editoriparannukset">🧱 Builder- ja editoriparannukset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/04/18/post#-builder--ja-editoriparannukset" class="hash-link" aria-label="Suora linkki kohtaan 🧱 Builder- ja editoriparannukset" title="Suora linkki kohtaan 🧱 Builder- ja editoriparannukset" translate="no">​</a></h3>
+<ul>
+<li class="">Suuri määrä parannuksia <strong>kosketuseleisiin</strong> ja yleiseen builder-käytettävyyteen (mobiili + desktop)</li>
+<li class="">Luotettavampi <strong>kumoa/historia</strong> (toistaiseksi <strong>vain dashboardissa</strong>), uudistetulla historial­la, joka seuraa muutoksia, jotta aiempaan tilaan palaaminen on johdonmukaisempaa</li>
+<li class="">Korjattu useita <strong>porttieditorin</strong> ja arvomuokkauksen ongelmia mobiilissa</li>
+<li class="">Korjattu mobiiliongelma, jossa pinch-eleet saattoivat saada <strong>ohjelma-alueen jumittumaan</strong></li>
+<li class="">Parannettu lohkojen snap-valahtelua ja lisäyksen esikatselua kontrollirakenteita rakentaessa</li>
+<li class="">Lisätty <strong>halo-korostus</strong> suoritettaville lohkoille</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hubi-ja-yhteydet">🔌 Hubi ja yhteydet<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/04/18/post#-hubi-ja-yhteydet" class="hash-link" aria-label="Suora linkki kohtaan 🔌 Hubi ja yhteydet" title="Suora linkki kohtaan 🔌 Hubi ja yhteydet" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Hubin painikevalitsin</strong> kyseisessä lohkossa on nyt <strong>aina näkyvissä</strong>, ja painiketapahtumien asetus on uudistettu</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-paletti-ja-ohje">🧩 Paletti ja ohje<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/04/18/post#-paletti-ja-ohje" class="hash-link" aria-label="Suora linkki kohtaan 🧩 Paletti ja ohje" title="Suora linkki kohtaan 🧩 Paletti ja ohje" translate="no">​</a></h3>
+<ul>
+<li class="">Korjattu paletin ongelmia <strong>kielen/locale-vaihdon</strong> jälkeen (paletin toimintopainikkeet saattoivat muuttua epäaktiivisiksi)</li>
+<li class="">Lisätty kontekstivalikkoon <strong>“About Block”</strong> avaamaan valitun lohkon dokumentaation</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ohje-päivitykset">📚 Ohje-päivitykset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/04/18/post#-ohje-p%C3%A4ivitykset" class="hash-link" aria-label="Suora linkki kohtaan 📚 Ohje-päivitykset" title="Suora linkki kohtaan 📚 Ohje-päivitykset" translate="no">​</a></h3>
+<ul>
+<li class="">Ohjesivuja laajennettu <strong>suorilla linkeillä lohkodokumentaatioon</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-android-korjaukset">🤖 Android-korjaukset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/04/18/post#-android-korjaukset" class="hash-link" aria-label="Suora linkki kohtaan 🤖 Android-korjaukset" title="Suora linkki kohtaan 🤖 Android-korjaukset" translate="no">​</a></h3>
+<ul>
+<li class="">Korjattu ongelmia <strong>profiilien jakamisessa ja tuonnissa</strong> Androidilla</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-renderöinti-ja-suorituskyky">🛠 Renderöinti ja suorituskyky<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/04/18/post#-render%C3%B6inti-ja-suorituskyky" class="hash-link" aria-label="Suora linkki kohtaan 🛠 Renderöinti ja suorituskyky" title="Suora linkki kohtaan 🛠 Renderöinti ja suorituskyky" translate="no">​</a></h3>
+<ul>
+<li class="">Korjattu korkealla skaalalla näkyneet <strong>sumeat/epäterävät lohkot</strong> uudistamalla renderöinnin tekstuurikäsittelyä</li>
+<li class="">Optimoitu <strong>texture upscaler</strong> mobiililaitteille ja parannettu ohjelma-alueen välistystä/zoom-käyttäytymistä</li>
+</ul>
+<hr>
+<p>Päivitä versioon <strong>2026.3.1</strong> saadaksesi selvästi sujuvamman builder-kokemuksen ja paremmat gamepad-työskentelytavat.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MOCPilot 2026.2.3 -julkaisu]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/02/28/post</id>

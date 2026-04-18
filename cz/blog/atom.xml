@@ -2,11 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-02-28T00:00:00.000Z</updated>
+    <updated>2026-04-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/cz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Vydání MOCPilot 2026.3.1]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2026/04/18/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2026/04/18/post"/>
+        <updated>2026-04-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.3.1 — Aktualizace gamepadu a builderu]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202631--aktualizace-gamepadu-a-builderu">🚀 MOCPilot 2026.3.1 — Aktualizace gamepadu a builderu<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/04/18/post#-mocpilot-202631--aktualizace-gamepadu-a-builderu" class="hash-link" aria-label="Přímý odkaz na 🚀 MOCPilot 2026.3.1 — Aktualizace gamepadu a builderu" title="Přímý odkaz na 🚀 MOCPilot 2026.3.1 — Aktualizace gamepadu a builderu" translate="no">​</a></h2>
+<p>S radostí oznamujeme vydání <strong>MOCPilot 2026.3.1</strong>, dostupné pro <strong>Android</strong>, <strong>iOS</strong> a <strong>macOS</strong>.</p>
+<p>Tato verze přináší velká vylepšení block builderu (touch + desktop) a silnější podporu gamepadu.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-co-je-nového-v-202631">✨ Co je nového v 2026.3.1?<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/04/18/post#-co-je-nov%C3%A9ho-v-202631" class="hash-link" aria-label="Přímý odkaz na ✨ Co je nového v 2026.3.1?" title="Přímý odkaz na ✨ Co je nového v 2026.3.1?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-vylepšení-gamepadu">🎮 Vylepšení gamepadu<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/04/18/post#-vylep%C5%A1en%C3%AD-gamepadu" class="hash-link" aria-label="Přímý odkaz na 🎮 Vylepšení gamepadu" title="Přímý odkaz na 🎮 Vylepšení gamepadu" translate="no">​</a></h3>
+<ul>
+<li class="">Gamepad bloky se nyní <strong>automaticky aktivují</strong> při otevření profilu (i když je gamepad už připojený)</li>
+<li class="">Opraven problém, kdy se <strong>později přidané event bloky gamepadu</strong> neaktivovaly až do restartu programu</li>
+<li class="">Přidáno nastavení <strong>rozsahu hodnot gamepadu</strong> pro jemnější ovládání</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-vylepšení-builderu-a-editoru">🧱 Vylepšení builderu a editoru<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/04/18/post#-vylep%C5%A1en%C3%AD-builderu-a-editoru" class="hash-link" aria-label="Přímý odkaz na 🧱 Vylepšení builderu a editoru" title="Přímý odkaz na 🧱 Vylepšení builderu a editoru" translate="no">​</a></h3>
+<ul>
+<li class="">Velký balík vylepšení <strong>dotykových gest</strong> a celkové interakce (mobil + desktop)</li>
+<li class="">Spolehlivější <strong>undo/historie</strong> (zatím <strong>jen dashboard</strong>), s přepracovanou historií, která sleduje změny, aby bylo možné konzistentněji vracet předchozí stav</li>
+<li class="">Opraveno několik problémů <strong>editoru portů</strong> a editace hodnot na mobilu</li>
+<li class="">Opravena chyba na mobilu, kdy pinch gesta mohla způsobit, že se <strong>programová oblast zasekne</strong></li>
+<li class="">Vylepšené přichytávání bloků a náhledy vkládání při stavbě řídicích struktur</li>
+<li class="">Přidáno <strong>halo</strong> pro běžící bloky</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hub-a-konektivita">🔌 Hub a konektivita<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/04/18/post#-hub-a-konektivita" class="hash-link" aria-label="Přímý odkaz na 🔌 Hub a konektivita" title="Přímý odkaz na 🔌 Hub a konektivita" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Výběr tlačítek hubu</strong> v příslušném bloku je nyní <strong>vždy viditelný</strong>, s přepracovaným nastavením událostí tlačítek</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-paleta-a-nápověda">🧩 Paleta a nápověda<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/04/18/post#-paleta-a-n%C3%A1pov%C4%9Bda" class="hash-link" aria-label="Přímý odkaz na 🧩 Paleta a nápověda" title="Přímý odkaz na 🧩 Paleta a nápověda" translate="no">​</a></h3>
+<ul>
+<li class="">Opraveny problémy palety po <strong>změně jazyka/locale</strong> (tlačítka akcí palety mohla být neaktivní)</li>
+<li class="">Přidána položka kontextového menu <strong>„About Block“</strong> pro otevření dokumentace vybraného bloku</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-aktualizace-nápovědy">📚 Aktualizace nápovědy<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/04/18/post#-aktualizace-n%C3%A1pov%C4%9Bdy" class="hash-link" aria-label="Přímý odkaz na 📚 Aktualizace nápovědy" title="Přímý odkaz na 📚 Aktualizace nápovědy" translate="no">​</a></h3>
+<ul>
+<li class="">Stránky nápovědy rozšířeny o <strong>přímé odkazy na dokumentaci bloků</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-android-opravy">🤖 Android opravy<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/04/18/post#-android-opravy" class="hash-link" aria-label="Přímý odkaz na 🤖 Android opravy" title="Přímý odkaz na 🤖 Android opravy" translate="no">​</a></h3>
+<ul>
+<li class="">Opraveny problémy se <strong>sdílením a importem profilů</strong> na Androidu</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-renderování-a-výkon">🛠 Renderování a výkon<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/04/18/post#-renderov%C3%A1n%C3%AD-a-v%C3%BDkon" class="hash-link" aria-label="Přímý odkaz na 🛠 Renderování a výkon" title="Přímý odkaz na 🛠 Renderování a výkon" translate="no">​</a></h3>
+<ul>
+<li class="">Opraveny <strong>rozmazané/neostré bloky</strong> při vysokém měřítku přepracováním práce s texturami rendereru</li>
+<li class="">Optimalizován <strong>texture upscaler</strong> pro mobilní zařízení a vylepšeno odsazení/zoom chování programové oblasti</li>
+</ul>
+<hr>
+<p>Aktualizujte na <strong>2026.3.1</strong> pro výrazně plynulejší builder a lepší workflow s gamepadem.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vydání MOCPilot 2026.2.3]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2026/02/28/post</id>

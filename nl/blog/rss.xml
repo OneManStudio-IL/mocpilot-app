@@ -4,10 +4,62 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 28 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Apr 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>nl</language>
+        <item>
+            <title><![CDATA[Release MOCPilot 2026.3.1]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2026/04/18/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2026/04/18/post</guid>
+            <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.3.1 — Gamepad- en Builder-update]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202631--gamepad--en-builder-update">🚀 MOCPilot 2026.3.1 — Gamepad- en Builder-update<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/04/18/post#-mocpilot-202631--gamepad--en-builder-update" class="hash-link" aria-label="Directe link naar 🚀 MOCPilot 2026.3.1 — Gamepad- en Builder-update" title="Directe link naar 🚀 MOCPilot 2026.3.1 — Gamepad- en Builder-update" translate="no">​</a></h2>
+<p>We zijn blij om <strong>MOCPilot 2026.3.1</strong> aan te kondigen, beschikbaar voor <strong>Android</strong>, <strong>iOS</strong> en <strong>macOS</strong>.</p>
+<p>Deze release brengt grote verbeteringen aan de block builder (touch + desktop) en sterkere gamepad-ondersteuning.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-wat-is-er-nieuw-in-202631">✨ Wat is er nieuw in 2026.3.1?<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/04/18/post#-wat-is-er-nieuw-in-202631" class="hash-link" aria-label="Directe link naar ✨ Wat is er nieuw in 2026.3.1?" title="Directe link naar ✨ Wat is er nieuw in 2026.3.1?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-gamepad-verbeteringen">🎮 Gamepad-verbeteringen<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/04/18/post#-gamepad-verbeteringen" class="hash-link" aria-label="Directe link naar 🎮 Gamepad-verbeteringen" title="Directe link naar 🎮 Gamepad-verbeteringen" translate="no">​</a></h3>
+<ul>
+<li class="">Gamepad-blokken worden nu <strong>automatisch ingeschakeld</strong> wanneer een profiel wordt geopend (ook als een gamepad al verbonden is)</li>
+<li class="">Probleem opgelost waarbij <strong>later toegevoegde gamepad-eventblokken</strong> pas actief werden na het herstarten van het programma</li>
+<li class="">Instelling voor <strong>gamepad-waardebereik</strong> toegevoegd voor fijnere controle</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-builder--en-editorverbeteringen">🧱 Builder- en editorverbeteringen<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/04/18/post#-builder--en-editorverbeteringen" class="hash-link" aria-label="Directe link naar 🧱 Builder- en editorverbeteringen" title="Directe link naar 🧱 Builder- en editorverbeteringen" translate="no">​</a></h3>
+<ul>
+<li class="">Grote set verbeteringen aan <strong>touch-gestures</strong> en de algemene builder-interactie (mobiel + desktop)</li>
+<li class="">Betrouwbaardere <strong>undo/geschiedenis</strong> (nu <strong>alleen dashboard</strong>), met een herwerkte geschiedenis die wijzigingen bijhoudt zodat je consistenter kunt terugkeren naar een vorige staat</li>
+<li class="">Meerdere problemen in de <strong>poorteditor</strong> en waarde-editing op mobiel opgelost</li>
+<li class="">Probleem opgelost op mobiel waarbij pinch-gestures het <strong>programmagebied konden laten vastlopen</strong></li>
+<li class="">Verbeterde block snapping en invoegvoorbeelden bij het bouwen van control-structuren</li>
+<li class="">Een <strong>halo</strong> toegevoegd voor actieve (lopende) blokken</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hub-en-connectiviteit">🔌 Hub en connectiviteit<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/04/18/post#-hub-en-connectiviteit" class="hash-link" aria-label="Directe link naar 🔌 Hub en connectiviteit" title="Directe link naar 🔌 Hub en connectiviteit" translate="no">​</a></h3>
+<ul>
+<li class="">De <strong>hub-knopselector</strong> in het betreffende blok is nu <strong>altijd zichtbaar</strong>, met herwerkte knop-eventopzet</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-palet-en-help">🧩 Palet en help<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/04/18/post#-palet-en-help" class="hash-link" aria-label="Directe link naar 🧩 Palet en help" title="Directe link naar 🧩 Palet en help" translate="no">​</a></h3>
+<ul>
+<li class="">Paletproblemen na <strong>locale/taalwissel</strong> opgelost (palet-actiekoppen konden inactief worden)</li>
+<li class="">Contextmenu-optie <strong>“About Block”</strong> toegevoegd om documentatie voor het geselecteerde blok te openen</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-help-updates">📚 Help-updates<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/04/18/post#-help-updates" class="hash-link" aria-label="Directe link naar 📚 Help-updates" title="Directe link naar 📚 Help-updates" translate="no">​</a></h3>
+<ul>
+<li class="">Helppagina’s uitgebreid met <strong>directe links naar block-documentatie</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-android-fixes">🤖 Android-fixes<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/04/18/post#-android-fixes" class="hash-link" aria-label="Directe link naar 🤖 Android-fixes" title="Directe link naar 🤖 Android-fixes" translate="no">​</a></h3>
+<ul>
+<li class="">Problemen met het <strong>delen en importeren van profielen</strong> op Android opgelost</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-rendering-en-prestaties">🛠 Rendering en prestaties<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/04/18/post#-rendering-en-prestaties" class="hash-link" aria-label="Directe link naar 🛠 Rendering en prestaties" title="Directe link naar 🛠 Rendering en prestaties" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Wazige/niet-scherpe blocks</strong> bij hoge schaal opgelost door de renderer texture-afhandeling te herwerken</li>
+<li class=""><strong>Texture upscaler</strong> geoptimaliseerd voor mobiel en programma-area spacing/zoom gedrag verbeterd</li>
+</ul>
+<hr>
+<p>Update naar <strong>2026.3.1</strong> voor een veel soepelere builder-ervaring en betere gamepad-workflows.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Release MOCPilot 2026.2.3]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2026/02/28/post</link>

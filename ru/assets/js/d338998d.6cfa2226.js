@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmocpilot_docs=self.webpackChunkmocpilot_docs||[]).push([[1659],{1296:o=>{o.exports=JSON.parse('{"metadata":{"permalink":"/mocpilot-app/ru/blog","page":1,"postsPerPage":10,"totalPages":2,"totalCount":11,"nextPage":"/mocpilot-app/ru/blog/page/2","blogDescription":"\u0411\u043b\u043e\u0433","blogTitle":"\u0411\u043b\u043e\u0433"}}')}}]);

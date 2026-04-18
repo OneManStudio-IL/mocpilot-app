@@ -4,10 +4,62 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 28 Feb 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Apr 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>jp</language>
+        <item>
+            <title><![CDATA[MOCPilot 2026.3.1 リリース]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog/2026/04/18/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog/2026/04/18/post</guid>
+            <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.3.1 — Gamepad & Builder アップデート]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202631--gamepad--builder-アップデート">🚀 MOCPilot 2026.3.1 — Gamepad &amp; Builder アップデート<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/04/18/post#-mocpilot-202631--gamepad--builder-%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88" class="hash-link" aria-label="🚀 MOCPilot 2026.3.1 — Gamepad &amp; Builder アップデート への直接リンク" title="🚀 MOCPilot 2026.3.1 — Gamepad &amp; Builder アップデート への直接リンク" translate="no">​</a></h2>
+<p><strong>MOCPilot 2026.3.1</strong> をリリースしました。<strong>Android / iOS / macOS</strong> で利用できます。</p>
+<p>本リリースでは、ブロックビルダー（タッチ + デスクトップ）の大幅な改善と、ゲームパッド対応の強化を行いました。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-202631-の新機能">✨ 2026.3.1 の新機能<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/04/18/post#-202631-%E3%81%AE%E6%96%B0%E6%A9%9F%E8%83%BD" class="hash-link" aria-label="✨ 2026.3.1 の新機能 への直接リンク" title="✨ 2026.3.1 の新機能 への直接リンク" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ゲームパッド改善">🎮 ゲームパッド改善<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/04/18/post#-%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%91%E3%83%83%E3%83%89%E6%94%B9%E5%96%84" class="hash-link" aria-label="🎮 ゲームパッド改善 への直接リンク" title="🎮 ゲームパッド改善 への直接リンク" translate="no">​</a></h3>
+<ul>
+<li class="">プロファイルを開くとゲームパッド関連ブロックが<strong>自動で有効化</strong>されます（すでに接続済みの場合も含む）</li>
+<li class=""><strong>後から追加したゲームパッドのイベントブロック</strong>が、プログラム再起動まで有効にならない問題を修正</li>
+<li class="">より細かく調整できる <strong>ゲームパッド値レンジ</strong>設定を追加</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-builder--エディタ改善">🧱 Builder / エディタ改善<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/04/18/post#-builder--%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF%E6%94%B9%E5%96%84" class="hash-link" aria-label="🧱 Builder / エディタ改善 への直接リンク" title="🧱 Builder / エディタ改善 への直接リンク" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>タッチ操作</strong>と全体の操作性を大幅に改善（モバイル + デスクトップ）</li>
+<li class=""><strong>Undo/履歴</strong>の信頼性を向上（現在は<strong>ダッシュボードのみ</strong>）。変更を追跡し、より安定して前の状態に戻れるようにしました</li>
+<li class="">モバイルでの<strong>ポートエディタ</strong>や値編集に関する複数の問題を修正</li>
+<li class="">モバイルでピンチ操作により <strong>プログラムエリアが固まる</strong>場合がある問題を修正</li>
+<li class="">制御構造を組む際のブロックスナップと挿入プレビューを改善</li>
+<li class="">実行中のブロックを示す <strong>ハロー（halo）</strong> を追加</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hub--接続">🔌 Hub &amp; 接続<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/04/18/post#-hub--%E6%8E%A5%E7%B6%9A" class="hash-link" aria-label="🔌 Hub &amp; 接続 への直接リンク" title="🔌 Hub &amp; 接続 への直接リンク" translate="no">​</a></h3>
+<ul>
+<li class="">該当ブロック内の <strong>ハブボタンセレクタ</strong>が<strong>常に表示</strong>されるようになり、ボタンイベント設定も再設計されました</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-パレット--ヘルプ">🧩 パレット &amp; ヘルプ<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/04/18/post#-%E3%83%91%E3%83%AC%E3%83%83%E3%83%88--%E3%83%98%E3%83%AB%E3%83%97" class="hash-link" aria-label="🧩 パレット &amp; ヘルプ への直接リンク" title="🧩 パレット &amp; ヘルプ への直接リンク" translate="no">​</a></h3>
+<ul>
+<li class="">言語/ロケール切り替え後に、パレットのアクションボタンが無効になることがある問題を修正</li>
+<li class="">コンテキストメニューに <strong>“About Block”</strong> を追加（選択中ブロックのドキュメントを開きます）</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ヘルプ更新">📚 ヘルプ更新<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/04/18/post#-%E3%83%98%E3%83%AB%E3%83%97%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="📚 ヘルプ更新 への直接リンク" title="📚 ヘルプ更新 への直接リンク" translate="no">​</a></h3>
+<ul>
+<li class="">ヘルプページに <strong>ブロックドキュメントへの直接リンク</strong> を追加</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-android-修正">🤖 Android 修正<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/04/18/post#-android-%E4%BF%AE%E6%AD%A3" class="hash-link" aria-label="🤖 Android 修正 への直接リンク" title="🤖 Android 修正 への直接リンク" translate="no">​</a></h3>
+<ul>
+<li class="">Android での <strong>プロファイル共有/インポート</strong> の問題を修正</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-描画--パフォーマンス">🛠 描画 &amp; パフォーマンス<a href="https://onemanstudio-il.github.io/mocpilot-app/jp/blog/2026/04/18/post#-%E6%8F%8F%E7%94%BB--%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9" class="hash-link" aria-label="🛠 描画 &amp; パフォーマンス への直接リンク" title="🛠 描画 &amp; パフォーマンス への直接リンク" translate="no">​</a></h3>
+<ul>
+<li class="">高いスケールでブロックが <strong>ぼやける/くっきりしない</strong> 問題を修正（レンダラーのテクスチャ処理を改修）</li>
+<li class="">モバイル向けに <strong>texture upscaler</strong> を最適化し、プログラムエリアの余白/ズーム挙動を改善</li>
+</ul>
+<hr>
+<p><strong>2026.3.1</strong> にアップデートして、より快適なビルダー体験と強化されたゲームパッドワークフローをお試しください。</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[MOCPilot 2026.2.3 リリース]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/jp/blog/2026/02/28/post</link>

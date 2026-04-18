@@ -2,11 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-02-28T00:00:00.000Z</updated>
+    <updated>2026-04-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/ro/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/ro/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Lansare MOCPilot 2026.3.1]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/04/18/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/04/18/post"/>
+        <updated>2026-04-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.3.1 — Actualizare Gamepad și Builder]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202631--actualizare-gamepad-și-builder">🚀 MOCPilot 2026.3.1 — Actualizare Gamepad și Builder<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/04/18/post#-mocpilot-202631--actualizare-gamepad-%C8%99i-builder" class="hash-link" aria-label="Link direct către 🚀 MOCPilot 2026.3.1 — Actualizare Gamepad și Builder" title="Link direct către 🚀 MOCPilot 2026.3.1 — Actualizare Gamepad și Builder" translate="no">​</a></h2>
+<p>Suntem bucuroși să anunțăm lansarea <strong>MOCPilot 2026.3.1</strong>, disponibilă pe <strong>Android</strong>, <strong>iOS</strong> și <strong>macOS</strong>.</p>
+<p>Această versiune aduce îmbunătățiri majore pentru builder-ul de blocuri (touch + desktop) și un suport gamepad mai puternic.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ce-este-nou-în-202631">✨ Ce este nou în 2026.3.1?<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/04/18/post#-ce-este-nou-%C3%AEn-202631" class="hash-link" aria-label="Link direct către ✨ Ce este nou în 2026.3.1?" title="Link direct către ✨ Ce este nou în 2026.3.1?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-îmbunătățiri-gamepad">🎮 Îmbunătățiri Gamepad<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/04/18/post#-%C3%AEmbun%C4%83t%C4%83%C8%9Biri-gamepad" class="hash-link" aria-label="Link direct către 🎮 Îmbunătățiri Gamepad" title="Link direct către 🎮 Îmbunătățiri Gamepad" translate="no">​</a></h3>
+<ul>
+<li class="">Blocurile de gamepad se <strong>activează automat</strong> când este deschis un profil (inclusiv dacă gamepad-ul este deja conectat)</li>
+<li class="">Remediată o problemă în care <strong>blocurile de evenimente gamepad adăugate ulterior</strong> nu se activau până la repornirea programului</li>
+<li class="">Adăugată setarea de <strong>interval valori gamepad</strong> pentru control mai fin</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-îmbunătățiri-builder--editor">🧱 Îmbunătățiri Builder &amp; Editor<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/04/18/post#-%C3%AEmbun%C4%83t%C4%83%C8%9Biri-builder--editor" class="hash-link" aria-label="Link direct către 🧱 Îmbunătățiri Builder &amp; Editor" title="Link direct către 🧱 Îmbunătățiri Builder &amp; Editor" translate="no">​</a></h3>
+<ul>
+<li class="">Set mare de îmbunătățiri pentru <strong>gesturi touch</strong> și interacțiunea generală (mobil + desktop)</li>
+<li class=""><strong>Undo/istoric</strong> mai fiabil (momentan <strong>doar dashboard</strong>), cu un istoric refăcut care urmărește schimbările pentru a reveni mai consecvent la o stare anterioară</li>
+<li class="">Remediate mai multe probleme ale <strong>editorului de porturi</strong> și ale editării valorilor pe mobil</li>
+<li class="">Remediată o problemă pe mobil unde gesturile pinch puteau face ca <strong>zona programului să rămână blocată</strong></li>
+<li class="">Îmbunătățit snapping-ul blocurilor și previzualizările de inserare la construirea structurilor de control</li>
+<li class="">Adăugat un <strong>halo</strong> pentru blocurile care rulează</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hub--conectivitate">🔌 Hub &amp; Conectivitate<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/04/18/post#-hub--conectivitate" class="hash-link" aria-label="Link direct către 🔌 Hub &amp; Conectivitate" title="Link direct către 🔌 Hub &amp; Conectivitate" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Selectorul de butoane al hub-ului</strong> din blocul relevant este acum <strong>mereu vizibil</strong>, cu o configurare refăcută a evenimentelor pentru butoane</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-paletă--ajutor">🧩 Paletă &amp; Ajutor<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/04/18/post#-palet%C4%83--ajutor" class="hash-link" aria-label="Link direct către 🧩 Paletă &amp; Ajutor" title="Link direct către 🧩 Paletă &amp; Ajutor" translate="no">​</a></h3>
+<ul>
+<li class="">Remediate probleme ale paletei după <strong>schimbarea limbii/localei</strong> (butoanele de acțiune puteau deveni inactive)</li>
+<li class="">Adăugată opțiunea de meniu contextual <strong>„About Block”</strong> pentru a deschide documentația blocului selectat</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-actualizări-ajutor">📚 Actualizări Ajutor<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/04/18/post#-actualiz%C4%83ri-ajutor" class="hash-link" aria-label="Link direct către 📚 Actualizări Ajutor" title="Link direct către 📚 Actualizări Ajutor" translate="no">​</a></h3>
+<ul>
+<li class="">Paginile de ajutor extinse cu <strong>linkuri directe către documentația blocurilor</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-remedieri-android">🤖 Remedieri Android<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/04/18/post#-remedieri-android" class="hash-link" aria-label="Link direct către 🤖 Remedieri Android" title="Link direct către 🤖 Remedieri Android" translate="no">​</a></h3>
+<ul>
+<li class="">Remediate problemele de <strong>partajare și import al profilurilor</strong> pe Android</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-randare--performanță">🛠 Randare &amp; Performanță<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/04/18/post#-randare--performan%C8%9B%C4%83" class="hash-link" aria-label="Link direct către 🛠 Randare &amp; Performanță" title="Link direct către 🛠 Randare &amp; Performanță" translate="no">​</a></h3>
+<ul>
+<li class="">Remediate blocurile <strong>neclare/încetosate</strong> la scală mare prin refacerea gestionării texturilor din renderer</li>
+<li class="">Optimizat <strong>texture upscaler</strong> pentru mobile și îmbunătățit spațierea/comportamentul de zoom al zonei programului</li>
+</ul>
+<hr>
+<p>Actualizează la <strong>2026.3.1</strong> pentru o experiență builder mult mai fluidă și workflow-uri gamepad mai bune.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Lansare MOCPilot 2026.2.3]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/02/28/post</id>
