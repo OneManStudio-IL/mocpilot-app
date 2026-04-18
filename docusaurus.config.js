@@ -139,7 +139,7 @@ const config = {
     algolia: {
       appId: "AJXYEODYB6",
       apiKey: "9f69dbfa22c83cfa0712140916928f12",
-      indexName: "onemanstudio_il_github_io_ajxyeodyb6_pages",
+      indexName: "MOCPilot Docs",
     },
     prism: {
       theme: prismThemes.github,
