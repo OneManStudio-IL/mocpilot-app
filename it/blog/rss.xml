@@ -4,10 +4,40 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/it/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 18 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 May 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>it</language>
+        <item>
+            <title><![CDATA[Release MOCPilot 2026.3.2]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/it/blog/2026/05/02/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/it/blog/2026/05/02/post</guid>
+            <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.3.2 — Nuove Icone dei Controller del Dashboard e Correzioni Builder]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202632--nuove-icone-dei-controller-del-dashboard-e-correzioni-builder">🚀 MOCPilot 2026.3.2 — Nuove Icone dei Controller del Dashboard e Correzioni Builder<a href="https://onemanstudio-il.github.io/mocpilot-app/it/blog/2026/05/02/post#-mocpilot-202632--nuove-icone-dei-controller-del-dashboard-e-correzioni-builder" class="hash-link" aria-label="Link diretto a 🚀 MOCPilot 2026.3.2 — Nuove Icone dei Controller del Dashboard e Correzioni Builder" title="Link diretto a 🚀 MOCPilot 2026.3.2 — Nuove Icone dei Controller del Dashboard e Correzioni Builder" translate="no">​</a></h2>
+<p>Siamo felici di annunciare il rilascio di <strong>MOCPilot 2026.3.2</strong>, disponibile su <strong>Android</strong>, <strong>iOS</strong> e <strong>macOS</strong>.</p>
+<p>Questo aggiornamento migliora l’aspetto dei controller del dashboard, corregge diversi problemi di interazione nel builder e perfeziona il comportamento di calibrazione della cremagliera dello sterzo.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-novità-in-202632">✨ Novità in 2026.3.2<a href="https://onemanstudio-il.github.io/mocpilot-app/it/blog/2026/05/02/post#-novit%C3%A0-in-202632" class="hash-link" aria-label="Link diretto a ✨ Novità in 2026.3.2" title="Link diretto a ✨ Novità in 2026.3.2" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-miglioramenti-dei-controller-del-dashboard">🎛 Miglioramenti dei Controller del Dashboard<a href="https://onemanstudio-il.github.io/mocpilot-app/it/blog/2026/05/02/post#-miglioramenti-dei-controller-del-dashboard" class="hash-link" aria-label="Link diretto a 🎛 Miglioramenti dei Controller del Dashboard" title="Link diretto a 🎛 Miglioramenti dei Controller del Dashboard" translate="no">​</a></h3>
+<ul>
+<li class="">Aggiunte <strong>nuove icone</strong> per i controller del dashboard</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-correzioni-builder-e-blocchi">🧱 Correzioni Builder e Blocchi<a href="https://onemanstudio-il.github.io/mocpilot-app/it/blog/2026/05/02/post#-correzioni-builder-e-blocchi" class="hash-link" aria-label="Link diretto a 🧱 Correzioni Builder e Blocchi" title="Link diretto a 🧱 Correzioni Builder e Blocchi" translate="no">​</a></h3>
+<ul>
+<li class="">Risolto un problema per cui l’evento <strong>Inclinazione hub cambiata</strong> poteva attivarsi in modo errato a causa del confronto tra valori interi e decimali</li>
+<li class="">Risolti problemi di <strong>aggancio dei blocchi durante il trascinamento</strong>, che interessavano i <strong>blocchi C</strong> e altri tipi di blocco</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-aggiornamento-della-calibrazione-dello-sterzo">⚙️ Aggiornamento della Calibrazione dello Sterzo<a href="https://onemanstudio-il.github.io/mocpilot-app/it/blog/2026/05/02/post#%EF%B8%8F-aggiornamento-della-calibrazione-dello-sterzo" class="hash-link" aria-label="Link diretto a ⚙️ Aggiornamento della Calibrazione dello Sterzo" title="Link diretto a ⚙️ Aggiornamento della Calibrazione dello Sterzo" translate="no">​</a></h3>
+<ul>
+<li class="">Rielaborato il blocco <strong>Calibra cremagliera dello sterzo</strong></li>
+<li class="">Il blocco ora reimposta la <strong>posizione relativa a <code>0</code></strong> al termine della calibrazione</li>
+<li class="">La velocità dell’algoritmo di calibrazione è stata aggiornata a <strong>100</strong></li>
+</ul>
+<hr>
+<p>Aggiorna a <strong>2026.3.2</strong> per un’esperienza di costruzione dei blocchi più fluida, una grafica dei controller del dashboard migliorata e una calibrazione dello sterzo più affidabile.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Rilascio di MOCPilot 2026.3.1]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/it/blog/2026/04/18/post</link>

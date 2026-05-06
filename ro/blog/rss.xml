@@ -4,10 +4,40 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 18 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 May 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ro</language>
+        <item>
+            <title><![CDATA[Lansare MOCPilot 2026.3.2]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/05/02/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/05/02/post</guid>
+            <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.3.2 — Iconițe pentru Controalele Dashboard și Corecții Builder]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202632--iconițe-pentru-controalele-dashboard-și-corecții-builder">🚀 MOCPilot 2026.3.2 — Iconițe pentru Controalele Dashboard și Corecții Builder<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/05/02/post#-mocpilot-202632--iconi%C8%9Be-pentru-controalele-dashboard-%C8%99i-corec%C8%9Bii-builder" class="hash-link" aria-label="Link direct către 🚀 MOCPilot 2026.3.2 — Iconițe pentru Controalele Dashboard și Corecții Builder" title="Link direct către 🚀 MOCPilot 2026.3.2 — Iconițe pentru Controalele Dashboard și Corecții Builder" translate="no">​</a></h2>
+<p>Suntem bucuroși să anunțăm lansarea <strong>MOCPilot 2026.3.2</strong>, disponibilă pe <strong>Android</strong>, <strong>iOS</strong> și <strong>macOS</strong>.</p>
+<p>Această actualizare îmbunătățește aspectul controlerelor dashboard, rezolvă mai multe probleme de interacțiune din builder și rafinează comportamentul calibrării cremalierei de direcție.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ce-este-nou-în-202632">✨ Ce este nou în 2026.3.2?<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/05/02/post#-ce-este-nou-%C3%AEn-202632" class="hash-link" aria-label="Link direct către ✨ Ce este nou în 2026.3.2?" title="Link direct către ✨ Ce este nou în 2026.3.2?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-îmbunătățiri-pentru-controalele-dashboard">🎛 Îmbunătățiri pentru Controalele Dashboard<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/05/02/post#-%C3%AEmbun%C4%83t%C4%83%C8%9Biri-pentru-controalele-dashboard" class="hash-link" aria-label="Link direct către 🎛 Îmbunătățiri pentru Controalele Dashboard" title="Link direct către 🎛 Îmbunătățiri pentru Controalele Dashboard" translate="no">​</a></h3>
+<ul>
+<li class="">Au fost adăugate <strong>iconițe noi</strong> pentru controlerele dashboard</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-corecții-pentru-builder-și-blocuri">🧱 Corecții pentru Builder și Blocuri<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/05/02/post#-corec%C8%9Bii-pentru-builder-%C8%99i-blocuri" class="hash-link" aria-label="Link direct către 🧱 Corecții pentru Builder și Blocuri" title="Link direct către 🧱 Corecții pentru Builder și Blocuri" translate="no">​</a></h3>
+<ul>
+<li class="">A fost corectată o problemă din cauza căreia evenimentul <strong>Înclinarea hub schimbată</strong> putea fi declanșat greșit din cauza comparării valorilor întregi și zecimale</li>
+<li class="">Au fost corectate problemele de <strong>atașare a blocurilor prin tragere</strong>, care afectau <strong>blocurile C</strong> și alte tipuri de blocuri</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-actualizare-pentru-calibrarea-direcției">⚙️ Actualizare pentru Calibrarea Direcției<a href="https://onemanstudio-il.github.io/mocpilot-app/ro/blog/2026/05/02/post#%EF%B8%8F-actualizare-pentru-calibrarea-direc%C8%9Biei" class="hash-link" aria-label="Link direct către ⚙️ Actualizare pentru Calibrarea Direcției" title="Link direct către ⚙️ Actualizare pentru Calibrarea Direcției" translate="no">​</a></h3>
+<ul>
+<li class="">Blocul <strong>Calibrează cremaliera de direcție</strong> a fost refăcut</li>
+<li class="">Blocul resetează acum <strong>poziția relativă la <code>0</code></strong> atunci când calibrarea se finalizează</li>
+<li class="">Viteza algoritmului de calibrare a fost actualizată la <strong>100</strong></li>
+</ul>
+<hr>
+<p>Actualizează la <strong>2026.3.2</strong> pentru o construire a blocurilor mai fluidă, un aspect mai bun pentru controalele dashboard și o calibrare a direcției mai fiabilă.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Lansare MOCPilot 2026.3.1]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/ro/blog/2026/04/18/post</link>

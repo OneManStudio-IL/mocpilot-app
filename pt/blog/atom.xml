@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/pt/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-04-18T00:00:00.000Z</updated>
+    <updated>2026-05-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/pt/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/pt/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Lançamento do MOCPilot 2026.3.2]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/pt/blog/2026/05/02/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/pt/blog/2026/05/02/post"/>
+        <updated>2026-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.3.2 — Ícones dos Controladores do Painel e Correções no Builder]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202632--ícones-dos-controladores-do-painel-e-correções-no-builder">🚀 MOCPilot 2026.3.2 — Ícones dos Controladores do Painel e Correções no Builder<a href="https://onemanstudio-il.github.io/mocpilot-app/pt/blog/2026/05/02/post#-mocpilot-202632--%C3%ADcones-dos-controladores-do-painel-e-corre%C3%A7%C3%B5es-no-builder" class="hash-link" aria-label="Link direto para 🚀 MOCPilot 2026.3.2 — Ícones dos Controladores do Painel e Correções no Builder" title="Link direto para 🚀 MOCPilot 2026.3.2 — Ícones dos Controladores do Painel e Correções no Builder" translate="no">​</a></h2>
+<p>Temos o prazer de anunciar o lançamento do <strong>MOCPilot 2026.3.2</strong>, disponível para <strong>Android</strong>, <strong>iOS</strong> e <strong>macOS</strong>.</p>
+<p>Esta atualização melhora o visual dos controladores do painel, corrige vários problemas de interação no builder e refina o comportamento de calibração da cremalheira de direção.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-o-que-há-de-novo-na-202632">✨ O que há de novo na 2026.3.2?<a href="https://onemanstudio-il.github.io/mocpilot-app/pt/blog/2026/05/02/post#-o-que-h%C3%A1-de-novo-na-202632" class="hash-link" aria-label="Link direto para ✨ O que há de novo na 2026.3.2?" title="Link direto para ✨ O que há de novo na 2026.3.2?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-melhorias-nos-controladores-do-painel">🎛 Melhorias nos Controladores do Painel<a href="https://onemanstudio-il.github.io/mocpilot-app/pt/blog/2026/05/02/post#-melhorias-nos-controladores-do-painel" class="hash-link" aria-label="Link direto para 🎛 Melhorias nos Controladores do Painel" title="Link direto para 🎛 Melhorias nos Controladores do Painel" translate="no">​</a></h3>
+<ul>
+<li class="">Adicionados <strong>novos ícones</strong> para os controladores do painel</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-correções-no-builder-e-nos-blocos">🧱 Correções no Builder e nos Blocos<a href="https://onemanstudio-il.github.io/mocpilot-app/pt/blog/2026/05/02/post#-corre%C3%A7%C3%B5es-no-builder-e-nos-blocos" class="hash-link" aria-label="Link direto para 🧱 Correções no Builder e nos Blocos" title="Link direto para 🧱 Correções no Builder e nos Blocos" translate="no">​</a></h3>
+<ul>
+<li class="">Corrigido um problema em que o evento <strong>Inclinação do hub alterada</strong> podia disparar incorretamente devido à comparação entre valores inteiros e decimais</li>
+<li class="">Corrigidos problemas ao <strong>arrastar e anexar blocos</strong>, que afetavam os <strong>blocos C</strong> e outros tipos de bloco</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-atualização-na-calibração-da-direção">⚙️ Atualização na Calibração da Direção<a href="https://onemanstudio-il.github.io/mocpilot-app/pt/blog/2026/05/02/post#%EF%B8%8F-atualiza%C3%A7%C3%A3o-na-calibra%C3%A7%C3%A3o-da-dire%C3%A7%C3%A3o" class="hash-link" aria-label="Link direto para ⚙️ Atualização na Calibração da Direção" title="Link direto para ⚙️ Atualização na Calibração da Direção" translate="no">​</a></h3>
+<ul>
+<li class="">O bloco <strong>Calibrar direção</strong> foi retrabalhado</li>
+<li class="">O bloco agora redefine a <strong>posição relativa para <code>0</code></strong> quando a calibração termina</li>
+<li class="">A velocidade do algoritmo de calibração foi atualizada para <strong>100</strong></li>
+</ul>
+<hr>
+<p>Atualize para <strong>2026.3.2</strong> para ter uma construção de blocos mais fluida, melhores visuais dos controladores do painel e uma calibração de direção mais confiável.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Lançamento do MOCPilot 2026.3.1]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/pt/blog/2026/04/18/post</id>

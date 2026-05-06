@@ -4,10 +4,40 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 18 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 May 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>cn</language>
+        <item>
+            <title><![CDATA[MOCPilot 2026.3.2 发布]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/2026/05/02/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/2026/05/02/post</guid>
+            <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.3.2 — 仪表盘控制器图标与 Builder 修复]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202632--仪表盘控制器图标与-builder-修复">🚀 MOCPilot 2026.3.2 — 仪表盘控制器图标与 Builder 修复<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/05/02/post#-mocpilot-202632--%E4%BB%AA%E8%A1%A8%E7%9B%98%E6%8E%A7%E5%88%B6%E5%99%A8%E5%9B%BE%E6%A0%87%E4%B8%8E-builder-%E4%BF%AE%E5%A4%8D" class="hash-link" aria-label="直接链接到 🚀 MOCPilot 2026.3.2 — 仪表盘控制器图标与 Builder 修复" title="直接链接到 🚀 MOCPilot 2026.3.2 — 仪表盘控制器图标与 Builder 修复" translate="no">​</a></h2>
+<p>我们很高兴宣布 <strong>MOCPilot 2026.3.2</strong> 正式发布，现已在 <strong>Android</strong>、<strong>iOS</strong> 和 <strong>macOS</strong> 上可用。</p>
+<p>此次更新改进了仪表盘控制器的视觉表现，修复了 builder 中多个交互问题，并优化了转向齿条校准的行为。</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-202632-有哪些新内容">✨ 2026.3.2 有哪些新内容？<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/05/02/post#-202632-%E6%9C%89%E5%93%AA%E4%BA%9B%E6%96%B0%E5%86%85%E5%AE%B9" class="hash-link" aria-label="直接链接到 ✨ 2026.3.2 有哪些新内容？" title="直接链接到 ✨ 2026.3.2 有哪些新内容？" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-仪表盘控制器改进">🎛 仪表盘控制器改进<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/05/02/post#-%E4%BB%AA%E8%A1%A8%E7%9B%98%E6%8E%A7%E5%88%B6%E5%99%A8%E6%94%B9%E8%BF%9B" class="hash-link" aria-label="直接链接到 🎛 仪表盘控制器改进" title="直接链接到 🎛 仪表盘控制器改进" translate="no">​</a></h3>
+<ul>
+<li class="">为仪表盘控制器添加了<strong>新图标</strong></li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-builder-与积木修复">🧱 Builder 与积木修复<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/05/02/post#-builder-%E4%B8%8E%E7%A7%AF%E6%9C%A8%E4%BF%AE%E5%A4%8D" class="hash-link" aria-label="直接链接到 🧱 Builder 与积木修复" title="直接链接到 🧱 Builder 与积木修复" translate="no">​</a></h3>
+<ul>
+<li class="">修复了 <strong>主控倾斜变化</strong> 事件可能因整数与浮点数比较而错误触发的问题</li>
+<li class="">修复了影响 <strong>C 积木</strong>及其他积木类型的<strong>拖拽连接</strong>问题</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-转向校准更新">⚙️ 转向校准更新<a href="https://onemanstudio-il.github.io/mocpilot-app/cn/blog/2026/05/02/post#%EF%B8%8F-%E8%BD%AC%E5%90%91%E6%A0%A1%E5%87%86%E6%9B%B4%E6%96%B0" class="hash-link" aria-label="直接链接到 ⚙️ 转向校准更新" title="直接链接到 ⚙️ 转向校准更新" translate="no">​</a></h3>
+<ul>
+<li class="">重新设计了 <strong>校准转向齿条</strong> 积木</li>
+<li class="">现在在校准完成后，该积木会将<strong>相对位置重置为 <code>0</code></strong></li>
+<li class="">校准算法速度已更新为 <strong>100</strong></li>
+</ul>
+<hr>
+<p>更新到 <strong>2026.3.2</strong>，获得更顺畅的积木搭建体验、更好的仪表盘控制器视觉效果，以及更可靠的转向校准。</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[发布 MOCPilot 2026.3.1]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/cn/blog/2026/04/18/post</link>

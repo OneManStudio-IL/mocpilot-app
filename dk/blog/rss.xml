@@ -4,10 +4,40 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 18 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 May 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>dk</language>
+        <item>
+            <title><![CDATA[Release MOCPilot 2026.3.2]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog/2026/05/02/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog/2026/05/02/post</guid>
+            <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.3.2 — Dashboard-controller-ikoner og Builder-rettelser]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202632--dashboard-controller-ikoner-og-builder-rettelser">🚀 MOCPilot 2026.3.2 — Dashboard-controller-ikoner og Builder-rettelser<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/05/02/post#-mocpilot-202632--dashboard-controller-ikoner-og-builder-rettelser" class="hash-link" aria-label="Direkte link til 🚀 MOCPilot 2026.3.2 — Dashboard-controller-ikoner og Builder-rettelser" title="Direkte link til 🚀 MOCPilot 2026.3.2 — Dashboard-controller-ikoner og Builder-rettelser" translate="no">​</a></h2>
+<p>Vi er glade for at kunne annoncere udgivelsen af <strong>MOCPilot 2026.3.2</strong>, som er tilgængelig på <strong>Android</strong>, <strong>iOS</strong> og <strong>macOS</strong>.</p>
+<p>Denne opdatering forbedrer dashboard-controllernes visuelle udtryk, retter flere interaktionsproblemer i builderen og finjusterer kalibreringen af styretøjsstangen.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-hvad-er-nyt-i-202632">✨ Hvad er nyt i 2026.3.2?<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/05/02/post#-hvad-er-nyt-i-202632" class="hash-link" aria-label="Direkte link til ✨ Hvad er nyt i 2026.3.2?" title="Direkte link til ✨ Hvad er nyt i 2026.3.2?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-dashboard-controller-forbedringer">🎛 Dashboard-controller-forbedringer<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/05/02/post#-dashboard-controller-forbedringer" class="hash-link" aria-label="Direkte link til 🎛 Dashboard-controller-forbedringer" title="Direkte link til 🎛 Dashboard-controller-forbedringer" translate="no">​</a></h3>
+<ul>
+<li class="">Tilføjet <strong>nye ikoner</strong> til dashboard-controllere</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-builder--og-blokrettelser">🧱 Builder- og blokrettelser<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/05/02/post#-builder--og-blokrettelser" class="hash-link" aria-label="Direkte link til 🧱 Builder- og blokrettelser" title="Direkte link til 🧱 Builder- og blokrettelser" translate="no">​</a></h3>
+<ul>
+<li class="">Rettet et problem, hvor hændelsen <strong>Hub-tilt ændret</strong> kunne blive udløst forkert på grund af sammenligning mellem heltal og decimaltal</li>
+<li class="">Rettet problemer med <strong>blok-tilknytning ved træk</strong>, som påvirkede <strong>C-blokke</strong> og andre bloktyper</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-opdatering-af-styrekalibrering">⚙️ Opdatering af styrekalibrering<a href="https://onemanstudio-il.github.io/mocpilot-app/dk/blog/2026/05/02/post#%EF%B8%8F-opdatering-af-styrekalibrering" class="hash-link" aria-label="Direkte link til ⚙️ Opdatering af styrekalibrering" title="Direkte link til ⚙️ Opdatering af styrekalibrering" translate="no">​</a></h3>
+<ul>
+<li class="">Blokken <strong>Kalibrér styretøjsstang</strong> er blevet omarbejdet</li>
+<li class="">Blokken nulstiller nu den <strong>relative position til <code>0</code></strong>, når kalibreringen er færdig</li>
+<li class="">Hastigheden i kalibreringsalgoritmen er ændret til <strong>100</strong></li>
+</ul>
+<hr>
+<p>Opdater til <strong>2026.3.2</strong> for mere smidig blokbygning, forbedret udseende af dashboard-controllere og mere pålidelig styrekalibrering.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Udgivelse af MOCPilot 2026.3.1]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/dk/blog/2026/04/18/post</link>

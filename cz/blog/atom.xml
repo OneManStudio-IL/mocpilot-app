@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-04-18T00:00:00.000Z</updated>
+    <updated>2026-05-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/cz/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Vydání MOCPilot 2026.3.2]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2026/05/02/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2026/05/02/post"/>
+        <updated>2026-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.3.2 — Ikony Ovladačů Dashboardu a Opravy Builderu]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202632--ikony-ovladačů-dashboardu-a-opravy-builderu">🚀 MOCPilot 2026.3.2 — Ikony Ovladačů Dashboardu a Opravy Builderu<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/05/02/post#-mocpilot-202632--ikony-ovlada%C4%8D%C5%AF-dashboardu-a-opravy-builderu" class="hash-link" aria-label="Přímý odkaz na 🚀 MOCPilot 2026.3.2 — Ikony Ovladačů Dashboardu a Opravy Builderu" title="Přímý odkaz na 🚀 MOCPilot 2026.3.2 — Ikony Ovladačů Dashboardu a Opravy Builderu" translate="no">​</a></h2>
+<p>S radostí oznamujeme vydání <strong>MOCPilot 2026.3.2</strong>, dostupného pro <strong>Android</strong>, <strong>iOS</strong> a <strong>macOS</strong>.</p>
+<p>Tato aktualizace vylepšuje vzhled ovladačů dashboardu, opravuje několik problémů s interakcí v builderu a zpřesňuje chování kalibrace hřebenu řízení.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-co-je-nového-v-202632">✨ Co je nového v 2026.3.2?<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/05/02/post#-co-je-nov%C3%A9ho-v-202632" class="hash-link" aria-label="Přímý odkaz na ✨ Co je nového v 2026.3.2?" title="Přímý odkaz na ✨ Co je nového v 2026.3.2?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-vylepšení-ovladačů-dashboardu">🎛 Vylepšení Ovladačů Dashboardu<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/05/02/post#-vylep%C5%A1en%C3%AD-ovlada%C4%8D%C5%AF-dashboardu" class="hash-link" aria-label="Přímý odkaz na 🎛 Vylepšení Ovladačů Dashboardu" title="Přímý odkaz na 🎛 Vylepšení Ovladačů Dashboardu" translate="no">​</a></h3>
+<ul>
+<li class="">Přidány <strong>nové ikony</strong> pro ovladače dashboardu</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-opravy-builderu-a-bloků">🧱 Opravy Builderu a Bloků<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/05/02/post#-opravy-builderu-a-blok%C5%AF" class="hash-link" aria-label="Přímý odkaz na 🧱 Opravy Builderu a Bloků" title="Přímý odkaz na 🧱 Opravy Builderu a Bloků" translate="no">​</a></h3>
+<ul>
+<li class="">Opraven problém, kdy se událost <strong>Změna náklonu hubu</strong> mohla spouštět nesprávně kvůli porovnávání celočíselných a desetinných hodnot</li>
+<li class="">Opraveny problémy s <strong>připojováním bloků při přetahování</strong>, které ovlivňovaly <strong>C bloky</strong> a další typy bloků</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-aktualizace-kalibrace-řízení">⚙️ Aktualizace Kalibrace Řízení<a href="https://onemanstudio-il.github.io/mocpilot-app/cz/blog/2026/05/02/post#%EF%B8%8F-aktualizace-kalibrace-%C5%99%C3%ADzen%C3%AD" class="hash-link" aria-label="Přímý odkaz na ⚙️ Aktualizace Kalibrace Řízení" title="Přímý odkaz na ⚙️ Aktualizace Kalibrace Řízení" translate="no">​</a></h3>
+<ul>
+<li class="">Blok <strong>Kalibrovat hřeben řízení</strong> byl přepracován</li>
+<li class="">Po dokončení kalibrace nyní blok resetuje <strong>relativní pozici na <code>0</code></strong></li>
+<li class="">Rychlost kalibračního algoritmu byla změněna na <strong>100</strong></li>
+</ul>
+<hr>
+<p>Aktualizujte na <strong>2026.3.2</strong> a získejte plynulejší skládání bloků, lepší vzhled ovladačů dashboardu a spolehlivější kalibraci řízení.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Vydání MOCPilot 2026.3.1]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/cz/blog/2026/04/18/post</id>

@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-04-18T00:00:00.000Z</updated>
+    <updated>2026-05-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/fi/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/fi/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[MOCPilot 2026.3.2 julkaisu]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/05/02/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/05/02/post"/>
+        <updated>2026-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.3.2 — Ohjauspaneelin Ohjainten Kuvakkeet ja Builder-korjaukset]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202632--ohjauspaneelin-ohjainten-kuvakkeet-ja-builder-korjaukset">🚀 MOCPilot 2026.3.2 — Ohjauspaneelin Ohjainten Kuvakkeet ja Builder-korjaukset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/05/02/post#-mocpilot-202632--ohjauspaneelin-ohjainten-kuvakkeet-ja-builder-korjaukset" class="hash-link" aria-label="Suora linkki kohtaan 🚀 MOCPilot 2026.3.2 — Ohjauspaneelin Ohjainten Kuvakkeet ja Builder-korjaukset" title="Suora linkki kohtaan 🚀 MOCPilot 2026.3.2 — Ohjauspaneelin Ohjainten Kuvakkeet ja Builder-korjaukset" translate="no">​</a></h2>
+<p>Julkaisemme ilolla <strong>MOCPilot 2026.3.2</strong> -version, joka on saatavilla <strong>Androidille</strong>, <strong>iOS<!-- -->:lle</strong> ja <strong>macOS<!-- -->:lle</strong>.</p>
+<p>Tämä päivitys parantaa ohjauspaneelin ohjainten ulkoasua, korjaa useita builderin vuorovaikutusongelmia ja viimeistelee ohjaushammastangon kalibroinnin toimintaa.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mitä-uutta-versiossa-202632">✨ Mitä uutta versiossa 2026.3.2?<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/05/02/post#-mit%C3%A4-uutta-versiossa-202632" class="hash-link" aria-label="Suora linkki kohtaan ✨ Mitä uutta versiossa 2026.3.2?" title="Suora linkki kohtaan ✨ Mitä uutta versiossa 2026.3.2?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ohjauspaneelin-ohjainten-parannukset">🎛 Ohjauspaneelin Ohjainten Parannukset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/05/02/post#-ohjauspaneelin-ohjainten-parannukset" class="hash-link" aria-label="Suora linkki kohtaan 🎛 Ohjauspaneelin Ohjainten Parannukset" title="Suora linkki kohtaan 🎛 Ohjauspaneelin Ohjainten Parannukset" translate="no">​</a></h3>
+<ul>
+<li class="">Lisätty <strong>uudet kuvakkeet</strong> ohjauspaneelin ohjaimille</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-builder--ja-lohkokorjaukset">🧱 Builder- ja lohkokorjaukset<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/05/02/post#-builder--ja-lohkokorjaukset" class="hash-link" aria-label="Suora linkki kohtaan 🧱 Builder- ja lohkokorjaukset" title="Suora linkki kohtaan 🧱 Builder- ja lohkokorjaukset" translate="no">​</a></h3>
+<ul>
+<li class="">Korjattu ongelma, jossa <strong>Hubin kallistus muuttui</strong> -tapahtuma saattoi laueta väärin kokonais- ja liukulukuarvojen vertailun vuoksi</li>
+<li class="">Korjattu <strong>lohkojen vedä ja kiinnitä</strong> -ongelmia, jotka vaikuttivat <strong>C-lohkoihin</strong> ja muihin lohkotyyppeihin</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-päivitys-ohjauksen-kalibrointiin">⚙️ Päivitys ohjauksen kalibrointiin<a href="https://onemanstudio-il.github.io/mocpilot-app/fi/blog/2026/05/02/post#%EF%B8%8F-p%C3%A4ivitys-ohjauksen-kalibrointiin" class="hash-link" aria-label="Suora linkki kohtaan ⚙️ Päivitys ohjauksen kalibrointiin" title="Suora linkki kohtaan ⚙️ Päivitys ohjauksen kalibrointiin" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Kalibroi ohjaustanko</strong> -lohko on uudistettu</li>
+<li class="">Lohko nollaa nyt <strong>suhteellisen sijainnin arvoon <code>0</code></strong>, kun kalibrointi valmistuu</li>
+<li class="">Kalibrointialgoritmin nopeus on päivitetty arvoon <strong>100</strong></li>
+</ul>
+<hr>
+<p>Päivitä versioon <strong>2026.3.2</strong>, niin saat sujuvamman lohkojen rakentamisen, paremman ulkoasun ohjauspaneelin ohjaimille ja luotettavamman ohjauksen kalibroinnin.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[MOCPilot 2026.3.1 -julkaisu]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/fi/blog/2026/04/18/post</id>

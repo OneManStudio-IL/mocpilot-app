@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/pl/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-04-18T00:00:00.000Z</updated>
+    <updated>2026-05-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/pl/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/pl/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Wydanie MOCPilot 2026.3.2]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/pl/blog/2026/05/02/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/pl/blog/2026/05/02/post"/>
+        <updated>2026-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.3.2 — Ikony Kontrolerów Pulpitu i Poprawki Buildera]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202632--ikony-kontrolerów-pulpitu-i-poprawki-buildera">🚀 MOCPilot 2026.3.2 — Ikony Kontrolerów Pulpitu i Poprawki Buildera<a href="https://onemanstudio-il.github.io/mocpilot-app/pl/blog/2026/05/02/post#-mocpilot-202632--ikony-kontroler%C3%B3w-pulpitu-i-poprawki-buildera" class="hash-link" aria-label="Bezpośredni link do 🚀 MOCPilot 2026.3.2 — Ikony Kontrolerów Pulpitu i Poprawki Buildera" title="Bezpośredni link do 🚀 MOCPilot 2026.3.2 — Ikony Kontrolerów Pulpitu i Poprawki Buildera" translate="no">​</a></h2>
+<p>Z przyjemnością ogłaszamy wydanie <strong>MOCPilot 2026.3.2</strong>, dostępne na <strong>Androidzie</strong>, <strong>iOS</strong> i <strong>macOS</strong>.</p>
+<p>Ta aktualizacja poprawia wygląd kontrolerów pulpitu, naprawia kilka problemów z interakcją w builderze i dopracowuje działanie kalibracji przekładni kierowniczej.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-co-nowego-w-202632">✨ Co nowego w 2026.3.2?<a href="https://onemanstudio-il.github.io/mocpilot-app/pl/blog/2026/05/02/post#-co-nowego-w-202632" class="hash-link" aria-label="Bezpośredni link do ✨ Co nowego w 2026.3.2?" title="Bezpośredni link do ✨ Co nowego w 2026.3.2?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-ulepszenia-kontrolerów-pulpitu">🎛 Ulepszenia Kontrolerów Pulpitu<a href="https://onemanstudio-il.github.io/mocpilot-app/pl/blog/2026/05/02/post#-ulepszenia-kontroler%C3%B3w-pulpitu" class="hash-link" aria-label="Bezpośredni link do 🎛 Ulepszenia Kontrolerów Pulpitu" title="Bezpośredni link do 🎛 Ulepszenia Kontrolerów Pulpitu" translate="no">​</a></h3>
+<ul>
+<li class="">Dodano <strong>nowe ikony</strong> dla kontrolerów pulpitu</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-poprawki-buildera-i-bloków">🧱 Poprawki Buildera i Bloków<a href="https://onemanstudio-il.github.io/mocpilot-app/pl/blog/2026/05/02/post#-poprawki-buildera-i-blok%C3%B3w" class="hash-link" aria-label="Bezpośredni link do 🧱 Poprawki Buildera i Bloków" title="Bezpośredni link do 🧱 Poprawki Buildera i Bloków" translate="no">​</a></h3>
+<ul>
+<li class="">Naprawiono problem, przez który zdarzenie <strong>Zmiana nachylenia huba</strong> mogło wyzwalać się nieprawidłowo z powodu porównywania wartości całkowitych i zmiennoprzecinkowych</li>
+<li class="">Naprawiono problemy z <strong>dołączaniem bloków podczas przeciągania</strong>, które dotyczyły <strong>bloków C</strong> i innych typów bloków</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-aktualizacja-kalibracji-kierowania">⚙️ Aktualizacja Kalibracji Kierowania<a href="https://onemanstudio-il.github.io/mocpilot-app/pl/blog/2026/05/02/post#%EF%B8%8F-aktualizacja-kalibracji-kierowania" class="hash-link" aria-label="Bezpośredni link do ⚙️ Aktualizacja Kalibracji Kierowania" title="Bezpośredni link do ⚙️ Aktualizacja Kalibracji Kierowania" translate="no">​</a></h3>
+<ul>
+<li class="">Przebudowano blok <strong>Kalibruj przekładnię kierowniczą</strong></li>
+<li class="">Blok po zakończeniu kalibracji resetuje teraz <strong>pozycję względną do <code>0</code></strong></li>
+<li class="">Prędkość algorytmu kalibracji została zmieniona na <strong>100</strong></li>
+</ul>
+<hr>
+<p>Zaktualizuj do <strong>2026.3.2</strong>, aby korzystać z płynniejszego budowania bloków, lepszego wyglądu kontrolerów pulpitu i bardziej niezawodnej kalibracji układu kierowniczego.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Wydanie MOCPilot 2026.3.1]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/pl/blog/2026/04/18/post</id>

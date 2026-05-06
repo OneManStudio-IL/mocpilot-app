@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-04-18T00:00:00.000Z</updated>
+    <updated>2026-05-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/uk/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/uk/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Реліз MOCPilot 2026.3.2]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog/2026/05/02/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/uk/blog/2026/05/02/post"/>
+        <updated>2026-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.3.2 — Нові іконки Екранних Контролерів та виправлення Builder]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202632--нові-іконки-екранних-контролерів-та-виправлення-builder">🚀 MOCPilot 2026.3.2 — Нові іконки Екранних Контролерів та виправлення Builder<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/05/02/post#-mocpilot-202632--%D0%BD%D0%BE%D0%B2%D1%96-%D1%96%D0%BA%D0%BE%D0%BD%D0%BA%D0%B8-%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%BD%D0%B8%D1%85-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%B5%D1%80%D1%96%D0%B2-%D1%82%D0%B0-%D0%B2%D0%B8%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-builder" class="hash-link" aria-label="Пряме посилання на 🚀 MOCPilot 2026.3.2 — Нові іконки Екранних Контролерів та виправлення Builder" title="Пряме посилання на 🚀 MOCPilot 2026.3.2 — Нові іконки Екранних Контролерів та виправлення Builder" translate="no">​</a></h2>
+<p>Ми раді оголосити про випуск <strong>MOCPilot 2026.3.2</strong>, доступного на <strong>Android</strong>, <strong>iOS</strong> та <strong>macOS</strong>.</p>
+<p>Це оновлення покращує вигляд екранних контролерів, виправляє кілька проблем взаємодії в builder та доопрацьовує поведінку калібрування рульової рейки.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-що-нового-в-202632">✨ Що нового в 2026.3.2?<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/05/02/post#-%D1%89%D0%BE-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%B2-202632" class="hash-link" aria-label="Пряме посилання на ✨ Що нового в 2026.3.2?" title="Пряме посилання на ✨ Що нового в 2026.3.2?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-покращення-екранних-контролерів">🎛 Покращення Екранних Контролерів<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/05/02/post#-%D0%BF%D0%BE%D0%BA%D1%80%D0%B0%D1%89%D0%B5%D0%BD%D0%BD%D1%8F-%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%BD%D0%B8%D1%85-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D0%B5%D1%80%D1%96%D0%B2" class="hash-link" aria-label="Пряме посилання на 🎛 Покращення Екранних Контролерів" title="Пряме посилання на 🎛 Покращення Екранних Контролерів" translate="no">​</a></h3>
+<ul>
+<li class="">Додано <strong>нові іконки</strong> для екранних контролерів</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-виправлення-builder-і-блоків">🧱 Виправлення Builder і Блоків<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/05/02/post#-%D0%B2%D0%B8%D0%BF%D1%80%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-builder-%D1%96-%D0%B1%D0%BB%D0%BE%D0%BA%D1%96%D0%B2" class="hash-link" aria-label="Пряме посилання на 🧱 Виправлення Builder і Блоків" title="Пряме посилання на 🧱 Виправлення Builder і Блоків" translate="no">​</a></h3>
+<ul>
+<li class="">Виправлено проблему, через яку подія <strong>Зміна нахилу хаба</strong> могла спрацьовувати неправильно через порівняння цілих і дробових значень</li>
+<li class="">Виправлено проблеми з <strong>приєднанням блоків під час перетягування</strong>, які впливали на <strong>C-блоки</strong> та інші типи блоків</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-оновлення-калібрування-кермового-керування">⚙️ Оновлення Калібрування Кермового Керування<a href="https://onemanstudio-il.github.io/mocpilot-app/uk/blog/2026/05/02/post#%EF%B8%8F-%D0%BE%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D0%BA%D0%B0%D0%BB%D1%96%D0%B1%D1%80%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F-%D0%BA%D0%B5%D1%80%D0%BC%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE-%D0%BA%D0%B5%D1%80%D1%83%D0%B2%D0%B0%D0%BD%D0%BD%D1%8F" class="hash-link" aria-label="Пряме посилання на ⚙️ Оновлення Калібрування Кермового Керування" title="Пряме посилання на ⚙️ Оновлення Калібрування Кермового Керування" translate="no">​</a></h3>
+<ul>
+<li class="">Перероблено блок <strong>Калібрувати рульову рейку</strong></li>
+<li class="">Тепер блок скидає <strong>відносну позицію до <code>0</code></strong> після завершення калібрування</li>
+<li class="">Швидкість алгоритму калібрування оновлено до <strong>100</strong></li>
+</ul>
+<hr>
+<p>Оновіться до <strong>2026.3.2</strong>, щоб отримати плавніше складання блоків, кращий вигляд екранних контролерів і надійніше калібрування кермового керування.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Реліз MOCPilot 2026.3.1]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/uk/blog/2026/04/18/post</id>

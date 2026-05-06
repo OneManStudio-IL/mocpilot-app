@@ -4,10 +4,40 @@
         <title>MOCPilot Blog</title>
         <link>https://OneManStudio-IL.github.io/mocpilot-app/sk/blog</link>
         <description>MOCPilot Blog</description>
-        <lastBuildDate>Sat, 18 Apr 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 May 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>sk</language>
+        <item>
+            <title><![CDATA[Vydanie MOCPilot 2026.3.2]]></title>
+            <link>https://OneManStudio-IL.github.io/mocpilot-app/sk/blog/2026/05/02/post</link>
+            <guid>https://OneManStudio-IL.github.io/mocpilot-app/sk/blog/2026/05/02/post</guid>
+            <pubDate>Sat, 02 May 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[🚀 MOCPilot 2026.3.2 — Ikony Ovládacieho Panela a Opravy Buildera]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202632--ikony-ovládacieho-panela-a-opravy-buildera">🚀 MOCPilot 2026.3.2 — Ikony Ovládacieho Panela a Opravy Buildera<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/05/02/post#-mocpilot-202632--ikony-ovl%C3%A1dacieho-panela-a-opravy-buildera" class="hash-link" aria-label="Priamy odkaz na 🚀 MOCPilot 2026.3.2 — Ikony Ovládacieho Panela a Opravy Buildera" title="Priamy odkaz na 🚀 MOCPilot 2026.3.2 — Ikony Ovládacieho Panela a Opravy Buildera" translate="no">​</a></h2>
+<p>S radosťou oznamujeme vydanie <strong>MOCPilot 2026.3.2</strong>, dostupného pre <strong>Android</strong>, <strong>iOS</strong> a <strong>macOS</strong>.</p>
+<p>Táto aktualizácia zlepšuje vzhľad ovládačov ovládacieho panela, opravuje niekoľko problémov s interakciou v builderi a vylepšuje správanie kalibrácie hrebeňa riadenia.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-čo-je-nové-v-202632">✨ Čo je nové v 2026.3.2?<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/05/02/post#-%C4%8Do-je-nov%C3%A9-v-202632" class="hash-link" aria-label="Priamy odkaz na ✨ Čo je nové v 2026.3.2?" title="Priamy odkaz na ✨ Čo je nové v 2026.3.2?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-vylepšenia-ovládacieho-panela">🎛 Vylepšenia Ovládacieho Panela<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/05/02/post#-vylep%C5%A1enia-ovl%C3%A1dacieho-panela" class="hash-link" aria-label="Priamy odkaz na 🎛 Vylepšenia Ovládacieho Panela" title="Priamy odkaz na 🎛 Vylepšenia Ovládacieho Panela" translate="no">​</a></h3>
+<ul>
+<li class="">Pridané <strong>nové ikony</strong> pre ovládače ovládacieho panela</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-opravy-buildera-a-blokov">🧱 Opravy Buildera a Blokov<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/05/02/post#-opravy-buildera-a-blokov" class="hash-link" aria-label="Priamy odkaz na 🧱 Opravy Buildera a Blokov" title="Priamy odkaz na 🧱 Opravy Buildera a Blokov" translate="no">​</a></h3>
+<ul>
+<li class="">Opravený problém, pri ktorom sa udalosť <strong>Zmena náklonu</strong> mohla spúšťať nesprávne kvôli porovnávaniu celočíselných a desatinných hodnôt</li>
+<li class="">Opravené problémy s <strong>pripájaním blokov pri ťahaní</strong>, ktoré ovplyvňovali <strong>C bloky</strong> a ďalšie typy blokov</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-aktualizácia-kalibrácie-riadenia">⚙️ Aktualizácia Kalibrácie Riadenia<a href="https://onemanstudio-il.github.io/mocpilot-app/sk/blog/2026/05/02/post#%EF%B8%8F-aktualiz%C3%A1cia-kalibr%C3%A1cie-riadenia" class="hash-link" aria-label="Priamy odkaz na ⚙️ Aktualizácia Kalibrácie Riadenia" title="Priamy odkaz na ⚙️ Aktualizácia Kalibrácie Riadenia" translate="no">​</a></h3>
+<ul>
+<li class="">Blok <strong>Kalibruj riadiacu tyč</strong> bol prepracovaný</li>
+<li class="">Blok teraz po dokončení kalibrácie resetuje <strong>relatívnu pozíciu na <code>0</code></strong></li>
+<li class="">Rýchlosť kalibračného algoritmu bola aktualizovaná na <strong>100</strong></li>
+</ul>
+<hr>
+<p>Aktualizujte na <strong>2026.3.2</strong> pre plynulejšie skladanie blokov, lepší vzhľad ovládačov ovládacieho panela a spoľahlivejšiu kalibráciu riadenia.</p>]]></content:encoded>
+            <category>Dev</category>
+        </item>
         <item>
             <title><![CDATA[Vydanie MOCPilot 2026.3.1]]></title>
             <link>https://OneManStudio-IL.github.io/mocpilot-app/sk/blog/2026/04/18/post</link>

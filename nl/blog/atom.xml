@@ -2,11 +2,45 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog</id>
     <title>MOCPilot Blog</title>
-    <updated>2026-04-18T00:00:00.000Z</updated>
+    <updated>2026-05-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://OneManStudio-IL.github.io/mocpilot-app/nl/blog"/>
     <subtitle>MOCPilot Blog</subtitle>
     <icon>https://OneManStudio-IL.github.io/mocpilot-app/nl/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Release MOCPilot 2026.3.2]]></title>
+        <id>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2026/05/02/post</id>
+        <link href="https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2026/05/02/post"/>
+        <updated>2026-05-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[🚀 MOCPilot 2026.3.2 — Dashboardcontroller-iconen en Builder-fixes]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-mocpilot-202632--dashboardcontroller-iconen-en-builder-fixes">🚀 MOCPilot 2026.3.2 — Dashboardcontroller-iconen en Builder-fixes<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/05/02/post#-mocpilot-202632--dashboardcontroller-iconen-en-builder-fixes" class="hash-link" aria-label="Directe link naar 🚀 MOCPilot 2026.3.2 — Dashboardcontroller-iconen en Builder-fixes" title="Directe link naar 🚀 MOCPilot 2026.3.2 — Dashboardcontroller-iconen en Builder-fixes" translate="no">​</a></h2>
+<p>We zijn blij de release van <strong>MOCPilot 2026.3.2</strong> aan te kondigen, beschikbaar op <strong>Android</strong>, <strong>iOS</strong> en <strong>macOS</strong>.</p>
+<p>Deze update verbetert de weergave van dashboardcontrollers, lost verschillende interactieproblemen in de builder op en verfijnt het kalibratiegedrag van het stuurrek.</p>
+<hr>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="-wat-is-er-nieuw-in-202632">✨ Wat is er nieuw in 2026.3.2?<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/05/02/post#-wat-is-er-nieuw-in-202632" class="hash-link" aria-label="Directe link naar ✨ Wat is er nieuw in 2026.3.2?" title="Directe link naar ✨ Wat is er nieuw in 2026.3.2?" translate="no">​</a></h2>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-verbeteringen-voor-dashboardcontrollers">🎛 Verbeteringen voor Dashboardcontrollers<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/05/02/post#-verbeteringen-voor-dashboardcontrollers" class="hash-link" aria-label="Directe link naar 🎛 Verbeteringen voor Dashboardcontrollers" title="Directe link naar 🎛 Verbeteringen voor Dashboardcontrollers" translate="no">​</a></h3>
+<ul>
+<li class=""><strong>Nieuwe iconen</strong> toegevoegd voor dashboardcontrollers</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="-builder--en-blokfixes">🧱 Builder- en blokfixes<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/05/02/post#-builder--en-blokfixes" class="hash-link" aria-label="Directe link naar 🧱 Builder- en blokfixes" title="Directe link naar 🧱 Builder- en blokfixes" translate="no">​</a></h3>
+<ul>
+<li class="">Een probleem opgelost waarbij de gebeurtenis <strong>Hubkanteling gewijzigd</strong> verkeerd kon afgaan door een vergelijking tussen gehele en decimale waarden</li>
+<li class="">Problemen opgelost met het <strong>vastmaken van blokken tijdens slepen</strong>, die <strong>C-blokken</strong> en andere bloktypes beïnvloedden</li>
+</ul>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="️-update-voor-stuurkalibratie">⚙️ Update voor stuurkalibratie<a href="https://onemanstudio-il.github.io/mocpilot-app/nl/blog/2026/05/02/post#%EF%B8%8F-update-voor-stuurkalibratie" class="hash-link" aria-label="Directe link naar ⚙️ Update voor stuurkalibratie" title="Directe link naar ⚙️ Update voor stuurkalibratie" translate="no">​</a></h3>
+<ul>
+<li class="">Het blok <strong>Kalibreer stuurmechanisme</strong> is herwerkt</li>
+<li class="">Het blok zet nu de <strong>relatieve positie terug naar <code>0</code></strong> wanneer de kalibratie is voltooid</li>
+<li class="">De snelheid van het kalibratie-algoritme is bijgewerkt naar <strong>100</strong></li>
+</ul>
+<hr>
+<p>Werk bij naar <strong>2026.3.2</strong> voor soepeler bouwen met blokken, een verbeterde weergave van dashboardcontrollers en betrouwbaardere stuurkalibratie.</p>]]></content>
+        <author>
+            <name>Maxim</name>
+            <uri>https://github.com/llOzzeell</uri>
+        </author>
+        <category label="Dev" term="Dev"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Release MOCPilot 2026.3.1]]></title>
         <id>https://OneManStudio-IL.github.io/mocpilot-app/nl/blog/2026/04/18/post</id>
