@@ -85,8 +85,11 @@ const config = {
     navbar: {
       title: 'MOCPILOT',
       logo: {
-        alt: 'logo',
+        alt: 'MOCPilot',
         src: 'img/logo.svg',
+        // The logo leads to the product website, which replaced the old landing page
+        href: 'https://mocpilot.com',
+        target: '_self',
       },
       items: [
         {
