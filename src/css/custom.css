@@ -72,3 +72,8 @@ html[data-theme="dark"] {
 .navbar__title {
   font-family: 'JostBlackItalic', sans-serif;
 }
+
+/* The color mode toggle is removed: the theme follows the system, or the mode passed from mocpilot.com */
+[class*='colorModeToggle'] {
+  display: none !important;
+}

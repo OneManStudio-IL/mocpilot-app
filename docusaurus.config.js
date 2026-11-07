@@ -22,6 +22,11 @@ const config = {
   projectName: sProjectName,
   deploymentBranch: 'gh-pages',
 
+  // New storage namespace: theme choices saved by the removed color mode toggle are ignored
+  future: {
+    experimental_storage: { type: 'localStorage', namespace: 'docs2026' },
+  },
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -78,9 +83,13 @@ const config = {
 
   themeConfig: {
     image: 'img/docusaurus-social-card.jpg',
+    // No toggle on the docs site (hidden in custom.css): direct visits follow the system color mode,
+    // links from mocpilot.com pass the site's mode with ?docusaurus-theme=light|dark (not persisted).
+    // disableSwitch stays false, otherwise Docusaurus ignores the ?docusaurus-theme parameter.
     colorMode: {
       defaultMode: 'dark',
       respectPrefersColorScheme: true,
+      disableSwitch: false,
     },
     navbar: {
       title: 'MOCPILOT',
@@ -98,46 +107,13 @@ const config = {
           position: 'left',
           label: 'Documentation',
         },
-        { to: '/blog', label: 'News', position: 'left' },
         { type: 'localeDropdown', position: 'right' },
       ],
     },
+    // Documentation only: news, legal pages and community links live on https://mocpilot.com
     footer: {
       style: 'light',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            { label: 'Documentation', to: '/docs/Introducing/AboutApp' },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            { label: 'Telegram', href: 'https://t.me/mocpilotchat' },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            { label: 'News', to: '/blog' },
-          ],
-        },
-        {
-          title: 'Legal',
-          items: [
-            { label: 'Privacy policy', href: '/docs/Legal/PrivacyPolicy' },
-            { label: 'Terms', href: '/docs/Legal/Terms' },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} MOCPilot, Inc.`,
-      logo: {
-        alt: 'logo',
-        src: 'img/logo-colored.svg',
-        width: 160,
-        height: 51,
-      },
+      copyright: `© ${new Date().getFullYear()} MOCPilot · <a href="https://mocpilot.com">mocpilot.com</a>`,
     },
     algolia: {
       appId: "AJXYEODYB6",
