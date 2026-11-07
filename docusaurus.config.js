@@ -2,11 +2,11 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 
-const isDeploy = process.env.GITHUB_ACTIONS === 'true';
 const sProjectName = "mocpilot-app";
 
-// Automatically switch baseUrl depend on running environment
-const sBaseUrl = isDeploy ? `/${sProjectName}/` : '/';
+// Hosted on our own server at https://doc.mocpilot.com (root path), both locally and in CI.
+// The app opens https://doc.mocpilot.com/?lang=..&path=.. — the server redirects it to /<locale>/docs/<path>.
+const sBaseUrl = '/';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -15,7 +15,7 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Public domain
-  url: 'https://OneManStudio-IL.github.io',
+  url: 'https://doc.mocpilot.com',
   baseUrl: sBaseUrl,
 
   organizationName: 'OneManStudio-IL',

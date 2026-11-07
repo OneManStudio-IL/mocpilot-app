@@ -1,12 +1,14 @@
-name: Deploy to GitHub Pages
+name: Deploy documentation to doc.mocpilot.com
 
 on:
   push:
     branches:
       - main
+  workflow_dispatch:
 
-permissions:
-  contents: write
+concurrency:
+  group: docs-deploy
+  cancel-in-progress: true
 
 jobs:
   deploy:
@@ -17,19 +19,29 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: npm
 
       - name: Install Dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build Project
         run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: build
-          token: ${{ secrets.GITHUB_TOKEN }}
+      # Upload to the MOCPilot VDS. The key can only rsync into /srv/mocpilot-docs (rrsync, no shell).
+      # Repository secrets: DOCS_DEPLOY_KEY (private key), DOCS_DEPLOY_KNOWN_HOSTS (server host key line).
+      - name: Upload to server
+        env:
+          DEPLOY_KEY: ${{ secrets.DOCS_DEPLOY_KEY }}
+          KNOWN_HOSTS: ${{ secrets.DOCS_DEPLOY_KNOWN_HOSTS }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$DEPLOY_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          printf '%s\n' "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+          # Files first, HTML last: a page is published only when the assets it references are in place
+          RSYNC_SSH="ssh -i ~/.ssh/deploy_key -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes"
+          rsync -rlz --checksum --exclude '*.html' -e "$RSYNC_SSH" build/ docsdeploy@91.90.81.12:/
+          rsync -rlz --checksum --delete -e "$RSYNC_SSH" build/ docsdeploy@91.90.81.12:/
