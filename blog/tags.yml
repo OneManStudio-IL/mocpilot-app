@@ -1,9 +1,0 @@
-dev:
-  label: Dev
-  permalink: /dev
-  description: Development news
-
-test:
-  label: Test
-  permalink: /test
-  description: Testing news
