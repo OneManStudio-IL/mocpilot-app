@@ -67,13 +67,8 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-        },
+        // News moved to https://mocpilot.com/news
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
