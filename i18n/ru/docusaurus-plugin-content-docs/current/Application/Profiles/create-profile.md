@@ -69,5 +69,5 @@ import Screenshot from '@site/src/components/Screenshot';
 3. Напишите программу: [Быстрые связи](/docs/Application/Links/LinksIntroducing) или [Логические блоки](/docs/Application/BlockBuilder/Blocks/BlocksIntroducing).
 
 :::tip ИИ-конструктор
-С [MocPilot Pro](/docs/Application/Account/Pro) можно описать модель словами или голосом, и ИИ-конструктор сам создаст хабы, панель управления и блочную программу. См. [ИИ-конструктор](/docs/Application/BlockBuilder/Editor#ai-builder).
+С [MocPilot Pro](/docs/Application/Account/Pro) можно описать модель словами или голосом, и ИИ-конструктор сам создаст хабы, панель управления и блочную программу. Укажите, какой у вас хаб, что подключено к каждому порту и что оно должно делать. См. [Как получить хороший результат](/docs/Application/BlockBuilder/Editor#ai-builder-tips).
 :::

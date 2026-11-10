@@ -70,10 +70,25 @@ The level is stored per profile. Blocks already in the program keep working when
 
 With [MocPilot Pro](/docs/Application/Account/Pro), the **AI builder** (sparkle button, ⇧⌘I / Ctrl+Shift+I) builds a profile from a description in words or by voice: the hubs, the dashboard and the block program.
 
-- Describe the model: "A car with two drive motors and a steering servo, joystick on the left, throttle on the right, lights on a button".
-- Then change it in a dialogue: "Make the steering slower", "add a stop button", "duplicate it on my gamepad".
+- Describe the model, naming the hub and the ports: "A car with a Technic Hub: the drive motor is on port A, the steering motor on port C works as a servo, the lights are on port D. Steering joystick on the left, throttle on the right, a button that switches the lights."
+- Then refine it in the dialogue: "Make the steering slower", "add a stop button", "duplicate it on my gamepad".
 - Every AI change can be undone with **Undo the last AI change**, and you can keep editing the blocks yourself.
 - **Dictate** uses voice input (on Windows: Win+H).
+
+### How to get a good result {#ai-builder-tips}
+
+:::tip Say which hub you use, what is connected to each port and what it should do
+A one-line request like "a car with lights" is not enough: the AI has to guess the hub, the ports and what each motor does, and the result will probably need fixing. Include:
+
+- **The hub**: Technic Hub, City Hub, BOOST Move Hub, Robot Inventor, Technic Move Hub…
+- **What is on each port**: a drive motor, a steering motor (servo), lights, a sensor.
+- **What each one should do**: drive, steer with calibration, switch on and off, a speed limit.
+- **How you want to control it**: joysticks, sliders, buttons, a gamepad.
+:::
+
+Example: "A crane with a Technic Hub: the rotation motor is on port A, the boom motor on port B, the hook winch on port C. A slider for rotation, up/down buttons for the boom, a joystick for the hook, the boom speed limited to 50%."
+
+If something is still not right, say what to change in the dialogue instead of starting over.
 
 Limits: about 30 requests a day; profiles with several hubs, pedals or a steering wheel, BuWizz and SBrick are kept but not created by the AI. The AI builder only builds and edits profiles.
 

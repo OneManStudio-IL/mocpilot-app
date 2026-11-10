@@ -48,6 +48,9 @@ You can run it as it is. If you edit it, controls of themes you don't own switch
 ### Can I make my own themes?
 Not in the app. Themes are made by the MOCPilot team; you can configure controls and save your designs. See [Create controls from a theme](/docs/Application/Themes/CreatingControls).
 
+### What should I write in an AI builder request?
+Name the hub, say what is connected to each port (drive motor, steering motor, lights, sensor), what each one should do and how you want to control it. Without this the AI has to guess the ports and roles, and the result may need fixing. See [How to get a good result](/docs/Application/BlockBuilder/Editor#ai-builder-tips).
+
 ### Is MOCPilot made by LEGO?
 No. MOCPilot is an independent app. LEGO® is a trademark of the LEGO Group, which does not sponsor or endorse MOCPilot.
 

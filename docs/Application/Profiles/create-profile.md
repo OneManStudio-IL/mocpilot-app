@@ -69,5 +69,5 @@ All details except the program type can be changed later in **Edit profile**.
 3. Write the program: [Quick Links](/docs/Application/Links/LinksIntroducing) or [Logic Blocks](/docs/Application/BlockBuilder/Blocks/BlocksIntroducing).
 
 :::tip AI builder
-With [MocPilot Pro](/docs/Application/Account/Pro) you can describe your model in words or by voice and let the AI builder create the hubs, dashboard and block program. See [AI builder](/docs/Application/BlockBuilder/Editor#ai-builder).
+With [MocPilot Pro](/docs/Application/Account/Pro) you can describe your model in words or by voice and let the AI builder create the hubs, dashboard and block program. Say which hub you use, what is connected to each port and what it should do. See [How to get a good result](/docs/Application/BlockBuilder/Editor#ai-builder-tips).
 :::
