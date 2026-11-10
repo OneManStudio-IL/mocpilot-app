@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
@@ -7,11 +7,15 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 export default function Screenshot({ name, alt, width, single = false, caption }) {
   const light = useBaseUrl(`/img/app/${name}${single ? '' : '-light'}.png`);
   const dark = useBaseUrl(`/img/app/${name}${single ? '' : '-dark'}.png`);
+  // A picture that is not published yet is hidden instead of showing a broken image
+  const [missing, setMissing] = useState(false);
+  if (missing) return null;
   return (
     <figure style={{ margin: '24px 0', textAlign: 'center' }}>
       <ThemedImage
         alt={alt}
         sources={{ light, dark }}
+        onError={() => setMissing(true)}
         style={{ width: '100%', maxWidth: width ? `${width}px` : '100%', height: 'auto' }}
       />
       {caption && (
