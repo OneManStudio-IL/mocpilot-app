@@ -11,13 +11,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Основные командные блоки моторов
 
-### `Запустить мотор` (Начинающий) {#block_hubs_all_motors_port_start_motor}
+### `Запустить мотор` (Новичок) {#block_hubs_all_motors_port_start_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor.svg')} alt="block_hubs_all_motors_port_start_motor.svg" />
 Запускает выбранный мотор.
 
 - Варианты направления: по часовой стрелке / против часовой стрелки
 
-### `Остановить мотор` (Начинающий) {#block_hubs_all_motors_port_stop_motor}
+### `Остановить мотор` (Новичок) {#block_hubs_all_motors_port_stop_motor}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_stop_motor.svg')} alt="block_hubs_all_motors_port_stop_motor.svg" />
 Останавливает выбранный мотор.
 
@@ -29,7 +29,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варианты единиц: `обороты`, `градусы`, `секунды`
 - Примечание: эта функция требует мотор на выбранном порту с поддержкой энкодерного управления.
 
-### `Запустить мотор со скоростью` (Начинающий) {#block_hubs_all_motors_port_start_motor_at_speed}
+### `Запустить мотор со скоростью` (Новичок) {#block_hubs_all_motors_port_start_motor_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_start_motor_at_speed.svg')} alt="block_hubs_all_motors_port_start_motor_at_speed.svg" />
 Запускает мотор с явно указанной скоростью.
 
@@ -53,25 +53,25 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варианты пути: `кратчайший путь`, `по часовой стрелке`, `против часовой стрелки`
 - Примечание: эта функция требует мотор на выбранном порту с поддержкой энкодерного управления.
 
-### `Перейти к относительной позиции` (Начинающий) {#block_hubs_all_motors_port_go_to_relative_position}
+### `Перейти к относительной позиции` (Новичок) {#block_hubs_all_motors_port_go_to_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_go_to_relative_position.svg')} alt="block_hubs_all_motors_port_go_to_relative_position.svg" />
 Перемещает мотор на относительное смещение.
 
 - Примечание: эта функция требует мотор на выбранном порту с поддержкой энкодерного управления.
 
-### `BuWizz 3: перейти к относительной позиции` (Начинающий) {#block_hubs_buwizz3_motors_port_go_to_relative_position}
+### `BuWizz 3: перейти к относительной позиции` (Новичок) {#block_hubs_buwizz3_motors_port_go_to_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_motors_port_go_to_relative_position.svg')} alt="block_hubs_buwizz3_motors_port_go_to_relative_position.svg" />
 Вариант блока относительного позиционирования для BuWizz 3.
 
 - Примечание: эта функция требует мотор на выбранном порту с поддержкой энкодерного управления.
 
-### `Установить относительную позицию` (Начинающий) {#block_hubs_all_motors_port_set_relative_position}
+### `Установить относительную позицию` (Новичок) {#block_hubs_all_motors_port_set_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_set_relative_position.svg')} alt="block_hubs_all_motors_port_set_relative_position.svg" />
 Устанавливает опорное значение относительной позиции мотора.
 
 - Примечание: эта функция требует мотор на выбранном порту с поддержкой энкодерного управления.
 
-### `Калибровать рулевую рейку` (Начинающий) {#block_hubs_all_motors_port_calibrate_steering_rack}
+### `Калибровать рулевую рейку` (Новичок) {#block_hubs_all_motors_port_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_calibrate_steering_rack.svg')} alt="block_hubs_all_motors_port_calibrate_steering_rack.svg" />
 Калибрует нейтраль/референс рулевой рейки.
 
@@ -110,15 +110,15 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Репортер-блоки моторов
 
-### `Позиция` (Начинающий) {#block_hubs_all_motors_port_position}
+### `Позиция` (Новичок) {#block_hubs_all_motors_port_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_position.svg')} alt="block_hubs_all_motors_port_position.svg" />
 Возвращает текущую позицию мотора.
 
-### `Относительная позиция` (Начинающий) {#block_hubs_all_motors_port_relative_position}
+### `Относительная позиция` (Новичок) {#block_hubs_all_motors_port_relative_position}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_relative_position.svg')} alt="block_hubs_all_motors_port_relative_position.svg" />
 Возвращает текущее значение относительной позиции.
 
-### `Скорость` (Начинающий) {#block_hubs_all_motors_port_speed}
+### `Скорость` (Новичок) {#block_hubs_all_motors_port_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_all_motors_port_speed.svg')} alt="block_hubs_all_motors_port_speed.svg" />
 Возвращает текущую скорость мотора.
 
@@ -130,32 +130,32 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки моторов Technic Move
 
-### `Запустить моторы со скоростью` (Начинающий) {#block_hubs_technicmove_motors_start_motors_at_speed}
+### `Запустить моторы со скоростью` (Новичок) {#block_hubs_technicmove_motors_start_motors_at_speed}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_start_motors_at_speed.svg')} alt="block_hubs_technicmove_motors_start_motors_at_speed.svg" />
 Запускает приводные моторы Technic Move с выбранной скоростью.
 
-### `Импульс питания` (Начинающий) {#block_hubs_technicmove_motors_power_pulse}
+### `Импульс питания` (Новичок) {#block_hubs_technicmove_motors_power_pulse}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_power_pulse.svg')} alt="block_hubs_technicmove_motors_power_pulse.svg" />
 Отправляет команду импульса питания на выбранный Technic Move Hub.
 
 - Доступно только для Technic Move Hub.
 - Типичное использование: кратковременно усилить или разбудить приводную систему Technic Move перед продолжением следующих блоков.
 
-### `Остановить моторы` (Начинающий) {#block_hubs_technicmove_motors_stop_motors}
+### `Остановить моторы` (Новичок) {#block_hubs_technicmove_motors_stop_motors}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_stop_motors.svg')} alt="block_hubs_technicmove_motors_stop_motors.svg" />
 Останавливает приводные моторы Technic Move.
 
-### `Тормоз` (Начинающий) {#block_hubs_technicmove_motors_brake}
+### `Тормоз` (Новичок) {#block_hubs_technicmove_motors_brake}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_brake.svg')} alt="block_hubs_technicmove_motors_brake.svg" />
 Применяет режим торможения к моторам Technic Move.
 
 - Варианты торможения: `выкл`, `вкл`
 
-### `Установить рулевую рейку в` (Начинающий) {#block_hubs_technicmove_motors_set_steering_rack_to}
+### `Установить рулевую рейку в` (Новичок) {#block_hubs_technicmove_motors_set_steering_rack_to}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_set_steering_rack_to.svg')} alt="block_hubs_technicmove_motors_set_steering_rack_to.svg" />
 Устанавливает целевое значение рулевой рейки.
 
-### `Калибровать рулевую рейку` (Начинающий) {#block_hubs_technicmove_motors_calibrate_steering_rack}
+### `Калибровать рулевую рейку` (Новичок) {#block_hubs_technicmove_motors_calibrate_steering_rack}
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_motors_calibrate_steering_rack.svg')} alt="block_hubs_technicmove_motors_calibrate_steering_rack.svg" />
 Калибрует рулевую рейку Technic Move с использованием внутреннего алгоритма калибровки хаба и автоматического определения диапазона.
 

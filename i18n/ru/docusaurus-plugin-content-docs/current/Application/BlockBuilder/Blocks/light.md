@@ -7,33 +7,45 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # Свет
 
-Световые блоки управляют LED-подсветкой на поддерживаемых хабах и устройствах.
+На этой странице описаны блоки категории «Свет»: они управляют светодиодами и световыми выходами на поддерживаемых хабах.
 
 ## Общие световые блоки
 
-### `Установить цвет LED` (Начинающий) {#block_hubs_all_light_set_led_color}
+### `Установить цвет LED` (Новичок) {#block_hubs_all_light_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_set_led_color.svg')} alt="block_hubs_all_light_set_led_color.svg" />
 
 Устанавливает цвет LED хаба с помощью предустановленных цветов.
 
-### `Переключить свет на` (Начинающий) {#block_hubs_all_light_light_turn_to}
+- Тип: командный блок
+- Типичное применение: показать состояние (готов, работает, предупреждение, ошибка)
+
+### `Переключить свет на` (Новичок) {#block_hubs_all_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_to.svg')} alt="block_hubs_all_light_light_turn_to.svg" />
 
-Переключает свет в выбранное состояние/цвет.
+Устанавливает для выбранного светового выхода нужную яркость/значение.
 
-### `Выключить свет` (Начинающий) {#block_hubs_all_light_light_turn_off}
+- Тип: командный блок
+- Типичное применение: яркость фар, интенсивность индикации
+
+### `Выключить свет` (Новичок) {#block_hubs_all_light_light_turn_off}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_light_turn_off.svg')} alt="block_hubs_all_light_light_turn_off.svg" />
 
-Выключает свет.
+Выключает выбранный световой выход.
 
-### `Technic Move: переключить свет на` (Начинающий) {#block_hubs_technicmove_light_light_turn_to}
+- Тип: командный блок
+- Типичное применение: последовательность выключения, экономия батареи
+
+### `Technic Move: переключить свет на` (Новичок) {#block_hubs_technicmove_light_light_turn_to}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_technicmove_light_light_turn_to.svg')} alt="block_hubs_technicmove_light_light_turn_to.svg" />
 
-Устанавливает свет для Technic Move.
+Вариант блока `Переключить свет на` для хаба Technic Move.
+
+- Тип: командный блок
+- Типичное применение: задать уровень света хаба Move
 
 ## Блоки внутренней LED-матрицы
 
@@ -46,7 +58,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тип: командный блок
 - Примечание: выбранный хаб должен иметь внутреннюю LED-матрицу.
 
-### `Написать на световой матрице` (Начинающий) {#block_hubs_all_light_set_internal_led_matrix_text}
+### `Написать на световой матрице` (Новичок) {#block_hubs_all_light_set_internal_led_matrix_text}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_set_internal_led_matrix_text.svg')} alt="block_hubs_all_light_set_internal_led_matrix_text.svg" />
 
@@ -55,7 +67,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тип: командный блок
 - Примечание: выбранный хаб должен иметь внутреннюю LED-матрицу.
 
-### `Выключить пиксели матрицы` (Начинающий) {#block_hubs_all_light_turn_off_internal_led_matrix_pixels}
+### `Выключить пиксели матрицы` (Новичок) {#block_hubs_all_light_turn_off_internal_led_matrix_pixels}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_turn_off_internal_led_matrix_pixels.svg')} alt="block_hubs_all_light_turn_off_internal_led_matrix_pixels.svg" />
 
@@ -86,7 +98,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_set_internal_led_matrix_orientation.svg')} alt="block_hubs_all_light_set_internal_led_matrix_orientation.svg" />
 
-Устанавливает ориентацию того, что отображается на внутренней LED-матрице хаба. Ориентация по умолчанию - вертикальная, а выбранная ориентация влияет на блоки Свет, выполняемые после нее.
+Устанавливает ориентацию того, что отображается на внутренней LED-матрице хаба. Ориентация по умолчанию — вертикальная, а выбранная ориентация влияет на блоки Свет, выполняемые после нее.
 
 - Тип: командный блок
 - Варианты ориентации: `вертикально`, `влево`, `вправо`, `вверх ногами`
@@ -94,7 +106,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Световые блоки датчика расстояния
 
-### `Подсветить датчик расстояния` (Начинающий) {#block_hubs_all_light_port_distance_sensor_light_up}
+### `Подсветить датчик расстояния` (Новичок) {#block_hubs_all_light_port_distance_sensor_light_up}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_light_port_distance_sensor_light_up.svg')} alt="block_hubs_all_light_port_distance_sensor_light_up.svg" />
 
@@ -105,20 +117,28 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Световые блоки BuWizz 3
 
-### `BuWizz 3: установить цвет LED` (Начинающий) {#block_hubs_buwizz3_light_port_set_led_color}
+### `BuWizz 3: установить цвет LED` (Новичок) {#block_hubs_buwizz3_light_port_set_led_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color.svg')} alt="block_hubs_buwizz3_light_port_set_led_color.svg" />
 
-Устанавливает цвет LED порта BuWizz 3.
+Устанавливает цвет LED на выбранном порту BuWizz 3 из встроенных вариантов цвета.
+
+- Тип: командный блок
 
 ### `BuWizz 3: установить цвет LED (строка)` (Гуру) {#block_hubs_buwizz3_light_port_set_led_color_string}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_string.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_string.svg" />
 
-Устанавливает цвет LED BuWizz 3 по строковому значению.
+Устанавливает цвет LED BuWizz 3 по текстовому значению цвета.
+
+- Тип: командный блок
+- Типичное применение: динамические названия цветов из переменных
 
 ### `BuWizz 3: установить цвет LED (RGB)` (Продвинутый) {#block_hubs_buwizz3_light_port_set_led_color_rgb}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz3_light_port_set_led_color_rgb.svg')} alt="block_hubs_buwizz3_light_port_set_led_color_rgb.svg" />
 
-Устанавливает цвет LED BuWizz 3 через значения RGB.
+Устанавливает цвет LED BuWizz 3 через явные значения каналов RGB.
+
+- Тип: командный блок
+- Типичное применение: полный контроль над цветом и градиенты

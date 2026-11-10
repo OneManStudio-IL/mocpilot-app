@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Командные блоки переменных
 
-### `Установить переменную в` (Начинающий) {#block_variables_set_to}
+### `Установить переменную в` (Новичок) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -31,7 +31,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Репортер значения переменной
 
-### `Значение переменной` (Начинающий) {#block_variables_value}
+### `Значение переменной` (Новичок) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

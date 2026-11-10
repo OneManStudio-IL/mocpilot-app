@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Базовые события
 
-### `Когда программа запущена` (Начинающий) {#block_event_when_program_started}
+### `Когда программа запущена` (Новичок) {#block_event_when_program_started}
 
 <img src={useBaseUrl('/img/blocks/block_event_when_program_started.svg')} alt="block_event_when_program_started.svg" />
 
@@ -67,7 +67,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## События хаба
 
-### `Кнопка хаба нажата` (Начинающий) {#block_hubs_all_event_button_pressed}
+### `Кнопка хаба нажата` (Новичок) {#block_hubs_all_event_button_pressed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_button_pressed.svg')} alt="block_hubs_all_event_button_pressed.svg" />
 
@@ -76,7 +76,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варианты состояния: `нажата`, `отпущена`, `изменилось`
 - Примечание: набор доступных кнопок может отличаться в зависимости от модели хаба.
 
-### `Подключение хаба изменилось` (Начинающий) {#block_hubs_all_event_connection_changed}
+### `Подключение хаба изменилось` (Новичок) {#block_hubs_all_event_connection_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_connection_changed.svg')} alt="block_hubs_all_event_connection_changed.svg" />
 
@@ -85,7 +85,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Триггер: изменение статуса соединения
 - Типичное применение: логика переподключения и безопасное поведение при потере связи
 
-### `Батарея хаба изменилась` (Начинающий) {#block_hubs_all_event_battery_changed}
+### `Батарея хаба изменилась` (Новичок) {#block_hubs_all_event_battery_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_battery_changed.svg')} alt="block_hubs_all_event_battery_changed.svg" />
 
@@ -100,7 +100,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 Срабатывает при изменении значений ускорения.
 
-### `Наклон хаба изменился` (Начинающий) {#block_hubs_all_event_tilt_changed}
+### `Наклон хаба изменился` (Новичок) {#block_hubs_all_event_tilt_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_changed.svg')} alt="block_hubs_all_event_tilt_changed.svg" />
 
@@ -109,7 +109,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варианты угла: `любой`, `тангаж`, `крен`, `рыскание`
 - Примечание: `рыскание` доступно только на хабах, которые предоставляют данные рыскания.
 
-### `Ориентация хаба изменилась` (Начинающий) {#block_hubs_all_event_tilt_orientation_changed}
+### `Ориентация хаба изменилась` (Новичок) {#block_hubs_all_event_tilt_orientation_changed}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_tilt_orientation_changed.svg')} alt="block_hubs_all_event_tilt_orientation_changed.svg" />
 
@@ -117,14 +117,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## События датчиков на портах
 
-### `Событие датчика цвета Technic` (Начинающий) {#block_hubs_all_event_port_technic_sensor_color}
+### `Событие датчика цвета Technic` (Новичок) {#block_hubs_all_event_port_technic_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_color.svg')} alt="block_hubs_all_event_port_technic_sensor_color.svg" />
 
 Срабатывает, когда датчик цвета Technic сообщает выбранный цвет.
 
 
-### `Событие датчика расстояния Technic` (Начинающий) {#block_hubs_all_event_port_technic_sensor_distance}
+### `Событие датчика расстояния Technic` (Новичок) {#block_hubs_all_event_port_technic_sensor_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_technic_sensor_distance.svg')} alt="block_hubs_all_event_port_technic_sensor_distance.svg" />
 
@@ -134,7 +134,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варианты единиц: `мм`, `см`, `дюйм`, `процент`
 - Примечание: доступные единицы могут зависеть от режима датчика и подключенного устройства.
 
-### `Событие датчика расстояния BOOST` (Начинающий) {#block_hubs_all_event_port_boost_sensor_when_distance}
+### `Событие датчика расстояния BOOST` (Новичок) {#block_hubs_all_event_port_boost_sensor_when_distance}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_when_distance.svg')} alt="block_hubs_all_event_port_boost_sensor_when_distance.svg" />
 
@@ -143,7 +143,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варианты сравнения: `ближе чем`, `дальше чем`, `ровно`
 - Варианты единиц: `процент`, `см`, `дюйм`
 
-### `Событие датчика цвета BOOST` (Начинающий) {#block_hubs_all_event_port_boost_sensor_color}
+### `Событие датчика цвета BOOST` (Новичок) {#block_hubs_all_event_port_boost_sensor_color}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_event_port_boost_sensor_color.svg')} alt="block_hubs_all_event_port_boost_sensor_color.svg" />
 

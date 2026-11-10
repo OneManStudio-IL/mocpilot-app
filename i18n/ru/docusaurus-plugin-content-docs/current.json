@@ -3,24 +3,44 @@
     "message": "Следующая",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Introducing": {
-    "message": "Введение",
-    "description": "The label for category 'Introducing' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.getting-started": {
+    "message": "Начало работы",
+    "description": "The label for category 'Getting started' in sidebar 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Application": {
-    "message": "Приложение",
-    "description": "The label for category 'Application' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.profiles": {
+    "message": "Профили",
+    "description": "The label for category 'Profiles' in sidebar 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.BlockBuilder": {
-    "message": "Конструктор Блоков",
-    "description": "The label for category 'BlockBuilder' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.dashboard": {
+    "message": "Панель управления",
+    "description": "The label for category 'Dashboard' in sidebar 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Blocks": {
-    "message": "Блоки",
-    "description": "The label for category 'Blocks' in sidebar 'tutorialSidebar'"
+  "sidebar.tutorialSidebar.category.themes": {
+    "message": "Темы",
+    "description": "The label for category 'Themes' in sidebar 'tutorialSidebar'"
   },
-  "sidebar.tutorialSidebar.category.Hubs": {
+  "sidebar.tutorialSidebar.category.quick-links": {
+    "message": "Быстрые связи",
+    "description": "The label for category 'Quick Links' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.logic-blocks": {
+    "message": "Логические блоки",
+    "description": "The label for category 'Logic Blocks' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.block-reference": {
+    "message": "Справочник блоков",
+    "description": "The label for category 'Block reference' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.hubs": {
     "message": "Хабы",
     "description": "The label for category 'Hubs' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.account": {
+    "message": "Аккаунт и MocPilot Pro",
+    "description": "The label for category 'Account and MocPilot Pro' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.help": {
+    "message": "Помощь",
+    "description": "The label for category 'Help' in sidebar 'tutorialSidebar'"
   }
 }

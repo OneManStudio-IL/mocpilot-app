@@ -118,7 +118,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Account and MOCPilot Pro',
+      label: 'Account and MocPilot Pro',
       key: 'account',
       items: [
         'Application/Account/UserAccount',

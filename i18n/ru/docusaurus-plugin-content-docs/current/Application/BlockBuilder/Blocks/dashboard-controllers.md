@@ -33,7 +33,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки кнопок
 
-### `Событие кнопки` (Начинающий) {#block_dashboard_controller_button_event}
+### `Событие кнопки` (Новичок) {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
@@ -43,7 +43,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Выход: запуск подключенного скрипта
 - Варианты состояния: `нажата`, `отпущена`
 
-### `Значение кнопки (boolean)` (Начинающий) {#block_dashboard_controller_button_value_boolean}
+### `Значение кнопки (boolean)` (Новичок) {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
@@ -55,7 +55,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки D-pad
 
-### `Событие D-pad` (Начинающий) {#block_dashboard_controller_dpad_event}
+### `Событие D-pad` (Новичок) {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
@@ -66,7 +66,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варианты направления: `вверх`, `вниз`, `влево`, `вправо`
 - Варианты состояния кнопки: `нажата`, `отпущена`
 
-### `Значение D-pad (boolean)` (Начинающий) {#block_dashboard_controller_dpad_value_boolean}
+### `Значение D-pad (boolean)` (Новичок) {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
@@ -79,7 +79,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки джойстика
 
-### `Событие джойстика` (Начинающий) {#block_dashboard_controller_joystick_event}
+### `Событие джойстика` (Новичок) {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
@@ -89,7 +89,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Выход: запуск подключенного скрипта
 - Варианты состояния: `вверх`, `вниз`, `влево`, `вправо`, `движение`, `отпущена`
 
-### `Значение джойстика (float)` (Начинающий) {#block_dashboard_controller_joystick_value_float}
+### `Значение джойстика (float)` (Новичок) {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
@@ -99,7 +99,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Выход: число (float)
 - Варианты оси: `ось X`, `ось Y`
 
-### `Значение джойстика (boolean)` (Начинающий) {#block_dashboard_controller_joystick_value_boolean}
+### `Значение джойстика (boolean)` (Новичок) {#block_dashboard_controller_joystick_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_boolean.svg')} alt="block_dashboard_controller_joystick_value_boolean.svg" />
 
@@ -111,7 +111,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки педалей
 
-### `Событие педалей` (Начинающий) {#block_dashboard_controller_pedals_event}
+### `Событие педалей` (Новичок) {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
@@ -122,7 +122,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варианты педали: `любой`, `тормоз`, `газ`
 - Варианты состояния: `движение`, `нажата`, `отпущена`
 
-### `Значение педалей (float)` (Начинающий) {#block_dashboard_controller_pedals_value_float}
+### `Значение педалей (float)` (Новичок) {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
@@ -131,7 +131,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тип: блок значения
 - Выход: число (float)
 
-### `Значение педалей (boolean)` (Начинающий) {#block_dashboard_controller_pedals_value_boolean}
+### `Значение педалей (boolean)` (Новичок) {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
@@ -144,7 +144,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки слайдера
 
-### `Событие слайдера` (Начинающий) {#block_dashboard_controller_slider_event}
+### `Событие слайдера` (Новичок) {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
@@ -154,7 +154,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Выход: запуск подключенного скрипта
 - Варианты состояния: `низкий`, `высокий`, `движение`, `отпущена`
 
-### `Значение слайдера (float)` (Начинающий) {#block_dashboard_controller_slider_value_float}
+### `Значение слайдера (float)` (Новичок) {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
@@ -165,7 +165,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки шагового переключателя
 
-### `Событие шагового переключателя` (Начинающий) {#block_dashboard_controller_stepper_event}
+### `Событие шагового переключателя` (Новичок) {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
@@ -176,7 +176,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варианты шага: `любой`, `сброс`, `минус`, `плюс`
 - Варианты состояния кнопки: `нажата`, `отпущена`
 
-### `Значение шагового переключателя (float)` (Начинающий) {#block_dashboard_controller_stepper_value_float}
+### `Значение шагового переключателя (float)` (Новичок) {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
@@ -187,7 +187,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки руля
 
-### `Событие руля` (Начинающий) {#block_dashboard_controller_steering_wheel_event}
+### `Событие руля` (Новичок) {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
@@ -197,7 +197,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Выход: запуск подключенного скрипта
 - Варианты состояния: `движение`, `нажата`, `отпущена`
 
-### `Значение руля (float)` (Начинающий) {#block_dashboard_controller_steering_wheel_value_float}
+### `Значение руля (float)` (Новичок) {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
@@ -206,7 +206,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тип: блок значения
 - Выход: число (float)
 
-### `Значение руля (boolean)` (Начинающий) {#block_dashboard_controller_steeringwheel_value_boolean}
+### `Значение руля (boolean)` (Новичок) {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
@@ -218,7 +218,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки переключателя
 
-### `Событие переключателя` (Начинающий) {#block_dashboard_controller_switch_event}
+### `Событие переключателя` (Новичок) {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
@@ -228,7 +228,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Выход: запуск подключенного скрипта
 - Варианты переключателя: `вкл`, `выкл`
 
-### `Значение переключателя (boolean)` (Начинающий) {#block_dashboard_controller_switch_value_boolean}
+### `Значение переключателя (boolean)` (Новичок) {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
@@ -240,7 +240,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки monitor
 
-### `Показать на мониторе` (Начинающий) {#block_dashboard_controller_monitor_show}
+### `Показать на мониторе` (Новичок) {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
@@ -249,7 +249,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тип: командный блок
 - Типичное применение: отображение уровня батареи, угла мотора, текущего устройства на порту хаба и другой рантайм-информации
 
-### `Установить значение монитора` (Начинающий) {#block_dashboard_controller_monitor_set_value}
+### `Установить значение монитора` (Новичок) {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
@@ -258,7 +258,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Тип: командный блок
 - Типичное применение: обновление значения индикатора скорости в рантайме
 
-### `Установить значение монитора наклона` (Начинающий) {#block_dashboard_controller_monitor_tilt_set_value}
+### `Установить значение монитора наклона` (Новичок) {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 

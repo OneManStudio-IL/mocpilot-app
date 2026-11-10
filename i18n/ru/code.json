@@ -598,5 +598,45 @@
   },
   "Create custom profiles to control LEGO® Powered Up, Technic, BuWizz, SBrick, Mould King, motors, sensors, and compatible Bluetooth devices from one powerful app.": {
     "message": "Создавайте собственные профили для управления LEGO® Powered Up, Technic, BuWizz, SBrick, Mould King, моторами, датчиками и совместимыми Bluetooth-устройствами из одного мощного приложения."
+  },
+  "howItWorks.profile": {
+    "message": "Профиль = одна модель",
+    "description": "How it works diagram"
+  },
+  "howItWorks.dashboard": {
+    "message": "Панель",
+    "description": "How it works diagram"
+  },
+  "howItWorks.dashboardSub": {
+    "message": "элементы управления на экране",
+    "description": "How it works diagram"
+  },
+  "howItWorks.program": {
+    "message": "Программа",
+    "description": "How it works diagram"
+  },
+  "howItWorks.programSub": {
+    "message": "Логические блоки или Быстрые связи",
+    "description": "How it works diagram"
+  },
+  "howItWorks.hubs": {
+    "message": "Хабы",
+    "description": "How it works diagram"
+  },
+  "howItWorks.hubsSub": {
+    "message": "моторы, свет, датчики",
+    "description": "How it works diagram"
+  },
+  "howItWorks.gamepad": {
+    "message": "Геймпад",
+    "description": "How it works diagram"
+  },
+  "howItWorks.play": {
+    "message": "▶ Запуск выполняет программу",
+    "description": "How it works diagram"
+  },
+  "howItWorks.bluetooth": {
+    "message": "по Bluetooth",
+    "description": "How it works diagram"
   }
 }

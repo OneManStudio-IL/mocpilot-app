@@ -10,7 +10,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Событийные блоки
 
-### `Когда кнопка геймпада` (Начинающий) {#block_gamepad_event_when_button_is}
+### `Когда кнопка геймпада` (Новичок) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -24,7 +24,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Кнопки (Sony-раскладка): `крест`, `круг`, `квадрат`, `треугольник`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Варианты состояния: `нажата`, `отпущена`
 
-### `Когда D-pad геймпада` (Начинающий) {#block_gamepad_event_when_dpad_is}
+### `Когда D-pad геймпада` (Новичок) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -34,20 +34,23 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варианты направления: `вверх`, `вниз`, `влево`, `вправо`
 - Варианты состояния: `нажата`, `отпущена`
 
-### `Когда стик геймпада` (Начинающий) {#block_gamepad_event_when_thumbstick_is}
+### `Когда стик геймпада` (Новичок) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
 Срабатывает, когда условие по стику соответствует выбранным параметрам.
 
+При текущих параметрах блок поддерживает:
+
 - Выбор стика: `влево` / `вправо`
 - Выбор направления/состояния: `вверх`, `вниз`, `влево`, `вправо`, `движение`, `отпущена`
+
 - Тип: событийный блок
 - Типичное применение: реакция на направление, движение или отпускание стика
 
 ## Блоки значений
 
-### `Значение кнопки геймпада (boolean)` (Начинающий) {#block_gamepad_button_value_boolean}
+### `Значение кнопки геймпада (boolean)` (Новичок) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -62,7 +65,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Кнопки (Sony-раскладка): `крест`, `круг`, `квадрат`, `треугольник`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - Варианты состояния: `нажата`, `отпущена`
 
-### `Значение кнопки D-pad геймпада (boolean)` (Начинающий) {#block_gamepad_dpad_button_value_boolean}
+### `Значение кнопки D-pad геймпада (boolean)` (Новичок) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -73,7 +76,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варианты направления: `вверх`, `вниз`, `влево`, `вправо`
 - Варианты состояния: `нажата`, `отпущена`
 
-### `Значение стика геймпада (float)` (Начинающий) {#block_gamepad_thumbstick_value_float}
+### `Значение стика геймпада (float)` (Новичок) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -86,7 +89,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Варианты стика: `влево`, `вправо`
 - Варианты оси: `ось X` / `ось Y`
 
-### `Значение силы нажатия триггера геймпада (float)` (Начинающий) {#block_gamepad_trigger_pressure_value_float}
+### `Значение силы нажатия триггера геймпада (float)` (Новичок) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />

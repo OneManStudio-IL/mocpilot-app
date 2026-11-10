@@ -11,7 +11,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки ожидания
 
-### `Ждать` (Начинающий) {#block_control_wait_for}
+### `Ждать` (Новичок) {#block_control_wait_for}
 
 <img src={useBaseUrl('/img/blocks/block_control_wait_for.svg')} alt="block_control_wait_for.svg" />
 
@@ -45,7 +45,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки ветвления
 
-### `Если` (Начинающий) {#block_control_if}
+### `Если` (Новичок) {#block_control_if}
 
 <img src={useBaseUrl('/img/blocks/block_control_if.svg')} alt="block_control_if.svg" />
 
@@ -65,7 +65,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Блоки остановки
 
-### `Стоп` (Начинающий) {#block_control_stop}
+### `Стоп` (Новичок) {#block_control_stop}
 
 <img src={useBaseUrl('/img/blocks/block_control_stop.svg')} alt="block_control_stop.svg" />
 
@@ -81,7 +81,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 ## Вспомогательные блоки хаба/управления
 
-### `Установить подключение` (Начинающий) {#block_hubs_control_set_connect}
+### `Установить подключение` (Новичок) {#block_hubs_control_set_connect}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_control_set_connect.svg')} alt="block_hubs_control_set_connect.svg" />
 
@@ -105,7 +105,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 - Доступно только для хабов, которые предоставляют параметры конфигурации.
 - Возвращает `NaN`, если выбранный хаб не подключен или конфигурация недоступна.
 
-### `Подключен` (Начинающий) {#block_hubs_all_sensors_is_connected}
+### `Подключен` (Новичок) {#block_hubs_all_sensors_is_connected}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_all_sensors_is_connected.svg')} alt="block_hubs_all_sensors_is_connected.svg" />
 
@@ -113,7 +113,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 - Тип: boolean-репортер
 
-### `BuWizz 2: установить режим мощности` (Начинающий) {#block_hubs_buwizz_sensors_set_power_mode}
+### `BuWizz 2: установить режим мощности` (Новичок) {#block_hubs_buwizz_sensors_set_power_mode}
 
 <img src={useBaseUrl('/img/blocks/block_hubs_buwizz_sensors_set_power_mode.svg')} alt="block_hubs_buwizz_sensors_set_power_mode.svg" />
 
