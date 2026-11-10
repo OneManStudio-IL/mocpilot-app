@@ -71,7 +71,7 @@ function NotFound() {
         >
           Go back to
         </Translate>{' '}
-        <a href="/MOCPilot-Doc/">
+        <a href="/docs/Introducing/AboutApp">
           <Translate
             id="notfound.homepageLink"
             description="Link text for the homepage"

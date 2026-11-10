@@ -1,20 +1,42 @@
 ---
 id: BlocksIntroducing
-title: Blocks Introducing
+title: Introducing Logic Blocks
+description: "Logic Blocks is the visual block programming editor of MOCPilot: events, loops, conditions, variables and sensors."
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import Screenshot from '@site/src/components/Screenshot';
 
-# Blocks Introducing
+# Logic Blocks
 
-MOCPilot uses a visual block programming system that looks and feels similar to Scratch.
-Each block has a specific role, and valid combinations define control flow and data flow through a script.
-It uses drag-and-drop logic and Scratch-like interaction patterns to provide a convenient and familiar way to build programs.
+**Logic Blocks** is the block programming editor of MOCPilot. You build programs by snapping blocks together, in a way that will feel familiar if you know Scratch: events, loops, conditions, variables, lists, your own blocks, and blocks for motors, lights, sensors, dashboard controls and the gamepad.
 
-:::warning Compatibility Notice
-This is a different block system with its own block set and behavior.
-MOCPilot programs are not compatible with Scratch projects: MOCPilot programs cannot be imported into Scratch, and Scratch programs cannot be imported into MOCPilot.
+Choose Logic Blocks when the model needs logic: robots, automatic sequences, sensor reactions, startup checks, games. For simply connecting controls to motors, [Quick Links](/docs/Application/Links/LinksIntroducing) is faster.
+
+<img src={useBaseUrl('/img/illustrations/editor_blocks.svg')} alt="Logic Blocks program" style={{width: '100%', maxWidth: 720}} />
+
+:::warning Not Scratch
+Logic Blocks has its own block set and behaviour. MOCPilot programs cannot be imported into Scratch, and Scratch projects cannot be imported into MOCPilot.
 :::
+
+## The editor at a glance
+
+<Screenshot name="blocks-editor" alt="Logic Blocks editor with palette and program" width={900} />
+
+- The **palette** lists block categories: **Events**, **Control**, **Operators**, **Variables**, **Lists**, **My Blocks**, **Sensors**, and, when your profile has them, **Motors**, **Light**, **Dashboard controllers** and **Gamepad**.
+- The **program area** is where you drag blocks and build scripts.
+- The top bar has **My Hubs**, **Dashboard**, **Gamepad**, **Monitor**, **Editor Settings**, the **AI builder** and **Play/Stop**.
+
+Details in [Working in the editor](/docs/Application/BlockBuilder/Editor).
+
+## How a program runs
+
+- A script starts with an **event** block (a hat block): *when program started*, *when button … is pressed*, *when message received*…
+- The blocks attached below run from top to bottom.
+- Several scripts run **at the same time**. Use messages (*broadcast*) to coordinate them.
+- **Loops** (*forever*, *repeat*, *repeat until*) keep a script going; **conditions** (*if*, *if / else*, *wait until*) make decisions.
+- **Reporter** blocks (round) give values and fit into inputs of other blocks; **boolean** blocks (pointed) give true/false for conditions.
+- **Variables** and **lists** keep values between blocks and scripts.
 
 ## Block shapes and meaning
 
@@ -95,58 +117,38 @@ Stacks usually start with an event block and then execute attached blocks in ord
 
 ---
 
-## Script execution model
 
-- A script usually starts from an event block.
-- Connected stack blocks run top to bottom.
-- Multiple scripts can run in parallel.
-- Message/broadcast blocks are used to synchronize scripts.
-- A block stack is a sequence of blocks connected together.
+## Hubs, ports and controls
 
-## Data and values
+- Motor and light blocks take a **hub** and **port**. The categories Motors and Light appear only when a hub in the profile supports them, and some blocks only for specific hubs (for example BuWizz power modes or Technic Move functions).
+- Dashboard blocks refer to controls by name (**JOY1**, **BTN2**). A control that is used by blocks cannot be deleted from the dashboard until its blocks are removed.
+- Gamepad blocks appear when **Enable gamepad blocks** is on in the [Gamepad page](/docs/Application/Dashboard/Gamepad).
 
-- Reporter blocks can be nested inside command/condition inputs.
-- Variables store reusable values across blocks and scripts.
-- Lists store ordered collections for history, queues, and lookup data.
+## Block levels
 
-## Events and timing
-
-- Event blocks react to user input, hub state, sensors, or messages.
-- Timer- and sensor-based events may trigger frequently.
-- Use thresholds, filtering, or short waits to reduce noisy repeated triggers.
-
-## Hub, ports, and controllers
-
-- Hub blocks target hub and port context.
-- Some blocks are available only for specific hub families/devices.
-- Dashboard and gamepad blocks provide runtime input and UI control.
+Each profile has a **block level**: **Beginner** shows the simplest blocks, **Advanced** adds common logic and device blocks, **Guru** shows the complete set. Choose it when creating the profile or in Editor Settings.
 
 ## Recommended workflow
 
-1. Start with one event block and a minimal script.
-2. Validate motor/sensor direction and ranges early.
-3. Extract repeated logic with messages and helper scripts.
-4. Add safeguards (limits, stops, fallback values) before final tuning.
+1. Start with one event block and a minimal script; press **Play** and check that it works.
+2. Check motor directions and value ranges early (use a Monitor).
+3. Split the program into small scripts that talk with messages; move repeated logic into [My Blocks](/docs/Application/BlockBuilder/Blocks/MyBlocks).
+4. Add safety: limits, stops, a startup check, what happens when a hub disconnects.
 
 ## Common pitfalls
 
-- Missing event entry block means script never starts.
-- Wrong hub/port selection causes no visible effect.
-- Mixing value types (text/number/boolean) can produce invalid logic.
-- High-frequency events without filtering can overload behavior.
+- A script without an event block never starts.
+- The wrong hub or port selected: nothing visible happens.
+- Mixing text, numbers and booleans gives unexpected results.
+- Very frequent events without filtering (for example a sensor event on every tiny change) can overload the program; use thresholds or short waits.
 
-## Documentation structure in this section
+## Block reference
 
-Use category pages in this order:
+- [Events](/docs/Application/BlockBuilder/Blocks/Events) · [Control](/docs/Application/BlockBuilder/Blocks/Control) · [Operators](/docs/Application/BlockBuilder/Blocks/Operators)
+- [Variables](/docs/Application/BlockBuilder/Blocks/Variables) · [Lists](/docs/Application/BlockBuilder/Blocks/Lists) · [My Blocks](/docs/Application/BlockBuilder/Blocks/MyBlocks)
+- [Motors](/docs/Application/BlockBuilder/Blocks/Motors) · [Light](/docs/Application/BlockBuilder/Blocks/Light) · [Sensors](/docs/Application/BlockBuilder/Blocks/Sensors)
+- [Dashboard controllers](/docs/Application/BlockBuilder/Blocks/DashboardControllers) · [Gamepad](/docs/Application/BlockBuilder/Blocks/Gamepad)
 
-- Light
-- Motors
-- Sensors
-- Events
-- Control
-- Operators
-- Variables
-- Lists
-- My Blocks
-- Dashboard controllers
-- Gamepad
+In the app, long-press (right-click) a block → **About block** opens its description here.
+
+Ready programs: [Examples](/docs/Application/BlockBuilder/Examples).

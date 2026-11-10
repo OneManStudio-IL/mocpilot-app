@@ -12,14 +12,14 @@ This category is conceptually similar to creating a function in traditional prog
 
 ## Core My Blocks
 
-### `Make a Block`
+### `Make a Block` (Guru) {#block_my_block_define}
 
 Creates a new custom block definition.
 
 - Type: definition/setup block
 - Typical use: group repeated logic into one named block
 
-### `MyBlock` (call block)
+### `MyBlock` (Guru) {#block_my_block}
 
 Calls a previously created custom block.
 

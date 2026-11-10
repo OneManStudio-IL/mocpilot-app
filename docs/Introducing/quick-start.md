@@ -1,131 +1,87 @@
 ---
 id: QuickStart
-title: Quick start tutorial
+title: Quick start
+description: "Install MOCPilot, sign in, create your first profile and drive a model in a few minutes."
 ---
 
-# Quick Start
+import Screenshot from '@site/src/components/Screenshot';
 
-This guide helps you start using MOCPilot for the first time.
+# Quick start
 
-## 1. Sign in or create an account
+This guide takes you from installing the app to driving your first model. You need a supported hub with a motor; see [supported devices](/docs/Introducing/SupportedDevices).
 
-<img src={require('@site/static/img/quick-start/sign-in.png').default} alt="Sign in screen" width="420" />
+## 1. Install the app
 
-We strongly recommend using an account.
+MOCPilot is available on the App Store (iPhone, iPad, Mac), Google Play (Android) and the Microsoft Store (Windows). Links are on [mocpilot.com](https://mocpilot.com).
 
-- With an account, your profiles and settings are synced across your devices.
-- Without an account, data stays only on the current device.
-- If you reinstall the app while using no account mode, your profiles and settings are lost.
+## 2. Sign in or continue without an account
 
-You can still use **Continue without an account**, but this is not recommended for regular use.
+On the first start the app asks you to sign in. You can sign in with email or login and password, with Google, or with Apple ID, or create a new account.
 
-## 2. Understand the main menu
+We recommend an account:
 
-<img src={require('@site/static/img/quick-start/bottom-navigation.jpeg').default} alt="Bottom navigation menu with Profiles, Settings, and Help" width="420" />
+- your profiles and settings are stored on the server and synced across your devices;
+- you can restore your data if you change or lose a device;
+- purchases and MocPilot Pro work on all your devices.
 
-The bottom navigation has 3 main sections:
+**Continue without an account** also works, but then everything stays only on this device and is lost if the app is removed. You can sign in later in **Settings → Account**. See [Account](/docs/Application/Account/UserAccount).
 
-- **Profiles**: prebuilt and personal profiles.
-- **Settings**: app options and account settings.
-- **Help**: support, feedback, and links to official resources.
+## 3. Find your way around
 
-## 3. Review important settings
+- On a **phone**, the bottom bar has **Profiles**, **Settings** and **Help**.
+- On a **tablet**, the same sections and **Account** are in the side bar.
+- On a **computer**, use the top bar: menus on the left, Account, Settings and Notifications on the right.
 
-<img src={require('@site/static/img/quick-start/settings-main.png').default} alt="Settings page" width="420" />
+See [Phone, tablet and desktop](/docs/Introducing/Layouts).
 
-In **Settings**, you can manage:
+## 4. Create a profile
 
-- Sound and vibration
-- Keep screen on
-- Language
-- Dark mode
-- Account access and sync options
+1. On the profiles page, tap **+** (phone) or choose **New Profile** (tablet and computer, or File → New Profile).
+2. Choose the **program type**:
+   - **Quick Links** if you want to drive a model with no code. Best for a first try.
+   - **Logic Blocks** if you want events, loops, conditions and sensors.
+3. Enter a **name**, optionally add a picture.
+4. Tap **Create and start build** (phone) or **Create**.
 
-## 4. Prebuilt profiles
+<Screenshot name="create-profile-tiles" alt="New Profile page with the Logic Blocks and Quick Links tiles" width={900} />
 
-<img src={require('@site/static/img/quick-start/prebuilt-profiles.png').default} alt="Prebuilt profiles" width="420" />
+The profile opens in the editor. More in [Create a profile](/docs/Application/Profiles/CreateProfile).
 
-Use **Prebuilt** profiles to:
-
-- Quickly control LEGO and other official sets.
-- Learn techniques from ready-made block code examples.
-
-:::warning Important
-Prebuilt profiles can be modified for experiments, but your changes are not saved. Each prebuilt profile is reset to its original state the next time you open it.
+:::tip Want a ready model?
+Open the **Profile Catalog** (**Search Online** on the profiles page) and install an official profile for your set. See [Catalog and publishing](/docs/Application/Profiles/Catalog).
 :::
 
-Follow this sequence for a prebuilt profile:
+## 5. Add your hub
 
-1. Open the desired prebuilt profile.
+1. In the editor, open **My Hubs**.
+2. Tap **Add a new Hub** in a free slot and choose your hub model, then **Add**.
+3. Switch the hub on, press its button and wait until MOCPilot finds it.
 
-<img src={require('@site/static/img/quick-start/prebuilt-blocks.png').default} alt="Prebuilt profile with advanced block program" width="1100" />
+<Screenshot name="my-hubs" alt="My Bluetooth Hubs page with hub slots" width={900} />
 
-2. Connect the hub.
+If the app asks for a firmware update, follow [Firmware updating](/docs/Application/Hubs/FirmwareUpdating). More in [Add and connect a hub](/docs/Application/Hubs/ConnectingHubs).
 
-<img src={require('@site/static/img/quick-start/connect-hub-flow.png').default} alt="Connect to LEGO Technic Move Hub instructions" width="1100" />
+## 6. Place controls on the dashboard
 
-<img src={require('@site/static/img/quick-start/hubs-connected.png').default} alt="Bluetooth hub connected and ready" width="1100" />
+1. Open **Dashboard**.
+2. Tap **+** (Add Controller), choose a **Joystick** and tap **Add to dashboard**.
+3. Drag it where you like. Tap it to change its size, colour or behaviour.
 
-3. Select the dashboard and press **Play**.
+See [Add and arrange controls](/docs/Application/Dashboard/ArrangingControls).
 
-<img src={require('@site/static/img/quick-start/control-screen.png').default} alt="Prebuilt profile control dashboard with steering wheel and pedals" width="1100" />
+## 7. Connect the control to a motor
 
-## 5. User-owned profiles
+**Quick Links:** drag the joystick input (for example *JOY1 Y axis*) from **Inputs** into the empty row, add the **Motor** operation and the **Hub** output from **Outputs**, then tap the port your motor is plugged into. The row is ready when it has no red frame. See [Quick Links](/docs/Application/Links/LinksIntroducing).
 
-<img src={require('@site/static/img/quick-start/my-profiles.png').default} alt="My profiles" width="420" />
+**Logic Blocks:** put a *when program started* block, a *forever* loop and a *set motor speed* block that takes the joystick value. See [Logic Blocks](/docs/Application/BlockBuilder/Blocks/BlocksIntroducing) and [examples](/docs/Application/BlockBuilder/Examples).
 
-Use **My** profiles for your own creations.
+## 8. Press Play
 
-- You can create and keep as many personal profiles as you need.
-- Launch any profile directly from this page.
+Press **Play** (▶). On a phone the dashboard opens full screen in landscape. Move the joystick: the motor turns. Press **Stop** to go back to editing.
 
-Follow this sequence for a user-owned profile:
+That's it. Next:
 
-1. Create or import a profile.
-
-<img src={require('@site/static/img/quick-start/user-create-or-import.jpg').default} alt="Create new or import profile menu" width="420" />
-
-:::info Important
-You can create a new profile or import one from your device by selecting an already created profile file (`.dat`).
-:::
-
-2. Create a new profile.
-
-<img src={require('@site/static/img/quick-start/user-create-page.png').default} alt="Create my own profile page" width="420" />
-
-Enter the desired profile name. Optionally, you can select a picture from your gallery for this profile.
-
-3. Add hubs to the profile.
-
-<img src={require('@site/static/img/quick-start/user-hubs-page.png').default} alt="My Bluetooth hubs page for user profile" width="1100" />
-
-:::info Important
-By default, up to **2 hubs** can be added to a profile. To extend the number of allowed hubs to **5**, additional hub slots should be purchased.
-:::
-
-<img src={require('@site/static/img/quick-start/user-hub-selection.png').default} alt="Hub selection page" width="1100" />
-
-<img src={require('@site/static/img/quick-start/user-hub-connecting.png').default} alt="Hub connecting screen" width="1100" />
-
-4. Open the program page and make the desired program for your model by connecting blocks.
-
-<img src={require('@site/static/img/quick-start/user-program-blocks.png').default} alt="User profile program page with connected blocks" width="1100" />
-
-5. Open dashboard to add on-screen controllers that can be connected to hub motors.
-
-<img src={require('@site/static/img/quick-start/user-dashboard-controllers.png').default} alt="User profile dashboard with controllers" width="1100" />
-
-6. Press **Play** to run the profile.
-
-You are ready to drive and iterate on your profile.
-
-## 6. Use Help when needed
-
-<img src={require('@site/static/img/quick-start/help-page.png').default} alt="Help page" width="420" />
-
-The **Help** page is the central place to:
-
-- Open the quick start tutorial
-- Ask a question
-- Report a bug
-- Open official MOCPilot links and community channels
+- Learn all [control types](/docs/Application/Dashboard/ControlTypes).
+- Make the dashboard beautiful with [themes](/docs/Application/Themes/ThemesOverview).
+- Connect a [gamepad](/docs/Application/Dashboard/Gamepad).
+- If something does not work, see [Troubleshooting](/docs/Help/Troubleshooting).

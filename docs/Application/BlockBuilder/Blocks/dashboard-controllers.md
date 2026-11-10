@@ -11,7 +11,7 @@ These blocks are used to read user input from on-screen controls, react to user 
 
 ## Global dashboard controller blocks
 
-### `Set controller color` {#block_dashboard_controller_all_set_color}
+### `Set controller color` (Advanced) {#block_dashboard_controller_all_set_color}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_color.svg')} alt="block_dashboard_controller_all_set_color.svg" />
 
@@ -20,7 +20,7 @@ Changes the visual accent color of the selected dashboard controller.
 - Type: command block
 - Typical use: indicate runtime states or dynamically change controller style based on conditions
 
-### `Set controller interactivity` {#block_dashboard_controller_all_set_interactivity}
+### `Set controller interactivity` (Advanced) {#block_dashboard_controller_all_set_interactivity}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_all_set_interactivity.svg')} alt="block_dashboard_controller_all_set_interactivity.svg" />
 
@@ -33,7 +33,7 @@ If interactivity is disabled, the controller does not react to touch input.
 
 ## Button blocks
 
-### `Button event` {#block_dashboard_controller_button_event}
+### `Button event` (Beginner) {#block_dashboard_controller_button_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_event.svg')} alt="block_dashboard_controller_button_event.svg" />
 
@@ -43,7 +43,7 @@ Triggers when the dashboard button changes state (pressed/released).
 - Output: starts connected script
 - State options: `pressed`, `released`
 
-### `Button value (boolean)` {#block_dashboard_controller_button_value_boolean}
+### `Button value (boolean)` (Beginner) {#block_dashboard_controller_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_button_value_boolean.svg')} alt="block_dashboard_controller_button_value_boolean.svg" />
 
@@ -55,7 +55,7 @@ Reports current dashboard button state.
 
 ## D-pad blocks
 
-### `D-pad event` {#block_dashboard_controller_dpad_event}
+### `D-pad event` (Beginner) {#block_dashboard_controller_dpad_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_event.svg')} alt="block_dashboard_controller_dpad_event.svg" />
 
@@ -66,7 +66,7 @@ Triggers when D-pad direction changes or matches configured direction.
 - Direction options: `up`, `down`, `left`, `right`
 - Button state options: `pressed`, `released`
 
-### `D-pad value (boolean)` {#block_dashboard_controller_dpad_value_boolean}
+### `D-pad value (boolean)` (Beginner) {#block_dashboard_controller_dpad_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_dpad_value_boolean.svg')} alt="block_dashboard_controller_dpad_value_boolean.svg" />
 
@@ -79,7 +79,7 @@ Reports whether a selected D-pad direction is active.
 
 ## Joystick blocks
 
-### `Joystick event` {#block_dashboard_controller_joystick_event}
+### `Joystick event` (Beginner) {#block_dashboard_controller_joystick_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_event.svg')} alt="block_dashboard_controller_joystick_event.svg" />
 
@@ -89,7 +89,7 @@ Triggers when joystick position changes.
 - Output: starts connected script
 - State options: `up`, `down`, `left`, `right`, `moved`, `released`
 
-### `Joystick value (float)` {#block_dashboard_controller_joystick_value_float}
+### `Joystick value (float)` (Beginner) {#block_dashboard_controller_joystick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_float.svg')} alt="block_dashboard_controller_joystick_value_float.svg" />
 
@@ -99,7 +99,7 @@ Reports joystick axis value.
 - Output: numeric (float), typically in a normalized range
 - Axis options: `x-axis`, `y-axis`
 
-### `Joystick value (boolean)` {#block_dashboard_controller_joystick_value_boolean}
+### `Joystick value (boolean)` (Beginner) {#block_dashboard_controller_joystick_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_joystick_value_boolean.svg')} alt="block_dashboard_controller_joystick_value_boolean.svg" />
 
@@ -111,7 +111,7 @@ Reports whether the selected joystick is pressed or released.
 
 ## Pedals blocks
 
-### `Pedals event` {#block_dashboard_controller_pedals_event}
+### `Pedals event` (Beginner) {#block_dashboard_controller_pedals_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_event.svg')} alt="block_dashboard_controller_pedals_event.svg" />
 
@@ -122,7 +122,7 @@ Triggers when pedal input changes.
 - Pedal options: `any`, `brake`, `acceleration`
 - State options: `moved`, `pressed`, `released`
 
-### `Pedals value (float)` {#block_dashboard_controller_pedals_value_float}
+### `Pedals value (float)` (Beginner) {#block_dashboard_controller_pedals_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_float.svg')} alt="block_dashboard_controller_pedals_value_float.svg" />
 
@@ -131,7 +131,7 @@ Reports pedal analog value.
 - Type: value block
 - Output: numeric (float)
 
-### `Pedals value (boolean)` {#block_dashboard_controller_pedals_value_boolean}
+### `Pedals value (boolean)` (Beginner) {#block_dashboard_controller_pedals_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_pedals_value_boolean.svg')} alt="block_dashboard_controller_pedals_value_boolean.svg" />
 
@@ -144,7 +144,7 @@ Returns selected state based on whether a specific pedal is pressed or released.
 
 ## Slider blocks
 
-### `Slider event` {#block_dashboard_controller_slider_event}
+### `Slider event` (Beginner) {#block_dashboard_controller_slider_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_event.svg')} alt="block_dashboard_controller_slider_event.svg" />
 
@@ -154,7 +154,7 @@ Triggers when slider value changes.
 - Output: starts connected script
 - State options: `low`, `high`, `moved`, `released`
 
-### `Slider value (float)` {#block_dashboard_controller_slider_value_float}
+### `Slider value (float)` (Beginner) {#block_dashboard_controller_slider_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_slider_value_float.svg')} alt="block_dashboard_controller_slider_value_float.svg" />
 
@@ -165,7 +165,7 @@ Reports current slider value.
 
 ## Stepper blocks
 
-### `Stepper event` {#block_dashboard_controller_stepper_event}
+### `Stepper event` (Beginner) {#block_dashboard_controller_stepper_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_event.svg')} alt="block_dashboard_controller_stepper_event.svg" />
 
@@ -176,7 +176,7 @@ Triggers when stepper value changes by a step.
 - Step options: `any`, `reset`, `minus`, `plus`
 - Button state options: `pressed`, `released`
 
-### `Stepper value (float)` {#block_dashboard_controller_stepper_value_float}
+### `Stepper value (float)` (Beginner) {#block_dashboard_controller_stepper_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_stepper_value_float.svg')} alt="block_dashboard_controller_stepper_value_float.svg" />
 
@@ -187,7 +187,7 @@ Reports current stepper value.
 
 ## Steering wheel blocks
 
-### `Steering wheel event` {#block_dashboard_controller_steering_wheel_event}
+### `Steering wheel event` (Beginner) {#block_dashboard_controller_steering_wheel_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_event.svg')} alt="block_dashboard_controller_steering_wheel_event.svg" />
 
@@ -197,7 +197,7 @@ Triggers when steering wheel position changes.
 - Output: starts connected script
 - State options: `moved`, `pressed`, `released`
 
-### `Steering wheel value (float)` {#block_dashboard_controller_steering_wheel_value_float}
+### `Steering wheel value (float)` (Beginner) {#block_dashboard_controller_steering_wheel_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steering_wheel_value_float.svg')} alt="block_dashboard_controller_steering_wheel_value_float.svg" />
 
@@ -206,7 +206,7 @@ Reports current steering wheel value.
 - Type: value block
 - Output: numeric (float)
 
-### `Steering wheel value (boolean)` {#block_dashboard_controller_steeringwheel_value_boolean}
+### `Steering wheel value (boolean)` (Beginner) {#block_dashboard_controller_steeringwheel_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_steeringwheel_value_boolean.svg')} alt="block_dashboard_controller_steeringwheel_value_boolean.svg" />
 
@@ -218,7 +218,7 @@ Returns selected state based on whether the steering wheel is pressed or release
 
 ## Switch blocks
 
-### `Switch event` {#block_dashboard_controller_switch_event}
+### `Switch event` (Beginner) {#block_dashboard_controller_switch_event}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_event.svg')} alt="block_dashboard_controller_switch_event.svg" />
 
@@ -228,7 +228,7 @@ Triggers when switch state changes.
 - Output: starts connected script
 - Toggle options: `on`, `off`
 
-### `Switch value (boolean)` {#block_dashboard_controller_switch_value_boolean}
+### `Switch value (boolean)` (Beginner) {#block_dashboard_controller_switch_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_switch_value_boolean.svg')} alt="block_dashboard_controller_switch_value_boolean.svg" />
 
@@ -240,7 +240,7 @@ Reports current switch state.
 
 ## Monitor blocks
 
-### `Monitor show` {#block_dashboard_controller_monitor_show}
+### `Monitor show` (Beginner) {#block_dashboard_controller_monitor_show}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_show.svg')} alt="block_dashboard_controller_monitor_show.svg" />
 
@@ -249,7 +249,7 @@ Displays information (text or value) on the dashboard monitor.
 - Type: command block
 - Typical use: show battery level, motor angle, current connected device on a hub port, and similar runtime info
 
-### `Monitor set value` {#block_dashboard_controller_monitor_set_value}
+### `Monitor set value` (Beginner) {#block_dashboard_controller_monitor_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_set_value.svg')} alt="block_dashboard_controller_monitor_set_value.svg" />
 
@@ -258,7 +258,7 @@ Sets integer value for a dashboard speedometer monitor.
 - Type: command block
 - Typical use: update speedometer-like monitor value in runtime
 
-### `Monitor tilt set value` {#block_dashboard_controller_monitor_tilt_set_value}
+### `Monitor tilt set value` (Beginner) {#block_dashboard_controller_monitor_tilt_set_value}
 
 <img src={useBaseUrl('/img/blocks/block_dashboard_controller_monitor_tilt_set_value.svg')} alt="block_dashboard_controller_monitor_tilt_set_value.svg" />
 

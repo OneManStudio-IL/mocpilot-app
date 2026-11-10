@@ -11,7 +11,7 @@ Variables store values that can be read and updated across block stacks and scri
 
 ## Variable command blocks
 
-### `Set variable to` {#block_variables_set_to}
+### `Set variable to` (Beginner) {#block_variables_set_to}
 
 <img src={useBaseUrl('/img/blocks/block_variables_set_to.svg')} alt="block_variables_set_to.svg" />
 
@@ -20,7 +20,7 @@ Sets selected variable to the specified value.
 - Type: command block
 - Typical use: initialize state, overwrite previous value
 
-### `Change variable by` {#block_variables_change_by}
+### `Change variable by` (Advanced) {#block_variables_change_by}
 
 <img src={useBaseUrl('/img/blocks/block_variables_change_by.svg')} alt="block_variables_change_by.svg" />
 
@@ -30,6 +30,8 @@ Adds the specified amount to selected variable.
 - Typical use: counters, score, accumulated distance/time
 
 ## Variable value reporter
+
+### `Variable value` (Beginner) {#block_variables_value}
 
 <img src={useBaseUrl('/img/blocks/variable.svg')} alt="variable.svg" />
 

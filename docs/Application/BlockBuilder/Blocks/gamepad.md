@@ -10,7 +10,7 @@ Gamepad blocks are used to react to controller input and read current gamepad st
 
 ## Event blocks
 
-### `When gamepad button is` {#block_gamepad_event_when_button_is}
+### `When gamepad button is` (Beginner) {#block_gamepad_event_when_button_is}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_button_is.svg')} alt="block_gamepad_event_when_button_is.svg" />
@@ -24,7 +24,7 @@ Triggers when the selected gamepad button matches the configured state.
 - Button options (Sony layout): `cross`, `circle`, `square`, `triangle`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - State options: `pressed`, `released`
 
-### `When gamepad D-pad is` {#block_gamepad_event_when_dpad_is}
+### `When gamepad D-pad is` (Beginner) {#block_gamepad_event_when_dpad_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_dpad_is.svg')} alt="block_gamepad_event_when_dpad_is.svg" />
 
@@ -34,7 +34,7 @@ Triggers when D-pad direction/state matches the selected condition.
 - Direction options: `up`, `down`, `left`, `right`
 - State options: `pressed`, `released`
 
-### `When gamepad thumbstick is` {#block_gamepad_event_when_thumbstick_is}
+### `When gamepad thumbstick is` (Beginner) {#block_gamepad_event_when_thumbstick_is}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_event_when_thumbstick_is.svg')} alt="block_gamepad_event_when_thumbstick_is.svg" />
 
@@ -50,7 +50,7 @@ Based on current options, this block supports:
 
 ## Value blocks
 
-### `Gamepad button value (boolean)` {#block_gamepad_button_value_boolean}
+### `Gamepad button value (boolean)` (Beginner) {#block_gamepad_button_value_boolean}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_button_value_boolean.svg')} alt="block_gamepad_button_value_boolean.svg" />
@@ -65,7 +65,7 @@ Returns current state of selected gamepad button.
 - Button options (Sony layout): `cross`, `circle`, `square`, `triangle`, `L1`, `R1`, `L2`, `R2`, `L3`, `R3`
 - State options: `pressed`, `released`
 
-### `Gamepad D-pad button value (boolean)` {#block_gamepad_dpad_button_value_boolean}
+### `Gamepad D-pad button value (boolean)` (Beginner) {#block_gamepad_dpad_button_value_boolean}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_dpad_button_value_boolean.svg')} alt="block_gamepad_dpad_button_value_boolean.svg" />
 
@@ -76,7 +76,7 @@ Returns whether selected D-pad direction is currently active.
 - Direction options: `up`, `down`, `left`, `right`
 - State options: `pressed`, `released`
 
-### `Gamepad thumbstick value (float)` {#block_gamepad_thumbstick_value_float}
+### `Gamepad thumbstick value (float)` (Beginner) {#block_gamepad_thumbstick_value_float}
 
 <img src={useBaseUrl('/img/blocks/block_gamepad_thumbstick_value_float.svg')} alt="block_gamepad_thumbstick_value_float.svg" />
 
@@ -89,7 +89,7 @@ Returns numeric thumbstick axis value.
 - Stick options: `left`, `right`
 - Axis options: `x-axis` / `y-axis`
 
-### `Gamepad trigger pressure value (float)` {#block_gamepad_trigger_pressure_value_float}
+### `Gamepad trigger pressure value (float)` (Beginner) {#block_gamepad_trigger_pressure_value_float}
 
 <div style={{display: 'flex', gap: '16px', alignItems: 'center', flexWrap: 'wrap', marginBottom: '8px'}}>
   <img src={useBaseUrl('/img/blocks/block_gamepad_trigger_pressure_value_float.svg')} alt="block_gamepad_trigger_pressure_value_float.svg" />
